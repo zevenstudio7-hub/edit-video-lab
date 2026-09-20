@@ -7,6 +7,7 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "render": "remotion render GeminiVideoLab out/gemini-video-lab.mp4",
+    "render:showcase": "remotion render LibraryShowcase out/library-showcase.mp4",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
