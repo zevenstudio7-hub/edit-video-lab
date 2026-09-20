@@ -7,7 +7,6 @@ import {
   FocusHighlight,
   HighlightWord,
   KineticText,
-  MediaFrame,
   PictureInPicture,
   SceneTransition,
   ScreenFrame,
