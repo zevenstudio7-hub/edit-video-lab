@@ -32,6 +32,8 @@ export interface PresetTheme {
     fontFamily: string;
     headingFontFamily: string;
     monoFontFamily: string;
+    serifFontFamily?: string;
+    useSerifHeading?: boolean;
     letterSpacing: string;
     titleLetterSpacing: string;
   };
@@ -52,4 +54,11 @@ export interface PresetTheme {
     };
     staggerFrames: number;
   };
+}
+
+export interface PresetOverrides {
+  accentColor?: string;
+  accentSecondary?: string;
+  useSerifHeading?: boolean;
+  background?: string;
 }

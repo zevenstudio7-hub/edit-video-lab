@@ -7,7 +7,6 @@ import {
   FocusHighlight,
   HighlightWord,
   KineticText,
-  MediaFrame,
   PictureInPicture,
   SceneTransition,
   ScreenFrame,
@@ -18,46 +17,45 @@ import { SAFE_AREAS } from "../lib/tokens";
 import { PresetProvider, usePresetTheme } from "../presets";
 import "../styles/global.css";
 
-// Helper para el indicador de preset en la parte superior
+// Indicador discreto de preset en la parte superior
 const PresetBadge: React.FC<{ label: string; number: string }> = ({ label, number }) => {
   const theme = usePresetTheme();
   return (
     <div
       style={{
         position: "absolute",
-        top: `${SAFE_AREAS.top - 50}px`,
+        top: `${SAFE_AREAS.top - 60}px`,
         left: "50%",
         transform: "translateX(-50%)",
         display: "flex",
         alignItems: "center",
         gap: "10px",
-        padding: "6px 20px",
+        padding: "6px 18px",
         borderRadius: "9999px",
-        backgroundColor: theme.colors.surfaceElevated,
-        border: `1px solid ${theme.colors.surfaceBorder}`,
-        backdropFilter: "blur(12px)",
+        backgroundColor: "rgba(255, 255, 255, 0.06)",
+        border: "1px solid rgba(255, 255, 255, 0.1)",
         zIndex: 50,
       }}
     >
       <span
         style={{
           color: theme.colors.accent,
-          fontFamily: theme.typography.monoFontFamily,
-          fontSize: "14px",
-          fontWeight: 800,
-          letterSpacing: "0.08em",
+          fontFamily: theme.typography.fontFamily,
+          fontSize: "13px",
+          fontWeight: 700,
+          letterSpacing: "0.06em",
         }}
       >
         {number}
       </span>
-      <span style={{ color: theme.colors.textMuted, fontSize: "14px" }}>•</span>
+      <span style={{ color: "rgba(255, 255, 255, 0.3)", fontSize: "12px" }}>•</span>
       <span
         style={{
-          color: theme.colors.textSecondary,
+          color: "rgba(255, 255, 255, 0.75)",
           fontFamily: theme.typography.fontFamily,
-          fontSize: "14px",
+          fontSize: "13px",
           fontWeight: 600,
-          letterSpacing: "0.06em",
+          letterSpacing: "0.04em",
           textTransform: "uppercase",
         }}
       >
@@ -69,7 +67,8 @@ const PresetBadge: React.FC<{ label: string; number: string }> = ({ label, numbe
 
 // ==========================================
 // SCENE 1: Editorial-Dynamic
-// Demuestra: SoftZoom, BigStatement, HighlightWord, KineticText, SceneTransition
+// LIB-002: Colores neutros; el color de énfasis proviene del proyecto/video.
+// Demuestra: SoftZoom, BigStatement, HighlightWord, KineticText
 // ==========================================
 const SceneEditorialDynamic: React.FC = () => {
   const theme = usePresetTheme();
@@ -78,7 +77,7 @@ const SceneEditorialDynamic: React.FC = () => {
     <SceneTransition type="zoom" timing="both" durationInFrames={15} totalSceneFrames={90}>
       <AbsoluteFill
         style={{
-          background: theme.colors.backgroundGradient || theme.colors.background,
+          backgroundColor: theme.colors.background,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -87,7 +86,7 @@ const SceneEditorialDynamic: React.FC = () => {
       >
         <PresetBadge number="PRESET 01" label="editorial-dynamic" />
 
-        <SoftZoom fromScale={1.0} toScale={1.08} durationInFrames={90}>
+        <SoftZoom fromScale={1.0} toScale={1.06} durationInFrames={90}>
           <div
             style={{
               width: "100%",
@@ -96,28 +95,15 @@ const SceneEditorialDynamic: React.FC = () => {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              position: "relative",
+              padding: "0 40px",
             }}
           >
-            {/* Background ambient glow */}
-            <div
-              style={{
-                position: "absolute",
-                width: "800px",
-                height: "800px",
-                borderRadius: "50%",
-                background: "radial-gradient(circle, rgba(56, 189, 248, 0.22) 0%, transparent 70%)",
-                filter: "blur(80px)",
-                pointerEvents: "none",
-              }}
-            />
-
             <BigStatement
               kicker="Gemini Video Lab"
               statement="CONSTRUYE VIDEOS CON IA"
               highlightWords={["VIDEOS", "IA"]}
               highlightVariant="pill"
-              fontSize={74}
+              fontSize={76}
             />
 
             <div style={{ marginTop: "44px", maxWidth: "800px" }}>
@@ -125,7 +111,7 @@ const SceneEditorialDynamic: React.FC = () => {
                 text="Composición modular y determinística con Remotion"
                 animation="slide-up"
                 fontSize={34}
-                delayFrames={14}
+                delayFrames={12}
                 color={theme.colors.textSecondary}
               />
             </div>
@@ -138,25 +124,26 @@ const SceneEditorialDynamic: React.FC = () => {
 
 // ==========================================
 // SCENE 2: Kinetic-Infographic
-// Demuestra: SpeakerCard, DynamicCaptions (dynamic karaoke mode), HighlightWord (box)
+// LIB-002: Lenguaje social/editorial, tipografía moderna (no terminal/hacker),
+// texto, formas y recortes como protagonistas.
 // ==========================================
 const SceneKineticInfographic: React.FC = () => {
   const theme = usePresetTheme();
 
   const captionWords = [
-    { text: "GEMINI", startFrame: 10, endFrame: 22, isHighlight: true },
-    { text: "ANALIZA", startFrame: 23, endFrame: 35 },
-    { text: "EL", startFrame: 36, endFrame: 44 },
-    { text: "CONTENIDO", startFrame: 45, endFrame: 60 },
-    { text: "Y", startFrame: 61, endFrame: 68 },
-    { text: "REMOTION", startFrame: 69, endFrame: 84, isHighlight: true },
+    { text: "ESTRATEGIA", startFrame: 10, endFrame: 22, isHighlight: true },
+    { text: "GUIADA", startFrame: 23, endFrame: 34 },
+    { text: "POR", startFrame: 35, endFrame: 42 },
+    { text: "MODELOS", startFrame: 43, endFrame: 56 },
+    { text: "Y", startFrame: 57, endFrame: 64 },
+    { text: "REMOTION", startFrame: 65, endFrame: 84, isHighlight: true },
   ];
 
   return (
     <SceneTransition type="slide-left" timing="both" durationInFrames={15} totalSceneFrames={90}>
       <AbsoluteFill
         style={{
-          background: theme.colors.backgroundGradient || theme.colors.background,
+          backgroundColor: theme.colors.background,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -165,62 +152,106 @@ const SceneKineticInfographic: React.FC = () => {
       >
         <PresetBadge number="PRESET 02" label="kinetic-infographic" />
 
-        {/* Lower third SpeakerCard */}
+        {/* Lower third SpeakerCard con estilo social/editorial */}
         <SpeakerCard
           name="Yei Rodríguez"
-          role="Creative Technologist"
+          role="Creative Director"
           handle="@zevenstudio"
           position="bottom-left"
-          entryFrame={5}
+          entryFrame={6}
         />
 
-        {/* Infographic tech stats / card */}
+        {/* Tarjeta de impacto editorial con formas y datos protagonistas */}
         <div
           style={{
             maxWidth: `${SAFE_AREAS.safeWidth}px`,
             width: "90%",
             backgroundColor: theme.colors.surfaceElevated,
-            border: `2px solid ${theme.colors.surfaceBorder}`,
+            border: `1.5px solid ${theme.colors.surfaceBorder}`,
             borderRadius: `${theme.styling.cardRadius}px`,
             padding: "48px 40px",
             boxShadow: theme.styling.shadow,
             display: "flex",
             flexDirection: "column",
-            gap: "24px",
-            marginBottom: "120px",
+            gap: "28px",
+            marginBottom: "130px",
           }}
         >
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span
               style={{
-                fontFamily: theme.typography.monoFontFamily,
+                fontFamily: theme.typography.headingFontFamily,
                 color: theme.colors.accent,
-                fontSize: "18px",
-                fontWeight: 700,
+                fontSize: "16px",
+                fontWeight: 800,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
               }}
             >
-              [SYSTEM_PIPELINE]
+              SISTEMA REUTILIZABLE
             </span>
-            <HighlightWord variant="box" color={theme.colors.accent}>
-              100% REPRODUCIBLE
+            <HighlightWord variant="pill" color={theme.colors.accent} textColor="#000000">
+              FASE 01
             </HighlightWord>
           </div>
 
           <h2
             style={{
               fontFamily: theme.typography.headingFontFamily,
-              fontSize: "48px",
-              fontWeight: 800,
-              lineHeight: 1.15,
+              fontSize: "52px",
+              fontWeight: 900,
+              lineHeight: 1.1,
+              letterSpacing: "-0.02em",
               color: "#ffffff",
               margin: 0,
             }}
           >
-            Edición inteligente guiada por modelos multimodales
+            El contenido del usuario conduce la narrativa
           </h2>
+
+          {/* Formas gráficas limpias (recortes de datos visuales) */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "14px" }}>
+            {[
+              { label: "Componentes", val: "12" },
+              { label: "Presets", val: "5" },
+              { label: "Resolución", val: "9:16" },
+            ].map((stat, idx) => (
+              <div
+                key={idx}
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.04)",
+                  border: "1px solid rgba(255, 255, 255, 0.08)",
+                  borderRadius: "14px",
+                  padding: "16px",
+                  textAlign: "center",
+                }}
+              >
+                <div
+                  style={{
+                    color: theme.colors.accent,
+                    fontSize: "32px",
+                    fontWeight: 900,
+                    fontFamily: theme.typography.headingFontFamily,
+                  }}
+                >
+                  {stat.val}
+                </div>
+                <div
+                  style={{
+                    color: theme.colors.textMuted,
+                    fontSize: "14px",
+                    fontWeight: 600,
+                    marginTop: "4px",
+                  }}
+                >
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Dynamic Captions in karaoke mode */}
+        {/* Dynamic Captions con ritmo social/editorial */}
         <DynamicCaptions words={captionWords} mode="dynamic" position="bottom" />
       </AbsoluteFill>
     </SceneTransition>
@@ -229,14 +260,15 @@ const SceneKineticInfographic: React.FC = () => {
 
 // ==========================================
 // SCENE 3: Screen-Tutorial
-// Demuestra: ScreenFrame, FocusHighlight, DynamicCaptions (editorial mode)
+// LIB-002: Conservar estructura (ScreenFrame, FocusHighlight, captions)
+// pero evitar apariencia excesivamente "developer" con interfaz SaaS moderna.
 // ==========================================
 const SceneScreenTutorial: React.FC = () => {
   const theme = usePresetTheme();
 
-  const editorialWords = [
+  const tutorialCaptions = [
     { text: "Enfoca", startFrame: 5, endFrame: 22 },
-    { text: "elementos", startFrame: 23, endFrame: 40 },
+    { text: "acciones", startFrame: 23, endFrame: 40 },
     { text: "clave", startFrame: 41, endFrame: 58 },
     { text: "automáticamente", startFrame: 59, endFrame: 85 },
   ];
@@ -245,7 +277,7 @@ const SceneScreenTutorial: React.FC = () => {
     <SceneTransition type="slide-up" timing="both" durationInFrames={15} totalSceneFrames={90}>
       <AbsoluteFill
         style={{
-          background: theme.colors.backgroundGradient || theme.colors.background,
+          backgroundColor: theme.colors.background,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -258,58 +290,76 @@ const SceneScreenTutorial: React.FC = () => {
         <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "-60px" }}>
           <ScreenFrame
             type="browser"
-            url="gemini-video-lab.internal/editor"
+            url="app.geminivideolab.com/project/01"
             aspectRatio="16/9"
             width={880}
             entryFrame={0}
           >
-            {/* Simulated app interface inside ScreenFrame */}
+            {/* Interfaz de software / producto digital moderno (estilo SaaS limpio, no terminal hacker) */}
             <div
               style={{
                 width: "100%",
                 height: "100%",
-                backgroundColor: "#0b101b",
-                padding: "28px",
+                backgroundColor: "#0d1117",
+                padding: "26px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "20px",
+                gap: "18px",
               }}
             >
+              {/* Barra superior de app */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                  <span style={{ fontSize: "20px" }}>⚡</span>
+                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                  <div
+                    style={{
+                      width: "32px",
+                      height: "32px",
+                      borderRadius: "8px",
+                      backgroundColor: theme.colors.accent,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "#ffffff",
+                      fontWeight: 800,
+                      fontSize: "16px",
+                    }}
+                  >
+                    G
+                  </div>
                   <span
                     style={{
                       fontFamily: theme.typography.headingFontFamily,
                       color: "#ffffff",
-                      fontSize: "20px",
+                      fontSize: "18px",
                       fontWeight: 700,
                     }}
                   >
-                    Gemini Auto-Cuts Engine
+                    Editor de Tomas Inteligente
                   </span>
                 </div>
-                <span
-                  style={{
-                    backgroundColor: "rgba(16, 185, 129, 0.2)",
-                    color: "#10b981",
-                    padding: "4px 12px",
-                    borderRadius: "6px",
-                    fontSize: "14px",
-                    fontWeight: 700,
-                  }}
-                >
-                  ACTIVE
-                </span>
+
+                <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                  <span
+                    style={{
+                      backgroundColor: "rgba(59, 130, 246, 0.15)",
+                      color: "#60a5fa",
+                      padding: "4px 12px",
+                      borderRadius: "6px",
+                      fontSize: "13px",
+                      fontWeight: 700,
+                    }}
+                  >
+                    Proyecto Activo
+                  </span>
+                </div>
               </div>
 
-              {/* Target highlighted box */}
+              {/* Panel de control de edición (elemento objetivo para highlight) */}
               <div
-                id="target-pipeline-box"
                 style={{
-                  backgroundColor: "rgba(30, 41, 59, 0.8)",
-                  border: "1px solid rgba(51, 65, 85, 0.6)",
-                  borderRadius: "12px",
+                  backgroundColor: "#161b22",
+                  border: "1px solid rgba(255, 255, 255, 0.1)",
+                  borderRadius: "14px",
                   padding: "20px 24px",
                   display: "flex",
                   alignItems: "center",
@@ -317,64 +367,66 @@ const SceneScreenTutorial: React.FC = () => {
                 }}
               >
                 <div>
-                  <div style={{ color: "#ffffff", fontSize: "18px", fontWeight: 700 }}>
-                    Análisis de tomas & silencias
+                  <div style={{ color: "#ffffff", fontSize: "17px", fontWeight: 700 }}>
+                    Generar Cortes y Overlays
                   </div>
-                  <div style={{ color: "#94a3b8", fontSize: "14px" }}>
-                    Cortes limpios basados en semántica del audio
+                  <div style={{ color: "#8b949e", fontSize: "13px", marginTop: "2px" }}>
+                    Ajuste automático de ritmo según el guion del usuario
                   </div>
                 </div>
                 <div
                   style={{
-                    backgroundColor: "#10b981",
-                    color: "#052e16",
-                    padding: "8px 16px",
+                    backgroundColor: theme.colors.accent,
+                    color: "#ffffff",
+                    padding: "8px 18px",
                     borderRadius: "8px",
                     fontSize: "14px",
-                    fontWeight: 800,
+                    fontWeight: 700,
                   }}
                 >
-                  OPTIMIZAR
+                  Procesar Video
                 </div>
               </div>
 
-              {/* Timeline preview bar */}
+              {/* Pista de timeline con bloques limpios */}
               <div
                 style={{
-                  height: "36px",
-                  backgroundColor: "rgba(15, 23, 42, 0.6)",
-                  borderRadius: "8px",
-                  border: "1px dashed rgba(51, 65, 85, 0.8)",
+                  height: "44px",
+                  backgroundColor: "#161b22",
+                  borderRadius: "10px",
+                  border: "1px solid rgba(255, 255, 255, 0.08)",
                   display: "flex",
                   alignItems: "center",
-                  padding: "0 14px",
+                  padding: "0 12px",
                   gap: "10px",
                 }}
               >
-                <div style={{ width: "35%", height: "16px", backgroundColor: "#38bdf8", borderRadius: "4px" }} />
-                <div style={{ width: "25%", height: "16px", backgroundColor: "#10b981", borderRadius: "4px" }} />
-                <div style={{ width: "30%", height: "16px", backgroundColor: "#a855f7", borderRadius: "4px" }} />
+                <div style={{ width: "25%", height: "24px", backgroundColor: "#2563eb", borderRadius: "6px" }} />
+                <div style={{ width: "35%", height: "24px", backgroundColor: "#3b82f6", borderRadius: "6px" }} />
+                <div style={{ width: "20%", height: "24px", backgroundColor: "#60a5fa", borderRadius: "6px" }} />
+                <div style={{ width: "15%", height: "24px", backgroundColor: "#93c5fd", borderRadius: "6px" }} />
               </div>
             </div>
           </ScreenFrame>
         </div>
 
-        {/* Focus Highlight halo over the target pipeline box */}
+        {/* Focus Highlight enfocado en el botón de procesamiento */}
         <FocusHighlight
           target={{
             x: 140,
             y: 770,
             width: 800,
-            height: 120,
-            borderRadius: 16,
+            height: 110,
+            borderRadius: 14,
           }}
           dimOpacity={0.4}
           pulse={true}
-          entryFrame={20}
+          entryFrame={18}
+          color={theme.colors.accent}
         />
 
-        {/* Editorial Captions */}
-        <DynamicCaptions words={editorialWords} mode="editorial" position="bottom" />
+        {/* Dynamic Captions editoriales */}
+        <DynamicCaptions words={tutorialCaptions} mode="editorial" position="bottom" />
       </AbsoluteFill>
     </SceneTransition>
   );
@@ -382,24 +434,24 @@ const SceneScreenTutorial: React.FC = () => {
 
 // ==========================================
 // SCENE 4: Organic-iPhone-Demo
-// Demuestra: MediaFrame, PictureInPicture, DynamicCaptions (simple mode)
+// LIB-002: Eliminar glassmorphism y gradientes llamativos; subtítulos discretos;
+// cero elementos que compitan con lo mostrado; mantener apariencia natural de video iPhone.
 // ==========================================
 const SceneOrganicIphoneDemo: React.FC = () => {
-  const theme = usePresetTheme();
-
-  const simpleWords = [
-    { text: "Integra", startFrame: 5, endFrame: 22 },
-    { text: "B-Roll", startFrame: 23, endFrame: 40 },
-    { text: "y", startFrame: 41, endFrame: 48 },
-    { text: "cámara", startFrame: 49, endFrame: 66 },
-    { text: "secundaria", startFrame: 67, endFrame: 85 },
+  const discreteCaptions = [
+    { text: "Video", startFrame: 5, endFrame: 22 },
+    { text: "grabado", startFrame: 23, endFrame: 40 },
+    { text: "con", startFrame: 41, endFrame: 48 },
+    { text: "iPhone,", startFrame: 49, endFrame: 66 },
+    { text: "100%", startFrame: 67, endFrame: 74 },
+    { text: "auténtico", startFrame: 75, endFrame: 86 },
   ];
 
   return (
     <SceneTransition type="fade" timing="both" durationInFrames={15} totalSceneFrames={90}>
       <AbsoluteFill
         style={{
-          background: theme.colors.backgroundGradient || theme.colors.background,
+          backgroundColor: "#000000",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -408,103 +460,144 @@ const SceneOrganicIphoneDemo: React.FC = () => {
       >
         <PresetBadge number="PRESET 04" label="organic-iphone-demo" />
 
-        {/* Media Frame con simulación de B-Roll */}
-        <div style={{ marginTop: "-80px" }}>
-          <MediaFrame
-            aspectRatio="16/9"
-            width={880}
-            title="B-ROLL AUTOMATIZADO"
-            caption="Enriquecimiento visual generado dinámicamente con Remotion"
-            glow={true}
+        {/* Toma natural simulada de video iPhone: encuadre limpio sin bordes de fantasía ni neón */}
+        <div
+          style={{
+            width: "880px",
+            aspectRatio: "16 / 9",
+            backgroundColor: "#121214",
+            borderRadius: "20px",
+            overflow: "hidden",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            position: "relative",
+            border: "1px solid rgba(255, 255, 255, 0.08)",
+            marginTop: "-80px",
+          }}
+        >
+          {/* Simulación sobria de toma de cámara de smartphone */}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "12px",
+              color: "#a1a1aa",
+            }}
           >
             <div
               style={{
-                width: "100%",
-                height: "100%",
-                background: "linear-gradient(135deg, #2e1065 0%, #1e1b4b 60%, #030712 100%)",
+                width: "64px",
+                height: "64px",
+                borderRadius: "50%",
+                backgroundColor: "rgba(255, 255, 255, 0.08)",
                 display: "flex",
-                flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                gap: "14px",
-                position: "relative",
+                fontSize: "26px",
+                color: "#ffffff",
               }}
             >
-              <div
-                style={{
-                  width: "72px",
-                  height: "72px",
-                  borderRadius: "50%",
-                  backgroundColor: "rgba(168, 85, 247, 0.3)",
-                  border: "2px solid #c084fc",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  boxShadow: "0 0 24px rgba(192, 132, 252, 0.6)",
-                }}
-              >
-                <span style={{ fontSize: "32px" }}>▶</span>
-              </div>
-
-              <span
-                style={{
-                  color: "#e9d5ff",
-                  fontFamily: theme.typography.monoFontFamily,
-                  fontSize: "16px",
-                  letterSpacing: "0.1em",
-                }}
-              >
-                PRODUCCIÓN B-ROLL • 4K
-              </span>
+              📹
             </div>
-          </MediaFrame>
+            <span
+              style={{
+                fontSize: "18px",
+                fontWeight: 600,
+                color: "#ffffff",
+                letterSpacing: "-0.01em",
+              }}
+            >
+              Toma directa de usuario
+            </span>
+            <span style={{ fontSize: "14px", color: "#71717a" }}>
+              4K 30 FPS • Micrófono integrado
+            </span>
+          </div>
+
+          {/* Indicador discreto de cámara de iPhone en esquina superior derecha */}
+          <div
+            style={{
+              position: "absolute",
+              top: "16px",
+              right: "20px",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: "#ffffff",
+              fontSize: "12px",
+              fontWeight: 600,
+            }}
+          >
+            <span
+              style={{
+                width: "8px",
+                height: "8px",
+                borderRadius: "50%",
+                backgroundColor: "#ef4444",
+              }}
+            />
+            00:14
+          </div>
         </div>
 
-        {/* Picture-in-Picture window for speaker */}
+        {/* Ventana PiP discreta y sin bordes llamativos */}
         <PictureInPicture
           position="bottom-right"
-          width={300}
+          width={280}
           aspectRatio="9/16"
-          label="Speaker Cam"
-          badge="REC"
+          label="Cámara frontal"
+          badge=""
           entryFrame={10}
+          style={{
+            border: "1px solid rgba(255, 255, 255, 0.15)",
+            boxShadow: "0 10px 30px rgba(0, 0, 0, 0.5)",
+            borderRadius: "16px",
+          }}
         >
           <div
             style={{
               width: "100%",
               height: "100%",
-              background: "linear-gradient(180deg, #18181b 0%, #09090b 100%)",
+              backgroundColor: "#18181b",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              gap: "12px",
+              gap: "8px",
             }}
           >
             <div
               style={{
-                width: "70px",
-                height: "70px",
+                width: "56px",
+                height: "56px",
                 borderRadius: "50%",
-                background: "radial-gradient(circle, #a855f7 0%, #6b21a8 100%)",
+                backgroundColor: "#27272a",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "28px",
-                fontWeight: 800,
-                color: "#ffffff",
+                color: "#f4f4f5",
+                fontSize: "20px",
+                fontWeight: 700,
               }}
             >
               YR
             </div>
-            <span style={{ color: "#a1a1aa", fontSize: "14px", fontWeight: 600 }}>
+            <span style={{ color: "#a1a1aa", fontSize: "13px", fontWeight: 500 }}>
               Yei Rodríguez
             </span>
           </div>
         </PictureInPicture>
 
-        {/* Simple mode captions */}
-        <DynamicCaptions words={simpleWords} mode="simple" position="bottom" />
+        {/* Subtítulos discretos sin tapar la imagen */}
+        <DynamicCaptions
+          words={discreteCaptions}
+          mode="simple"
+          position="bottom"
+          fontSize={32}
+        />
       </AbsoluteFill>
     </SceneTransition>
   );
@@ -512,7 +605,7 @@ const SceneOrganicIphoneDemo: React.FC = () => {
 
 // ==========================================
 // SCENE 5: Editorial-Minimal
-// Demuestra: CTA, Preset editorial-minimal, cierre con métricas y enlaces
+// LIB-002: Mantener sobrio; serif opcional en titulares; placas limpias y motion suave.
 // ==========================================
 const SceneEditorialMinimal: React.FC = () => {
   const theme = usePresetTheme();
@@ -521,7 +614,7 @@ const SceneEditorialMinimal: React.FC = () => {
     <SceneTransition type="fade" timing="both" durationInFrames={15} totalSceneFrames={90}>
       <AbsoluteFill
         style={{
-          background: theme.colors.backgroundGradient || theme.colors.background,
+          backgroundColor: theme.colors.background,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -530,12 +623,13 @@ const SceneEditorialMinimal: React.FC = () => {
       >
         <PresetBadge number="PRESET 05" label="editorial-minimal" />
 
+        {/* Placa limpia y sobria con tipografía serif refinada */}
         <CTA
-          badge="LIB-001 • FASE 01"
-          headline="Biblioteca base lista para producción"
-          subline="12 componentes modulares y 5 presets listos para construir el primer video real."
-          buttonText="Explorar Gemini Video Lab"
-          channelHandle="github.com/zevenstudio7-hub/gemini-video-lab"
+          badge="LIB-002 • PRESETS REALES"
+          headline="Biblioteca alineada a referencias reales"
+          subline="Diseño sobrio, tipografía cuidada y motion determinístico para Gemini Video Lab."
+          buttonText="Explorar Presets"
+          channelHandle="zevenstudio7-hub/gemini-video-lab"
           arrow={true}
           entryFrame={0}
         />
@@ -552,37 +646,37 @@ export const LibraryShowcase: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#07080c" }}>
       <Series>
-        {/* Escena 1: Editorial Dynamic (Frames 0 a 90) */}
+        {/* Escena 1: Editorial Dynamic con color de énfasis de proyecto (#38bdf8) */}
         <Series.Sequence durationInFrames={90}>
-          <PresetProvider preset="editorial-dynamic">
+          <PresetProvider preset="editorial-dynamic" overrides={{ accentColor: "#38bdf8" }}>
             <SceneEditorialDynamic />
           </PresetProvider>
         </Series.Sequence>
 
-        {/* Escena 2: Kinetic Infographic (Frames 90 a 180) */}
+        {/* Escena 2: Kinetic Infographic (Lenguaje social/editorial con tipografía moderna) */}
         <Series.Sequence durationInFrames={90}>
           <PresetProvider preset="kinetic-infographic">
             <SceneKineticInfographic />
           </PresetProvider>
         </Series.Sequence>
 
-        {/* Escena 3: Screen Tutorial (Frames 180 a 270) */}
+        {/* Escena 3: Screen Tutorial (Interfaz SaaS moderna, sin aspecto hacker) */}
         <Series.Sequence durationInFrames={90}>
           <PresetProvider preset="screen-tutorial">
             <SceneScreenTutorial />
           </PresetProvider>
         </Series.Sequence>
 
-        {/* Escena 4: Organic iPhone Demo (Frames 270 a 360) */}
+        {/* Escena 4: Organic iPhone Demo (Sin glassmorphism ni gradientes chillones, subtítulos discretos) */}
         <Series.Sequence durationInFrames={90}>
           <PresetProvider preset="organic-iphone-demo">
             <SceneOrganicIphoneDemo />
           </PresetProvider>
         </Series.Sequence>
 
-        {/* Escena 5: Editorial Minimal (Frames 360 a 450) */}
+        {/* Escena 5: Editorial Minimal (Sobrio, placas limpias, serif opcional) */}
         <Series.Sequence durationInFrames={90}>
-          <PresetProvider preset="editorial-minimal">
+          <PresetProvider preset="editorial-minimal" overrides={{ useSerifHeading: true }}>
             <SceneEditorialMinimal />
           </PresetProvider>
         </Series.Sequence>
