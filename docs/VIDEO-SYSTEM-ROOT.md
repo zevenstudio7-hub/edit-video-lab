@@ -4,14 +4,15 @@
 
 Construir un sistema de edición y producción audiovisual asistido por IA para transformar material grabado por el usuario en contenido listo para publicar, usando principalmente Gemini para análisis e interpretación y Remotion para composición, motion graphics y render.
 
-El sistema debe reducir al mínimo la búsqueda manual de recursos y convertir estrategia, guion y material bruto en una orden de edición reproducible.
+El sistema debe reducir al mínimo la búsqueda manual de recursos y convertir estrategia, guion o material bruto en una orden de edición reproducible.
 
 ## Flujo operativo
 
-Google Drive / material grabado / guion
+Google Drive / material grabado / guion cuando exista
 → ChatGPT organiza estrategia y plan de edición
 → GitHub recibe una orden VIDEO-XXX
 → Antigravity consulta esta RAÍZ + la orden
+→ Gemini analiza cuando corresponda
 → Remotion ejecuta composición y motion graphics
 → render
 → revisión
@@ -29,7 +30,7 @@ Gemini / modelos de imagen / modelos de video / otras herramientas IA
 - revisar guion, material y objetivo;
 - definir estructura narrativa;
 - decidir cortes, apoyos visuales, subtítulos, motion graphics, B-roll y CTA;
-- crear órdenes VIDEO-XXX en GitHub;
+- crear y actualizar órdenes VIDEO-XXX en GitHub;
 - mantener la dirección del sistema.
 
 ### GitHub
@@ -58,10 +59,10 @@ Gemini / modelos de imagen / modelos de video / otras herramientas IA
 
 ### Gemini
 - análisis e interpretación del contenido;
-- comprensión de guion y material;
+- comprensión de video, audio, guion y material;
 - apoyo para estructurar planes de edición;
 - generación de instrucciones estructuradas;
-- participación futura en automatización del flujo.
+- futura automatización del flujo.
 
 ## Principios
 
@@ -71,7 +72,6 @@ Gemini / modelos de imagen / modelos de video / otras herramientas IA
 - evitar código distinto para cada video cuando pueda resolverse con componentes o presets;
 - construir la biblioteca audiovisual a partir de casos reales;
 - evitar sobreconstrucción;
-- no añadir infraestructura que todavía no sea necesaria;
 - mantener separados edición de material existente y producción audiovisual generativa;
 - el usuario no debe tener que buscar manualmente material de apoyo salvo que sea estrictamente necesario.
 
@@ -92,133 +92,88 @@ Ejemplos donde sí puede requerirse material real:
 - evidencia de un caso;
 - producto físico que deba mostrarse fielmente.
 
-La meta es evitar el flujo manual de buscar, descargar y organizar B-roll o imágenes genéricas.
+## Tipos oficiales de edición
 
-## Categorías de contenido
+Cada VIDEO-XXX debe declarar un EDIT_TYPE.
 
-### 01 — Motion Graphic
+### #edit-1-motion — Motion Editorial
 
-Contenido donde la edición y los elementos gráficos enriquecen o conducen la narrativa.
-
-Presets definidos:
-
-#### editorial-dynamic
-- persona en cámara;
-- composiciones editoriales;
-- imágenes recortadas;
-- titulares grandes;
-- palabras destacadas;
-- movimiento visual dinámico.
-
-#### kinetic-infographic
-- texto como protagonista;
-- escenas rápidas;
-- formas;
-- palabras animadas;
-- tarjetas;
-- elementos gráficos e imágenes de apoyo;
-- puede funcionar con voz en off.
-
-#### editorial-minimal
-- talking head predominante;
-- estética sobria;
-- subtítulos editoriales;
-- placas blancas o limpias;
-- imágenes y titulares;
-- motion discreto.
-
-Formato principal:
-- vertical 9:16.
-
-### 02 — Demo / Screen Explainer
-
-Contenido para enseñar herramientas, procesos, IA, automatizaciones, productos o resultados.
-
-Presets definidos:
-
-#### demo-quick
-- explicación rápida;
-- persona + pantalla;
-- textos breves;
-- producto o herramienta como evidencia.
-
-#### screen-tutorial
-- captura de pantalla como protagonista;
-- picture-in-picture;
-- zooms sobre interfaz;
-- highlights;
-- prompts;
-- resultados;
-- CTA.
-
-#### ai-workflow-demo
-- referencia;
-- herramienta;
-- prompt;
-- proceso;
-- variaciones;
-- resultado;
-- comparación visual.
-
-Formato principal:
-- vertical 9:16.
-
-### 03 — Organic / iPhone
-
-Contenido grabado directamente por el usuario donde la prioridad es mantener sensación natural y orgánica.
-
-Preset:
-
-#### organic-iphone-demo
-- usuario en cámara;
-- grabación con iPhone;
-- mostrar pantalla, producto o ambiente;
-- cortes limpios;
-- eliminación de silencios cuando sea necesario;
-- subtítulos sencillos y discretos;
-- edición mínima;
-- sin motion graphics que compitan con lo mostrado.
-
-Formato:
-- vertical 9:16.
-
-Objetivo:
-que parezca contenido auténtico y natural, no una pieza excesivamente producida.
-
-### 04 — AI Cinematic Marketing
-
-Capítulo especial separado de la edición cotidiana.
-
-Objetivo:
-crear videos horizontales de alta producción generados total o parcialmente con IA para atacar dolores de marketing, enseñar conceptos, dramatizar problemas empresariales y crear historias con personajes o avatares.
+Talking head / estilo podcast con imágenes, recortes, textos y apoyos visuales animados alrededor del discurso.
 
 Características:
-- formato horizontal 16:9;
+- usuario hablando como eje principal;
+- imágenes de apoyo generadas o reutilizadas;
+- motion graphics editoriales;
+- palabras y conceptos destacados;
+- puede usar presets editorial-dynamic, kinetic-infographic o editorial-minimal.
+
+Formato principal:
+- 9:16.
+
+### #edit-2-pantalla-dividida — Pantalla Dividida
+
+Similar a #edit-1-motion, pero el apoyo visual ocupa una zona separada de la composición.
+
+Características:
+- usuario hablando;
+- apoyo visual arriba o en zona secundaria;
+- imágenes, screenshots, video, gráficos o recursos generados según lo expresado;
+- pantalla o demostración debe ser protagonista cuando el contenido lo requiera;
+- subtítulos limpios y no invasivos.
+
+Formatos:
+- 9:16;
+- 1:1;
+- seleccionar según el contenido suministrado.
+
+Preset base:
+- screen-tutorial;
+- apoyo editorial-dynamic cuando corresponda.
+
+### #edit-3-organico — Tutorial Orgánico / iPhone Duo
+
+Contenido natural grabado por el usuario mostrando en vivo una pantalla, producto, lugar o proceso.
+
+Características:
+- cámara Duo / iPhone cuando aplique;
+- casi tutorial paso a paso;
+- cortes limpios;
+- eliminación de silencios cuando ayude;
+- subtítulos sencillos y discretos;
+- edición mínima;
+- evitar motion graphics que compitan con lo mostrado.
+
+Formato principal:
+- 9:16.
+
+Preset:
+- organic-iphone-demo.
+
+### #edit-4-avatar — Producción IA / Avatar
+
+Capítulo especial de producción audiovisual generativa.
+
+Objetivo:
+crear videos de mayor elaboración usando IA para atacar dolores de marketing, enseñar conceptos, dramatizar situaciones empresariales y construir historias.
+
+Características:
+- avatar o personajes;
 - guion actuado;
-- personajes o avatares;
+- storyboard;
 - escenas generadas;
 - diferentes planos;
-- narrativa;
-- diálogos;
-- ambientación;
-- producción de audio y voz;
-- montaje final;
-- motion graphics cuando aporten valor.
+- voz / audio;
+- montaje;
+- motion graphics cuando aporten valor;
+- puede utilizar Gemini, Veo y otras herramientas IA según la calidad requerida.
 
-Posibles formatos:
-- acted-business-pain;
-- educational-story;
-- ai-commercial;
-- brand-story;
-- cinematic-explainer.
-
-Este capítulo puede utilizar Gemini, Veo y otras herramientas de IA cuando sean necesarias para lograr la calidad deseada.
+Formato principal:
+- 16:9;
+- adaptable cuando el proyecto lo requiera.
 
 ## Biblioteca Remotion
 
 La biblioteca no se construirá completa de antemano.
-
-Regla:
 
 CASO REAL
 → identificar necesidad
@@ -228,16 +183,15 @@ CASO REAL
 → incorporar a biblioteca
 → reutilizar en próximos videos
 
-La biblioteca debe servir a varias categorías y evitar duplicaciones.
-
 ## Órdenes VIDEO-XXX
 
-Cada video real debe tener una orden en GitHub con, como mínimo:
+Cada video real debe tener como mínimo:
 
+- EDIT_TYPE;
 - objetivo;
 - fuentes en Drive;
-- categoría;
-- preset;
+- guion si existe;
+- indicar explícitamente si NO existe guion;
 - formato;
 - duración objetivo;
 - estructura narrativa;
@@ -245,7 +199,7 @@ Cada video real debe tener una orden en GitHub con, como mínimo:
 - subtítulos;
 - motion graphics;
 - recursos de apoyo;
-- CTA;
+- CTA cuando corresponda;
 - salida esperada.
 
 Antigravity debe consultar esta RAÍZ antes de ejecutar cualquier VIDEO-XXX.
@@ -257,14 +211,25 @@ Antigravity debe consultar esta RAÍZ antes de ejecutar cualquier VIDEO-XXX.
 Base Remotion funcional:
 - React + TypeScript;
 - Remotion Studio;
-- composición vertical de prueba;
 - preview;
 - render MP4 local;
 - validación de TypeScript;
-- repositorio conectado y operativo.
+- repositorio conectado.
 
-### FASE 02 — SIGUIENTE
+### FASE 02 — COMPLETADA
 
-Coordinar y construir la primera biblioteca mínima de componentes Remotion basada en las categorías y referencias ya definidas.
+Biblioteca base Remotion:
+- componentes reutilizables;
+- presets alineados a referencias reales;
+- LibraryShowcase;
+- validaciones y renders.
 
-No conectar todavía infraestructura adicional hasta que la biblioteca mínima y el primer video real validen el flujo.
+### FASE 03 — ACTUAL
+
+Validar el flujo completo con VIDEO-001 real:
+Drive
+→ análisis
+→ edit plan
+→ recursos de apoyo
+→ Remotion
+→ render.
