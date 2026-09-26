@@ -14,16 +14,91 @@ El sistema debe:
 
 El nombre histórico del repositorio se mantiene, pero Gemini deja de ser una dependencia obligatoria del pipeline. Las herramientas generativas se consideran proveedores opcionales según el EDIT_TYPE y la necesidad real.
 
+## Directriz obligatoria: investigar antes de decidir
+
+Este sistema no debe validar automáticamente las ideas del usuario. Debe mejorarlas.
+
+Antes de definir, modificar o ampliar cualquier decisión importante sobre edición, arquitectura, agentes, herramientas, renders, motion graphics, captions, captura, generación de assets o automatización, el responsable debe:
+
+1. estudiar primero las capacidades y prácticas vigentes de las herramientas relevantes;
+2. revisar documentación oficial, repositorios de referencia, Agent Skills, ejemplos y casos de uso aplicables;
+3. comprobar si ya existe una solución técnica madura antes de diseñar una propia;
+4. comparar al menos las alternativas razonables cuando la decisión pueda afectar calidad, tiempo, costo o complejidad;
+5. distinguir evidencia, experiencia observada e hipótesis;
+6. proponer una opción superior aunque contradiga la idea inicial del usuario;
+7. evitar construir infraestructura propia cuando una solución existente resuelva mejor el problema;
+8. probar en material real antes de convertir una preferencia en regla permanente.
+
+La conversación estratégica, ChatGPT / Work y los agentes ejecutores deben actuar como sistema de investigación + propuesta, no como mecanismo de aprobación de ideas.
+
+Las preferencias de herramienta no se convierten en arquitectura sin prueba. Por ejemplo, Claude Code, Codex, Hermes u otros agentes deben evaluarse por resultados reales en el flujo audiovisual: precisión de cortes, cumplimiento de orden, calidad visual, uso correcto de Remotion, velocidad, costo, número de correcciones y estabilidad.
+
+## Referencia técnica upstream
+
+Remotion oficial es referencia técnica upstream del sistema.
+
+Antes de desarrollar una solución propia con React/Remotion, el agente debe comprobar si el ecosistema oficial ya proporciona:
+
+- componente;
+- API;
+- paquete;
+- effect;
+- transition;
+- captions;
+- template;
+- Agent Skill;
+- ejemplo;
+- patrón recomendado;
+- herramienta de render;
+- integración aplicable.
+
+La jerarquía es:
+
+VIDEO-SYSTEM-ROOT.md
+→ política conceptual/editorial
+
+video-orders/VIDEO-XXX.json
+→ contrato operativo del video
+
+Remotion oficial + documentación + Agent Skills
+→ referencia técnica de implementación
+
+Código local
+→ implementación específica solo cuando sea necesaria
+
+No copiar el repositorio de Remotion ni reconstruir sus capacidades. Trabajar sobre su ecosistema y extender únicamente lo que el caso real requiera.
+
+## Evaluación de orquestación y agentes
+
+El sistema puede usar una capa de orquestación separada del agente editor.
+
+Arquitectura candidata a validar:
+
+TÚ / WORK
+→ dirección e investigación
+→ ORQUESTADOR
+→ agente editor principal
+→ agentes de apoyo / revisión
+→ Remotion + FFmpeg + proveedores de assets
+→ QA
+→ Preview
+→ corrección
+→ render final.
+
+Hermes es candidato a la capa de orquestación, pero no debe adoptarse hasta identificar y evaluar la implementación exacta que se utilizará.
+
+Claude Code es candidato a agente editor principal para Remotion. Codex puede mantenerse como ejecutor, revisor, QA o fallback. Esta distribución debe validarse mediante pruebas comparables sobre material real antes de declararse definitiva.
+
 ## Flujo operativo general
 
 TÚ
 → ChatGPT / Work: estrategia, guion, objetivo, referencias y tipo de edición
-→ Codex: agente de producción local
-→ Codex consulta esta RAÍZ + órdenes existentes relevantes + materiales del VIDEO-XXX
-→ Codex crea o actualiza video-orders/VIDEO-XXX.json
-→ Codex ejecuta el pipeline definido por EDIT_TYPE
+→ agente de producción seleccionado según evaluación vigente
+→ el agente consulta esta RAÍZ + órdenes existentes relevantes + materiales del VIDEO-XXX
+→ crea o actualiza video-orders/VIDEO-XXX.json
+→ ejecuta el pipeline definido por EDIT_TYPE
 → Remotion Studio: preview y revisión
-→ Codex aplica correcciones
+→ aplica correcciones
 → render final autorizado
 → VIDEO FINAL
 
@@ -39,24 +114,43 @@ El render final no debe ejecutarse antes de la revisión del preview, salvo orde
 
 ### ChatGPT / Work
 - dirección estratégica y editorial;
+- investigar antes de recomendar;
 - revisar objetivo, guion, referencias y material disponible;
 - definir estructura narrativa;
+- comparar herramientas y alternativas cuando corresponda;
 - decidir qué debe ser material real, motion graphic o asset generativo;
-- formular instrucciones claras para Codex;
+- formular instrucciones claras para el agente ejecutor;
 - ayudar a evaluar el preview y convertir feedback en correcciones concretas.
 
-### Codex
-- agente principal de producción local;
+### Agente ejecutor
+Puede ser Claude Code, Codex u otro agente aprobado después de pruebas.
+
+Debe:
 - consultar siempre esta RAÍZ antes de crear o ejecutar una orden;
-- consultar órdenes VIDEO-XXX existentes del mismo EDIT_TYPE o de estructura similar antes de generar una nueva orden;
+- consultar órdenes VIDEO-XXX existentes del mismo EDIT_TYPE o de estructura similar;
 - revisar el estado real del repositorio antes de modificarlo;
+- revisar Remotion oficial y sus Agent Skills antes de implementar una capacidad nueva;
 - crear o actualizar video-orders/VIDEO-XXX.json antes de montar o corregir una edición;
 - ejecutar FFmpeg, Remotion, scripts y tareas locales;
-- reutilizar componentes existentes;
+- reutilizar componentes oficiales y locales existentes;
 - crear componentes nuevos solo cuando un caso real lo requiera;
 - integrar assets reales y generativos;
 - abrir preview en Remotion Studio;
 - detenerse antes del render final salvo autorización explícita.
+
+### Orquestador
+Puede ser Hermes u otra solución validada.
+
+Responsabilidades potenciales:
+- clasificar la tarea;
+- delegar a agentes especializados;
+- separar planificación, implementación y revisión;
+- coordinar estados;
+- limitar bucles;
+- mantener trazabilidad;
+- solicitar intervención humana solo cuando sea necesaria.
+
+No sustituye la RAÍZ ni la orden VIDEO-XXX.
 
 ### GitHub
 - fuente de verdad del sistema;
@@ -152,7 +246,6 @@ Formato principal:
 - 9:16.
 
 Política de producción:
-- Codex: ON;
 - Remotion / FFmpeg: ON;
 - material real: PRIORIDAD;
 - motion graphics: HIGH;
@@ -163,7 +256,7 @@ Política de producción:
 Flujo:
 TÚ + GUION
 → ChatGPT / Work
-→ Codex
+→ agente ejecutor
 → analiza qué necesita cada frase
 → material real / Remotion / imagen IA / video IA
 → Remotion + FFmpeg
@@ -191,7 +284,6 @@ Preset base:
 - apoyo editorial-dynamic cuando corresponda.
 
 Política de producción:
-- Codex: ON;
 - Remotion / FFmpeg: ON;
 - material real: FIRST;
 - motion graphics: MEDIUM;
@@ -227,7 +319,6 @@ Preset:
 - organic-iphone-demo.
 
 Política de producción:
-- Codex: ON;
 - Remotion / FFmpeg: ON;
 - assets reales: ONLY por defecto;
 - motion graphics: LOW;
@@ -241,7 +332,7 @@ Si el resultado parece excesivamente editado, el formato perdió su objetivo.
 Flujo:
 video real
 → ChatGPT / Work
-→ Codex
+→ agente ejecutor
 → FFmpeg: selección, silencios, cortes, audio
 → Remotion: captions y ajustes mínimos
 → Preview
@@ -271,7 +362,6 @@ Formato principal:
 - adaptable cuando el proyecto lo requiera.
 
 Política de producción:
-- Codex: ON;
 - Remotion / FFmpeg: ON;
 - IA generativa: FULL;
 - IA de imágenes: ON;
@@ -282,7 +372,7 @@ Política de producción:
 Flujo:
 idea / problema
 → ChatGPT / Work: concepto + guion + storyboard
-→ Codex
+→ agente ejecutor
 → generación de personajes / imágenes / escenarios / video / audio
 → Remotion + FFmpeg
 → Preview
@@ -291,14 +381,14 @@ idea / problema
 
 ## Matriz de enrutamiento
 
-| EDIT_TYPE | Codex | Remotion/FFmpeg | Material real | Motion | IA imágenes | IA video |
-|---|---|---|---|---|---|---|
-| #edit-1-motion | ON | ON | PRIORIDAD | HIGH | NORMAL | CONDITIONAL |
-| #edit-2-pantalla-dividida | ON | ON | FIRST | MEDIUM | CONDITIONAL | EXCEPTIONAL |
-| #edit-3-organico | ON | ON | ONLY por defecto | LOW | OFF | OFF |
-| #edit-4-avatar | ON | ON | SEGÚN CASO | HIGH | ON | ON |
+| EDIT_TYPE | Remotion/FFmpeg | Material real | Motion | IA imágenes | IA video |
+|---|---|---|---|---|---|
+| #edit-1-motion | ON | PRIORIDAD | HIGH | NORMAL | CONDITIONAL |
+| #edit-2-pantalla-dividida | ON | FIRST | MEDIUM | CONDITIONAL | EXCEPTIONAL |
+| #edit-3-organico | ON | ONLY por defecto | LOW | OFF | OFF |
+| #edit-4-avatar | ON | SEGÚN CASO | HIGH | ON | ON |
 
-Codex debe usar esta matriz como regla de enrutamiento. No debe activar proveedores generativos por rutina.
+El agente ejecutor debe usar esta matriz como regla de enrutamiento. No debe activar proveedores generativos por rutina.
 
 ## Motion graphics vs IA generativa
 
@@ -333,7 +423,8 @@ La biblioteca no se construirá completa de antemano.
 
 CASO REAL
 → identificar necesidad
-→ reutilizar componente existente
+→ comprobar Remotion oficial / Agent Skills / ejemplos
+→ reutilizar componente oficial o local existente
 → si no existe, crear componente
 → validar
 → incorporar a biblioteca
@@ -370,7 +461,7 @@ Debe incluir como mínimo:
 
 ## Regla obligatoria para generar una orden
 
-Antes de crear o modificar cualquier video-orders/VIDEO-XXX.json, Codex debe:
+Antes de crear o modificar cualquier video-orders/VIDEO-XXX.json, el agente debe:
 
 1. leer docs/VIDEO-SYSTEM-ROOT.md;
 2. revisar git status;
@@ -378,16 +469,17 @@ Antes de crear o modificar cualquier video-orders/VIDEO-XXX.json, Codex debe:
 4. leer el guion si existe;
 5. revisar las órdenes VIDEO-XXX existentes;
 6. identificar al menos una orden previa del mismo EDIT_TYPE si existe;
-7. reutilizar estructura y convenciones válidas de órdenes anteriores sin copiar decisiones editoriales específicas;
-8. aplicar la matriz de enrutamiento del EDIT_TYPE;
-9. generar o actualizar la orden;
-10. mostrar un resumen breve de lo que hará antes de ejecutar la edición.
+7. revisar Remotion oficial y las Agent Skills aplicables;
+8. reutilizar estructura y convenciones válidas de órdenes anteriores sin copiar decisiones editoriales específicas;
+9. aplicar la matriz de enrutamiento del EDIT_TYPE;
+10. generar o actualizar la orden;
+11. mostrar un resumen breve de lo que hará antes de ejecutar la edición.
 
-Codex no debe comenzar el montaje sin una orden VIDEO-XXX válida, salvo correcciones puntuales sobre una edición ya existente. En ese caso debe actualizar primero la orden para reflejar los cambios relevantes.
+El agente no debe comenzar el montaje sin una orden VIDEO-XXX válida, salvo correcciones puntuales sobre una edición ya existente. En ese caso debe actualizar primero la orden para reflejar los cambios relevantes.
 
-## Política de autonomía de Codex
+## Política de autonomía del agente
 
-Codex puede ejecutar sin pedir autorización repetitiva:
+El agente puede ejecutar sin pedir autorización repetitiva:
 - lectura y escritura dentro del repositorio;
 - git status, log y diff;
 - pnpm;
