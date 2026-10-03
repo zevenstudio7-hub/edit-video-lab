@@ -8,7 +8,10 @@
     "build": "remotion bundle",
     "render": "remotion render GeminiVideoLab out/gemini-video-lab.mp4",
     "render:showcase": "remotion render LibraryShowcase out/library-showcase.mp4",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "library": "remotion studio library/index.ts",
+    "library:check": "node library/validate.mjs",
+    "typecheck:library": "tsc --noEmit -p library/tsconfig.json"
   },
   "dependencies": {
     "@remotion/cli": "4.0.438",

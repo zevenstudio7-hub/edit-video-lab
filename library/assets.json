@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "descripcion": "Manifiesto de procedencia de recursos externos (tipografías, clips, audio, Lottie, recortes). Vacío hasta que un video use un recurso externo. Cada uso se registra con fuente, licencia, URL, fecha y estado.",
+  "estados": ["pendiente", "usado", "descartado"],
+  "campos_item": ["id", "archivo", "fuente", "licencia", "url", "fecha", "estado", "video"],
+  "items": [],
+  "fuentes_candidatas": [
+    {
+      "nombre": "Pexels",
+      "url": "https://www.pexels.com/license/",
+      "licencia_declarada": "Licencia Pexels",
+      "verificado": false,
+      "nota": "Video e imagen de stock. Leer la licencia vigente antes de usar un clip."
+    },
+    {
+      "nombre": "Poly Haven",
+      "url": "https://polyhaven.com/license",
+      "licencia_declarada": "CC0",
+      "verificado": false,
+      "nota": "Texturas, HDRI y modelos 3D."
+    },
+    {
+      "nombre": "LottieFiles",
+      "url": "https://lottiefiles.com/page/license",
+      "licencia_declarada": "Lottie Simple License",
+      "verificado": false,
+      "nota": "Animaciones Lottie. Requiere @remotion/lottie (dependencia nueva: no instalada)."
+    }
+  ]
+}

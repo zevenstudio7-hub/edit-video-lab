@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "descripcion": "Catálogo único de recursos reutilizables del laboratorio: qué existe, dónde está, de qué referencia viene, en qué estado está y en qué EDIT_TYPE se puede usar. Los componentes LIB-001 se catalogan, no se duplican.",
+  "regla_de_alta": "Un recurso nuevo entra como 'candidata'. Pasa a 'validada' solo cuando una orden VIDEO-XXX lo usa y su preview revisada lo confirma. Antes de crear uno: revisar este catálogo, los componentes de src/components y Remotion oficial.",
+  "enrutamiento": "Columna edit_types derivada de la matriz de enrutamiento de docs/VIDEO-SYSTEM-ROOT.md (motion: edit-1 HIGH, edit-2 MEDIUM, edit-3 LOW, edit-4 HIGH). Es una propuesta de partida: la orden VIDEO-XXX manda.",
+  "edit_types": [
+    "#edit-1-motion",
+    "#edit-2-pantalla-dividida",
+    "#edit-3-organico",
+    "#edit-4-avatar"
+  ],
+  "excluidos": [
+    {
+      "archivo": "src/components/TestTitle.tsx",
+      "motivo": "Componente de prueba de la FASE 01; no es un recurso de edición."
+    }
+  ],
+  "entradas": [
+    {
+      "id": "dynamic-captions",
+      "nombre": "DynamicCaptions",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/DynamicCaptions.tsx",
+      "ref": "REF-1",
+      "estado": "disponible",
+      "funcion": "Subtítulos por palabra en 3 modos (simple, editorial, dynamic/karaoke). Requiere tiempos por palabra.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-3 solo mode=simple (subtítulos discretos)."
+    },
+    {
+      "id": "chunk-captions",
+      "nombre": "ChunkCaptions",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/ChunkCaptions.tsx",
+      "ref": "REF-1",
+      "estado": "candidata",
+      "funcion": "Subtítulos por bloques de 2–4 palabras, serif, sin caja, cambio duro y énfasis opcional por palabra. Solo requiere tiempos por bloque.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-3 sin énfasis. centerY debe medirse en la composición final."
+    },
+    {
+      "id": "highlight-word",
+      "nombre": "HighlightWord",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/HighlightWord.tsx",
+      "ref": "REF-2",
+      "estado": "disponible",
+      "funcion": "Énfasis de palabra clave (pill, marker, glow, box).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "si"
+      }
+    },
+    {
+      "id": "kinetic-text",
+      "nombre": "KineticText",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/KineticText.tsx",
+      "ref": "REF-1",
+      "estado": "disponible",
+      "funcion": "Texto cinético escalonado (slide-up, pop, blur-in, fade).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "si"
+      }
+    },
+    {
+      "id": "big-statement",
+      "nombre": "BigStatement",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/BigStatement.tsx",
+      "ref": "REF-2",
+      "estado": "disponible",
+      "funcion": "Titular de alto impacto con kicker y palabras resaltadas.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-2 solo si no compite con el apoyo visual ni con los subtítulos."
+    },
+    {
+      "id": "speaker-card",
+      "nombre": "SpeakerCard",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/SpeakerCard.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Lower-third con avatar o monograma, nombre, rol y redes.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-3 solo si aporta contexto y es discreto."
+    },
+    {
+      "id": "picture-in-picture",
+      "nombre": "PictureInPicture",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/PictureInPicture.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Ventana flotante para cámara o material secundario.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "condicional"
+      },
+      "nota": "En #edit-2 la pantalla dividida ya resuelve la convivencia de presentador y apoyo."
+    },
+    {
+      "id": "media-frame",
+      "nombre": "MediaFrame",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/MediaFrame.tsx",
+      "ref": "REF-2",
+      "estado": "disponible",
+      "funcion": "Marco para B-roll, capturas o video de apoyo con pie de texto.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "si"
+      }
+    },
+    {
+      "id": "screen-frame",
+      "nombre": "ScreenFrame",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/ScreenFrame.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Marco de ventana/navegador para captura real. Enmarca material verificable; no sustituye una captura.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "condicional"
+      },
+      "nota": "En #edit-4 solo si la escena muestra una interfaz real que enmarcar."
+    },
+    {
+      "id": "focus-highlight",
+      "nombre": "FocusHighlight",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/FocusHighlight.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Spotlight con halo para señalar un elemento real de la pantalla.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-3 solo si el espectador no puede seguir la acción sin él."
+    },
+    {
+      "id": "soft-zoom",
+      "nombre": "SoftZoom",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/SoftZoom.tsx",
+      "ref": "REF-3",
+      "estado": "disponible",
+      "funcion": "Empuje o alejamiento continuo (Ken Burns) con origen configurable.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-3 solo empuje sutil (toScale ≤ 1.08, el valor por defecto)."
+    },
+    {
+      "id": "cut-sequence",
+      "nombre": "CutSequence",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/CutSequence.tsx",
+      "ref": "REF-3",
+      "estado": "candidata",
+      "funcion": "Reparte planos con corte duro y empuje lento por plano (SoftZoom). Incluye helpers de duración en segundos y total de frames.",
+      "usa": ["soft-zoom"],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "Valores por defecto medidos en un solo video de referencia (n = 1). En #edit-2 solo si cambia el plano del presentador, no la zona de apoyo. En #edit-3 cortes duros sí; empuje solo sutil o push:false."
+    },
+    {
+      "id": "scene-transition",
+      "nombre": "SceneTransition",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/SceneTransition.tsx",
+      "ref": "REF-3",
+      "estado": "disponible",
+      "funcion": "Entrada/salida de escena (fade, slide-left, slide-up, zoom, wipe). Es transición, no corte duro.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-2 solo entre bloques de apoyo; nunca sobre la zona del presentador."
+    },
+    {
+      "id": "text-behind-subject",
+      "nombre": "TextBehindSubject",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/TextBehindSubject.tsx",
+      "ref": "REF-2",
+      "estado": "candidata",
+      "funcion": "Texto entre el fondo y el sujeto recortado (fondo → texto → recorte con alfa).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "condicional"
+      },
+      "nota": "Necesita un recorte con alfa alineado con el fondo; ese recorte aún no tiene herramienta elegida (ver library/README.md)."
+    },
+    {
+      "id": "keyword-tint",
+      "nombre": "KeywordTint",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/KeywordTint.tsx",
+      "ref": "REF-2",
+      "estado": "candidata",
+      "funcion": "Lavado de color de todo el cuadro que marca una palabra clave. Pulso por frames locales dentro de un Sequence.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "Un lavado alto cambia el color de piel del sujeto: peak bajo con rostro en cuadro."
+    },
+    {
+      "id": "cta",
+      "nombre": "CTA",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/CTA.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Llamado a la acción con botón, badge, handle y flecha.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "En #edit-3 solo en versión discreta."
+    },
+    {
+      "id": "presets",
+      "nombre": "Presets y PresetProvider",
+      "tipo": "preset",
+      "origen": "LIB-001",
+      "archivo": "src/presets/index.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "5 presets (editorial-dynamic, kinetic-infographic, editorial-minimal, screen-tutorial, organic-iphone-demo) con overrides de acento, fondo y serif.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-avatar": "si"
+      }
+    },
+    {
+      "id": "design-tokens",
+      "nombre": "Design tokens",
+      "tipo": "tokens",
+      "origen": "LIB-001",
+      "archivo": "src/lib/tokens.ts",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Canvas 1080×1920 a 30 fps, safe areas, tipografía, espaciado, radios, sombras y springs.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "Si un video mide zonas libres distintas de SAFE_AREAS, manda la medida en la composición final."
+    },
+    {
+      "id": "brand-profile",
+      "nombre": "BrandProfile y BrandProvider",
+      "tipo": "marca",
+      "origen": "library",
+      "archivo": "library/brand/BrandProfile.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Perfil de marca = preset base + overrides existentes. Para otra marca se copia el perfil y se cambian los valores.",
+      "usa": ["presets"],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-avatar": "si"
+      }
+    },
+    {
+      "id": "brand-zevenpro",
+      "nombre": "Perfil ZevenPRO",
+      "tipo": "marca",
+      "origen": "library",
+      "archivo": "library/brand/zevenpro.ts",
+      "ref": null,
+      "estado": "incompleta",
+      "funcion": "Perfil de ZevenPRO. Sin colores ni tipografías de marca confirmados; equivale al preset base hasta completarlo.",
+      "usa": ["brand-profile"],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "Lista de datos pendientes en el propio archivo (campo 'pendiente')."
+    },
+    {
+      "id": "library-showcase",
+      "nombre": "LibraryShowcase",
+      "tipo": "composicion",
+      "origen": "LIB-001",
+      "archivo": "src/compositions/LibraryShowcase.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Composición de 15 s que muestra los componentes y presets de LIB-001.",
+      "usa": ["presets"],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "no"
+      },
+      "nota": "Es una galería, no un recurso de edición: no se usa dentro de un video."
+    },
+    {
+      "id": "library-gallery",
+      "nombre": "Galería de recetas (LIB-*)",
+      "tipo": "composicion",
+      "origen": "library",
+      "archivo": "library/gallery/Samples.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Una composición sintética por receta nueva (LIB-ChunkCaptions, LIB-CutSequence, LIB-TextBehindSubject, LIB-KeywordTint). Se abre con `pnpm library`.",
+      "usa": ["chunk-captions", "cut-sequence", "text-behind-subject", "keyword-tint", "brand-zevenpro"],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-avatar": "no"
+      },
+      "nota": "Es una galería, no un recurso de edición."
+    }
+  ]
+}
