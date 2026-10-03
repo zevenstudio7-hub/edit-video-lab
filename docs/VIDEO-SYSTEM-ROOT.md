@@ -198,9 +198,7 @@ Pueden incluir:
 - no generar algo que ya existe como asset real útil;
 - reutilizar componentes antes de crear nuevos;
 - evitar código distinto para cada video cuando pueda resolverse con componentes, datos o presets;
-- construir la biblioteca audiovisual a partir de casos reales;
 - evitar sobreconstrucción;
-- no añadir infraestructura que no acerque el video actual al preview;
 - el usuario no debe buscar manualmente B-roll o imágenes salvo que el recurso deba ser real, exacto o verificable;
 - una orden VIDEO-XXX es el contrato operativo de cada edición.
 
@@ -419,8 +417,6 @@ IA generativa se usa cuando hay que crear contenido que no existe:
 
 ## Biblioteca Remotion
 
-La biblioteca no se construirá completa de antemano.
-
 CASO REAL
 → identificar necesidad
 → comprobar Remotion oficial / Agent Skills / ejemplos
@@ -519,19 +515,3 @@ Biblioteca base Remotion:
 - presets alineados a referencias reales;
 - LibraryShowcase;
 - validaciones y renders.
-
-### FASE 03 — ACTUAL
-
-Validar y estabilizar el flujo completo con VIDEO-001 real:
-
-material real
-→ orden VIDEO-001
-→ selección y cortes
-→ recursos de apoyo según #edit-2-pantalla-dividida
-→ Remotion
-→ preview
-→ correcciones
-→ render final autorizado.
-
-Objetivo de esta fase:
-obtener un VIDEO-001 terminado y usar sus aprendizajes para simplificar los siguientes videos antes de añadir nueva infraestructura.
