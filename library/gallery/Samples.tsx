@@ -8,7 +8,9 @@ import { zevenpro } from "../brand/zevenpro";
 import { ChunkCaptions, CaptionChunk } from "../recipes/ChunkCaptions";
 import { CutSequence, CutShot, shotsFromSeconds, totalShotFrames } from "../recipes/CutSequence";
 import { KeywordTint } from "../recipes/KeywordTint";
+import { SfxTrack } from "../recipes/SfxTrack";
 import { TextBehindSubject } from "../recipes/TextBehindSubject";
+import type { SfxCue } from "../sfx/cues";
 
 /**
  * Muestras SINTÉTICAS de las recetas: formas y texto inventados para la muestra, sin personas,
@@ -201,3 +203,50 @@ export const KeywordTintSample: React.FC = () => {
   );
 };
 export const KEYWORD_TINT_SAMPLE_FRAMES = 90;
+
+// ---------- SfxTrack ----------
+// Necesita los archivos en public/sfx: `node library/sfx/fetch-sfx.mjs` antes de abrir esta composición.
+// Cada sonido suena en su frame y su nombre aparece en pantalla en ese mismo instante.
+
+const SFX_SAMPLE_CUES: SfxCue[] = [
+  { frame: 12, sound: "whip" },
+  { frame: 48, sound: "whoosh" },
+  { frame: 84, sound: "ui-switch" },
+  { frame: 120, sound: "page-turn" },
+  { frame: 156, sound: "mouse-click" },
+  { frame: 192, sound: "shutter-modern" },
+];
+
+export const SfxTrackSample: React.FC = () => {
+  const frame = useCurrentFrame();
+  const theme = usePresetTheme();
+  const current = [...SFX_SAMPLE_CUES].reverse().find((c) => c.frame <= frame);
+  const since = current ? frame - current.frame : 0;
+  return (
+    <BrandProvider brand={zevenpro}>
+      <Stage hue={190}>
+        <Tag id="SfxTrack" />
+        <SfxTrack cues={SFX_SAMPLE_CUES} />
+        <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+          <div
+            style={{
+              fontFamily: theme.typography.headingFontFamily,
+              fontSize: 120,
+              fontWeight: 800,
+              color: theme.colors.textPrimary,
+              opacity: current ? Math.max(0.25, 1 - since / 30) : 0.25,
+              textAlign: "center",
+              padding: "0 60px",
+            }}
+          >
+            {current ? current.sound : "…"}
+          </div>
+          <div style={{ fontFamily: theme.typography.fontFamily, fontSize: 36, color: theme.colors.textSecondary, marginTop: 24 }}>
+            frame {frame} · requiere public/sfx
+          </div>
+        </AbsoluteFill>
+      </Stage>
+    </BrandProvider>
+  );
+};
+export const SFX_TRACK_SAMPLE_FRAMES = 225;

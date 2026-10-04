@@ -8,6 +8,8 @@ import {
   CutSequenceSample,
   KEYWORD_TINT_SAMPLE_FRAMES,
   KeywordTintSample,
+  SFX_TRACK_SAMPLE_FRAMES,
+  SfxTrackSample,
   TEXT_BEHIND_SUBJECT_SAMPLE_FRAMES,
   TextBehindSubjectSample,
 } from "./gallery/Samples";
@@ -39,6 +41,12 @@ export const LibraryRoot: React.FC = () => (
       id="LIB-KeywordTint"
       component={KeywordTintSample}
       durationInFrames={KEYWORD_TINT_SAMPLE_FRAMES}
+      {...common}
+    />
+    <Composition
+      id="LIB-SfxTrack"
+      component={SfxTrackSample}
+      durationInFrames={SFX_TRACK_SAMPLE_FRAMES}
       {...common}
     />
   </>

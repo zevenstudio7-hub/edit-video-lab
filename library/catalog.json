@@ -405,12 +405,13 @@
       "archivo": "library/gallery/Samples.tsx",
       "ref": null,
       "estado": "candidata",
-      "funcion": "Una composición sintética por receta nueva (LIB-ChunkCaptions, LIB-CutSequence, LIB-TextBehindSubject, LIB-KeywordTint). Se abre con `pnpm library`.",
+      "funcion": "Una composición sintética por receta nueva (LIB-ChunkCaptions, LIB-CutSequence, LIB-TextBehindSubject, LIB-KeywordTint, LIB-SfxTrack). Se abre con `pnpm library`.",
       "usa": [
         "chunk-captions",
         "cut-sequence",
         "text-behind-subject",
         "keyword-tint",
+        "sfx-track",
         "brand-zevenpro"
       ],
       "edit_types": {
