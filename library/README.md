@@ -61,7 +61,7 @@ Comprobado:
 - Las cuatro composiciones LIB-* se registran y se pintan en Chromium sin errores de página.
 - El orden de capas de `TextBehindSubject`, el cambio duro y el reinicio del empuje por plano de `CutSequence`, el énfasis de `ChunkCaptions` y el lavado de `KeywordTint` se revisaron en cuadros fijos.
 
-- `clean-voice.mjs` se ejecutó con FFmpeg 6.1.1 sobre 30 s del resultado grabado: pasó de −12,6 LUFS y 0,0 dBTP a −13,9 LUFS y −1,5 dBTP; probados los rechazos (destino existente, destino = entrada), `--denoise fft`, `--mux` y `--dry-run`.
+- `clean-voice.mjs` se ejecutó con FFmpeg 6.1.1 sobre 30 s de una grabación de pantalla de referencia (reel de otro autor, no una toma de VIDEO-001): pasó de −12,6 LUFS y 0,0 dBTP a −13,9 LUFS y −1,5 dBTP; probados los rechazos (destino existente, destino = entrada), `--denoise fft`, `--mux` y `--dry-run`.
 - `cues.ts` se compiló y se probó con casos propios (adelantos, orden, descarte por cercanía, evento sin regla). `SfxTrack.tsx` pasa tsc contra un sustituto de la API.
 - El validador falla con datos de sonido mal puestos (probado rompiéndolos a propósito).
 
