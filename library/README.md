@@ -78,9 +78,9 @@ No comprobado:
 
 ## Audio y sonido
 
-**Voz.** `clean-voice.mjs` aplica pasa-altos 80 Hz → RNNoise (`arnndn`, modelo `sh.rnnn`: voz hablada con ruido de grabación) → EQ suave (−2 dB a 300 Hz, +2 dB a 3,5 kHz) → de-esser → compresor → loudness en dos pasadas a −14 LUFS / −1,5 dBTP → WAV 48 kHz/24 bit. No toca la entrada, rechaza sobrescribirla y escribe un informe antes/después. Los valores del EQ son un punto de partida, no una medición de tu voz.
+**Voz.** `clean-voice.mjs` aplica pasa-altos 80 Hz → RNNoise (`arnndn`, modelo `sh.rnnn`: voz hablada con ruido de grabación) → EQ suave (−2 dB a 300 Hz, +2 dB a 3,5 kHz) → de-esser → compresor → loudness en dos pasadas a −14 LUFS / −1,5 dBTP → WAV 48 kHz/24 bit. No toca la entrada, rechaza sobrescribirla y escribe un informe antes/después. Los valores del EQ son un punto de partida, no una medición de tu voz. El objetivo por defecto es −14 LUFS (habitual en Reels); los proxies de VIDEO-001 se normalizan a −16 LUFS: elegir uno y usar `--lufs` para igualar.
 
-**Efectos.** Las señales salen de dos fuentes: eventos de la edición (cortes, transiciones, tarjetas, secciones) y palabras con tiempo real (`cues.ts`). Las reglas viven en `sfx/sfx.json`; `thinCues` descarta las que quedan demasiado juntas para evitar la «lluvia de sonidos». `SfxTrack` las coloca con `<Audio>` + `<Sequence>`. Solo entran sonidos con CC0 declarada; los que Remotion marca como «probablemente OK» y los de marcas, juegos o memes están en `excluidos`.
+**Efectos.** Las señales salen de dos fuentes: eventos de la edición (cortes, transiciones, tarjetas, secciones) y palabras con tiempo real (`cues.ts`; `wordsFromAligned` convierte los `*.aligned.json` de whisper del repo, con el mapeo toma → timeline que da la orden). Las reglas viven en `sfx/sfx.json`; `thinCues` descarta las que quedan demasiado juntas para evitar la «lluvia de sonidos». `SfxTrack` las coloca con `<Audio>` + `<Sequence>`. Solo entran sonidos con CC0 declarada; los que Remotion marca como «probablemente OK» y los de marcas, juegos o memes están en `excluidos`.
 
 **Servicios de pago.** No hay ninguno conectado ni hace falta para esto. ElevenLabs (Voice Isolator, generación de efectos) queda como paso opcional: se prueba con una toma real solo si la cadena local no basta, y exige una clave que debe poner el usuario.
 

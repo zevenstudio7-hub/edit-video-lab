@@ -1,5 +1,6 @@
 import React from "react";
-import { Audio, Sequence, staticFile } from "remotion";
+import { Sequence, staticFile } from "remotion";
+import { Audio } from "@remotion/media";
 import sfx from "../sfx/sfx.json";
 import type { SfxCue } from "../sfx/cues";
 
@@ -11,6 +12,7 @@ import type { SfxCue } from "../sfx/cues";
  *   const { kept } = buildCues({ events, words }, sfx.reglas, sfx.limites);
  *   <SfxTrack cues={kept} master={0.9} />
  *
+ * Usa <Audio> de @remotion/media (ya instalado en el repo, igual que <Video> en PresenterCamera).
  * Un id de sonido que no esté en library/sfx/sfx.json lanza un error: mejor fallar que callar un sonido.
  * Volumen: parte del `volumen` del sonido; `master` lo escala. Ajustar escuchando con la voz limpia.
  */

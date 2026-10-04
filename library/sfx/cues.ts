@@ -49,6 +49,25 @@ export interface TimedWord {
 
 const isWordRule = (r: SfxRule): r is SfxWordRule => (r as SfxWordRule).palabras !== undefined;
 
+/** Forma mínima del alineado de palabras de whisper.cpp que usa el repo (analysis/video-001-whisper/*.aligned.json). */
+export interface AlignedWords {
+  words: { text: string; start: number; end: number }[];
+}
+
+/**
+ * Palabras con tiempo de la TIMELINE a partir de un alineado por toma.
+ * `toFrame` convierte segundos de la toma original en frame de la composición (o null si esa palabra
+ * quedó fuera del montaje). El mapeo sale de la orden VIDEO-XXX (rangos de fuente → timeline); no se estima aquí.
+ */
+export const wordsFromAligned = (aligned: AlignedWords, toFrame: (sourceSeconds: number) => number | null): TimedWord[] => {
+  const out: TimedWord[] = [];
+  for (const w of aligned.words) {
+    const f = toFrame(w.start);
+    if (f !== null) out.push({ text: w.text, startFrame: f });
+  }
+  return out;
+};
+
 /** Minúsculas, sin tildes ni signos: «¡Comentá!» → «comenta». */
 export const normalizeWord = (s: string): string =>
   s
