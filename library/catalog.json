@@ -220,7 +220,9 @@
       "ref": "REF-3",
       "estado": "candidata",
       "funcion": "Reparte planos con corte duro y empuje lento por plano (SoftZoom). Incluye helpers de duración en segundos y total de frames.",
-      "usa": ["soft-zoom"],
+      "usa": [
+        "soft-zoom"
+      ],
       "edit_types": {
         "#edit-1-motion": "si",
         "#edit-2-pantalla-dividida": "condicional",
@@ -345,7 +347,9 @@
       "ref": null,
       "estado": "candidata",
       "funcion": "Perfil de marca = preset base + overrides existentes. Para otra marca se copia el perfil y se cambian los valores.",
-      "usa": ["presets"],
+      "usa": [
+        "presets"
+      ],
       "edit_types": {
         "#edit-1-motion": "si",
         "#edit-2-pantalla-dividida": "si",
@@ -362,7 +366,9 @@
       "ref": null,
       "estado": "incompleta",
       "funcion": "Perfil de ZevenPRO. Sin colores ni tipografías de marca confirmados; equivale al preset base hasta completarlo.",
-      "usa": ["brand-profile"],
+      "usa": [
+        "brand-profile"
+      ],
       "edit_types": {
         "#edit-1-motion": "si",
         "#edit-2-pantalla-dividida": "si",
@@ -380,7 +386,9 @@
       "ref": null,
       "estado": "disponible",
       "funcion": "Composición de 15 s que muestra los componentes y presets de LIB-001.",
-      "usa": ["presets"],
+      "usa": [
+        "presets"
+      ],
       "edit_types": {
         "#edit-1-motion": "no",
         "#edit-2-pantalla-dividida": "no",
@@ -398,7 +406,13 @@
       "ref": null,
       "estado": "candidata",
       "funcion": "Una composición sintética por receta nueva (LIB-ChunkCaptions, LIB-CutSequence, LIB-TextBehindSubject, LIB-KeywordTint). Se abre con `pnpm library`.",
-      "usa": ["chunk-captions", "cut-sequence", "text-behind-subject", "keyword-tint", "brand-zevenpro"],
+      "usa": [
+        "chunk-captions",
+        "cut-sequence",
+        "text-behind-subject",
+        "keyword-tint",
+        "brand-zevenpro"
+      ],
       "edit_types": {
         "#edit-1-motion": "no",
         "#edit-2-pantalla-dividida": "no",
@@ -406,6 +420,83 @@
         "#edit-4-avatar": "no"
       },
       "nota": "Es una galería, no un recurso de edición."
+    },
+    {
+      "id": "sfx-track",
+      "nombre": "SfxTrack",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/SfxTrack.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Efectos de sonido colocados por frame a partir de una lista de señales (`cues`). Falla de forma explícita si un id no existe en sfx.json.",
+      "usa": [
+        "sfx-pack",
+        "sfx-cues"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "La RAÍZ no fija política de efectos de sonido por EDIT_TYPE: es una propuesta de partida. En #edit-2 y #edit-3 solo si la orden lo pide (el exceso de efectos hace que el formato parezca sobreeditado)."
+    },
+    {
+      "id": "sfx-pack",
+      "nombre": "Paquete de sonidos CC0",
+      "tipo": "datos",
+      "origen": "library",
+      "archivo": "library/sfx/sfx.json",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Manifiesto de 6 sonidos con licencia CC0 declarada (whoosh, whip, ui-switch, page-turn, mouse-click, shutter-modern), reglas evento/palabra → sonido, límites de densidad y lista de sonidos excluidos y pendientes. `node library/sfx/fetch-sfx.mjs` baja los archivos a public/sfx.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "Faltan sonidos de impacto, subida, contador, caja y tecleo (sección 'pendientes'). Licencias leídas en remotion.dev el 2026-10-03; no verificadas de forma independiente."
+    },
+    {
+      "id": "sfx-cues",
+      "nombre": "Generador de señales de sonido",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/sfx/cues.ts",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Funciones puras: de eventos de edición (cortes, transiciones, tarjetas) y de palabras con tiempo real a una lista de señales, con adelanto por regla y filtro anti-saturación.",
+      "usa": [
+        "sfx-pack"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-avatar": "si"
+      },
+      "nota": "Las palabras con tiempo deben salir de un análisis real con timestamps; no se estiman."
+    },
+    {
+      "id": "clean-voice",
+      "nombre": "Limpieza de voz (FFmpeg)",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/audio/clean-voice.mjs",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Pasa-altos, reducción de ruido RNNoise (o afftdn), EQ suave, de-esser, compresor y loudness a -14 LUFS / -1,5 dBTP en dos pasadas. No toca la entrada; escribe .clean.wav y un informe antes/después.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-avatar": "condicional"
+      },
+      "nota": "En #edit-4 solo si hay voz grabada: una voz generada no la necesita. Mide nivel, no timbre: el resultado se aprueba escuchando."
     }
   ]
 }

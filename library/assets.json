@@ -1,9 +1,34 @@
 {
   "version": 1,
-  "descripcion": "Manifiesto de procedencia de recursos externos (tipografías, clips, audio, Lottie, recortes). Vacío hasta que un video use un recurso externo. Cada uso se registra con fuente, licencia, URL, fecha y estado.",
-  "estados": ["pendiente", "usado", "descartado"],
-  "campos_item": ["id", "archivo", "fuente", "licencia", "url", "fecha", "estado", "video"],
-  "items": [],
+  "descripcion": "Manifiesto de procedencia de recursos externos (tipografías, clips, audio, Lottie, recortes). Registra recursos externos con su procedencia (el modelo de ruido de la limpieza de voz ya está; los clips y fuentes entran cuando un video los use). Cada uso se registra con fuente, licencia, URL, fecha y estado.",
+  "estados": [
+    "pendiente",
+    "usado",
+    "descartado"
+  ],
+  "campos_item": [
+    "id",
+    "archivo",
+    "fuente",
+    "licencia",
+    "url",
+    "fecha",
+    "estado",
+    "video"
+  ],
+  "items": [
+    {
+      "id": "modelo-rnnoise-sh",
+      "archivo": "library/audio/models/sh.rnnn",
+      "fuente": "GregorR/rnnoise-models, somnolent-hogwash-2018-09-01 (voz hablada con ruido de grabación)",
+      "licencia": "Sin derechos de autor según el README del autor (declaración del autor; no revisada por un abogado)",
+      "url": "https://github.com/GregorR/rnnoise-models",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": null,
+      "nota": "Lo usa library/audio/clean-voice.mjs (sha256 70bb6685eb0c2a1d18e2918dca3fbfbd39317010b1802eb1b6ea73a92f3fdec0). Aún no hay un video que haya pasado por la cadena."
+    }
+  ],
   "fuentes_candidatas": [
     {
       "nombre": "Pexels",

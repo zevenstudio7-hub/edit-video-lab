@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "descripcion": "Sonidos y reglas para efectos de sonido sincronizados con la edición. Solo entran sonidos con licencia declarada CC0 leída en su ficha. Los archivos se descargan a public/sfx con `node library/sfx/fetch-sfx.mjs` (CC0: se pueden versionar una vez descargados).",
+  "carpeta_publica": "public/sfx",
+  "leida_el": "2026-10-03",
+  "sonidos": [
+    {
+      "id": "whoosh",
+      "archivo": "public/sfx/whoosh.wav",
+      "url": "https://remotion.media/whoosh.wav",
+      "autor": "1bob (freesound.org/s/831936)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/whoosh",
+      "volumen": 0.45,
+      "uso": "Transición grande, entrada o salida de un panel."
+    },
+    {
+      "id": "whip",
+      "archivo": "public/sfx/whip.wav",
+      "url": "https://remotion.media/whip.wav",
+      "autor": "JW_Audio (freesound.org/s/838766)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/whip",
+      "volumen": 0.45,
+      "uso": "Corte seco entre planos (0,17 s)."
+    },
+    {
+      "id": "ui-switch",
+      "archivo": "public/sfx/switch.wav",
+      "url": "https://remotion.media/switch.wav",
+      "autor": "Kenney (UI Audio, Switch 35)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/ui-switch",
+      "volumen": 0.5,
+      "uso": "Aparece una tarjeta de interfaz o cambia un interruptor."
+    },
+    {
+      "id": "page-turn",
+      "archivo": "public/sfx/page-turn.wav",
+      "url": "https://remotion.media/page-turn.wav",
+      "autor": "Kenney (Draw Knife 1)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/page-turn",
+      "volumen": 0.45,
+      "uso": "Cambio de pantalla o de sección (0,40 s)."
+    },
+    {
+      "id": "mouse-click",
+      "archivo": "public/sfx/mouse-click.wav",
+      "url": "https://remotion.media/mouse-click.wav",
+      "autor": "Pixeliota (freesound.org/s/678248)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/mouse-click",
+      "volumen": 0.5,
+      "uso": "Clic o botón: cuando se dice «comenta» o se pulsa un CTA (0,40 s)."
+    },
+    {
+      "id": "shutter-modern",
+      "archivo": "public/sfx/shutter-modern.wav",
+      "url": "https://remotion.media/shutter-modern.wav",
+      "autor": "ristooooo1 (DSLR Shutter fast 006)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/shutter-modern",
+      "volumen": 0.45,
+      "uso": "Captura de pantalla o foto (0,49 s)."
+    }
+  ],
+  "excluidos": [
+    {
+      "ids": ["ding", "record-scratch"],
+      "motivo": "Remotion indica que no están publicados con licencia libre explícita («probablemente OK por su uso extendido»). No usar en trabajo de clientes sin revisar."
+    },
+    {
+      "ids": ["snapchat-notification", "windows-xp-error", "minecraft-hurt", "sanctuary-guardian-what", "price-is-right-fail", "spongebob-fail", "wilhelm-scream", "vine-boom", "bruh", "fah", "omg-hell-nah", "romance-meme", "bone-crack", "anime-wow", "yippee", "loading-lag", "mac-quack", "skedaddle", "nelly-ahh", "oh-my-god-vine", "illuminati-confirmed", "dramatic-boomer", "triggered"],
+      "motivo": "Sonidos de marcas, juegos o memes. Licencia sin revisar y tono ajeno a la marca. No se incluyen."
+    }
+  ],
+  "pendientes": [
+    { "id": "impact", "necesidad": "Golpe grave para una cifra o palabra clave (REF-2)." },
+    { "id": "pop-ui", "necesidad": "Entrada corta de tarjeta, más suave que ui-switch." },
+    { "id": "tick-contador", "necesidad": "Tic para contadores numéricos." },
+    { "id": "riser", "necesidad": "Subida corta antes de una revelación." },
+    { "id": "caja", "necesidad": "Ventas o dinero." },
+    { "id": "tecleo", "necesidad": "Escritura en un campo de texto." }
+  ],
+  "reglas": [
+    { "evento": "corte", "sonido": "whip", "adelanto_frames": 2 },
+    { "evento": "transicion", "sonido": "whoosh", "adelanto_frames": 4 },
+    { "evento": "tarjeta", "sonido": "ui-switch", "adelanto_frames": 0 },
+    { "evento": "seccion", "sonido": "page-turn", "adelanto_frames": 3 },
+    { "palabras": ["comenta", "comentar", "comentame", "clic", "click", "boton", "pulsa", "toca"], "sonido": "mouse-click", "adelanto_frames": 0 },
+    { "palabras": ["foto", "captura", "pantallazo", "screenshot"], "sonido": "shutter-modern", "adelanto_frames": 0 }
+  ],
+  "limites": {
+    "separacion_min_frames": 8,
+    "separacion_min_mismo_sonido_frames": 24
+  },
+  "nota": "Los volúmenes son un punto de partida (la voz debe seguir mandando). Se ajustan escuchando con la voz ya limpia."
+}

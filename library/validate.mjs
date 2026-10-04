@@ -27,7 +27,7 @@ const EDIT_TYPES = [
   "#edit-3-organico",
   "#edit-4-avatar",
 ];
-const TIPOS = ["componente", "receta", "preset", "tokens", "marca", "composicion"];
+const TIPOS = ["componente", "receta", "preset", "tokens", "marca", "composicion", "herramienta", "datos"];
 const ORIGENES = ["LIB-001", "library"];
 const ESTADOS = ["disponible", "candidata", "validada", "incompleta"];
 const USO = ["si", "condicional", "no"];
@@ -113,8 +113,51 @@ if (assets) {
   }
 }
 
+
+// ---------- sonidos ----------
+const sfx = readJson("library/sfx/sfx.json");
+let sfxSinDescargar = [];
+if (sfx) {
+  if (sfx.version !== 1) err("sfx.json: version debe ser 1");
+  if (!/^public\/[a-z0-9/_-]+$/.test(sfx.carpeta_publica ?? "")) err("sfx.json: carpeta_publica debe vivir bajo public/");
+  const sids = new Set();
+  for (const s of sfx.sonidos ?? []) {
+    const w = `sonido '${s.id ?? "?"}'`;
+    for (const k of ["id", "archivo", "url", "autor", "licencia", "licencia_fuente", "volumen", "uso"]) {
+      if (s[k] === undefined) err(`${w}: falta '${k}'`);
+    }
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s.id ?? "")) err(`${w}: id debe ser kebab-case`);
+    if (sids.has(s.id)) err(`${w}: id duplicado`);
+    sids.add(s.id);
+    if (s.licencia !== "CC0") err(`${w}: solo se admite licencia CC0 declarada (encontrado '${s.licencia}')`);
+    if (!String(s.url ?? "").startsWith("https://")) err(`${w}: url debe ser https`);
+    if (!String(s.licencia_fuente ?? "").startsWith("https://")) err(`${w}: licencia_fuente debe ser una URL https`);
+    if (!String(s.archivo ?? "").startsWith(`${sfx.carpeta_publica}/`)) err(`${w}: archivo debe estar en ${sfx.carpeta_publica}`);
+    if (!(s.volumen > 0 && s.volumen <= 1)) err(`${w}: volumen debe estar en (0, 1]`);
+    if (s.archivo && !existsSync(join(root, s.archivo))) sfxSinDescargar.push(s.id);
+  }
+  const excluidos = new Set((sfx.excluidos ?? []).flatMap((x) => x.ids ?? []));
+  for (const id of sids) if (excluidos.has(id)) err(`sonido '${id}': está a la vez en sonidos y en excluidos`);
+  for (const [i, r] of (sfx.reglas ?? []).entries()) {
+    const w = `regla #${i + 1}`;
+    if (!sids.has(r.sonido)) err(`${w}: el sonido '${r.sonido}' no existe en sonidos`);
+    if (excluidos.has(r.sonido)) err(`${w}: usa el sonido excluido '${r.sonido}'`);
+    if ((r.evento === undefined) === (r.palabras === undefined)) err(`${w}: debe tener 'evento' o 'palabras' (uno solo)`);
+    if (r.palabras !== undefined && (!Array.isArray(r.palabras) || r.palabras.length === 0)) err(`${w}: 'palabras' debe ser un arreglo no vacío`);
+  }
+  const lim = sfx.limites ?? {};
+  for (const k of ["separacion_min_frames", "separacion_min_mismo_sonido_frames"]) {
+    if (!Number.isInteger(lim[k]) || lim[k] < 0) err(`sfx.json: limites.${k} debe ser un entero ≥ 0`);
+  }
+  if (!existsSync(join(root, "library/audio/models/sh.rnnn"))) err("library/audio/models/sh.rnnn: falta el modelo que usa clean-voice.mjs");
+}
+
 if (catalog) console.log(`catálogo: ${total} entradas · ${JSON.stringify(porEstado)}`);
 if (assets) console.log(`assets: ${assets.items?.length ?? 0} registrados · ${assets.fuentes_candidatas?.length ?? 0} fuentes candidatas`);
+if (sfx) {
+  console.log(`sonidos: ${sfx.sonidos?.length ?? 0} con CC0 declarada · ${sfx.pendientes?.length ?? 0} pendientes por conseguir`);
+  if (sfxSinDescargar.length) warn(`sonidos sin descargar (${sfxSinDescargar.join(", ")}): node library/sfx/fetch-sfx.mjs`);
+}
 for (const w of warnings) console.warn(`AVISO  ${w}`);
 for (const e of errors) console.error(`ERROR  ${e}`);
 console.log(errors.length ? `✗ ${errors.length} error(es)` : "✓ catálogo y manifiesto válidos");

@@ -12,7 +12,10 @@ La política manda desde `docs/VIDEO-SYSTEM-ROOT.md`; la orden `video-orders/VID
 | `recipes/` | Recetas nuevas, todas `candidata`: `ChunkCaptions`, `CutSequence`, `TextBehindSubject`, `KeywordTint`. |
 | `brand/` | `BrandProfile` + `BrandProvider` (preset base + overrides que el repo ya soporta) y el perfil `zevenpro` (incompleto). |
 | `gallery/Samples.tsx` | Una composición sintética por receta, para verla en Studio. |
-| `assets.json` | Manifiesto de procedencia de recursos externos. Vacío hasta que un video use uno. |
+| `recipes/SfxTrack.tsx` | Efectos de sonido por frame (candidata). |
+| `sfx/` | `sfx.json` (6 sonidos CC0 declarada, reglas evento/palabra → sonido, límites), `cues.ts` (genera las señales), `fetch-sfx.mjs` (descarga los archivos a `public/sfx`). |
+| `audio/` | `clean-voice.mjs` (limpieza de voz con FFmpeg) y `models/sh.rnnn` (modelo RNNoise). |
+| `assets.json` | Manifiesto de procedencia de recursos externos (hoy: el modelo de ruido; los clips y fuentes entran cuando un video los use). |
 | `validate.mjs` | Comprueba que el catálogo y el manifiesto son coherentes (sin dependencias). |
 | `index.ts`, `Root.tsx` | Entrada de Remotion propia de la biblioteca (independiente de `src/Root.tsx`). |
 | `tsconfig.json` | Typecheck de `library/` (incluye `src/` porque lo importa). |
@@ -23,6 +26,14 @@ La política manda desde `docs/VIDEO-SYSTEM-ROOT.md`; la orden `video-orders/VID
 pnpm library            # Studio solo con las muestras LIB-*
 pnpm library:check      # valida catalog.json y assets.json
 pnpm typecheck:library  # tsc sobre library/ (el typecheck de src/ no cambia)
+```
+
+Voz y sonido (no necesitan instalar nada nuevo; solo FFmpeg y Node ≥ 18):
+
+```bash
+node library/audio/clean-voice.mjs ruta/toma.mov --from 5 --to 35   # A/B rápido de 30 s → toma.clean.wav + informe
+node library/audio/clean-voice.mjs ruta/toma.mov --mux             # además, video copiado + audio limpio
+node library/sfx/fetch-sfx.mjs                                      # baja los 6 sonidos CC0 a public/sfx
 ```
 
 Un still de una receta (ejemplo):
@@ -50,12 +61,28 @@ Comprobado:
 - Las cuatro composiciones LIB-* se registran y se pintan en Chromium sin errores de página.
 - El orden de capas de `TextBehindSubject`, el cambio duro y el reinicio del empuje por plano de `CutSequence`, el énfasis de `ChunkCaptions` y el lavado de `KeywordTint` se revisaron en cuadros fijos.
 
+- `clean-voice.mjs` se ejecutó con FFmpeg 6.1.1 sobre 30 s del resultado grabado: pasó de −12,6 LUFS y 0,0 dBTP a −13,9 LUFS y −1,5 dBTP; probados los rechazos (destino existente, destino = entrada), `--denoise fft`, `--mux` y `--dry-run`.
+- `cues.ts` se compiló y se probó con casos propios (adelantos, orden, descarte por cercanía, evento sin regla). `SfxTrack.tsx` pasa tsc contra un sustituto de la API.
+- El validador falla con datos de sonido mal puestos (probado rompiéndolos a propósito).
+
 No comprobado:
 
+- **Oído**: nadie ha escuchado todavía el audio limpio ni los efectos; las cifras miden nivel, no timbre, eco ni artefactos del reductor de ruido.
+- Las pruebas de audio usaron una grabación de pantalla de Instagram (recodificada), no una toma original.
+- `fetch-sfx.mjs` no se pudo ejecutar aquí (el entorno no alcanza remotion.media): falta bajar los archivos y comprobar que `<Audio>` los reproduce en Studio.
+- Que FFmpeg del Mac tenga `arnndn` y `deesser` (el script avisa y cae a `afftdn`/omite si no).
 - Ejecución con **Remotion real**: las pruebas usaron un sustituto mínimo de la API (npm no era accesible). Los tiempos del `spring` pueden diferir.
 - `pnpm typecheck:library` con los tipos reales de React y Remotion 4.0.438.
 - Reproducción en Studio, render con audio y comportamiento con material real.
 - Ninguna receta está probada en una orden VIDEO-XXX: por eso todas son `candidata`.
+
+## Audio y sonido
+
+**Voz.** `clean-voice.mjs` aplica pasa-altos 80 Hz → RNNoise (`arnndn`, modelo `sh.rnnn`: voz hablada con ruido de grabación) → EQ suave (−2 dB a 300 Hz, +2 dB a 3,5 kHz) → de-esser → compresor → loudness en dos pasadas a −14 LUFS / −1,5 dBTP → WAV 48 kHz/24 bit. No toca la entrada, rechaza sobrescribirla y escribe un informe antes/después. Los valores del EQ son un punto de partida, no una medición de tu voz.
+
+**Efectos.** Las señales salen de dos fuentes: eventos de la edición (cortes, transiciones, tarjetas, secciones) y palabras con tiempo real (`cues.ts`). Las reglas viven en `sfx/sfx.json`; `thinCues` descarta las que quedan demasiado juntas para evitar la «lluvia de sonidos». `SfxTrack` las coloca con `<Audio>` + `<Sequence>`. Solo entran sonidos con CC0 declarada; los que Remotion marca como «probablemente OK» y los de marcas, juegos o memes están en `excluidos`.
+
+**Servicios de pago.** No hay ninguno conectado ni hace falta para esto. ElevenLabs (Voice Isolator, generación de efectos) queda como paso opcional: se prueba con una toma real solo si la cadena local no basta, y exige una clave que debe poner el usuario.
 
 ## Notas por receta
 
