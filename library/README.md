@@ -70,7 +70,7 @@ No comprobado:
 - **Oído**: nadie ha escuchado todavía el audio limpio ni los efectos; las cifras miden nivel, no timbre, eco ni artefactos del reductor de ruido.
 - Las pruebas de audio usaron una grabación de pantalla de Instagram (recodificada), no una toma original.
 - `fetch-sfx.mjs` no se pudo ejecutar aquí (el entorno no alcanza remotion.media): falta bajar los archivos y comprobar que `<Audio>` los reproduce en Studio.
-- Que FFmpeg del Mac tenga `arnndn` y `deesser` (el script avisa y cae a `afftdn`/omite si no).
+- Que el FFmpeg del Mac tenga `arnndn` y `deesser`: comprobar con `ffmpeg -filters | grep -E "arnndn|deesser"`. Sin `arnndn` el script se detiene (no cae en silencio a `afftdn`, que casi no reduce ruido).
 - Ejecución con **Remotion real**: las pruebas usaron un sustituto mínimo de la API (npm no era accesible). Los tiempos del `spring` pueden diferir.
 - `pnpm typecheck:library` con los tipos reales de React y Remotion 4.0.438.
 - Reproducción en Studio, render con audio y comportamiento con material real.

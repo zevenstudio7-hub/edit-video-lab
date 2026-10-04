@@ -95,15 +95,16 @@ for (const f of ["loudnorm", "highpass", "acompressor", "equalizer", "aresample"
 }
 
 const avisos = [];
-let denoise = opt.denoise;
+const denoise = opt.denoise;
+// Sin RNNoise no se cae en silencio a 'afftdn': en la prueba con una toma de VIDEO-001 casi no bajó el ruido
+// (relación voz/ruido 24,5 dB frente a 24,1 dB sin reductor). Mejor fallar que dar por limpio un audio sucio.
 if (denoise === "rnn" && !has("arnndn")) {
-  avisos.push("Este FFmpeg no tiene 'arnndn': se usa 'afftdn' (reducción de ruido más básica).");
-  denoise = "fft";
+  fail("este FFmpeg no incluye 'arnndn' (RNNoise). Usa un FFmpeg completo (p. ej. `brew install ffmpeg`) o define FFMPEG=/ruta/ffmpeg. Con --denoise fft aceptas un resultado mucho más débil.");
 }
 if (denoise === "rnn" && !existsSync(join(MODEL_DIR, MODEL_FILE))) {
-  avisos.push(`Falta el modelo ${MODEL_FILE} en library/audio/models: se usa 'afftdn'.`);
-  denoise = "fft";
+  fail(`falta el modelo library/audio/models/${MODEL_FILE}`);
 }
+if (denoise === "fft") avisos.push("'afftdn' casi no reduce ruido de fondo constante (medido en VIDEO-001); úsalo solo si no hay RNNoise.");
 let deess = opt.deess;
 if (deess && !has("deesser")) {
   avisos.push("Este FFmpeg no tiene 'deesser': se omite.");
