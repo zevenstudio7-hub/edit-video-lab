@@ -32,5 +32,5 @@
   "politica_ia_generativa": "OFF. Todo es material real y capturas.",
   "cta": "Ninguno agregado.",
   "salida_esperada": "out/video-001.mp4",
-  "estado": { "preview": "pendiente de revision del usuario", "render_final": "NO autorizado" }
+  "estado": { "preview": "aprobado por el usuario", "render_final": "renderizado y autorizado por el usuario: out/video-001.mp4" }
 }
