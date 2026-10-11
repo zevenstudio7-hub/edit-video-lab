@@ -1,0 +1,36 @@
+{
+  "VIDEO_ID": "VIDEO-001",
+  "EDIT_TYPE": "#edit-1-motion",
+  "EDIT_TYPE_NOTE": "Unboxing real con apoyos pequenos superpuestos; el usuario no pidio pantalla dividida. Pendiente de confirmar.",
+  "objetivo": "Unboxing de equipo de iluminacion y accesorios comprados en Amazon, con una imagen del producto superpuesta (pequena) cuando aparece cada objeto.",
+  "fuentes": {
+    "video": "public/video-001/unboxin.mp4 (1440x2560, 24fps, 32.6s, Drive: UNBOXIN.mp4)",
+    "imagenes_apoyo": "public/video-001/support/*.jpg (recortes de capturas de Amazon en Drive: tomas de apoyo)",
+    "boceto_layout": "HEIC del usuario: recuadro de imagen pequeno a la derecha, a media altura, con texto debajo"
+  },
+  "guion": "NO existe guion. El audio no contiene voz (solo 'Suscribete' en 30-32s).",
+  "formato": "9:16, 1080x1920, 30fps",
+  "duracion_objetivo_s": 32.6,
+  "estructura_narrativa": [
+    "0-4.5s apertura de la caja",
+    "4.5-9.2s trípode",
+    "9.4-14s luz RGB",
+    "14.5-16.8s cable USB-C",
+    "17.5-29.5s kit softbox con luz",
+    "30-32.6s resultado en el set"
+  ],
+  "cortes": "Ninguno. Se conserva el video completo.",
+  "subtitulos": "Ninguno (sin voz).",
+  "motion_graphics": "Tarjeta de apoyo pequena (300px) con entrada/salida spring y nombre del producto debajo.",
+  "recursos_de_apoyo": [
+    { "producto": "Tripode NEEWER Basics 71in (B0FFMYZXF5)", "imagen": "tripod.jpg", "in_s": 4.5, "out_s": 9.2 },
+    { "producto": "Luz RGB para selfie NiceVeedi (B0FPLP75VD)", "imagen": "rgb-light.jpg", "in_s": 9.4, "out_s": 14.0 },
+    { "producto": "Cable USB-C a USB-C 10ft (B0CHJF8DY8)", "imagen": "usbc-cable.jpg", "in_s": 14.5, "out_s": 16.8 },
+    { "producto": "Kit de iluminacion Softbox 90W NiceVeedi (B0FPLP75VD, variante kit)", "imagen": "softbox-kit.jpg", "in_s": 17.5, "out_s": 29.5 }
+  ],
+  "nota_enlaces": "Los 4 enlaces de Amazon bloquean el acceso automatizado (captcha). Las imagenes salen de las capturas de Drive. El enlace B0FPLP75VD aparece 2 veces; las capturas muestran la luz RGB y el kit softbox, y se asignaron por lo que se ve en el video.",
+  "politica_ia_generativa": "OFF. Todo es material real y capturas.",
+  "cta": "Ninguno agregado.",
+  "salida_esperada": "out/video-001.mp4",
+  "estado": { "preview": "pendiente de revision del usuario", "render_final": "NO autorizado" }
+}
