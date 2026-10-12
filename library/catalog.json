@@ -809,6 +809,42 @@
         "#edit-5-creator": "no"
       },
       "nota": "Definido el 2026-10-09 por Code sin video ni aprobación audiovisual."
+    },
+    {
+      "id": "discreet-captions",
+      "nombre": "DiscreetCaptions",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/DiscreetCaptions.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Subtítulo S6 «Discreto»: bloques de 3–6 palabras en negrita, blancos con sombra, centrados abajo, con corte duro; la palabra clave aparece en una píldora blanca con un pop corto cuando se dice. Primera receta real en VIDEO-004 (#edit-3-organico 3C); falta aprobación audiovisual.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "no"
+      }
+    },
+    {
+      "id": "floating-captions",
+      "nombre": "FloatingCaptions",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/FloatingCaptions.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Subtítulo S8 «Flotante cinematográfico»: sans fina sin caja que se construye palabra a palabra al ritmo de la voz y se reinicia en cada frase; palabra clave en 700. La posición la fija el sujeto (dos espacios libres a sus lados, a la altura de su cabeza; formatos/subtitulos/SUBTITULOS.md). Primera receta real en VIDEO-004 (#edit-3-organico 3C); falta aprobación audiovisual.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "no"
+      }
     }
   ]
 }

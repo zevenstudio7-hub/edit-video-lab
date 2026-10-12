@@ -2,49 +2,160 @@
 
 ## Objetivo
 
-Construir un sistema de edición y producción audiovisual asistido por IA para transformar material grabado por el usuario en contenido listo para publicar, usando principalmente Gemini para análisis e interpretación y Remotion para composición, motion graphics y render.
+Construir un sistema de edición y producción audiovisual asistido por IA para transformar material grabado por el usuario en contenido listo para publicar.
 
-El sistema debe reducir al mínimo la búsqueda manual de recursos y convertir estrategia, guion o material bruto en una orden de edición reproducible.
+El sistema debe:
 
-## Flujo operativo
+- reducir al mínimo la búsqueda manual de recursos;
+- convertir estrategia, guion y material bruto en una orden de edición reproducible;
+- reutilizar componentes y presets antes de crear infraestructura nueva;
+- activar IA generativa solo cuando el tipo de video o una necesidad visual real lo justifique;
+- mantener una separación clara entre dirección editorial, ejecución técnica, generación de assets y render.
 
-Google Drive / material grabado / guion cuando exista
-→ ChatGPT organiza estrategia y plan de edición
-→ GitHub recibe una orden VIDEO-XXX
-→ Antigravity consulta esta RAÍZ + la orden
-→ Gemini analiza cuando corresponda
-→ Remotion ejecuta composición y motion graphics
-→ render
-→ revisión
-→ video final
+El nombre histórico del repositorio se mantiene, pero Gemini deja de ser una dependencia obligatoria del pipeline. Las herramientas generativas se consideran proveedores opcionales según el EDIT_TYPE y la necesidad real.
 
-Cuando sea necesario:
+## Directriz obligatoria: investigar antes de decidir
 
-Gemini / modelos de imagen / modelos de video / otras herramientas IA
-→ generan recursos de apoyo
-→ Remotion los integra
+Este sistema no debe validar automáticamente las ideas del usuario. Debe mejorarlas.
+
+Antes de definir, modificar o ampliar cualquier decisión importante sobre edición, arquitectura, agentes, herramientas, renders, motion graphics, captions, captura, generación de assets o automatización, el responsable debe:
+
+1. estudiar primero las capacidades y prácticas vigentes de las herramientas relevantes;
+2. revisar documentación oficial, repositorios de referencia, Agent Skills, ejemplos y casos de uso aplicables;
+3. comprobar si ya existe una solución técnica madura antes de diseñar una propia;
+4. comparar al menos las alternativas razonables cuando la decisión pueda afectar calidad, tiempo, costo o complejidad;
+5. distinguir evidencia, experiencia observada e hipótesis;
+6. proponer una opción superior aunque contradiga la idea inicial del usuario;
+7. evitar construir infraestructura propia cuando una solución existente resuelva mejor el problema;
+8. probar en material real antes de convertir una preferencia en regla permanente.
+
+La conversación estratégica, ChatGPT / Work y los agentes ejecutores deben actuar como sistema de investigación + propuesta, no como mecanismo de aprobación de ideas.
+
+Las preferencias de herramienta no se convierten en arquitectura sin prueba. Por ejemplo, Claude Code, Codex, Hermes u otros agentes deben evaluarse por resultados reales en el flujo audiovisual: precisión de cortes, cumplimiento de orden, calidad visual, uso correcto de Remotion, velocidad, costo, número de correcciones y estabilidad.
+
+## Referencia técnica upstream
+
+Remotion oficial es referencia técnica upstream del sistema.
+
+Antes de desarrollar una solución propia con React/Remotion, el agente debe comprobar si el ecosistema oficial ya proporciona:
+
+- componente;
+- API;
+- paquete;
+- effect;
+- transition;
+- captions;
+- template;
+- Agent Skill;
+- ejemplo;
+- patrón recomendado;
+- herramienta de render;
+- integración aplicable.
+
+La jerarquía es:
+
+VIDEO-SYSTEM-ROOT.md
+→ política conceptual/editorial
+
+video-orders/VIDEO-XXX.json
+→ contrato operativo del video
+
+Remotion oficial + documentación + Agent Skills
+→ referencia técnica de implementación
+
+Código local
+→ implementación específica solo cuando sea necesaria
+
+No copiar el repositorio de Remotion ni reconstruir sus capacidades. Trabajar sobre su ecosistema y extender únicamente lo que el caso real requiera.
+
+## Evaluación de orquestación y agentes
+
+El sistema puede usar una capa de orquestación separada del agente editor.
+
+Arquitectura candidata a validar:
+
+TÚ / WORK
+→ dirección e investigación
+→ ORQUESTADOR
+→ agente editor principal
+→ agentes de apoyo / revisión
+→ Remotion + FFmpeg + proveedores de assets
+→ QA
+→ Preview
+→ corrección
+→ render final.
+
+Hermes es candidato a la capa de orquestación, pero no debe adoptarse hasta identificar y evaluar la implementación exacta que se utilizará.
+
+Claude Code es candidato a agente editor principal para Remotion. Codex puede mantenerse como ejecutor, revisor, QA o fallback. Esta distribución debe validarse mediante pruebas comparables sobre material real antes de declararse definitiva.
+
+## Flujo operativo general
+
+TÚ
+→ ChatGPT / Work: estrategia, guion, objetivo, referencias y tipo de edición
+→ agente de producción seleccionado según evaluación vigente
+→ el agente consulta esta RAÍZ + órdenes existentes relevantes + materiales del VIDEO-XXX
+→ crea o actualiza video-orders/VIDEO-XXX.json
+→ ejecuta el pipeline definido por EDIT_TYPE
+→ Remotion Studio: preview y revisión
+→ aplica correcciones
+→ render final autorizado
+→ VIDEO FINAL
+
+El render final no debe ejecutarse antes de la revisión del preview, salvo orden explícita del usuario.
 
 ## Roles
 
-### ChatGPT
-- revisar guion, material y objetivo;
+### Usuario
+- define objetivo, material, referencias y resultado esperado;
+- elige o confirma EDIT_TYPE cuando corresponda;
+- revisa preview;
+- aprueba render final.
+
+### ChatGPT / Work
+- dirección estratégica y editorial;
+- investigar antes de recomendar;
+- revisar objetivo, guion, referencias y material disponible;
 - definir estructura narrativa;
-- decidir cortes, apoyos visuales, subtítulos, motion graphics, B-roll y CTA;
-- crear y actualizar órdenes VIDEO-XXX en GitHub;
-- mantener la dirección del sistema.
+- comparar herramientas y alternativas cuando corresponda;
+- decidir qué debe ser material real, motion graphic o asset generativo;
+- formular instrucciones claras para el agente ejecutor;
+- ayudar a evaluar el preview y convertir feedback en correcciones concretas.
+
+### Agente ejecutor
+Puede ser Claude Code, Codex u otro agente aprobado después de pruebas.
+
+Debe:
+- consultar siempre esta RAÍZ antes de crear o ejecutar una orden;
+- consultar órdenes VIDEO-XXX existentes del mismo EDIT_TYPE o de estructura similar;
+- revisar el estado real del repositorio antes de modificarlo;
+- revisar Remotion oficial y sus Agent Skills antes de implementar una capacidad nueva;
+- crear o actualizar video-orders/VIDEO-XXX.json antes de montar o corregir una edición;
+- ejecutar FFmpeg, Remotion, scripts y tareas locales;
+- reutilizar componentes oficiales y locales existentes;
+- crear componentes nuevos solo cuando un caso real lo requiera;
+- integrar assets reales y generativos;
+- abrir preview en Remotion Studio;
+- detenerse antes del render final salvo autorización explícita.
+
+### Orquestador
+Puede ser Hermes u otra solución validada.
+
+Responsabilidades potenciales:
+- clasificar la tarea;
+- delegar a agentes especializados;
+- separar planificación, implementación y revisión;
+- coordinar estados;
+- limitar bucles;
+- mantener trazabilidad;
+- solicitar intervención humana solo cuando sea necesaria.
+
+No sustituye la RAÍZ ni la orden VIDEO-XXX.
 
 ### GitHub
-- fuente de verdad del proyecto;
-- almacenar RAÍZ, componentes, presets y órdenes de video;
-- registrar evolución y cambios.
-
-### Antigravity
-- agente ejecutor;
-- consultar siempre esta RAÍZ antes de ejecutar una orden;
-- leer VIDEO-XXX;
-- reutilizar componentes existentes;
-- crear componentes nuevos solo cuando un caso real lo requiera;
-- validar y renderizar.
+- fuente de verdad del sistema;
+- almacenar esta RAÍZ, componentes, presets, órdenes y evolución técnica;
+- conservar historial de decisiones.
 
 ### Remotion
 - motor de composición;
@@ -54,25 +165,44 @@ Gemini / modelos de imagen / modelos de video / otras herramientas IA
 - overlays;
 - reencuadres;
 - transiciones;
-- integración de imágenes, video, audio y recursos generados;
+- layouts;
+- integración de imágenes, video, audio y assets generados;
 - render final.
 
-### Gemini
-- análisis e interpretación del contenido;
-- comprensión de video, audio, guion y material;
-- apoyo para estructurar planes de edición;
-- generación de instrucciones estructuradas;
-- futura automatización del flujo.
+### FFmpeg
+- inspección técnica de clips;
+- cortes y trims;
+- audio;
+- formatos;
+- extracción de frames cuando sea útil;
+- procesamiento auxiliar.
+
+### Proveedores de IA generativa
+No forman parte obligatoria de todos los videos.
+
+Se activan únicamente cuando el EDIT_TYPE o una necesidad visual real lo justifique.
+
+Pueden incluir:
+- modelos de imagen;
+- modelos de video como Veo u otros;
+- generación de B-roll;
+- fondos;
+- personajes o avatares;
+- otros proveedores aprobados posteriormente.
 
 ## Principios
 
-- editar primero material grabado por el usuario;
-- priorizar control, calidad y reproducibilidad;
+- editar primero el material real del usuario;
+- material real antes que material generado cuando ambos resuelven la misma necesidad;
+- Remotion antes que IA generativa cuando el recurso puede resolverse con texto, formas, gráficos, layout o motion;
+- no generar algo que ya existe como asset real útil;
 - reutilizar componentes antes de crear nuevos;
-- evitar código distinto para cada video cuando pueda resolverse con componentes o presets;
+- evitar código distinto para cada video cuando pueda resolverse con componentes, datos o presets;
+- construir la biblioteca audiovisual a partir de casos reales;
 - evitar sobreconstrucción;
-- mantener separados edición de material existente y producción audiovisual generativa;
-- el usuario no debe tener que buscar manualmente material de apoyo salvo que sea estrictamente necesario.
+- no añadir infraestructura que no acerque el video actual al preview;
+- el usuario no debe buscar manualmente B-roll o imágenes salvo que el recurso deba ser real, exacto o verificable;
+- una orden VIDEO-XXX es el contrato operativo de cada edición.
 
 ## Regla de recursos de apoyo
 
@@ -115,6 +245,26 @@ Cada edición crea o actualiza `analysis/<video-id>-support-research.json` con:
 
 Todo recurso externo finalmente usado también se registra en `library/assets.json`. Una edición no pasa a preview revisable si faltan la investigación de los temas centrales o la procedencia de un apoyo visible. Un recurso con derechos `requiere_revision` no pasa al render final hasta resolverlo.
 
+### Prioridad por defecto ante una necesidad visual
+
+Ante una necesidad visual, seguir este orden por defecto:
+
+1. material real ya disponible del proyecto;
+2. captura o screen recording real;
+3. imagen real suministrada;
+4. texto, formas, gráficos, layout o motion con Remotion;
+5. imagen generada por IA;
+6. video/B-roll generado por IA;
+7. solicitar material adicional al usuario solo cuando deba ser real, exacto o verificable.
+
+Ejemplos donde sí puede requerirse material real:
+- interfaz específica de un producto;
+- captura de una cuenta o resultado real;
+- persona concreta;
+- evidencia de un caso;
+- producto físico que deba mostrarse fielmente;
+- anuncio, interfaz o hecho histórico que deba ser verificable.
+
 ## Identidad video-zeven
 
 Todos los formatos comparten la identidad video-zeven: colores ZevenPRO en los gráficos, tipografía Inter Tight, subtítulos de lectura con énfasis tipográficos con textura, efectos de sonido propios, CTA y área segura de Instagram Reels. Es una decisión del usuario del 2026-10-04 y nace del formato aprobado de `#edit-2-pantalla-dividida`. Detalle: `formatos/identidad-video-zeven.md`. Excepción (2026-10-05): en `#edit-5-creator` el usuario puede elegir tipografía, colores y estilo de subtítulos mediante un perfil; sin perfil rige video-zeven.
@@ -133,9 +283,11 @@ Decisión del usuario del 2026-10-09 (propuesta pendiente de aprobación audiovi
 
 Decisión del usuario del 2026-10-09 (candidato): cada formato puede tener un **look de color** por defecto y uno alternativo, aplicados solo a las tomas grabadas (`formatos/looks/`; la orden elige ID e intensidad con `cambios`, incluyendo `look: ninguno` o `look: burdeos-calido 70 %`). La LUT se aplica con FFmpeg al derivado de metraje; si se aplica tras un render, ese pase contiene solo tomas antes de componer gráficos. Nunca se gradúa el compuesto final con textos, logos o Motion UX. Por defecto / alternativo: `#edit-1-motion` luminoso-aire / oscuro-cinematico (y burdeos-calido a pedido); `#edit-3-organico` cine-calido / cine-sobrio (la variante 3C, horizontal, es el caso principal); `#edit-2`, `#edit-4-business` y `#edit-5-creator` sin look asignado (pendiente de decisión del usuario). Para el mejor resultado el usuario entrega un **guión técnico** (escenas, motion, iconos o emojis por fragmento) y, si quiere, un **video de referencia** con lo que desea de él (`formatos/GUION-TECNICO.md`). Un video de referencia de terceros es solo referencia de estilo, no se copia su contenido.
 
-## Tipos oficiales de edición
+## Tipos oficiales de edición y enrutamiento
 
-Cada VIDEO-XXX debe declarar un EDIT_TYPE.
+Cada VIDEO-XXX debe declarar un EDIT_TYPE, una variante (1A…5D) y un estilo de subtítulos (S1–S9; ver «Subtítulos: variantes, catálogo y posición»). Desde el 2026-10-09 hay seis EDIT_TYPE: `#edit-1-motion`, `#edit-2-pantalla-dividida`, `#edit-3-organico`, `#edit-4-business` (nuevo), `#edit-5-creator` y `#edit-6-avatar` (antes `#edit-4-avatar`; fuera de la guía mientras no se use).
+
+El EDIT_TYPE determina automáticamente qué herramientas están permitidas, cuáles son prioritarias y cuáles deben permanecer desactivadas por defecto.
 
 ### #edit-1-motion — Motion Editorial
 
@@ -143,9 +295,10 @@ Talking head / estilo podcast con imágenes, recortes, textos y apoyos visuales 
 
 Características:
 - usuario hablando como eje principal;
-- imágenes de apoyo generadas o reutilizadas;
 - motion graphics editoriales;
 - palabras y conceptos destacados;
+- imágenes de apoyo generadas o reutilizadas;
+- B-roll cuando aporte contexto;
 - puede usar presets editorial-dynamic, kinetic-infographic o editorial-minimal.
 
 Formato principal:
@@ -160,21 +313,39 @@ Formato en preparación (nota del usuario del 2026-10-04, con un video de ejempl
 
 Intención, análisis del ejemplo, piezas y pendientes: `formatos/edit-1-motion/FORMATO.md`. La edición empieza cuando el usuario entregue el contenido.
 
+Política de producción:
+- Remotion / FFmpeg: ON;
+- material real: PRIORIDAD;
+- motion graphics: HIGH;
+- IA de imágenes: ON cuando aporte valor;
+- IA de video/B-roll: ON cuando aporte valor;
+- generación visual forma parte normal del flujo, pero no debe sustituir assets reales útiles.
+
+Flujo:
+TÚ + GUION
+→ ChatGPT / Work
+→ agente ejecutor
+→ analiza qué necesita cada frase
+→ material real / Remotion / imagen IA / video IA
+→ Remotion + FFmpeg
+→ Preview
+→ correcciones
+→ render final.
+
 ### #edit-2-pantalla-dividida — Pantalla Dividida
 
-Similar a #edit-1-motion, pero el apoyo visual ocupa una zona separada de la composición.
+Usuario hablando con un apoyo visual separado de la composición.
 
 Características:
-- usuario hablando;
+- presentador en zona principal o inferior;
 - apoyo visual arriba o en zona secundaria;
-- imágenes, screenshots, video, gráficos o recursos generados según lo expresado;
+- imágenes, screenshots, screen recordings, video, gráficos o recursos generados;
 - pantalla o demostración debe ser protagonista cuando el contenido lo requiera;
 - subtítulos limpios y no invasivos.
 
 Formatos:
 - 9:16;
-- 1:1;
-- seleccionar según el contenido suministrado.
+- 1:1 cuando el contenido lo requiera.
 
 Formato aprobado (2026-10-04; referencia: VIDEO-001, `formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4`, 9:16):
 - dos zonas: apoyo arriba y presentador abajo; presentador a pantalla completa en el gancho y el cierre, y gráfico a pantalla completa solo para evidencias puntuales;
@@ -191,15 +362,31 @@ Presets de la biblioteca:
 - screen-tutorial cuando una grabación de pantalla sea la protagonista;
 - apoyo editorial-dynamic cuando corresponda.
 
+Política de producción:
+- Remotion / FFmpeg: ON;
+- material real: FIRST;
+- motion graphics: MEDIUM;
+- IA de imágenes: CONDITIONAL;
+- IA de video: EXCEPTIONAL;
+- no generar apoyo si captura, screen recording, imagen real o Remotion ya lo resuelven.
+
+Orden de apoyo específico:
+1. captura real;
+2. screen recording real;
+3. imagen real suministrada;
+4. gráfico/motion Remotion;
+5. imagen IA;
+6. video IA.
+
 ### #edit-3-organico — Tutorial Orgánico / iPhone Duo
 
 Contenido natural grabado por el usuario mostrando en vivo una pantalla, producto, lugar o proceso.
 
 Características:
 - cámara Duo / iPhone cuando aplique;
-- casi tutorial paso a paso;
+- tutorial paso a paso;
 - cortes limpios;
-- eliminación de silencios cuando ayude;
+- eliminación de silencios solo cuando ayude;
 - subtítulos sencillos y discretos;
 - edición mínima;
 - evitar motion graphics que compitan con lo mostrado.
@@ -211,6 +398,27 @@ Preset:
 - organic-iphone-demo.
 
 Variantes (2026-10-09): 3A tutorial en vivo (S6), 3B charla natural (S6) y 3C orgánico horizontal 16:9 con varios encuadres de la misma escena (S8). En 3C el subtítulo S8 sigue al sujeto (ver «Subtítulos: variantes, catálogo y posición»). Detalle: `formatos/edit-3-organico/FORMATO.md`.
+
+Política de producción:
+- Remotion / FFmpeg: ON;
+- assets reales: ONLY por defecto;
+- motion graphics: LOW;
+- IA de imágenes: OFF por defecto;
+- IA de video: OFF;
+- generación generativa solo puede activarse mediante una decisión explícita y justificada.
+
+Regla editorial:
+Si el resultado parece excesivamente editado, el formato perdió su objetivo.
+
+Flujo:
+video real
+→ ChatGPT / Work
+→ agente ejecutor
+→ FFmpeg: selección, silencios, cortes, audio
+→ Remotion: captions y ajustes mínimos
+→ Preview
+→ correcciones
+→ render final.
 
 ### #edit-4-business — Business
 
@@ -239,10 +447,10 @@ Definición, variantes y prompt base: `formatos/edit-4-business/FORMATO.md`.
 
 > Renombrado de `#edit-4-avatar` el 2026-10-09. Fuera de la guía de uso y del catálogo de recursos mientras no se use.
 
-Capítulo especial de producción audiovisual generativa.
+Producción audiovisual generativa de mayor elaboración.
 
 Objetivo:
-crear videos de mayor elaboración usando IA para atacar dolores de marketing, enseñar conceptos, dramatizar situaciones empresariales y construir historias.
+crear videos usando IA para enseñar conceptos, dramatizar situaciones, representar dolores de marketing, crear personajes y construir historias.
 
 Características:
 - avatar o personajes;
@@ -252,12 +460,30 @@ Características:
 - diferentes planos;
 - voz / audio;
 - montaje;
-- motion graphics cuando aporten valor;
-- puede utilizar Gemini, Veo y otras herramientas IA según la calidad requerida.
+- motion graphics;
+- imágenes y video IA como parte estructural de la producción.
 
 Formato principal:
 - 16:9;
 - adaptable cuando el proyecto lo requiera.
+
+Política de producción:
+- Remotion / FFmpeg: ON;
+- IA generativa: FULL;
+- IA de imágenes: ON;
+- IA de video: ON;
+- personajes/avatar: ON cuando el concepto lo requiera;
+- motion graphics: HIGH.
+
+Flujo:
+idea / problema
+→ ChatGPT / Work: concepto + guion + storyboard
+→ agente ejecutor
+→ generación de personajes / imágenes / escenarios / video / audio
+→ Remotion + FFmpeg
+→ Preview
+→ correcciones
+→ render final.
 
 ### #edit-5-creator — Creator
 
@@ -286,37 +512,131 @@ Política de producción:
 
 Definición, estilos, tipografías y cuestionario: `formatos/edit-5-creator/`. Procedimiento: la skill única `/video-lab` (cuestionario de formato, variante y subtítulos).
 
+## Matriz de enrutamiento
+
+| EDIT_TYPE | Remotion/FFmpeg | Material real | Motion | IA imágenes | IA video |
+|---|---|---|---|---|---|
+| #edit-1-motion | ON | PRIORIDAD | HIGH | NORMAL | CONDITIONAL |
+| #edit-2-pantalla-dividida | ON | FIRST | MEDIUM | CONDITIONAL | EXCEPTIONAL |
+| #edit-3-organico | ON | ONLY por defecto | LOW | OFF | OFF |
+| #edit-4-business | ON | PRIORIDAD | LOW-MEDIUM | OFF | OFF |
+| #edit-5-creator | ON | PRIORIDAD | MEDIUM | OFF por defecto | OFF |
+| #edit-6-avatar | ON | SEGÚN CASO | HIGH | ON | ON |
+
+La matriz tiene seis filas desde el 2026-10-09 (`#edit-4-business` y `#edit-5-creator` se añadieron y `#edit-4-avatar` pasó a `#edit-6-avatar`); los valores de las filas nuevas salen de sus FORMATO.md y son un punto de partida: la orden manda.
+
+El agente ejecutor debe usar esta matriz como regla de enrutamiento. No debe activar proveedores generativos por rutina.
+
+## Motion graphics vs IA generativa
+
+Motion graphics se resuelven preferentemente con Remotion:
+- texto animado;
+- gráficos;
+- barras;
+- números;
+- zoom;
+- máscaras;
+- subtítulos;
+- transiciones;
+- layouts;
+- pantalla dividida;
+- highlights;
+- overlays.
+
+IA generativa se usa cuando hay que crear contenido que no existe:
+- imagen nueva;
+- B-roll nuevo;
+- personaje;
+- avatar;
+- escenario;
+- fondo;
+- clip cinematográfico;
+- producto conceptual;
+- recurso visual imposible o ineficiente de construir con Remotion.
+
 ## Biblioteca Remotion
 
 CASO REAL
 → identificar necesidad
-→ reutilizar componente existente
+→ comprobar Remotion oficial / Agent Skills / ejemplos
+→ reutilizar componente oficial o local existente
 → si no existe, crear componente
 → validar
 → incorporar a biblioteca
-→ reutilizar en próximos videos
+→ reutilizar en próximos videos.
 
 ## Órdenes VIDEO-XXX
 
-Cada video real debe tener como mínimo:
+Cada video real debe tener una orden en:
 
+video-orders/VIDEO-XXX.json
+
+La orden es el contrato operativo del video.
+
+Debe incluir como mínimo:
+- VIDEO_ID;
 - EDIT_TYPE;
+- variante (1A…5D);
+- estilo de subtítulos (S1–S9; sin él, el por defecto de la variante);
 - objetivo;
-- fuentes en Drive;
+- fuentes;
 - guion si existe;
 - indicar explícitamente si NO existe guion;
 - formato;
 - duración objetivo;
 - estructura narrativa;
+- clips/tomas seleccionadas;
+- rangos in/out cuando estén definidos;
 - cortes;
 - subtítulos;
 - motion graphics;
 - recursos de apoyo;
 - resultado de investigación visual o enlace a `analysis/<video-id>-support-research.json`;
+- política de IA generativa;
 - CTA cuando corresponda;
-- salida esperada.
+- salida esperada;
+- estado de preview/render.
 
-Antigravity debe consultar esta RAÍZ antes de ejecutar cualquier VIDEO-XXX.
+## Regla obligatoria para generar una orden
+
+Antes de crear o modificar cualquier video-orders/VIDEO-XXX.json, el agente debe:
+
+1. leer docs/VIDEO-SYSTEM-ROOT.md;
+2. revisar git status;
+3. revisar el material disponible del VIDEO-XXX;
+4. leer el guion si existe;
+5. revisar las órdenes VIDEO-XXX existentes;
+6. identificar al menos una orden previa del mismo EDIT_TYPE si existe;
+7. revisar Remotion oficial y las Agent Skills aplicables;
+8. reutilizar estructura y convenciones válidas de órdenes anteriores sin copiar decisiones editoriales específicas;
+9. aplicar la matriz de enrutamiento del EDIT_TYPE;
+10. generar o actualizar la orden;
+11. mostrar un resumen breve de lo que hará antes de ejecutar la edición.
+
+El agente no debe comenzar el montaje sin una orden VIDEO-XXX válida, salvo correcciones puntuales sobre una edición ya existente. En ese caso debe actualizar primero la orden para reflejar los cambios relevantes.
+
+## Política de autonomía del agente
+
+El agente puede ejecutar sin pedir autorización repetitiva:
+- lectura y escritura dentro del repositorio;
+- git status, log y diff;
+- pnpm;
+- node;
+- scripts locales;
+- FFmpeg;
+- Remotion;
+- creación y actualización de órdenes;
+- apertura de Remotion Studio;
+- correcciones de composición.
+
+Debe detenerse antes de:
+- acciones destructivas irreversibles;
+- borrar material bruto;
+- exponer o modificar credenciales;
+- crear nuevas credenciales;
+- activar un servicio de pago no autorizado;
+- publicar o distribuir contenido;
+- ejecutar render final cuando todavía se espera revisión.
 
 ## Organización por formatos y proyectos
 
@@ -347,3 +667,21 @@ Biblioteca base Remotion:
 - presets alineados a referencias reales;
 - LibraryShowcase;
 - validaciones y renders.
+
+### FASE 03 — ACTUAL
+
+Validar y estabilizar el flujo completo con VIDEO-001 real:
+
+material real
+→ orden VIDEO-001
+→ selección y cortes
+→ recursos de apoyo según #edit-2-pantalla-dividida
+→ Remotion
+→ preview
+→ correcciones
+→ render final autorizado.
+
+Objetivo de esta fase:
+obtener un VIDEO-001 terminado y usar sus aprendizajes para simplificar los siguientes videos antes de añadir nueva infraestructura.
+
+Estado (2026-10-11): VIDEO-001 quedó aprobado y exportado el 2026-10-04 (`#edit-2-pantalla-dividida`, `formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4`) y desde entonces se definieron los demás formatos; el cierre formal de esta fase lo decide el usuario.
