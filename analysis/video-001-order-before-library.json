@@ -1,0 +1,2087 @@
+{
+  "videoId": "VIDEO-001",
+  "editType": "#edit-2-pantalla-dividida",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "analysisComplete": false,
+  "analyzedCount": 8,
+  "expectedCount": 12,
+  "missingSources": [
+    "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+    "b1eb53d64406404f95a673182fe597fd.MP4",
+    "e7648b9b117b45218bd4bac13da69698.MP4",
+    "ffe3314cd47f4f4293b8bfc328054b4b.MP4"
+  ],
+  "reviewNotice": "REVISIÓN PARCIAL · 8/12 TOMAS ANALIZADAS",
+  "status": "provisional-incomplete-analysis",
+  "scenes": [
+    {
+      "scene": 1,
+      "guionBlock": "Apertura: posicionamiento de marca",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 2.2,
+      "outTime": 11.2,
+      "spokenText": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba.",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "Posicionamiento de marca",
+        "headline": "Posicionamiento de marca"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 2.2,
+      "endTime": 11.2,
+      "startFrame": 0,
+      "durationInFrames": 266,
+      "timelineStartTime": 0,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 4.6,
+          "text": "Este es el claro ejemplo de que Apple está arriba,"
+        },
+        {
+          "startTime": 4.6,
+          "endTime": 8.866666666666664,
+          "text": "muy arriba de cualquier otra marca, pero muy arriba."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/1071a10986d4473fab0f545091431ee2.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 2.2,
+        "outTime": 11.2,
+        "durationInFrames": 270,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 4.6,
+            "text": "Este es el claro ejemplo de que Apple está arriba,"
+          },
+          {
+            "startTime": 4.6,
+            "endTime": 9,
+            "text": "muy arriba de cualquier otra marca, pero muy arriba."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 2.2,
+          "endTime": 10.8,
+          "startFrame": 0,
+          "durationInFrames": 258,
+          "poster": "video-001/posters/scene-1-0.jpg"
+        },
+        {
+          "startTime": 10.933333333333334,
+          "endTime": 11.2,
+          "startFrame": 258,
+          "durationInFrames": 8,
+          "poster": "video-001/posters/scene-1-1.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Este es el claro ejemplo de que Apple está arriba,",
+          "startMs": 0,
+          "endMs": 4600,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "muy arriba de cualquier otra marca, pero muy arriba.",
+          "startMs": 4600,
+          "endMs": 8867,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 0
+    },
+    {
+      "scene": 2,
+      "guionBlock": "No siempre tienes que dar más",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 21,
+      "outTime": 30.1,
+      "spokenText": "de que para posicionar un producto, un servicio no siempre tienes que dar más, sino entregar más valor, que son cosas muy distintas.",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "Más cosas ≠ más valor",
+        "headline": "Más cosas ≠ más valor"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 21,
+      "endTime": 30.1,
+      "startFrame": 266,
+      "durationInFrames": 273,
+      "timelineStartTime": 9,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 5.199999999999999,
+          "text": "de que para posicionar un producto, un servicio no siempre tienes que dar más,"
+        },
+        {
+          "startTime": 5.199999999999999,
+          "endTime": 9.100000000000001,
+          "text": "sino entregar más valor, que son cosas muy distintas."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/1071a10986d4473fab0f545091431ee2.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 21,
+        "outTime": 30.1,
+        "durationInFrames": 273,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 5.199999999999999,
+            "text": "de que para posicionar un producto, un servicio no siempre tienes que dar más,"
+          },
+          {
+            "startTime": 5.199999999999999,
+            "endTime": 9.1,
+            "text": "sino entregar más valor, que son cosas muy distintas."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 21,
+          "endTime": 30.1,
+          "startFrame": 0,
+          "durationInFrames": 273,
+          "poster": "video-001/posters/scene-2-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "de que para posicionar un producto, un servicio no siempre tienes que dar más,",
+          "startMs": 0,
+          "endMs": 5200,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "sino entregar más valor, que son cosas muy distintas.",
+          "startMs": 5200,
+          "endMs": 9100,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 8.866666666666667
+    },
+    {
+      "scene": 3,
+      "guionBlock": "Samsung y la batería en 2014",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 11.2,
+      "outTime": 22.2,
+      "spokenText": "si en 2014 efectivamente Samsung se burlaba de los usuarios de Apple porque vivían pegados, literalmente abrazados a una pared.",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "2014 · La batalla por la batería",
+        "headline": "2014 · La batalla por la batería"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 11.2,
+      "endTime": 22.2,
+      "startFrame": 539,
+      "durationInFrames": 324,
+      "timelineStartTime": 18.1,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 2.3000000000000007,
+          "text": "si en 2014 efectivamente"
+        },
+        {
+          "startTime": 2.3000000000000007,
+          "endTime": 5,
+          "text": "Samsung se burlaba de"
+        },
+        {
+          "startTime": 5,
+          "endTime": 7,
+          "text": "los usuarios de Apple"
+        },
+        {
+          "startTime": 7,
+          "endTime": 9,
+          "text": "porque vivían pegados,"
+        },
+        {
+          "startTime": 9,
+          "endTime": 10.800000000000004,
+          "text": "literalmente abrazados a una pared."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/595d143df4df4001b7f25feb100d1df1.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 11.2,
+        "outTime": 22.2,
+        "durationInFrames": 330,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 2.3000000000000007,
+            "text": "si en 2014 efectivamente"
+          },
+          {
+            "startTime": 2.3000000000000007,
+            "endTime": 5,
+            "text": "Samsung se burlaba de"
+          },
+          {
+            "startTime": 5,
+            "endTime": 7,
+            "text": "los usuarios de Apple"
+          },
+          {
+            "startTime": 7,
+            "endTime": 9,
+            "text": "porque vivían pegados,"
+          },
+          {
+            "startTime": 9,
+            "endTime": 11,
+            "text": "literalmente abrazados a una pared."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 11.2,
+          "endTime": 21.2,
+          "startFrame": 0,
+          "durationInFrames": 300,
+          "poster": "video-001/posters/scene-3-0.jpg"
+        },
+        {
+          "startTime": 21.4,
+          "endTime": 22.2,
+          "startFrame": 300,
+          "durationInFrames": 24,
+          "poster": "video-001/posters/scene-3-1.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "si en 2014 efectivamente",
+          "startMs": 0,
+          "endMs": 2300,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Samsung se burlaba de",
+          "startMs": 2300,
+          "endMs": 5000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "los usuarios de Apple",
+          "startMs": 5000,
+          "endMs": 7000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "porque vivían pegados,",
+          "startMs": 7000,
+          "endMs": 9000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "literalmente abrazados a una pared.",
+          "startMs": 9000,
+          "endMs": 10800,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 17.966666666666665
+    },
+    {
+      "scene": 4,
+      "guionBlock": "El argumento de la batería intercambiable",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 34,
+      "outTime": 43.5,
+      "spokenText": "Su argumento era muy simple. Lanzaron un comercial por parte de ellos diciendo de que sus productos, sus teléfonos podían cambiar de baterías,",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "Una batería que podías cambiar",
+        "headline": "Una batería que podías cambiar"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 34,
+      "endTime": 43.5,
+      "startFrame": 863,
+      "durationInFrames": 285,
+      "timelineStartTime": 29.1,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 2.5,
+          "text": "Su argumento era muy simple."
+        },
+        {
+          "startTime": 2.5,
+          "endTime": 5,
+          "text": "Lanzaron un comercial por parte de ellos diciendo de que"
+        },
+        {
+          "startTime": 5,
+          "endTime": 7.5,
+          "text": "sus productos, sus teléfonos"
+        },
+        {
+          "startTime": 7.5,
+          "endTime": 9.5,
+          "text": "podían cambiar de baterías,"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/595d143df4df4001b7f25feb100d1df1.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 34,
+        "outTime": 43.5,
+        "durationInFrames": 285,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 2.5,
+            "text": "Su argumento era muy simple."
+          },
+          {
+            "startTime": 2.5,
+            "endTime": 5,
+            "text": "Lanzaron un comercial por parte de ellos diciendo de que"
+          },
+          {
+            "startTime": 5,
+            "endTime": 7.5,
+            "text": "sus productos, sus teléfonos"
+          },
+          {
+            "startTime": 7.5,
+            "endTime": 9.5,
+            "text": "podían cambiar de baterías,"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 34,
+          "endTime": 43.5,
+          "startFrame": 0,
+          "durationInFrames": 285,
+          "poster": "video-001/posters/scene-4-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Su argumento era muy simple.",
+          "startMs": 0,
+          "endMs": 2500,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Lanzaron un comercial por parte de ellos diciendo de que",
+          "startMs": 2500,
+          "endMs": 5000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "sus productos, sus teléfonos",
+          "startMs": 5000,
+          "endMs": 7500,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "podían cambiar de baterías,",
+          "startMs": 7500,
+          "endMs": 9500,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 28.766666666666666
+    },
+    {
+      "scene": 5,
+      "guionBlock": "Auriculares y cargadores",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "inTime": 3.8,
+      "outTime": 11.8,
+      "spokenText": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos, sus celulares ya no van a tener ni auriculares ni cargadores.",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "Auriculares. Cargadores. Percepción.",
+        "headline": "Auriculares. Cargadores. Percepción."
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 3.8,
+      "endTime": 11.8,
+      "startFrame": 1148,
+      "durationInFrames": 240,
+      "timelineStartTime": 38.6,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 3.3,
+          "text": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos,"
+        },
+        {
+          "startTime": 3.5,
+          "endTime": 8,
+          "text": "sus celulares ya no van a tener ni auriculares ni cargadores."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/25b212d80cdc44b1964cc6b2e152e9cf.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 3.8,
+        "outTime": 11.8,
+        "durationInFrames": 240,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 3.3,
+            "text": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos,"
+          },
+          {
+            "startTime": 3.5,
+            "endTime": 8,
+            "text": "sus celulares ya no van a tener ni auriculares ni cargadores."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 3.8,
+          "endTime": 11.8,
+          "startFrame": 0,
+          "durationInFrames": 240,
+          "poster": "video-001/posters/scene-5-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos,",
+          "startMs": 0,
+          "endMs": 3300,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "sus celulares ya no van a tener ni auriculares ni cargadores.",
+          "startMs": 3500,
+          "endMs": 8000,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 38.266666666666666
+    },
+    {
+      "scene": 6,
+      "guionBlock": "Decisiones que después adopta Samsung",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "inTime": 45,
+      "outTime": 55.2,
+      "spokenText": "Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS, eh, todo eso lo ha venido implementando también Samsung.",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "La competencia también cambia",
+        "headline": "La competencia también cambia"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 45,
+      "endTime": 55.2,
+      "startFrame": 1388,
+      "durationInFrames": 302,
+      "timelineStartTime": 46.6,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 6.200000000000003,
+          "text": "Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS,"
+        },
+        {
+          "startTime": 6.366666666666667,
+          "endTime": 10.06666666666667,
+          "text": "eh, todo eso lo ha venido implementando también Samsung."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/25b212d80cdc44b1964cc6b2e152e9cf.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 45,
+        "outTime": 55.2,
+        "durationInFrames": 306,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 6.200000000000003,
+            "text": "Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS,"
+          },
+          {
+            "startTime": 6.5,
+            "endTime": 10.2,
+            "text": "eh, todo eso lo ha venido implementando también Samsung."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 45,
+          "endTime": 51.266666666666666,
+          "startFrame": 0,
+          "durationInFrames": 188,
+          "poster": "video-001/posters/scene-6-0.jpg"
+        },
+        {
+          "startTime": 51.4,
+          "endTime": 55.2,
+          "startFrame": 188,
+          "durationInFrames": 114,
+          "poster": "video-001/posters/scene-6-1.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS,",
+          "startMs": 0,
+          "endMs": 6200,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "eh, todo eso lo ha venido implementando también Samsung.",
+          "startMs": 6367,
+          "endMs": 10067,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 46.266666666666666
+    },
+    {
+      "scene": 7,
+      "guionBlock": "Llegar primero frente a hacerlo diferente",
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "inTime": 23,
+      "outTime": 32.5,
+      "spokenText": "Al parecer a Apple no le importa quién llegó primero, sino más bien... decir: mira cómo lo hacemos nosotros.",
+      "visualSupport": {
+        "type": "screen-recording",
+        "source": "grabacion-pantalla.mov",
+        "startTime": 55,
+        "endTime": 60,
+        "description": "Publicación de Samsung Mobile MX sobre haber llegado primero, con referencia visible al Galaxy Fold de 2019. El reproductor incrustado muestra carga; no usarlo como demostración funcionando.",
+        "label": "Publicación mostrada en la captura",
+        "playback": "Audio silenciado; repetir el rango si la escena es más larga.",
+        "poster": "video-001/posters/screen-7.jpg"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 23,
+      "endTime": 32.5,
+      "startFrame": 1690,
+      "durationInFrames": 285,
+      "timelineStartTime": 56.8,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 4.199999999999999,
+          "text": "Al parecer a Apple no le importa quién llegó primero,"
+        },
+        {
+          "startTime": 4.199999999999999,
+          "endTime": 6.199999999999999,
+          "text": "sino más bien..."
+        },
+        {
+          "startTime": 6.199999999999999,
+          "endTime": 9.5,
+          "text": "decir: mira cómo lo hacemos nosotros."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/1a6a3dcea3b6473caad383a7d6a076f1.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 23,
+        "outTime": 32.5,
+        "durationInFrames": 285,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 4.199999999999999,
+            "text": "Al parecer a Apple no le importa quién llegó primero,"
+          },
+          {
+            "startTime": 4.199999999999999,
+            "endTime": 6.199999999999999,
+            "text": "sino más bien..."
+          },
+          {
+            "startTime": 6.199999999999999,
+            "endTime": 9.5,
+            "text": "decir: mira cómo lo hacemos nosotros."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 23,
+          "endTime": 32.5,
+          "startFrame": 0,
+          "durationInFrames": 285,
+          "poster": "video-001/posters/scene-7-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Al parecer a Apple no le importa quién llegó primero,",
+          "startMs": 0,
+          "endMs": 4200,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "sino más bien...",
+          "startMs": 4200,
+          "endMs": 6200,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "decir: mira cómo lo hacemos nosotros.",
+          "startMs": 6200,
+          "endMs": 9500,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 56.333333333333336
+    },
+    {
+      "scene": 8,
+      "guionBlock": "La presentación del Duo en el discurso",
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "inTime": 37.5,
+      "outTime": 45,
+      "spokenText": "Fijándonos incluso la forma en que presenta el Duo es la forma más atractiva",
+      "visualSupport": {
+        "type": "screen-recording",
+        "source": "grabacion-pantalla.mov",
+        "startTime": 8,
+        "endTime": 16,
+        "description": "Imagen conceptual de un teléfono plegable bajo la etiqueta 2026 dentro del tablero aportado. No identifica un lanzamiento oficial.",
+        "label": "Concepto visual · material aportado",
+        "playback": "Audio silenciado; repetir el rango si la escena es más larga.",
+        "poster": "video-001/posters/screen-8.jpg"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 37.5,
+      "endTime": 45,
+      "startFrame": 1975,
+      "durationInFrames": 225,
+      "timelineStartTime": 66.3,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 4,
+          "text": "Fijándonos incluso la forma en que presenta el Duo"
+        },
+        {
+          "startTime": 4,
+          "endTime": 7.5,
+          "text": "es la forma más atractiva"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/1a6a3dcea3b6473caad383a7d6a076f1.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 37.5,
+        "outTime": 45,
+        "durationInFrames": 225,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 4,
+            "text": "Fijándonos incluso la forma en que presenta el Duo"
+          },
+          {
+            "startTime": 4,
+            "endTime": 7.5,
+            "text": "es la forma más atractiva"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 37.5,
+          "endTime": 45,
+          "startFrame": 0,
+          "durationInFrames": 225,
+          "poster": "video-001/posters/scene-8-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Fijándonos incluso la forma en que presenta el Duo",
+          "startMs": 0,
+          "endMs": 4000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "es la forma más atractiva",
+          "startMs": 4000,
+          "endMs": 7500,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 65.83333333333333
+    },
+    {
+      "scene": 9,
+      "guionBlock": "La obsesión por ser los primeros",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 1.5,
+      "outTime": 14.5,
+      "spokenText": "Y sí, muchos estamos obsesionados por ser los primeros como emprendedores, empresarios, etcétera, por ser los primeros en lanzar x producto, por ser los primeros en aprender a usar x herramienta, por ser los primeros en intentar vender cierto servicio,",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "La obsesión por ser primero",
+        "headline": "La obsesión por ser primero"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 1.5,
+      "endTime": 14.5,
+      "startFrame": 2200,
+      "durationInFrames": 390,
+      "timelineStartTime": 73.8,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 1.7000000000000002,
+          "text": "Y sí, muchos estamos obsesionados"
+        },
+        {
+          "startTime": 1.7000000000000002,
+          "endTime": 3.5,
+          "text": "por ser los primeros"
+        },
+        {
+          "startTime": 3.5,
+          "endTime": 5.3,
+          "text": "como emprendedores, empresarios, etcétera,"
+        },
+        {
+          "startTime": 5.3,
+          "endTime": 7.699999999999999,
+          "text": "por ser los primeros en lanzar x producto,"
+        },
+        {
+          "startTime": 7.699999999999999,
+          "endTime": 10.5,
+          "text": "por ser los primeros en aprender a usar x herramienta,"
+        },
+        {
+          "startTime": 10.5,
+          "endTime": 13,
+          "text": "por ser los primeros en intentar vender cierto servicio,"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/5fd399dccff74959baa046f8d2c45050.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 1.5,
+        "outTime": 14.5,
+        "durationInFrames": 390,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 1.7000000000000002,
+            "text": "Y sí, muchos estamos obsesionados"
+          },
+          {
+            "startTime": 1.7000000000000002,
+            "endTime": 3.5,
+            "text": "por ser los primeros"
+          },
+          {
+            "startTime": 3.5,
+            "endTime": 5.3,
+            "text": "como emprendedores, empresarios, etcétera,"
+          },
+          {
+            "startTime": 5.3,
+            "endTime": 7.699999999999999,
+            "text": "por ser los primeros en lanzar x producto,"
+          },
+          {
+            "startTime": 7.699999999999999,
+            "endTime": 10.5,
+            "text": "por ser los primeros en aprender a usar x herramienta,"
+          },
+          {
+            "startTime": 10.5,
+            "endTime": 13,
+            "text": "por ser los primeros en intentar vender cierto servicio,"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 1.5,
+          "endTime": 14.5,
+          "startFrame": 0,
+          "durationInFrames": 390,
+          "poster": "video-001/posters/scene-9-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Y sí, muchos estamos obsesionados",
+          "startMs": 0,
+          "endMs": 1700,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "por ser los primeros",
+          "startMs": 1700,
+          "endMs": 3500,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "como emprendedores, empresarios, etcétera,",
+          "startMs": 3500,
+          "endMs": 5300,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "por ser los primeros en lanzar x producto,",
+          "startMs": 5300,
+          "endMs": 7700,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "por ser los primeros en aprender a usar x herramienta,",
+          "startMs": 7700,
+          "endMs": 10500,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "por ser los primeros en intentar vender cierto servicio,",
+          "startMs": 10500,
+          "endMs": 13000,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 73.33333333333333
+    },
+    {
+      "scene": 10,
+      "guionBlock": "Agregar más servicios y características",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 14.5,
+      "outTime": 20,
+      "spokenText": "por tener ciertas características, agregarle más a nuestros servicios,",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "Agregar más",
+        "headline": "Agregar más"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 14.5,
+      "endTime": 20,
+      "startFrame": 2590,
+      "durationInFrames": 165,
+      "timelineStartTime": 86.8,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 3,
+          "text": "por tener ciertas características,"
+        },
+        {
+          "startTime": 3,
+          "endTime": 5.5,
+          "text": "agregarle más a nuestros servicios,"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/5fd399dccff74959baa046f8d2c45050.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 14.5,
+        "outTime": 20,
+        "durationInFrames": 165,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 3,
+            "text": "por tener ciertas características,"
+          },
+          {
+            "startTime": 3,
+            "endTime": 5.5,
+            "text": "agregarle más a nuestros servicios,"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 14.5,
+          "endTime": 20,
+          "startFrame": 0,
+          "durationInFrames": 165,
+          "poster": "video-001/posters/scene-10-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "por tener ciertas características,",
+          "startMs": 0,
+          "endMs": 3000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "agregarle más a nuestros servicios,",
+          "startMs": 3000,
+          "endMs": 5500,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 86.33333333333333
+    },
+    {
+      "scene": 11,
+      "guionBlock": "Lo que necesita el cliente",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 32,
+      "outTime": 38,
+      "spokenText": "así que nuestro cliente no necesita siempre que le agreguemos más,",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "¿Más… o mejor?",
+        "headline": "¿Más… o mejor?"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 32,
+      "endTime": 38,
+      "startFrame": 2755,
+      "durationInFrames": 173,
+      "timelineStartTime": 92.3,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 3,
+          "text": "así que nuestro cliente no necesita"
+        },
+        {
+          "startTime": 3,
+          "endTime": 5.766666666666666,
+          "text": "siempre que le agreguemos más,"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/5fd399dccff74959baa046f8d2c45050.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 32,
+        "outTime": 38,
+        "durationInFrames": 180,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 3,
+            "text": "así que nuestro cliente no necesita"
+          },
+          {
+            "startTime": 3,
+            "endTime": 6,
+            "text": "siempre que le agreguemos más,"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 32,
+          "endTime": 35,
+          "startFrame": 0,
+          "durationInFrames": 90,
+          "poster": "video-001/posters/scene-11-0.jpg"
+        },
+        {
+          "startTime": 35.233333333333334,
+          "endTime": 38,
+          "startFrame": 90,
+          "durationInFrames": 83,
+          "poster": "video-001/posters/scene-11-1.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "así que nuestro cliente no necesita",
+          "startMs": 0,
+          "endMs": 3000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "siempre que le agreguemos más,",
+          "startMs": 3000,
+          "endMs": 5767,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 91.83333333333333
+    },
+    {
+      "scene": 12,
+      "guionBlock": "Valor, confianza y experiencia",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 1.2,
+      "outTime": 16.8,
+      "spokenText": "Y es aquí donde tenemos que entender que no todo cliente compra al que le llegó primero. Le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de de una experiencia diferente, etcétera.",
+      "visualSupport": {
+        "type": "screen-recording",
+        "source": "grabacion-pantalla.mov",
+        "startTime": 365,
+        "endTime": 373,
+        "description": "Vista estable del concepto de plegable a la izquierda y la imagen de otro plegable sostenido con las manos a la derecha; sirve para comparar presentación visual, no para probar especificaciones.",
+        "label": "Comparativa del tablero · incluye concepto visual",
+        "playback": "Audio silenciado; repetir el rango si la escena es más larga.",
+        "poster": "video-001/posters/screen-12.jpg"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 1.2,
+      "endTime": 16.8,
+      "startFrame": 2928,
+      "durationInFrames": 445,
+      "timelineStartTime": 98.3,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 4.3,
+          "text": "Y es aquí donde tenemos que entender"
+        },
+        {
+          "startTime": 4.3,
+          "endTime": 6.6,
+          "text": "que no todo cliente compra al que le llegó primero."
+        },
+        {
+          "startTime": 6.6,
+          "endTime": 9.633333333333331,
+          "text": "Le compra al que sabe ganarse su confianza,"
+        },
+        {
+          "startTime": 9.633333333333335,
+          "endTime": 12.033333333333333,
+          "text": "sabe generar valor, sabe generar una percepción"
+        },
+        {
+          "startTime": 12.033333333333333,
+          "endTime": 14.833333333333334,
+          "text": "de de una experiencia diferente, etcétera."
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/a55db7a6e9a94b999d680a2912b19f55.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 1.2,
+        "outTime": 16.8,
+        "durationInFrames": 468,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 4.3,
+            "text": "Y es aquí donde tenemos que entender"
+          },
+          {
+            "startTime": 4.3,
+            "endTime": 6.8,
+            "text": "que no todo cliente compra al que le llegó primero."
+          },
+          {
+            "startTime": 6.8,
+            "endTime": 10.3,
+            "text": "Le compra al que sabe ganarse su confianza,"
+          },
+          {
+            "startTime": 10.3,
+            "endTime": 12.8,
+            "text": "sabe generar valor, sabe generar una percepción"
+          },
+          {
+            "startTime": 12.8,
+            "endTime": 15.6,
+            "text": "de de una experiencia diferente, etcétera."
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 1.2,
+          "endTime": 7.8,
+          "startFrame": 0,
+          "durationInFrames": 198,
+          "poster": "video-001/posters/scene-12-0.jpg"
+        },
+        {
+          "startTime": 8.4,
+          "endTime": 11.433333333333334,
+          "startFrame": 198,
+          "durationInFrames": 91,
+          "poster": "video-001/posters/scene-12-1.jpg"
+        },
+        {
+          "startTime": 11.6,
+          "endTime": 16.8,
+          "startFrame": 289,
+          "durationInFrames": 156,
+          "poster": "video-001/posters/scene-12-2.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Y es aquí donde tenemos que entender",
+          "startMs": 0,
+          "endMs": 4300,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "que no todo cliente compra al que le llegó primero.",
+          "startMs": 4300,
+          "endMs": 6600,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "Le compra al que sabe ganarse su confianza,",
+          "startMs": 6600,
+          "endMs": 9633,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "sabe generar valor, sabe generar una percepción",
+          "startMs": 9633,
+          "endMs": 12033,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "de de una experiencia diferente, etcétera.",
+          "startMs": 12033,
+          "endMs": 14833,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 97.6
+    },
+    {
+      "scene": 13,
+      "guionBlock": "Una solución con valor real",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 21.5,
+      "outTime": 32,
+      "spokenText": "¿somos los primeros o nuestro producto realmente sí ofrece una solución, sí ofrece un valor real?",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "¿Qué valor real ofreces?",
+        "headline": "¿Qué valor real ofreces?"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 21.5,
+      "endTime": 32,
+      "startFrame": 3373,
+      "durationInFrames": 277,
+      "timelineStartTime": 113.9,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 3.866666666666667,
+          "text": "¿somos los primeros o nuestro producto realmente"
+        },
+        {
+          "startTime": 3.866666666666667,
+          "endTime": 9.233333333333334,
+          "text": "sí ofrece una solución, sí ofrece un valor real?"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/a55db7a6e9a94b999d680a2912b19f55.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 21.5,
+        "outTime": 32,
+        "durationInFrames": 315,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 5,
+            "text": "¿somos los primeros o nuestro producto realmente"
+          },
+          {
+            "startTime": 5,
+            "endTime": 10.5,
+            "text": "sí ofrece una solución, sí ofrece un valor real?"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 21.5,
+          "endTime": 21.7,
+          "startFrame": 0,
+          "durationInFrames": 6,
+          "poster": "video-001/posters/scene-13-0.jpg"
+        },
+        {
+          "startTime": 21.966666666666665,
+          "endTime": 23.433333333333334,
+          "startFrame": 6,
+          "durationInFrames": 44,
+          "poster": "video-001/posters/scene-13-1.jpg"
+        },
+        {
+          "startTime": 24.2,
+          "endTime": 26.4,
+          "startFrame": 50,
+          "durationInFrames": 66,
+          "poster": "video-001/posters/scene-13-2.jpg"
+        },
+        {
+          "startTime": 26.633333333333333,
+          "endTime": 32,
+          "startFrame": 116,
+          "durationInFrames": 161,
+          "poster": "video-001/posters/scene-13-3.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "¿somos los primeros o nuestro producto realmente",
+          "startMs": 0,
+          "endMs": 3867,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "sí ofrece una solución, sí ofrece un valor real?",
+          "startMs": 3867,
+          "endMs": 9233,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 112.43333333333334
+    },
+    {
+      "scene": 14,
+      "guionBlock": "CTA grabado fuera del guion; cierre provisional",
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "inTime": 29.5,
+      "outTime": 34,
+      "spokenText": "si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?",
+      "visualSupport": {
+        "type": "remotion-component",
+        "source": "BigStatement",
+        "startTime": 0,
+        "endTime": 0,
+        "description": "Comparte esta reflexión",
+        "headline": "Comparte esta reflexión"
+      },
+      "subtitles": "Frases transcritas por Gemini, sincronizadas a los timestamps de la fuente.",
+      "motion": {
+        "type": "spring-editorial",
+        "durationInFrames": 18,
+        "description": "Títulos siempre visibles; palabras escalonadas, subrayado y progreso por escena; sin fade a negro."
+      },
+      "transition": {
+        "type": "cut",
+        "description": "Corte directo con premontaje de 45 frames; sin solapar voces ni insertar tiempo negro."
+      },
+      "startTime": 29.5,
+      "endTime": 34,
+      "startFrame": 3650,
+      "durationInFrames": 135,
+      "timelineStartTime": 124.4,
+      "captionCues": [
+        {
+          "startTime": 0,
+          "endTime": 4.5,
+          "text": "si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?"
+        }
+      ],
+      "subtitleTiming": "Frases temporizadas por Gemini contra el audio original; sin interpolación de tiempos por palabra.",
+      "previewSource": "video-001/136ecbbf804041dfa4bf6e6d4c64538f.mp4",
+      "orientationCorrection": "90 grados antihorario en el proxy; originales preservados",
+      "originalTiming": {
+        "inTime": 29.5,
+        "outTime": 34,
+        "durationInFrames": 135,
+        "captionCues": [
+          {
+            "startTime": 0,
+            "endTime": 4.5,
+            "text": "si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?"
+          }
+        ]
+      },
+      "sourceRanges": [
+        {
+          "startTime": 29.5,
+          "endTime": 34,
+          "startFrame": 0,
+          "durationInFrames": 135,
+          "poster": "video-001/posters/scene-14-0.jpg"
+        }
+      ],
+      "captions": [
+        {
+          "text": "si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?",
+          "startMs": 0,
+          "endMs": 4500,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "timelineStart": 121.66666666666667
+    }
+  ],
+  "discardedTakes": [
+    {
+      "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+      "reason": "Copia audiovisual verificada de 1071a10986d4473fab0f545091431ee2.MP4; no aporta otra interpretación ni otra ejecución."
+    }
+  ],
+  "comparisons": [
+    {
+      "guionBlock": "Apertura",
+      "candidates": [
+        {
+          "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+          "startTime": 2.2,
+          "endTime": 11.2,
+          "assessment": "Misma señal audiovisual que la copia 2eff; la transcripción de esta referencia es más coherente. Buena energía inicial, audio inteligible; orientación corregida."
+        },
+        {
+          "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+          "startTime": 2.2,
+          "endTime": 11.2,
+          "assessment": "Copia confirmada por audio PCM completo y cinco fotogramas. Las diferencias de puntuación y transcripción del modelo no demuestran otra toma."
+        }
+      ],
+      "selectedSource": "1071a10986d4473fab0f545091431ee2.MP4",
+      "reason": "Usar una sola referencia para las copias verificadas; no duplicar el hook."
+    },
+    {
+      "guionBlock": "Samsung 2014 / batería",
+      "candidates": [
+        {
+          "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+          "startTime": 30.1,
+          "endTime": 58.6,
+          "assessment": "Digresión y tropiezos en comercial y todo aquel; menor fidelidad al guion."
+        },
+        {
+          "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+          "startTime": 11.2,
+          "endTime": 43.5,
+          "assessment": "Se mantiene la referencia explícita a 2014 y a la batería. Se excluyen los falsos inicios 0–11.2 y 22.2–34. Audio y aspecto consistentes con el resto."
+        }
+      ],
+      "selectedSource": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "reason": "Mayor fidelidad por bloques, con dos rangos separados para eliminar reinicios."
+    },
+    {
+      "guionBlock": "Llegar primero / diferente",
+      "candidates": [
+        {
+          "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+          "startTime": 0,
+          "endTime": 19,
+          "assessment": "Repite su su y llegar; mirada fuera de eje y menor fluidez."
+        },
+        {
+          "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+          "startTime": 23,
+          "endTime": 32.5,
+          "assessment": "Reformulación completa y más resolutiva; misma continuidad de encuadre, audio y expresión."
+        }
+      ],
+      "selectedSource": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "reason": "Seleccionar el segundo intento dentro del mismo archivo."
+    },
+    {
+      "guionBlock": "Valor / cliente",
+      "candidates": [
+        {
+          "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+          "startTime": 38,
+          "endTime": 46.5,
+          "assessment": "Frase incompleta y reinicio al final."
+        },
+        {
+          "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+          "startTime": 1.2,
+          "endTime": 16.8,
+          "assessment": "Desarrolla confianza, valor y experiencia; pequeña repetición de de, pero continuidad semántica y visual superior."
+        }
+      ],
+      "selectedSource": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "reason": "Mantener la explicación completa y evitar el cierre truncado."
+    },
+    {
+      "guionBlock": "Cierre provisional",
+      "candidates": [
+        {
+          "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+          "startTime": 41.5,
+          "endTime": 51.5,
+          "assessment": "Termina en y…, sin cierre completo."
+        },
+        {
+          "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+          "startTime": 29.5,
+          "endTime": 34,
+          "assessment": "CTA grabado completo; no pertenece al guion entregado. Uso exclusivo en esta revisión provisional."
+        }
+      ],
+      "selectedSource": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "reason": "Proporcionar cierre audible a la revisión parcial mientras se analizan las cuatro fuentes restantes."
+    }
+  ],
+  "summary": "MONTAJE PROVISIONAL: ocho de doce tomas analizadas con Gemini. La cuota diaria impide analizar las cuatro restantes. Selección editorial basada en los datos reales disponibles, priorizando fidelidad, eliminación de falsos inicios, fluidez, inteligibilidad de audio y continuidad. La calidad visual, encuadre y expresión mantienen las limitaciones de la grabación; se corrige la orientación. Falta confirmar cobertura y mejores alternativas de auriculares, introducción del plegable y cierre del guion. El CTA final es material grabado fuera del guion y se usa solo como cierre provisional. No equivale a VIDEO-001 terminado.",
+  "EDIT_TYPE": "#edit-2-pantalla-dividida",
+  "durationInFrames": 3785,
+  "durationSeconds": 126.16666666666667,
+  "composition": "Video001",
+  "assetsGenerated": {
+    "aiImages": [],
+    "aiVideo": [],
+    "previewProxies": "public/video-001/*.mp4"
+  },
+  "pacingRevision": {
+    "version": 1,
+    "method": "20ms RMS envelope, EBU gate +2dB capped at -35dBFS; pauses >=400ms; 133ms protected at each side",
+    "previousDurationInFrames": 3867,
+    "removedFrames": 82,
+    "removed": [
+      {
+        "scene": 1,
+        "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+        "startTime": 10.8,
+        "endTime": 10.933333333333334,
+        "durationSeconds": 0.13333333333333333,
+        "detectedPause": {
+          "startTime": 10.66,
+          "endTime": 11.08
+        }
+      },
+      {
+        "scene": 3,
+        "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+        "startTime": 21.2,
+        "endTime": 21.4,
+        "durationSeconds": 0.2,
+        "detectedPause": {
+          "startTime": 21.06,
+          "endTime": 21.54
+        }
+      },
+      {
+        "scene": 6,
+        "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+        "startTime": 51.266666666666666,
+        "endTime": 51.4,
+        "durationSeconds": 0.13333333333333333,
+        "detectedPause": {
+          "startTime": 51.120000000000005,
+          "endTime": 51.56
+        }
+      },
+      {
+        "scene": 11,
+        "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+        "startTime": 35,
+        "endTime": 35.233333333333334,
+        "durationSeconds": 0.23333333333333334,
+        "detectedPause": {
+          "startTime": 34.84,
+          "endTime": 35.38
+        }
+      },
+      {
+        "scene": 12,
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "startTime": 7.8,
+        "endTime": 8.4,
+        "durationSeconds": 0.6,
+        "detectedPause": {
+          "startTime": 7.640000000000001,
+          "endTime": 8.540000000000001
+        }
+      },
+      {
+        "scene": 12,
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "startTime": 11.433333333333334,
+        "endTime": 11.6,
+        "durationSeconds": 0.16666666666666666,
+        "detectedPause": {
+          "startTime": 11.28,
+          "endTime": 11.76
+        }
+      },
+      {
+        "scene": 13,
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "startTime": 21.7,
+        "endTime": 21.966666666666665,
+        "durationSeconds": 0.26666666666666666,
+        "detectedPause": {
+          "startTime": 21.54,
+          "endTime": 22.1
+        }
+      },
+      {
+        "scene": 13,
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "startTime": 23.433333333333334,
+        "endTime": 24.2,
+        "durationSeconds": 0.7666666666666667,
+        "detectedPause": {
+          "startTime": 23.28,
+          "endTime": 24.36
+        }
+      },
+      {
+        "scene": 13,
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "startTime": 26.4,
+        "endTime": 26.633333333333333,
+        "durationSeconds": 0.23333333333333334,
+        "detectedPause": {
+          "startTime": 26.240000000000002,
+          "endTime": 26.78
+        }
+      }
+    ],
+    "analysis": [
+      {
+        "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+        "thresholdDb": -36.2,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 1.18
+          },
+          {
+            "startTime": 2.1,
+            "endTime": 2.64
+          },
+          {
+            "startTime": 10.66,
+            "endTime": 11.08
+          },
+          {
+            "startTime": 15.22,
+            "endTime": 15.72
+          },
+          {
+            "startTime": 16.240000000000002,
+            "endTime": 16.86
+          },
+          {
+            "startTime": 20.64,
+            "endTime": 21.14
+          },
+          {
+            "startTime": 26.240000000000002,
+            "endTime": 26.64
+          },
+          {
+            "startTime": 29.66,
+            "endTime": 30.12
+          },
+          {
+            "startTime": 38.28,
+            "endTime": 38.88
+          }
+        ]
+      },
+      {
+        "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+        "thresholdDb": -37.42,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 1.26
+          },
+          {
+            "startTime": 9.48,
+            "endTime": 10.4
+          },
+          {
+            "startTime": 10.74,
+            "endTime": 11.16
+          },
+          {
+            "startTime": 21.06,
+            "endTime": 21.54
+          },
+          {
+            "startTime": 22.52,
+            "endTime": 23.240000000000002
+          },
+          {
+            "startTime": 23.54,
+            "endTime": 24.14
+          },
+          {
+            "startTime": 32.54,
+            "endTime": 34.1
+          },
+          {
+            "startTime": 46,
+            "endTime": 46.52
+          },
+          {
+            "startTime": 49.24,
+            "endTime": 49.76
+          },
+          {
+            "startTime": 52.76,
+            "endTime": 53.18
+          }
+        ]
+      },
+      {
+        "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+        "thresholdDb": -36.27,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 1.36
+          },
+          {
+            "startTime": 12.16,
+            "endTime": 12.620000000000001
+          },
+          {
+            "startTime": 25.560000000000002,
+            "endTime": 26.16
+          },
+          {
+            "startTime": 30.14,
+            "endTime": 30.54
+          },
+          {
+            "startTime": 32.58,
+            "endTime": 32.980000000000004
+          },
+          {
+            "startTime": 33.22,
+            "endTime": 33.72
+          },
+          {
+            "startTime": 38.02,
+            "endTime": 38.46
+          },
+          {
+            "startTime": 38.88,
+            "endTime": 39.54
+          },
+          {
+            "startTime": 40.76,
+            "endTime": 41.28
+          },
+          {
+            "startTime": 44.38,
+            "endTime": 45.18
+          },
+          {
+            "startTime": 51.120000000000005,
+            "endTime": 51.56
+          },
+          {
+            "startTime": 56.26,
+            "endTime": 56.7
+          },
+          {
+            "startTime": 58.72,
+            "endTime": 59.120000000000005
+          }
+        ]
+      },
+      {
+        "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+        "thresholdDb": -38.45,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 0.8
+          },
+          {
+            "startTime": 20.3,
+            "endTime": 22.64
+          },
+          {
+            "startTime": 34.300000000000004,
+            "endTime": 35.64
+          },
+          {
+            "startTime": 35.660000000000004,
+            "endTime": 37.56
+          },
+          {
+            "startTime": 50.92,
+            "endTime": 52.6
+          }
+        ]
+      },
+      {
+        "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+        "thresholdDb": -37.4,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 0.9400000000000001
+          },
+          {
+            "startTime": 27.080000000000002,
+            "endTime": 27.580000000000002
+          },
+          {
+            "startTime": 31.3,
+            "endTime": 31.94
+          },
+          {
+            "startTime": 34.84,
+            "endTime": 35.38
+          },
+          {
+            "startTime": 43.96,
+            "endTime": 44.36
+          }
+        ]
+      },
+      {
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "thresholdDb": -37.27,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 0.98
+          },
+          {
+            "startTime": 7.640000000000001,
+            "endTime": 8.540000000000001
+          },
+          {
+            "startTime": 11.28,
+            "endTime": 11.76
+          },
+          {
+            "startTime": 16.66,
+            "endTime": 17.12
+          },
+          {
+            "startTime": 21.54,
+            "endTime": 22.1
+          },
+          {
+            "startTime": 23.28,
+            "endTime": 24.36
+          },
+          {
+            "startTime": 26.240000000000002,
+            "endTime": 26.78
+          },
+          {
+            "startTime": 34.46,
+            "endTime": 34.96
+          },
+          {
+            "startTime": 35.42,
+            "endTime": 35.82
+          },
+          {
+            "startTime": 35.9,
+            "endTime": 36.68
+          },
+          {
+            "startTime": 43.04,
+            "endTime": 43.64
+          },
+          {
+            "startTime": 46.54,
+            "endTime": 46.96
+          },
+          {
+            "startTime": 47.46,
+            "endTime": 48.1
+          }
+        ]
+      },
+      {
+        "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+        "thresholdDb": -38.89,
+        "windowMs": 20,
+        "minimumPauseMs": 400,
+        "pauses": [
+          {
+            "startTime": 0,
+            "endTime": 0.8
+          },
+          {
+            "startTime": 9.52,
+            "endTime": 11.700000000000001
+          },
+          {
+            "startTime": 12.48,
+            "endTime": 12.92
+          },
+          {
+            "startTime": 13,
+            "endTime": 13.700000000000001
+          },
+          {
+            "startTime": 13.72,
+            "endTime": 14.68
+          },
+          {
+            "startTime": 15.16,
+            "endTime": 15.76
+          },
+          {
+            "startTime": 15.780000000000001,
+            "endTime": 16.46
+          },
+          {
+            "startTime": 16.48,
+            "endTime": 17.48
+          },
+          {
+            "startTime": 17.5,
+            "endTime": 19.1
+          },
+          {
+            "startTime": 29.52,
+            "endTime": 29.96
+          },
+          {
+            "startTime": 34.42,
+            "endTime": 35.4
+          },
+          {
+            "startTime": 35.42,
+            "endTime": 36.38
+          }
+        ]
+      }
+    ]
+  }
+}

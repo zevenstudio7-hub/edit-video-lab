@@ -1,0 +1,17 @@
+{
+  "video": "VIDEO-003",
+  "fecha": "2026-10-06",
+  "regla": "docs/VIDEO-SYSTEM-ROOT.md → «Regla de recursos de apoyo».",
+  "restriccionDelUsuario": "El guion técnico prohíbe buscar, descargar o integrar imágenes, videos, logos o recursos externos: todo el motion se genera con código. La investigación se limita a verificar los hechos que se mencionan.",
+  "consultas": [
+    {"canal": "material del proyecto", "consulta": "toma «guerra de la IA EMPEZÓ.mp4»", "resultado": "Solo presentador; no hay material de apoyo."},
+    {"canal": "búsqueda general", "consulta": "OpenAI \"GPT-6.1\" Sol \"GPT-6\" Astra launch", "resultado": "Cobertura secundaria (datanorth.ai, eesel.ai, androidauthority.com, developersdigest.tech): GPT-6 Astra (3 sep. 2026) y GPT-6.1 Sol (29 sep. 2026). En la grabación se dice «GPT-6 Astra» y «6.1 Sol»."},
+    {"canal": "búsqueda general", "consulta": "Anthropic Claude Opus 5.5 Sonnet 5.5 release", "resultado": "Cobertura secundaria (gori.me, tech.ifeng.com, theaicareerlab.com, watch.impress.co.jp): Opus 5.5 (~22 sep. 2026) y Sonnet 5.5 (28 sep. 2026). En la grabación se dice «Opus 5.5» y «Sonnet 5.5»."}
+  ],
+  "necesidades": [
+    {"tema": "Lanzamientos de Anthropic y OpenAI", "funcion": "explicar", "decision": "síntesis propia: nodos con los nombres tal como se dicen; sin logos, fechas ni cifras", "derechos": "permitido (creación propia)"},
+    {"tema": "Velocidad, control, aceleración, agentes, competencia", "funcion": "sintetizar / contrastar", "decision": "gráficos conceptuales sin escala numérica", "derechos": "permitido (creación propia)"}
+  ],
+  "recursosExternos": [],
+  "pendientes": ["Las fuentes de verificación son secundarias; no se muestran en pantalla porque el video no afirma fechas ni cifras."]
+}

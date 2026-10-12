@@ -1,0 +1,151 @@
+{
+  "method": "FFmpeg loudnorm + silencedetect; conservative threshold, >=0.45s",
+  "files": [
+    {
+      "file": "1071a10986d4473fab0f545091431ee2.MP4",
+      "loudness": {
+        "input_i": "-28.03",
+        "input_tp": "-4.72",
+        "input_lra": "4.30",
+        "input_thresh": "-38.20",
+        "output_i": "-24.23",
+        "output_tp": "-2.00",
+        "output_lra": "4.30",
+        "output_thresh": "-34.32",
+        "normalization_type": "dynamic",
+        "target_offset": "0.23"
+      },
+      "thresholdDb": -42.2,
+      "silences": [],
+      "blackIntervals": []
+    },
+    {
+      "file": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "loudness": {
+        "input_i": "-29.19",
+        "input_tp": "-10.16",
+        "input_lra": "3.10",
+        "input_thresh": "-39.42",
+        "output_i": "-24.37",
+        "output_tp": "-5.07",
+        "output_lra": "3.00",
+        "output_thresh": "-34.57",
+        "normalization_type": "dynamic",
+        "target_offset": "0.37"
+      },
+      "thresholdDb": -43.42,
+      "silences": [],
+      "blackIntervals": []
+    },
+    {
+      "file": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "loudness": {
+        "input_i": "-28.06",
+        "input_tp": "-7.82",
+        "input_lra": "4.40",
+        "input_thresh": "-38.27",
+        "output_i": "-24.74",
+        "output_tp": "-5.77",
+        "output_lra": "3.90",
+        "output_thresh": "-34.91",
+        "normalization_type": "dynamic",
+        "target_offset": "0.74"
+      },
+      "thresholdDb": -42.27,
+      "silences": [],
+      "blackIntervals": []
+    },
+    {
+      "file": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "loudness": {
+        "input_i": "-30.43",
+        "input_tp": "-9.74",
+        "input_lra": "6.30",
+        "input_thresh": "-40.45",
+        "output_i": "-24.55",
+        "output_tp": "-3.73",
+        "output_lra": "5.50",
+        "output_thresh": "-34.56",
+        "normalization_type": "dynamic",
+        "target_offset": "0.55"
+      },
+      "thresholdDb": -44.45,
+      "silences": [
+        {
+          "startTime": 0,
+          "endTime": 0.770658
+        }
+      ],
+      "blackIntervals": []
+    },
+    {
+      "file": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "loudness": {
+        "input_i": "-29.32",
+        "input_tp": "-9.57",
+        "input_lra": "4.00",
+        "input_thresh": "-39.40",
+        "output_i": "-23.65",
+        "output_tp": "-3.63",
+        "output_lra": "3.80",
+        "output_thresh": "-33.73",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.35"
+      },
+      "thresholdDb": -43.4,
+      "silences": [
+        {
+          "startTime": 0,
+          "endTime": 0.586871
+        }
+      ],
+      "blackIntervals": []
+    },
+    {
+      "file": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "loudness": {
+        "input_i": "-29.04",
+        "input_tp": "-10.25",
+        "input_lra": "3.70",
+        "input_thresh": "-39.27",
+        "output_i": "-25.26",
+        "output_tp": "-5.61",
+        "output_lra": "3.50",
+        "output_thresh": "-35.44",
+        "normalization_type": "dynamic",
+        "target_offset": "1.26"
+      },
+      "thresholdDb": -43.27,
+      "silences": [
+        {
+          "startTime": 0,
+          "endTime": 0.600385
+        }
+      ],
+      "blackIntervals": []
+    },
+    {
+      "file": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "loudness": {
+        "input_i": "-30.88",
+        "input_tp": "-9.96",
+        "input_lra": "12.60",
+        "input_thresh": "-40.89",
+        "output_i": "-24.51",
+        "output_tp": "-5.53",
+        "output_lra": "6.70",
+        "output_thresh": "-34.59",
+        "normalization_type": "dynamic",
+        "target_offset": "0.51"
+      },
+      "thresholdDb": -44.89,
+      "silences": [
+        {
+          "startTime": 0,
+          "endTime": 0.744762
+        }
+      ],
+      "blackIntervals": []
+    }
+  ]
+}

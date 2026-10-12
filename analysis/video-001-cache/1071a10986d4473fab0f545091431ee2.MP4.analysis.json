@@ -1,0 +1,180 @@
+{
+  "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+  "durationSeconds": 60.16,
+  "transcript": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba. Mira, este es el primer iPhone que Apple lanzó en el 2007 y nos da un claro ejemplo en todo el trayecto que vamos a ver de que para posicionar un producto, un servicio no siempre tienes que dar más, sino entregar más valor, que son cosas muy distintas. Y a consecuencia de, la historia entre Apple y Samsung nace en el 2014, o por lo menos es lo que yo pude encontrar, donde Samsung lanza su primer comer... comercial llamado Abrazaparedes. ¿Y por qué lo llama Abrazaparedes? Porque básicamente sacó un comercial diciendo que todo aquel que tenía un... todo usuario que tenía un celular Apple tenía que estar pegado a una pared. Eso es básic...",
+  "timestamps": [
+    {
+      "startTime": 2.2,
+      "endTime": 6.8,
+      "text": "Este es el claro ejemplo de que Apple está arriba,"
+    },
+    {
+      "startTime": 6.8,
+      "endTime": 11.2,
+      "text": "muy arriba de cualquier otra marca, pero muy arriba."
+    },
+    {
+      "startTime": 11.2,
+      "endTime": 15.1,
+      "text": "Mira, este es el primer iPhone que Apple lanzó en el 2007"
+    },
+    {
+      "startTime": 16.8,
+      "endTime": 21,
+      "text": "y nos da un claro ejemplo en todo el trayecto que vamos a ver"
+    },
+    {
+      "startTime": 21,
+      "endTime": 26.2,
+      "text": "de que para posicionar un producto, un servicio no siempre tienes que dar más,"
+    },
+    {
+      "startTime": 26.2,
+      "endTime": 30.1,
+      "text": "sino entregar más valor, que son cosas muy distintas."
+    },
+    {
+      "startTime": 30.1,
+      "endTime": 35,
+      "text": "Y a consecuencia de, la historia entre Apple y Samsung nace en el 2014,"
+    },
+    {
+      "startTime": 35,
+      "endTime": 38.9,
+      "text": "o por lo menos es lo que yo pude encontrar,"
+    },
+    {
+      "startTime": 38.9,
+      "endTime": 45.4,
+      "text": "donde Samsung lanza su primer comer... comercial llamado Abrazaparedes."
+    },
+    {
+      "startTime": 45.4,
+      "endTime": 50.2,
+      "text": "¿Y por qué lo llama Abrazaparedes? Porque básicamente sacó un comercial"
+    },
+    {
+      "startTime": 50.2,
+      "endTime": 54.8,
+      "text": "diciendo que todo aquel que tenía un... todo usuario que tenía un celular Apple"
+    },
+    {
+      "startTime": 54.8,
+      "endTime": 58.6,
+      "text": "tenía que estar pegado a una pared."
+    },
+    {
+      "startTime": 58.6,
+      "endTime": 60.1,
+      "text": "Eso es básic..."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Este es el claro ejemplo de que Apple está arriba, muy arriba, cuando hablamos de posicionamiento de marca.",
+      "match": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba.",
+      "confidence": 0.72
+    },
+    {
+      "guionBlock": "Y de que para posicionar tus productos o servicios no siempre tienes que dar más.",
+      "match": "de que para posicionar un producto, un servicio no siempre tienes que dar más, sino entregar más valor, que son cosas muy distintas.",
+      "confidence": 0.78
+    },
+    {
+      "guionBlock": "Mira la historia que tiene Samsung con Apple. En 2014 Samsung se burlaba de los usuarios de iPhone porque vivían pegados a un enchufe.",
+      "match": "la historia entre Apple y Samsung nace en el 2014... donde Samsung lanza su primer comercial llamado Abrazaparedes... diciendo que todo usuario que tenía un celular Apple tenía que estar pegado a una pared.",
+      "confidence": 0.65
+    }
+  ],
+  "errors": [
+    "Orientación del video invertida/girada 90 grados en sentido antihorario; requiere rotación de 90° en sentido horario.",
+    "El orador desvía la mirada frecuentemente hacia abajo para leer notas o una pantalla en lugar de mirar al lente.",
+    "Tropezón y autocorrección en 'primer comer... comercial' (00:40 - 00:43).",
+    "Falso inicio y refraseo en 'todo aquel que tenía un... todo usuario que tenía' (00:51 - 00:54).",
+    "El video se corta abruptamente a mitad de palabra en el segundo 60 ('Eso es básic...')."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 40.5,
+      "endTime": 42.5,
+      "reason": "Tartamudeo y vacilación al pronunciar 'comercial' ('primer comer... comercial')."
+    },
+    {
+      "startTime": 51.2,
+      "endTime": 53.6,
+      "reason": "Reinicio de frase: interrumpe 'todo aquel que tenía un...' para reformular a 'todo usuario que tenía'."
+    }
+  ],
+  "fluency": {
+    "score": 4.5,
+    "notes": "Ritmo entrecortado por la consulta constante del guion/pantalla abajo, pausas dubitativas y autocorrecciones léxicas evidentes."
+  },
+  "audio": {
+    "score": 6.5,
+    "notes": "Voz inteligible capturada a través de audífono inalámbrico, con algo de reverberación en sala y volumen ligeramente bajo."
+  },
+  "visualQuality": {
+    "score": 4,
+    "notes": "Subexpuesta, con iluminación ambiental azul/roja poco balanceada sobre el rostro y ruido en sombras."
+  },
+  "framing": {
+    "score": 2.5,
+    "notes": "Grave problema de orientación (archivo grabado en vertical pero codificado horizontalmente a 90°). Ángulo contrapicado excesivo y mirada fuera de eje."
+  },
+  "expression": {
+    "score": 5,
+    "notes": "Comienza con una sonrisa forzada y luego mantiene una expresión concentrada en la lectura, perdiendo conexión y dinamismo con la audiencia."
+  },
+  "fidelity": {
+    "score": 4,
+    "notes": "Se desvía sustancialmente del texto editorial, añadiendo digresiones sobre el iPhone de 2007 ('entregar más valor', 'o por lo menos es lo que yo pude encontrar') y parafraseando sin cubrir la estructura original."
+  },
+  "continuity": {
+    "score": 3,
+    "notes": "Toma inconclusa que se interrumpe a media frase al minuto de grabación."
+  },
+  "recommendedRanges": [
+    {
+      "startTime": 2.2,
+      "endTime": 11.2,
+      "guionBlock": "Este es el claro ejemplo de que Apple está arriba, muy arriba, cuando hablamos de posicionamiento de marca.",
+      "reason": "Único segmento continuo y con energía aceptable para el hook de apertura, condicionado a corregir la rotación de 90 grados."
+    }
+  ],
+  "overallRecommendation": "Descartar la toma para edición final directa. Presenta rotación incorrecta de 90°, desvío continuo de la mirada hacia abajo, múltiples desviaciones del guion y un corte abrupto al final. Se recomienda regrabar orientando la cámara correctamente en vertical y manteniendo la mirada en la lente.",
+  "provenance": {
+    "model": "gemini-3.8-flash",
+    "remoteFile": "files/e4v7ckvs5wkd",
+    "analyzedAt": "2026-09-21T23:55:46.684Z",
+    "sha256": "880fc07eef9b92fb30a47865ff97288cfdbd8d402fcdeaa52134089606427d38",
+    "responseId": "18OxaqGCJ_XQz7IP6-WumQ8",
+    "usage": {
+      "promptTokenCount": 6300,
+      "candidatesTokenCount": 1976,
+      "totalTokenCount": 10291,
+      "cachedContentTokenCount": 3078,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 5460
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 410
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 2668
+        }
+      ],
+      "thoughtsTokenCount": 2015,
+      "serviceTier": "standard"
+    }
+  }
+}

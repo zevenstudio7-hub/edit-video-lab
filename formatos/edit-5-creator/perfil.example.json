@@ -1,0 +1,39 @@
+{
+  "handle": "@tu_usuario",
+  "idioma": "es",
+  "plataformas": [
+    "reels",
+    "tiktok"
+  ],
+  "estilo_por_defecto": "collage",
+  "colores": {
+    "paleta": "zevenpro",
+    "acento": "#F5C518",
+    "resalte": "#FF4B2E",
+    "texto": "#FFFFFF",
+    "fondo_graficos": "#F4F1EA"
+  },
+  "fuente": {
+    "lectura": "inter-tight",
+    "hook": "anton",
+    "serif": "instrument-serif",
+    "mono": "ui-monospace"
+  },
+  "subtitulos": {
+    "mayusculas": false,
+    "bloque_max_palabras": 4,
+    "caja": false
+  },
+  "audio": {
+    "efectos": true,
+    "musica": false,
+    "micro": "cercano"
+  },
+  "cta": {
+    "tipo": "pregunta"
+  },
+  "notas": {
+    "tono": "directo y cercano",
+    "evitar": []
+  }
+}

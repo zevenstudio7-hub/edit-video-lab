@@ -1,0 +1,15 @@
+completa (0–46 s): [00:00.0] La guerra de la inteligencia artificial empezó hace rato y no se trata de una guerra militar.
+[00:04.2] Se trata de velocidad y adaptación.
+[00:06.3] Mientras líderes y empresas hablan de controlar su avance por seguridad, las mismas compañías que están construyendo estas tecnologías siguen pisando el acelerador.
+[00:14.2] En cuestión de días, Anthropic lanzó Opus 5.5 y Sonnet 5.5, OpenAI lanzó GPT-6 Astra y ahora acaba de presentar 6.1 Sol, junto con nueva capacidad para agentes.
+[00:25.5] Para mí esto deja algo bastante claro.
+[00:27.2] La pregunta para tu negocio ya no debería ser si la inteligencia artificial nos va a dominar o nos va a reemplazar.
+[00:33.0] La pregunta debería ser cómo vas a aprovechar todo lo que está avanzando antes de que {tu compañía} tu empresa o más bien tu competencia lo haga por ti.
+[00:41.3] Porque esta carrera no va a frenar y quienes sepan aprovechar estas herramientas tomarán la ventaja.
+
+lanzamientos (13.7–25.5 s): En cuestión de días Anthropic lanzó Opus 5.5 y Sonnet 5.5. OpenAI lanzó GPT-6 Astra y ahora acaba de presentar 6.1 Sol, junto con una capacidad para agentes
+
+competencia (36.4–41.1 s): antes de que tu compañía, tu empresa, o más bien tu competencia lo haga por ti
+
+claro (25.2–27.3 s): Para mí esto es algo bastante claro.
+

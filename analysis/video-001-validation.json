@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-03T03:20:00.102Z",
+  "analysisComplete": false,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "sourceAnalyses": 8,
+  "screenSegments": 3,
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "1071a10986d4473fab0f545091431ee2.MP4",
+      "frames": 256,
+      "ranges": 2,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 2,
+      "file": "1071a10986d4473fab0f545091431ee2.MP4",
+      "frames": 258,
+      "ranges": 2,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 3,
+      "file": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "frames": 324,
+      "ranges": 2,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 4,
+      "file": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "frames": 285,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 5,
+      "file": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "frames": 240,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 6,
+      "file": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "frames": 300,
+      "ranges": 2,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 7,
+      "file": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "frames": 285,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 8,
+      "file": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "frames": 225,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 9,
+      "file": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "frames": 390,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 10,
+      "file": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "frames": 165,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 11,
+      "file": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "frames": 173,
+      "ranges": 2,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 12,
+      "file": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "frames": 445,
+      "ranges": 3,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 13,
+      "file": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "frames": 277,
+      "ranges": 4,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    },
+    {
+      "scene": 14,
+      "file": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "frames": 125,
+      "ranges": 1,
+      "mediaOk": true,
+      "captionsOk": true,
+      "gapFree": true
+    }
+  ],
+  "durationInFrames": 3748,
+  "durationSeconds": 124.93333333333334,
+  "renderedFinal": false
+}

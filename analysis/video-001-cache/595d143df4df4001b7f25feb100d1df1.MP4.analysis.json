@@ -1,0 +1,233 @@
+{
+  "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+  "durationSeconds": 59.9,
+  "transcript": "Si en 2014 a... a, sí, si en 2014 Samsung se burlaba de los usuarios que... que se van, eh, porque... Si en 2014 efectivamente Samsung se burlaba de los usuarios de Apple porque vivían pegados, literalmente abrazados a una pared. Su argumento es muy simple. Eh, en sus... en su... su argumento era muy simple. Lanzaron ese... Samsung, un comercial por... un comercial por parte de ellos diciendo de que... Su argumento era muy simple. Lanzaron un comercial por parte de ellos diciendo de que sus productos, sus teléfonos podían cambiar de baterías, y eso notablemente es ganador, pero comp... pero compararse con iPhone es... con Apple... pero compararse con Apple es otra cosa. Después, eh, Apple quitó el puerto, por allá en el 2016 quitó el puerto de carga, el puerto de...",
+  "timestamps": [
+    {
+      "startTime": 0,
+      "endTime": 1.2,
+      "text": "Si en 2014 a"
+    },
+    {
+      "startTime": 1.2,
+      "endTime": 3.2,
+      "text": "a, sí,"
+    },
+    {
+      "startTime": 3.2,
+      "endTime": 5.5,
+      "text": "si en 2014 Samsung"
+    },
+    {
+      "startTime": 5.5,
+      "endTime": 7.5,
+      "text": "se burlaba de los usuarios que"
+    },
+    {
+      "startTime": 7.5,
+      "endTime": 9.8,
+      "text": "que se van, eh,"
+    },
+    {
+      "startTime": 9.8,
+      "endTime": 11.2,
+      "text": "porque"
+    },
+    {
+      "startTime": 11.2,
+      "endTime": 13.5,
+      "text": "si en 2014 efectivamente"
+    },
+    {
+      "startTime": 13.5,
+      "endTime": 16.2,
+      "text": "Samsung se burlaba de"
+    },
+    {
+      "startTime": 16.2,
+      "endTime": 18.2,
+      "text": "los usuarios de Apple"
+    },
+    {
+      "startTime": 18.2,
+      "endTime": 20.2,
+      "text": "porque vivían pegados,"
+    },
+    {
+      "startTime": 20.2,
+      "endTime": 22.2,
+      "text": "literalmente abrazados a una pared."
+    },
+    {
+      "startTime": 22.2,
+      "endTime": 24,
+      "text": "Su argumento es muy simple."
+    },
+    {
+      "startTime": 24,
+      "endTime": 25.5,
+      "text": "Eh, en sus..."
+    },
+    {
+      "startTime": 25.5,
+      "endTime": 27.2,
+      "text": "en su... su argumento era muy simple."
+    },
+    {
+      "startTime": 27.2,
+      "endTime": 29.2,
+      "text": "Lanzaron ese..."
+    },
+    {
+      "startTime": 29.2,
+      "endTime": 31.5,
+      "text": "Samsung, un comercial por..."
+    },
+    {
+      "startTime": 31.5,
+      "endTime": 34,
+      "text": "un comercial por parte de ellos diciendo de que..."
+    },
+    {
+      "startTime": 34,
+      "endTime": 36.5,
+      "text": "Su argumento era muy simple."
+    },
+    {
+      "startTime": 36.5,
+      "endTime": 39,
+      "text": "Lanzaron un comercial por parte de ellos diciendo de que"
+    },
+    {
+      "startTime": 39,
+      "endTime": 41.5,
+      "text": "sus productos, sus teléfonos"
+    },
+    {
+      "startTime": 41.5,
+      "endTime": 43.5,
+      "text": "podían cambiar de baterías,"
+    },
+    {
+      "startTime": 43.5,
+      "endTime": 45.8,
+      "text": "y eso notablemente es ganador,"
+    },
+    {
+      "startTime": 45.8,
+      "endTime": 47.8,
+      "text": "pero comp... pero compararse"
+    },
+    {
+      "startTime": 47.8,
+      "endTime": 50,
+      "text": "con iPhone es... con Apple..."
+    },
+    {
+      "startTime": 50,
+      "endTime": 52.5,
+      "text": "pero compararse con Apple es otra cosa."
+    },
+    {
+      "startTime": 52.5,
+      "endTime": 54.5,
+      "text": "Después, eh,"
+    },
+    {
+      "startTime": 54.5,
+      "endTime": 57,
+      "text": "Apple quitó el puerto,"
+    },
+    {
+      "startTime": 57,
+      "endTime": 59.9,
+      "text": "por allá en el 2016 quitó el puerto de carga, el puerto de..."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "En 2014 Samsung se burlaba de los usuarios de iPhone porque vivían pegados a un enchufe. ¿Su argumento? En sus teléfonos podías cambiar la batería. Después Apple quitó el puerto de audífonos.",
+      "match": "Si en 2014 efectivamente Samsung se burlaba de los usuarios de Apple porque vivían pegados, literalmente abrazados a una pared... sus teléfonos podían cambiar de baterías... Después, eh, Apple quitó el puerto...",
+      "confidence": 0.65
+    }
+  ],
+  "errors": [
+    "Orientación del video girada 90 grados en sentido antihorario.",
+    "Sustitución de 'usuarios de iPhone' por 'usuarios de Apple'.",
+    "Sustitución de 'a un enchufe' por 'literalmente abrazados a una pared'.",
+    "Adición no planificada de 'Lanzaron un comercial por parte de ellos diciendo de que...'.",
+    "Sustitución de 'puerto de audífonos' por 'puerto de carga'.",
+    "Interrupción al final de la toma antes de completar la frase."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 0,
+      "endTime": 11.2,
+      "reason": "Múltiples reintentos vacilantes de la primera frase sobre 2014."
+    },
+    {
+      "startTime": 22.2,
+      "endTime": 34,
+      "reason": "Reiterados intentos fallidos para formular la frase del argumento del comercial."
+    },
+    {
+      "startTime": 45.8,
+      "endTime": 50,
+      "reason": "Corrección sobre la marcha al comparar 'iPhone' con 'Apple'."
+    }
+  ],
+  "fluency": {
+    "score": 4,
+    "notes": "Fluidez baja por constantes reinicios, muletillas y tropezones verbales a lo largo de toda la toma."
+  },
+  "audio": {
+    "score": 7.5,
+    "notes": "Captura vocal entendible mediante auriculares inalámbricos, aunque con leve reverberación de sala."
+  },
+  "visualQuality": {
+    "score": 4,
+    "notes": "Iluminación deficiente con sombras marcadas y luces de color magenta/rojo dispersas. Video rotado lateralmente."
+  },
+  "framing": {
+    "score": 3.5,
+    "notes": "La orientación está inclinada 90 grados, requiriendo rotación técnica de 90° en sentido horario para ser utilizable."
+  },
+  "expression": {
+    "score": 4.5,
+    "notes": "El hablante mira constantemente hacia abajo o fuera de cámara buscando el texto, mostrando poca conexión visual."
+  },
+  "fidelity": {
+    "score": 4,
+    "notes": "Desvíos sustanciales frente al texto del guion, paráfrasis imprecisas y término incorrecto al referirse al puerto de carga en lugar de audífonos."
+  },
+  "continuity": {
+    "score": 3,
+    "notes": "Toma muy fragmentada por varios falsos inicios y cortada abruptamente antes de terminar el fragmento."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar toma. Requiere reorientación de cámara, corregir los tropiezos de lectura y ceñirse al guion sin interrumpir la oración final.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/z0asjnklussy",
+    "analyzedAt": "2026-09-22T00:20:32.132Z",
+    "sha256": "b3e9272a459468add6b5e241a287e3f657d705d8c685780672f6dcd9c157c53d",
+    "responseId": "rMmxaqTtM9SFqtsPrY-BUA",
+    "usage": {
+      "promptTokenCount": 6299,
+      "candidatesTokenCount": 2226,
+      "totalTokenCount": 10484,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 5459
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        }
+      ],
+      "thoughtsTokenCount": 1959,
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,1049 @@
+{
+  "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+  "sha256": "a18a89d4df3ef42ef0a0e43e17938d552dae9f77d1e379b998b27bf4c8efd619",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:30:14.901Z",
+    "seconds": 116.6,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba.[_TT_534] Este es el primer álbum que Apple lanzó en 2007 y nos da un claro ejemplo, dentro de un trayecto que vamos a ver,[_TT_1035] de que para posicionar un producto, un servicio, no siempre tienes que dar más, sino entregar más valor, que son cosas muy importantes.[_TT_1485] Pero consecuencia de esto, la historia entre Apple y Samsung nace en el 2014, o por lo menos es lo que yo pude encontrar,[_TT_425] donde Samsung lanza su primer comercial llamado Abraza Paredes.[_TT_781] ¿Y por qué lo llama Abraza Paredes? Porque básicamente sacó un comercial diciendo que todo usuario que tenía un celular de Apple tenía que estar pegado a una pared.[_TT_1452]",
+  "words": [
+    {
+      "text": "Este",
+      "startMs": 170,
+      "endMs": 530,
+      "dtwMs": 1660,
+      "tokens": 1,
+      "pMin": 0.627
+    },
+    {
+      "text": "es",
+      "startMs": 530,
+      "endMs": 790,
+      "dtwMs": 3100,
+      "tokens": 1,
+      "pMin": 0.947
+    },
+    {
+      "text": "el",
+      "startMs": 790,
+      "endMs": 1050,
+      "dtwMs": 3280,
+      "tokens": 1,
+      "pMin": 0.855
+    },
+    {
+      "text": "claro",
+      "startMs": 1050,
+      "endMs": 1720,
+      "dtwMs": 3780,
+      "tokens": 1,
+      "pMin": 0.946
+    },
+    {
+      "text": "ejemplo",
+      "startMs": 1720,
+      "endMs": 2660,
+      "dtwMs": 4620,
+      "tokens": 1,
+      "pMin": 0.933
+    },
+    {
+      "text": "de",
+      "startMs": 2660,
+      "endMs": 2920,
+      "dtwMs": 5120,
+      "tokens": 1,
+      "pMin": 0.924
+    },
+    {
+      "text": "que",
+      "startMs": 2920,
+      "endMs": 3310,
+      "dtwMs": 5300,
+      "tokens": 1,
+      "pMin": 0.953
+    },
+    {
+      "text": "Apple",
+      "startMs": 3310,
+      "endMs": 3990,
+      "dtwMs": 5780,
+      "tokens": 1,
+      "pMin": 0.903
+    },
+    {
+      "text": "está",
+      "startMs": 3990,
+      "endMs": 4660,
+      "dtwMs": 6280,
+      "tokens": 1,
+      "pMin": 0.444
+    },
+    {
+      "text": "arriba,",
+      "startMs": 4660,
+      "endMs": 5720,
+      "dtwMs": 7080,
+      "tokens": 2,
+      "pMin": 0.774
+    },
+    {
+      "text": "muy",
+      "startMs": 5720,
+      "endMs": 6110,
+      "dtwMs": 7860,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "arriba",
+      "startMs": 6240,
+      "endMs": 6920,
+      "dtwMs": 8300,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "de",
+      "startMs": 6920,
+      "endMs": 7180,
+      "dtwMs": 8720,
+      "tokens": 1,
+      "pMin": 0.866
+    },
+    {
+      "text": "cualquier",
+      "startMs": 7180,
+      "endMs": 8380,
+      "dtwMs": 9080,
+      "tokens": 1,
+      "pMin": 0.937
+    },
+    {
+      "text": "otra",
+      "startMs": 8380,
+      "endMs": 8910,
+      "dtwMs": 9420,
+      "tokens": 1,
+      "pMin": 0.938
+    },
+    {
+      "text": "marca,",
+      "startMs": 8910,
+      "endMs": 9790,
+      "dtwMs": 9680,
+      "tokens": 2,
+      "pMin": 0.698
+    },
+    {
+      "text": "pero",
+      "startMs": 9790,
+      "endMs": 10040,
+      "dtwMs": 10040,
+      "tokens": 1,
+      "pMin": 0.91
+    },
+    {
+      "text": "muy",
+      "startMs": 10040,
+      "endMs": 10320,
+      "dtwMs": 10300,
+      "tokens": 1,
+      "pMin": 0.902
+    },
+    {
+      "text": "arriba.[_TT_534]",
+      "startMs": 10320,
+      "endMs": 10680,
+      "dtwMs": 10660,
+      "tokens": 3,
+      "pMin": 0.212
+    },
+    {
+      "text": "Este",
+      "startMs": 10680,
+      "endMs": 11140,
+      "dtwMs": 11580,
+      "tokens": 1,
+      "pMin": 0.931
+    },
+    {
+      "text": "es",
+      "startMs": 11140,
+      "endMs": 11370,
+      "dtwMs": 11760,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "el",
+      "startMs": 11370,
+      "endMs": 11600,
+      "dtwMs": 11920,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "primer",
+      "startMs": 11600,
+      "endMs": 12290,
+      "dtwMs": 12240,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "álbum",
+      "startMs": 12290,
+      "endMs": 12960,
+      "dtwMs": 12500,
+      "tokens": 3,
+      "pMin": 0.947
+    },
+    {
+      "text": "que",
+      "startMs": 12990,
+      "endMs": 13300,
+      "dtwMs": 13140,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "Apple",
+      "startMs": 13310,
+      "endMs": 13880,
+      "dtwMs": 13620,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lanzó",
+      "startMs": 13880,
+      "endMs": 14570,
+      "dtwMs": 13920,
+      "tokens": 2,
+      "pMin": 0.998
+    },
+    {
+      "text": "en",
+      "startMs": 14570,
+      "endMs": 14800,
+      "dtwMs": 14280,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "2007",
+      "startMs": 14800,
+      "endMs": 16180,
+      "dtwMs": 15060,
+      "tokens": 1,
+      "pMin": 0.859
+    },
+    {
+      "text": "y",
+      "startMs": 16180,
+      "endMs": 16290,
+      "dtwMs": 17020,
+      "tokens": 1,
+      "pMin": 0.633
+    },
+    {
+      "text": "nos",
+      "startMs": 16290,
+      "endMs": 16630,
+      "dtwMs": 17760,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "da",
+      "startMs": 16680,
+      "endMs": 16850,
+      "dtwMs": 17900,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "un",
+      "startMs": 16860,
+      "endMs": 17090,
+      "dtwMs": 18120,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "claro",
+      "startMs": 17090,
+      "endMs": 17660,
+      "dtwMs": 18380,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "ejemplo,",
+      "startMs": 17660,
+      "endMs": 18780,
+      "dtwMs": 18780,
+      "tokens": 2,
+      "pMin": 0.699
+    },
+    {
+      "text": "dentro",
+      "startMs": 18780,
+      "endMs": 19180,
+      "dtwMs": 19280,
+      "tokens": 1,
+      "pMin": 0.149
+    },
+    {
+      "text": "de",
+      "startMs": 19210,
+      "endMs": 19320,
+      "dtwMs": 19460,
+      "tokens": 1,
+      "pMin": 0.797
+    },
+    {
+      "text": "un",
+      "startMs": 19320,
+      "endMs": 19450,
+      "dtwMs": 19540,
+      "tokens": 1,
+      "pMin": 0.921
+    },
+    {
+      "text": "trayecto",
+      "startMs": 19450,
+      "endMs": 20020,
+      "dtwMs": 19780,
+      "tokens": 3,
+      "pMin": 0.991
+    },
+    {
+      "text": "que",
+      "startMs": 20020,
+      "endMs": 20180,
+      "dtwMs": 20160,
+      "tokens": 1,
+      "pMin": 0.863
+    },
+    {
+      "text": "vamos",
+      "startMs": 20180,
+      "endMs": 20460,
+      "dtwMs": 20320,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "a",
+      "startMs": 20460,
+      "endMs": 20510,
+      "dtwMs": 20500,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "ver,[_TT_1035]",
+      "startMs": 20510,
+      "endMs": 20700,
+      "dtwMs": 20660,
+      "tokens": 3,
+      "pMin": 0.521
+    },
+    {
+      "text": "de",
+      "startMs": 20700,
+      "endMs": 20860,
+      "dtwMs": 21240,
+      "tokens": 1,
+      "pMin": 0.913
+    },
+    {
+      "text": "que",
+      "startMs": 20860,
+      "endMs": 21100,
+      "dtwMs": 21400,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "para",
+      "startMs": 21140,
+      "endMs": 21430,
+      "dtwMs": 22200,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "posicionar",
+      "startMs": 21430,
+      "endMs": 22240,
+      "dtwMs": 22460,
+      "tokens": 3,
+      "pMin": 1
+    },
+    {
+      "text": "un",
+      "startMs": 22240,
+      "endMs": 22400,
+      "dtwMs": 22980,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "producto,",
+      "startMs": 22400,
+      "endMs": 23220,
+      "dtwMs": 23500,
+      "tokens": 2,
+      "pMin": 0.689
+    },
+    {
+      "text": "un",
+      "startMs": 23220,
+      "endMs": 23380,
+      "dtwMs": 23760,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "servicio,",
+      "startMs": 23380,
+      "endMs": 24200,
+      "dtwMs": 24100,
+      "tokens": 2,
+      "pMin": 0.767
+    },
+    {
+      "text": "no",
+      "startMs": 24200,
+      "endMs": 24360,
+      "dtwMs": 24340,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "siempre",
+      "startMs": 24360,
+      "endMs": 24940,
+      "dtwMs": 24760,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tienes",
+      "startMs": 24940,
+      "endMs": 25430,
+      "dtwMs": 25140,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "que",
+      "startMs": 25430,
+      "endMs": 25670,
+      "dtwMs": 25320,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "dar",
+      "startMs": 25670,
+      "endMs": 25910,
+      "dtwMs": 25600,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "más,",
+      "startMs": 25910,
+      "endMs": 26390,
+      "dtwMs": 26180,
+      "tokens": 2,
+      "pMin": 0.997
+    },
+    {
+      "text": "sino",
+      "startMs": 26390,
+      "endMs": 26730,
+      "dtwMs": 27000,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "entregar",
+      "startMs": 26730,
+      "endMs": 27370,
+      "dtwMs": 27540,
+      "tokens": 2,
+      "pMin": 0.998
+    },
+    {
+      "text": "más",
+      "startMs": 27380,
+      "endMs": 27710,
+      "dtwMs": 28040,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "valor,",
+      "startMs": 27710,
+      "endMs": 28420,
+      "dtwMs": 28400,
+      "tokens": 2,
+      "pMin": 0.943
+    },
+    {
+      "text": "que",
+      "startMs": 28420,
+      "endMs": 28550,
+      "dtwMs": 28600,
+      "tokens": 1,
+      "pMin": 0.896
+    },
+    {
+      "text": "son",
+      "startMs": 28550,
+      "endMs": 28670,
+      "dtwMs": 28760,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "cosas",
+      "startMs": 28680,
+      "endMs": 28900,
+      "dtwMs": 29040,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "muy",
+      "startMs": 28900,
+      "endMs": 29030,
+      "dtwMs": 29260,
+      "tokens": 1,
+      "pMin": 0.885
+    },
+    {
+      "text": "importantes.[_TT_1485]",
+      "startMs": 29030,
+      "endMs": 29700,
+      "dtwMs": 29460,
+      "tokens": 3,
+      "pMin": 0.215
+    },
+    {
+      "text": "Pero",
+      "startMs": 29700,
+      "endMs": 30010,
+      "dtwMs": 30240,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "consecuencia",
+      "startMs": 30120,
+      "endMs": 30930,
+      "dtwMs": 30620,
+      "tokens": 2,
+      "pMin": 0.848
+    },
+    {
+      "text": "de",
+      "startMs": 30930,
+      "endMs": 31080,
+      "dtwMs": 31180,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "esto,",
+      "startMs": 31080,
+      "endMs": 31540,
+      "dtwMs": 31380,
+      "tokens": 2,
+      "pMin": 0.994
+    },
+    {
+      "text": "la",
+      "startMs": 31540,
+      "endMs": 31690,
+      "dtwMs": 31500,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "historia",
+      "startMs": 31690,
+      "endMs": 32310,
+      "dtwMs": 31820,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "entre",
+      "startMs": 32310,
+      "endMs": 32690,
+      "dtwMs": 32140,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "Apple",
+      "startMs": 32690,
+      "endMs": 33060,
+      "dtwMs": 32600,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "y",
+      "startMs": 33070,
+      "endMs": 33140,
+      "dtwMs": 32740,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "Samsung",
+      "startMs": 33140,
+      "endMs": 33680,
+      "dtwMs": 33100,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "nace",
+      "startMs": 33680,
+      "endMs": 33980,
+      "dtwMs": 33640,
+      "tokens": 2,
+      "pMin": 0.883
+    },
+    {
+      "text": "en",
+      "startMs": 33980,
+      "endMs": 34110,
+      "dtwMs": 34260,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "el",
+      "startMs": 34130,
+      "endMs": 34280,
+      "dtwMs": 34420,
+      "tokens": 1,
+      "pMin": 0.985
+    },
+    {
+      "text": "2014,",
+      "startMs": 34280,
+      "endMs": 35360,
+      "dtwMs": 35140,
+      "tokens": 2,
+      "pMin": 0.989
+    },
+    {
+      "text": "o",
+      "startMs": 35360,
+      "endMs": 35430,
+      "dtwMs": 35500,
+      "tokens": 1,
+      "pMin": 0.968
+    },
+    {
+      "text": "por",
+      "startMs": 35430,
+      "endMs": 35650,
+      "dtwMs": 35740,
+      "tokens": 1,
+      "pMin": 0.956
+    },
+    {
+      "text": "lo",
+      "startMs": 35650,
+      "endMs": 35810,
+      "dtwMs": 35880,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "menos",
+      "startMs": 35810,
+      "endMs": 36190,
+      "dtwMs": 36140,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "es",
+      "startMs": 36190,
+      "endMs": 36340,
+      "dtwMs": 36420,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "lo",
+      "startMs": 36340,
+      "endMs": 36490,
+      "dtwMs": 36740,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "que",
+      "startMs": 36500,
+      "endMs": 36720,
+      "dtwMs": 36880,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "yo",
+      "startMs": 36720,
+      "endMs": 36870,
+      "dtwMs": 37040,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "pude",
+      "startMs": 36870,
+      "endMs": 37170,
+      "dtwMs": 37220,
+      "tokens": 2,
+      "pMin": 0.981
+    },
+    {
+      "text": "encontrar,[_TT_425]",
+      "startMs": 37170,
+      "endMs": 38200,
+      "dtwMs": 38240,
+      "tokens": 3,
+      "pMin": 0.401
+    },
+    {
+      "text": "donde",
+      "startMs": 38200,
+      "endMs": 38810,
+      "dtwMs": 39220,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "Samsung",
+      "startMs": 38880,
+      "endMs": 39580,
+      "dtwMs": 40460,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lanza",
+      "startMs": 39710,
+      "endMs": 40300,
+      "dtwMs": 40860,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "su",
+      "startMs": 40300,
+      "endMs": 40550,
+      "dtwMs": 41200,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "primer",
+      "startMs": 40550,
+      "endMs": 41230,
+      "dtwMs": 41600,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "comercial",
+      "startMs": 41300,
+      "endMs": 42380,
+      "dtwMs": 42860,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "llamado",
+      "startMs": 42410,
+      "endMs": 43230,
+      "dtwMs": 43900,
+      "tokens": 1,
+      "pMin": 0.957
+    },
+    {
+      "text": "Abraza",
+      "startMs": 43270,
+      "endMs": 44000,
+      "dtwMs": 44360,
+      "tokens": 3,
+      "pMin": 0.922
+    },
+    {
+      "text": "Paredes.[_TT_781]",
+      "startMs": 44010,
+      "endMs": 45320,
+      "dtwMs": 44780,
+      "tokens": 5,
+      "pMin": 0.445
+    },
+    {
+      "text": "¿Y",
+      "startMs": 45320,
+      "endMs": 45590,
+      "dtwMs": 45740,
+      "tokens": 2,
+      "pMin": 0.913
+    },
+    {
+      "text": "por",
+      "startMs": 45590,
+      "endMs": 45860,
+      "dtwMs": 45980,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "qué",
+      "startMs": 45860,
+      "endMs": 46220,
+      "dtwMs": 46100,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lo",
+      "startMs": 46220,
+      "endMs": 46400,
+      "dtwMs": 46220,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "llama",
+      "startMs": 46400,
+      "endMs": 46840,
+      "dtwMs": 46480,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "Abraza",
+      "startMs": 46840,
+      "endMs": 47390,
+      "dtwMs": 46700,
+      "tokens": 3,
+      "pMin": 0.997
+    },
+    {
+      "text": "Paredes?",
+      "startMs": 47390,
+      "endMs": 48290,
+      "dtwMs": 47080,
+      "tokens": 4,
+      "pMin": 0.999
+    },
+    {
+      "text": "Porque",
+      "startMs": 48290,
+      "endMs": 48830,
+      "dtwMs": 47720,
+      "tokens": 1,
+      "pMin": 0.791
+    },
+    {
+      "text": "básicamente",
+      "startMs": 48830,
+      "endMs": 49940,
+      "dtwMs": 48280,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "sacó",
+      "startMs": 49940,
+      "endMs": 50390,
+      "dtwMs": 48840,
+      "tokens": 2,
+      "pMin": 0.996
+    },
+    {
+      "text": "un",
+      "startMs": 50390,
+      "endMs": 50570,
+      "dtwMs": 49340,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "comercial",
+      "startMs": 50570,
+      "endMs": 51390,
+      "dtwMs": 49800,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "diciendo",
+      "startMs": 51390,
+      "endMs": 52120,
+      "dtwMs": 50500,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "que",
+      "startMs": 52120,
+      "endMs": 52380,
+      "dtwMs": 50800,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "todo",
+      "startMs": 52380,
+      "endMs": 52750,
+      "dtwMs": 51140,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "usuario",
+      "startMs": 52750,
+      "endMs": 53380,
+      "dtwMs": 53660,
+      "tokens": 2,
+      "pMin": 0.698
+    },
+    {
+      "text": "que",
+      "startMs": 53380,
+      "endMs": 53620,
+      "dtwMs": 54040,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "tenía",
+      "startMs": 53650,
+      "endMs": 54200,
+      "dtwMs": 54320,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "un",
+      "startMs": 54200,
+      "endMs": 54380,
+      "dtwMs": 55140,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "celular",
+      "startMs": 54380,
+      "endMs": 55020,
+      "dtwMs": 55640,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "de",
+      "startMs": 55020,
+      "endMs": 55200,
+      "dtwMs": 56220,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "Apple",
+      "startMs": 55200,
+      "endMs": 55650,
+      "dtwMs": 56620,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tenía",
+      "startMs": 55650,
+      "endMs": 56200,
+      "dtwMs": 57220,
+      "tokens": 1,
+      "pMin": 0.501
+    },
+    {
+      "text": "que",
+      "startMs": 56200,
+      "endMs": 56460,
+      "dtwMs": 57460,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "estar",
+      "startMs": 56460,
+      "endMs": 56860,
+      "dtwMs": 57740,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "pegado",
+      "startMs": 57050,
+      "endMs": 57460,
+      "dtwMs": 58120,
+      "tokens": 2,
+      "pMin": 0.988
+    },
+    {
+      "text": "a",
+      "startMs": 57460,
+      "endMs": 57540,
+      "dtwMs": 58380,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "una",
+      "startMs": 57550,
+      "endMs": 57820,
+      "dtwMs": 58480,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "pared.[_TT_1452]",
+      "startMs": 57820,
+      "endMs": 58740,
+      "dtwMs": 58620,
+      "tokens": 4,
+      "pMin": 0.264
+    }
+  ]
+}

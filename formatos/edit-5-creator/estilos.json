@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "edit_type": "#edit-5-creator",
+  "descripcion": "Estilos base de #edit-5-creator = variantes 5A–5D (2026-10-09). Son valores de PARTIDA no validados en render. La orden elige uno (por su id o su variante) y su bloque `cambios` prevalece. Cada estilo es datos; no crea código nuevo. Subtítulos: formatos/subtitulos/subtitulos.json.",
+  "regla_de_cambios": "estilo base → perfil del usuario → bloque `cambios` de la orden (gana el último). Cada cambio se registra en la orden con su motivo.",
+  "por_defecto": "collage",
+  "estilos": {
+    "collage": {
+      "variante": "5A",
+      "subtitulos": {
+        "receta": "TypeCaptions/texture",
+        "lectura": "2-4 palabras, cortados en puntuación",
+        "enfasis": "palabra clave con color del perfil",
+        "fuente": "perfil.fuente.lectura"
+      },
+      "para": "Creador que une tomas y superpone capturas, B-roll y emojis. Estilo por defecto.",
+      "cortes": {
+        "silencios": "comprimir pausas largas; conservar las naturales",
+        "ritmo": "medio",
+        "punch_in": "ocasional, anclado a una palabra"
+      },
+      "hook": {
+        "receta": "HookCaptions (por construir)",
+        "cuando": "primeros 3 s: frase gancho grande",
+        "fuente": "perfil.fuente.hook"
+      },
+      "overlays": {
+        "capturas": "marco con entrada y salida cortas; protagonista si es evidencia",
+        "broll": "a pantalla completa o ventana según el espacio libre",
+        "emojis": "uno por concepto, máx. 1 visible a la vez",
+        "densidad_maxima": "1 overlay cada ~3 s (partida)"
+      },
+      "sfx": {
+        "corte": "whip suave (opcional)",
+        "overlay": "entrada y salida",
+        "enfasis": "golpe corto",
+        "nivel": "por debajo de la voz (partida: -6 dB)"
+      },
+      "motion": "MEDIUM",
+      "recursos": [
+        "mosaico 2×2: cuatro tomas de apoyo a la vez (video 3, 22–23 s)"
+      ]
+    },
+    "hook": {
+      "variante": "5B",
+      "subtitulos": {
+        "receta": "HookCaptions (por construir) o TypeCaptions/texture",
+        "lectura": "1-3 palabras por bloque, grandes",
+        "enfasis": "tinte de color en la palabra clave (KeywordTint, candidata)",
+        "fuente": "perfil.fuente.hook"
+      },
+      "para": "Videos de gancho agresivo y ritmo alto; tipografía como protagonista.",
+      "cortes": {
+        "silencios": "eliminar casi todos",
+        "ritmo": "alto",
+        "punch_in": "frecuente, alterna escala en cortes continuos"
+      },
+      "hook": {
+        "receta": "HookCaptions (por construir)",
+        "cuando": "primeros 3 s y remates",
+        "fuente": "perfil.fuente.hook"
+      },
+      "overlays": {
+        "capturas": "breves",
+        "broll": "breve y de corte duro",
+        "emojis": "frecuentes, como puntuación",
+        "densidad_maxima": "1 overlay cada ~2 s (partida)"
+      },
+      "sfx": {
+        "corte": "whip o golpe en cada cambio de plano",
+        "overlay": "entrada y salida",
+        "enfasis": "impacto",
+        "nivel": "por debajo de la voz (partida: -6 dB)"
+      },
+      "motion": "MEDIUM-HIGH"
+    },
+    "explicativo": {
+      "variante": "5C",
+      "subtitulos": {
+        "receta": "TypeCaptions/texture",
+        "lectura": "2-4 palabras",
+        "enfasis": "mínimo",
+        "fuente": "perfil.fuente.lectura"
+      },
+      "para": "Tutoriales y demos donde la captura es la prueba y no debe competir con adornos.",
+      "cortes": {
+        "silencios": "comprimir pausas largas",
+        "ritmo": "bajo-medio",
+        "punch_in": "raro"
+      },
+      "hook": {
+        "receta": "TypeCaptions/texture",
+        "cuando": "primer plano, sin tipografía especial",
+        "fuente": "perfil.fuente.lectura"
+      },
+      "overlays": {
+        "capturas": "protagonistas, con señalador (FocusHighlight)",
+        "broll": "solo si aclara",
+        "emojis": "pocos o ninguno",
+        "densidad_maxima": "según la explicación, no por tiempo"
+      },
+      "sfx": {
+        "corte": "ninguno",
+        "overlay": "tic suave",
+        "enfasis": "mínimo",
+        "nivel": "por debajo de la voz (partida: -8 dB)"
+      },
+      "motion": "LOW-MEDIUM",
+      "recursos": [
+        "nota-mono para errores o datos técnicos",
+        "dato en caja: recuadro blanco con un dato real (video 3, 19 s)"
+      ]
+    },
+    "editorial": {
+      "variante": "5D",
+      "subtitulos": {
+        "defecto": "S9",
+        "alternativas": [
+          "S5"
+        ]
+      },
+      "para": "Editorial lifestyle: muchas tomas de apoyo de la vida diaria con la voz en off debajo y poco presentador a cámara (video 2 del 2026-10-09).",
+      "cortes": {
+        "silencios": "comprimir pausas largas",
+        "ritmo": "medio, con el ritmo de la frase",
+        "punch_in": "no; el movimiento es de cámara en mano"
+      },
+      "subtitulos_detalle": {
+        "receta": "por construir (SerifCaptions, candidata, solo si el video la pide)",
+        "usos": "pantalla llena (gancho y remate), cascada, bloque apretado, palabra caligráfica, lectura entre medias",
+        "fuente": "Instrument Serif + Pinyon Script (o perfil.fuente)"
+      },
+      "tomas": {
+        "apoyo": "vida diaria: cocina, oficina, café, calle, atardecer; gran angular y de mano",
+        "presentador": "poco; entra para el gancho o una frase clave"
+      },
+      "overlays": {
+        "capturas": "raras",
+        "broll": "protagonista: es la mayor parte del video",
+        "emojis": "ninguno",
+        "densidad_maxima": "un plano nuevo cada 1–3 s"
+      },
+      "sfx": {
+        "corte": "ninguno",
+        "overlay": "ninguno",
+        "enfasis": "ninguno o muy sutil",
+        "nivel": "música suave por debajo de la voz si la orden la pide"
+      },
+      "motion": "LOW",
+      "gradacion": "cálida natural"
+    }
+  },
+  "texto_y_movimiento": {
+    "nota": "Estilos de texto y presets de movimiento de formatos/motion-ux (candidatos). Cada estilo base dice cuáles usa; la orden puede cambiarlos en `cambios`.",
+    "collage": {
+      "texto": [
+        "caption-palabra",
+        "titular-mixto",
+        "gancho-apilado"
+      ],
+      "movimiento": [
+        "stickers-escalonados",
+        "flotar",
+        "entrada-desenfoque",
+        "presentador-en-marco"
+      ]
+    },
+    "hook": {
+      "texto": [
+        "gancho-apilado",
+        "palabra-grande-sans-serif",
+        "negacion-gigante",
+        "caption-palabra"
+      ],
+      "movimiento": [
+        "pop-insignia",
+        "entrada-desenfoque",
+        "cruce-desenfoque"
+      ]
+    },
+    "explicativo": {
+      "texto": [
+        "caption-palabra",
+        "caption-pequeno-negrita",
+        "titular-ui"
+      ],
+      "movimiento": [
+        "subida-tarjeta",
+        "cursor-clic",
+        "escritura-con-tinte",
+        "foco-lista"
+      ]
+    },
+    "editorial": {
+      "texto": [
+        "S9 (formatos/subtitulos/SUBTITULOS.md)",
+        "cursiva-editorial"
+      ],
+      "movimiento": [
+        "entrada-desenfoque"
+      ]
+    }
+  },
+  "motion_ux": "por defecto cuando el tema es tecnología/software; intensidad media (overlays)",
+  "variantes": {
+    "5A": "collage",
+    "5B": "hook",
+    "5C": "explicativo",
+    "5D": "editorial"
+  }
+}

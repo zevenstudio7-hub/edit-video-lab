@@ -1,0 +1,433 @@
+{
+  "version": 1,
+  "method": "20ms RMS envelope, EBU gate +2dB capped at -35dBFS; pauses >=400ms; 133ms protected at each side",
+  "previousDurationInFrames": 3867,
+  "removedFrames": 82,
+  "removed": [
+    {
+      "scene": 1,
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 10.8,
+      "endTime": 10.933333333333334,
+      "durationSeconds": 0.13333333333333333,
+      "detectedPause": {
+        "startTime": 10.66,
+        "endTime": 11.08
+      }
+    },
+    {
+      "scene": 3,
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "startTime": 21.2,
+      "endTime": 21.4,
+      "durationSeconds": 0.2,
+      "detectedPause": {
+        "startTime": 21.06,
+        "endTime": 21.54
+      }
+    },
+    {
+      "scene": 6,
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 51.266666666666666,
+      "endTime": 51.4,
+      "durationSeconds": 0.13333333333333333,
+      "detectedPause": {
+        "startTime": 51.120000000000005,
+        "endTime": 51.56
+      }
+    },
+    {
+      "scene": 11,
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 35,
+      "endTime": 35.233333333333334,
+      "durationSeconds": 0.23333333333333334,
+      "detectedPause": {
+        "startTime": 34.84,
+        "endTime": 35.38
+      }
+    },
+    {
+      "scene": 12,
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 7.8,
+      "endTime": 8.4,
+      "durationSeconds": 0.6,
+      "detectedPause": {
+        "startTime": 7.640000000000001,
+        "endTime": 8.540000000000001
+      }
+    },
+    {
+      "scene": 12,
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 11.433333333333334,
+      "endTime": 11.6,
+      "durationSeconds": 0.16666666666666666,
+      "detectedPause": {
+        "startTime": 11.28,
+        "endTime": 11.76
+      }
+    },
+    {
+      "scene": 13,
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 21.7,
+      "endTime": 21.966666666666665,
+      "durationSeconds": 0.26666666666666666,
+      "detectedPause": {
+        "startTime": 21.54,
+        "endTime": 22.1
+      }
+    },
+    {
+      "scene": 13,
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 23.433333333333334,
+      "endTime": 24.2,
+      "durationSeconds": 0.7666666666666667,
+      "detectedPause": {
+        "startTime": 23.28,
+        "endTime": 24.36
+      }
+    },
+    {
+      "scene": 13,
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 26.4,
+      "endTime": 26.633333333333333,
+      "durationSeconds": 0.23333333333333334,
+      "detectedPause": {
+        "startTime": 26.240000000000002,
+        "endTime": 26.78
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "thresholdDb": -36.2,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 1.18
+        },
+        {
+          "startTime": 2.1,
+          "endTime": 2.64
+        },
+        {
+          "startTime": 10.66,
+          "endTime": 11.08
+        },
+        {
+          "startTime": 15.22,
+          "endTime": 15.72
+        },
+        {
+          "startTime": 16.240000000000002,
+          "endTime": 16.86
+        },
+        {
+          "startTime": 20.64,
+          "endTime": 21.14
+        },
+        {
+          "startTime": 26.240000000000002,
+          "endTime": 26.64
+        },
+        {
+          "startTime": 29.66,
+          "endTime": 30.12
+        },
+        {
+          "startTime": 38.28,
+          "endTime": 38.88
+        }
+      ]
+    },
+    {
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "thresholdDb": -37.42,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 1.26
+        },
+        {
+          "startTime": 9.48,
+          "endTime": 10.4
+        },
+        {
+          "startTime": 10.74,
+          "endTime": 11.16
+        },
+        {
+          "startTime": 21.06,
+          "endTime": 21.54
+        },
+        {
+          "startTime": 22.52,
+          "endTime": 23.240000000000002
+        },
+        {
+          "startTime": 23.54,
+          "endTime": 24.14
+        },
+        {
+          "startTime": 32.54,
+          "endTime": 34.1
+        },
+        {
+          "startTime": 46,
+          "endTime": 46.52
+        },
+        {
+          "startTime": 49.24,
+          "endTime": 49.76
+        },
+        {
+          "startTime": 52.76,
+          "endTime": 53.18
+        }
+      ]
+    },
+    {
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "thresholdDb": -36.27,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 1.36
+        },
+        {
+          "startTime": 12.16,
+          "endTime": 12.620000000000001
+        },
+        {
+          "startTime": 25.560000000000002,
+          "endTime": 26.16
+        },
+        {
+          "startTime": 30.14,
+          "endTime": 30.54
+        },
+        {
+          "startTime": 32.58,
+          "endTime": 32.980000000000004
+        },
+        {
+          "startTime": 33.22,
+          "endTime": 33.72
+        },
+        {
+          "startTime": 38.02,
+          "endTime": 38.46
+        },
+        {
+          "startTime": 38.88,
+          "endTime": 39.54
+        },
+        {
+          "startTime": 40.76,
+          "endTime": 41.28
+        },
+        {
+          "startTime": 44.38,
+          "endTime": 45.18
+        },
+        {
+          "startTime": 51.120000000000005,
+          "endTime": 51.56
+        },
+        {
+          "startTime": 56.26,
+          "endTime": 56.7
+        },
+        {
+          "startTime": 58.72,
+          "endTime": 59.120000000000005
+        }
+      ]
+    },
+    {
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "thresholdDb": -38.45,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 0.8
+        },
+        {
+          "startTime": 20.3,
+          "endTime": 22.64
+        },
+        {
+          "startTime": 34.300000000000004,
+          "endTime": 35.64
+        },
+        {
+          "startTime": 35.660000000000004,
+          "endTime": 37.56
+        },
+        {
+          "startTime": 50.92,
+          "endTime": 52.6
+        }
+      ]
+    },
+    {
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "thresholdDb": -37.4,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 0.9400000000000001
+        },
+        {
+          "startTime": 27.080000000000002,
+          "endTime": 27.580000000000002
+        },
+        {
+          "startTime": 31.3,
+          "endTime": 31.94
+        },
+        {
+          "startTime": 34.84,
+          "endTime": 35.38
+        },
+        {
+          "startTime": 43.96,
+          "endTime": 44.36
+        }
+      ]
+    },
+    {
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "thresholdDb": -37.27,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 0.98
+        },
+        {
+          "startTime": 7.640000000000001,
+          "endTime": 8.540000000000001
+        },
+        {
+          "startTime": 11.28,
+          "endTime": 11.76
+        },
+        {
+          "startTime": 16.66,
+          "endTime": 17.12
+        },
+        {
+          "startTime": 21.54,
+          "endTime": 22.1
+        },
+        {
+          "startTime": 23.28,
+          "endTime": 24.36
+        },
+        {
+          "startTime": 26.240000000000002,
+          "endTime": 26.78
+        },
+        {
+          "startTime": 34.46,
+          "endTime": 34.96
+        },
+        {
+          "startTime": 35.42,
+          "endTime": 35.82
+        },
+        {
+          "startTime": 35.9,
+          "endTime": 36.68
+        },
+        {
+          "startTime": 43.04,
+          "endTime": 43.64
+        },
+        {
+          "startTime": 46.54,
+          "endTime": 46.96
+        },
+        {
+          "startTime": 47.46,
+          "endTime": 48.1
+        }
+      ]
+    },
+    {
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "thresholdDb": -38.89,
+      "windowMs": 20,
+      "minimumPauseMs": 400,
+      "pauses": [
+        {
+          "startTime": 0,
+          "endTime": 0.8
+        },
+        {
+          "startTime": 9.52,
+          "endTime": 11.700000000000001
+        },
+        {
+          "startTime": 12.48,
+          "endTime": 12.92
+        },
+        {
+          "startTime": 13,
+          "endTime": 13.700000000000001
+        },
+        {
+          "startTime": 13.72,
+          "endTime": 14.68
+        },
+        {
+          "startTime": 15.16,
+          "endTime": 15.76
+        },
+        {
+          "startTime": 15.780000000000001,
+          "endTime": 16.46
+        },
+        {
+          "startTime": 16.48,
+          "endTime": 17.48
+        },
+        {
+          "startTime": 17.5,
+          "endTime": 19.1
+        },
+        {
+          "startTime": 29.52,
+          "endTime": 29.96
+        },
+        {
+          "startTime": 34.42,
+          "endTime": 35.4
+        },
+        {
+          "startTime": 35.42,
+          "endTime": 36.38
+        }
+      ]
+    }
+  ]
+}

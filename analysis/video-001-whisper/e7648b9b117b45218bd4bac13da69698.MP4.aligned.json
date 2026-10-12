@@ -1,0 +1,673 @@
+{
+  "sourceFile": "e7648b9b117b45218bd4bac13da69698.MP4",
+  "durationSeconds": 25.871,
+  "method": {
+    "frameSeconds": 0.01,
+    "noiseFloorDb": -40.9,
+    "thresholdDb": -34.9,
+    "minPauseSeconds": 0.15,
+    "phrasePauseSeconds": 0.3,
+    "transcription": "whisper.cpp 1.7.2, large-v3-turbo, -ac 640, --dtw large.v3.turbo, es, una transcripción por frase",
+    "note": "Islas y frases medidas por RMS. Texto por frase transcrito de forma aislada. Reparto de palabras dentro de cada isla proporcional a su longitud: no es alineación fonética.",
+    "seconds": 128.8
+  },
+  "phrases": [
+    {
+      "id": 0,
+      "start": 0.69,
+      "end": 2,
+      "islands": [
+        0
+      ],
+      "text": "Y aquí es donde se pone...",
+      "meanP": 0.81,
+      "suspect": false,
+      "pauseBefore": 0.69
+    },
+    {
+      "id": 1,
+      "start": 2.36,
+      "end": 5.71,
+      "islands": [
+        1
+      ],
+      "text": "Interesante porque Samsung si tiene todas las...",
+      "meanP": 0.79,
+      "suspect": false,
+      "pauseBefore": 0.36
+    },
+    {
+      "id": 2,
+      "start": 6.4,
+      "end": 9.22,
+      "islands": [
+        2,
+        3
+      ],
+      "text": "A competencia para decidir si nosotros lo hicimos primero.",
+      "meanP": 0.74,
+      "suspect": false,
+      "pauseBefore": 0.69
+    },
+    {
+      "id": 3,
+      "start": 9.77,
+      "end": 10.19,
+      "islands": [
+        4
+      ],
+      "text": "Pero...",
+      "meanP": 0.74,
+      "suspect": false,
+      "pauseBefore": 0.55
+    },
+    {
+      "id": 4,
+      "start": 10.67,
+      "end": 18.48,
+      "islands": [
+        5,
+        6
+      ],
+      "text": "No es aquí donde nos tenemos que centrar, mientras que Apple historialmente ha construido una marca que puede llegar después de vender.",
+      "meanP": 0.85,
+      "suspect": false,
+      "pauseBefore": 0.48
+    },
+    {
+      "id": 5,
+      "start": 18.87,
+      "end": 19.38,
+      "islands": [
+        7
+      ],
+      "text": "Y en de.",
+      "meanP": 0.9,
+      "suspect": false,
+      "pauseBefore": 0.39
+    },
+    {
+      "id": 6,
+      "start": 19.92,
+      "end": 21.62,
+      "islands": [
+        8
+      ],
+      "text": "Y vender y vender otra idea.",
+      "meanP": 0.8,
+      "suspect": false,
+      "pauseBefore": 0.54
+    },
+    {
+      "id": 7,
+      "start": 22.05,
+      "end": 23.3,
+      "islands": [
+        9
+      ],
+      "text": "Samsung.",
+      "meanP": 0.63,
+      "suspect": false,
+      "pauseBefore": 0.43
+    }
+  ],
+  "islands": [
+    {
+      "id": 0,
+      "start": 0.69,
+      "end": 2,
+      "text": "Y aquí es donde se pone..."
+    },
+    {
+      "id": 1,
+      "start": 2.36,
+      "end": 5.71,
+      "text": "Interesante porque Samsung si tiene todas las..."
+    },
+    {
+      "id": 2,
+      "start": 6.4,
+      "end": 7.11,
+      "text": "A competencia para"
+    },
+    {
+      "id": 3,
+      "start": 7.26,
+      "end": 9.22,
+      "text": "decidir si nosotros lo hicimos primero."
+    },
+    {
+      "id": 4,
+      "start": 9.77,
+      "end": 10.19,
+      "text": "Pero..."
+    },
+    {
+      "id": 5,
+      "start": 10.67,
+      "end": 12.84,
+      "text": "No es aquí donde nos tenemos que centrar,"
+    },
+    {
+      "id": 6,
+      "start": 13.02,
+      "end": 18.48,
+      "text": "mientras que Apple historialmente ha construido una marca que puede llegar después de vender."
+    },
+    {
+      "id": 7,
+      "start": 18.87,
+      "end": 19.38,
+      "text": "Y en de."
+    },
+    {
+      "id": 8,
+      "start": 19.92,
+      "end": 21.62,
+      "text": "Y vender y vender otra idea."
+    },
+    {
+      "id": 9,
+      "start": 22.05,
+      "end": 23.3,
+      "text": "Samsung."
+    }
+  ],
+  "words": [
+    {
+      "text": "Y",
+      "anchor": 0.73,
+      "p": 0.671,
+      "island": 0,
+      "phrase": 0,
+      "start": 0.69,
+      "end": 0.763
+    },
+    {
+      "text": "aquí",
+      "anchor": 0.89,
+      "p": 0.825,
+      "island": 0,
+      "phrase": 0,
+      "start": 0.763,
+      "end": 1.054
+    },
+    {
+      "text": "es",
+      "anchor": 1.01,
+      "p": 0.927,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.054,
+      "end": 1.199
+    },
+    {
+      "text": "donde",
+      "anchor": 1.15,
+      "p": 0.967,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.199,
+      "end": 1.563
+    },
+    {
+      "text": "se",
+      "anchor": 1.33,
+      "p": 0.974,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.563,
+      "end": 1.709
+    },
+    {
+      "text": "pone...",
+      "anchor": 1.57,
+      "p": 0.31,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.709,
+      "end": 2
+    },
+    {
+      "text": "Interesante",
+      "anchor": 3,
+      "p": 0.499,
+      "island": 1,
+      "phrase": 1,
+      "start": 2.36,
+      "end": 3.305
+    },
+    {
+      "text": "porque",
+      "anchor": 3.48,
+      "p": 0.742,
+      "island": 1,
+      "phrase": 1,
+      "start": 3.305,
+      "end": 3.82
+    },
+    {
+      "text": "Samsung",
+      "anchor": 4.48,
+      "p": 0.817,
+      "island": 1,
+      "phrase": 1,
+      "start": 3.82,
+      "end": 4.422
+    },
+    {
+      "text": "si",
+      "anchor": 4.76,
+      "p": 0.67,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.422,
+      "end": 4.593
+    },
+    {
+      "text": "tiene",
+      "anchor": 5.02,
+      "p": 0.839,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.593,
+      "end": 5.023
+    },
+    {
+      "text": "todas",
+      "anchor": 5.28,
+      "p": 0.912,
+      "island": 1,
+      "phrase": 1,
+      "start": 5.023,
+      "end": 5.452
+    },
+    {
+      "text": "las...",
+      "anchor": 5.54,
+      "p": 0.445,
+      "island": 1,
+      "phrase": 1,
+      "start": 5.452,
+      "end": 5.71
+    },
+    {
+      "text": "A",
+      "anchor": 6.62,
+      "p": 0.015,
+      "island": 2,
+      "phrase": 2,
+      "start": 6.4,
+      "end": 6.444
+    },
+    {
+      "text": "competencia",
+      "anchor": 7,
+      "p": 0.395,
+      "island": 2,
+      "phrase": 2,
+      "start": 6.444,
+      "end": 6.933
+    },
+    {
+      "text": "para",
+      "anchor": 7.36,
+      "p": 0.658,
+      "island": 2,
+      "phrase": 2,
+      "start": 6.933,
+      "end": 7.11
+    },
+    {
+      "text": "decidir",
+      "anchor": 7.82,
+      "p": 0.652,
+      "island": 3,
+      "phrase": 2,
+      "start": 7.26,
+      "end": 7.676
+    },
+    {
+      "text": "si",
+      "anchor": 8,
+      "p": 0.437,
+      "island": 3,
+      "phrase": 2,
+      "start": 7.676,
+      "end": 7.795
+    },
+    {
+      "text": "nosotros",
+      "anchor": 8.16,
+      "p": 0.779,
+      "island": 3,
+      "phrase": 2,
+      "start": 7.795,
+      "end": 8.27
+    },
+    {
+      "text": "lo",
+      "anchor": 8.5,
+      "p": 0.944,
+      "island": 3,
+      "phrase": 2,
+      "start": 8.27,
+      "end": 8.388
+    },
+    {
+      "text": "hicimos",
+      "anchor": 8.74,
+      "p": 0.986,
+      "island": 3,
+      "phrase": 2,
+      "start": 8.388,
+      "end": 8.804
+    },
+    {
+      "text": "primero.",
+      "anchor": 9.1,
+      "p": 0.837,
+      "island": 3,
+      "phrase": 2,
+      "start": 8.804,
+      "end": 9.22
+    },
+    {
+      "text": "Pero...",
+      "anchor": 9.93,
+      "p": 0.607,
+      "island": 4,
+      "phrase": 3,
+      "start": 9.77,
+      "end": 10.19
+    },
+    {
+      "text": "No",
+      "anchor": 10.85,
+      "p": 0.651,
+      "island": 5,
+      "phrase": 4,
+      "start": 10.67,
+      "end": 10.802
+    },
+    {
+      "text": "es",
+      "anchor": 11.11,
+      "p": 0.975,
+      "island": 5,
+      "phrase": 4,
+      "start": 10.802,
+      "end": 10.933
+    },
+    {
+      "text": "aquí",
+      "anchor": 11.35,
+      "p": 0.945,
+      "island": 5,
+      "phrase": 4,
+      "start": 10.933,
+      "end": 11.196
+    },
+    {
+      "text": "donde",
+      "anchor": 11.63,
+      "p": 0.915,
+      "island": 5,
+      "phrase": 4,
+      "start": 11.196,
+      "end": 11.525
+    },
+    {
+      "text": "nos",
+      "anchor": 11.83,
+      "p": 0.987,
+      "island": 5,
+      "phrase": 4,
+      "start": 11.525,
+      "end": 11.722
+    },
+    {
+      "text": "tenemos",
+      "anchor": 12.09,
+      "p": 0.987,
+      "island": 5,
+      "phrase": 4,
+      "start": 11.722,
+      "end": 12.182
+    },
+    {
+      "text": "que",
+      "anchor": 12.31,
+      "p": 0.989,
+      "island": 5,
+      "phrase": 4,
+      "start": 12.182,
+      "end": 12.38
+    },
+    {
+      "text": "centrar,",
+      "anchor": 12.75,
+      "p": 0.407,
+      "island": 5,
+      "phrase": 4,
+      "start": 12.38,
+      "end": 12.84
+    },
+    {
+      "text": "mientras",
+      "anchor": 13.71,
+      "p": 0.873,
+      "island": 6,
+      "phrase": 4,
+      "start": 13.02,
+      "end": 13.573
+    },
+    {
+      "text": "que",
+      "anchor": 14.01,
+      "p": 0.919,
+      "island": 6,
+      "phrase": 4,
+      "start": 13.573,
+      "end": 13.78
+    },
+    {
+      "text": "Apple",
+      "anchor": 14.37,
+      "p": 0.987,
+      "island": 6,
+      "phrase": 4,
+      "start": 13.78,
+      "end": 14.126
+    },
+    {
+      "text": "historialmente",
+      "anchor": 15.27,
+      "p": 0.246,
+      "island": 6,
+      "phrase": 4,
+      "start": 14.126,
+      "end": 15.093
+    },
+    {
+      "text": "ha",
+      "anchor": 15.47,
+      "p": 0.888,
+      "island": 6,
+      "phrase": 4,
+      "start": 15.093,
+      "end": 15.232
+    },
+    {
+      "text": "construido",
+      "anchor": 16.05,
+      "p": 0.977,
+      "island": 6,
+      "phrase": 4,
+      "start": 15.232,
+      "end": 15.923
+    },
+    {
+      "text": "una",
+      "anchor": 16.27,
+      "p": 0.97,
+      "island": 6,
+      "phrase": 4,
+      "start": 15.923,
+      "end": 16.13
+    },
+    {
+      "text": "marca",
+      "anchor": 16.63,
+      "p": 0.931,
+      "island": 6,
+      "phrase": 4,
+      "start": 16.13,
+      "end": 16.476
+    },
+    {
+      "text": "que",
+      "anchor": 16.79,
+      "p": 0.918,
+      "island": 6,
+      "phrase": 4,
+      "start": 16.476,
+      "end": 16.683
+    },
+    {
+      "text": "puede",
+      "anchor": 16.99,
+      "p": 0.717,
+      "island": 6,
+      "phrase": 4,
+      "start": 16.683,
+      "end": 17.029
+    },
+    {
+      "text": "llegar",
+      "anchor": 17.29,
+      "p": 0.99,
+      "island": 6,
+      "phrase": 4,
+      "start": 17.029,
+      "end": 17.443
+    },
+    {
+      "text": "después",
+      "anchor": 17.69,
+      "p": 0.979,
+      "island": 6,
+      "phrase": 4,
+      "start": 17.443,
+      "end": 17.927
+    },
+    {
+      "text": "de",
+      "anchor": 17.95,
+      "p": 0.938,
+      "island": 6,
+      "phrase": 4,
+      "start": 17.927,
+      "end": 18.065
+    },
+    {
+      "text": "vender.",
+      "anchor": 18.41,
+      "p": 0.743,
+      "island": 6,
+      "phrase": 4,
+      "start": 18.065,
+      "end": 18.48
+    },
+    {
+      "text": "Y",
+      "anchor": 18.97,
+      "p": 0.981,
+      "island": 7,
+      "phrase": 5,
+      "start": 18.87,
+      "end": 18.972
+    },
+    {
+      "text": "en",
+      "anchor": 19.15,
+      "p": 0.716,
+      "island": 7,
+      "phrase": 5,
+      "start": 18.972,
+      "end": 19.176
+    },
+    {
+      "text": "de.",
+      "anchor": 19.25,
+      "p": 0.907,
+      "island": 7,
+      "phrase": 5,
+      "start": 19.176,
+      "end": 19.38
+    },
+    {
+      "text": "Y",
+      "anchor": 19.98,
+      "p": 0.647,
+      "island": 8,
+      "phrase": 6,
+      "start": 19.92,
+      "end": 19.997
+    },
+    {
+      "text": "vender",
+      "anchor": 20.18,
+      "p": 0.915,
+      "island": 8,
+      "phrase": 6,
+      "start": 19.997,
+      "end": 20.461
+    },
+    {
+      "text": "y",
+      "anchor": 20.34,
+      "p": 0.542,
+      "island": 8,
+      "phrase": 6,
+      "start": 20.461,
+      "end": 20.538
+    },
+    {
+      "text": "vender",
+      "anchor": 20.6,
+      "p": 0.989,
+      "island": 8,
+      "phrase": 6,
+      "start": 20.538,
+      "end": 21.002
+    },
+    {
+      "text": "otra",
+      "anchor": 21.08,
+      "p": 0.681,
+      "island": 8,
+      "phrase": 6,
+      "start": 21.002,
+      "end": 21.311
+    },
+    {
+      "text": "idea.",
+      "anchor": 21.4,
+      "p": 0.829,
+      "island": 8,
+      "phrase": 6,
+      "start": 21.311,
+      "end": 21.62
+    },
+    {
+      "text": "Samsung.",
+      "anchor": 23.09,
+      "p": 0.31,
+      "island": 9,
+      "phrase": 7,
+      "start": 22.05,
+      "end": 23.3
+    }
+  ]
+}

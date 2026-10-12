@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "definido": "2026-10-09",
+  "nota": "Modelo. Copiar a perfil.json con los colores reales del usuario. No es un perfil activo.",
+  "ui": "#0057FF",
+  "resalte": "#F5C518",
+  "alerta": "#E1062C",
+  "superficie": "soft",
+  "fuente": { "titulares": "Inter Tight", "serif": "Instrument Serif", "mono": "ui-monospace" },
+  "origen_color": "hex",
+  "notas": ""
+}

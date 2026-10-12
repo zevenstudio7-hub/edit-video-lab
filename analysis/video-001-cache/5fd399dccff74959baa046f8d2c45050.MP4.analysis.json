@@ -1,0 +1,165 @@
+{
+  "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+  "durationSeconds": 47,
+  "transcript": "Y sí, muchos estamos obsesionados por ser los primeros como emprendedores, empresarios, etcétera, por ser los primeros en lanzar x producto, por ser los primeros en aprender a usar x herramienta, o ser los primeros... por ser los primeros en intentar vender cierto servicio, por tener ciertas características, agregarle más a nuestros servicios, etcétera, etcétera, etcétera, agregarle más, por ejemplo a nuestra aplicación, y ¿eso qué quiere decir esto? Que por agregar más tengamos más valor, así que eh... nuestro cliente no necesita siempre que le agreguemos más, sino que definitivamente el cliente quiere comprar algo... no siempre quiere comprar algo...",
+  "timestamps": [
+    {
+      "startTime": 1.5,
+      "endTime": 3.2,
+      "text": "Y sí, muchos estamos obsesionados"
+    },
+    {
+      "startTime": 3.2,
+      "endTime": 5,
+      "text": "por ser los primeros"
+    },
+    {
+      "startTime": 5,
+      "endTime": 6.8,
+      "text": "como emprendedores, empresarios, etcétera,"
+    },
+    {
+      "startTime": 6.8,
+      "endTime": 9.2,
+      "text": "por ser los primeros en lanzar x producto,"
+    },
+    {
+      "startTime": 9.2,
+      "endTime": 12,
+      "text": "por ser los primeros en aprender a usar x herramienta,"
+    },
+    {
+      "startTime": 12,
+      "endTime": 14.5,
+      "text": "por ser los primeros en intentar vender cierto servicio,"
+    },
+    {
+      "startTime": 14.5,
+      "endTime": 17.5,
+      "text": "por tener ciertas características,"
+    },
+    {
+      "startTime": 17.5,
+      "endTime": 20,
+      "text": "agregarle más a nuestros servicios,"
+    },
+    {
+      "startTime": 20,
+      "endTime": 22.5,
+      "text": "etcétera, etcétera, etcétera,"
+    },
+    {
+      "startTime": 22.5,
+      "endTime": 25.5,
+      "text": "agregarle más por ejemplo a nuestra aplicación,"
+    },
+    {
+      "startTime": 25.5,
+      "endTime": 28.5,
+      "text": "y ¿eso qué quiere decir esto?"
+    },
+    {
+      "startTime": 28.5,
+      "endTime": 32,
+      "text": "Que por agregar más tengamos más valor,"
+    },
+    {
+      "startTime": 32,
+      "endTime": 35,
+      "text": "así que nuestro cliente no necesita"
+    },
+    {
+      "startTime": 35,
+      "endTime": 38,
+      "text": "siempre que le agreguemos más,"
+    },
+    {
+      "startTime": 38,
+      "endTime": 41.5,
+      "text": "sino que definitivamente el cliente quiere comprar algo,"
+    },
+    {
+      "startTime": 41.5,
+      "endTime": 46.5,
+      "text": "no siempre quiere comprar algo..."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Muchos están obsesionados con ser los primeros. El primero en usar inteligencia artificial. El primero en ofrecer determinado servicio. El primero en lanzar algo. O peor: intentan competir agregando más cosas. Más servicios. Más características. Más bonos. Más descuentos. Pero tu cliente no necesariamente compra al que llegó primero ni al que ofrece más.",
+      "match": "Y sí, muchos estamos obsesionados por ser los primeros... por ser los primeros en lanzar x producto... agregarle más a nuestros servicios... nuestro cliente no necesita siempre que le agreguemos más",
+      "confidence": 0.75
+    }
+  ],
+  "errors": [
+    "Video orientado 90 grados hacia la izquierda (requiere rotacion de 90 grados a la derecha).",
+    "Improvisacion/parafraseo sustancial respecto al guion original.",
+    "Cierre incompleto con muletillas y reinicio de frase al final."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 23.5,
+      "endTime": 27,
+      "reason": "Duda y reformulacion de la pregunta (y eso que quiere decir esto)."
+    },
+    {
+      "startTime": 41.5,
+      "endTime": 46.5,
+      "reason": "Tropiezo verbal y frase incompleta al final de la toma (quiere comprar algo... no siempre quiere comprar algo...)."
+    }
+  ],
+  "fluency": {
+    "score": 5,
+    "notes": "El hablante duda en varias ocasiones, repite palabras ('etcétera, etcétera') y se traba en el cierre sin completar la idea."
+  },
+  "audio": {
+    "score": 7.5,
+    "notes": "Voz inteligible con micrófono integrado/auricular, aunque se percibe ligero ruido de fondo."
+  },
+  "visualQuality": {
+    "score": 3,
+    "notes": "El archivo de video está rotado 90 grados lateralmente. La iluminación tiene marcados tonos rojos y azules de contraste."
+  },
+  "framing": {
+    "score": 3,
+    "notes": "Encuadre incorrecto debido a la orientación lateral (vertical grabado en horizontal o viceversa)."
+  },
+  "expression": {
+    "score": 6,
+    "notes": "Expresión natural y relajada, pero pierde firmeza al dudar en el discurso y mirar fuera de cámara."
+  },
+  "fidelity": {
+    "score": 5.5,
+    "notes": "Parafrasea la sección del guion sustituyendo ejemplos específicos (como IA) por 'x producto' o 'x herramienta'."
+  },
+  "continuity": {
+    "score": 4,
+    "notes": "Inicia a mitad de la idea general del video y concluye con una frase trunca e inconclusa."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartada / Reintentar. El video presenta una orientación lateral incorrecta de 90 grados, no sigue con precisión el guion y termina con una frase trunca.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/8h4w6aua7w5w",
+    "analyzedAt": "2026-09-22T00:16:17.109Z",
+    "sha256": "10a1d67a2abaa6d2a7a33484762def6810ff6a1c09f2d203c0e76a95fc730ac6",
+    "responseId": "XMixas-XCMbrz7IPg9uw2Q4",
+    "usage": {
+      "promptTokenCount": 5108,
+      "candidatesTokenCount": 1586,
+      "totalTokenCount": 7873,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 4268
+        }
+      ],
+      "thoughtsTokenCount": 1179,
+      "serviceTier": "standard"
+    }
+  }
+}

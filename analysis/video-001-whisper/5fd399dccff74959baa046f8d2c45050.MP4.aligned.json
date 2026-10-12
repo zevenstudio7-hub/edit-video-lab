@@ -1,0 +1,1168 @@
+{
+  "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+  "durationSeconds": 46.609,
+  "method": {
+    "frameSeconds": 0.01,
+    "noiseFloorDb": -39.1,
+    "thresholdDb": -33.1,
+    "minPauseSeconds": 0.15,
+    "phrasePauseSeconds": 0.3,
+    "transcription": "whisper.cpp 1.7.2, large-v3-turbo, -ac 640, --dtw large.v3.turbo, es, una transcripción por frase",
+    "note": "Islas y frases medidas por RMS. Texto por frase transcrito de forma aislada. Reparto de palabras dentro de cada isla proporcional a su longitud: no es alineación fonética.",
+    "seconds": 154.6
+  },
+  "phrases": [
+    {
+      "id": 0,
+      "start": 0.94,
+      "end": 8.3,
+      "islands": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "text": "Y sí, muchos estamos obsesionados por ser los primeros, como emprendedores, empresarios, etc. Por ser los primeros en lanzar...",
+      "meanP": 0.88,
+      "suspect": false,
+      "pauseBefore": 0.94
+    },
+    {
+      "id": 1,
+      "start": 8.65,
+      "end": 12.12,
+      "islands": [
+        5
+      ],
+      "text": "X producto por ser los primeros en aprender a usarla.",
+      "meanP": 0.81,
+      "suspect": false,
+      "pauseBefore": 0.35
+    },
+    {
+      "id": 2,
+      "start": 12.47,
+      "end": 17.25,
+      "islands": [
+        6
+      ],
+      "text": "X herramientas por ser los primeros en intentar vender ciertos servicios.",
+      "meanP": 0.9,
+      "suspect": false,
+      "pauseBefore": 0.35
+    },
+    {
+      "id": 3,
+      "start": 17.78,
+      "end": 24.76,
+      "islands": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "text": "Por tener ciertas características, agregarle más a nuestros servicios, etc, etc, etc, agregarle más.",
+      "meanP": 0.85,
+      "suspect": false,
+      "pauseBefore": 0.53
+    },
+    {
+      "id": 4,
+      "start": 25.11,
+      "end": 27.02,
+      "islands": [
+        11
+      ],
+      "text": "Autogenizar nuestra aplicación.",
+      "meanP": 0.69,
+      "suspect": false,
+      "pauseBefore": 0.35
+    },
+    {
+      "id": 5,
+      "start": 27.6,
+      "end": 29.31,
+      "islands": [
+        12
+      ],
+      "text": "Y no quiere decir esto.",
+      "meanP": 0.68,
+      "suspect": false,
+      "pauseBefore": 0.58
+    },
+    {
+      "id": 6,
+      "start": 29.62,
+      "end": 31.21,
+      "islands": [
+        13
+      ],
+      "text": "Que por agregar más.",
+      "meanP": 0.7,
+      "suspect": false,
+      "pauseBefore": 0.31
+    },
+    {
+      "id": 7,
+      "start": 31.94,
+      "end": 33.84,
+      "islands": [
+        14,
+        15,
+        16
+      ],
+      "text": "Tengamos mal valor, asi que...",
+      "meanP": 0.62,
+      "suspect": false,
+      "pauseBefore": 0.73
+    },
+    {
+      "id": 8,
+      "start": 34.3,
+      "end": 34.78,
+      "islands": [
+        17
+      ],
+      "text": "Eh...",
+      "meanP": 0.31,
+      "suspect": true,
+      "pauseBefore": 0.46
+    },
+    {
+      "id": 9,
+      "start": 35.38,
+      "end": 37.17,
+      "islands": [
+        18
+      ],
+      "text": "Nuestro cliente no necesita.",
+      "meanP": 0.87,
+      "suspect": false,
+      "pauseBefore": 0.6
+    },
+    {
+      "id": 10,
+      "start": 37.66,
+      "end": 39.8,
+      "islands": [
+        19
+      ],
+      "text": "Ven siempre que le agrademos más.",
+      "meanP": 0.71,
+      "suspect": false,
+      "pauseBefore": 0.49
+    },
+    {
+      "id": 11,
+      "start": 40.24,
+      "end": 43.78,
+      "islands": [
+        20,
+        21
+      ],
+      "text": "Sino que definitivamente el cliente quiere comprar.",
+      "meanP": 0.83,
+      "suspect": false,
+      "pauseBefore": 0.44
+    },
+    {
+      "id": 12,
+      "start": 44.39,
+      "end": 46.59,
+      "islands": [
+        22,
+        23
+      ],
+      "text": "Siempre quiere comprar algo.",
+      "meanP": 0.82,
+      "suspect": false,
+      "pauseBefore": 0.61
+    }
+  ],
+  "islands": [
+    {
+      "id": 0,
+      "start": 0.94,
+      "end": 4.22,
+      "text": "Y sí, muchos estamos obsesionados por ser los primeros, como"
+    },
+    {
+      "id": 1,
+      "start": 4.39,
+      "end": 5.38,
+      "text": "emprendedores, empresarios,"
+    },
+    {
+      "id": 2,
+      "start": 5.53,
+      "end": 5.81,
+      "text": ""
+    },
+    {
+      "id": 3,
+      "start": 5.99,
+      "end": 6.36,
+      "text": "etc. Por"
+    },
+    {
+      "id": 4,
+      "start": 6.53,
+      "end": 8.3,
+      "text": "ser los primeros en lanzar..."
+    },
+    {
+      "id": 5,
+      "start": 8.65,
+      "end": 12.12,
+      "text": "X producto por ser los primeros en aprender a usarla."
+    },
+    {
+      "id": 6,
+      "start": 12.47,
+      "end": 17.25,
+      "text": "X herramientas por ser los primeros en intentar vender ciertos servicios."
+    },
+    {
+      "id": 7,
+      "start": 17.78,
+      "end": 21.37,
+      "text": "Por tener ciertas características, agregarle más a nuestros"
+    },
+    {
+      "id": 8,
+      "start": 21.57,
+      "end": 22.64,
+      "text": "servicios, etc,"
+    },
+    {
+      "id": 9,
+      "start": 22.83,
+      "end": 23.13,
+      "text": "etc,"
+    },
+    {
+      "id": 10,
+      "start": 23.28,
+      "end": 24.76,
+      "text": "etc, agregarle más."
+    },
+    {
+      "id": 11,
+      "start": 25.11,
+      "end": 27.02,
+      "text": "Autogenizar nuestra aplicación."
+    },
+    {
+      "id": 12,
+      "start": 27.6,
+      "end": 29.31,
+      "text": "Y no quiere decir esto."
+    },
+    {
+      "id": 13,
+      "start": 29.62,
+      "end": 31.21,
+      "text": "Que por agregar más."
+    },
+    {
+      "id": 14,
+      "start": 31.94,
+      "end": 32.39,
+      "text": "Tengamos"
+    },
+    {
+      "id": 15,
+      "start": 32.57,
+      "end": 33.21,
+      "text": "mal valor, asi"
+    },
+    {
+      "id": 16,
+      "start": 33.41,
+      "end": 33.84,
+      "text": "que..."
+    },
+    {
+      "id": 17,
+      "start": 34.3,
+      "end": 34.78,
+      "text": "Eh..."
+    },
+    {
+      "id": 18,
+      "start": 35.38,
+      "end": 37.17,
+      "text": "Nuestro cliente no necesita."
+    },
+    {
+      "id": 19,
+      "start": 37.66,
+      "end": 39.8,
+      "text": "Ven siempre que le agrademos más."
+    },
+    {
+      "id": 20,
+      "start": 40.24,
+      "end": 40.81,
+      "text": "Sino que"
+    },
+    {
+      "id": 21,
+      "start": 41,
+      "end": 43.78,
+      "text": "definitivamente el cliente quiere comprar."
+    },
+    {
+      "id": 22,
+      "start": 44.39,
+      "end": 45.83,
+      "text": "Siempre quiere"
+    },
+    {
+      "id": 23,
+      "start": 45.98,
+      "end": 46.59,
+      "text": "comprar algo."
+    }
+  ],
+  "words": [
+    {
+      "text": "Y",
+      "anchor": 0.98,
+      "p": 0.306,
+      "island": 0,
+      "phrase": 0,
+      "start": 0.94,
+      "end": 1.007
+    },
+    {
+      "text": "sí,",
+      "anchor": 1.14,
+      "p": 0.477,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.007,
+      "end": 1.141
+    },
+    {
+      "text": "muchos",
+      "anchor": 1.54,
+      "p": 0.972,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.141,
+      "end": 1.542
+    },
+    {
+      "text": "estamos",
+      "anchor": 1.88,
+      "p": 0.965,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.542,
+      "end": 2.011
+    },
+    {
+      "text": "obsesionados",
+      "anchor": 2.7,
+      "p": 0.99,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.011,
+      "end": 2.814
+    },
+    {
+      "text": "por",
+      "anchor": 3,
+      "p": 0.976,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.814,
+      "end": 3.015
+    },
+    {
+      "text": "ser",
+      "anchor": 3.28,
+      "p": 0.99,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.015,
+      "end": 3.216
+    },
+    {
+      "text": "los",
+      "anchor": 3.48,
+      "p": 0.983,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.216,
+      "end": 3.417
+    },
+    {
+      "text": "primeros,",
+      "anchor": 4.18,
+      "p": 0.514,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.417,
+      "end": 3.952
+    },
+    {
+      "text": "como",
+      "anchor": 4.48,
+      "p": 0.871,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.952,
+      "end": 4.22
+    },
+    {
+      "text": "emprendedores,",
+      "anchor": 5.1,
+      "p": 0.886,
+      "island": 1,
+      "phrase": 0,
+      "start": 4.39,
+      "end": 4.926
+    },
+    {
+      "text": "empresarios,",
+      "anchor": 5.7,
+      "p": 0.915,
+      "island": 1,
+      "phrase": 0,
+      "start": 4.926,
+      "end": 5.38
+    },
+    {
+      "text": "etc.",
+      "anchor": 6.16,
+      "p": 0.55,
+      "island": 3,
+      "phrase": 0,
+      "start": 5.99,
+      "end": 6.175
+    },
+    {
+      "text": "Por",
+      "anchor": 6.58,
+      "p": 0.397,
+      "island": 3,
+      "phrase": 0,
+      "start": 6.175,
+      "end": 6.36
+    },
+    {
+      "text": "ser",
+      "anchor": 6.78,
+      "p": 0.998,
+      "island": 4,
+      "phrase": 0,
+      "start": 6.53,
+      "end": 6.771
+    },
+    {
+      "text": "los",
+      "anchor": 6.94,
+      "p": 0.996,
+      "island": 4,
+      "phrase": 0,
+      "start": 6.771,
+      "end": 7.013
+    },
+    {
+      "text": "primeros",
+      "anchor": 7.5,
+      "p": 0.998,
+      "island": 4,
+      "phrase": 0,
+      "start": 7.013,
+      "end": 7.656
+    },
+    {
+      "text": "en",
+      "anchor": 7.66,
+      "p": 0.995,
+      "island": 4,
+      "phrase": 0,
+      "start": 7.656,
+      "end": 7.817
+    },
+    {
+      "text": "lanzar...",
+      "anchor": 8.3,
+      "p": 0.213,
+      "island": 4,
+      "phrase": 0,
+      "start": 7.817,
+      "end": 8.3
+    },
+    {
+      "text": "X",
+      "anchor": 9.49,
+      "p": 0.253,
+      "island": 5,
+      "phrase": 1,
+      "start": 8.65,
+      "end": 8.731
+    },
+    {
+      "text": "producto",
+      "anchor": 9.91,
+      "p": 0.397,
+      "island": 5,
+      "phrase": 1,
+      "start": 8.731,
+      "end": 9.376
+    },
+    {
+      "text": "por",
+      "anchor": 10.43,
+      "p": 0.799,
+      "island": 5,
+      "phrase": 1,
+      "start": 9.376,
+      "end": 9.618
+    },
+    {
+      "text": "ser",
+      "anchor": 10.57,
+      "p": 0.988,
+      "island": 5,
+      "phrase": 1,
+      "start": 9.618,
+      "end": 9.86
+    },
+    {
+      "text": "los",
+      "anchor": 10.69,
+      "p": 0.827,
+      "island": 5,
+      "phrase": 1,
+      "start": 9.86,
+      "end": 10.103
+    },
+    {
+      "text": "primeros",
+      "anchor": 11.13,
+      "p": 0.971,
+      "island": 5,
+      "phrase": 1,
+      "start": 10.103,
+      "end": 10.748
+    },
+    {
+      "text": "en",
+      "anchor": 11.31,
+      "p": 0.988,
+      "island": 5,
+      "phrase": 1,
+      "start": 10.748,
+      "end": 10.91
+    },
+    {
+      "text": "aprender",
+      "anchor": 11.67,
+      "p": 0.979,
+      "island": 5,
+      "phrase": 1,
+      "start": 10.91,
+      "end": 11.555
+    },
+    {
+      "text": "a",
+      "anchor": 11.91,
+      "p": 0.995,
+      "island": 5,
+      "phrase": 1,
+      "start": 11.555,
+      "end": 11.636
+    },
+    {
+      "text": "usarla.",
+      "anchor": 12.21,
+      "p": 0.482,
+      "island": 5,
+      "phrase": 1,
+      "start": 11.636,
+      "end": 12.12
+    },
+    {
+      "text": "X",
+      "anchor": 12.75,
+      "p": 0.352,
+      "island": 6,
+      "phrase": 2,
+      "start": 12.47,
+      "end": 12.547
+    },
+    {
+      "text": "herramientas",
+      "anchor": 13.55,
+      "p": 0.88,
+      "island": 6,
+      "phrase": 2,
+      "start": 12.547,
+      "end": 13.472
+    },
+    {
+      "text": "por",
+      "anchor": 14.07,
+      "p": 0.827,
+      "island": 6,
+      "phrase": 2,
+      "start": 13.472,
+      "end": 13.704
+    },
+    {
+      "text": "ser",
+      "anchor": 14.23,
+      "p": 0.984,
+      "island": 6,
+      "phrase": 2,
+      "start": 13.704,
+      "end": 13.935
+    },
+    {
+      "text": "los",
+      "anchor": 14.37,
+      "p": 0.913,
+      "island": 6,
+      "phrase": 2,
+      "start": 13.935,
+      "end": 14.166
+    },
+    {
+      "text": "primeros",
+      "anchor": 14.89,
+      "p": 0.967,
+      "island": 6,
+      "phrase": 2,
+      "start": 14.166,
+      "end": 14.783
+    },
+    {
+      "text": "en",
+      "anchor": 15.17,
+      "p": 0.948,
+      "island": 6,
+      "phrase": 2,
+      "start": 14.783,
+      "end": 14.937
+    },
+    {
+      "text": "intentar",
+      "anchor": 15.63,
+      "p": 0.976,
+      "island": 6,
+      "phrase": 2,
+      "start": 14.937,
+      "end": 15.554
+    },
+    {
+      "text": "vender",
+      "anchor": 16.03,
+      "p": 0.982,
+      "island": 6,
+      "phrase": 2,
+      "start": 15.554,
+      "end": 16.016
+    },
+    {
+      "text": "ciertos",
+      "anchor": 16.63,
+      "p": 0.937,
+      "island": 6,
+      "phrase": 2,
+      "start": 16.016,
+      "end": 16.556
+    },
+    {
+      "text": "servicios.",
+      "anchor": 17.11,
+      "p": 0.811,
+      "island": 6,
+      "phrase": 2,
+      "start": 16.556,
+      "end": 17.25
+    },
+    {
+      "text": "Por",
+      "anchor": 17.88,
+      "p": 0.438,
+      "island": 7,
+      "phrase": 3,
+      "start": 17.78,
+      "end": 17.991
+    },
+    {
+      "text": "tener",
+      "anchor": 18.16,
+      "p": 0.916,
+      "island": 7,
+      "phrase": 3,
+      "start": 17.991,
+      "end": 18.343
+    },
+    {
+      "text": "ciertas",
+      "anchor": 18.68,
+      "p": 0.951,
+      "island": 7,
+      "phrase": 3,
+      "start": 18.343,
+      "end": 18.836
+    },
+    {
+      "text": "características,",
+      "anchor": 19.32,
+      "p": 0.69,
+      "island": 7,
+      "phrase": 3,
+      "start": 18.836,
+      "end": 19.892
+    },
+    {
+      "text": "agregarle",
+      "anchor": 20.24,
+      "p": 0.928,
+      "island": 7,
+      "phrase": 3,
+      "start": 19.892,
+      "end": 20.525
+    },
+    {
+      "text": "más",
+      "anchor": 20.58,
+      "p": 0.89,
+      "island": 7,
+      "phrase": 3,
+      "start": 20.525,
+      "end": 20.736
+    },
+    {
+      "text": "a",
+      "anchor": 21.04,
+      "p": 0.927,
+      "island": 7,
+      "phrase": 3,
+      "start": 20.736,
+      "end": 20.807
+    },
+    {
+      "text": "nuestros",
+      "anchor": 21.36,
+      "p": 0.918,
+      "island": 7,
+      "phrase": 3,
+      "start": 20.807,
+      "end": 21.37
+    },
+    {
+      "text": "servicios,",
+      "anchor": 22.06,
+      "p": 0.737,
+      "island": 8,
+      "phrase": 3,
+      "start": 21.57,
+      "end": 22.373
+    },
+    {
+      "text": "etc,",
+      "anchor": 22.92,
+      "p": 0.119,
+      "island": 8,
+      "phrase": 3,
+      "start": 22.373,
+      "end": 22.64
+    },
+    {
+      "text": "etc,",
+      "anchor": 23.36,
+      "p": 0.758,
+      "island": 9,
+      "phrase": 3,
+      "start": 22.83,
+      "end": 23.13
+    },
+    {
+      "text": "etc,",
+      "anchor": 23.72,
+      "p": 0.583,
+      "island": 10,
+      "phrase": 3,
+      "start": 23.28,
+      "end": 23.576
+    },
+    {
+      "text": "agregarle",
+      "anchor": 24.4,
+      "p": 0.873,
+      "island": 10,
+      "phrase": 3,
+      "start": 23.576,
+      "end": 24.464
+    },
+    {
+      "text": "más.",
+      "anchor": 24.66,
+      "p": 0.894,
+      "island": 10,
+      "phrase": 3,
+      "start": 24.464,
+      "end": 24.76
+    },
+    {
+      "text": "Autogenizar",
+      "anchor": 25.75,
+      "p": 0.12,
+      "island": 11,
+      "phrase": 4,
+      "start": 25.11,
+      "end": 25.86
+    },
+    {
+      "text": "nuestra",
+      "anchor": 26.05,
+      "p": 0.964,
+      "island": 11,
+      "phrase": 4,
+      "start": 25.86,
+      "end": 26.338
+    },
+    {
+      "text": "aplicación.",
+      "anchor": 26.91,
+      "p": 0.675,
+      "island": 11,
+      "phrase": 4,
+      "start": 26.338,
+      "end": 27.02
+    },
+    {
+      "text": "Y",
+      "anchor": 27.8,
+      "p": 0.466,
+      "island": 12,
+      "phrase": 5,
+      "start": 27.6,
+      "end": 27.695
+    },
+    {
+      "text": "no",
+      "anchor": 28.42,
+      "p": 0.678,
+      "island": 12,
+      "phrase": 5,
+      "start": 27.695,
+      "end": 27.885
+    },
+    {
+      "text": "quiere",
+      "anchor": 28.64,
+      "p": 0.388,
+      "island": 12,
+      "phrase": 5,
+      "start": 27.885,
+      "end": 28.455
+    },
+    {
+      "text": "decir",
+      "anchor": 28.84,
+      "p": 0.995,
+      "island": 12,
+      "phrase": 5,
+      "start": 28.455,
+      "end": 28.93
+    },
+    {
+      "text": "esto.",
+      "anchor": 29.16,
+      "p": 0.597,
+      "island": 12,
+      "phrase": 5,
+      "start": 28.93,
+      "end": 29.31
+    },
+    {
+      "text": "Que",
+      "anchor": 29.72,
+      "p": 0.312,
+      "island": 13,
+      "phrase": 6,
+      "start": 29.62,
+      "end": 29.918
+    },
+    {
+      "text": "por",
+      "anchor": 30.16,
+      "p": 0.77,
+      "island": 13,
+      "phrase": 6,
+      "start": 29.918,
+      "end": 30.216
+    },
+    {
+      "text": "agregar",
+      "anchor": 30.78,
+      "p": 0.913,
+      "island": 13,
+      "phrase": 6,
+      "start": 30.216,
+      "end": 30.912
+    },
+    {
+      "text": "más.",
+      "anchor": 31.08,
+      "p": 0.512,
+      "island": 13,
+      "phrase": 6,
+      "start": 30.912,
+      "end": 31.21
+    },
+    {
+      "text": "Tengamos",
+      "anchor": 32.46,
+      "p": 0.298,
+      "island": 14,
+      "phrase": 7,
+      "start": 31.94,
+      "end": 32.39
+    },
+    {
+      "text": "mal",
+      "anchor": 32.78,
+      "p": 0.198,
+      "island": 15,
+      "phrase": 7,
+      "start": 32.57,
+      "end": 32.745
+    },
+    {
+      "text": "valor,",
+      "anchor": 33.1,
+      "p": 0.413,
+      "island": 15,
+      "phrase": 7,
+      "start": 32.745,
+      "end": 33.035
+    },
+    {
+      "text": "asi",
+      "anchor": 33.54,
+      "p": 0.562,
+      "island": 15,
+      "phrase": 7,
+      "start": 33.035,
+      "end": 33.21
+    },
+    {
+      "text": "que...",
+      "anchor": 33.74,
+      "p": 0.281,
+      "island": 16,
+      "phrase": 7,
+      "start": 33.41,
+      "end": 33.84
+    },
+    {
+      "text": "Eh...",
+      "anchor": 34.54,
+      "p": 0.234,
+      "island": 17,
+      "phrase": 8,
+      "start": 34.3,
+      "end": 34.78
+    },
+    {
+      "text": "Nuestro",
+      "anchor": 35.8,
+      "p": 0.577,
+      "island": 18,
+      "phrase": 9,
+      "start": 35.38,
+      "end": 35.902
+    },
+    {
+      "text": "cliente",
+      "anchor": 36.26,
+      "p": 0.983,
+      "island": 18,
+      "phrase": 9,
+      "start": 35.902,
+      "end": 36.424
+    },
+    {
+      "text": "no",
+      "anchor": 36.5,
+      "p": 0.979,
+      "island": 18,
+      "phrase": 9,
+      "start": 36.424,
+      "end": 36.573
+    },
+    {
+      "text": "necesita.",
+      "anchor": 36.86,
+      "p": 0.521,
+      "island": 18,
+      "phrase": 9,
+      "start": 36.573,
+      "end": 37.17
+    },
+    {
+      "text": "Ven",
+      "anchor": 37.96,
+      "p": 0.538,
+      "island": 19,
+      "phrase": 10,
+      "start": 37.66,
+      "end": 37.898
+    },
+    {
+      "text": "siempre",
+      "anchor": 38.42,
+      "p": 0.969,
+      "island": 19,
+      "phrase": 10,
+      "start": 37.898,
+      "end": 38.453
+    },
+    {
+      "text": "que",
+      "anchor": 38.72,
+      "p": 0.672,
+      "island": 19,
+      "phrase": 10,
+      "start": 38.453,
+      "end": 38.69
+    },
+    {
+      "text": "le",
+      "anchor": 38.84,
+      "p": 0.925,
+      "island": 19,
+      "phrase": 10,
+      "start": 38.69,
+      "end": 38.849
+    },
+    {
+      "text": "agrademos",
+      "anchor": 39.28,
+      "p": 0.476,
+      "island": 19,
+      "phrase": 10,
+      "start": 38.849,
+      "end": 39.562
+    },
+    {
+      "text": "más.",
+      "anchor": 39.76,
+      "p": 0.461,
+      "island": 19,
+      "phrase": 10,
+      "start": 39.562,
+      "end": 39.8
+    },
+    {
+      "text": "Sino",
+      "anchor": 40.38,
+      "p": 0.35,
+      "island": 20,
+      "phrase": 11,
+      "start": 40.24,
+      "end": 40.566
+    },
+    {
+      "text": "que",
+      "anchor": 40.6,
+      "p": 0.97,
+      "island": 20,
+      "phrase": 11,
+      "start": 40.566,
+      "end": 40.81
+    },
+    {
+      "text": "definitivamente",
+      "anchor": 41.8,
+      "p": 0.788,
+      "island": 21,
+      "phrase": 11,
+      "start": 41,
+      "end": 42.127
+    },
+    {
+      "text": "el",
+      "anchor": 42.34,
+      "p": 0.829,
+      "island": 21,
+      "phrase": 11,
+      "start": 42.127,
+      "end": 42.277
+    },
+    {
+      "text": "cliente",
+      "anchor": 42.9,
+      "p": 0.992,
+      "island": 21,
+      "phrase": 11,
+      "start": 42.277,
+      "end": 42.803
+    },
+    {
+      "text": "quiere",
+      "anchor": 43.14,
+      "p": 0.971,
+      "island": 21,
+      "phrase": 11,
+      "start": 42.803,
+      "end": 43.254
+    },
+    {
+      "text": "comprar.",
+      "anchor": 43.6,
+      "p": 0.228,
+      "island": 21,
+      "phrase": 11,
+      "start": 43.254,
+      "end": 43.78
+    },
+    {
+      "text": "Siempre",
+      "anchor": 45.43,
+      "p": 0.547,
+      "island": 22,
+      "phrase": 12,
+      "start": 44.39,
+      "end": 45.165
+    },
+    {
+      "text": "quiere",
+      "anchor": 45.65,
+      "p": 0.87,
+      "island": 22,
+      "phrase": 12,
+      "start": 45.165,
+      "end": 45.83
+    },
+    {
+      "text": "comprar",
+      "anchor": 46.21,
+      "p": 0.788,
+      "island": 23,
+      "phrase": 12,
+      "start": 45.98,
+      "end": 46.368
+    },
+    {
+      "text": "algo.",
+      "anchor": 46.59,
+      "p": 0.798,
+      "island": 23,
+      "phrase": 12,
+      "start": 46.368,
+      "end": 46.59
+    }
+  ]
+}

@@ -11,6 +11,8 @@ export interface CTAProps {
   badge?: string;
   arrow?: boolean;
   entryFrame?: number;
+  /** Color del texto del botón. Por defecto highlightText del preset; pásalo si el acento lo deja sin contraste. */
+  buttonTextColor?: string;
   style?: React.CSSProperties;
 }
 
@@ -22,6 +24,7 @@ export const CTA: React.FC<CTAProps> = ({
   badge,
   arrow = true,
   entryFrame = 0,
+  buttonTextColor,
   style,
 }) => {
   const frame = useCurrentFrame();
@@ -132,7 +135,7 @@ export const CTA: React.FC<CTAProps> = ({
           padding: "18px 40px",
           borderRadius: "9999px",
           backgroundColor: theme.colors.accent,
-          color: theme.colors.highlightText,
+          color: buttonTextColor ?? theme.colors.highlightText,
           fontFamily: theme.typography.headingFontFamily,
           fontSize: `${TYPOGRAPHY.sizes.md}px`,
           fontWeight: 800,

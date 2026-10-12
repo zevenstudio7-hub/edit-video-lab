@@ -1,0 +1,207 @@
+{
+  "sourceFile": "b1eb53d64406404f95a673182fe597fd.MP4",
+  "durationSeconds": 59.8,
+  "transcript": "En 2018 Samsung saca uno comerciales llamados Ingenius contra iPhone X, que es el iPhone 10, y básicamente estaban diciendo que a sus celulares ellos sí les podían incluir memorias SD eh de almacenamiento, cosa que con el iPhone no puedes hacer. Así que seguía la lucha contra iPhone, contra Apple, y en 2020 Apple sacó el iPhone 12 y dici- diciendo ¿dónde es? En 2020 Apple sacó el iPhone 12 y efectivamente eh Samsung no quiso dejar pasar esta oportunidad diciendo de que ellos sí incluían el cargador junto con sus aparatos electrónicos. Entonces todo este revuelo básicamente eh si tú puedes analizarlo lo curioso es que Samsung volvió todo esto una guerra de",
+  "timestamps": [
+    {
+      "startTime": 0,
+      "endTime": 1.8,
+      "text": "En 2018"
+    },
+    {
+      "startTime": 1.8,
+      "endTime": 5,
+      "text": "Samsung saca uno comerciales"
+    },
+    {
+      "startTime": 5,
+      "endTime": 7.2,
+      "text": "llamados Ingenius contra"
+    },
+    {
+      "startTime": 7.2,
+      "endTime": 10.3,
+      "text": "iPhone X que es el iPhone 10"
+    },
+    {
+      "startTime": 10.3,
+      "endTime": 13.5,
+      "text": "y básicamente estaban diciendo que a sus celulares"
+    },
+    {
+      "startTime": 13.5,
+      "endTime": 16.2,
+      "text": "ellos sí les podían incluir"
+    },
+    {
+      "startTime": 16.2,
+      "endTime": 18.1,
+      "text": "memorias SD"
+    },
+    {
+      "startTime": 18.1,
+      "endTime": 20.3,
+      "text": "eh de almacenamiento"
+    },
+    {
+      "startTime": 20.3,
+      "endTime": 23,
+      "text": "cosa que con el iPhone no puedes hacer."
+    },
+    {
+      "startTime": 23,
+      "endTime": 24.3,
+      "text": "Así que"
+    },
+    {
+      "startTime": 24.3,
+      "endTime": 27.2,
+      "text": "seguía la lucha contra iPhone contra Apple"
+    },
+    {
+      "startTime": 27.2,
+      "endTime": 30.5,
+      "text": "y en 2020 Apple sacó el iPhone 12"
+    },
+    {
+      "startTime": 30.5,
+      "endTime": 33.3,
+      "text": "y dici- diciendo"
+    },
+    {
+      "startTime": 33.3,
+      "endTime": 34.6,
+      "text": "¿dónde es?"
+    },
+    {
+      "startTime": 34.6,
+      "endTime": 37.6,
+      "text": "En 2020 Apple sacó el iPhone 12"
+    },
+    {
+      "startTime": 37.6,
+      "endTime": 40.5,
+      "text": "y efectivamente eh Samsung no quiso"
+    },
+    {
+      "startTime": 40.5,
+      "endTime": 43.1,
+      "text": "dejar pasar esta oportunidad"
+    },
+    {
+      "startTime": 43.1,
+      "endTime": 46,
+      "text": "diciendo de que ellos sí incluían el cargador"
+    },
+    {
+      "startTime": 46,
+      "endTime": 49.2,
+      "text": "junto con sus aparatos electrónicos."
+    },
+    {
+      "startTime": 49.2,
+      "endTime": 52.3,
+      "text": "Entonces todo este revuelo básicamente"
+    },
+    {
+      "startTime": 52.3,
+      "endTime": 55.4,
+      "text": "eh si tú puedes analizarlo"
+    },
+    {
+      "startTime": 55.4,
+      "endTime": 57.5,
+      "text": "lo curioso es que Samsung volvió"
+    },
+    {
+      "startTime": 57.5,
+      "endTime": 59.8,
+      "text": "todo esto una guerra de"
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Apple dejó de incluir el cargador. Y Samsung volvió a aprovecharlo: “Con nuestros Galaxy sí viene incluido”.",
+      "match": "En 2020 Apple sacó el iPhone 12... Samsung no quiso dejar pasar esta oportunidad diciendo de que ellos sí incluían el cargador",
+      "confidence": 0.45
+    }
+  ],
+  "errors": [
+    "Ira fuera de guion / paráfrasis no autorizada de pasajes históricos de comerciales de Samsung",
+    "Tropezón verbal y pregunta retórica fuera de guion al min 0:33",
+    "Inclinación/orientación lateral incorrecta de 90 grados (orientación horizontal de video vertical)",
+    "Corte abrupto al final de la toma dejando la frase inconclusa"
+  ],
+  "falseStarts": [
+    {
+      "startTime": 30.5,
+      "endTime": 34.6,
+      "reason": "El hablante se traba al decir 'dici- diciendo', se desorienta leyendo ('¿dónde es?') y vuelve a reiniciar la frase desde 'En 2020...'."
+    }
+  ],
+  "fluency": {
+    "score": 4,
+    "notes": "La fluidez es baja debido a la constante consulta de notas fuera de cámara, pausas de duda y el reinicio explícito en el segundo 33."
+  },
+  "audio": {
+    "score": 7,
+    "notes": "El audio captado por auriculares bluetooth es comprensible pero presenta compresión ligera y leve ruido de fondo."
+  },
+  "visualQuality": {
+    "score": 4,
+    "notes": "El video está grabado en horizontal pero la imagen se encuentra rotada 90 grados de lado, además de tener iluminación roja/azul marcada y baja visibilidad."
+  },
+  "framing": {
+    "score": 3,
+    "notes": "Orientación lateral errónea (debe rotarse 90° en sentido horario). El encuadre corta parte de la cabeza y el sujeto mira permanentemente hacia abajo."
+  },
+  "expression": {
+    "score": 4,
+    "notes": "Poco contacto visual con la cámara; el presentador parece estar leyendo una pantalla o apuntes abajo a la izquierda."
+  },
+  "fidelity": {
+    "score": 3,
+    "notes": "La toma se aleja notablemente del texto oficial del guion, añadiendo datos de comerciales de 2018 (Ingenius, memorias SD) no especificados en la estructura del guion."
+  },
+  "continuity": {
+    "score": 2,
+    "notes": "Interrupción abrupta al final (0:59) dejando una palabra/frase a medias ('una guerra de...')."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar. La toma requiere corregir la orientación del video (rotar 90°), ceñirse al guion establecido sin improvisar datos adicionales y completar la frase final sin interrupciones.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/ravfbfmjdai6",
+    "analyzedAt": "2026-10-03T22:54:04.232Z",
+    "sha256": "5f34cddfee11055308b8b8b13c576b316eca29f4c3a2bcc4e2d5f4470a482a4b",
+    "responseId": "fofBaqCBGpCP6dkPjqS2mQU",
+    "usage": {
+      "promptTokenCount": 6299,
+      "candidatesTokenCount": 1288,
+      "totalTokenCount": 9274,
+      "cachedContentTokenCount": 4757,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 5459
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 634
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 4123
+        }
+      ],
+      "thoughtsTokenCount": 1687,
+      "serviceTier": "standard"
+    }
+  }
+}

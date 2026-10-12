@@ -1,0 +1,152 @@
+{
+  "creado": "2026-10-05T20:10:06.820Z",
+  "velocidad": 1.1,
+  "duracion1x": 81.75,
+  "duracion": 74.3182,
+  "frames": 2230,
+  "sonoridadTomas": {
+    "A": -24,
+    "B": -21.8
+  },
+  "ganancias": {
+    "A": 1.1,
+    "B": -1.1
+  },
+  "antes": {
+    "I": -23.06,
+    "TP": -2.69,
+    "LRA": 4.3
+  },
+  "despues": {
+    "I": -14.5,
+    "TP": -1.4
+  },
+  "despues1x": {
+    "I": -14.7,
+    "TP": -1.4
+  },
+  "modoLoudnorm": "dynamic",
+  "cortes": [
+    {
+      "id": "a01",
+      "toma": "A",
+      "in": 1.01,
+      "out": 7.475,
+      "desde": 0,
+      "hasta": 6.465
+    },
+    {
+      "id": "a02",
+      "toma": "A",
+      "in": 7.86,
+      "out": 12.365,
+      "desde": 6.525,
+      "hasta": 11.03
+    },
+    {
+      "id": "a03",
+      "toma": "A",
+      "in": 13.975,
+      "out": 22.109,
+      "desde": 11.03,
+      "hasta": 19.164
+    },
+    {
+      "id": "a04",
+      "toma": "A",
+      "in": 24.039,
+      "out": 31.749,
+      "desde": 19.164,
+      "hasta": 26.874
+    },
+    {
+      "id": "a05",
+      "toma": "A",
+      "in": 33.399,
+      "out": 38.266,
+      "desde": 26.874,
+      "hasta": 31.741
+    },
+    {
+      "id": "a06",
+      "toma": "A",
+      "in": 39.666,
+      "out": 47.674,
+      "desde": 31.741,
+      "hasta": 39.749
+    },
+    {
+      "id": "a07",
+      "toma": "A",
+      "in": 49.054,
+      "out": 53.096,
+      "desde": 39.749,
+      "hasta": 43.791
+    },
+    {
+      "id": "b01",
+      "toma": "B",
+      "in": 0.686,
+      "out": 6.935,
+      "desde": 43.791,
+      "hasta": 50.04
+    },
+    {
+      "id": "b02",
+      "toma": "B",
+      "in": 7.4,
+      "out": 8.728,
+      "desde": 50.15,
+      "hasta": 51.478
+    },
+    {
+      "id": "b03",
+      "toma": "B",
+      "in": 10.608,
+      "out": 17.83,
+      "desde": 51.478,
+      "hasta": 58.7
+    },
+    {
+      "id": "b04",
+      "toma": "B",
+      "in": 18.72,
+      "out": 21.313,
+      "desde": 58.7,
+      "hasta": 61.293
+    },
+    {
+      "id": "b05",
+      "toma": "B",
+      "in": 22.973,
+      "out": 28.538,
+      "desde": 61.293,
+      "hasta": 66.858
+    },
+    {
+      "id": "b06",
+      "toma": "B",
+      "in": 29.678,
+      "out": 35.295,
+      "desde": 66.858,
+      "hasta": 72.475
+    },
+    {
+      "id": "b07",
+      "toma": "B",
+      "in": 36.905,
+      "out": 41.101,
+      "desde": 72.475,
+      "hasta": 76.671
+    },
+    {
+      "id": "b08",
+      "toma": "B",
+      "in": 42.351,
+      "out": 47.43,
+      "desde": 76.671,
+      "hasta": 81.75
+    }
+  ],
+  "nota": "cortes.desde/hasta en segundos de la pista 1x (dialogue-1x.wav); en la pista final se dividen por la velocidad"
+}

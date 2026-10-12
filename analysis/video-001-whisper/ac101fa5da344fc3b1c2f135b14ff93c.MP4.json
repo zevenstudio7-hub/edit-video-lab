@@ -1,0 +1,841 @@
+{
+  "sourceFile": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+  "sha256": "3df3958d551cbb209c87d312f48900538f39a09d28b8cb7d6a67ea36c35eeaf0",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:37:01.309Z",
+    "seconds": 138.6,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Pero mi parte favorita es esta, Samsung acaba de lanzar el nuevo iPhone Duo y Apple acaba de lanzar el nuevo Samsung Duo, así que mi parte favorita es esta.[_TT_514] Porque Samsung al ver esto, pues obviamente, y Samsung que lleva años haciendo teléfonos plegables, que tiene todos los argumentos para decir, nosotros estuvimos primero.[_TT_861] Y de hecho, en la cuenta de Samsung Mobile MX responde o repostea un twist de 2019 cuando lanzaron su Samsung Galaxy, plegable, así que ellos respondieron y, básicamente, diciendo, nosotros, el mundo es de los que se atraen primero, nosotros nos atraemos hace 7 años.[_TT_1246] Gracias.[_TT_50]",
+  "words": [
+    {
+      "text": "Pero",
+      "startMs": 0,
+      "endMs": 390,
+      "dtwMs": 780,
+      "tokens": 1,
+      "pMin": 0.56
+    },
+    {
+      "text": "mi",
+      "startMs": 580,
+      "endMs": 580,
+      "dtwMs": 980,
+      "tokens": 1,
+      "pMin": 0.41
+    },
+    {
+      "text": "parte",
+      "startMs": 710,
+      "endMs": 1070,
+      "dtwMs": 1560,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "favorita",
+      "startMs": 1070,
+      "endMs": 1850,
+      "dtwMs": 1880,
+      "tokens": 2,
+      "pMin": 0.984
+    },
+    {
+      "text": "es",
+      "startMs": 1850,
+      "endMs": 2040,
+      "dtwMs": 2200,
+      "tokens": 1,
+      "pMin": 0.972
+    },
+    {
+      "text": "esta,",
+      "startMs": 2040,
+      "endMs": 2630,
+      "dtwMs": 2440,
+      "tokens": 2,
+      "pMin": 0.425
+    },
+    {
+      "text": "Samsung",
+      "startMs": 2630,
+      "endMs": 3160,
+      "dtwMs": 3000,
+      "tokens": 1,
+      "pMin": 0.981
+    },
+    {
+      "text": "acaba",
+      "startMs": 3160,
+      "endMs": 3540,
+      "dtwMs": 3260,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "de",
+      "startMs": 3540,
+      "endMs": 3690,
+      "dtwMs": 3460,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "lanzar",
+      "startMs": 3690,
+      "endMs": 4140,
+      "dtwMs": 3680,
+      "tokens": 2,
+      "pMin": 0.991
+    },
+    {
+      "text": "el",
+      "startMs": 4140,
+      "endMs": 4290,
+      "dtwMs": 4120,
+      "tokens": 1,
+      "pMin": 0.971
+    },
+    {
+      "text": "nuevo",
+      "startMs": 4290,
+      "endMs": 4640,
+      "dtwMs": 4420,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "iPhone",
+      "startMs": 4730,
+      "endMs": 5120,
+      "dtwMs": 5020,
+      "tokens": 1,
+      "pMin": 0.859
+    },
+    {
+      "text": "Duo",
+      "startMs": 5120,
+      "endMs": 5370,
+      "dtwMs": 5320,
+      "tokens": 1,
+      "pMin": 0.978
+    },
+    {
+      "text": "y",
+      "startMs": 5370,
+      "endMs": 5600,
+      "dtwMs": 6160,
+      "tokens": 1,
+      "pMin": 0.59
+    },
+    {
+      "text": "Apple",
+      "startMs": 5710,
+      "endMs": 6720,
+      "dtwMs": 6720,
+      "tokens": 1,
+      "pMin": 0.975
+    },
+    {
+      "text": "acaba",
+      "startMs": 6720,
+      "endMs": 7000,
+      "dtwMs": 6960,
+      "tokens": 1,
+      "pMin": 0.938
+    },
+    {
+      "text": "de",
+      "startMs": 7000,
+      "endMs": 7140,
+      "dtwMs": 7140,
+      "tokens": 1,
+      "pMin": 0.861
+    },
+    {
+      "text": "lanzar",
+      "startMs": 7140,
+      "endMs": 7470,
+      "dtwMs": 7320,
+      "tokens": 2,
+      "pMin": 0.966
+    },
+    {
+      "text": "el",
+      "startMs": 7470,
+      "endMs": 7580,
+      "dtwMs": 7560,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "nuevo",
+      "startMs": 7580,
+      "endMs": 7850,
+      "dtwMs": 7700,
+      "tokens": 1,
+      "pMin": 0.981
+    },
+    {
+      "text": "Samsung",
+      "startMs": 7850,
+      "endMs": 8230,
+      "dtwMs": 8040,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "Duo,",
+      "startMs": 8230,
+      "endMs": 8520,
+      "dtwMs": 8360,
+      "tokens": 2,
+      "pMin": 0.768
+    },
+    {
+      "text": "así",
+      "startMs": 8520,
+      "endMs": 8750,
+      "dtwMs": 8760,
+      "tokens": 1,
+      "pMin": 0.902
+    },
+    {
+      "text": "que",
+      "startMs": 8750,
+      "endMs": 8910,
+      "dtwMs": 8880,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "mi",
+      "startMs": 8910,
+      "endMs": 9020,
+      "dtwMs": 9060,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "parte",
+      "startMs": 9020,
+      "endMs": 9300,
+      "dtwMs": 9380,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "favorita",
+      "startMs": 9300,
+      "endMs": 9740,
+      "dtwMs": 9700,
+      "tokens": 2,
+      "pMin": 0.994
+    },
+    {
+      "text": "es",
+      "startMs": 9740,
+      "endMs": 9830,
+      "dtwMs": 10040,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "esta.[_TT_514]",
+      "startMs": 9850,
+      "endMs": 10280,
+      "dtwMs": 10260,
+      "tokens": 3,
+      "pMin": 0.341
+    },
+    {
+      "text": "Porque",
+      "startMs": 10280,
+      "endMs": 11120,
+      "dtwMs": 10980,
+      "tokens": 1,
+      "pMin": 0.69
+    },
+    {
+      "text": "Samsung",
+      "startMs": 11120,
+      "endMs": 12100,
+      "dtwMs": 12760,
+      "tokens": 1,
+      "pMin": 0.88
+    },
+    {
+      "text": "al",
+      "startMs": 12100,
+      "endMs": 12370,
+      "dtwMs": 13140,
+      "tokens": 1,
+      "pMin": 0.784
+    },
+    {
+      "text": "ver",
+      "startMs": 12380,
+      "endMs": 12800,
+      "dtwMs": 13340,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "esto,",
+      "startMs": 12800,
+      "endMs": 13630,
+      "dtwMs": 13600,
+      "tokens": 2,
+      "pMin": 0.463
+    },
+    {
+      "text": "pues",
+      "startMs": 13630,
+      "endMs": 14200,
+      "dtwMs": 13880,
+      "tokens": 1,
+      "pMin": 0.886
+    },
+    {
+      "text": "obviamente,",
+      "startMs": 14200,
+      "endMs": 15890,
+      "dtwMs": 14440,
+      "tokens": 2,
+      "pMin": 0.524
+    },
+    {
+      "text": "y",
+      "startMs": 15890,
+      "endMs": 16030,
+      "dtwMs": 19760,
+      "tokens": 1,
+      "pMin": 0.412
+    },
+    {
+      "text": "Samsung",
+      "startMs": 16030,
+      "endMs": 17010,
+      "dtwMs": 20080,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "que",
+      "startMs": 17010,
+      "endMs": 17430,
+      "dtwMs": 20680,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "lleva",
+      "startMs": 17430,
+      "endMs": 18130,
+      "dtwMs": 20940,
+      "tokens": 1,
+      "pMin": 0.977
+    },
+    {
+      "text": "años",
+      "startMs": 18130,
+      "endMs": 18830,
+      "dtwMs": 21260,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "haciendo",
+      "startMs": 18830,
+      "endMs": 19950,
+      "dtwMs": 21820,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "teléfonos",
+      "startMs": 19950,
+      "endMs": 21350,
+      "dtwMs": 22060,
+      "tokens": 4,
+      "pMin": 0.972
+    },
+    {
+      "text": "plegables,",
+      "startMs": 21350,
+      "endMs": 22980,
+      "dtwMs": 22640,
+      "tokens": 4,
+      "pMin": 0.618
+    },
+    {
+      "text": "que",
+      "startMs": 22980,
+      "endMs": 23190,
+      "dtwMs": 23660,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "tiene",
+      "startMs": 23190,
+      "endMs": 23540,
+      "dtwMs": 23940,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "todos",
+      "startMs": 23550,
+      "endMs": 23890,
+      "dtwMs": 24400,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "los",
+      "startMs": 23890,
+      "endMs": 24090,
+      "dtwMs": 24740,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "argumentos",
+      "startMs": 24120,
+      "endMs": 24800,
+      "dtwMs": 25060,
+      "tokens": 2,
+      "pMin": 0.998
+    },
+    {
+      "text": "para",
+      "startMs": 24800,
+      "endMs": 25070,
+      "dtwMs": 25400,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "decir,",
+      "startMs": 25070,
+      "endMs": 25560,
+      "dtwMs": 25660,
+      "tokens": 2,
+      "pMin": 0.926
+    },
+    {
+      "text": "nosotros",
+      "startMs": 25580,
+      "endMs": 26130,
+      "dtwMs": 26320,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "estuvimos",
+      "startMs": 26130,
+      "endMs": 26760,
+      "dtwMs": 26940,
+      "tokens": 2,
+      "pMin": 0.992
+    },
+    {
+      "text": "primero.[_TT_861]",
+      "startMs": 26760,
+      "endMs": 27500,
+      "dtwMs": 27480,
+      "tokens": 3,
+      "pMin": 0.67
+    },
+    {
+      "text": "Y",
+      "startMs": 27500,
+      "endMs": 27600,
+      "dtwMs": 27860,
+      "tokens": 1,
+      "pMin": 0.575
+    },
+    {
+      "text": "de",
+      "startMs": 27600,
+      "endMs": 27810,
+      "dtwMs": 28060,
+      "tokens": 1,
+      "pMin": 0.852
+    },
+    {
+      "text": "hecho,",
+      "startMs": 27810,
+      "endMs": 28560,
+      "dtwMs": 28380,
+      "tokens": 2,
+      "pMin": 0.748
+    },
+    {
+      "text": "en",
+      "startMs": 28560,
+      "endMs": 28770,
+      "dtwMs": 29560,
+      "tokens": 1,
+      "pMin": 0.897
+    },
+    {
+      "text": "la",
+      "startMs": 28770,
+      "endMs": 28980,
+      "dtwMs": 29660,
+      "tokens": 1,
+      "pMin": 0.978
+    },
+    {
+      "text": "cuenta",
+      "startMs": 28980,
+      "endMs": 29620,
+      "dtwMs": 30000,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "de",
+      "startMs": 29620,
+      "endMs": 29820,
+      "dtwMs": 30300,
+      "tokens": 1,
+      "pMin": 0.897
+    },
+    {
+      "text": "Samsung",
+      "startMs": 29820,
+      "endMs": 30570,
+      "dtwMs": 30980,
+      "tokens": 1,
+      "pMin": 0.943
+    },
+    {
+      "text": "Mobile",
+      "startMs": 30740,
+      "endMs": 31220,
+      "dtwMs": 31440,
+      "tokens": 1,
+      "pMin": 0.387
+    },
+    {
+      "text": "MX",
+      "startMs": 31220,
+      "endMs": 31430,
+      "dtwMs": 32080,
+      "tokens": 1,
+      "pMin": 0.445
+    },
+    {
+      "text": "responde",
+      "startMs": 31430,
+      "endMs": 32280,
+      "dtwMs": 33120,
+      "tokens": 2,
+      "pMin": 0.577
+    },
+    {
+      "text": "o",
+      "startMs": 32280,
+      "endMs": 32380,
+      "dtwMs": 33440,
+      "tokens": 1,
+      "pMin": 0.88
+    },
+    {
+      "text": "repostea",
+      "startMs": 32380,
+      "endMs": 33230,
+      "dtwMs": 33680,
+      "tokens": 3,
+      "pMin": 0.707
+    },
+    {
+      "text": "un",
+      "startMs": 33230,
+      "endMs": 33430,
+      "dtwMs": 34460,
+      "tokens": 1,
+      "pMin": 0.976
+    },
+    {
+      "text": "twist",
+      "startMs": 33430,
+      "endMs": 33980,
+      "dtwMs": 35220,
+      "tokens": 1,
+      "pMin": 0.116
+    },
+    {
+      "text": "de",
+      "startMs": 33980,
+      "endMs": 34190,
+      "dtwMs": 35740,
+      "tokens": 1,
+      "pMin": 0.94
+    },
+    {
+      "text": "2019",
+      "startMs": 34190,
+      "endMs": 35400,
+      "dtwMs": 36440,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "cuando",
+      "startMs": 35680,
+      "endMs": 36120,
+      "dtwMs": 36760,
+      "tokens": 1,
+      "pMin": 0.823
+    },
+    {
+      "text": "lanzaron",
+      "startMs": 36120,
+      "endMs": 36980,
+      "dtwMs": 37060,
+      "tokens": 2,
+      "pMin": 0.99
+    },
+    {
+      "text": "su",
+      "startMs": 36980,
+      "endMs": 37190,
+      "dtwMs": 37560,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "Samsung",
+      "startMs": 37190,
+      "endMs": 37930,
+      "dtwMs": 38360,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "Galaxy,",
+      "startMs": 37940,
+      "endMs": 38790,
+      "dtwMs": 38860,
+      "tokens": 2,
+      "pMin": 0.143
+    },
+    {
+      "text": "plegable,",
+      "startMs": 38790,
+      "endMs": 39960,
+      "dtwMs": 39220,
+      "tokens": 4,
+      "pMin": 0.267
+    },
+    {
+      "text": "así",
+      "startMs": 39960,
+      "endMs": 40250,
+      "dtwMs": 40120,
+      "tokens": 1,
+      "pMin": 0.782
+    },
+    {
+      "text": "que",
+      "startMs": 40250,
+      "endMs": 40460,
+      "dtwMs": 40320,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "ellos",
+      "startMs": 40460,
+      "endMs": 40820,
+      "dtwMs": 40760,
+      "tokens": 1,
+      "pMin": 0.894
+    },
+    {
+      "text": "respondieron",
+      "startMs": 40820,
+      "endMs": 41720,
+      "dtwMs": 41340,
+      "tokens": 2,
+      "pMin": 0.982
+    },
+    {
+      "text": "y,",
+      "startMs": 41720,
+      "endMs": 42180,
+      "dtwMs": 42100,
+      "tokens": 2,
+      "pMin": 0.459
+    },
+    {
+      "text": "básicamente,",
+      "startMs": 42180,
+      "endMs": 43220,
+      "dtwMs": 42900,
+      "tokens": 2,
+      "pMin": 0.86
+    },
+    {
+      "text": "diciendo,",
+      "startMs": 43220,
+      "endMs": 47300,
+      "dtwMs": 47100,
+      "tokens": 2,
+      "pMin": 0.378
+    },
+    {
+      "text": "nosotros,",
+      "startMs": 47300,
+      "endMs": 47850,
+      "dtwMs": 47920,
+      "tokens": 2,
+      "pMin": 0.529
+    },
+    {
+      "text": "el",
+      "startMs": 47850,
+      "endMs": 47970,
+      "dtwMs": 48300,
+      "tokens": 1,
+      "pMin": 0.73
+    },
+    {
+      "text": "mundo",
+      "startMs": 47970,
+      "endMs": 48250,
+      "dtwMs": 48520,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "es",
+      "startMs": 48250,
+      "endMs": 48360,
+      "dtwMs": 48640,
+      "tokens": 1,
+      "pMin": 0.824
+    },
+    {
+      "text": "de",
+      "startMs": 48360,
+      "endMs": 48470,
+      "dtwMs": 48720,
+      "tokens": 1,
+      "pMin": 0.983
+    },
+    {
+      "text": "los",
+      "startMs": 48470,
+      "endMs": 48640,
+      "dtwMs": 48840,
+      "tokens": 1,
+      "pMin": 0.982
+    },
+    {
+      "text": "que",
+      "startMs": 48640,
+      "endMs": 48810,
+      "dtwMs": 48980,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "se",
+      "startMs": 48810,
+      "endMs": 48920,
+      "dtwMs": 49120,
+      "tokens": 1,
+      "pMin": 0.968
+    },
+    {
+      "text": "atraen",
+      "startMs": 48920,
+      "endMs": 49250,
+      "dtwMs": 49300,
+      "tokens": 2,
+      "pMin": 0.925
+    },
+    {
+      "text": "primero,",
+      "startMs": 49250,
+      "endMs": 49820,
+      "dtwMs": 49740,
+      "tokens": 2,
+      "pMin": 0.713
+    },
+    {
+      "text": "nosotros",
+      "startMs": 49820,
+      "endMs": 50430,
+      "dtwMs": 50360,
+      "tokens": 1,
+      "pMin": 0.972
+    },
+    {
+      "text": "nos",
+      "startMs": 50430,
+      "endMs": 50650,
+      "dtwMs": 50860,
+      "tokens": 1,
+      "pMin": 0.959
+    },
+    {
+      "text": "atraemos",
+      "startMs": 50650,
+      "endMs": 51250,
+      "dtwMs": 51160,
+      "tokens": 2,
+      "pMin": 0.3
+    },
+    {
+      "text": "hace",
+      "startMs": 51250,
+      "endMs": 51550,
+      "dtwMs": 51680,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "7",
+      "startMs": 51550,
+      "endMs": 51770,
+      "dtwMs": 52000,
+      "tokens": 1,
+      "pMin": 0.818
+    },
+    {
+      "text": "años.[_TT_1246]",
+      "startMs": 51770,
+      "endMs": 52420,
+      "dtwMs": 52400,
+      "tokens": 3,
+      "pMin": 0.254
+    },
+    {
+      "text": "Gracias.[_TT_50]",
+      "startMs": 52420,
+      "endMs": 53420,
+      "dtwMs": 52460,
+      "tokens": 3,
+      "pMin": 0.1
+    }
+  ]
+}

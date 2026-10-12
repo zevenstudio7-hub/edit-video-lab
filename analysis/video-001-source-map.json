@@ -1,0 +1,2221 @@
+{
+  "videoId": "VIDEO-001",
+  "editType": "#edit-2-pantalla-dividida",
+  "model": "gemini-3.6-flash",
+  "modelsUsed": [
+    "gemini-3.8-flash",
+    "gemini-3.6-flash"
+  ],
+  "source": "Análisis reales de Gemini Files API, respuestas individuales preservadas en video-001-cache.",
+  "analysisComplete": false,
+  "analyzedCount": 8,
+  "expectedCount": 12,
+  "missingSources": [
+    "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+    "b1eb53d64406404f95a673182fe597fd.MP4",
+    "e7648b9b117b45218bd4bac13da69698.MP4",
+    "ffe3314cd47f4f4293b8bfc328054b4b.MP4"
+  ],
+  "status": "blocked_daily_api_quota",
+  "takes": [
+    {
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "durationSeconds": 60.16,
+      "transcript": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba. Mira, este es el primer iPhone que Apple lanzó en el 2007 y nos da un claro ejemplo en todo el trayecto que vamos a ver de que para posicionar un producto, un servicio no siempre tienes que dar más, sino entregar más valor, que son cosas muy distintas. Y a consecuencia de, la historia entre Apple y Samsung nace en el 2014, o por lo menos es lo que yo pude encontrar, donde Samsung lanza su primer comer... comercial llamado Abrazaparedes. ¿Y por qué lo llama Abrazaparedes? Porque básicamente sacó un comercial diciendo que todo aquel que tenía un... todo usuario que tenía un celular Apple tenía que estar pegado a una pared. Eso es básic...",
+      "timestamps": [
+        {
+          "startTime": 2.2,
+          "endTime": 6.8,
+          "text": "Este es el claro ejemplo de que Apple está arriba,"
+        },
+        {
+          "startTime": 6.8,
+          "endTime": 11.2,
+          "text": "muy arriba de cualquier otra marca, pero muy arriba."
+        },
+        {
+          "startTime": 11.2,
+          "endTime": 15.1,
+          "text": "Mira, este es el primer iPhone que Apple lanzó en el 2007"
+        },
+        {
+          "startTime": 16.8,
+          "endTime": 21,
+          "text": "y nos da un claro ejemplo en todo el trayecto que vamos a ver"
+        },
+        {
+          "startTime": 21,
+          "endTime": 26.2,
+          "text": "de que para posicionar un producto, un servicio no siempre tienes que dar más,"
+        },
+        {
+          "startTime": 26.2,
+          "endTime": 30.1,
+          "text": "sino entregar más valor, que son cosas muy distintas."
+        },
+        {
+          "startTime": 30.1,
+          "endTime": 35,
+          "text": "Y a consecuencia de, la historia entre Apple y Samsung nace en el 2014,"
+        },
+        {
+          "startTime": 35,
+          "endTime": 38.9,
+          "text": "o por lo menos es lo que yo pude encontrar,"
+        },
+        {
+          "startTime": 38.9,
+          "endTime": 45.4,
+          "text": "donde Samsung lanza su primer comer... comercial llamado Abrazaparedes."
+        },
+        {
+          "startTime": 45.4,
+          "endTime": 50.2,
+          "text": "¿Y por qué lo llama Abrazaparedes? Porque básicamente sacó un comercial"
+        },
+        {
+          "startTime": 50.2,
+          "endTime": 54.8,
+          "text": "diciendo que todo aquel que tenía un... todo usuario que tenía un celular Apple"
+        },
+        {
+          "startTime": 54.8,
+          "endTime": 58.6,
+          "text": "tenía que estar pegado a una pared."
+        },
+        {
+          "startTime": 58.6,
+          "endTime": 60.1,
+          "text": "Eso es básic..."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "Este es el claro ejemplo de que Apple está arriba, muy arriba, cuando hablamos de posicionamiento de marca.",
+          "match": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba.",
+          "confidence": 0.72
+        },
+        {
+          "guionBlock": "Y de que para posicionar tus productos o servicios no siempre tienes que dar más.",
+          "match": "de que para posicionar un producto, un servicio no siempre tienes que dar más, sino entregar más valor, que son cosas muy distintas.",
+          "confidence": 0.78
+        },
+        {
+          "guionBlock": "Mira la historia que tiene Samsung con Apple. En 2014 Samsung se burlaba de los usuarios de iPhone porque vivían pegados a un enchufe.",
+          "match": "la historia entre Apple y Samsung nace en el 2014... donde Samsung lanza su primer comercial llamado Abrazaparedes... diciendo que todo usuario que tenía un celular Apple tenía que estar pegado a una pared.",
+          "confidence": 0.65
+        }
+      ],
+      "errors": [
+        "Orientación del video invertida/girada 90 grados en sentido antihorario; requiere rotación de 90° en sentido horario.",
+        "El orador desvía la mirada frecuentemente hacia abajo para leer notas o una pantalla en lugar de mirar al lente.",
+        "Tropezón y autocorrección en 'primer comer... comercial' (00:40 - 00:43).",
+        "Falso inicio y refraseo en 'todo aquel que tenía un... todo usuario que tenía' (00:51 - 00:54).",
+        "El video se corta abruptamente a mitad de palabra en el segundo 60 ('Eso es básic...')."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 40.5,
+          "endTime": 42.5,
+          "reason": "Tartamudeo y vacilación al pronunciar 'comercial' ('primer comer... comercial')."
+        },
+        {
+          "startTime": 51.2,
+          "endTime": 53.6,
+          "reason": "Reinicio de frase: interrumpe 'todo aquel que tenía un...' para reformular a 'todo usuario que tenía'."
+        }
+      ],
+      "fluency": {
+        "score": 4.5,
+        "notes": "Ritmo entrecortado por la consulta constante del guion/pantalla abajo, pausas dubitativas y autocorrecciones léxicas evidentes."
+      },
+      "audio": {
+        "score": 6.5,
+        "notes": "Voz inteligible capturada a través de audífono inalámbrico, con algo de reverberación en sala y volumen ligeramente bajo."
+      },
+      "visualQuality": {
+        "score": 4,
+        "notes": "Subexpuesta, con iluminación ambiental azul/roja poco balanceada sobre el rostro y ruido en sombras."
+      },
+      "framing": {
+        "score": 2.5,
+        "notes": "Grave problema de orientación (archivo grabado en vertical pero codificado horizontalmente a 90°). Ángulo contrapicado excesivo y mirada fuera de eje."
+      },
+      "expression": {
+        "score": 5,
+        "notes": "Comienza con una sonrisa forzada y luego mantiene una expresión concentrada en la lectura, perdiendo conexión y dinamismo con la audiencia."
+      },
+      "fidelity": {
+        "score": 4,
+        "notes": "Se desvía sustancialmente del texto editorial, añadiendo digresiones sobre el iPhone de 2007 ('entregar más valor', 'o por lo menos es lo que yo pude encontrar') y parafraseando sin cubrir la estructura original."
+      },
+      "continuity": {
+        "score": 3,
+        "notes": "Toma inconclusa que se interrumpe a media frase al minuto de grabación."
+      },
+      "recommendedRanges": [
+        {
+          "startTime": 2.2,
+          "endTime": 11.2,
+          "guionBlock": "Este es el claro ejemplo de que Apple está arriba, muy arriba, cuando hablamos de posicionamiento de marca.",
+          "reason": "Único segmento continuo y con energía aceptable para el hook de apertura, condicionado a corregir la rotación de 90 grados."
+        }
+      ],
+      "overallRecommendation": "Descartar la toma para edición final directa. Presenta rotación incorrecta de 90°, desvío continuo de la mirada hacia abajo, múltiples desviaciones del guion y un corte abrupto al final. Se recomienda regrabar orientando la cámara correctamente en vertical y manteniendo la mirada en la lente.",
+      "provenance": {
+        "model": "gemini-3.8-flash",
+        "remoteFile": "files/e4v7ckvs5wkd",
+        "analyzedAt": "2026-09-21T23:55:46.684Z",
+        "sha256": "880fc07eef9b92fb30a47865ff97288cfdbd8d402fcdeaa52134089606427d38",
+        "responseId": "18OxaqGCJ_XQz7IP6-WumQ8",
+        "usage": {
+          "promptTokenCount": 6300,
+          "candidatesTokenCount": 1976,
+          "totalTokenCount": 10291,
+          "cachedContentTokenCount": 3078,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 5460
+            }
+          ],
+          "cacheTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 410
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 2668
+            }
+          ],
+          "thoughtsTokenCount": 2015,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 59.98
+    },
+    {
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "durationSeconds": 35.6,
+      "transcript": "Así que nada, quiero hacer más videos como este analizando productos de tecnología, inteligencia artificial, eh marca personal, marca en general... posicionamiento de marca, etcétera. Así que si quieren... posicionamiento de marca, etcétera. Así que nada, si quieren... si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?",
+      "timestamps": [
+        {
+          "startTime": 1,
+          "endTime": 3.4,
+          "text": "Así que nada, quiero hacer más videos como este,"
+        },
+        {
+          "startTime": 3.4,
+          "endTime": 6.8,
+          "text": "analizando productos de tecnología, inteligencia artificial,"
+        },
+        {
+          "startTime": 6.8,
+          "endTime": 10.2,
+          "text": "eh marca personal, marca en general,"
+        },
+        {
+          "startTime": 19.5,
+          "endTime": 22.1,
+          "text": "posicionamiento de marca, etcétera. Así que si quieren,"
+        },
+        {
+          "startTime": 24.3,
+          "endTime": 28,
+          "text": "posicionamiento de marca, etcétera. Así que nada, si quieren,"
+        },
+        {
+          "startTime": 29.5,
+          "endTime": 34,
+          "text": "si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?"
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "N/A - Cierre / Call to Action improvisado",
+          "match": "Ninguno (el contenido no corresponde al cuerpo del guion editorial proporcionado).",
+          "confidence": 0
+        }
+      ],
+      "errors": [
+        "Orientación de video incorrecta: el archivo está grabado o codificado en horizontal girado 90 grados en sentido antihorario; requiere rotación de 90° en sentido horario para visualización vertical correcta.",
+        "Pausa muerta excesivamente larga de casi 9 segundos entre 00:10 y 00:19.",
+        "El orador se toca la cara/nariz y duda en 00:22.",
+        "Contenido totalmente fuera del guion asignado para VIDEO 1 (se trata de una despedida / llamada a la acción improvisada)."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 19.5,
+          "endTime": 23.5,
+          "reason": "Primer intento de cierre ('posicionamiento de marca, etcétera. Así que si quieren...') interrumpido por vacilación física (se toca la cara)."
+        },
+        {
+          "startTime": 24.3,
+          "endTime": 28.5,
+          "reason": "Segundo intento repetitivo ('posicionamiento de marca, etcétera. Así que nada, si quieren...') cortado por pausa."
+        }
+      ],
+      "fluency": {
+        "score": 3.5,
+        "notes": "Fluidez muy interrumpida por una pausa de 9 segundos en silencio absoluto mirando a cámara, seguida de dos falsos inicios y vacilaciones antes de completar la frase final."
+      },
+      "audio": {
+        "score": 7.5,
+        "notes": "Captura de voz comprensible y limpia a través de auriculares inalámbricos, aunque con ligera compresión bluetooth y siseo de fondo."
+      },
+      "visualQuality": {
+        "score": 6,
+        "notes": "Iluminación de contraste con luz de relleno roja y fondo azul, pero el rostro queda con sombras duras y se aprecia ruido en zonas oscuras."
+      },
+      "framing": {
+        "score": 2,
+        "notes": "Encuadre crítico debido a que el video está orientado lateralmente (90 grados rotado). Requiere corrección de rotación obligatoria."
+      },
+      "expression": {
+        "score": 4.5,
+        "notes": "Comienza relajado pero pierde el hilo, mostrando inseguridad y mirada perdida durante la pausa prolongada."
+      },
+      "fidelity": {
+        "score": 0.5,
+        "notes": "No sigue el guion editorial de Apple/Samsung; es una prueba o toma de cierre genérico para redes sociales."
+      },
+      "continuity": {
+        "score": 3,
+        "notes": "Ruptura total de ritmo entre 00:10 y 00:19 que imposibilita usar la toma de forma continua."
+      },
+      "recommendedRanges": [
+        {
+          "startTime": 29.5,
+          "endTime": 33.5,
+          "guionBlock": "Outro / CTA (fuera de guion)",
+          "reason": "Único fragmento limpio y resolutivo que podría aprovecharse como llamada a la acción al final de una pieza, siempre que se rote el video 90 grados."
+        }
+      ],
+      "overallRecommendation": "Descartar para el cuerpo principal del guion de VIDEO 1, ya que no contiene el texto de la lección sobre Apple y Samsung. Si se necesita un remate/CTA para redes, únicamente el intervalo 00:29.5 - 00:33.5 es rescatable tras aplicar rotación de 90° en sentido horario.",
+      "provenance": {
+        "model": "gemini-3.8-flash",
+        "remoteFile": "files/458qkexe9281",
+        "analyzedAt": "2026-09-21T23:57:17.104Z",
+        "sha256": "e53754006c41cf859743acd61d99d71660737def43da7363e45f61a6611c0455",
+        "responseId": "O8SxapX-NdSlqtsPoO7H0AE",
+        "usage": {
+          "promptTokenCount": 4116,
+          "candidatesTokenCount": 1302,
+          "totalTokenCount": 6816,
+          "promptTokensDetails": [
+            {
+              "modality": "VIDEO",
+              "tokenCount": 3276
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            }
+          ],
+          "thoughtsTokenCount": 1398,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 36.375
+    },
+    {
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "durationSeconds": 52.7,
+      "transcript": "Aquí es donde se pone interesante porque al parecer Samsung su su prioridad es ser lo primero. Aquí básicamente lo hemos notado, pero para Apple al parecer la prioridad no es históricamente lo primero, sino llegar después, llegar para vender otra idea diferente. Así que no importa... Al parecer a Apple no le importa quién llegó primero, sino más bien decir: mira cómo lo hacemos nosotros. Fijándo... Fijándonos incluso la forma en que presenta el Duo es la forma más atractiva para cualquier otra marca, marcando... marcando tendencia. Muchos están obsesionados por ser los primeros.",
+      "timestamps": [
+        {
+          "startTime": 0,
+          "endTime": 2.1,
+          "text": "Aquí es donde se pone interesante"
+        },
+        {
+          "startTime": 2.1,
+          "endTime": 5.5,
+          "text": "porque al parecer Samsung su su prioridad es ser lo primero."
+        },
+        {
+          "startTime": 5.5,
+          "endTime": 7.5,
+          "text": "Aquí básicamente"
+        },
+        {
+          "startTime": 7.5,
+          "endTime": 10,
+          "text": "lo hemos notado, pero para Apple"
+        },
+        {
+          "startTime": 10,
+          "endTime": 13.5,
+          "text": "al parecer la prioridad no es históricamente lo primero,"
+        },
+        {
+          "startTime": 13.5,
+          "endTime": 17,
+          "text": "sino llegar después, llegar"
+        },
+        {
+          "startTime": 17,
+          "endTime": 19,
+          "text": "para vender otra idea diferente."
+        },
+        {
+          "startTime": 19,
+          "endTime": 23,
+          "text": "Así que no importa..."
+        },
+        {
+          "startTime": 23,
+          "endTime": 27.2,
+          "text": "Al parecer a Apple no le importa quién llegó primero,"
+        },
+        {
+          "startTime": 27.2,
+          "endTime": 29.2,
+          "text": "sino más bien..."
+        },
+        {
+          "startTime": 29.2,
+          "endTime": 32.5,
+          "text": "decir: mira cómo lo hacemos nosotros."
+        },
+        {
+          "startTime": 32.5,
+          "endTime": 35,
+          "text": "Fijándo..."
+        },
+        {
+          "startTime": 37.5,
+          "endTime": 41.5,
+          "text": "Fijándonos incluso la forma en que presenta el Duo"
+        },
+        {
+          "startTime": 41.5,
+          "endTime": 45,
+          "text": "es la forma más atractiva"
+        },
+        {
+          "startTime": 45,
+          "endTime": 48,
+          "text": "para cualquier otra marca, marcando..."
+        },
+        {
+          "startTime": 48,
+          "endTime": 49.5,
+          "text": "marcando tendencia."
+        },
+        {
+          "startTime": 49.5,
+          "endTime": 52.7,
+          "text": "Muchos están obsesionados por ser los primeros."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "Mientras que Apple históricamente ha construido una marca que puede llegar después y venderte otra idea: 'No importa quién llegó primero. Mira cómo lo hicimos nosotros.'",
+          "match": "pero para Apple al parecer la prioridad no es históricamente lo primero, sino llegar después, llegar para vender otra idea diferente. Así que no importa... Al parecer a Apple no le importa quién llegó primero, sino más bien decir: mira cómo lo hacemos nosotros.",
+          "confidence": 0.72
+        },
+        {
+          "guionBlock": "Y fíjate incluso en cómo presentan el Duo.",
+          "match": "Fijándonos incluso la forma en que presenta el Duo es la forma más atractiva para cualquier otra marca",
+          "confidence": 0.65
+        },
+        {
+          "guionBlock": "Muchos están obsesionados con ser los primeros.",
+          "match": "Muchos están obsesionados por ser los primeros.",
+          "confidence": 0.95
+        }
+      ],
+      "errors": [
+        "Orientación del video incorrecta (grabado de lado / 90 grados a la izquierda).",
+        "Desviación importante del guion original con improvisación y paráfrasis extensa.",
+        "Tartamudeo y pausas prolongadas en la ejecución."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 2.8,
+          "endTime": 3.8,
+          "reason": "Repetición de palabra ('su su prioridad')."
+        },
+        {
+          "startTime": 15,
+          "endTime": 16.5,
+          "reason": "Repetición del verbo ('llegar después, llegar')."
+        },
+        {
+          "startTime": 32.5,
+          "endTime": 37,
+          "reason": "Palabra trunca ('Fijándo...') seguida de pausa prolongada antes de reiniciar la frase."
+        },
+        {
+          "startTime": 45.5,
+          "endTime": 48,
+          "reason": "Repetición de palabra ('marcando... marcando tendencia')."
+        }
+      ],
+      "fluency": {
+        "score": 5,
+        "notes": "Fluidez baja debido a reintentos de palabras, vacilaciones y muletillas de corrección a lo largo del fragmento."
+      },
+      "audio": {
+        "score": 8,
+        "notes": "Voz clara capturada con micrófono de auricular, volumen y nitidez aceptables sin ruido ambiental excesivo."
+      },
+      "visualQuality": {
+        "score": 5,
+        "notes": "Calidad de video aceptable en resolución pero con orientación errónea (rotado 90° antihorario) e iluminación con fuerte tinte rojo/azul."
+      },
+      "framing": {
+        "score": 4,
+        "notes": "Encuadre inadecuado debido a la orientación vertical inclinada horizontalmente. Requiere rotación de 90° en edición."
+      },
+      "expression": {
+        "score": 6,
+        "notes": "Expresión natural y relajada, aunque la mirada se desvía constantemente hacia la pantalla o abajo en vez de al lente."
+      },
+      "fidelity": {
+        "score": 5,
+        "notes": "Baja fidelidad al guion de referencia; se sintetizan ideas principales pero cambiando la estructura y redacción exacta."
+      },
+      "continuity": {
+        "score": 5,
+        "notes": "Continuidad interrumpida por frecuentes dudas y autocorrecciones en el habla."
+      },
+      "recommendedRanges": [],
+      "overallRecommendation": "Descartar esta toma y solicitar una re-grabación. El video se grabó con la cámara girada 90 grados (orientación lateral) y el presentador comete múltiples vacilaciones, repeticiones de palabras y paráfrasis del guion.",
+      "provenance": {
+        "model": "gemini-3.6-flash",
+        "remoteFile": "files/1g2vjw8uzkgp",
+        "analyzedAt": "2026-09-22T00:04:10.254Z",
+        "sha256": "c45ea0dfedc8b61ecb95ed4cd883dc599daaf5cadab75afbf41a9d927550b904",
+        "responseId": "08WxatbUDPqhz7IP5vusiQ4",
+        "usage": {
+          "promptTokenCount": 5653,
+          "candidatesTokenCount": 1809,
+          "totalTokenCount": 8821,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 4813
+            }
+          ],
+          "thoughtsTokenCount": 1359,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 52.611667
+    },
+    {
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "durationSeconds": 59.5,
+      "transcript": "Y lo más curioso aún es que en 2023 Samsung saca un comunicado diciendo que ya sus aparatos electrónicos, sus celulares ya no van a tener ni auriculares ni cargadores. Entonces, eh, que en la caja de los productos solamente vas a encontrar el... que el cable de carga, eh, llevando así, eh, que a tener que comprar el cargador o el adaptador de corriente. Si pueden notar, Apple ha venido revolucionando y ha venido recibiendo contra... críticas con... eh, que han encontrado crítica de sus... de sus... de sus oponentes, llamémoslo así, pero con el paso de los tiempos, se... todos podemos notar... los... las... a... Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS, eh, todo eso lo ha venido, eh, implementando también Samsung. Así que, literalmente, se han copiado.",
+      "timestamps": [
+        {
+          "startTime": 1,
+          "endTime": 3.5,
+          "text": "Y lo más curioso aún es que en 2023"
+        },
+        {
+          "startTime": 3.8,
+          "endTime": 7.1,
+          "text": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos,"
+        },
+        {
+          "startTime": 7.3,
+          "endTime": 11.8,
+          "text": "sus celulares ya no van a tener ni auriculares ni cargadores."
+        },
+        {
+          "startTime": 12.5,
+          "endTime": 18,
+          "text": "Entonces, eh, que en la caja de los productos solamente vas a encontrar el cable de carga,"
+        },
+        {
+          "startTime": 18.5,
+          "endTime": 24.5,
+          "text": "eh, llevando así que a tener que comprar el cargador o el adaptador de corriente."
+        },
+        {
+          "startTime": 26,
+          "endTime": 30.5,
+          "text": "Si pueden notar, Apple ha venido revolucionando y ha venido recibiendo"
+        },
+        {
+          "startTime": 30.8,
+          "endTime": 37,
+          "text": "contra críticas que han encontrado crítica de sus de sus de sus oponentes, llamémoslo así,"
+        },
+        {
+          "startTime": 38.5,
+          "endTime": 44.2,
+          "text": "pero con el paso de los tiempos se todos podemos notar los las a..."
+        },
+        {
+          "startTime": 45,
+          "endTime": 51.2,
+          "text": "Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS,"
+        },
+        {
+          "startTime": 51.5,
+          "endTime": 55.2,
+          "text": "eh, todo eso lo ha venido implementando también Samsung."
+        },
+        {
+          "startTime": 55.5,
+          "endTime": 58.2,
+          "text": "Así que, literalmente, se han copiado."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "Y lo curioso es que con el tiempo Samsung también terminó adoptando varias decisiones que antes había utilizado para atacar a Apple.",
+          "match": "Y lo más curioso aún es que en 2023 Samsung saca un comunicado... con el paso del tiempo todo lo que Apple ha venido adaptando... lo ha venido implementando también Samsung.",
+          "confidence": 0.45
+        }
+      ],
+      "errors": [
+        "El video está grabado en orientación horizontal pero codificado verticalmente (orientación lateral de 90 grados a la izquierda).",
+        "El orador se desvía considerablemente del guion original e improvisa la explicación.",
+        "Trataba repetitivas muletillas, tropiezos verbales y falsos inicios."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 38.5,
+          "endTime": 44.5,
+          "reason": "El orador se traba al decir 'los las a...', se toca el rostro y reinicia la frase en 00:45."
+        }
+      ],
+      "fluency": {
+        "score": 4,
+        "notes": "Fluidez baja por constantes titubeos, repetición de palabras ('de sus de sus de sus') y un reinicio marcado a mitad de la toma."
+      },
+      "audio": {
+        "score": 6.5,
+        "notes": "El audio capturado con auriculares es inteligible, aunque presenta un ligero ruido de fondo y tono apagado."
+      },
+      "visualQuality": {
+        "score": 3,
+        "notes": "El video está rotado 90 grados. Iluminación tenue y rojiza que genera sombras marcadas."
+      },
+      "framing": {
+        "score": 2.5,
+        "notes": "Encuadre incorrecto debido a la orientación sideways y la inclinación en contrapicado de la cámara."
+      },
+      "expression": {
+        "score": 5,
+        "notes": "Mirada baja la mayor parte del tiempo, falta de contacto directo sostenido con la cámara y gesto de distracción al tocarse los ojos."
+      },
+      "fidelity": {
+        "score": 3,
+        "notes": "El discurso se aleja del texto exacto del guion, resumiendo e improvisando puntos con poca precisión."
+      },
+      "continuity": {
+        "score": 3,
+        "notes": "Interrumpida por el falso inicio entre los segundos 38 y 44."
+      },
+      "recommendedRanges": [],
+      "overallRecommendation": "Descartar esta toma. La orientación del video está girada 90 grados, la iluminación es deficiente y el orador improvisa alejándose del guion con varios tropiezos verbales.",
+      "provenance": {
+        "model": "gemini-3.6-flash",
+        "remoteFile": "files/ihrzsczhd4li",
+        "analyzedAt": "2026-09-22T00:10:45.039Z",
+        "sha256": "126c2cbca6ab9a7b9572826a9f013a542480fbaede9fd56af8855ad78df206ea",
+        "responseId": "dcexavaaAeiez7IPx42Z2QY",
+        "usage": {
+          "promptTokenCount": 6299,
+          "candidatesTokenCount": 1449,
+          "totalTokenCount": 9135,
+          "promptTokensDetails": [
+            {
+              "modality": "VIDEO",
+              "tokenCount": 5459
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            }
+          ],
+          "thoughtsTokenCount": 1387,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 59.98
+    },
+    {
+      "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+      "durationSeconds": 60,
+      "transcript": "Este es, este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, muy arriba. Mira, este es el primer ejemplo que Apple lanzó en un principio. Y no re-da un claro ejemplo, un claro detalle que vamos a ver, de que para posicionar un producto o un servicio no siempre tienes que dar más, y de no entregar más valor, que son cosas muy diferentes. Consecuente de que... que nace en el... en el 2014, por lo menos es lo que yo pude eh encontrar, donde Samsung lanza su primer comercial llamado Abrazaparedes. ¿Y por qué lo llama Abrazaparedes? Porque básicamente sacó un comercial diciendo que todo aquel que tenía un... todo usuario que tenía un celular de Apple tenía que estar pegado... pegado.",
+      "timestamps": [
+        {
+          "startTime": 1.2,
+          "endTime": 2.8,
+          "text": "Este es, este es el"
+        },
+        {
+          "startTime": 2.8,
+          "endTime": 5,
+          "text": "claro ejemplo de que Apple"
+        },
+        {
+          "startTime": 5,
+          "endTime": 7.5,
+          "text": "está arriba, muy arriba"
+        },
+        {
+          "startTime": 7.5,
+          "endTime": 9.8,
+          "text": "de cualquier otra marca,"
+        },
+        {
+          "startTime": 9.8,
+          "endTime": 11,
+          "text": "muy arriba."
+        },
+        {
+          "startTime": 11,
+          "endTime": 13.5,
+          "text": "Mira, este es el primer ejemplo"
+        },
+        {
+          "startTime": 13.5,
+          "endTime": 15.5,
+          "text": "que Apple lanzó en un principio."
+        },
+        {
+          "startTime": 15.5,
+          "endTime": 19.5,
+          "text": "Y nos da un claro ejemplo,"
+        },
+        {
+          "startTime": 19.5,
+          "endTime": 21.5,
+          "text": "un claro detalle que vamos a ver,"
+        },
+        {
+          "startTime": 21.5,
+          "endTime": 23.5,
+          "text": "de que"
+        },
+        {
+          "startTime": 23.5,
+          "endTime": 25.5,
+          "text": "para posicionar un producto o servicio"
+        },
+        {
+          "startTime": 25.5,
+          "endTime": 27.5,
+          "text": "no siempre tienes que dar más,"
+        },
+        {
+          "startTime": 27.5,
+          "endTime": 29.5,
+          "text": "y de no entregar más valor,"
+        },
+        {
+          "startTime": 29.5,
+          "endTime": 31,
+          "text": "que son cosas muy diferentes."
+        },
+        {
+          "startTime": 31,
+          "endTime": 35,
+          "text": "Consecuente de que... nace en el..."
+        },
+        {
+          "startTime": 35,
+          "endTime": 37,
+          "text": "en el 2014, por lo menos"
+        },
+        {
+          "startTime": 37,
+          "endTime": 39,
+          "text": "es lo que yo pude eh encontrar,"
+        },
+        {
+          "startTime": 39,
+          "endTime": 41,
+          "text": "donde"
+        },
+        {
+          "startTime": 41,
+          "endTime": 43,
+          "text": "Samsung lanza su primer comercial"
+        },
+        {
+          "startTime": 43,
+          "endTime": 45,
+          "text": "llamado Abrazaparedes."
+        },
+        {
+          "startTime": 45,
+          "endTime": 47,
+          "text": "¿Y por qué lo llama Abrazaparedes?"
+        },
+        {
+          "startTime": 47,
+          "endTime": 49,
+          "text": "Porque básicamente sacó un comercial"
+        },
+        {
+          "startTime": 49,
+          "endTime": 51,
+          "text": "diciendo que todo aquel que tenía un..."
+        },
+        {
+          "startTime": 51,
+          "endTime": 53,
+          "text": "todo usuario que tenía"
+        },
+        {
+          "startTime": 53,
+          "endTime": 56,
+          "text": "un celular de Apple,"
+        },
+        {
+          "startTime": 56,
+          "endTime": 60,
+          "text": "tenía que estar pegado... pegado."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "Este es el claro ejemplo de que Apple está arriba, muy arriba, cuando hablamos de posicionamiento de marca.",
+          "match": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, muy arriba.",
+          "confidence": 0.75
+        },
+        {
+          "guionBlock": "Y de que para posicionar tus productos o servicios no siempre tienes que dar más.",
+          "match": "para posicionar un producto o un servicio no siempre tienes que dar más",
+          "confidence": 0.85
+        },
+        {
+          "guionBlock": "En 2014 Samsung se burlaba de los usuarios de iPhone porque vivían pegados a un enchufe.",
+          "match": "en el 2014... Samsung lanza su primer comercial... todo usuario que tenía un celular de Apple tenía que estar pegado",
+          "confidence": 0.55
+        }
+      ],
+      "errors": [
+        "Orientación del video girada 90 grados a la izquierda (requiere rotación de 90° en sentido horario).",
+        "El presentador se aparta sustancialmente del guion original e improvisa frases no contempladas.",
+        "Múltiples muletillas, pausas prolongadas y tropezones verbales a lo largo de la toma."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 1.2,
+          "endTime": 2.5,
+          "reason": "Reinicio de la frase inicial 'Este es, este es el claro...'"
+        },
+        {
+          "startTime": 11,
+          "endTime": 17,
+          "reason": "Intento de estructurar una idea improvisada sobre 'el primer ejemplo que Apple lanzó' sin completar de forma coherente."
+        },
+        {
+          "startTime": 31,
+          "endTime": 35,
+          "reason": "Vacilación y tropiezo al intentar formular la fecha ('Consecuente de que... que nace en el...')."
+        },
+        {
+          "startTime": 49,
+          "endTime": 53,
+          "reason": "Autocorrección al nombrar al usuario ('todo aquel que tenía un... todo usuario que tenía...')."
+        }
+      ],
+      "fluency": {
+        "score": 3,
+        "notes": "Fluidez baja. Hay abundantes tropezones, titubeos, muletillas e imprecisiones al tratar de recordar o improvisar las ideas."
+      },
+      "audio": {
+        "score": 6,
+        "notes": "Audio captado con auriculares. Entendible, pero se percibe ruido de fondo constante y una calidad de microfono modesta."
+      },
+      "visualQuality": {
+        "score": 4,
+        "notes": "Iluminación con tonos rojos/azules muy marcada que distorsiona los colores naturales. La toma está inclinada 90 grados."
+      },
+      "framing": {
+        "score": 3,
+        "notes": "El video está grabado en horizontal pero con la persona rotada lateralmente. Encuadre descentrado y en ángulo inclinado."
+      },
+      "expression": {
+        "score": 5,
+        "notes": "El orador intenta mantener una expresión amigable y comunicativa, pero se nota distraído tratando de recordar el texto."
+      },
+      "fidelity": {
+        "score": 4,
+        "notes": "Baja fidelidad al guion. Se omiten bloques enteros, se cambia el fraseo y se añaden divagaciones."
+      },
+      "continuity": {
+        "score": 3,
+        "notes": "La toma carece de ritmo uniforme debido a las continuas interrupciones y reinicios de frases."
+      },
+      "recommendedRanges": [],
+      "overallRecommendation": "Descartar esta toma. Requiere corregir la orientación del video (rotar 90°), mejorar la iluminación y repetir la lectura para ceñirse con mayor fluidez y fidelidad al guion.",
+      "provenance": {
+        "model": "gemini-3.6-flash",
+        "remoteFile": "files/m7kl8mrwahd3",
+        "analyzedAt": "2026-09-22T00:08:04.926Z",
+        "sha256": "a18a89d4df3ef42ef0a0e43e17938d552dae9f77d1e379b998b27bf4c8efd619",
+        "responseId": "jMaxaqSRMvXQz7IPtYbj6QE",
+        "usage": {
+          "promptTokenCount": 6300,
+          "candidatesTokenCount": 2239,
+          "totalTokenCount": 10237,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 5460
+            }
+          ],
+          "thoughtsTokenCount": 1698,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 59.98
+    },
+    {
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "durationSeconds": 59.9,
+      "transcript": "Si en 2014 a... a, sí, si en 2014 Samsung se burlaba de los usuarios que... que se van, eh, porque... Si en 2014 efectivamente Samsung se burlaba de los usuarios de Apple porque vivían pegados, literalmente abrazados a una pared. Su argumento es muy simple. Eh, en sus... en su... su argumento era muy simple. Lanzaron ese... Samsung, un comercial por... un comercial por parte de ellos diciendo de que... Su argumento era muy simple. Lanzaron un comercial por parte de ellos diciendo de que sus productos, sus teléfonos podían cambiar de baterías, y eso notablemente es ganador, pero comp... pero compararse con iPhone es... con Apple... pero compararse con Apple es otra cosa. Después, eh, Apple quitó el puerto, por allá en el 2016 quitó el puerto de carga, el puerto de...",
+      "timestamps": [
+        {
+          "startTime": 0,
+          "endTime": 1.2,
+          "text": "Si en 2014 a"
+        },
+        {
+          "startTime": 1.2,
+          "endTime": 3.2,
+          "text": "a, sí,"
+        },
+        {
+          "startTime": 3.2,
+          "endTime": 5.5,
+          "text": "si en 2014 Samsung"
+        },
+        {
+          "startTime": 5.5,
+          "endTime": 7.5,
+          "text": "se burlaba de los usuarios que"
+        },
+        {
+          "startTime": 7.5,
+          "endTime": 9.8,
+          "text": "que se van, eh,"
+        },
+        {
+          "startTime": 9.8,
+          "endTime": 11.2,
+          "text": "porque"
+        },
+        {
+          "startTime": 11.2,
+          "endTime": 13.5,
+          "text": "si en 2014 efectivamente"
+        },
+        {
+          "startTime": 13.5,
+          "endTime": 16.2,
+          "text": "Samsung se burlaba de"
+        },
+        {
+          "startTime": 16.2,
+          "endTime": 18.2,
+          "text": "los usuarios de Apple"
+        },
+        {
+          "startTime": 18.2,
+          "endTime": 20.2,
+          "text": "porque vivían pegados,"
+        },
+        {
+          "startTime": 20.2,
+          "endTime": 22.2,
+          "text": "literalmente abrazados a una pared."
+        },
+        {
+          "startTime": 22.2,
+          "endTime": 24,
+          "text": "Su argumento es muy simple."
+        },
+        {
+          "startTime": 24,
+          "endTime": 25.5,
+          "text": "Eh, en sus..."
+        },
+        {
+          "startTime": 25.5,
+          "endTime": 27.2,
+          "text": "en su... su argumento era muy simple."
+        },
+        {
+          "startTime": 27.2,
+          "endTime": 29.2,
+          "text": "Lanzaron ese..."
+        },
+        {
+          "startTime": 29.2,
+          "endTime": 31.5,
+          "text": "Samsung, un comercial por..."
+        },
+        {
+          "startTime": 31.5,
+          "endTime": 34,
+          "text": "un comercial por parte de ellos diciendo de que..."
+        },
+        {
+          "startTime": 34,
+          "endTime": 36.5,
+          "text": "Su argumento era muy simple."
+        },
+        {
+          "startTime": 36.5,
+          "endTime": 39,
+          "text": "Lanzaron un comercial por parte de ellos diciendo de que"
+        },
+        {
+          "startTime": 39,
+          "endTime": 41.5,
+          "text": "sus productos, sus teléfonos"
+        },
+        {
+          "startTime": 41.5,
+          "endTime": 43.5,
+          "text": "podían cambiar de baterías,"
+        },
+        {
+          "startTime": 43.5,
+          "endTime": 45.8,
+          "text": "y eso notablemente es ganador,"
+        },
+        {
+          "startTime": 45.8,
+          "endTime": 47.8,
+          "text": "pero comp... pero compararse"
+        },
+        {
+          "startTime": 47.8,
+          "endTime": 50,
+          "text": "con iPhone es... con Apple..."
+        },
+        {
+          "startTime": 50,
+          "endTime": 52.5,
+          "text": "pero compararse con Apple es otra cosa."
+        },
+        {
+          "startTime": 52.5,
+          "endTime": 54.5,
+          "text": "Después, eh,"
+        },
+        {
+          "startTime": 54.5,
+          "endTime": 57,
+          "text": "Apple quitó el puerto,"
+        },
+        {
+          "startTime": 57,
+          "endTime": 59.9,
+          "text": "por allá en el 2016 quitó el puerto de carga, el puerto de..."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "En 2014 Samsung se burlaba de los usuarios de iPhone porque vivían pegados a un enchufe. ¿Su argumento? En sus teléfonos podías cambiar la batería. Después Apple quitó el puerto de audífonos.",
+          "match": "Si en 2014 efectivamente Samsung se burlaba de los usuarios de Apple porque vivían pegados, literalmente abrazados a una pared... sus teléfonos podían cambiar de baterías... Después, eh, Apple quitó el puerto...",
+          "confidence": 0.65
+        }
+      ],
+      "errors": [
+        "Orientación del video girada 90 grados en sentido antihorario.",
+        "Sustitución de 'usuarios de iPhone' por 'usuarios de Apple'.",
+        "Sustitución de 'a un enchufe' por 'literalmente abrazados a una pared'.",
+        "Adición no planificada de 'Lanzaron un comercial por parte de ellos diciendo de que...'.",
+        "Sustitución de 'puerto de audífonos' por 'puerto de carga'.",
+        "Interrupción al final de la toma antes de completar la frase."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 0,
+          "endTime": 11.2,
+          "reason": "Múltiples reintentos vacilantes de la primera frase sobre 2014."
+        },
+        {
+          "startTime": 22.2,
+          "endTime": 34,
+          "reason": "Reiterados intentos fallidos para formular la frase del argumento del comercial."
+        },
+        {
+          "startTime": 45.8,
+          "endTime": 50,
+          "reason": "Corrección sobre la marcha al comparar 'iPhone' con 'Apple'."
+        }
+      ],
+      "fluency": {
+        "score": 4,
+        "notes": "Fluidez baja por constantes reinicios, muletillas y tropezones verbales a lo largo de toda la toma."
+      },
+      "audio": {
+        "score": 7.5,
+        "notes": "Captura vocal entendible mediante auriculares inalámbricos, aunque con leve reverberación de sala."
+      },
+      "visualQuality": {
+        "score": 4,
+        "notes": "Iluminación deficiente con sombras marcadas y luces de color magenta/rojo dispersas. Video rotado lateralmente."
+      },
+      "framing": {
+        "score": 3.5,
+        "notes": "La orientación está inclinada 90 grados, requiriendo rotación técnica de 90° en sentido horario para ser utilizable."
+      },
+      "expression": {
+        "score": 4.5,
+        "notes": "El hablante mira constantemente hacia abajo o fuera de cámara buscando el texto, mostrando poca conexión visual."
+      },
+      "fidelity": {
+        "score": 4,
+        "notes": "Desvíos sustanciales frente al texto del guion, paráfrasis imprecisas y término incorrecto al referirse al puerto de carga en lugar de audífonos."
+      },
+      "continuity": {
+        "score": 3,
+        "notes": "Toma muy fragmentada por varios falsos inicios y cortada abruptamente antes de terminar el fragmento."
+      },
+      "recommendedRanges": [],
+      "overallRecommendation": "Descartar toma. Requiere reorientación de cámara, corregir los tropiezos de lectura y ceñirse al guion sin interrumpir la oración final.",
+      "provenance": {
+        "model": "gemini-3.6-flash",
+        "remoteFile": "files/z0asjnklussy",
+        "analyzedAt": "2026-09-22T00:20:32.132Z",
+        "sha256": "b3e9272a459468add6b5e241a287e3f657d705d8c685780672f6dcd9c157c53d",
+        "responseId": "rMmxaqTtM9SFqtsPrY-BUA",
+        "usage": {
+          "promptTokenCount": 6299,
+          "candidatesTokenCount": 2226,
+          "totalTokenCount": 10484,
+          "promptTokensDetails": [
+            {
+              "modality": "VIDEO",
+              "tokenCount": 5459
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            }
+          ],
+          "thoughtsTokenCount": 1959,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 59.98
+    },
+    {
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "durationSeconds": 47,
+      "transcript": "Y sí, muchos estamos obsesionados por ser los primeros como emprendedores, empresarios, etcétera, por ser los primeros en lanzar x producto, por ser los primeros en aprender a usar x herramienta, o ser los primeros... por ser los primeros en intentar vender cierto servicio, por tener ciertas características, agregarle más a nuestros servicios, etcétera, etcétera, etcétera, agregarle más, por ejemplo a nuestra aplicación, y ¿eso qué quiere decir esto? Que por agregar más tengamos más valor, así que eh... nuestro cliente no necesita siempre que le agreguemos más, sino que definitivamente el cliente quiere comprar algo... no siempre quiere comprar algo...",
+      "timestamps": [
+        {
+          "startTime": 1.5,
+          "endTime": 3.2,
+          "text": "Y sí, muchos estamos obsesionados"
+        },
+        {
+          "startTime": 3.2,
+          "endTime": 5,
+          "text": "por ser los primeros"
+        },
+        {
+          "startTime": 5,
+          "endTime": 6.8,
+          "text": "como emprendedores, empresarios, etcétera,"
+        },
+        {
+          "startTime": 6.8,
+          "endTime": 9.2,
+          "text": "por ser los primeros en lanzar x producto,"
+        },
+        {
+          "startTime": 9.2,
+          "endTime": 12,
+          "text": "por ser los primeros en aprender a usar x herramienta,"
+        },
+        {
+          "startTime": 12,
+          "endTime": 14.5,
+          "text": "por ser los primeros en intentar vender cierto servicio,"
+        },
+        {
+          "startTime": 14.5,
+          "endTime": 17.5,
+          "text": "por tener ciertas características,"
+        },
+        {
+          "startTime": 17.5,
+          "endTime": 20,
+          "text": "agregarle más a nuestros servicios,"
+        },
+        {
+          "startTime": 20,
+          "endTime": 22.5,
+          "text": "etcétera, etcétera, etcétera,"
+        },
+        {
+          "startTime": 22.5,
+          "endTime": 25.5,
+          "text": "agregarle más por ejemplo a nuestra aplicación,"
+        },
+        {
+          "startTime": 25.5,
+          "endTime": 28.5,
+          "text": "y ¿eso qué quiere decir esto?"
+        },
+        {
+          "startTime": 28.5,
+          "endTime": 32,
+          "text": "Que por agregar más tengamos más valor,"
+        },
+        {
+          "startTime": 32,
+          "endTime": 35,
+          "text": "así que nuestro cliente no necesita"
+        },
+        {
+          "startTime": 35,
+          "endTime": 38,
+          "text": "siempre que le agreguemos más,"
+        },
+        {
+          "startTime": 38,
+          "endTime": 41.5,
+          "text": "sino que definitivamente el cliente quiere comprar algo,"
+        },
+        {
+          "startTime": 41.5,
+          "endTime": 46.5,
+          "text": "no siempre quiere comprar algo..."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "Muchos están obsesionados con ser los primeros. El primero en usar inteligencia artificial. El primero en ofrecer determinado servicio. El primero en lanzar algo. O peor: intentan competir agregando más cosas. Más servicios. Más características. Más bonos. Más descuentos. Pero tu cliente no necesariamente compra al que llegó primero ni al que ofrece más.",
+          "match": "Y sí, muchos estamos obsesionados por ser los primeros... por ser los primeros en lanzar x producto... agregarle más a nuestros servicios... nuestro cliente no necesita siempre que le agreguemos más",
+          "confidence": 0.75
+        }
+      ],
+      "errors": [
+        "Video orientado 90 grados hacia la izquierda (requiere rotacion de 90 grados a la derecha).",
+        "Improvisacion/parafraseo sustancial respecto al guion original.",
+        "Cierre incompleto con muletillas y reinicio de frase al final."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 23.5,
+          "endTime": 27,
+          "reason": "Duda y reformulacion de la pregunta (y eso que quiere decir esto)."
+        },
+        {
+          "startTime": 41.5,
+          "endTime": 46.5,
+          "reason": "Tropiezo verbal y frase incompleta al final de la toma (quiere comprar algo... no siempre quiere comprar algo...)."
+        }
+      ],
+      "fluency": {
+        "score": 5,
+        "notes": "El hablante duda en varias ocasiones, repite palabras ('etcétera, etcétera') y se traba en el cierre sin completar la idea."
+      },
+      "audio": {
+        "score": 7.5,
+        "notes": "Voz inteligible con micrófono integrado/auricular, aunque se percibe ligero ruido de fondo."
+      },
+      "visualQuality": {
+        "score": 3,
+        "notes": "El archivo de video está rotado 90 grados lateralmente. La iluminación tiene marcados tonos rojos y azules de contraste."
+      },
+      "framing": {
+        "score": 3,
+        "notes": "Encuadre incorrecto debido a la orientación lateral (vertical grabado en horizontal o viceversa)."
+      },
+      "expression": {
+        "score": 6,
+        "notes": "Expresión natural y relajada, pero pierde firmeza al dudar en el discurso y mirar fuera de cámara."
+      },
+      "fidelity": {
+        "score": 5.5,
+        "notes": "Parafrasea la sección del guion sustituyendo ejemplos específicos (como IA) por 'x producto' o 'x herramienta'."
+      },
+      "continuity": {
+        "score": 4,
+        "notes": "Inicia a mitad de la idea general del video y concluye con una frase trunca e inconclusa."
+      },
+      "recommendedRanges": [],
+      "overallRecommendation": "Descartada / Reintentar. El video presenta una orientación lateral incorrecta de 90 grados, no sigue con precisión el guion y termina con una frase trunca.",
+      "provenance": {
+        "model": "gemini-3.6-flash",
+        "remoteFile": "files/8h4w6aua7w5w",
+        "analyzedAt": "2026-09-22T00:16:17.109Z",
+        "sha256": "10a1d67a2abaa6d2a7a33484762def6810ff6a1c09f2d203c0e76a95fc730ac6",
+        "responseId": "XMixas-XCMbrz7IPg9uw2Q4",
+        "usage": {
+          "promptTokenCount": 5108,
+          "candidatesTokenCount": 1586,
+          "totalTokenCount": 7873,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 4268
+            }
+          ],
+          "thoughtsTokenCount": 1179,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 46.61
+    },
+    {
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "durationSeconds": 52,
+      "transcript": "Y es aquí donde tenemos que entender que no todo cliente compra al que le llegó primero. Le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de de una experiencia diferente, etcétera. Por eso, mi pregunta de que de esto pues ¿somos los primeros o nuestro producto realmente sí ofrece una solución, sí ofrece un valor real? Así que nada, el mensaje es claro, esto lo que nos enseña es no tomarnos nuestras... tomarnos nuestro tiempo, todo esto lo que nos enseña es tomarnos nuestro tiempo para perfeccionar nuestro producto y...",
+      "timestamps": [
+        {
+          "startTime": 1.2,
+          "endTime": 5.5,
+          "text": "Y es aquí donde tenemos que entender"
+        },
+        {
+          "startTime": 5.5,
+          "endTime": 8,
+          "text": "que no todo cliente compra al que le llegó primero."
+        },
+        {
+          "startTime": 8,
+          "endTime": 11.5,
+          "text": "Le compra al que sabe ganarse su confianza,"
+        },
+        {
+          "startTime": 11.5,
+          "endTime": 14,
+          "text": "sabe generar valor, sabe generar una percepción"
+        },
+        {
+          "startTime": 14,
+          "endTime": 16.8,
+          "text": "de de una experiencia diferente, etcétera."
+        },
+        {
+          "startTime": 17,
+          "endTime": 21.5,
+          "text": "Por eso, mi pregunta de que de esto pues"
+        },
+        {
+          "startTime": 21.5,
+          "endTime": 26.5,
+          "text": "¿somos los primeros o nuestro producto realmente"
+        },
+        {
+          "startTime": 26.5,
+          "endTime": 32,
+          "text": "sí ofrece una solución, sí ofrece un valor real?"
+        },
+        {
+          "startTime": 33,
+          "endTime": 36.5,
+          "text": "Así que nada, el mensaje es claro,"
+        },
+        {
+          "startTime": 37,
+          "endTime": 41.5,
+          "text": "esto lo que nos enseña es no tomarnos nuestras... tomarnos nuestro tiempo,"
+        },
+        {
+          "startTime": 41.5,
+          "endTime": 46.8,
+          "text": "todo esto lo que nos enseña es tomarnos nuestro tiempo"
+        },
+        {
+          "startTime": 47,
+          "endTime": 51.5,
+          "text": "para perfeccionar nuestro producto y..."
+        }
+      ],
+      "guionMatches": [
+        {
+          "guionBlock": "Pero tu cliente no necesariamente compra al que llegó primero ni al que ofrece más. Compra por una combinación de valor, confianza, percepción, experiencia y qué tan bien esa propuesta resuelve lo que necesita.",
+          "match": "Y es aquí donde tenemos que entender que no todo cliente compra al que le llegó primero. Le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de de una experiencia diferente, etcétera.",
+          "confidence": 0.75
+        },
+        {
+          "guionBlock": "Es mucho más cercana a: “Nos tomamos nuestro tiempo porque queremos hacerlo a nuestra manera.”",
+          "match": "esto lo que nos enseña es tomarnos nuestro tiempo para perfeccionar nuestro producto",
+          "confidence": 0.7
+        }
+      ],
+      "errors": [
+        "La orientación del video está girada 90 grados a la izquierda (lateral).",
+        "El orador improvisa sobre las ideas del guion sin seguir el texto exacto.",
+        "Traba y falsa salida en 00:37 - 00:41 (\"no tomarnos nuestras... tomarnos nuestro tiempo\").",
+        "La frase final queda incompleta al segundo 51.5."
+      ],
+      "falseStarts": [
+        {
+          "startTime": 37,
+          "endTime": 41.5,
+          "reason": "El hablante se equivoca al decir \"no tomarnos nuestras...\" y corrige sobre la marcha a \"tomarnos nuestro tiempo\"."
+        }
+      ],
+      "fluency": {
+        "score": 6,
+        "notes": "Fluidez regular, con vacilaciones, repeticiones e improvisación informal en el discurso."
+      },
+      "audio": {
+        "score": 7.5,
+        "notes": "Audio inteligible captado por auricular inalámbrico, aunque con ligera reverberación de sala."
+      },
+      "visualQuality": {
+        "score": 5,
+        "notes": "Iluminación con luz roja intensa lateral y fondo oscuro; video grabado en orientación horizontal incorrecta (rotado 90°)."
+      },
+      "framing": {
+        "score": 4,
+        "notes": "Encuadre inadecuado debido a la rotación lateral del dispositivo durante la grabación."
+      },
+      "expression": {
+        "score": 6.5,
+        "notes": "Expresión cercana pero dubitativa, buscando las palabras al improvisar."
+      },
+      "fidelity": {
+        "score": 5,
+        "notes": "No sigue el guion al pie de la letra; parafrasea los conceptos centrales de forma libre."
+      },
+      "continuity": {
+        "score": 5,
+        "notes": "Interrumpido por autocorrecciones y un final cortado abruptamente."
+      },
+      "recommendedRanges": [
+        {
+          "startTime": 1.2,
+          "endTime": 16.8,
+          "guionBlock": "Pero tu cliente no necesariamente compra al que llegó primero ni al que ofrece más. Compra por una combinación de valor, confianza, percepción, experiencia y qué tan bien esa propuesta resuelve lo que necesita.",
+          "reason": "Toma rescatable del primer bloque conceptual, a condición de corregir la rotación de pantalla en edición."
+        }
+      ],
+      "overallRecommendation": "Descartar la toma o requerir regrabación. El video se encuentra en posición horizontal/girado 90°, no sigue la fidelidad exacta del guion y concluye de forma incompleta.",
+      "provenance": {
+        "model": "gemini-3.6-flash",
+        "remoteFile": "files/0n0mtuihvp3t",
+        "analyzedAt": "2026-09-22T00:19:07.422Z",
+        "sha256": "40e5a88594d6085745ab42d3ccb007cff05f1876b4d0696f18b5948caaebdede",
+        "responseId": "WMmxapOFDvusz7IPhIO2kQI",
+        "usage": {
+          "promptTokenCount": 5572,
+          "candidatesTokenCount": 1532,
+          "totalTokenCount": 8480,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 840
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 4732
+            }
+          ],
+          "thoughtsTokenCount": 1376,
+          "serviceTier": "standard"
+        }
+      },
+      "measuredDurationSeconds": 52.245
+    }
+  ],
+  "selectedRanges": [
+    {
+      "scene": 1,
+      "subclip": 1,
+      "guionBlock": "Apertura: posicionamiento de marca",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 2.533333333333333,
+      "endTime": 10.8,
+      "timelineStartTime": 0
+    },
+    {
+      "scene": 1,
+      "subclip": 2,
+      "guionBlock": "Apertura: posicionamiento de marca",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 10.933333333333334,
+      "endTime": 11.2,
+      "timelineStartTime": 8.266666666666667
+    },
+    {
+      "scene": 2,
+      "subclip": 1,
+      "guionBlock": "No siempre tienes que dar más",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 21,
+      "endTime": 26.366666666666667,
+      "timelineStartTime": 8.533333333333333
+    },
+    {
+      "scene": 2,
+      "subclip": 2,
+      "guionBlock": "No siempre tienes que dar más",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 26.533333333333335,
+      "endTime": 29.766666666666666,
+      "timelineStartTime": 13.9
+    },
+    {
+      "scene": 3,
+      "subclip": 1,
+      "guionBlock": "Samsung y la batería en 2014",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "startTime": 11.2,
+      "endTime": 21.2,
+      "timelineStartTime": 17.133333333333333
+    },
+    {
+      "scene": 3,
+      "subclip": 2,
+      "guionBlock": "Samsung y la batería en 2014",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "startTime": 21.4,
+      "endTime": 22.2,
+      "timelineStartTime": 27.133333333333333
+    },
+    {
+      "scene": 4,
+      "subclip": 1,
+      "guionBlock": "El argumento de la batería intercambiable",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "startTime": 34,
+      "endTime": 43.5,
+      "timelineStartTime": 27.933333333333334
+    },
+    {
+      "scene": 5,
+      "subclip": 1,
+      "guionBlock": "Auriculares y cargadores",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 3.8,
+      "endTime": 11.8,
+      "timelineStartTime": 37.43333333333333
+    },
+    {
+      "scene": 6,
+      "subclip": 1,
+      "guionBlock": "Decisiones que después adopta Samsung",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 45.06666666666667,
+      "endTime": 51.266666666666666,
+      "timelineStartTime": 45.43333333333333
+    },
+    {
+      "scene": 6,
+      "subclip": 2,
+      "guionBlock": "Decisiones que después adopta Samsung",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 51.4,
+      "endTime": 55.2,
+      "timelineStartTime": 51.63333333333333
+    },
+    {
+      "scene": 7,
+      "subclip": 1,
+      "guionBlock": "Llegar primero frente a hacerlo diferente",
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "startTime": 23,
+      "endTime": 32.5,
+      "timelineStartTime": 55.43333333333333
+    },
+    {
+      "scene": 8,
+      "subclip": 1,
+      "guionBlock": "La presentación del Duo en el discurso",
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "startTime": 37.5,
+      "endTime": 45,
+      "timelineStartTime": 64.93333333333334
+    },
+    {
+      "scene": 9,
+      "subclip": 1,
+      "guionBlock": "La obsesión por ser los primeros",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 1.5,
+      "endTime": 14.5,
+      "timelineStartTime": 72.43333333333334
+    },
+    {
+      "scene": 10,
+      "subclip": 1,
+      "guionBlock": "Agregar más servicios y características",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 14.5,
+      "endTime": 20,
+      "timelineStartTime": 85.43333333333334
+    },
+    {
+      "scene": 11,
+      "subclip": 1,
+      "guionBlock": "Lo que necesita el cliente",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 32,
+      "endTime": 35,
+      "timelineStartTime": 90.93333333333334
+    },
+    {
+      "scene": 11,
+      "subclip": 2,
+      "guionBlock": "Lo que necesita el cliente",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 35.233333333333334,
+      "endTime": 38,
+      "timelineStartTime": 93.93333333333334
+    },
+    {
+      "scene": 12,
+      "subclip": 1,
+      "guionBlock": "Valor, confianza y experiencia",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 1.2,
+      "endTime": 7.8,
+      "timelineStartTime": 96.7
+    },
+    {
+      "scene": 12,
+      "subclip": 2,
+      "guionBlock": "Valor, confianza y experiencia",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 8.4,
+      "endTime": 11.433333333333334,
+      "timelineStartTime": 103.3
+    },
+    {
+      "scene": 12,
+      "subclip": 3,
+      "guionBlock": "Valor, confianza y experiencia",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 11.6,
+      "endTime": 16.8,
+      "timelineStartTime": 106.33333333333333
+    },
+    {
+      "scene": 13,
+      "subclip": 1,
+      "guionBlock": "Una solución con valor real",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 21.5,
+      "endTime": 21.7,
+      "timelineStartTime": 111.53333333333333
+    },
+    {
+      "scene": 13,
+      "subclip": 2,
+      "guionBlock": "Una solución con valor real",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 21.966666666666665,
+      "endTime": 23.433333333333334,
+      "timelineStartTime": 111.73333333333333
+    },
+    {
+      "scene": 13,
+      "subclip": 3,
+      "guionBlock": "Una solución con valor real",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 24.2,
+      "endTime": 26.4,
+      "timelineStartTime": 113.2
+    },
+    {
+      "scene": 13,
+      "subclip": 4,
+      "guionBlock": "Una solución con valor real",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 26.633333333333333,
+      "endTime": 32,
+      "timelineStartTime": 115.4
+    },
+    {
+      "scene": 14,
+      "subclip": 1,
+      "guionBlock": "CTA grabado fuera del guion; cierre provisional",
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "startTime": 29.833333333333332,
+      "endTime": 34,
+      "timelineStartTime": 120.76666666666667
+    }
+  ],
+  "discardedTakes": [
+    {
+      "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+      "reason": "Copia audiovisual verificada de 1071a10986d4473fab0f545091431ee2.MP4; no aporta otra interpretación ni otra ejecución."
+    }
+  ],
+  "equivalentTakes": [
+    {
+      "guionBlock": "Apertura",
+      "candidates": [
+        {
+          "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+          "startTime": 2.2,
+          "endTime": 11.2,
+          "assessment": "Misma señal audiovisual que la copia 2eff; la transcripción de esta referencia es más coherente. Buena energía inicial, audio inteligible; orientación corregida."
+        },
+        {
+          "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+          "startTime": 2.2,
+          "endTime": 11.2,
+          "assessment": "Copia confirmada por audio PCM completo y cinco fotogramas. Las diferencias de puntuación y transcripción del modelo no demuestran otra toma."
+        }
+      ],
+      "selectedSource": "1071a10986d4473fab0f545091431ee2.MP4",
+      "reason": "Usar una sola referencia para las copias verificadas; no duplicar el hook."
+    },
+    {
+      "guionBlock": "Samsung 2014 / batería",
+      "candidates": [
+        {
+          "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+          "startTime": 30.1,
+          "endTime": 58.6,
+          "assessment": "Digresión y tropiezos en comercial y todo aquel; menor fidelidad al guion."
+        },
+        {
+          "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+          "startTime": 11.2,
+          "endTime": 43.5,
+          "assessment": "Se mantiene la referencia explícita a 2014 y a la batería. Se excluyen los falsos inicios 0–11.2 y 22.2–34. Audio y aspecto consistentes con el resto."
+        }
+      ],
+      "selectedSource": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "reason": "Mayor fidelidad por bloques, con dos rangos separados para eliminar reinicios."
+    },
+    {
+      "guionBlock": "Llegar primero / diferente",
+      "candidates": [
+        {
+          "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+          "startTime": 0,
+          "endTime": 19,
+          "assessment": "Repite su su y llegar; mirada fuera de eje y menor fluidez."
+        },
+        {
+          "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+          "startTime": 23,
+          "endTime": 32.5,
+          "assessment": "Reformulación completa y más resolutiva; misma continuidad de encuadre, audio y expresión."
+        }
+      ],
+      "selectedSource": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "reason": "Seleccionar el segundo intento dentro del mismo archivo."
+    },
+    {
+      "guionBlock": "Valor / cliente",
+      "candidates": [
+        {
+          "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+          "startTime": 38,
+          "endTime": 46.5,
+          "assessment": "Frase incompleta y reinicio al final."
+        },
+        {
+          "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+          "startTime": 1.2,
+          "endTime": 16.8,
+          "assessment": "Desarrolla confianza, valor y experiencia; pequeña repetición de de, pero continuidad semántica y visual superior."
+        }
+      ],
+      "selectedSource": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "reason": "Mantener la explicación completa y evitar el cierre truncado."
+    },
+    {
+      "guionBlock": "Cierre provisional",
+      "candidates": [
+        {
+          "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+          "startTime": 41.5,
+          "endTime": 51.5,
+          "assessment": "Termina en y…, sin cierre completo."
+        },
+        {
+          "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+          "startTime": 29.5,
+          "endTime": 34,
+          "assessment": "CTA grabado completo; no pertenece al guion entregado. Uso exclusivo en esta revisión provisional."
+        }
+      ],
+      "selectedSource": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "reason": "Proporcionar cierre audible a la revisión parcial mientras se analizan las cuatro fuentes restantes."
+    }
+  ],
+  "verifiedDuplicates": {
+    "method": "SHA-256 de audio PCM completo decodificado y cinco fotogramas JPEG decodificados en iguales posiciones relativas. Coincidencia indica duplicación audiovisual con alta confianza, no igualdad binaria del contenedor.",
+    "sources": [
+      {
+        "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+        "duration": 59.98,
+        "frames": [
+          {
+            "time": 8.997,
+            "sha256": "ab8c5a09ac075cca01ecf5d5a520f073a12f137d92268fc4bf18d17654c95633"
+          },
+          {
+            "time": 17.994,
+            "sha256": "871535c5854fdc0d8256e74d303645e8e4c1537a0b4f4c9522052644c281b834"
+          },
+          {
+            "time": 29.99,
+            "sha256": "7434f199381583a98edd27fbb96be35d89c4c6a92097fef2a6cd7ca9e712d86d"
+          },
+          {
+            "time": 41.986,
+            "sha256": "0de66d4a769d6dbc6cab0ecd6953877bf16801eaa279bfa3a4a08deb49201237"
+          },
+          {
+            "time": 50.983,
+            "sha256": "9a725ffb402324cedf9d807f97cd28a2fe49d3307961fb750ae12da394c371e2"
+          }
+        ],
+        "audioSha256": "c95d9997439716209939d8d4e4f3cb24f890c729a8e10adc28405e14f38b0002"
+      },
+      {
+        "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+        "duration": 36.375,
+        "frames": [
+          {
+            "time": 5.456,
+            "sha256": "8a413cbb6b3440cb0677145e9305db4dce61bf1b642db0db1f542d79612b0f59"
+          },
+          {
+            "time": 10.912,
+            "sha256": "48a55e5048c16701ca72f236010a45096544ce8fdfdcdc748a08ba137c5dd292"
+          },
+          {
+            "time": 18.188,
+            "sha256": "4316adbcbca3cd1d340e673e261d6557096c96d0973be2edcd8fef0f3f6cc55e"
+          },
+          {
+            "time": 25.462,
+            "sha256": "554132d609a34b5638c30188bf96b2905035451dae70e4e66e10fb8510d41185"
+          },
+          {
+            "time": 30.919,
+            "sha256": "2e8a49d614b89d2e549b6d3d18e53b78efce364e1b9dc6bc25f3e550fec94b95"
+          }
+        ],
+        "audioSha256": "f6a877a842a27de89261dc7418b2b9d5577a5ad3b39d32ec43feefb6b947ab6d"
+      },
+      {
+        "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+        "duration": 52.611667,
+        "frames": [
+          {
+            "time": 7.892,
+            "sha256": "34a77a57f2bcd339782ad4456280fa1466c68e8c00989e9624011364aa19c049"
+          },
+          {
+            "time": 15.784,
+            "sha256": "6ed28ef50bda7fd63d88e017f3ca708c58358cab3e2dda01969a122e39d8a28d"
+          },
+          {
+            "time": 26.306,
+            "sha256": "3a076b4fc087931fa06c0d469595f6782bfd4e68337e11b576524eb3b74190e0"
+          },
+          {
+            "time": 36.828,
+            "sha256": "8b890ee1dedbf1d7209286cd030921070484f94dd989392e2e95c65bb8344a08"
+          },
+          {
+            "time": 44.72,
+            "sha256": "b1a8e21735a87875b7f51c12c04637e19582b63a929a7765098ee601656b1188"
+          }
+        ],
+        "audioSha256": "f2e8d2432bd141b73a76ca6759cc85d0ff2f31f266d6ff845d8b00cdab46d3d6"
+      },
+      {
+        "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+        "duration": 59.98,
+        "frames": [
+          {
+            "time": 8.997,
+            "sha256": "740c13e181252d7050cbd284975c29f64342d0e8ca406412d7341c5810dded86"
+          },
+          {
+            "time": 17.994,
+            "sha256": "c803ef7338012ff9260cbb5503800a1b2409ff1355d3f7620ce7e86f937d3c5b"
+          },
+          {
+            "time": 29.99,
+            "sha256": "1800287468c2ee42a6b87738e5e875dd649eb382b61ec0fdaa27ea52514e0d8b"
+          },
+          {
+            "time": 41.986,
+            "sha256": "ae2ab060b26fc81581fa82f0fe5d16867c340e64f633b083e8cfec05843f67f8"
+          },
+          {
+            "time": 50.983,
+            "sha256": "9950f937349af0290760269e1ca9d45db20491bba8027e06861880732e7b667c"
+          }
+        ],
+        "audioSha256": "b02ee86c9051d2d400122e3cb058956aaf2fab50ef0de3c9ea32fc8b63c719f2"
+      },
+      {
+        "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+        "duration": 59.98,
+        "frames": [
+          {
+            "time": 8.997,
+            "sha256": "ab8c5a09ac075cca01ecf5d5a520f073a12f137d92268fc4bf18d17654c95633"
+          },
+          {
+            "time": 17.994,
+            "sha256": "871535c5854fdc0d8256e74d303645e8e4c1537a0b4f4c9522052644c281b834"
+          },
+          {
+            "time": 29.99,
+            "sha256": "7434f199381583a98edd27fbb96be35d89c4c6a92097fef2a6cd7ca9e712d86d"
+          },
+          {
+            "time": 41.986,
+            "sha256": "0de66d4a769d6dbc6cab0ecd6953877bf16801eaa279bfa3a4a08deb49201237"
+          },
+          {
+            "time": 50.983,
+            "sha256": "9a725ffb402324cedf9d807f97cd28a2fe49d3307961fb750ae12da394c371e2"
+          }
+        ],
+        "audioSha256": "c95d9997439716209939d8d4e4f3cb24f890c729a8e10adc28405e14f38b0002"
+      },
+      {
+        "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+        "duration": 59.98,
+        "frames": [
+          {
+            "time": 8.997,
+            "sha256": "1b1379deb5a02d314fc2c38bccd2a4bab1b7b668830b8e13906e670d2e8d71b8"
+          },
+          {
+            "time": 17.994,
+            "sha256": "2e6d44d15961cab421c5cb13f156659dbea5812ab2a76d15941288ba1b2a76da"
+          },
+          {
+            "time": 29.99,
+            "sha256": "94ffce6f99b7b8587d4d2860598dacc5ab9c42d2fe9fc6223470a787ba8911b0"
+          },
+          {
+            "time": 41.986,
+            "sha256": "1aeaf25fe359d2d7ebcfe8283a88d000f3240cdad6e497d6db2a6ec4435d38f4"
+          },
+          {
+            "time": 50.983,
+            "sha256": "50195c2467c1a8a975a48fc532ab2e1abc613a90796941baf10862af102987aa"
+          }
+        ],
+        "audioSha256": "fea5d58037ae86b1871d610fd724b4228afdf37da0d76e27ea774963633eba3d"
+      },
+      {
+        "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+        "duration": 46.61,
+        "frames": [
+          {
+            "time": 6.991,
+            "sha256": "24391b5ad3a3f5331cc0563cf4c5de0815d4f5131e7272e7e616ccc49ac69ef6"
+          },
+          {
+            "time": 13.983,
+            "sha256": "c42e128251f0f469be11776ce1a80965c8b9bde50a7bf427e69801962c6dda27"
+          },
+          {
+            "time": 23.305,
+            "sha256": "1585462ab5f28ba75c51a9c599a39e3d953ba15056275f3852f91c78c361f348"
+          },
+          {
+            "time": 32.627,
+            "sha256": "3ff6fe37f8e7767fcd0403bc13dc3cf581b99664709efc9924d9c19b401346e2"
+          },
+          {
+            "time": 39.618,
+            "sha256": "736a82eb989e8ed189a53cc098c0c63aea3147b1a8be1c4f8db5a5244c3bc233"
+          }
+        ],
+        "audioSha256": "b3280fe8ca035debc37766954df8a51e6d7690e1d06fe4becbbfb536becd3fd8"
+      },
+      {
+        "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+        "duration": 52.245,
+        "frames": [
+          {
+            "time": 7.837,
+            "sha256": "418310cafe5495d9ef6254fbf81e42e91de4e8230fc195beb5a078eedf96ca43"
+          },
+          {
+            "time": 15.673,
+            "sha256": "19310897ff88027cfa207c20339511c6acabe79b09119fc23e65664e800d91c1"
+          },
+          {
+            "time": 26.122,
+            "sha256": "b8a99ab914b32e88087941a37c98485881271bb52bc1aa9e623a8890ec3455df"
+          },
+          {
+            "time": 36.571,
+            "sha256": "2b3da7b7e18816144c0ed98e7beebba4904579bbca54c7c42c52813e84f788b6"
+          },
+          {
+            "time": 44.408,
+            "sha256": "a9a59a2447c857bb5493a152a9344cfd84700840726679b935830da848f366af"
+          }
+        ],
+        "audioSha256": "e870831196213cdefa85653cfd7e89fbf6a7fed7a4e8db187bf526dc0e803293"
+      },
+      {
+        "sourceFile": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+        "duration": 53.845,
+        "frames": [
+          {
+            "time": 8.077,
+            "sha256": "6a118d8603689c25109e8fa6dde31d6067d5c7151875aeb0844699d9b99ebaa6"
+          },
+          {
+            "time": 16.153,
+            "sha256": "15ee94b1f5502b42f0904b5838a0776bacdc80a5585f0467fa82cc848843fd03"
+          },
+          {
+            "time": 26.922,
+            "sha256": "a795a4af458ab0b4c6caa801c7b3a3084684694fde569e092ec2cf8029455d45"
+          },
+          {
+            "time": 37.691,
+            "sha256": "a85845809ca33ca71426a233f1dd3e0011b409622c696f9e2c71c9edca72d6e5"
+          },
+          {
+            "time": 45.768,
+            "sha256": "f6d19089bb2c0351f3d696083af6f72ad8819ec531ebe0ed84c8198524ae9d80"
+          }
+        ],
+        "audioSha256": "2d1fca2bdb1b97997c23b57344d300254b9ae0f68641b8a77e034f7fa3ed8448"
+      },
+      {
+        "sourceFile": "b1eb53d64406404f95a673182fe597fd.MP4",
+        "duration": 59.98,
+        "frames": [
+          {
+            "time": 8.997,
+            "sha256": "c969910636f3264791c1a5347ae0099a7b6138f02e1b2c8607dd81222e50862c"
+          },
+          {
+            "time": 17.994,
+            "sha256": "8348f8c7efb0d0bf85e3b7c4b6216cbc477be0bdd53694571c8a7625fa60cbaa"
+          },
+          {
+            "time": 29.99,
+            "sha256": "2c94e5d33325325fbc1515ebf0c5ee210a42391577b0cc1a1e0dcc48a6610cbb"
+          },
+          {
+            "time": 41.986,
+            "sha256": "ebd02b49e5c235b0b934baf6f12c871f430c357d1fb8165033188c1ebb2eaf1f"
+          },
+          {
+            "time": 50.983,
+            "sha256": "2142c6ecd1b22dbfda748cdf2f6e41fe4e4e3380d9cd3c8fb4cb4937c49fd2a2"
+          }
+        ],
+        "audioSha256": "a95528615889411060dc0daeadb68cbfdf098022c4c5b8d45a061304f89c1836"
+      },
+      {
+        "sourceFile": "e7648b9b117b45218bd4bac13da69698.MP4",
+        "duration": 25.871667,
+        "frames": [
+          {
+            "time": 3.881,
+            "sha256": "c7bf0d29dd460a569659eb2da5b7dee0028aa62924e921b8d5c8134aa2302c04"
+          },
+          {
+            "time": 7.762,
+            "sha256": "05a7062a70885192afa57dbc20137721f1df1d229604d163684850e4c944b792"
+          },
+          {
+            "time": 12.936,
+            "sha256": "277d15120eb695e1f7ed860303b9b7157bb5dc74f59c997867ef89d47f7e266e"
+          },
+          {
+            "time": 18.11,
+            "sha256": "7cb1c50394bccaced83bc1be41370065d6f6c6475b4299bf1ccaa6a6920d75aa"
+          },
+          {
+            "time": 21.991,
+            "sha256": "578d532535317622ff5d8ae719e98f7ab71df3130ccbcfd25a8de2ff82ba855d"
+          }
+        ],
+        "audioSha256": "543ced9a9fbfb971cf629e4c71484e3f0f6d838a4f9796a60a100b0f2ddc7434"
+      },
+      {
+        "sourceFile": "ffe3314cd47f4f4293b8bfc328054b4b.MP4",
+        "duration": 48.91,
+        "frames": [
+          {
+            "time": 7.336,
+            "sha256": "09d01bd6495838405d50cb2a7ce71d3735581f18a48742032623d878866903ce"
+          },
+          {
+            "time": 14.673,
+            "sha256": "1fbd07226a62863cfdc5c7a547a6f35558b508474e02431c517fd8135f77deb6"
+          },
+          {
+            "time": 24.455,
+            "sha256": "033e9b6fbb29f09e6b13e62d04cc169a2cf972c4c148eec22f44603c6cdc7baf"
+          },
+          {
+            "time": 34.237,
+            "sha256": "ba43d5c63eed5c5ee5955a454bc81bff82c1ea514067099b5c17d88b940d7e93"
+          },
+          {
+            "time": 41.573,
+            "sha256": "64e3f614ec3f24a36cc72edd2913e17ff7581349834b6bb3c884d1e5496b2e42"
+          }
+        ],
+        "audioSha256": "675f4f1b4b55aa01c028d730578cd6015fe72f1a9c292e1d18eb5582e0bff93b"
+      }
+    ],
+    "duplicateGroups": [
+      {
+        "sources": [
+          "1071a10986d4473fab0f545091431ee2.MP4",
+          "2eff061b16754ce896239dade75e3c9d.MP4"
+        ],
+        "canonicalSource": "1071a10986d4473fab0f545091431ee2.MP4"
+      }
+    ]
+  },
+  "scoreMeaning": "Puntuaciones cualitativas de Gemini (0-10), no mediciones instrumentales. Conservar las respuestas originales aunque diverjan; para copias audiovisuales usar una sola referencia de transcripción.",
+  "editorialCorrections": [
+    "La orientación se comprobó visualmente: la corrección aplicada a las tomas es 90 grados antihorario (transpose=2). La sugerencia horaria de algunas respuestas Gemini no se aplicó.",
+    "La rotación es corregible y común al material: no constituye por sí sola un motivo para descartar una toma frente a otra.",
+    "La duración medida por ffprobe es la autoridad para los límites de edición; durationSeconds dentro de cada respuesta Gemini es una estimación del modelo."
+  ],
+  "timingCaveat": "Tiempos interpretados por Gemini, cuantizados a 30 FPS para edición y validados contra duración del contenedor. Revisión audiovisual en Studio requerida.",
+  "selectedRangesBeforePacing": [
+    {
+      "scene": 1,
+      "guionBlock": "Apertura: posicionamiento de marca",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 2.2,
+      "endTime": 11.2
+    },
+    {
+      "scene": 2,
+      "guionBlock": "No siempre tienes que dar más",
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 21,
+      "endTime": 30.1
+    },
+    {
+      "scene": 3,
+      "guionBlock": "Samsung y la batería en 2014",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "startTime": 11.2,
+      "endTime": 22.2
+    },
+    {
+      "scene": 4,
+      "guionBlock": "El argumento de la batería intercambiable",
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "startTime": 34,
+      "endTime": 43.5
+    },
+    {
+      "scene": 5,
+      "guionBlock": "Auriculares y cargadores",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 3.8,
+      "endTime": 11.8
+    },
+    {
+      "scene": 6,
+      "guionBlock": "Decisiones que después adopta Samsung",
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 45,
+      "endTime": 55.2
+    },
+    {
+      "scene": 7,
+      "guionBlock": "Llegar primero frente a hacerlo diferente",
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "startTime": 23,
+      "endTime": 32.5
+    },
+    {
+      "scene": 8,
+      "guionBlock": "La presentación del Duo en el discurso",
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "startTime": 37.5,
+      "endTime": 45
+    },
+    {
+      "scene": 9,
+      "guionBlock": "La obsesión por ser los primeros",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 1.5,
+      "endTime": 14.5
+    },
+    {
+      "scene": 10,
+      "guionBlock": "Agregar más servicios y características",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 14.5,
+      "endTime": 20
+    },
+    {
+      "scene": 11,
+      "guionBlock": "Lo que necesita el cliente",
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "startTime": 32,
+      "endTime": 38
+    },
+    {
+      "scene": 12,
+      "guionBlock": "Valor, confianza y experiencia",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 1.2,
+      "endTime": 16.8
+    },
+    {
+      "scene": 13,
+      "guionBlock": "Una solución con valor real",
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "startTime": 21.5,
+      "endTime": 32
+    },
+    {
+      "scene": 14,
+      "guionBlock": "CTA grabado fuera del guion; cierre provisional",
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "startTime": 29.5,
+      "endTime": 34
+    }
+  ],
+  "pacingRevision": {
+    "report": "analysis/video-001-pacing-report.json",
+    "durationInFrames": 3748,
+    "durationSeconds": 124.93333333333334,
+    "originalAnalysisPreserved": true
+  },
+  "libraryRevision": {
+    "report": "analysis/video-001-library-refinement.json",
+    "commit": "486cb14f2d95854c1fe8f5b70a17644378db6a2f",
+    "originalAnalysisPreserved": true
+  }
+}

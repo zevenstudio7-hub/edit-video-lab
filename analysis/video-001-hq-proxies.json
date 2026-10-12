@@ -1,0 +1,82 @@
+{
+  "method": "transpose=2 → 1920×1080, x264 CRF 18 GOP 15, BT.709 tv; loudnorm 2 pasadas −16 LUFS/−1,5 dBTP, AAC 192k 48 kHz",
+  "takes": [
+    {
+      "take": "1071a10986d4473fab0f545091431ee2.MP4",
+      "measuredLufs": -28.01,
+      "measuredTruePeak": -4.72,
+      "normalization": "dynamic",
+      "seconds": 115
+    },
+    {
+      "take": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "measuredLufs": -30.86,
+      "measuredTruePeak": -9.96,
+      "normalization": "dynamic",
+      "seconds": 69
+    },
+    {
+      "take": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "measuredLufs": -30.42,
+      "measuredTruePeak": -9.74,
+      "normalization": "dynamic",
+      "seconds": 93
+    },
+    {
+      "take": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "measuredLufs": -28.06,
+      "measuredTruePeak": -7.83,
+      "normalization": "dynamic",
+      "seconds": 120
+    },
+    {
+      "take": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "measuredLufs": -29.17,
+      "measuredTruePeak": -10.15,
+      "normalization": "dynamic",
+      "seconds": 127
+    },
+    {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "measuredLufs": -29.32,
+      "measuredTruePeak": -9.57,
+      "normalization": "dynamic",
+      "seconds": 98
+    },
+    {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "measuredLufs": -29.02,
+      "measuredTruePeak": -10.23,
+      "normalization": "dynamic",
+      "seconds": 121
+    },
+    {
+      "take": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "measuredLufs": -28.57,
+      "measuredTruePeak": -7.16,
+      "normalization": "dynamic",
+      "seconds": 90
+    },
+    {
+      "take": "b1eb53d64406404f95a673182fe597fd.MP4",
+      "measuredLufs": -28.69,
+      "measuredTruePeak": -8.38,
+      "normalization": "dynamic",
+      "seconds": 114
+    },
+    {
+      "take": "e7648b9b117b45218bd4bac13da69698.MP4",
+      "measuredLufs": -28.53,
+      "measuredTruePeak": -12.29,
+      "normalization": "dynamic",
+      "seconds": 50
+    },
+    {
+      "take": "ffe3314cd47f4f4293b8bfc328054b4b.MP4",
+      "measuredLufs": -30.1,
+      "measuredTruePeak": -7.54,
+      "normalization": "dynamic",
+      "seconds": 92
+    }
+  ]
+}

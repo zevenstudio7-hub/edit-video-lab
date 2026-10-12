@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "definido": "2026-10-09",
+  "estado": "candidato. Parámetros leídos a ojo de grabaciones de pantalla a 60 fps (tramos de detalle cada 0,12–0,17 s). Son puntos de partida: validar con un still/preview y ajustar. Ninguno se ha probado todavía en un render de Remotion.",
+  "unidades": "frames a 30 fps salvo que se indique; px en lienzo 1080×1920; ángulos en grados",
+  "fuentes": {
+    "mov-1": "estilos de movimiento/Grabación 11.19.33 p.m. — reel de prompts con UI de chat clara (33 s)",
+    "mov-2": "estilos de movimiento/Grabación 11.23.46 p.m. — lista de herramientas, tarjetas y titulares (24 s)",
+    "mov-3": "estilos de movimiento/Grabación 11.24.26 p.m. — baraja de tarjetas y logo (19 s)",
+    "mov-4": "estilos de movimiento/ScreenRecording_10-06-2026 15-23-10_1 — UI oscura con inclinación 3D y palabras grandes (89 s)",
+    "creator-1": "Edit-5 creator/ScreenRecording_10-08-2026 24 — creador con stickers, B-roll y captions (32 s)",
+    "texto-1 / texto-2": "estilos de texto/* — ver textos.json"
+  },
+  "presets": [
+    {
+      "id": "entrada-desenfoque",
+      "nombre": "Entrada con desenfoque",
+      "para": "titulares, objetos protagonistas y tarjetas al aparecer",
+      "de_a": { "opacity": [0, 1], "blur_px": [14, 0], "translateY_px": [14, 0] },
+      "frames": 10, "easing": "salida-expo",
+      "origen": "mov-2 t=3.85–4.2 s (título 'Kigen'); mov-1 t=1.25–1.5 s",
+      "sfx": "zp-text (titular) o ninguno",
+      "nota": "El desenfoque es lo que distingue este estilo de un simple fundido; no omitirlo."
+    },
+    {
+      "id": "cruce-desenfoque",
+      "nombre": "Cruce de escena con desenfoque",
+      "para": "cambio entre ideas o pantallas",
+      "de_a": { "saliente": { "opacity": [1, 0], "blur_px": [0, 18], "scale": [1, 1.02] }, "entrante": "entrada-desenfoque con 4 frames de solape" },
+      "frames": 10, "easing": "entrada-salida",
+      "origen": "mov-1 t=1.0–1.4 s ('JAMÁS' → 'Dale contexto.'); mov-2 t=12.0 s",
+      "sfx": "zp-swish"
+    },
+    {
+      "id": "subida-tarjeta",
+      "nombre": "Subida de tarjeta",
+      "para": "ventana de chat, tarjeta de UI, panel",
+      "de_a": { "translateY_px": [110, 0], "scale": [0.95, 1], "opacity": [0, 1] },
+      "frames": 18, "easing": "salida-expo",
+      "detalle": "la opacidad llega a 1 al 60 % del recorrido (opacity = min(1, progreso × 1,6))",
+      "origen": "mov-1 t=1.38–1.75 s",
+      "sfx": "zp-pop"
+    },
+    {
+      "id": "revelado-lineas",
+      "nombre": "Revelado por líneas",
+      "para": "descripciones de 2–5 líneas",
+      "de_a": { "cada_linea": { "translateY_pct": [110, 0], "opacity": [0, 1] }, "mascara": "overflow:hidden por línea" },
+      "frames": 12, "retardo_entre_lineas": 3, "easing": "salida-expo",
+      "origen": "mov-2 t=4.6–5.1 s",
+      "sfx": "ninguno"
+    },
+    {
+      "id": "cortina-central",
+      "nombre": "Cortina central",
+      "para": "tarjeta con imagen o captura: se abre desde una línea",
+      "de_a": { "clip_path": ["inset(50% 0 50% 0 round R)", "inset(0 0 0 0 round R)"] },
+      "frames": 12, "easing": "entrada-salida",
+      "sigue": "asentado-con-halo",
+      "origen": "mov-2 t=5.35–5.6 s",
+      "sfx": "zp-swish-up (opcional)"
+    },
+    {
+      "id": "asentado-con-halo",
+      "nombre": "Asentado con halo",
+      "para": "tarjeta que acaba de abrirse",
+      "de_a": { "scale": [0.94, 1], "halo": "box-shadow de color ui de 0 % a 55 % de alfa, desplazado hacia abajo (0 70px 120px -50px)" },
+      "frames": 24, "easing": "salida-expo",
+      "origen": "mov-2 t=5.6–6.35 s (resplandor suave bajo la tarjeta)",
+      "sfx": "ninguno"
+    },
+    {
+      "id": "pop-insignia",
+      "nombre": "Pop de insignia",
+      "para": "números de lista, contadores, etiquetas",
+      "de_a": { "scale": [0, 1] },
+      "spring": "pop", "retardo": 4,
+      "origen": "mov-2 t=4.1–4.35 s (badge '01'); ref-08 y ref-10 (contador rojo)",
+      "sfx": "zp-pop-hi"
+    },
+    {
+      "id": "mosaico-disolver",
+      "nombre": "Mosaico que se disuelve",
+      "para": "salida de una galería o cuadrícula antes del plano siguiente",
+      "de_a": { "cada_baldosa": { "opacity": [1, 0], "scale": [1, 0.96] } },
+      "frames": 8, "retardo": "hash(i) → 0–18 frames (orden fijo por índice, no aleatorio por render)", "easing": "suave",
+      "origen": "mov-3 t=7.2–9.0 s",
+      "sfx": "zp-swish"
+    },
+    {
+      "id": "baraja-3d",
+      "nombre": "Baraja de tarjetas",
+      "para": "mostrar varios ejemplos o proyectos uno tras otro",
+      "estructura": "N tarjetas apiladas; la posición p (0 = frente) se desplaza translateY −58 px × p y escala 1 − 0,045 × p",
+      "avance": {
+        "cada_frames": 44, "duracion_paso": 10, "easing": "entrada-salida",
+        "frente": { "translateY_px": [0, 420], "blur_px": [0, 16], "opacity": [1, 0], "scale": [1, 1.03] },
+        "resto": "cada tarjeta sube una posición (interpolar p → p − 1)"
+      },
+      "origen": "mov-3 t=9.1–15.0 s; cada tarjeta se sostiene ~1,2 s",
+      "sfx": "zp-swish por paso"
+    },
+    {
+      "id": "logo-expandir",
+      "nombre": "Cierre con logo que se expande",
+      "para": "firma final",
+      "pasos": [
+        "icono pequeño centrado: se dibuja el contorno y se rellena (≈ 24 frames)",
+        "sostener ≈ 20 frames",
+        "el wordmark se abre con máscara hacia la izquierda mientras el icono se desplaza (≈ 8 frames, salida-expo)",
+        "brillo que cruza una letra (opcional)"
+      ],
+      "origen": "mov-3 t=15.6–18.7 s",
+      "regla": "logos de marca: el archivo original, entero; nunca redibujado ni deformado (RAÍZ)",
+      "sfx": "zp-sparkle"
+    },
+    {
+      "id": "escritura-con-tinte",
+      "nombre": "Escritura con tinte de palabra clave",
+      "para": "prompts, búsquedas, formularios, mensajes",
+      "tecleo": { "frames_por_caracter": 1.7, "extra_tras_espacio": 1.6, "extra_tras_coma": 5, "caret": "parpadea 8 frames encendido / 8 apagado; sólido mientras se teclea" },
+      "tinte": "las palabras clave llevan fondo resalte al 38 % de alfa, radio 10 px, desde que se escriben",
+      "chips": "cuando la palabra clave está completa, su chip pasa a ui-100 con un check y hace pop (spring pop, retardo 2)",
+      "origen": "mov-1 t=1.9–6.0 s (≈ 16 caracteres por segundo)",
+      "sfx": "zp-keys: una ráfaga por frase; no una por letra"
+    },
+    {
+      "id": "cursor-clic",
+      "nombre": "Cursor que viaja y pulsa",
+      "para": "señalar el siguiente paso o el botón de enviar",
+      "pasos": {
+        "aparece": "opacity 0→1 en 6 frames",
+        "trayecto": "26 frames, entrada-salida, de A a B (ligero arco opcional)",
+        "clic": "cursor scale 0,84 durante 5 frames; anillo de 20→160 px y opacidad 0,55→0 en 14 frames (salida-expo); el botón pasa de ui a ink y escala 0,92 durante 6 frames"
+      },
+      "origen": "mov-1 t=1.9–2.9 s y 7.0 s",
+      "sfx": "zp-tick en el clic"
+    },
+    {
+      "id": "tachado",
+      "nombre": "Tachado de lo que no hay que hacer",
+      "para": "contraste 'así no' / 'así sí'",
+      "de_a": { "linea_alerta": { "width_pct": [0, 100] }, "texto": { "opacity": [1, 0.55] } },
+      "frames": 12, "easing": "entrada-salida",
+      "acompana": "etiqueta 'Así no' con punto rojo (alerta)",
+      "origen": "mov-1 t=0–1 s y 16–20 s",
+      "sfx": "zp-marker"
+    },
+    {
+      "id": "inclinacion-3d",
+      "nombre": "Panel con inclinación 3D",
+      "para": "listas de agentes, notificaciones, paneles en variante dark o glass",
+      "de_a": {
+        "perspective_px": 1500,
+        "rotateX_deg": [24, 16], "rotateY_deg": [-16, -10],
+        "translateY_px": [80, 0], "blur_px": [14, 0], "opacity": [0, 1]
+      },
+      "frames": 22, "easing": "salida-expo",
+      "despues": "deriva lenta: ±1,5° con seno (período ≈ 300–380 frames)",
+      "origen": "mov-4 t=26–32 s; ref-08 y ref-10 (paneles inclinados)",
+      "sfx": "zp-swish"
+    },
+    {
+      "id": "foco-lista",
+      "nombre": "Foco que salta entre filas",
+      "para": "recorrer los elementos de una lista mientras se nombran",
+      "cada_frames": 26, "spring": "firme",
+      "fila_activa": { "translateZ_px": 60, "scale": 1.04, "borde": "tono propio al 90 %", "halo": "0 0 50px tono al 55 %", "relleno": "degradado lateral del tono" },
+      "tonos": "un tono distinto por fila (cian, naranja, verde agua, rosa, ámbar)",
+      "origen": "mov-4 t=26–29 s (Fit Bot → Macro Bot → Calm Bot)",
+      "sfx": "zp-pulse por salto"
+    },
+    {
+      "id": "palabra-grande",
+      "nombre": "Palabra grande al centro",
+      "para": "énfasis de una palabra mientras el presentador habla",
+      "de_a": { "scale": [0.82, 1], "translateY_px": [30, 0], "opacity": [0, 1] },
+      "spring": "pop", "duracion_palabra": 16,
+      "estilo": "sans 800 de 150 px o serif cursiva de 190 px para la palabra de énfasis; sombra suave + halo del color ui",
+      "origen": "mov-4 t=29–31 s ('that', 'take', 'proactive', 'actions')",
+      "sfx": "zp-text (solo en la palabra de énfasis)"
+    },
+    {
+      "id": "flotar",
+      "nombre": "Flotar en reposo",
+      "para": "stickers, iconos y objetos que acompañan al presentador",
+      "formula": "translateY = sen(2π·frame/90) × 6 px; rotate = sen(2π·frame/120) × 1,5°",
+      "origen": "creator-1 t=28–29.6 s (los bichitos de color sobre la cabeza no están quietos)"
+    },
+    {
+      "id": "stickers-escalonados",
+      "nombre": "Stickers que aparecen uno a uno",
+      "para": "objetos 3D, emojis o mascotas en el ritmo de la voz",
+      "de_a": { "scale": [0, 1], "rotate_deg": [-12, 0] },
+      "spring": "rebote", "separacion_entre_stickers": "3–5 frames",
+      "anclaje": "encima o al costado de la cabeza, fuera del rostro y de los captions",
+      "origen": "creator-1 t=27.9–28.4 s (cuatro stickers en ~0,5 s)",
+      "confianza": "media: se ve la secuencia de aparición, pero la forma exacta del rebote se infiere de fotogramas a 10 fps",
+      "sfx": "zp-pop por sticker (máx. 2 sonidos; el resto, mudo)"
+    },
+    {
+      "id": "borde-aurora",
+      "nombre": "Borde iridiscente que gira",
+      "para": "botones y cajas de IA; el elemento que tiene que parecer 'inteligente'",
+      "formula": "conic-gradient(from {ángulo}, ui, #ff5db1, #ffb340, #5fe08a, ui-300, ui) como máscara de borde de 6 px; ángulo = frame × 3°; halo del mismo degradado con blur 34 px al 35 %",
+      "origen": "ref-01, ref-06, ref-12",
+      "nota": "como mucho UN elemento aurora por plano"
+    },
+    {
+      "id": "presentador-en-marco",
+      "nombre": "Presentador en marco glass",
+      "para": "dejar espacio a la UI sin perder al presentador",
+      "de_a": { "presentador": "de pantalla completa a recuadro redondeado anclado abajo", "borde": "2–3 px blanco al 55 % (marco glass) que aparece al reducirse" },
+      "frames": 14, "easing": "entrada-salida",
+      "origen": "texto-2 t=1.8–2.3 s (aparece el marco) y t=4–10 s (UI arriba, rostro abajo)",
+      "nota": "es el puente con #edit-2-pantalla-dividida"
+    }
+  ],
+  "no_confirmado": [
+    "Duraciones medidas contando fotogramas de una captura de pantalla (que puede haber sido recodificada); error esperado ±2 frames.",
+    "Los desenfoques (px) y las sombras son estimaciones visuales, no mediciones.",
+    "'zoom-ancla' (acercamiento anclado a una fila) se ve en mov-4 pero con fotogramas insuficientes para parametrizarlo: no se incluye hasta tener un still o una captura más fina."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "model": "gemini-3.6-flash",
+  "sourceFile": "b1eb53d64406404f95a673182fe597fd.MP4",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/ravfbfmjdai6",
+    "analyzedAt": "2026-10-03T22:54:04.232Z",
+    "sha256": "5f34cddfee11055308b8b8b13c576b316eca29f4c3a2bcc4e2d5f4470a482a4b",
+    "responseId": "fofBaqCBGpCP6dkPjqS2mQU",
+    "usage": {
+      "promptTokenCount": 6299,
+      "candidatesTokenCount": 1288,
+      "totalTokenCount": 9274,
+      "cachedContentTokenCount": 4757,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 5459
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 634
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 4123
+        }
+      ],
+      "thoughtsTokenCount": 1687,
+      "serviceTier": "standard"
+    }
+  },
+  "selectionBasis": "Available in ai.models.list with generateContent; successful inference of the already ACTIVE source video"
+}

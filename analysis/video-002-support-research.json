@@ -1,0 +1,315 @@
+{
+  "video": "VIDEO-002",
+  "fecha": "2026-10-05",
+  "regla": "docs/VIDEO-SYSTEM-ROOT.md → «Regla de recursos de apoyo» (orden: proyecto → fuentes oficiales → búsqueda general → redes → repositorios → síntesis propia → IA).",
+  "consultas": [
+    {
+      "canal": "material del proyecto",
+      "consulta": "tomas A y B del usuario",
+      "resultado": "Solo presentador; no hay capturas ni imágenes del producto."
+    },
+    {
+      "canal": "fuente oficial (newsroom Meta)",
+      "consulta": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "resultado": "Título y fecha (captura); imagen y video de cabecera con logotipo «Muse», mascota Jolly y conectores; 5 videos de producto (carrusel SMB); paquete «Download all images» con 21 tarjetas de citas y Legal_Notice.txt."
+    },
+    {
+      "canal": "fuente oficial (kit de marca Meta)",
+      "consulta": "https://www.meta.com/brand/resources/",
+      "resultado": "Kits de Meta, Facebook, Instagram, WhatsApp y Threads; sin sección de Muse ni de Jolly. «All other forms of marketing do not require permission but must use the officially provided assets and abide by the guidelines»."
+    },
+    {
+      "canal": "fuente oficial (kit de marca Facebook)",
+      "consulta": "https://www.meta.com/brand/resources/facebook/logo/",
+      "resultado": "Paquete oficial descargable solo tras aceptar «I have read and accept the applicable guidelines and other terms for use»: no se aceptó (decisión del usuario)."
+    },
+    {
+      "canal": "fuente oficial (galería de medios Meta)",
+      "consulta": "https://www.meta.com/media-gallery/",
+      "resultado": "Retratos de directivos; sin recursos de Muse."
+    },
+    {
+      "canal": "fuente oficial (newsroom Canva)",
+      "consulta": "https://www.canva.com/newsroom/news/",
+      "resultado": "Logotipo oficial en la cabecera (SVG); artículo «Canva expands design with Muse, from Meta» (confirma la integración)."
+    },
+    {
+      "canal": "búsqueda general",
+      "consulta": "Meta \"Muse for Small Business\" AI · Meta Muse AI agent mascot logo plush character official",
+      "resultado": "Cobertura (CNBC, TechCrunch, Axios, Engadget…): la mascota oficial se llama Jolly (diseño de Alex Cornell, jefe de diseño de producto de Muse); Muse es solo para mayores de 18 años y hay críticas por el atractivo infantil de la mascota."
+    },
+    {
+      "canal": "búsqueda general (enlace del usuario)",
+      "consulta": "Google Imágenes «muse meta»",
+      "resultado": "Sirve para descubrir; la fuente registrada es la página original de Meta."
+    },
+    {
+      "canal": "repositorio con licencia",
+      "consulta": "Simple Icons 16.34.0 (cdn.jsdelivr.net/npm/simple-icons@16.34.0)",
+      "resultado": "Glifos de Facebook, Instagram, TikTok, Meta, Shopify y Notion (datos CC0; las marcas son de sus titulares). Canva no está."
+    }
+  ],
+  "necesidades": [
+    {
+      "escena": "m2",
+      "necesidad": "Reconocer Facebook, Instagram y TikTok al nombrarlos",
+      "recursos": [
+        "logo-facebook",
+        "logo-instagram",
+        "logo-tiktok"
+      ]
+    },
+    {
+      "escena": "m4",
+      "necesidad": "Evidencia del lanzamiento de Muse for Small Business",
+      "recursos": [
+        "meta-anuncio-titulo"
+      ]
+    },
+    {
+      "escena": "m5, m7",
+      "necesidad": "Identidad oficial de Muse (logotipo y mascota) como centro del sistema",
+      "recursos": [
+        "meta-muse-oficial"
+      ]
+    },
+    {
+      "escena": "m7",
+      "necesidad": "Reconocer Shopify, Canva y Notion al nombrarlos",
+      "recursos": [
+        "logo-shopify",
+        "logo-canva",
+        "logo-notion"
+      ]
+    },
+    {
+      "escena": "m5, m6",
+      "necesidad": "Funcionamiento de Muse (tareas, objetivo)",
+      "recursos": [],
+      "nota": "Interfaces conceptuales con «Ejemplo ilustrativo»; los videos oficiales del carrusel quedan como referencia hasta resolver sus derechos."
+    }
+  ],
+  "candidatos": [
+    {
+      "id": "meta-anuncio-titulo",
+      "tipo": "captura",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "autor": "Meta (newsroom)",
+      "oficial": true,
+      "escena": "m4",
+      "funcion": "evidencia del anuncio (título y fecha)",
+      "base": "Cita con fuente visible y decisión documentada (RAÍZ: capturas usadas como cita o evidencia).",
+      "derechos": "permitido",
+      "decision": "seleccionado",
+      "atribucion": "Captura de about.fb.com · Meta, 29 sep 2026",
+      "ruta": "public/video-002/support/meta-anuncio-titulo.jpg"
+    },
+    {
+      "id": "meta-muse-oficial",
+      "tipo": "imagen (logotipo + mascota Jolly + conectores)",
+      "url": "https://about.fb.com/wp-content/uploads/2026/09/The-Future-Is-for-Everyone_Muse-for-Small-Business_Social-Share.png",
+      "autor": "Meta",
+      "oficial": true,
+      "escena": "m5, m7",
+      "funcion": "identidad oficial de Muse como centro del sistema (pedido del usuario: «mascota o icono oficial»)",
+      "base": "Sin licencia escrita para esta imagen. El paquete de prensa del mismo anuncio exige uso personal o editorial no comercial y prohíbe alterar imágenes sin permiso de Meta: se muestra completa, sin recortes, con fuente visible.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Es el único recurso oficial con la mascota y el logotipo. Antes del render final hay que decidir si el reel es uso editorial no comercial o pedir permiso (press@meta.com).",
+      "atribucion": "Imagen oficial de Meta · about.fb.com",
+      "ruta": "public/video-002/support/meta-muse-oficial.png",
+      "md5": "113afcf32c252e4edc5f3c4b4b61311c"
+    },
+    {
+      "id": "meta-video-cabecera",
+      "tipo": "video (logotipo y Jolly animados)",
+      "url": "https://about.fb.com/wp-content/uploads/2026/09/The-Future-Is-for-Everyone_Muse-for-Small-Business_Header.mp4",
+      "autor": "Meta",
+      "oficial": true,
+      "escena": "—",
+      "funcion": "posible plano de la mascota animada",
+      "base": "Sin licencia escrita (52 MB, no descargado).",
+      "derechos": "requiere_revision",
+      "decision": "referencia",
+      "motivo": "Muestra animado lo mismo que la imagen oficial (logotipo y Jolly). Son 52 MB sin licencia escrita: no se descargó. Si se resuelven los derechos y el usuario autoriza la descarga, puede sustituir a la imagen en m5."
+    },
+    {
+      "id": "meta-carrusel-smb",
+      "tipo": "video (5 demostraciones de producto)",
+      "url": "https://about.fb.com/wp-content/uploads/2026/09/01_SMB_carousel_01.mp4 … _05.mp4",
+      "autor": "Meta",
+      "oficial": true,
+      "escena": "m5, m6",
+      "funcion": "interfaz real de Muse en lugar de la conceptual",
+      "base": "Sin licencia escrita (no descargados).",
+      "derechos": "requiere_revision",
+      "decision": "referencia",
+      "motivo": "Podrían sustituir las interfaces ilustrativas si se resuelven los derechos."
+    },
+    {
+      "id": "meta-paquete-prensa",
+      "tipo": "imagen (21 tarjetas de citas)",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/ («Download all images»)",
+      "autor": "Meta",
+      "oficial": true,
+      "escena": "—",
+      "funcion": "—",
+      "base": "Legal_Notice.txt: uso personal o editorial no comercial; sin alterar.",
+      "derechos": "requiere_revision",
+      "decision": "descartado",
+      "motivo": "Testimonios que el video no cita; no traen mascota ni logotipo."
+    },
+    {
+      "id": "meta-kit-marca",
+      "tipo": "logo (Facebook, Instagram, Meta)",
+      "url": "https://www.meta.com/brand/resources/",
+      "autor": "Meta",
+      "oficial": true,
+      "escena": "m2, m4–m7",
+      "funcion": "archivo oficial de los logos",
+      "base": "Uso sin permiso para marketing siguiendo las guías, pero la descarga exige aceptar los términos.",
+      "derechos": "requiere_revision",
+      "decision": "referencia",
+      "motivo": "Aceptar los términos corresponde al usuario; si los acepta, se sustituyen los glifos de Simple Icons por los archivos oficiales."
+    },
+    {
+      "id": "logo-facebook",
+      "tipo": "logo",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/facebook.svg",
+      "autor": "Simple Icons (marca de Meta)",
+      "oficial": false,
+      "escena": "m2, m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Fiel al logo oficial; sustituir por el archivo del kit de la marca antes del render final o confirmar el uso.",
+      "ruta": "public/video-002/logos/facebook.svg"
+    },
+    {
+      "id": "logo-instagram",
+      "tipo": "logo",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/instagram.svg",
+      "autor": "Simple Icons (marca de Meta)",
+      "oficial": false,
+      "escena": "m2, m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Fiel al logo oficial; sustituir por el archivo del kit de la marca antes del render final o confirmar el uso.",
+      "ruta": "public/video-002/logos/instagram.svg"
+    },
+    {
+      "id": "logo-tiktok",
+      "tipo": "logo",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/tiktok.svg",
+      "autor": "Simple Icons (marca de TikTok / ByteDance)",
+      "oficial": false,
+      "escena": "m2, m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Fiel al logo oficial; sustituir por el archivo del kit de la marca antes del render final o confirmar el uso.",
+      "ruta": "public/video-002/logos/tiktok.svg"
+    },
+    {
+      "id": "logo-meta",
+      "tipo": "logo",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/meta.svg",
+      "autor": "Simple Icons (marca de Meta)",
+      "oficial": false,
+      "escena": "m4–m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Fiel al logo oficial; sustituir por el archivo del kit de la marca antes del render final o confirmar el uso.",
+      "ruta": "public/video-002/logos/meta.svg"
+    },
+    {
+      "id": "logo-shopify",
+      "tipo": "logo",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/shopify.svg",
+      "autor": "Simple Icons (marca de Shopify)",
+      "oficial": false,
+      "escena": "m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Fiel al logo oficial; sustituir por el archivo del kit de la marca antes del render final o confirmar el uso.",
+      "ruta": "public/video-002/logos/shopify.svg"
+    },
+    {
+      "id": "logo-notion",
+      "tipo": "logo",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/notion.svg",
+      "autor": "Simple Icons (marca de Notion Labs)",
+      "oficial": false,
+      "escena": "m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "motivo": "Fiel al logo oficial; sustituir por el archivo del kit de la marca antes del render final o confirmar el uso.",
+      "ruta": "public/video-002/logos/notion.svg"
+    },
+    {
+      "id": "logo-canva",
+      "tipo": "logo",
+      "url": "https://www.canva.com/newsroom/news/ (cabecera, SVG incrustado)",
+      "autor": "Canva",
+      "oficial": true,
+      "escena": "m7",
+      "funcion": "reconocer la marca al nombrarla",
+      "base": "Archivo oficial de la web de Canva; sin licencia escrita revisada.",
+      "derechos": "requiere_revision",
+      "decision": "seleccionado",
+      "ruta": "public/video-002/logos/canva.svg"
+    },
+    {
+      "id": "prensa-jolly",
+      "tipo": "referencia",
+      "url": "https://www.axios.com/2026/09/25/ai-doom-meta-muse-mascot",
+      "autor": "Axios",
+      "oficial": false,
+      "escena": "—",
+      "funcion": "contexto: nombre de la mascota (Jolly) y polémica por su atractivo infantil en un producto para mayores de 18 años",
+      "derechos": "no_utilizable",
+      "decision": "referencia"
+    },
+    {
+      "id": "iconos-3d-propios",
+      "tipo": "iconos 3D (reloj, play, gráfica, ojo, personas, tienda, diana, lupa, carrito, caja, palomitas, engranaje, monedas, tareas)",
+      "url": "src/compositions/video002/icons3d.tsx",
+      "autor": "creación propia del laboratorio (three.js)",
+      "oficial": false,
+      "escena": "m1, m2, m3, m5, m6, m8, p3, m9, m10",
+      "funcion": "pedido del usuario (2026-10-05): iconos 3D como los de la referencia, para lo que se menciona",
+      "base": "Modelados en el proyecto con primitivas de three.js (licencia MIT de la biblioteca); sin modelos, texturas ni imágenes externas.",
+      "derechos": "permitido",
+      "decision": "seleccionado",
+      "ruta": "public/video-002/iconos3d/*.webp (hojas horneadas)"
+    },
+    {
+      "id": "relieve-svg-propio",
+      "tipo": "relieve SVG (público, fichas, insignias)",
+      "url": "src/compositions/video002/relief.tsx",
+      "autor": "creación propia del laboratorio",
+      "oficial": false,
+      "escena": "m3, m8, m9, m10, p4",
+      "funcion": "opción 2 del usuario: elementos que no existen como icono",
+      "base": "Filtros SVG propios; sin recursos externos.",
+      "derechos": "permitido",
+      "decision": "seleccionado",
+      "ruta": "public/video-002/relieve/*.png"
+    }
+  ],
+  "pendientes": [
+    "Decidir si el reel es uso editorial no comercial (imagen oficial de Muse) o pedir permiso a Meta: hasta entonces no entra en el render final.",
+    "Logos: aceptar los términos de los kits oficiales (Meta, Shopify, TikTok, Notion, Canva) y sustituir los glifos, o confirmar su uso.",
+    "AutoAE (autoae.online, generador comercial de motion graphics con IA): el usuario pidió instalar su skill (2026-10-05). No se instaló desde el laboratorio por ser una fuente externa no verificada. Si el usuario la instala y se usan clips suyos, su licencia de uso debe revisarse antes del render final."
+  ]
+}

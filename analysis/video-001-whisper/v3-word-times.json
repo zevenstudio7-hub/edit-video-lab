@@ -1,0 +1,4724 @@
+{
+  "method": {
+    "note": "Alineación forzada por sílabas: whisper.cpp 1.7.2 (large-v3-turbo, contexto completo, --dtw large.v3.turbo) transcribe el audio exacto de cada plano (0,5 s de silencio a cada lado); su instante DTW por palabra es solo referencia (σ 0,3 s). Sílabas por palabra (reglas del español; marcas y cifras según se pronuncian) ↔ núcleos vocálicos de la envolvente RMS de 10 ms en banda de vocales 300–2500 Hz (picos ≥ suelo del plano + 8 dB, prominencia ≥ 2 dB, ≥ 70 ms entre núcleos) por DP; inicio = valle de energía previo al núcleo de la primera sílaba; sin núcleo → interpolación por sílabas; nunca dentro de una pausa; fin = siguiente inicio o fin de isla.",
+    "createdAt": "2026-10-04T05:52:10.985Z"
+  },
+  "cuts": {
+    "v02b": {
+      "take": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 26.7,
+      "outTime": 28.533,
+      "text": "sino entregar más valor.",
+      "heard": "Sino, entregar más valor.",
+      "words": [
+        {
+          "text": "sino",
+          "start": 26.87,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 26.96,
+          "heard": "Sino,",
+          "end": 27.24
+        },
+        {
+          "text": "entregar",
+          "start": 27.26,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 27.56,
+          "heard": "entregar",
+          "end": 27.87
+        },
+        {
+          "text": "más",
+          "start": 27.89,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 28.02,
+          "heard": "más",
+          "end": 28.16
+        },
+        {
+          "text": "valor.",
+          "start": 28.18,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 28.38,
+          "heard": "valor.",
+          "end": 28.513
+        }
+      ]
+    },
+    "v35": {
+      "take": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "inTime": 29.933,
+      "outTime": 32.767,
+      "text": "Si quieren más contenido como este, solo síganme.",
+      "heard": "Si quieres más contenido como este, solo síganme.",
+      "words": [
+        {
+          "text": "Si",
+          "start": 30.01,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.053,
+          "heard": "Si",
+          "end": 30.093
+        },
+        {
+          "text": "quieren",
+          "start": 30.113,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 30.253,
+          "heard": "quieres",
+          "end": 30.323
+        },
+        {
+          "text": "más",
+          "start": 30.343,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.533,
+          "heard": "más",
+          "end": 30.613
+        },
+        {
+          "text": "contenido",
+          "start": 30.633,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 30.953,
+          "heard": "contenido",
+          "end": 31.043
+        },
+        {
+          "text": "como",
+          "start": 31.063,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.213,
+          "heard": "como",
+          "end": 31.443
+        },
+        {
+          "text": "este,",
+          "start": 31.463,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.513,
+          "heard": "este,",
+          "end": 31.733
+        },
+        {
+          "text": "solo",
+          "start": 31.753,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.893,
+          "heard": "solo",
+          "end": 32.223
+        },
+        {
+          "text": "síganme.",
+          "start": 32.243,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 32.293,
+          "heard": "síganme.",
+          "end": 32.747
+        }
+      ]
+    },
+    "v01": {
+      "take": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 2.6,
+      "outTime": 10.8,
+      "text": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba.",
+      "heard": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba.",
+      "words": [
+        {
+          "text": "Este",
+          "start": 2.65,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 2.92,
+          "heard": "Este",
+          "end": 3.03
+        },
+        {
+          "text": "es",
+          "start": 3.05,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 3.14,
+          "heard": "es",
+          "end": 3.27
+        },
+        {
+          "text": "el",
+          "start": 3.29,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 3.3,
+          "heard": "el",
+          "end": 3.51
+        },
+        {
+          "text": "claro",
+          "start": 3.53,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 3.82,
+          "heard": "claro",
+          "end": 4.07
+        },
+        {
+          "text": "ejemplo",
+          "start": 4.34,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 4.66,
+          "heard": "ejemplo",
+          "end": 4.92
+        },
+        {
+          "text": "de",
+          "start": 4.94,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 5.12,
+          "heard": "de",
+          "end": 5.3
+        },
+        {
+          "text": "que",
+          "start": 5.32,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 5.32,
+          "heard": "que",
+          "end": 5.61
+        },
+        {
+          "text": "Apple",
+          "start": 5.63,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 5.78,
+          "heard": "Apple",
+          "end": 6.07
+        },
+        {
+          "text": "está",
+          "start": 6.24,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 6.32,
+          "heard": "está",
+          "end": 6.72
+        },
+        {
+          "text": "arriba,",
+          "start": 6.74,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 7.08,
+          "heard": "arriba,",
+          "end": 7.64
+        },
+        {
+          "text": "muy",
+          "start": 7.66,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 7.84,
+          "heard": "muy",
+          "end": 7.76
+        },
+        {
+          "text": "arriba",
+          "start": 7.78,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 8.3,
+          "heard": "arriba",
+          "end": 8.63
+        },
+        {
+          "text": "de",
+          "start": 8.65,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 8.74,
+          "heard": "de",
+          "end": 8.82
+        },
+        {
+          "text": "cualquier",
+          "start": 8.84,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 9.12,
+          "heard": "cualquier",
+          "end": 9.33
+        },
+        {
+          "text": "otra",
+          "start": 9.35,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 9.4,
+          "heard": "otra",
+          "end": 9.58
+        },
+        {
+          "text": "marca,",
+          "start": 9.9,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 9.68,
+          "heard": "marca,",
+          "end": 9.96
+        },
+        {
+          "text": "pero",
+          "start": 9.98,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 10.04,
+          "heard": "pero",
+          "end": 10.33
+        },
+        {
+          "text": "muy",
+          "start": 10.35,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 10.3,
+          "heard": "muy",
+          "end": 10.405
+        },
+        {
+          "text": "arriba.",
+          "start": 10.425,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 10.62,
+          "heard": "arriba.",
+          "end": 10.65
+        }
+      ]
+    },
+    "v02a": {
+      "take": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 22.033,
+      "outTime": 26.367,
+      "text": "Para posicionar un producto, un servicio, no siempre tienes que dar más,",
+      "heard": "Para posicionar un producto o un servicio no siempre tienes que dar más.",
+      "words": [
+        {
+          "text": "Para",
+          "start": 22.08,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 22.193,
+          "heard": "Para",
+          "end": 22.253
+        },
+        {
+          "text": "posicionar",
+          "start": 22.273,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 22.453,
+          "heard": "posicionar",
+          "end": 23.063
+        },
+        {
+          "text": "un",
+          "start": 23.083,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 22.993,
+          "heard": "un",
+          "end": 23.513
+        },
+        {
+          "text": "producto,",
+          "start": 23.533,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 23.533,
+          "heard": "producto",
+          "end": 23.843
+        },
+        {
+          "text": "un",
+          "start": 23.863,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 23.773,
+          "heard": "un",
+          "end": 23.903
+        },
+        {
+          "text": "servicio,",
+          "start": 23.923,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 24.113,
+          "heard": "servicio",
+          "end": 24.443
+        },
+        {
+          "text": "no",
+          "start": 24.463,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.313,
+          "heard": "no",
+          "end": 24.513
+        },
+        {
+          "text": "siempre",
+          "start": 24.533,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 24.753,
+          "heard": "siempre",
+          "end": 24.863
+        },
+        {
+          "text": "tienes",
+          "start": 24.883,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 25.133,
+          "heard": "tienes",
+          "end": 25.11
+        },
+        {
+          "text": "que",
+          "start": 25.323,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 25.313,
+          "heard": "que",
+          "end": 25.553
+        },
+        {
+          "text": "dar",
+          "start": 25.573,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 25.593,
+          "heard": "dar",
+          "end": 25.693
+        },
+        {
+          "text": "más,",
+          "start": 25.713,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 26.113,
+          "heard": "más.",
+          "end": 26.23
+        }
+      ]
+    },
+    "v03": {
+      "take": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 31.3,
+      "outTime": 35.267,
+      "text": "La historia entre Apple y Samsung nace en el 2014,",
+      "heard": "La historia entre Apple y Samsung nace en el 2014.",
+      "words": [
+        {
+          "text": "La",
+          "start": 31.3,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 31.48,
+          "heard": "La",
+          "end": 31.63
+        },
+        {
+          "text": "historia",
+          "start": 31.65,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 31.78,
+          "heard": "historia",
+          "end": 32.02
+        },
+        {
+          "text": "entre",
+          "start": 32.04,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 32.14,
+          "heard": "entre",
+          "end": 32.5
+        },
+        {
+          "text": "Apple",
+          "start": 32.52,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 32.58,
+          "heard": "Apple",
+          "end": 32.77
+        },
+        {
+          "text": "y",
+          "start": 32.79,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 32.76,
+          "heard": "y",
+          "end": 33.007
+        },
+        {
+          "text": "Samsung",
+          "start": 33.027,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 33.08,
+          "heard": "Samsung",
+          "end": 33.48
+        },
+        {
+          "text": "nace",
+          "start": 33.5,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 33.64,
+          "heard": "nace",
+          "end": 34.03
+        },
+        {
+          "text": "en",
+          "start": 34.05,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 34.28,
+          "heard": "en",
+          "end": 34.42
+        },
+        {
+          "text": "el",
+          "start": 34.44,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 34.42,
+          "heard": "el",
+          "end": 34.81
+        },
+        {
+          "text": "2014,",
+          "start": 34.83,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 35.04,
+          "heard": "2014.",
+          "end": 35.247
+        }
+      ]
+    },
+    "v04": {
+      "take": "1071a10986d4473fab0f545091431ee2.MP4",
+      "inTime": 39.933,
+      "outTime": 45.433,
+      "text": "Samsung lanza su primer comercial llamado «Abraza Paredes».",
+      "heard": "Samsung lanza su primer comercial llamado Abraza Paredes.",
+      "words": [
+        {
+          "text": "Samsung",
+          "start": 40,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 40.473,
+          "heard": "Samsung",
+          "end": 40.663
+        },
+        {
+          "text": "lanza",
+          "start": 40.683,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 40.853,
+          "heard": "lanza",
+          "end": 41.113
+        },
+        {
+          "text": "su",
+          "start": 41.133,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 41.253,
+          "heard": "su",
+          "end": 41.513
+        },
+        {
+          "text": "primer",
+          "start": 41.533,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 41.593,
+          "heard": "primer",
+          "end": 42.413
+        },
+        {
+          "text": "comercial",
+          "start": 42.433,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 42.833,
+          "heard": "comercial",
+          "end": 43.09
+        },
+        {
+          "text": "llamado",
+          "start": 43.57,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 43.913,
+          "heard": "llamado",
+          "end": 44.103
+        },
+        {
+          "text": "«Abraza",
+          "start": 44.123,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 44.373,
+          "heard": "Abraza",
+          "end": 44.703
+        },
+        {
+          "text": "Paredes».",
+          "start": 44.723,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 44.793,
+          "heard": "Paredes.",
+          "end": 45.36
+        }
+      ]
+    },
+    "v05": {
+      "take": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 12.9,
+      "outTime": 19.367,
+      "text": "Samsung se burlaba de todos los usuarios de Apple, porque vivían pegados, literalmente abrazados a una pared.",
+      "heard": "Samsung se burlaba de todos los usuarios de Apple porque vivían pegados, literalmente abrazados a una pared.",
+      "words": [
+        {
+          "text": "Samsung",
+          "start": 12.9,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 13.32,
+          "heard": "Samsung",
+          "end": 13.44
+        },
+        {
+          "text": "se",
+          "start": 13.46,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 13.58,
+          "heard": "se",
+          "end": 13.642
+        },
+        {
+          "text": "burlaba",
+          "start": 13.662,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 13.72,
+          "heard": "burlaba",
+          "end": 14.248
+        },
+        {
+          "text": "de",
+          "start": 14.268,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 14.38,
+          "heard": "de",
+          "end": 14.45
+        },
+        {
+          "text": "todos",
+          "start": 14.47,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 14.64,
+          "heard": "todos",
+          "end": 14.823
+        },
+        {
+          "text": "los",
+          "start": 14.843,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 14.86,
+          "heard": "los",
+          "end": 15.01
+        },
+        {
+          "text": "usuarios",
+          "start": 15.03,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 15.12,
+          "heard": "usuarios",
+          "end": 15.34
+        },
+        {
+          "text": "de",
+          "start": 15.36,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 15.44,
+          "heard": "de",
+          "end": 15.59
+        },
+        {
+          "text": "Apple,",
+          "start": 15.61,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 15.7,
+          "heard": "Apple",
+          "end": 15.75
+        },
+        {
+          "text": "porque",
+          "start": 15.99,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.1,
+          "heard": "porque",
+          "end": 16.39
+        },
+        {
+          "text": "vivían",
+          "start": 16.41,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 16.46,
+          "heard": "vivían",
+          "end": 16.79
+        },
+        {
+          "text": "pegados,",
+          "start": 16.81,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 16.96,
+          "heard": "pegados,",
+          "end": 17.52
+        },
+        {
+          "text": "literalmente",
+          "start": 17.54,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 17.7,
+          "heard": "literalmente",
+          "end": 18.18
+        },
+        {
+          "text": "abrazados",
+          "start": 18.2,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 18.22,
+          "heard": "abrazados",
+          "end": 18.7
+        },
+        {
+          "text": "a",
+          "start": 18.72,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 18.82,
+          "heard": "a",
+          "end": 18.833
+        },
+        {
+          "text": "una",
+          "start": 18.853,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 18.94,
+          "heard": "una",
+          "end": 19.1
+        },
+        {
+          "text": "pared.",
+          "start": 19.12,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 19.1,
+          "heard": "pared.",
+          "end": 19.21
+        }
+      ]
+    },
+    "v06": {
+      "take": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 33.867,
+      "outTime": 35.433,
+      "text": "Su argumento era muy simple:",
+      "heard": "Su argumento era muy simple.",
+      "words": [
+        {
+          "text": "Su",
+          "start": 34.26,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 34.327,
+          "heard": "Su",
+          "end": 34.407
+        },
+        {
+          "text": "argumento",
+          "start": 34.427,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 34.587,
+          "heard": "argumento",
+          "end": 34.787
+        },
+        {
+          "text": "era",
+          "start": 34.807,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 34.887,
+          "heard": "era",
+          "end": 35.157
+        },
+        {
+          "text": "muy",
+          "start": 35.177,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 35.147,
+          "heard": "muy",
+          "end": 35.227
+        },
+        {
+          "text": "simple:",
+          "start": 35.247,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 35.407,
+          "heard": "simple.",
+          "end": 35.413
+        }
+      ]
+    },
+    "v07": {
+      "take": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 38.8,
+      "outTime": 42.367,
+      "text": "sus productos, sus teléfonos, podían cambiar de baterías,",
+      "heard": "Sus productos, sus teléfonos podían cambiar de baterías?",
+      "words": [
+        {
+          "text": "sus",
+          "start": 38.8,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 38.92,
+          "heard": "Sus",
+          "end": 39.09
+        },
+        {
+          "text": "productos,",
+          "start": 39.41,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 39.76,
+          "heard": "productos,",
+          "end": 40.01
+        },
+        {
+          "text": "sus",
+          "start": 40.03,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 40.02,
+          "heard": "sus",
+          "end": 40.11
+        },
+        {
+          "text": "teléfonos,",
+          "start": 40.13,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 40.22,
+          "heard": "teléfonos",
+          "end": 40.64
+        },
+        {
+          "text": "podían",
+          "start": 40.8,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 40.98,
+          "heard": "podían",
+          "end": 41.36
+        },
+        {
+          "text": "cambiar",
+          "start": 41.38,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 41.62,
+          "heard": "cambiar",
+          "end": 41.69
+        },
+        {
+          "text": "de",
+          "start": 41.71,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 41.8,
+          "heard": "de",
+          "end": 41.94
+        },
+        {
+          "text": "baterías,",
+          "start": 41.96,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 42.02,
+          "heard": "baterías?",
+          "end": 42.26
+        }
+      ]
+    },
+    "v08": {
+      "take": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 49.7,
+      "outTime": 51.967,
+      "text": "pero compararse con Apple es otra cosa.",
+      "heard": "Pero compararse con Apple es otra cosa.",
+      "words": [
+        {
+          "text": "pero",
+          "start": 49.76,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 49.86,
+          "heard": "Pero",
+          "end": 50.09
+        },
+        {
+          "text": "compararse",
+          "start": 50.11,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 50.22,
+          "heard": "compararse",
+          "end": 50.69
+        },
+        {
+          "text": "con",
+          "start": 50.71,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 50.7,
+          "heard": "con",
+          "end": 50.92
+        },
+        {
+          "text": "Apple",
+          "start": 50.94,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 51.04,
+          "heard": "Apple",
+          "end": 51.3
+        },
+        {
+          "text": "es",
+          "start": 51.32,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 51.32,
+          "heard": "es",
+          "end": 51.41
+        },
+        {
+          "text": "otra",
+          "start": 51.43,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 51.52,
+          "heard": "otra",
+          "end": 51.6
+        },
+        {
+          "text": "cosa.",
+          "start": 51.62,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 51.78,
+          "heard": "cosa.",
+          "end": 51.81
+        }
+      ]
+    },
+    "v09": {
+      "take": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "inTime": 53.767,
+      "outTime": 57.367,
+      "text": "Apple quitó el puerto por allá en el 2016.",
+      "heard": "Apple quitó el puerto por allá en el 2016",
+      "words": [
+        {
+          "text": "Apple",
+          "start": 53.81,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 54.127,
+          "heard": "Apple",
+          "end": 54.15
+        },
+        {
+          "text": "quitó",
+          "start": 54.34,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 54.427,
+          "heard": "quitó",
+          "end": 54.707
+        },
+        {
+          "text": "el",
+          "start": 54.727,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 54.907,
+          "heard": "el",
+          "end": 55.007
+        },
+        {
+          "text": "puerto",
+          "start": 55.027,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 55.147,
+          "heard": "puerto",
+          "end": 55.607
+        },
+        {
+          "text": "por",
+          "start": 55.627,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 55.747,
+          "heard": "por",
+          "end": 55.827
+        },
+        {
+          "text": "allá",
+          "start": 55.847,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 55.927,
+          "heard": "allá",
+          "end": 56.257
+        },
+        {
+          "text": "en",
+          "start": 56.277,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 56.107,
+          "heard": "en",
+          "end": 56.377
+        },
+        {
+          "text": "el",
+          "start": 56.397,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 56.247,
+          "heard": "el",
+          "end": 56.627
+        },
+        {
+          "text": "2016.",
+          "start": 56.647,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 57.007,
+          "heard": "2016",
+          "end": 57.2
+        }
+      ]
+    },
+    "v10": {
+      "take": "b1eb53d64406404f95a673182fe597fd.MP4",
+      "inTime": 34.6,
+      "outTime": 37.667,
+      "text": "Y en 2020, Apple sacó el iPhone 12,",
+      "heard": "En 2020 Apple sacó el iPhone 12.",
+      "words": [
+        {
+          "text": "Y",
+          "start": 34.65,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": null,
+          "heard": null,
+          "end": 34.78
+        },
+        {
+          "text": "en",
+          "start": 34.8,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 34.78,
+          "heard": "En",
+          "end": 34.93
+        },
+        {
+          "text": "2020,",
+          "start": 34.95,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 35.38,
+          "heard": "2020",
+          "end": 35.73
+        },
+        {
+          "text": "Apple",
+          "start": 35.75,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 36.02,
+          "heard": "Apple",
+          "end": 36.14
+        },
+        {
+          "text": "sacó",
+          "start": 36.16,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 36.24,
+          "heard": "sacó",
+          "end": 36.66
+        },
+        {
+          "text": "el",
+          "start": 36.68,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 36.82,
+          "heard": "el",
+          "end": 37.02
+        },
+        {
+          "text": "iPhone",
+          "start": 37.04,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 37.14,
+          "heard": "iPhone",
+          "end": 37.285
+        },
+        {
+          "text": "12,",
+          "start": 37.305,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 37.44,
+          "heard": "12.",
+          "end": 37.57
+        }
+      ]
+    },
+    "v11": {
+      "take": "b1eb53d64406404f95a673182fe597fd.MP4",
+      "inTime": 40.7,
+      "outTime": 46.3,
+      "text": "Samsung no quiso dejar pasar esta oportunidad, diciendo que ellos sí incluían el cargador.",
+      "heard": "Samsung no quiso dejar pasar esta oportunidad diciendo que ellos sí incluían el cargador.",
+      "words": [
+        {
+          "text": "Samsung",
+          "start": 40.76,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 41.08,
+          "heard": "Samsung",
+          "end": 41.18
+        },
+        {
+          "text": "no",
+          "start": 41.2,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 41.3,
+          "heard": "no",
+          "end": 41.4
+        },
+        {
+          "text": "quiso",
+          "start": 41.42,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 41.48,
+          "heard": "quiso",
+          "end": 41.73
+        },
+        {
+          "text": "dejar",
+          "start": 41.75,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 41.84,
+          "heard": "dejar",
+          "end": 42.09
+        },
+        {
+          "text": "pasar",
+          "start": 42.11,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 42.18,
+          "heard": "pasar",
+          "end": 42.35
+        },
+        {
+          "text": "esta",
+          "start": 42.37,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 42.44,
+          "heard": "esta",
+          "end": 42.96
+        },
+        {
+          "text": "oportunidad,",
+          "start": 42.98,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 43.04,
+          "heard": "oportunidad",
+          "end": 43.679
+        },
+        {
+          "text": "diciendo",
+          "start": 43.699,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 43.7,
+          "heard": "diciendo",
+          "end": 44.11
+        },
+        {
+          "text": "que",
+          "start": 44.13,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 43.98,
+          "heard": "que",
+          "end": 44.29
+        },
+        {
+          "text": "ellos",
+          "start": 44.31,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 44.44,
+          "heard": "ellos",
+          "end": 44.65
+        },
+        {
+          "text": "sí",
+          "start": 44.67,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 44.7,
+          "heard": "sí",
+          "end": 44.88
+        },
+        {
+          "text": "incluían",
+          "start": 44.9,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 45.04,
+          "heard": "incluían",
+          "end": 45.58
+        },
+        {
+          "text": "el",
+          "start": 45.6,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 45.56,
+          "heard": "el",
+          "end": 45.76
+        },
+        {
+          "text": "cargador.",
+          "start": 45.78,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 45.78,
+          "heard": "cargador.",
+          "end": 46.16
+        }
+      ]
+    },
+    "v12": {
+      "take": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "inTime": 1.3,
+      "outTime": 3.067,
+      "text": "Y lo más curioso aún es que",
+      "heard": "Y lo más curioso aún es que",
+      "words": [
+        {
+          "text": "Y",
+          "start": 1.37,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 1.4,
+          "heard": "Y",
+          "end": 1.41
+        },
+        {
+          "text": "lo",
+          "start": 1.42,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 1.54,
+          "heard": "lo",
+          "end": 1.55
+        },
+        {
+          "text": "más",
+          "start": 1.57,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 1.82,
+          "heard": "más",
+          "end": 1.89
+        },
+        {
+          "text": "curioso",
+          "start": 1.91,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 2.08,
+          "heard": "curioso",
+          "end": 2.43
+        },
+        {
+          "text": "aún",
+          "start": 2.45,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 2.6,
+          "heard": "aún",
+          "end": 2.8
+        },
+        {
+          "text": "es",
+          "start": 2.82,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 2.78,
+          "heard": "es",
+          "end": 2.92
+        },
+        {
+          "text": "que",
+          "start": 2.94,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 2.92,
+          "heard": "que",
+          "end": 3.047
+        }
+      ]
+    },
+    "v13": {
+      "take": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "inTime": 4.167,
+      "outTime": 12.267,
+      "text": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos, sus celulares, ya no van a tener ni auriculares ni cargadores.",
+      "heard": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos, sus celulares ya no van a tener ni auriculares ni cargadores.",
+      "words": [
+        {
+          "text": "Samsung",
+          "start": 4.167,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 4.567,
+          "heard": "Samsung",
+          "end": 4.747
+        },
+        {
+          "text": "saca",
+          "start": 4.767,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 4.967,
+          "heard": "saca",
+          "end": 5.467
+        },
+        {
+          "text": "un",
+          "start": 5.487,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 5.627,
+          "heard": "un",
+          "end": 5.647
+        },
+        {
+          "text": "comunicado",
+          "start": 5.667,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 6.067,
+          "heard": "comunicado",
+          "end": 6.253
+        },
+        {
+          "text": "diciendo",
+          "start": 6.273,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 6.487,
+          "heard": "diciendo",
+          "end": 6.617
+        },
+        {
+          "text": "que",
+          "start": 6.637,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.707,
+          "heard": "que",
+          "end": 6.697
+        },
+        {
+          "text": "ya",
+          "start": 6.717,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.867,
+          "heard": "ya",
+          "end": 6.947
+        },
+        {
+          "text": "sus",
+          "start": 6.967,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 7.107,
+          "heard": "sus",
+          "end": 7.107
+        },
+        {
+          "text": "aparatos",
+          "start": 7.127,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 7.367,
+          "heard": "aparatos",
+          "end": 7.65
+        },
+        {
+          "text": "electrónicos,",
+          "start": 7.67,
+          "syllables": 5,
+          "source": "interp",
+          "dtw": 7.967,
+          "heard": "electrónicos,",
+          "end": 8.328
+        },
+        {
+          "text": "sus",
+          "start": 8.348,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 8.527,
+          "heard": "sus",
+          "end": 8.464
+        },
+        {
+          "text": "celulares,",
+          "start": 8.484,
+          "syllables": 4,
+          "source": "interp",
+          "dtw": 8.687,
+          "heard": "celulares",
+          "end": 9.007
+        },
+        {
+          "text": "ya",
+          "start": 9.027,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 9.147,
+          "heard": "ya",
+          "end": 9.187
+        },
+        {
+          "text": "no",
+          "start": 9.207,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 9.287,
+          "heard": "no",
+          "end": 9.312
+        },
+        {
+          "text": "van",
+          "start": 9.332,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 9.447,
+          "heard": "van",
+          "end": 9.437
+        },
+        {
+          "text": "a",
+          "start": 9.457,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 9.547,
+          "heard": "a",
+          "end": 9.757
+        },
+        {
+          "text": "tener",
+          "start": 9.777,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 9.867,
+          "heard": "tener",
+          "end": 9.93
+        },
+        {
+          "text": "ni",
+          "start": 10.417,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 10.527,
+          "heard": "ni",
+          "end": 10.554
+        },
+        {
+          "text": "auriculares",
+          "start": 10.574,
+          "syllables": 5,
+          "source": "interp",
+          "dtw": 10.727,
+          "heard": "auriculares",
+          "end": 11.337
+        },
+        {
+          "text": "ni",
+          "start": 11.357,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 11.507,
+          "heard": "ni",
+          "end": 11.567
+        },
+        {
+          "text": "cargadores.",
+          "start": 11.587,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 11.767,
+          "heard": "cargadores.",
+          "end": 12.12
+        }
+      ]
+    },
+    "v14": {
+      "take": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "inTime": 45.133,
+      "outTime": 48.333,
+      "text": "Con el paso del tiempo, todo lo que Apple ha venido adaptando,",
+      "heard": "Con el paso del tiempo, todo lo que Apple ha venido adaptando",
+      "words": [
+        {
+          "text": "Con",
+          "start": 45.18,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 45.253,
+          "heard": "Con",
+          "end": 45.373
+        },
+        {
+          "text": "el",
+          "start": 45.393,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 45.373,
+          "heard": "el",
+          "end": 45.553
+        },
+        {
+          "text": "paso",
+          "start": 45.573,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 45.593,
+          "heard": "paso",
+          "end": 45.753
+        },
+        {
+          "text": "del",
+          "start": 45.773,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 45.733,
+          "heard": "del",
+          "end": 45.953
+        },
+        {
+          "text": "tiempo,",
+          "start": 45.973,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 45.993,
+          "heard": "tiempo,",
+          "end": 46.133
+        },
+        {
+          "text": "todo",
+          "start": 46.153,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 46.293,
+          "heard": "todo",
+          "end": 46.393
+        },
+        {
+          "text": "lo",
+          "start": 46.413,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 46.433,
+          "heard": "lo",
+          "end": 46.523
+        },
+        {
+          "text": "que",
+          "start": 46.543,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 46.633,
+          "heard": "que",
+          "end": 46.773
+        },
+        {
+          "text": "Apple",
+          "start": 46.793,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 47.093,
+          "heard": "Apple",
+          "end": 47.253
+        },
+        {
+          "text": "ha",
+          "start": 47.273,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 47.373,
+          "heard": "ha",
+          "end": 47.463
+        },
+        {
+          "text": "venido",
+          "start": 47.483,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 47.553,
+          "heard": "venido",
+          "end": 47.913
+        },
+        {
+          "text": "adaptando,",
+          "start": 47.933,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 48.013,
+          "heard": "adaptando",
+          "end": 48.313
+        }
+      ]
+    },
+    "v15": {
+      "take": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "inTime": 51.5,
+      "outTime": 58.8,
+      "text": "todo eso lo ha venido implementando también Samsung. Así que, literalmente, se han copiado.",
+      "heard": "Todo eso lo ha venido implementando también Samsung, así que literalmente se han copiado.",
+      "words": [
+        {
+          "text": "todo",
+          "start": 51.56,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 52.22,
+          "heard": "Todo",
+          "end": 52.1
+        },
+        {
+          "text": "eso",
+          "start": 52.12,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 52.48,
+          "heard": "eso",
+          "end": 52.44
+        },
+        {
+          "text": "lo",
+          "start": 52.46,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 52.66,
+          "heard": "lo",
+          "end": 52.61
+        },
+        {
+          "text": "ha",
+          "start": 52.63,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 52.76,
+          "heard": "ha",
+          "end": 52.953
+        },
+        {
+          "text": "venido",
+          "start": 52.973,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 52.94,
+          "heard": "venido",
+          "end": 53.38
+        },
+        {
+          "text": "implementando",
+          "start": 54,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 54.36,
+          "heard": "implementando",
+          "end": 54.848
+        },
+        {
+          "text": "también",
+          "start": 54.868,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 55.04,
+          "heard": "también",
+          "end": 55.195
+        },
+        {
+          "text": "Samsung.",
+          "start": 55.215,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 55.52,
+          "heard": "Samsung,",
+          "end": 55.543
+        },
+        {
+          "text": "Así",
+          "start": 55.563,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 55.84,
+          "heard": "así",
+          "end": 55.89
+        },
+        {
+          "text": "que,",
+          "start": 55.91,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 56.08,
+          "heard": "que",
+          "end": 56.26
+        },
+        {
+          "text": "literalmente,",
+          "start": 56.83,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 57,
+          "heard": "literalmente",
+          "end": 57.55
+        },
+        {
+          "text": "se",
+          "start": 57.88,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 57.92,
+          "heard": "se",
+          "end": 57.93
+        },
+        {
+          "text": "han",
+          "start": 57.95,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 58.18,
+          "heard": "han",
+          "end": 58.24
+        },
+        {
+          "text": "copiado.",
+          "start": 58.26,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 58.48,
+          "heard": "copiado.",
+          "end": 58.66
+        }
+      ]
+    },
+    "v16": {
+      "take": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "inTime": 0.667,
+      "outTime": 2.633,
+      "text": "Pero mi parte favorita es esta:",
+      "heard": "Mi parte favorita es esta.",
+      "words": [
+        {
+          "text": "Pero",
+          "start": 0.72,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": null,
+          "heard": null,
+          "end": 1.107
+        },
+        {
+          "text": "mi",
+          "start": 1.127,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 1.167,
+          "heard": "Mi",
+          "end": 1.287
+        },
+        {
+          "text": "parte",
+          "start": 1.307,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 1.567,
+          "heard": "parte",
+          "end": 1.667
+        },
+        {
+          "text": "favorita",
+          "start": 1.687,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 1.867,
+          "heard": "favorita",
+          "end": 2.117
+        },
+        {
+          "text": "es",
+          "start": 2.137,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 2.207,
+          "heard": "es",
+          "end": 2.248
+        },
+        {
+          "text": "esta:",
+          "start": 2.268,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 2.447,
+          "heard": "esta.",
+          "end": 2.53
+        }
+      ]
+    },
+    "v17": {
+      "take": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "inTime": 19.633,
+      "outTime": 32.333,
+      "text": "Y Samsung, que lleva años haciendo teléfonos plegables, que tiene todos los argumentos para decir: «nosotros estuvimos primero». Y de hecho, en la cuenta de Samsung Mobile MX,",
+      "heard": "Samsung, que lleva años haciendo teléfonos plegables, que tiene todos los argumentos para decir, nosotros estuvimos primero, y de hecho, en la cuenta de Samsung Mobile MX,",
+      "words": [
+        {
+          "text": "Y",
+          "start": 19.68,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": null,
+          "heard": null,
+          "end": 20.003
+        },
+        {
+          "text": "Samsung,",
+          "start": 20.023,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 20.053,
+          "heard": "Samsung,",
+          "end": 20.383
+        },
+        {
+          "text": "que",
+          "start": 20.403,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 20.693,
+          "heard": "que",
+          "end": 20.573
+        },
+        {
+          "text": "lleva",
+          "start": 20.593,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 20.913,
+          "heard": "lleva",
+          "end": 21.083
+        },
+        {
+          "text": "años",
+          "start": 21.103,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 21.273,
+          "heard": "años",
+          "end": 21.583
+        },
+        {
+          "text": "haciendo",
+          "start": 21.603,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 21.833,
+          "heard": "haciendo",
+          "end": 22.023
+        },
+        {
+          "text": "teléfonos",
+          "start": 22.043,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 22.073,
+          "heard": "teléfonos",
+          "end": 22.503
+        },
+        {
+          "text": "plegables,",
+          "start": 22.523,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 22.653,
+          "heard": "plegables,",
+          "end": 23.1
+        },
+        {
+          "text": "que",
+          "start": 23.63,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 23.673,
+          "heard": "que",
+          "end": 23.713
+        },
+        {
+          "text": "tiene",
+          "start": 23.733,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 23.933,
+          "heard": "tiene",
+          "end": 24.123
+        },
+        {
+          "text": "todos",
+          "start": 24.143,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 24.393,
+          "heard": "todos",
+          "end": 24.563
+        },
+        {
+          "text": "los",
+          "start": 24.583,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.733,
+          "heard": "los",
+          "end": 24.743
+        },
+        {
+          "text": "argumentos",
+          "start": 24.763,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 25.053,
+          "heard": "argumentos",
+          "end": 25.333
+        },
+        {
+          "text": "para",
+          "start": 25.353,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 25.393,
+          "heard": "para",
+          "end": 25.573
+        },
+        {
+          "text": "decir:",
+          "start": 25.593,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 25.673,
+          "heard": "decir,",
+          "end": 26.093
+        },
+        {
+          "text": "«nosotros",
+          "start": 26.113,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 26.333,
+          "heard": "nosotros",
+          "end": 26.853
+        },
+        {
+          "text": "estuvimos",
+          "start": 26.873,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 26.933,
+          "heard": "estuvimos",
+          "end": 27.433
+        },
+        {
+          "text": "primero».",
+          "start": 27.453,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 27.473,
+          "heard": "primero,",
+          "end": 27.813
+        },
+        {
+          "text": "Y",
+          "start": 27.833,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 27.873,
+          "heard": "y",
+          "end": 27.943
+        },
+        {
+          "text": "de",
+          "start": 27.963,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 28.053,
+          "heard": "de",
+          "end": 28.213
+        },
+        {
+          "text": "hecho,",
+          "start": 28.233,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 28.333,
+          "heard": "hecho,",
+          "end": 28.47
+        },
+        {
+          "text": "en",
+          "start": 29.383,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 29.333,
+          "heard": "en",
+          "end": 29.473
+        },
+        {
+          "text": "la",
+          "start": 29.493,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 29.653,
+          "heard": "la",
+          "end": 29.673
+        },
+        {
+          "text": "cuenta",
+          "start": 29.693,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 29.973,
+          "heard": "cuenta",
+          "end": 30.133
+        },
+        {
+          "text": "de",
+          "start": 30.153,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.293,
+          "heard": "de",
+          "end": 30.34
+        },
+        {
+          "text": "Samsung",
+          "start": 30.963,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.013,
+          "heard": "Samsung",
+          "end": 31.233
+        },
+        {
+          "text": "Mobile",
+          "start": 31.253,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.453,
+          "heard": "Mobile",
+          "end": 31.783
+        },
+        {
+          "text": "MX,",
+          "start": 31.803,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 32.053,
+          "heard": "MX,",
+          "end": 32.23
+        }
+      ]
+    },
+    "v18": {
+      "take": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "inTime": 46.767,
+      "outTime": 52.667,
+      "text": "diciendo: «nosotros, el mundo es de los que se atreven primero. Nosotros nos atrevimos hace 7 años».",
+      "heard": "Diciendo nosotros, en el mundo de los que se atraen primero, nosotros nos atraemos hace siete años.",
+      "words": [
+        {
+          "text": "diciendo:",
+          "start": 46.81,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 46.987,
+          "heard": "Diciendo",
+          "end": 47.387
+        },
+        {
+          "text": "«nosotros,",
+          "start": 47.407,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 47.987,
+          "heard": "nosotros,",
+          "end": 48.037
+        },
+        {
+          "text": "el",
+          "start": 48.057,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 48.367,
+          "heard": "el",
+          "end": 48.217
+        },
+        {
+          "text": "mundo",
+          "start": 48.237,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 48.547,
+          "heard": "mundo",
+          "end": 48.477
+        },
+        {
+          "text": "es",
+          "start": 48.497,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": null,
+          "heard": null,
+          "end": 48.627
+        },
+        {
+          "text": "de",
+          "start": 48.647,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 48.687,
+          "heard": "de",
+          "end": 48.772
+        },
+        {
+          "text": "los",
+          "start": 48.792,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 48.847,
+          "heard": "los",
+          "end": 48.917
+        },
+        {
+          "text": "que",
+          "start": 48.937,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 48.987,
+          "heard": "que",
+          "end": 49.047
+        },
+        {
+          "text": "se",
+          "start": 49.067,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 49.107,
+          "heard": "se",
+          "end": 49.177
+        },
+        {
+          "text": "atreven",
+          "start": 49.197,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 49.307,
+          "heard": "atraen",
+          "end": 49.727
+        },
+        {
+          "text": "primero.",
+          "start": 49.747,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 49.727,
+          "heard": "primero,",
+          "end": 50.277
+        },
+        {
+          "text": "Nosotros",
+          "start": 50.297,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 50.307,
+          "heard": "nosotros",
+          "end": 50.49
+        },
+        {
+          "text": "nos",
+          "start": 50.71,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 50.867,
+          "heard": "nos",
+          "end": 50.877
+        },
+        {
+          "text": "atrevimos",
+          "start": 50.897,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 51.107,
+          "heard": "atraemos",
+          "end": 51.526
+        },
+        {
+          "text": "hace",
+          "start": 51.546,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 51.667,
+          "heard": "hace",
+          "end": 51.851
+        },
+        {
+          "text": "7",
+          "start": 51.871,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 52.027,
+          "heard": "siete",
+          "end": 52.175
+        },
+        {
+          "text": "años».",
+          "start": 52.195,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 52.427,
+          "heard": "años.",
+          "end": 52.52
+        }
+      ]
+    },
+    "v19": {
+      "take": "e7648b9b117b45218bd4bac13da69698.MP4",
+      "inTime": 9.7,
+      "outTime": 17.833,
+      "text": "Pero no es aquí donde nos tenemos que centrar. Mientras que Apple, históricamente, ha construido una marca que puede llegar después",
+      "heard": "Pero no es aquí donde nos tenemos que centrar. Mientras que Apple, históricamente, ha construido una marca que puede llegar después,",
+      "words": [
+        {
+          "text": "Pero",
+          "start": 9.77,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 9.92,
+          "heard": "Pero",
+          "end": 10.19
+        },
+        {
+          "text": "no",
+          "start": 10.78,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 10.86,
+          "heard": "no",
+          "end": 11.07
+        },
+        {
+          "text": "es",
+          "start": 11.09,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 11.08,
+          "heard": "es",
+          "end": 11.27
+        },
+        {
+          "text": "aquí",
+          "start": 11.29,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 11.36,
+          "heard": "aquí",
+          "end": 11.52
+        },
+        {
+          "text": "donde",
+          "start": 11.54,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 11.64,
+          "heard": "donde",
+          "end": 11.86
+        },
+        {
+          "text": "nos",
+          "start": 11.88,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 11.86,
+          "heard": "nos",
+          "end": 11.992
+        },
+        {
+          "text": "tenemos",
+          "start": 12.012,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 12.1,
+          "heard": "tenemos",
+          "end": 12.388
+        },
+        {
+          "text": "que",
+          "start": 12.408,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 12.3,
+          "heard": "que",
+          "end": 12.52
+        },
+        {
+          "text": "centrar.",
+          "start": 12.54,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 12.56,
+          "heard": "centrar.",
+          "end": 12.84
+        },
+        {
+          "text": "Mientras",
+          "start": 13.44,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 13.58,
+          "heard": "Mientras",
+          "end": 13.9
+        },
+        {
+          "text": "que",
+          "start": 13.92,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14,
+          "heard": "que",
+          "end": 14.17
+        },
+        {
+          "text": "Apple,",
+          "start": 14.19,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 14.36,
+          "heard": "Apple,",
+          "end": 14.58
+        },
+        {
+          "text": "históricamente,",
+          "start": 14.6,
+          "syllables": 6,
+          "source": "sílaba",
+          "dtw": 14.72,
+          "heard": "históricamente,",
+          "end": 15.52
+        },
+        {
+          "text": "ha",
+          "start": 15.54,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 15.48,
+          "heard": "ha",
+          "end": 15.71
+        },
+        {
+          "text": "construido",
+          "start": 15.73,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 15.84,
+          "heard": "construido",
+          "end": 16.1
+        },
+        {
+          "text": "una",
+          "start": 16.12,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.28,
+          "heard": "una",
+          "end": 16.59
+        },
+        {
+          "text": "marca",
+          "start": 16.61,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.62,
+          "heard": "marca",
+          "end": 16.757
+        },
+        {
+          "text": "que",
+          "start": 16.777,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 16.8,
+          "heard": "que",
+          "end": 16.84
+        },
+        {
+          "text": "puede",
+          "start": 16.86,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.98,
+          "heard": "puede",
+          "end": 17.17
+        },
+        {
+          "text": "llegar",
+          "start": 17.19,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 17.34,
+          "heard": "llegar",
+          "end": 17.64
+        },
+        {
+          "text": "después",
+          "start": 17.66,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 17.7,
+          "heard": "después,",
+          "end": 17.813
+        }
+      ]
+    },
+    "v20": {
+      "take": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "inTime": 16.8,
+      "outTime": 18.9,
+      "text": "para vender otra idea diferente.",
+      "heard": "Para vender otra idea diferente.",
+      "words": [
+        {
+          "text": "para",
+          "start": 16.86,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 17.02,
+          "heard": "Para",
+          "end": 17.12
+        },
+        {
+          "text": "vender",
+          "start": 17.14,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 17.4,
+          "heard": "vender",
+          "end": 17.51
+        },
+        {
+          "text": "otra",
+          "start": 17.73,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 17.98,
+          "heard": "otra",
+          "end": 18.06
+        },
+        {
+          "text": "idea",
+          "start": 18.08,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 18.24,
+          "heard": "idea",
+          "end": 18.47
+        },
+        {
+          "text": "diferente.",
+          "start": 18.49,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 18.7,
+          "heard": "diferente.",
+          "end": 18.77
+        }
+      ]
+    },
+    "v21": {
+      "take": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "inTime": 23.7,
+      "outTime": 28.767,
+      "text": "Al parecer, a Apple no le importa quién llegó primero, sino más bien",
+      "heard": "Al parecer a Apple no le importa quién llegó primero, sino más bien...",
+      "words": [
+        {
+          "text": "Al",
+          "start": 23.75,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 23.88,
+          "heard": "Al",
+          "end": 23.9
+        },
+        {
+          "text": "parecer,",
+          "start": 23.92,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 24.2,
+          "heard": "parecer",
+          "end": 24.23
+        },
+        {
+          "text": "a",
+          "start": 24.25,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.38,
+          "heard": "a",
+          "end": 24.5
+        },
+        {
+          "text": "Apple",
+          "start": 24.52,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 24.66,
+          "heard": "Apple",
+          "end": 24.89
+        },
+        {
+          "text": "no",
+          "start": 24.91,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.86,
+          "heard": "no",
+          "end": 24.96
+        },
+        {
+          "text": "le",
+          "start": 24.98,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.98,
+          "heard": "le",
+          "end": 25.09
+        },
+        {
+          "text": "importa",
+          "start": 25.11,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 25.38,
+          "heard": "importa",
+          "end": 25.86
+        },
+        {
+          "text": "quién",
+          "start": 26.2,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 26.26,
+          "heard": "quién",
+          "end": 26.25
+        },
+        {
+          "text": "llegó",
+          "start": 26.27,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 26.5,
+          "heard": "llegó",
+          "end": 26.56
+        },
+        {
+          "text": "primero,",
+          "start": 26.58,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 26.9,
+          "heard": "primero,",
+          "end": 26.98
+        },
+        {
+          "text": "sino",
+          "start": 27.69,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 27.8,
+          "heard": "sino",
+          "end": 28.05
+        },
+        {
+          "text": "más",
+          "start": 28.07,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 28,
+          "heard": "más",
+          "end": 28.21
+        },
+        {
+          "text": "bien",
+          "start": 28.23,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 28.3,
+          "heard": "bien...",
+          "end": 28.67
+        }
+      ]
+    },
+    "v22": {
+      "take": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "inTime": 29.6,
+      "outTime": 31.8,
+      "text": "decir: «mira cómo lo hacemos nosotros».",
+      "heard": "Es decir, mira cómo lo hacemos nosotros.",
+      "words": [
+        {
+          "text": "decir:",
+          "start": 29.6,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 29.96,
+          "heard": "decir,",
+          "end": 30.15
+        },
+        {
+          "text": "«mira",
+          "start": 30.17,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 30.42,
+          "heard": "mira",
+          "end": 30.58
+        },
+        {
+          "text": "cómo",
+          "start": 30.6,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 30.8,
+          "heard": "cómo",
+          "end": 30.79
+        },
+        {
+          "text": "lo",
+          "start": 30.81,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.96,
+          "heard": "lo",
+          "end": 31.05
+        },
+        {
+          "text": "hacemos",
+          "start": 31.07,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 31.2,
+          "heard": "hacemos",
+          "end": 31.37
+        },
+        {
+          "text": "nosotros».",
+          "start": 31.39,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 31.7,
+          "heard": "nosotros.",
+          "end": 31.71
+        }
+      ]
+    },
+    "v23": {
+      "take": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "inTime": 38.133,
+      "outTime": 47.767,
+      "text": "Fijándonos incluso la forma en que presenta el Duo, es la forma más aterradora para cualquier otra marca: marcando posición, marcando terreno.",
+      "heard": "Fijándonos incluso la forma en que presenta el dúo es la forma más aterradora para cualquier otra marca, marcando posición, marcando terreno.",
+      "words": [
+        {
+          "text": "Fijándonos",
+          "start": 38.18,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 38.233,
+          "heard": "Fijándonos",
+          "end": 38.945
+        },
+        {
+          "text": "incluso",
+          "start": 38.965,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 39.093,
+          "heard": "incluso",
+          "end": 39.533
+        },
+        {
+          "text": "la",
+          "start": 39.553,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 39.493,
+          "heard": "la",
+          "end": 39.693
+        },
+        {
+          "text": "forma",
+          "start": 39.713,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 39.813,
+          "heard": "forma",
+          "end": 39.953
+        },
+        {
+          "text": "en",
+          "start": 39.973,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 39.933,
+          "heard": "en",
+          "end": 40.093
+        },
+        {
+          "text": "que",
+          "start": 40.113,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 40.053,
+          "heard": "que",
+          "end": 40.248
+        },
+        {
+          "text": "presenta",
+          "start": 40.268,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 40.353,
+          "heard": "presenta",
+          "end": 40.713
+        },
+        {
+          "text": "el",
+          "start": 40.733,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 40.733,
+          "heard": "el",
+          "end": 40.843
+        },
+        {
+          "text": "Duo,",
+          "start": 40.863,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 40.893,
+          "heard": "dúo",
+          "end": 41.523
+        },
+        {
+          "text": "es",
+          "start": 41.543,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 41.633,
+          "heard": "es",
+          "end": 41.583
+        },
+        {
+          "text": "la",
+          "start": 41.883,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 42.073,
+          "heard": "la",
+          "end": 42.113
+        },
+        {
+          "text": "forma",
+          "start": 42.133,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 42.413,
+          "heard": "forma",
+          "end": 42.583
+        },
+        {
+          "text": "más",
+          "start": 42.603,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 42.913,
+          "heard": "más",
+          "end": 42.89
+        },
+        {
+          "text": "aterradora",
+          "start": 43.103,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 43.273,
+          "heard": "aterradora",
+          "end": 43.66
+        },
+        {
+          "text": "para",
+          "start": 44.06,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 44.153,
+          "heard": "para",
+          "end": 44.313
+        },
+        {
+          "text": "cualquier",
+          "start": 44.333,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 44.453,
+          "heard": "cualquier",
+          "end": 44.633
+        },
+        {
+          "text": "otra",
+          "start": 44.653,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 44.733,
+          "heard": "otra",
+          "end": 44.983
+        },
+        {
+          "text": "marca:",
+          "start": 45.003,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 45.093,
+          "heard": "marca,",
+          "end": 45.363
+        },
+        {
+          "text": "marcando",
+          "start": 45.383,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 45.653,
+          "heard": "marcando",
+          "end": 45.923
+        },
+        {
+          "text": "posición,",
+          "start": 45.943,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 46.333,
+          "heard": "posición,",
+          "end": 46.483
+        },
+        {
+          "text": "marcando",
+          "start": 46.503,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 46.713,
+          "heard": "marcando",
+          "end": 47.043
+        },
+        {
+          "text": "terreno.",
+          "start": 47.063,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 47.253,
+          "heard": "terreno.",
+          "end": 47.62
+        }
+      ]
+    },
+    "v24": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 0.867,
+      "outTime": 5.467,
+      "text": "Y sí, muchos estamos obsesionados por ser los primeros, como emprendedores, empresarios,",
+      "heard": "Y sí, muchos estamos obsesionados por ser los primeros como emprendedores empresariales.",
+      "words": [
+        {
+          "text": "Y",
+          "start": 0.94,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 0.987,
+          "heard": "Y",
+          "end": 0.98
+        },
+        {
+          "text": "sí,",
+          "start": 0.99,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 1.147,
+          "heard": "sí,",
+          "end": 1.237
+        },
+        {
+          "text": "muchos",
+          "start": 1.257,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 1.547,
+          "heard": "muchos",
+          "end": 1.587
+        },
+        {
+          "text": "estamos",
+          "start": 1.607,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 1.947,
+          "heard": "estamos",
+          "end": 2.017
+        },
+        {
+          "text": "obsesionados",
+          "start": 2.037,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 2.267,
+          "heard": "obsesionados",
+          "end": 2.847
+        },
+        {
+          "text": "por",
+          "start": 2.867,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 3.007,
+          "heard": "por",
+          "end": 3.077
+        },
+        {
+          "text": "ser",
+          "start": 3.097,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 3.287,
+          "heard": "ser",
+          "end": 3.257
+        },
+        {
+          "text": "los",
+          "start": 3.277,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 3.487,
+          "heard": "los",
+          "end": 3.737
+        },
+        {
+          "text": "primeros,",
+          "start": 3.757,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 3.847,
+          "heard": "primeros",
+          "end": 4.085
+        },
+        {
+          "text": "como",
+          "start": 4.105,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 4.487,
+          "heard": "como",
+          "end": 4.22
+        },
+        {
+          "text": "emprendedores,",
+          "start": 4.39,
+          "syllables": 5,
+          "source": "interp",
+          "dtw": 4.627,
+          "heard": "emprendedores",
+          "end": 4.896
+        },
+        {
+          "text": "empresarios,",
+          "start": 4.916,
+          "syllables": 4,
+          "source": "interp",
+          "dtw": 5.447,
+          "heard": "empresariales.",
+          "end": 5.38
+        }
+      ]
+    },
+    "v25": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 6.067,
+      "outTime": 10.033,
+      "text": "por ser los primeros en lanzar X productos,",
+      "heard": "Por ser los primeros en lanzar X productos.",
+      "words": [
+        {
+          "text": "por",
+          "start": 6.067,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.567,
+          "heard": "Por",
+          "end": 6.36
+        },
+        {
+          "text": "ser",
+          "start": 6.637,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.787,
+          "heard": "ser",
+          "end": 6.777
+        },
+        {
+          "text": "los",
+          "start": 6.797,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.927,
+          "heard": "los",
+          "end": 7.027
+        },
+        {
+          "text": "primeros",
+          "start": 7.047,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 7.267,
+          "heard": "primeros",
+          "end": 7.517
+        },
+        {
+          "text": "en",
+          "start": 7.537,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 7.667,
+          "heard": "en",
+          "end": 8.054
+        },
+        {
+          "text": "lanzar",
+          "start": 8.074,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 8.027,
+          "heard": "lanzar",
+          "end": 8.3
+        },
+        {
+          "text": "X",
+          "start": 9.147,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 9.487,
+          "heard": "X",
+          "end": 9.607
+        },
+        {
+          "text": "productos,",
+          "start": 9.627,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 9.987,
+          "heard": "productos.",
+          "end": 10.013
+        }
+      ]
+    },
+    "v26": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 13.267,
+      "outTime": 22.3,
+      "text": "por ser los primeros en intentar vender ciertos servicios, por tener ciertas características, agregarle más a nuestros servicios.",
+      "heard": "Por ser los primeros en intentar vender ciertos servicios, por tener ciertas características, agregarle más a nuestros servicios.",
+      "words": [
+        {
+          "text": "por",
+          "start": 13.267,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14.047,
+          "heard": "Por",
+          "end": 14.097
+        },
+        {
+          "text": "ser",
+          "start": 14.117,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14.207,
+          "heard": "ser",
+          "end": 14.207
+        },
+        {
+          "text": "los",
+          "start": 14.227,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14.367,
+          "heard": "los",
+          "end": 14.437
+        },
+        {
+          "text": "primeros",
+          "start": 14.457,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 14.667,
+          "heard": "primeros",
+          "end": 15.007
+        },
+        {
+          "text": "en",
+          "start": 15.027,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 15.187,
+          "heard": "en",
+          "end": 15.537
+        },
+        {
+          "text": "intentar",
+          "start": 15.557,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 15.647,
+          "heard": "intentar",
+          "end": 15.997
+        },
+        {
+          "text": "vender",
+          "start": 16.017,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.047,
+          "heard": "vender",
+          "end": 16.267
+        },
+        {
+          "text": "ciertos",
+          "start": 16.287,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.407,
+          "heard": "ciertos",
+          "end": 16.747
+        },
+        {
+          "text": "servicios,",
+          "start": 16.767,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 17.107,
+          "heard": "servicios,",
+          "end": 17.25
+        },
+        {
+          "text": "por",
+          "start": 17.78,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 17.927,
+          "heard": "por",
+          "end": 17.957
+        },
+        {
+          "text": "tener",
+          "start": 17.977,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 18.167,
+          "heard": "tener",
+          "end": 18.547
+        },
+        {
+          "text": "ciertas",
+          "start": 18.567,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 18.467,
+          "heard": "ciertas",
+          "end": 18.987
+        },
+        {
+          "text": "características,",
+          "start": 19.007,
+          "syllables": 6,
+          "source": "sílaba",
+          "dtw": 19.407,
+          "heard": "características,",
+          "end": 19.727
+        },
+        {
+          "text": "agregarle",
+          "start": 19.747,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 19.867,
+          "heard": "agregarle",
+          "end": 20.407
+        },
+        {
+          "text": "más",
+          "start": 20.427,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 20.787,
+          "heard": "más",
+          "end": 20.937
+        },
+        {
+          "text": "a",
+          "start": 20.957,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 21.067,
+          "heard": "a",
+          "end": 21.267
+        },
+        {
+          "text": "nuestros",
+          "start": 21.287,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 21.367,
+          "heard": "nuestros",
+          "end": 21.37
+        },
+        {
+          "text": "servicios.",
+          "start": 21.947,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 22.007,
+          "heard": "servicios.",
+          "end": 22.28
+        }
+      ]
+    },
+    "v27a": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 27.533,
+      "outTime": 31.367,
+      "text": "Y no quiere decir esto que por agregar más",
+      "heard": "Y no quiero decir esto que por agregar más",
+      "words": [
+        {
+          "text": "Y",
+          "start": 27.6,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 27.813,
+          "heard": "Y",
+          "end": 28.203
+        },
+        {
+          "text": "no",
+          "start": 28.223,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 28.433,
+          "heard": "no",
+          "end": 28.513
+        },
+        {
+          "text": "quiere",
+          "start": 28.533,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 28.633,
+          "heard": "quiero",
+          "end": 28.783
+        },
+        {
+          "text": "decir",
+          "start": 28.803,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 28.833,
+          "heard": "decir",
+          "end": 29.073
+        },
+        {
+          "text": "esto",
+          "start": 29.093,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 29.173,
+          "heard": "esto",
+          "end": 29.31
+        },
+        {
+          "text": "que",
+          "start": 30.003,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 29.693,
+          "heard": "que",
+          "end": 30.193
+        },
+        {
+          "text": "por",
+          "start": 30.213,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.133,
+          "heard": "por",
+          "end": 30.393
+        },
+        {
+          "text": "agregar",
+          "start": 30.413,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 30.553,
+          "heard": "agregar",
+          "end": 30.853
+        },
+        {
+          "text": "más",
+          "start": 30.873,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 31.253,
+          "heard": "más",
+          "end": 31.21
+        }
+      ]
+    },
+    "v27b": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 31.867,
+      "outTime": 33.267,
+      "text": "tengamos más valor.",
+      "heard": "Tengamos más valor.",
+      "words": [
+        {
+          "text": "tengamos",
+          "start": 31.94,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 31.987,
+          "heard": "Tengamos",
+          "end": 32.39
+        },
+        {
+          "text": "más",
+          "start": 32.57,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 32.787,
+          "heard": "más",
+          "end": 32.817
+        },
+        {
+          "text": "valor.",
+          "start": 32.837,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 33.047,
+          "heard": "valor.",
+          "end": 33.21
+        }
+      ]
+    },
+    "v28": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 35.333,
+      "outTime": 39.933,
+      "text": "Nuestro cliente no necesita siempre que le agreguemos más.",
+      "heard": "Nuestro cliente no necesita siempre que le agregamos más información.",
+      "words": [
+        {
+          "text": "Nuestro",
+          "start": 35.38,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 35.613,
+          "heard": "Nuestro",
+          "end": 35.863
+        },
+        {
+          "text": "cliente",
+          "start": 35.883,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 36.053,
+          "heard": "cliente",
+          "end": 36.373
+        },
+        {
+          "text": "no",
+          "start": 36.393,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 36.493,
+          "heard": "no",
+          "end": 36.823
+        },
+        {
+          "text": "necesita",
+          "start": 36.843,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 37.073,
+          "heard": "necesita",
+          "end": 37.17
+        },
+        {
+          "text": "siempre",
+          "start": 38.063,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 38.353,
+          "heard": "siempre",
+          "end": 38.45
+        },
+        {
+          "text": "que",
+          "start": 38.47,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 38.733,
+          "heard": "que",
+          "end": 38.653
+        },
+        {
+          "text": "le",
+          "start": 38.673,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 38.833,
+          "heard": "le",
+          "end": 38.817
+        },
+        {
+          "text": "agreguemos",
+          "start": 38.837,
+          "syllables": 4,
+          "source": "interp",
+          "dtw": 38.993,
+          "heard": "agregamos",
+          "end": 39.473
+        },
+        {
+          "text": "más.",
+          "start": 39.493,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 39.793,
+          "heard": "más",
+          "end": 39.8
+        }
+      ]
+    },
+    "v29": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 2.533,
+      "outTime": 7.733,
+      "text": "No todo cliente compra al que le llegó primero. Le compra al que",
+      "heard": "No todo cliente compra al que le llegó primero, le compra al que...",
+      "words": [
+        {
+          "text": "No",
+          "start": 2.533,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 2.873,
+          "heard": "No",
+          "end": 2.733
+        },
+        {
+          "text": "todo",
+          "start": 2.753,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 3.093,
+          "heard": "todo",
+          "end": 3.243
+        },
+        {
+          "text": "cliente",
+          "start": 3.263,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 3.433,
+          "heard": "cliente",
+          "end": 3.76
+        },
+        {
+          "text": "compra",
+          "start": 4.16,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 4.493,
+          "heard": "compra",
+          "end": 4.693
+        },
+        {
+          "text": "al",
+          "start": 4.713,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 4.913,
+          "heard": "al",
+          "end": 4.983
+        },
+        {
+          "text": "que",
+          "start": 5.003,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 5.053,
+          "heard": "que",
+          "end": 5.213
+        },
+        {
+          "text": "le",
+          "start": 5.233,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 5.173,
+          "heard": "le",
+          "end": 5.323
+        },
+        {
+          "text": "llegó",
+          "start": 5.343,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 5.393,
+          "heard": "llegó",
+          "end": 5.651
+        },
+        {
+          "text": "primero.",
+          "start": 5.671,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 5.773,
+          "heard": "primero,",
+          "end": 5.82
+        },
+        {
+          "text": "Le",
+          "start": 6.163,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.133,
+          "heard": "le",
+          "end": 6.4
+        },
+        {
+          "text": "compra",
+          "start": 6.42,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 6.573,
+          "heard": "compra",
+          "end": 6.913
+        },
+        {
+          "text": "al",
+          "start": 6.933,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 7.113,
+          "heard": "al",
+          "end": 7.193
+        },
+        {
+          "text": "que",
+          "start": 7.213,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 7.313,
+          "heard": "que...",
+          "end": 7.63
+        }
+      ]
+    },
+    "v30a": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 8.5,
+      "outTime": 11.3,
+      "text": "sabe ganarse su confianza, sabe generar valor,",
+      "heard": "Sabe ganarse su confianza?¿ Sabe generar valor?",
+      "words": [
+        {
+          "text": "sabe",
+          "start": 8.55,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 8.66,
+          "heard": "Sabe",
+          "end": 8.92
+        },
+        {
+          "text": "ganarse",
+          "start": 8.94,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 8.98,
+          "heard": "ganarse",
+          "end": 9.36
+        },
+        {
+          "text": "su",
+          "start": 9.38,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 9.34,
+          "heard": "su",
+          "end": 9.55
+        },
+        {
+          "text": "confianza,",
+          "start": 9.57,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 9.66,
+          "heard": "confianza?¿",
+          "end": 10.04
+        },
+        {
+          "text": "sabe",
+          "start": 10.32,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 10.36,
+          "heard": "Sabe",
+          "end": 10.66
+        },
+        {
+          "text": "generar",
+          "start": 10.68,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 10.72,
+          "heard": "generar",
+          "end": 10.98
+        },
+        {
+          "text": "valor,",
+          "start": 11,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 11.1,
+          "heard": "valor?",
+          "end": 11.19
+        }
+      ]
+    },
+    "v30b": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 11.667,
+      "outTime": 14.033,
+      "text": "sabe generar una percepción de",
+      "heard": "O sea, generar una percepción de",
+      "words": [
+        {
+          "text": "sabe",
+          "start": 11.8,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 11.827,
+          "heard": "sea,",
+          "end": 11.907
+        },
+        {
+          "text": "generar",
+          "start": 11.927,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 12.087,
+          "heard": "generar",
+          "end": 12.317
+        },
+        {
+          "text": "una",
+          "start": 12.337,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 12.487,
+          "heard": "una",
+          "end": 12.58
+        },
+        {
+          "text": "percepción",
+          "start": 12.92,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 13.167,
+          "heard": "percepción",
+          "end": 13.637
+        },
+        {
+          "text": "de",
+          "start": 13.657,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 13.787,
+          "heard": "de",
+          "end": 13.94
+        }
+      ]
+    },
+    "v31": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 14.333,
+      "outTime": 16.067,
+      "text": "una experiencia diferente.",
+      "heard": "Una experiencia diferente.",
+      "words": [
+        {
+          "text": "una",
+          "start": 14.34,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 14.913,
+          "heard": "Una",
+          "end": 15.083
+        },
+        {
+          "text": "experiencia",
+          "start": 15.103,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 15.413,
+          "heard": "experiencia",
+          "end": 15.913
+        },
+        {
+          "text": "diferente.",
+          "start": 15.933,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 15.973,
+          "heard": "diferente.",
+          "end": 16.047
+        }
+      ]
+    },
+    "v32a": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 24.3,
+      "outTime": 26.267,
+      "text": "¿Somos los primeros o",
+      "heard": "Somos los primeros o...?",
+      "words": [
+        {
+          "text": "¿Somos",
+          "start": 24.37,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 24.52,
+          "heard": "Somos",
+          "end": 24.85
+        },
+        {
+          "text": "los",
+          "start": 24.87,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.8,
+          "heard": "los",
+          "end": 24.96
+        },
+        {
+          "text": "primeros",
+          "start": 24.98,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 25.1,
+          "heard": "primeros",
+          "end": 25.46
+        },
+        {
+          "text": "o",
+          "start": 25.84,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 25.9,
+          "heard": "o...?",
+          "end": 26.19
+        }
+      ]
+    },
+    "v32b": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 26.733,
+      "outTime": 31.967,
+      "text": "nuestro producto realmente sí ofrece una solución, sí ofrece un valor real?",
+      "heard": "Nuestro producto realmente si ofrece una solución, si ofrece un valor real.",
+      "words": [
+        {
+          "text": "nuestro",
+          "start": 26.78,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 26.953,
+          "heard": "Nuestro",
+          "end": 27.273
+        },
+        {
+          "text": "producto",
+          "start": 27.293,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 27.673,
+          "heard": "producto",
+          "end": 28.153
+        },
+        {
+          "text": "realmente",
+          "start": 28.173,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 28.493,
+          "heard": "realmente",
+          "end": 29.013
+        },
+        {
+          "text": "sí",
+          "start": 29.033,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 29.173,
+          "heard": "si",
+          "end": 29.283
+        },
+        {
+          "text": "ofrece",
+          "start": 29.303,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 29.373,
+          "heard": "ofrece",
+          "end": 29.603
+        },
+        {
+          "text": "una",
+          "start": 29.623,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 29.673,
+          "heard": "una",
+          "end": 29.89
+        },
+        {
+          "text": "solución,",
+          "start": 29.91,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 29.933,
+          "heard": "solución,",
+          "end": 30.32
+        },
+        {
+          "text": "sí",
+          "start": 30.34,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 30.373,
+          "heard": "si",
+          "end": 30.463
+        },
+        {
+          "text": "ofrece",
+          "start": 30.483,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 30.533,
+          "heard": "ofrece",
+          "end": 30.843
+        },
+        {
+          "text": "un",
+          "start": 30.863,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.813,
+          "heard": "un",
+          "end": 31.086
+        },
+        {
+          "text": "valor",
+          "start": 31.106,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 31.193,
+          "heard": "valor",
+          "end": 31.28
+        },
+        {
+          "text": "real?",
+          "start": 31.63,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.793,
+          "heard": "real.",
+          "end": 31.87
+        }
+      ]
+    },
+    "v33": {
+      "take": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "inTime": 43.6,
+      "outTime": 46.633,
+      "text": "Todo esto lo que nos enseña es a tomarnos nuestro tiempo.",
+      "heard": "Todo esto lo que nos enseña es a tomarnos nuestro tiempo.",
+      "words": [
+        {
+          "text": "Todo",
+          "start": 43.65,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 43.78,
+          "heard": "Todo",
+          "end": 43.74
+        },
+        {
+          "text": "esto",
+          "start": 43.76,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 43.92,
+          "heard": "esto",
+          "end": 43.85
+        },
+        {
+          "text": "lo",
+          "start": 43.87,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 44.04,
+          "heard": "lo",
+          "end": 44.05
+        },
+        {
+          "text": "que",
+          "start": 44.07,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 44.16,
+          "heard": "que",
+          "end": 44.275
+        },
+        {
+          "text": "nos",
+          "start": 44.295,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 44.34,
+          "heard": "nos",
+          "end": 44.5
+        },
+        {
+          "text": "enseña",
+          "start": 44.52,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 44.62,
+          "heard": "enseña",
+          "end": 45.02
+        },
+        {
+          "text": "es",
+          "start": 45.04,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 45.04,
+          "heard": "es",
+          "end": 45.15
+        },
+        {
+          "text": "a",
+          "start": 45.17,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 45.14,
+          "heard": "a",
+          "end": 45.25
+        },
+        {
+          "text": "tomarnos",
+          "start": 45.27,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 45.34,
+          "heard": "tomarnos",
+          "end": 45.69
+        },
+        {
+          "text": "nuestro",
+          "start": 45.71,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 45.86,
+          "heard": "nuestro",
+          "end": 46.23
+        },
+        {
+          "text": "tiempo.",
+          "start": 46.25,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 46.38,
+          "heard": "tiempo.",
+          "end": 46.49
+        }
+      ]
+    },
+    "v34": {
+      "take": "ffe3314cd47f4f4293b8bfc328054b4b.MP4",
+      "inTime": 1.6,
+      "outTime": 10.7,
+      "text": "Así que nuestro producto no tiene que ser el producto perfecto, pero sí necesitamos construir suficiente confianza y suficientes razones.",
+      "heard": "Así que nuestro producto no tiene que ser el producto perfecto, pero sí necesitamos construir suficiente confianza y suficientes razones.",
+      "words": [
+        {
+          "text": "Así",
+          "start": 1.66,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 1.82,
+          "heard": "Así",
+          "end": 1.86
+        },
+        {
+          "text": "que",
+          "start": 1.88,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 1.94,
+          "heard": "que",
+          "end": 2.15
+        },
+        {
+          "text": "nuestro",
+          "start": 2.17,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 2.22,
+          "heard": "nuestro",
+          "end": 2.426
+        },
+        {
+          "text": "producto",
+          "start": 2.446,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 2.6,
+          "heard": "producto",
+          "end": 2.84
+        },
+        {
+          "text": "no",
+          "start": 2.86,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 2.98,
+          "heard": "no",
+          "end": 3.09
+        },
+        {
+          "text": "tiene",
+          "start": 3.11,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 3.26,
+          "heard": "tiene",
+          "end": 3.397
+        },
+        {
+          "text": "que",
+          "start": 3.417,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 3.44,
+          "heard": "que",
+          "end": 3.55
+        },
+        {
+          "text": "ser",
+          "start": 3.57,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 3.78,
+          "heard": "ser",
+          "end": 3.95
+        },
+        {
+          "text": "el",
+          "start": 4.14,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 4.36,
+          "heard": "el",
+          "end": 4.42
+        },
+        {
+          "text": "producto",
+          "start": 4.44,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 4.7,
+          "heard": "producto",
+          "end": 4.94
+        },
+        {
+          "text": "perfecto,",
+          "start": 4.96,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 5.06,
+          "heard": "perfecto,",
+          "end": 5.32
+        },
+        {
+          "text": "pero",
+          "start": 5.52,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 5.68,
+          "heard": "pero",
+          "end": 5.84
+        },
+        {
+          "text": "sí",
+          "start": 5.86,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 6.04,
+          "heard": "sí",
+          "end": 6.38
+        },
+        {
+          "text": "necesitamos",
+          "start": 6.86,
+          "syllables": 5,
+          "source": "sílaba",
+          "dtw": 7.4,
+          "heard": "necesitamos",
+          "end": 8.02
+        },
+        {
+          "text": "construir",
+          "start": 8.04,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 8.14,
+          "heard": "construir",
+          "end": 8.22
+        },
+        {
+          "text": "suficiente",
+          "start": 8.58,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 8.92,
+          "heard": "suficiente",
+          "end": 9.21
+        },
+        {
+          "text": "confianza",
+          "start": 9.23,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 9.32,
+          "heard": "confianza",
+          "end": 9.611
+        },
+        {
+          "text": "y",
+          "start": 9.631,
+          "syllables": 1,
+          "source": "interp",
+          "dtw": 9.66,
+          "heard": "y",
+          "end": 9.745
+        },
+        {
+          "text": "suficientes",
+          "start": 9.765,
+          "syllables": 4,
+          "source": "interp",
+          "dtw": 9.84,
+          "heard": "suficientes",
+          "end": 10.279
+        },
+        {
+          "text": "razones.",
+          "start": 10.299,
+          "syllables": 3,
+          "source": "interp",
+          "dtw": 10.42,
+          "heard": "razones.",
+          "end": 10.68
+        }
+      ]
+    },
+    "v17a": {
+      "take": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "inTime": 19.633,
+      "outTime": 23.2,
+      "text": "Y Samsung, que lleva años haciendo teléfonos plegables,",
+      "heard": "Samsung que lleva años haciendo teléfonos plegables",
+      "words": [
+        {
+          "text": "Y",
+          "start": 19.68,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": null,
+          "heard": null,
+          "end": 19.743
+        },
+        {
+          "text": "Samsung,",
+          "start": 19.763,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 20.073,
+          "heard": "Samsung",
+          "end": 20.243
+        },
+        {
+          "text": "que",
+          "start": 20.263,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 20.693,
+          "heard": "que",
+          "end": 20.573
+        },
+        {
+          "text": "lleva",
+          "start": 20.593,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 20.893,
+          "heard": "lleva",
+          "end": 21.083
+        },
+        {
+          "text": "años",
+          "start": 21.103,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 21.253,
+          "heard": "años",
+          "end": 21.583
+        },
+        {
+          "text": "haciendo",
+          "start": 21.603,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 21.833,
+          "heard": "haciendo",
+          "end": 22.023
+        },
+        {
+          "text": "teléfonos",
+          "start": 22.043,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 22.073,
+          "heard": "teléfonos",
+          "end": 22.503
+        },
+        {
+          "text": "plegables,",
+          "start": 22.523,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 22.653,
+          "heard": "plegables",
+          "end": 23.1
+        }
+      ]
+    },
+    "v17b": {
+      "take": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "inTime": 23.533,
+      "outTime": 32.333,
+      "text": "que tiene todos los argumentos para decir: «nosotros estuvimos primero». Y de hecho, en la cuenta de Samsung Mobile MX,",
+      "heard": "El que tiene todos los argumentos para decir nosotros estuvimos primero y de hecho en la cuenta de Samsung Mobile MX",
+      "words": [
+        {
+          "text": "que",
+          "start": 23.63,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 23.673,
+          "heard": "que",
+          "end": 23.713
+        },
+        {
+          "text": "tiene",
+          "start": 23.733,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 23.933,
+          "heard": "tiene",
+          "end": 24.123
+        },
+        {
+          "text": "todos",
+          "start": 24.143,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 24.413,
+          "heard": "todos",
+          "end": 24.563
+        },
+        {
+          "text": "los",
+          "start": 24.583,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 24.733,
+          "heard": "los",
+          "end": 24.743
+        },
+        {
+          "text": "argumentos",
+          "start": 24.763,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 25.073,
+          "heard": "argumentos",
+          "end": 25.333
+        },
+        {
+          "text": "para",
+          "start": 25.353,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 25.393,
+          "heard": "para",
+          "end": 25.573
+        },
+        {
+          "text": "decir:",
+          "start": 25.593,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 25.673,
+          "heard": "decir",
+          "end": 26.093
+        },
+        {
+          "text": "«nosotros",
+          "start": 26.113,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 26.293,
+          "heard": "nosotros",
+          "end": 26.853
+        },
+        {
+          "text": "estuvimos",
+          "start": 26.873,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 26.933,
+          "heard": "estuvimos",
+          "end": 27.433
+        },
+        {
+          "text": "primero».",
+          "start": 27.453,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 27.473,
+          "heard": "primero",
+          "end": 27.813
+        },
+        {
+          "text": "Y",
+          "start": 27.833,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 27.873,
+          "heard": "y",
+          "end": 27.943
+        },
+        {
+          "text": "de",
+          "start": 27.963,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 28.053,
+          "heard": "de",
+          "end": 28.213
+        },
+        {
+          "text": "hecho,",
+          "start": 28.233,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 28.333,
+          "heard": "hecho",
+          "end": 28.47
+        },
+        {
+          "text": "en",
+          "start": 29.383,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 29.313,
+          "heard": "en",
+          "end": 29.473
+        },
+        {
+          "text": "la",
+          "start": 29.493,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 29.653,
+          "heard": "la",
+          "end": 29.673
+        },
+        {
+          "text": "cuenta",
+          "start": 29.693,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 29.973,
+          "heard": "cuenta",
+          "end": 30.133
+        },
+        {
+          "text": "de",
+          "start": 30.153,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 30.293,
+          "heard": "de",
+          "end": 30.34
+        },
+        {
+          "text": "Samsung",
+          "start": 30.79,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.013,
+          "heard": "Samsung",
+          "end": 31.043
+        },
+        {
+          "text": "Mobile",
+          "start": 31.063,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 31.453,
+          "heard": "Mobile",
+          "end": 31.533
+        },
+        {
+          "text": "MX,",
+          "start": 31.553,
+          "syllables": 4,
+          "source": "sílaba",
+          "dtw": 31.913,
+          "heard": "MX",
+          "end": 32.23
+        }
+      ]
+    },
+    "v26a": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 13.267,
+      "outTime": 17.4,
+      "text": "por ser los primeros en intentar vender ciertos servicios,",
+      "heard": "Por ser los primeros en intentar vender ciertos servicios.",
+      "words": [
+        {
+          "text": "por",
+          "start": 13.267,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14.027,
+          "heard": "Por",
+          "end": 14.097
+        },
+        {
+          "text": "ser",
+          "start": 14.117,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14.207,
+          "heard": "ser",
+          "end": 14.207
+        },
+        {
+          "text": "los",
+          "start": 14.227,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 14.367,
+          "heard": "los",
+          "end": 14.437
+        },
+        {
+          "text": "primeros",
+          "start": 14.457,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 14.667,
+          "heard": "primeros",
+          "end": 15.007
+        },
+        {
+          "text": "en",
+          "start": 15.027,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 15.187,
+          "heard": "en",
+          "end": 15.537
+        },
+        {
+          "text": "intentar",
+          "start": 15.557,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 15.647,
+          "heard": "intentar",
+          "end": 15.997
+        },
+        {
+          "text": "vender",
+          "start": 16.017,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.067,
+          "heard": "vender",
+          "end": 16.267
+        },
+        {
+          "text": "ciertos",
+          "start": 16.287,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 16.427,
+          "heard": "ciertos",
+          "end": 16.747
+        },
+        {
+          "text": "servicios,",
+          "start": 16.767,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 17.127,
+          "heard": "servicios.",
+          "end": 17.25
+        }
+      ]
+    },
+    "v26b": {
+      "take": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "inTime": 17.7,
+      "outTime": 22.3,
+      "text": "por tener ciertas características, agregarle más a nuestros servicios.",
+      "heard": "Por tener ciertas características, agregarle más a nuestros servicios,",
+      "words": [
+        {
+          "text": "por",
+          "start": 17.78,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 17.88,
+          "heard": "Por",
+          "end": 17.95
+        },
+        {
+          "text": "tener",
+          "start": 17.97,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 18.18,
+          "heard": "tener",
+          "end": 18.53
+        },
+        {
+          "text": "ciertas",
+          "start": 18.55,
+          "syllables": 2,
+          "source": "sílaba",
+          "dtw": 18.48,
+          "heard": "ciertas",
+          "end": 19.02
+        },
+        {
+          "text": "características,",
+          "start": 19.04,
+          "syllables": 6,
+          "source": "sílaba",
+          "dtw": 19.42,
+          "heard": "características,",
+          "end": 19.842
+        },
+        {
+          "text": "agregarle",
+          "start": 19.862,
+          "syllables": 4,
+          "source": "interp",
+          "dtw": 19.88,
+          "heard": "agregarle",
+          "end": 20.39
+        },
+        {
+          "text": "más",
+          "start": 20.41,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 20.78,
+          "heard": "más",
+          "end": 20.93
+        },
+        {
+          "text": "a",
+          "start": 20.95,
+          "syllables": 1,
+          "source": "sílaba",
+          "dtw": 21.06,
+          "heard": "a",
+          "end": 21.263
+        },
+        {
+          "text": "nuestros",
+          "start": 21.283,
+          "syllables": 2,
+          "source": "interp",
+          "dtw": 21.38,
+          "heard": "nuestros",
+          "end": 21.37
+        },
+        {
+          "text": "servicios.",
+          "start": 21.95,
+          "syllables": 3,
+          "source": "sílaba",
+          "dtw": 22.06,
+          "heard": "servicios,",
+          "end": 22.28
+        }
+      ]
+    }
+  }
+}

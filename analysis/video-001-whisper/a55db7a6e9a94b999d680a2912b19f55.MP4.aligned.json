@@ -1,0 +1,1349 @@
+{
+  "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+  "durationSeconds": 52.244,
+  "method": {
+    "frameSeconds": 0.01,
+    "noiseFloorDb": -40.4,
+    "thresholdDb": -34.4,
+    "minPauseSeconds": 0.15,
+    "phrasePauseSeconds": 0.3,
+    "transcription": "whisper.cpp 1.7.2, large-v3-turbo, -ac 640, --dtw large.v3.turbo, es, una transcripción por frase",
+    "note": "Islas y frases medidas por RMS. Texto por frase transcrito de forma aislada. Reparto de palabras dentro de cada isla proporcional a su longitud: no es alineación fonética.",
+    "seconds": 427.2
+  },
+  "phrases": [
+    {
+      "id": 0,
+      "start": 0.99,
+      "end": 3.76,
+      "islands": [
+        0
+      ],
+      "text": "Y es aquí donde tenemos que entender que no todo cliente,",
+      "meanP": 0.85,
+      "suspect": false,
+      "pauseBefore": 0.99
+    },
+    {
+      "id": 1,
+      "start": 4.16,
+      "end": 7.63,
+      "islands": [
+        1,
+        2
+      ],
+      "text": "Compra al que le llegó primero, le compra al que...",
+      "meanP": 0.79,
+      "suspect": false,
+      "pauseBefore": 0.4
+    },
+    {
+      "id": 2,
+      "start": 8.55,
+      "end": 11.19,
+      "islands": [
+        3,
+        4
+      ],
+      "text": "Saigan hasta su confianza, sa genera valor.",
+      "meanP": 0.72,
+      "suspect": false,
+      "pauseBefore": 0.92
+    },
+    {
+      "id": 3,
+      "start": 11.8,
+      "end": 12.58,
+      "islands": [
+        5
+      ],
+      "text": "Siahini darunak.",
+      "meanP": 0.5,
+      "suspect": false,
+      "pauseBefore": 0.61
+    },
+    {
+      "id": 4,
+      "start": 12.92,
+      "end": 13.94,
+      "islands": [
+        6
+      ],
+      "text": "Percepción de",
+      "meanP": 0.82,
+      "suspect": false,
+      "pauseBefore": 0.34
+    },
+    {
+      "id": 5,
+      "start": 14.34,
+      "end": 16.63,
+      "islands": [
+        7
+      ],
+      "text": "De una experiencia diferente, etc.",
+      "meanP": 0.77,
+      "suspect": false,
+      "pauseBefore": 0.4
+    },
+    {
+      "id": 6,
+      "start": 17.12,
+      "end": 17.98,
+      "islands": [
+        8
+      ],
+      "text": "Por eso,",
+      "meanP": 0.67,
+      "suspect": false,
+      "pauseBefore": 0.49
+    },
+    {
+      "id": 7,
+      "start": 18.42,
+      "end": 21.54,
+      "islands": [
+        9,
+        10
+      ],
+      "text": "Y pregunta desde que...",
+      "meanP": 0.6,
+      "suspect": false,
+      "pauseBefore": 0.44
+    },
+    {
+      "id": 8,
+      "start": 22.11,
+      "end": 23.23,
+      "islands": [
+        11
+      ],
+      "text": "Y esto fue.",
+      "meanP": 0.78,
+      "suspect": false,
+      "pauseBefore": 0.57
+    },
+    {
+      "id": 9,
+      "start": 24.37,
+      "end": 26.19,
+      "islands": [
+        12,
+        13
+      ],
+      "text": "¿Somos los primeros?",
+      "meanP": 0.79,
+      "suspect": false,
+      "pauseBefore": 1.14
+    },
+    {
+      "id": 10,
+      "start": 26.78,
+      "end": 31.28,
+      "islands": [
+        14
+      ],
+      "text": "Nuestro producto realmente si ofrece una solución, si ofrece un valor.",
+      "meanP": 0.91,
+      "suspect": false,
+      "pauseBefore": 0.59
+    },
+    {
+      "id": 11,
+      "start": 31.63,
+      "end": 31.87,
+      "islands": [
+        15
+      ],
+      "text": "",
+      "meanP": 0,
+      "suspect": true,
+      "pauseBefore": 0.35
+    },
+    {
+      "id": 12,
+      "start": 32.3,
+      "end": 34.37,
+      "islands": [
+        16,
+        17
+      ],
+      "text": "Y siquiera, no me gusta Xclaro.",
+      "meanP": 0.82,
+      "suspect": false,
+      "pauseBefore": 0.43
+    },
+    {
+      "id": 13,
+      "start": 34.97,
+      "end": 35.37,
+      "islands": [
+        18
+      ],
+      "text": "",
+      "meanP": 0,
+      "suspect": true,
+      "pauseBefore": 0.6
+    },
+    {
+      "id": 14,
+      "start": 36.7,
+      "end": 38.46,
+      "islands": [
+        19
+      ],
+      "text": "Todo esto lo que nos enseña es...",
+      "meanP": 0.88,
+      "suspect": false,
+      "pauseBefore": 1.33
+    },
+    {
+      "id": 15,
+      "start": 38.82,
+      "end": 40.08,
+      "islands": [
+        20
+      ],
+      "text": "A no tomarnos.",
+      "meanP": 0.76,
+      "suspect": false,
+      "pauseBefore": 0.36
+    },
+    {
+      "id": 16,
+      "start": 40.47,
+      "end": 41.18,
+      "islands": [
+        21
+      ],
+      "text": "Nuestros tiempos.",
+      "meanP": 0.88,
+      "suspect": false,
+      "pauseBefore": 0.39
+    },
+    {
+      "id": 17,
+      "start": 41.54,
+      "end": 43.03,
+      "islands": [
+        22
+      ],
+      "text": "A tomarnos nuestro tiempo,",
+      "meanP": 0.78,
+      "suspect": false,
+      "pauseBefore": 0.36
+    },
+    {
+      "id": 18,
+      "start": 43.65,
+      "end": 46.49,
+      "islands": [
+        23
+      ],
+      "text": "Todo esto lo que nos enseña es a tomarnos nuestro tiempo.",
+      "meanP": 0.88,
+      "suspect": false,
+      "pauseBefore": 0.62
+    },
+    {
+      "id": 19,
+      "start": 46.97,
+      "end": 47.44,
+      "islands": [
+        24
+      ],
+      "text": "Ah,",
+      "meanP": 0.87,
+      "suspect": false,
+      "pauseBefore": 0.48
+    },
+    {
+      "id": 20,
+      "start": 48.1,
+      "end": 52.24,
+      "islands": [
+        25,
+        26
+      ],
+      "text": "Perfeccionar nuestro producto, si no, básicamente, en...",
+      "meanP": 0.61,
+      "suspect": false,
+      "pauseBefore": 0.66
+    }
+  ],
+  "islands": [
+    {
+      "id": 0,
+      "start": 0.99,
+      "end": 3.76,
+      "text": "Y es aquí donde tenemos que entender que no todo cliente,"
+    },
+    {
+      "id": 1,
+      "start": 4.16,
+      "end": 5.82,
+      "text": "Compra al que le llegó primero, le"
+    },
+    {
+      "id": 2,
+      "start": 6.02,
+      "end": 7.63,
+      "text": "compra al que..."
+    },
+    {
+      "id": 3,
+      "start": 8.55,
+      "end": 10.04,
+      "text": "Saigan hasta su confianza,"
+    },
+    {
+      "id": 4,
+      "start": 10.32,
+      "end": 11.19,
+      "text": "sa genera valor."
+    },
+    {
+      "id": 5,
+      "start": 11.8,
+      "end": 12.58,
+      "text": "Siahini darunak."
+    },
+    {
+      "id": 6,
+      "start": 12.92,
+      "end": 13.94,
+      "text": "Percepción de"
+    },
+    {
+      "id": 7,
+      "start": 14.34,
+      "end": 16.63,
+      "text": "De una experiencia diferente, etc."
+    },
+    {
+      "id": 8,
+      "start": 17.12,
+      "end": 17.98,
+      "text": "Por eso,"
+    },
+    {
+      "id": 9,
+      "start": 18.42,
+      "end": 19.97,
+      "text": "Y pregunta"
+    },
+    {
+      "id": 10,
+      "start": 20.26,
+      "end": 21.54,
+      "text": "desde que..."
+    },
+    {
+      "id": 11,
+      "start": 22.11,
+      "end": 23.23,
+      "text": "Y esto fue."
+    },
+    {
+      "id": 12,
+      "start": 24.37,
+      "end": 25.46,
+      "text": "¿Somos los primeros?"
+    },
+    {
+      "id": 13,
+      "start": 25.71,
+      "end": 26.19,
+      "text": ""
+    },
+    {
+      "id": 14,
+      "start": 26.78,
+      "end": 31.28,
+      "text": "Nuestro producto realmente si ofrece una solución, si ofrece un valor."
+    },
+    {
+      "id": 15,
+      "start": 31.63,
+      "end": 31.87,
+      "text": ""
+    },
+    {
+      "id": 16,
+      "start": 32.3,
+      "end": 32.65,
+      "text": "Y"
+    },
+    {
+      "id": 17,
+      "start": 32.87,
+      "end": 34.37,
+      "text": "siquiera, no me gusta Xclaro."
+    },
+    {
+      "id": 18,
+      "start": 34.97,
+      "end": 35.37,
+      "text": ""
+    },
+    {
+      "id": 19,
+      "start": 36.7,
+      "end": 38.46,
+      "text": "Todo esto lo que nos enseña es..."
+    },
+    {
+      "id": 20,
+      "start": 38.82,
+      "end": 40.08,
+      "text": "A no tomarnos."
+    },
+    {
+      "id": 21,
+      "start": 40.47,
+      "end": 41.18,
+      "text": "Nuestros tiempos."
+    },
+    {
+      "id": 22,
+      "start": 41.54,
+      "end": 43.03,
+      "text": "A tomarnos nuestro tiempo,"
+    },
+    {
+      "id": 23,
+      "start": 43.65,
+      "end": 46.49,
+      "text": "Todo esto lo que nos enseña es a tomarnos nuestro tiempo."
+    },
+    {
+      "id": 24,
+      "start": 46.97,
+      "end": 47.44,
+      "text": "Ah,"
+    },
+    {
+      "id": 25,
+      "start": 48.1,
+      "end": 48.85,
+      "text": "Perfeccionar"
+    },
+    {
+      "id": 26,
+      "start": 49.06,
+      "end": 52.24,
+      "text": "nuestro producto, si no, básicamente, en..."
+    }
+  ],
+  "words": [
+    {
+      "text": "Y",
+      "anchor": 1.05,
+      "p": 0.632,
+      "island": 0,
+      "phrase": 0,
+      "start": 0.99,
+      "end": 1.05
+    },
+    {
+      "text": "es",
+      "anchor": 1.17,
+      "p": 0.971,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.05,
+      "end": 1.171
+    },
+    {
+      "text": "aquí",
+      "anchor": 1.35,
+      "p": 0.963,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.171,
+      "end": 1.412
+    },
+    {
+      "text": "donde",
+      "anchor": 1.53,
+      "p": 0.918,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.412,
+      "end": 1.713
+    },
+    {
+      "text": "tenemos",
+      "anchor": 1.81,
+      "p": 0.987,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.713,
+      "end": 2.134
+    },
+    {
+      "text": "que",
+      "anchor": 1.99,
+      "p": 0.992,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.134,
+      "end": 2.315
+    },
+    {
+      "text": "entender",
+      "anchor": 2.31,
+      "p": 0.995,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.315,
+      "end": 2.797
+    },
+    {
+      "text": "que",
+      "anchor": 2.61,
+      "p": 0.574,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.797,
+      "end": 2.977
+    },
+    {
+      "text": "no",
+      "anchor": 2.91,
+      "p": 0.668,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.977,
+      "end": 3.098
+    },
+    {
+      "text": "todo",
+      "anchor": 3.09,
+      "p": 0.967,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.098,
+      "end": 3.338
+    },
+    {
+      "text": "cliente,",
+      "anchor": 3.71,
+      "p": 0.36,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.338,
+      "end": 3.76
+    },
+    {
+      "text": "Compra",
+      "anchor": 4.58,
+      "p": 0.433,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.16,
+      "end": 4.529
+    },
+    {
+      "text": "al",
+      "anchor": 4.9,
+      "p": 0.968,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.529,
+      "end": 4.652
+    },
+    {
+      "text": "que",
+      "anchor": 5.06,
+      "p": 0.982,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.652,
+      "end": 4.836
+    },
+    {
+      "text": "le",
+      "anchor": 5.18,
+      "p": 0.785,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.836,
+      "end": 4.959
+    },
+    {
+      "text": "llegó",
+      "anchor": 5.38,
+      "p": 0.666,
+      "island": 1,
+      "phrase": 1,
+      "start": 4.959,
+      "end": 5.267
+    },
+    {
+      "text": "primero,",
+      "anchor": 5.74,
+      "p": 0.469,
+      "island": 1,
+      "phrase": 1,
+      "start": 5.267,
+      "end": 5.697
+    },
+    {
+      "text": "le",
+      "anchor": 6.12,
+      "p": 0.819,
+      "island": 1,
+      "phrase": 1,
+      "start": 5.697,
+      "end": 5.82
+    },
+    {
+      "text": "compra",
+      "anchor": 6.58,
+      "p": 0.853,
+      "island": 2,
+      "phrase": 1,
+      "start": 6.02,
+      "end": 6.898
+    },
+    {
+      "text": "al",
+      "anchor": 7.08,
+      "p": 0.983,
+      "island": 2,
+      "phrase": 1,
+      "start": 6.898,
+      "end": 7.191
+    },
+    {
+      "text": "que...",
+      "anchor": 7.32,
+      "p": 0.363,
+      "island": 2,
+      "phrase": 1,
+      "start": 7.191,
+      "end": 7.63
+    },
+    {
+      "text": "Saigan",
+      "anchor": 8.93,
+      "p": 0.33,
+      "island": 3,
+      "phrase": 2,
+      "start": 8.55,
+      "end": 8.956
+    },
+    {
+      "text": "hasta",
+      "anchor": 9.15,
+      "p": 0.358,
+      "island": 3,
+      "phrase": 2,
+      "start": 8.956,
+      "end": 9.295
+    },
+    {
+      "text": "su",
+      "anchor": 9.33,
+      "p": 0.975,
+      "island": 3,
+      "phrase": 2,
+      "start": 9.295,
+      "end": 9.43
+    },
+    {
+      "text": "confianza,",
+      "anchor": 9.93,
+      "p": 0.795,
+      "island": 3,
+      "phrase": 2,
+      "start": 9.43,
+      "end": 10.04
+    },
+    {
+      "text": "sa",
+      "anchor": 10.39,
+      "p": 0.775,
+      "island": 4,
+      "phrase": 2,
+      "start": 10.32,
+      "end": 10.454
+    },
+    {
+      "text": "genera",
+      "anchor": 10.81,
+      "p": 0.273,
+      "island": 4,
+      "phrase": 2,
+      "start": 10.454,
+      "end": 10.855
+    },
+    {
+      "text": "valor.",
+      "anchor": 11.09,
+      "p": 0.724,
+      "island": 4,
+      "phrase": 2,
+      "start": 10.855,
+      "end": 11.19
+    },
+    {
+      "text": "Siahini",
+      "anchor": 12.06,
+      "p": 0.043,
+      "island": 5,
+      "phrase": 3,
+      "start": 11.8,
+      "end": 12.19
+    },
+    {
+      "text": "darunak.",
+      "anchor": 12.54,
+      "p": 0.454,
+      "island": 5,
+      "phrase": 3,
+      "start": 12.19,
+      "end": 12.58
+    },
+    {
+      "text": "Percepción",
+      "anchor": 13.54,
+      "p": 0.539,
+      "island": 6,
+      "phrase": 4,
+      "start": 12.92,
+      "end": 13.77
+    },
+    {
+      "text": "de",
+      "anchor": 13.8,
+      "p": 0.975,
+      "island": 6,
+      "phrase": 4,
+      "start": 13.77,
+      "end": 13.94
+    },
+    {
+      "text": "De",
+      "anchor": 14.52,
+      "p": 0.111,
+      "island": 7,
+      "phrase": 5,
+      "start": 14.34,
+      "end": 14.504
+    },
+    {
+      "text": "una",
+      "anchor": 14.94,
+      "p": 0.956,
+      "island": 7,
+      "phrase": 5,
+      "start": 14.504,
+      "end": 14.749
+    },
+    {
+      "text": "experiencia",
+      "anchor": 15.44,
+      "p": 0.86,
+      "island": 7,
+      "phrase": 5,
+      "start": 14.749,
+      "end": 15.649
+    },
+    {
+      "text": "diferente,",
+      "anchor": 15.86,
+      "p": 0.847,
+      "island": 7,
+      "phrase": 5,
+      "start": 15.649,
+      "end": 16.385
+    },
+    {
+      "text": "etc.",
+      "anchor": 16.36,
+      "p": 0.772,
+      "island": 7,
+      "phrase": 5,
+      "start": 16.385,
+      "end": 16.63
+    },
+    {
+      "text": "Por",
+      "anchor": 17.58,
+      "p": 0.64,
+      "island": 8,
+      "phrase": 6,
+      "start": 17.12,
+      "end": 17.55
+    },
+    {
+      "text": "eso,",
+      "anchor": 17.88,
+      "p": 0.398,
+      "island": 8,
+      "phrase": 6,
+      "start": 17.55,
+      "end": 17.98
+    },
+    {
+      "text": "Y",
+      "anchor": 18.84,
+      "p": 0.452,
+      "island": 9,
+      "phrase": 7,
+      "start": 18.42,
+      "end": 18.592
+    },
+    {
+      "text": "pregunta",
+      "anchor": 19.54,
+      "p": 0.705,
+      "island": 9,
+      "phrase": 7,
+      "start": 18.592,
+      "end": 19.97
+    },
+    {
+      "text": "desde",
+      "anchor": 20.92,
+      "p": 0.548,
+      "island": 10,
+      "phrase": 7,
+      "start": 20.26,
+      "end": 21.06
+    },
+    {
+      "text": "que...",
+      "anchor": 21.3,
+      "p": 0.36,
+      "island": 10,
+      "phrase": 7,
+      "start": 21.06,
+      "end": 21.54
+    },
+    {
+      "text": "Y",
+      "anchor": 22.33,
+      "p": 0.608,
+      "island": 11,
+      "phrase": 8,
+      "start": 22.11,
+      "end": 22.25
+    },
+    {
+      "text": "esto",
+      "anchor": 22.67,
+      "p": 0.967,
+      "island": 11,
+      "phrase": 8,
+      "start": 22.25,
+      "end": 22.81
+    },
+    {
+      "text": "fue.",
+      "anchor": 23.01,
+      "p": 0.547,
+      "island": 11,
+      "phrase": 8,
+      "start": 22.81,
+      "end": 23.23
+    },
+    {
+      "text": "¿Somos",
+      "anchor": 24.63,
+      "p": 0.197,
+      "island": 12,
+      "phrase": 9,
+      "start": 24.37,
+      "end": 24.711
+    },
+    {
+      "text": "los",
+      "anchor": 24.77,
+      "p": 0.975,
+      "island": 12,
+      "phrase": 9,
+      "start": 24.711,
+      "end": 24.915
+    },
+    {
+      "text": "primeros?",
+      "anchor": 25.41,
+      "p": 0.556,
+      "island": 12,
+      "phrase": 9,
+      "start": 24.915,
+      "end": 25.46
+    },
+    {
+      "text": "Nuestro",
+      "anchor": 27.22,
+      "p": 0.413,
+      "island": 14,
+      "phrase": 10,
+      "start": 26.78,
+      "end": 27.323
+    },
+    {
+      "text": "producto",
+      "anchor": 27.6,
+      "p": 0.979,
+      "island": 14,
+      "phrase": 10,
+      "start": 27.323,
+      "end": 27.944
+    },
+    {
+      "text": "realmente",
+      "anchor": 28.2,
+      "p": 0.958,
+      "island": 14,
+      "phrase": 10,
+      "start": 27.944,
+      "end": 28.642
+    },
+    {
+      "text": "si",
+      "anchor": 29.16,
+      "p": 0.57,
+      "island": 14,
+      "phrase": 10,
+      "start": 28.642,
+      "end": 28.797
+    },
+    {
+      "text": "ofrece",
+      "anchor": 29.5,
+      "p": 0.995,
+      "island": 14,
+      "phrase": 10,
+      "start": 28.797,
+      "end": 29.263
+    },
+    {
+      "text": "una",
+      "anchor": 29.68,
+      "p": 0.996,
+      "island": 14,
+      "phrase": 10,
+      "start": 29.263,
+      "end": 29.496
+    },
+    {
+      "text": "solución,",
+      "anchor": 30.18,
+      "p": 0.855,
+      "island": 14,
+      "phrase": 10,
+      "start": 29.496,
+      "end": 30.116
+    },
+    {
+      "text": "si",
+      "anchor": 30.36,
+      "p": 0.956,
+      "island": 14,
+      "phrase": 10,
+      "start": 30.116,
+      "end": 30.271
+    },
+    {
+      "text": "ofrece",
+      "anchor": 30.7,
+      "p": 0.998,
+      "island": 14,
+      "phrase": 10,
+      "start": 30.271,
+      "end": 30.737
+    },
+    {
+      "text": "un",
+      "anchor": 30.84,
+      "p": 0.998,
+      "island": 14,
+      "phrase": 10,
+      "start": 30.737,
+      "end": 30.892
+    },
+    {
+      "text": "valor.",
+      "anchor": 31.08,
+      "p": 0.733,
+      "island": 14,
+      "phrase": 10,
+      "start": 30.892,
+      "end": 31.28
+    },
+    {
+      "text": "Y",
+      "anchor": 32.88,
+      "p": 0.847,
+      "island": 16,
+      "phrase": 12,
+      "start": 32.3,
+      "end": 32.65
+    },
+    {
+      "text": "siquiera,",
+      "anchor": 33.16,
+      "p": 0.114,
+      "island": 17,
+      "phrase": 12,
+      "start": 32.87,
+      "end": 33.392
+    },
+    {
+      "text": "no",
+      "anchor": 33.58,
+      "p": 0.801,
+      "island": 17,
+      "phrase": 12,
+      "start": 33.392,
+      "end": 33.522
+    },
+    {
+      "text": "me",
+      "anchor": 33.58,
+      "p": 0.437,
+      "island": 17,
+      "phrase": 12,
+      "start": 33.522,
+      "end": 33.653
+    },
+    {
+      "text": "gusta",
+      "anchor": 33.74,
+      "p": 0.755,
+      "island": 17,
+      "phrase": 12,
+      "start": 33.653,
+      "end": 33.979
+    },
+    {
+      "text": "Xclaro.",
+      "anchor": 34.38,
+      "p": 0.987,
+      "island": 17,
+      "phrase": 12,
+      "start": 33.979,
+      "end": 34.37
+    },
+    {
+      "text": "Todo",
+      "anchor": 36.86,
+      "p": 0.888,
+      "island": 19,
+      "phrase": 14,
+      "start": 36.7,
+      "end": 36.993
+    },
+    {
+      "text": "esto",
+      "anchor": 37.08,
+      "p": 0.973,
+      "island": 19,
+      "phrase": 14,
+      "start": 36.993,
+      "end": 37.287
+    },
+    {
+      "text": "lo",
+      "anchor": 37.24,
+      "p": 0.807,
+      "island": 19,
+      "phrase": 14,
+      "start": 37.287,
+      "end": 37.433
+    },
+    {
+      "text": "que",
+      "anchor": 37.36,
+      "p": 0.998,
+      "island": 19,
+      "phrase": 14,
+      "start": 37.433,
+      "end": 37.653
+    },
+    {
+      "text": "nos",
+      "anchor": 37.5,
+      "p": 0.993,
+      "island": 19,
+      "phrase": 14,
+      "start": 37.653,
+      "end": 37.873
+    },
+    {
+      "text": "enseña",
+      "anchor": 37.98,
+      "p": 0.969,
+      "island": 19,
+      "phrase": 14,
+      "start": 37.873,
+      "end": 38.313
+    },
+    {
+      "text": "es...",
+      "anchor": 38.4,
+      "p": 0.355,
+      "island": 19,
+      "phrase": 14,
+      "start": 38.313,
+      "end": 38.46
+    },
+    {
+      "text": "A",
+      "anchor": 38.98,
+      "p": 0.507,
+      "island": 20,
+      "phrase": 15,
+      "start": 38.82,
+      "end": 38.935
+    },
+    {
+      "text": "no",
+      "anchor": 39.2,
+      "p": 0.951,
+      "island": 20,
+      "phrase": 15,
+      "start": 38.935,
+      "end": 39.164
+    },
+    {
+      "text": "tomarnos.",
+      "anchor": 39.82,
+      "p": 0.502,
+      "island": 20,
+      "phrase": 15,
+      "start": 39.164,
+      "end": 40.08
+    },
+    {
+      "text": "Nuestros",
+      "anchor": 40.79,
+      "p": 0.508,
+      "island": 21,
+      "phrase": 16,
+      "start": 40.47,
+      "end": 40.849
+    },
+    {
+      "text": "tiempos.",
+      "anchor": 41.27,
+      "p": 0.826,
+      "island": 21,
+      "phrase": 16,
+      "start": 40.849,
+      "end": 41.18
+    },
+    {
+      "text": "A",
+      "anchor": 41.6,
+      "p": 0.558,
+      "island": 22,
+      "phrase": 17,
+      "start": 41.54,
+      "end": 41.608
+    },
+    {
+      "text": "tomarnos",
+      "anchor": 42.04,
+      "p": 0.893,
+      "island": 22,
+      "phrase": 17,
+      "start": 41.608,
+      "end": 42.15
+    },
+    {
+      "text": "nuestro",
+      "anchor": 42.38,
+      "p": 0.988,
+      "island": 22,
+      "phrase": 17,
+      "start": 42.15,
+      "end": 42.624
+    },
+    {
+      "text": "tiempo,",
+      "anchor": 42.84,
+      "p": 0.256,
+      "island": 22,
+      "phrase": 17,
+      "start": 42.624,
+      "end": 43.03
+    },
+    {
+      "text": "Todo",
+      "anchor": 43.73,
+      "p": 0.721,
+      "island": 23,
+      "phrase": 18,
+      "start": 43.65,
+      "end": 43.897
+    },
+    {
+      "text": "esto",
+      "anchor": 43.93,
+      "p": 0.963,
+      "island": 23,
+      "phrase": 18,
+      "start": 43.897,
+      "end": 44.144
+    },
+    {
+      "text": "lo",
+      "anchor": 44.07,
+      "p": 0.612,
+      "island": 23,
+      "phrase": 18,
+      "start": 44.144,
+      "end": 44.267
+    },
+    {
+      "text": "que",
+      "anchor": 44.15,
+      "p": 0.998,
+      "island": 23,
+      "phrase": 18,
+      "start": 44.267,
+      "end": 44.453
+    },
+    {
+      "text": "nos",
+      "anchor": 44.31,
+      "p": 0.965,
+      "island": 23,
+      "phrase": 18,
+      "start": 44.453,
+      "end": 44.638
+    },
+    {
+      "text": "enseña",
+      "anchor": 44.79,
+      "p": 0.974,
+      "island": 23,
+      "phrase": 18,
+      "start": 44.638,
+      "end": 45.008
+    },
+    {
+      "text": "es",
+      "anchor": 45.01,
+      "p": 0.97,
+      "island": 23,
+      "phrase": 18,
+      "start": 45.008,
+      "end": 45.132
+    },
+    {
+      "text": "a",
+      "anchor": 45.13,
+      "p": 0.966,
+      "island": 23,
+      "phrase": 18,
+      "start": 45.132,
+      "end": 45.193
+    },
+    {
+      "text": "tomarnos",
+      "anchor": 45.63,
+      "p": 0.522,
+      "island": 23,
+      "phrase": 18,
+      "start": 45.193,
+      "end": 45.687
+    },
+    {
+      "text": "nuestro",
+      "anchor": 45.87,
+      "p": 0.903,
+      "island": 23,
+      "phrase": 18,
+      "start": 45.687,
+      "end": 46.12
+    },
+    {
+      "text": "tiempo.",
+      "anchor": 46.35,
+      "p": 0.813,
+      "island": 23,
+      "phrase": 18,
+      "start": 46.12,
+      "end": 46.49
+    },
+    {
+      "text": "Ah,",
+      "anchor": 47.19,
+      "p": 0.803,
+      "island": 24,
+      "phrase": 19,
+      "start": 46.97,
+      "end": 47.44
+    },
+    {
+      "text": "Perfeccionar",
+      "anchor": 48.72,
+      "p": 0.186,
+      "island": 25,
+      "phrase": 20,
+      "start": 48.1,
+      "end": 48.85
+    },
+    {
+      "text": "nuestro",
+      "anchor": 49.34,
+      "p": 0.53,
+      "island": 26,
+      "phrase": 20,
+      "start": 49.06,
+      "end": 49.756
+    },
+    {
+      "text": "producto,",
+      "anchor": 50.06,
+      "p": 0.498,
+      "island": 26,
+      "phrase": 20,
+      "start": 49.756,
+      "end": 50.551
+    },
+    {
+      "text": "si",
+      "anchor": 50.48,
+      "p": 0.198,
+      "island": 26,
+      "phrase": 20,
+      "start": 50.551,
+      "end": 50.749
+    },
+    {
+      "text": "no,",
+      "anchor": 50.68,
+      "p": 0.197,
+      "island": 26,
+      "phrase": 20,
+      "start": 50.749,
+      "end": 50.948
+    },
+    {
+      "text": "básicamente,",
+      "anchor": 51.36,
+      "p": 0.56,
+      "island": 26,
+      "phrase": 20,
+      "start": 50.948,
+      "end": 52.041
+    },
+    {
+      "text": "en...",
+      "anchor": 52.22,
+      "p": 0.016,
+      "island": 26,
+      "phrase": 20,
+      "start": 52.041,
+      "end": 52.24
+    }
+  ]
+}

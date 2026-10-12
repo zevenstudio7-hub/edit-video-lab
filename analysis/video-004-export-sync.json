@@ -1,0 +1,88 @@
+{
+  "createdAt": "2026-10-11T04:43:55.026Z",
+  "render": "/Volumes/YeiRodriguez/Projects IA/gemini-video-lab/out/Video004.mp4",
+  "destino": "/Volumes/YeiRodriguez/Projects IA/gemini-video-lab/formatos/edit-3-organico/VIDEO-004-nadie-esta-preparado/exportaciones/Video004V3.mp4",
+  "modo": "sin pérdida, solo la lista de edición",
+  "audio": {
+    "codec": "AAC-LC",
+    "frecuencia": 48000,
+    "canales": 2,
+    "tramas": 3160,
+    "muestras": 3235840,
+    "listaDeEdicionAntes": [
+      {
+        "segment": 67414,
+        "mediaTime": 0,
+        "rate": 1
+      }
+    ]
+  },
+  "cebado": {
+    "muestras": 2048,
+    "metodo": "ffmpeg de Remotion 4.0.438: libfdk_aac → ADTS → MP4 retrasa 2048 muestras; libfdk_aac directo a MP4 escribe media_time 2048",
+    "ffmpeg": "/Volumes/YeiRodriguez/Projects IA/gemini-video-lab/node_modules/.pnpm/@remotion+compositor-darwin-x64@4.0.438/node_modules/@remotion/compositor-darwin-x64/ffmpeg"
+  },
+  "tramoCebado": {
+    "pico_dBFS": -57.9,
+    "siguientes100ms_dBFS": -21.2,
+    "relleno": true
+  },
+  "desfaseAntes": null,
+  "salida": {
+    "muestrasPresentadas": 3233280,
+    "listaDeEdicion": [
+      {
+        "segment": 67360,
+        "mediaTime": 2048,
+        "rate": 1
+      }
+    ],
+    "escalaPelicula": 1000
+  },
+  "verificacion": [
+    {
+      "nombre": "lista de edición del audio con el salto de cebado",
+      "ok": true,
+      "detalle": "media_time 2048 muestras, 67360 en la escala de la película (1000)"
+    },
+    {
+      "nombre": "paquetes de vídeo idénticos (MD5)",
+      "ok": true,
+      "detalle": "ea5190cfe0ae661e9ee8a21b690d1fc9"
+    },
+    {
+      "nombre": "paquetes de audio idénticos (MD5)",
+      "ok": true,
+      "detalle": "132e0774624d152ba89a2d5a0e0a8c49"
+    },
+    {
+      "nombre": "solo cambian la lista de edición y las duraciones",
+      "ok": true,
+      "detalle": "4 bytes"
+    },
+    {
+      "nombre": "audio decodificado = original adelantado el cebado",
+      "ok": true,
+      "detalle": "diferencia máxima 0 en 3233280 muestras; dura 67.360 s"
+    },
+    {
+      "nombre": "sonoridad igual",
+      "ok": true,
+      "detalle": "-16.4 → -16.4 LUFS, LRA 3.8 → 3.7 LU, pico real -0.5 → -0.5 dBFS"
+    }
+  ],
+  "sonoridad": {
+    "antes": {
+      "I": -16.4,
+      "LRA": 3.8,
+      "TP": -0.5
+    },
+    "despues": {
+      "I": -16.4,
+      "LRA": 3.7,
+      "TP": -0.5
+    }
+  },
+  "desfaseDespues": null,
+  "ok": true
+}

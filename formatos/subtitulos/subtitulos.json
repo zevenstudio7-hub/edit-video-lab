@@ -1,0 +1,659 @@
+{
+  "version": 1,
+  "definido": "2026-10-09",
+  "descripcion": "Catálogo de estilos de subtítulos S1–S9. Fichas legibles en SUBTITULOS.md. Medidas en px a 1080×1920 salvo S8 (1920×1080). Solo S1 está aprobado; el resto son candidatos y sus valores son puntos de partida.",
+  "regla": "La orden declara EDIT_TYPE, variante y subtitulos. Sin subtitulos, rige el por defecto de la variante. El bloque `cambios` de la orden prevalece. En #edit-5-creator, tipografía y colores pueden salir del perfil; la forma del estilo no cambia.",
+  "area_segura": {
+    "reels_organico": {
+      "x": [
+        65,
+        1015
+      ],
+      "y": [
+        250,
+        1500
+      ],
+      "columna_iconos": "nada a la derecha de x = 940 por debajo de y = 1000"
+    },
+    "anuncio_meta": {
+      "arriba": "14%",
+      "abajo": "35%",
+      "lados": "6%",
+      "en_1080x1920": {
+        "x": [
+          65,
+          1015
+        ],
+        "y": [
+          269,
+          1248
+        ]
+      }
+    }
+  },
+  "por_variante": {
+    "1A": {
+      "defecto": "S1",
+      "alternativas": [
+        "S3"
+      ]
+    },
+    "1B": {
+      "defecto": "S4",
+      "alternativas": [
+        "S1"
+      ]
+    },
+    "1C": {
+      "defecto": "S1+S4",
+      "alternativas": [
+        "S3"
+      ]
+    },
+    "2A": {
+      "defecto": "S1",
+      "alternativas": [
+        "S6"
+      ]
+    },
+    "2B": {
+      "defecto": "S6",
+      "alternativas": [
+        "S1"
+      ]
+    },
+    "3A": {
+      "defecto": "S6",
+      "alternativas": [
+        "S2"
+      ]
+    },
+    "3B": {
+      "defecto": "S6",
+      "alternativas": [
+        "S8"
+      ]
+    },
+    "3C": {
+      "defecto": "S8",
+      "alternativas": [
+        "S6"
+      ]
+    },
+    "4A": {
+      "defecto": "S7",
+      "alternativas": [
+        "S1"
+      ]
+    },
+    "4B": {
+      "defecto": "S7",
+      "alternativas": [
+        "S1"
+      ]
+    },
+    "4C": {
+      "defecto": "S3",
+      "alternativas": [
+        "S7"
+      ]
+    },
+    "5A": {
+      "defecto": "S2",
+      "alternativas": [
+        "S5"
+      ]
+    },
+    "5B": {
+      "defecto": "S3",
+      "alternativas": [
+        "S2"
+      ]
+    },
+    "5C": {
+      "defecto": "S2",
+      "alternativas": [
+        "S6"
+      ]
+    },
+    "5D": {
+      "defecto": "S9",
+      "alternativas": [
+        "S5"
+      ]
+    }
+  },
+  "estilos": {
+    "S1": {
+      "nombre": "Lectura + énfasis",
+      "estado": "aprobado",
+      "aprobado_en": "VIDEO-001 (Video001V5.mp4, 2026-10-04)",
+      "receta": "library/recipes/TypeCaptions.tsx (variant texture)",
+      "textos_md": null,
+      "fuente": {
+        "lectura": {
+          "familia": "Inter Tight",
+          "peso": 800
+        },
+        "enfasis": {
+          "familia": "Inter Tight",
+          "peso": 900
+        }
+      },
+      "tamano_px": {
+        "lectura": 66,
+        "enfasis": [
+          96,
+          128,
+          160
+        ]
+      },
+      "interlineado": {
+        "lectura": 1.08,
+        "enfasis": 0.9
+      },
+      "tracking": {
+        "lectura": "-0.015em",
+        "enfasis": "-0.045em"
+      },
+      "color": {
+        "lectura": "#FFFFFF",
+        "enfasis": [
+          "#FFFFFF",
+          "textura rosa #f4c0ca",
+          "textura roja #ff4b2e"
+        ]
+      },
+      "sombra": {
+        "lectura": "0 2px 3px rgba(0,0,0,.55), 0 6px 22px rgba(0,0,0,.5)",
+        "enfasis": "drop-shadow(0 6px 16px rgba(0,0,0,.45))"
+      },
+      "posicion": {
+        "lectura_centro_y": 1438,
+        "enfasis_base_y": 1480,
+        "x": [
+          65,
+          940
+        ]
+      },
+      "palabras_por_bloque": {
+        "lectura": [
+          2,
+          4
+        ],
+        "enfasis_lineas": [
+          1,
+          3
+        ]
+      },
+      "entrada": {
+        "lectura": "aparición 6 f",
+        "enfasis": "cada línea sube 34 px con muelle, escalonada 3 f"
+      },
+      "salida": "corte duro",
+      "palabra_clave": "el énfasis sustituye a la lectura en sus palabras (≈ uno cada 12 s)",
+      "variaciones": [
+        "énfasis 1 línea",
+        "énfasis 2 líneas",
+        "énfasis 3 líneas",
+        "tonos blanco/rosa/rojo"
+      ],
+      "cuando": [
+        "1A",
+        "1C",
+        "2A",
+        "alternativa en 1B, 2B, 4A, 4B"
+      ],
+      "cuando_no": [
+        "16:9",
+        "pantalla protagonista en la zona baja",
+        "marca de un cliente"
+      ]
+    },
+    "S2": {
+      "nombre": "Palabra a palabra",
+      "estado": "candidato",
+      "referencia": "creator-1 (video 3)",
+      "textos_md": "caption-palabra",
+      "fuente": {
+        "familia": "Inter Tight (o perfil.fuente.lectura)",
+        "peso": 700
+      },
+      "tamano_px": [
+        64,
+        84
+      ],
+      "tamano_partida_px": 76,
+      "tracking": "-0.02em",
+      "color": "#FFFFFF",
+      "sombra": "0 4px 20px rgba(0,0,0,.5)",
+      "caja": false,
+      "posicion": {
+        "centro_y": [
+          1000,
+          1100
+        ],
+        "x": "centrado"
+      },
+      "palabras_por_bloque": [
+        1,
+        3
+      ],
+      "entrada": "corte duro; mínimo 6 f por bloque",
+      "salida": "corte duro",
+      "palabra_clave": "color de acento del perfil (por defecto #F5C518)",
+      "variaciones": [
+        "1 palabra",
+        "2–3 palabras"
+      ],
+      "cuando": [
+        "5A",
+        "5C",
+        "alternativa en 3A, 5B"
+      ],
+      "cuando_no": [
+        "motion o captura en el centro",
+        "explicaciones lentas y largas"
+      ]
+    },
+    "S3": {
+      "nombre": "Gancho + lectura",
+      "estado": "candidato",
+      "referencia": "texto-1-captions-grandes (video 3)",
+      "textos_md": [
+        "gancho-apilado",
+        "caption-palabra",
+        "titular-mixto"
+      ],
+      "gancho": {
+        "fuente": "sans 900 mayúsculas (Inter Tight 900 / Anton / perfil.fuente.hook) + última línea Instrument Serif",
+        "tamano_px": [
+          150,
+          190
+        ],
+        "interlineado": 0.95,
+        "tracking": "-0.04em",
+        "posicion": "izquierda, y 700–1300, justificado al ancho útil",
+        "lineas": [
+          2,
+          4
+        ],
+        "duracion_s": [
+          1,
+          3
+        ],
+        "entrada": "líneas apiladas una a una con desenfoque (10 f)"
+      },
+      "lectura": "como S2",
+      "titular": {
+        "contexto_px": 64,
+        "clave_px": [
+          130,
+          160
+        ],
+        "clave_color": "#F4EFC8",
+        "matiz_px": 52,
+        "matiz_fuente": "Instrument Serif italic",
+        "posicion_y": [
+          1000,
+          1200
+        ],
+        "entrada": "contexto → clave con pop (+4 f) → matiz (+10 f)"
+      },
+      "sombra": "0 8px 30px rgba(0,0,0,.45)",
+      "palabra_clave": "línea serif del gancho; titular de tres niveles en las ideas clave",
+      "variaciones": [
+        "gancho 2/3/4 líneas",
+        "última línea serif redonda o cursiva"
+      ],
+      "cuando": [
+        "4C",
+        "5B",
+        "alternativa en 1A, 1C, 5A"
+      ],
+      "cuando_no": [
+        "tutoriales",
+        "piezas sobrias",
+        "más de un gancho por video"
+      ]
+    },
+    "S4": {
+      "nombre": "Titular de escena",
+      "estado": "candidato",
+      "referencia": "VIDEO-002 (src/compositions/video002/band.tsx)",
+      "textos_md": null,
+      "fuente": {
+        "familia": "Inter Tight",
+        "peso": 900
+      },
+      "tamano_px": [
+        96,
+        128,
+        160
+      ],
+      "color": [
+        "#FFFFFF",
+        "textura rosa",
+        "textura roja"
+      ],
+      "fondo": "franja negra sólida (ink), borde en y = 1180",
+      "posicion": {
+        "titular_base_y": 1480,
+        "lectura_centro_y": 1438
+      },
+      "entrada": "sale de la franja con ella",
+      "salida": "se hunde en la franja con desenfoque de movimiento al cambiar de escena",
+      "palabra_clave": "el titular es la clave; sin lectura duplicada",
+      "variaciones": [
+        "titular solo",
+        "titular + lectura breve"
+      ],
+      "cuando": [
+        "1B",
+        "parte de motion de 1C"
+      ],
+      "cuando_no": [
+        "sobre el presentador"
+      ]
+    },
+    "S5": {
+      "nombre": "Cursiva editorial",
+      "estado": "candidato",
+      "referencia": "texto-2-cursiva-editorial",
+      "textos_md": "cursiva-editorial",
+      "fuente": {
+        "familia": "Instrument Serif italic (o sans 300 cursiva)",
+        "peso": 400
+      },
+      "tamano_px": [
+        70,
+        210
+      ],
+      "proporcion": "1:3",
+      "color": "#FFFFFF; la mayor con degradado #FFFFFF → #C9CDD3",
+      "sombra": "0 4px 24px rgba(0,0,0,.35)",
+      "posicion": "alrededor del rostro, en los espacios libres a sus lados (regla_posicion_segun_sujeto); margen ≥ 8 % del borde",
+      "palabras_por_bloque": [
+        1,
+        3
+      ],
+      "entrada": "desenfoque 14 f; la mayor sube 60 px → 0",
+      "salida": "juntas",
+      "palabra_clave": "la mayor, con degradado",
+      "variaciones": [
+        "2 palabras",
+        "3 palabras",
+        "diagonal",
+        "marco"
+      ],
+      "cuando": [
+        "anuncios",
+        "marca personal",
+        "alternativa en 5A, 5D"
+      ],
+      "cuando_no": [
+        "lectura continua",
+        "tutoriales"
+      ]
+    },
+    "S6": {
+      "nombre": "Discreto",
+      "estado": "candidato",
+      "textos_md": "caption-pequeno-negrita",
+      "fuente": {
+        "familia": "Inter Tight",
+        "peso": 700
+      },
+      "tamano_px": [
+        40,
+        46
+      ],
+      "tamano_partida_px": 44,
+      "color": "#FFFFFF",
+      "sombra": "0 2px 10px rgba(0,0,0,.6)",
+      "posicion": {
+        "pantalla_completa_centro_y": [
+          1380,
+          1440
+        ],
+        "partido_centro_y": [
+          1000,
+          1110
+        ]
+      },
+      "palabras_por_bloque": [
+        3,
+        6
+      ],
+      "entrada": "corte duro; píldora con pop 6 f",
+      "salida": "corte duro",
+      "palabra_clave": "píldora blanca radio 12 px, texto #17171D",
+      "variaciones": [
+        "con píldora",
+        "sin píldora"
+      ],
+      "cuando": [
+        "2B",
+        "3A",
+        "3B",
+        "alternativa en 2A, 3C, 5C"
+      ],
+      "cuando_no": [
+        "ganchos",
+        "anuncios"
+      ]
+    },
+    "S7": {
+      "nombre": "Corporativo",
+      "estado": "candidato (nuevo, para Business)",
+      "textos_md": null,
+      "fuente": {
+        "familia": "marca del cliente; sin ella Inter Tight",
+        "lectura_peso": 600,
+        "rotulo_pesos": [
+          700,
+          500
+        ]
+      },
+      "tamano_px": {
+        "lectura": 54,
+        "rotulo_nombre": 44,
+        "rotulo_cargo": 32
+      },
+      "interlineado": 1.15,
+      "color": {
+        "lectura": "#FFFFFF",
+        "acento": "color primario del cliente (por defecto #0057FF)"
+      },
+      "sombra": "0 2px 12px rgba(0,0,0,.45)",
+      "posicion": {
+        "lectura_centro_y": 1400,
+        "lectura_centro_y_anuncio": 1240,
+        "rotulo": "x 65, y 1180–1300, barra vertical 6 px"
+      },
+      "palabras_por_bloque": [
+        3,
+        6
+      ],
+      "entrada": {
+        "lectura": "fundido 4 f",
+        "rotulo": "desliza 40 px desde la izquierda en 12 f; se queda 3–4 s"
+      },
+      "salida": "igual que la entrada",
+      "palabra_clave": "color de la marca, mismo peso",
+      "variaciones": [
+        "con rótulo",
+        "solo lectura",
+        "lectura + logo en esquina"
+      ],
+      "cuando": [
+        "4A",
+        "4B",
+        "alternativa en 4C"
+      ],
+      "cuando_no": [
+        "marca personal",
+        "creator"
+      ]
+    },
+    "S8": {
+      "nombre": "Flotante cinematográfico",
+      "estado": "candidato (nuevo, video 1)",
+      "lienzo": "1920x1080",
+      "referencia_interna": "formatos/edit-3-organico/referencias/analisis/v1-organico-h.jpg, v1-zoom.png",
+      "fuente": {
+        "familia": "Inter (equivalente de Helvetica Neue Light)",
+        "peso": 300,
+        "clave_peso": 700
+      },
+      "tamano_px": 44,
+      "tamano_nota": "3–4 % de la altura del cuadro; por medir en la muestra",
+      "color": "#FFFFFF",
+      "sombra": "0 2px 14px rgba(0,0,0,.45)",
+      "caja": false,
+      "posicion": {
+        "regla": "la fija el sujeto: dos espacios libres a sus lados, a la altura de su cabeza; bloque centrado dentro del espacio; nunca pegado a los costados ni sobre la cara",
+        "y_pct_centro": {
+          "plano_general": 24,
+          "plano_medio_o_cerrado": [
+            37,
+            39
+          ]
+        },
+        "margen_borde_pct_ancho": 8,
+        "separacion_sujeto_pct_ancho": 3
+      },
+      "palabras_por_bloque": [
+        2,
+        6
+      ],
+      "entrada": "acumulativa palabra a palabra al ritmo de la voz (fundido 3 f); se reinicia en cada frase",
+      "salida": "corte al empezar la frase siguiente",
+      "palabra_clave": "misma familia y tamaño en 700",
+      "variaciones": [
+        "en el hueco (frase entera en uno de los dos espacios)",
+        "partido (una pieza en cada espacio, misma altura)",
+        "apilado (2 líneas dentro de un solo espacio)"
+      ],
+      "cuando": [
+        "3C",
+        "alternativa en 3B"
+      ],
+      "cuando_no": [
+        "9:16 sin hueco",
+        "ritmo alto"
+      ]
+    },
+    "S9": {
+      "nombre": "Serif editorial",
+      "estado": "candidato (nuevo, video 2)",
+      "referencia_interna": "formatos/edit-5-creator/referencias/analisis/v2-creator_0-24.jpg, v2-creator_24-44.jpg, v2-zoom.png",
+      "fuente": {
+        "serif": "Instrument Serif (redonda + cursiva)",
+        "caligrafica": "Pinyon Script",
+        "licencia": "OFL esperada, sin verificar"
+      },
+      "color": [
+        "#F4EFC8",
+        "#FFFFFF"
+      ],
+      "sombra": "0 4px 24px rgba(0,0,0,.25)",
+      "caja": false,
+      "usos": {
+        "pantalla_llena": {
+          "tamano_px": [
+            240,
+            420
+          ],
+          "interlineado": 0.78,
+          "posicion": "todo el ancho, x 40–1040",
+          "palabras": [
+            4,
+            7
+          ],
+          "entrada": "de golpe",
+          "para": "gancho y remate"
+        },
+        "cascada": {
+          "tamano_px": [
+            72,
+            96
+          ],
+          "posicion": "diagonal descendente en la zona libre",
+          "palabras": [
+            1,
+            6
+          ],
+          "entrada": "cada palabra al decirse, en su posición; se quedan hasta el final de la frase"
+        },
+        "bloque_apretado": {
+          "tamano_px": [
+            110,
+            150
+          ],
+          "interlineado": 0.72,
+          "posicion": "tercio superior o hueco del plano",
+          "palabras": [
+            2,
+            5
+          ],
+          "entrada": "fundido escalonado 3 f"
+        },
+        "palabra_caligrafica": {
+          "tamano_px": [
+            200,
+            260
+          ],
+          "posicion_y": [
+            300,
+            600
+          ],
+          "palabras": 1,
+          "entrada": "fundido 8 f"
+        },
+        "lectura_entre_medias": {
+          "tamano_px": [
+            56,
+            64
+          ],
+          "palabras": [
+            1,
+            2
+          ],
+          "posicion": "espacio libre, también abajo sobre el suelo o la mesa"
+        }
+      },
+      "salida": "corte al terminar la frase",
+      "palabra_clave": "cursiva de la misma familia; la palabra-emoción en caligráfica",
+      "cuando": [
+        "5D",
+        "alternativa en 5A"
+      ],
+      "cuando_no": [
+        "tutoriales",
+        "demostraciones",
+        "Business",
+        "fondo claro sin contraste"
+      ]
+    }
+  },
+  "regla_posicion_segun_sujeto": {
+    "texto": "Posición según el sujeto: el sujeto fija dónde va el texto, no los bordes ni el centro del cuadro. En cada plano se miden los dos espacios libres a los lados del sujeto, a la altura de su cabeza, y cada bloque se centra dentro de uno de ellos: a ≥ 3 % del ancho del sujeto y ≥ 8 % del borde del cuadro, nunca pegado a los costados. Los dos bloques de una frase partida van a la misma altura, uno en cada espacio; si el sujeto está descentrado, el texto se descentra con él; al cambiar de encuadre se vuelven a medir.",
+    "margen_borde_pct_ancho": 8,
+    "separacion_sujeto_pct_ancho": 3,
+    "aplica_a": [
+      "S5",
+      "S8",
+      "S9 (cascada)"
+    ],
+    "no_aplica_a": [
+      "S1",
+      "S2",
+      "S4",
+      "S6",
+      "S7",
+      "S9 (pantalla llena)",
+      "S3 (gancho)"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "commit": "486cb14f2d95854c1fe8f5b70a17644378db6a2f",
+  "recipes": [
+    "chunk-captions",
+    "cut-sequence"
+  ],
+  "captionTiming": "Editorial subdivisions of existing Gemini phrase timestamps; not forced alignment.",
+  "previousDurationInFrames": 3785,
+  "removedFrames": 37,
+  "removed": [
+    {
+      "scene": 1,
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 2.2,
+      "endTime": 2.533333333333333,
+      "durationSeconds": 0.3333333333333333,
+      "detectedPause": {
+        "startTime": 2.1,
+        "endTime": 2.64
+      }
+    },
+    {
+      "scene": 2,
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 26.366666666666667,
+      "endTime": 26.533333333333335,
+      "durationSeconds": 0.16666666666666666,
+      "detectedPause": {
+        "startTime": 26.240000000000002,
+        "endTime": 26.64
+      }
+    },
+    {
+      "scene": 2,
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "startTime": 29.766666666666666,
+      "endTime": 30.1,
+      "durationSeconds": 0.3333333333333333,
+      "detectedPause": {
+        "startTime": 29.66,
+        "endTime": 30.12
+      }
+    },
+    {
+      "scene": 6,
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "startTime": 45,
+      "endTime": 45.06666666666667,
+      "durationSeconds": 0.06666666666666667,
+      "detectedPause": {
+        "startTime": 44.38,
+        "endTime": 45.18
+      }
+    },
+    {
+      "scene": 14,
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "startTime": 29.5,
+      "endTime": 29.833333333333332,
+      "durationSeconds": 0.3333333333333333,
+      "detectedPause": {
+        "startTime": 29.52,
+        "endTime": 29.96
+      }
+    }
+  ],
+  "method": "Reuse measured RMS pauses; 100ms protection; refine remaining pause cores and leading/trailing edit edges."
+}

@@ -1,0 +1,160 @@
+{
+  "sourceFile": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+  "durationSeconds": 53.8,
+  "transcript": "Pero mi parte favorita es esta. Samsung acaba de lanzar el nuevo iPhone Duo. Y Apple acaba de lanzar el nuevo Samsung Duo, así que mi parte favorita es esta. Porque eh Samsung al ver esto pues obviamente... Y Samsung que lleva años haciendo teléfonos plegables que tiene todos los argumentos para decir nosotros estuvimos primero. Y de hecho en la cuenta de Samsung Mobile MX responde o repostea un tuit, un tuit de 2019 cuando lanzaron su Samsung Galaxy plegable. Así que ellos respondieron y básicamente con la foto diciendo nosotros, el mundo es de los que se atreven primero. Nosotros, nos atrevimos hace 7 años.",
+  "timestamps": [
+    {
+      "startTime": 0.8,
+      "endTime": 2.5,
+      "text": "Pero mi parte favorita es esta."
+    },
+    {
+      "startTime": 2.5,
+      "endTime": 5.5,
+      "text": "Samsung acaba de lanzar el nuevo iPhone Duo."
+    },
+    {
+      "startTime": 5.5,
+      "endTime": 8.5,
+      "text": "Y Apple acaba de lanzar el nuevo Samsung Duo,"
+    },
+    {
+      "startTime": 8.5,
+      "endTime": 10.5,
+      "text": "así que mi parte favorita es esta."
+    },
+    {
+      "startTime": 10.5,
+      "endTime": 15,
+      "text": "Porque eh Samsung al ver esto pues obviamente..."
+    },
+    {
+      "startTime": 19,
+      "endTime": 23,
+      "text": "Y Samsung que lleva años haciendo teléfonos plegables,"
+    },
+    {
+      "startTime": 23,
+      "endTime": 27.5,
+      "text": "que tiene todos los argumentos para decir nosotros estuvimos primero."
+    },
+    {
+      "startTime": 27.5,
+      "endTime": 33.5,
+      "text": "Y de hecho en la cuenta de Samsung Mobile MX,"
+    },
+    {
+      "startTime": 33.5,
+      "endTime": 37,
+      "text": "responde o repostea un tuit,"
+    },
+    {
+      "startTime": 37,
+      "endTime": 40,
+      "text": "un tuit de 2019 cuando lanzaron su"
+    },
+    {
+      "startTime": 40,
+      "endTime": 41.5,
+      "text": "Samsung Galaxy plegable."
+    },
+    {
+      "startTime": 41.5,
+      "endTime": 45,
+      "text": "Así que ellos respondieron y básicamente"
+    },
+    {
+      "startTime": 46,
+      "endTime": 47.8,
+      "text": "con la foto,"
+    },
+    {
+      "startTime": 47.8,
+      "endTime": 50,
+      "text": "diciendo nosotros, el mundo es de los que se atreven primero."
+    },
+    {
+      "startTime": 50,
+      "endTime": 53.5,
+      "text": "Nosotros nos atrevimos hace 7 años."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Pero ahora viene mi parte favorita. Apple acaba de presentar su primer iPhone plegable: el iPhone Duo. Y Samsung, que lleva años haciendo teléfonos plegables, tiene todo el argumento para decir: “Nosotros estuvimos aquí primero.”",
+      "match": "Pero mi parte favorita es esta... Y Samsung que lleva años haciendo teléfonos plegables que tiene todos los argumentos para decir nosotros estuvimos primero.",
+      "confidence": 0.45
+    }
+  ],
+  "errors": [
+    "Confusión de marcas y modelos de productos ('Samsung acaba de lanzar el nuevo iPhone Duo', 'Apple acaba de lanzar el nuevo Samsung Duo').",
+    "El video está grabado en orientación lateral (girado 90 grados).",
+    "Desviación severa del guion con improvisaciones y pausas prolongadas."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 2.5,
+      "endTime": 5.5,
+      "reason": "Dice erróneamente que Samsung lanzó el iPhone Duo."
+    },
+    {
+      "startTime": 5.5,
+      "endTime": 8.5,
+      "reason": "Se corrige diciendo que Apple lanzó el Samsung Duo (confusión persistente)."
+    }
+  ],
+  "fluency": {
+    "score": 4,
+    "notes": "Múltiples vacilaciones, tropiezos verbales, repeticiones y lapsos de silencio entre frases."
+  },
+  "audio": {
+    "score": 7.5,
+    "notes": "Voz legible captada por auriculares inalámbricos, aunque existe cierto ruido de fondo continuo."
+  },
+  "visualQuality": {
+    "score": 4,
+    "notes": "Iluminación baja con fuertes tonos de neón azul y rojo. Video grabado en orientación lateral."
+  },
+  "framing": {
+    "score": 3.5,
+    "notes": "Requiere rotación de 90 grados. Encuadre descentrado y mirada fuera de eje."
+  },
+  "expression": {
+    "score": 5,
+    "notes": "Expresión poco convencida debido a las equivocaciones recurrentes con el guion."
+  },
+  "fidelity": {
+    "score": 3,
+    "notes": "No sigue el guion proporcionado, alterando nombres clave e inventando párrafos completos."
+  },
+  "continuity": {
+    "score": 3,
+    "notes": "Fragmentado por largos silencios y falsos inicios."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar la toma completa (REJECT). Se requiere grabar una nueva toma corrigiendo la orientación del video, la iluminación y respetando el guion.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/7sbeqfjzw0y9",
+    "analyzedAt": "2026-10-03T22:53:11.441Z",
+    "sha256": "3df3958d551cbb209c87d312f48900538f39a09d28b8cb7d6a67ea36c35eeaf0",
+    "responseId": "SYfBapLyHpvQz7IPt4GyyQk",
+    "usage": {
+      "promptTokenCount": 5750,
+      "candidatesTokenCount": 1481,
+      "totalTokenCount": 8800,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 4910
+        }
+      ],
+      "thoughtsTokenCount": 1569,
+      "serviceTier": "standard"
+    }
+  }
+}

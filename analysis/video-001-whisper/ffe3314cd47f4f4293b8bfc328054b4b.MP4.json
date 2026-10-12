@@ -1,0 +1,793 @@
+{
+  "sourceFile": "ffe3314cd47f4f4293b8bfc328054b4b.MP4",
+  "sha256": "40a383962c4dfded677e600bbfcc40e7ebb21033330981e3beb1300b2a27adff",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:40:17.145Z",
+    "seconds": 95,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Así que nuestro producto no tiene que ser el producto perfecto, pero si necesitamos construir suficiente confianza y suficientes razones para que cuando lancemos nuestro producto no tenga que tener objeciones, sino que cause la impresión que nosotros queremos que cause.[_TT_1156] La gente quiere comprar, pero le compra a quien generalmente le brinda la confianza, no, quería darle ese mensaje.[_TT_500] Le genera la confianza, la experiencia, una experiencia diferente, le da el sentido de valor a lo que realmente brinda, así que no, quería darle ese mensaje y cuando llegue el iTunes vamos a probarlo aquí.[_TT_1234]",
+  "words": [
+    {
+      "text": "Así",
+      "startMs": 210,
+      "endMs": 370,
+      "dtwMs": 1800,
+      "tokens": 1,
+      "pMin": 0.48
+    },
+    {
+      "text": "que",
+      "startMs": 370,
+      "endMs": 650,
+      "dtwMs": 1940,
+      "tokens": 1,
+      "pMin": 0.983
+    },
+    {
+      "text": "nuestro",
+      "startMs": 650,
+      "endMs": 1300,
+      "dtwMs": 2240,
+      "tokens": 1,
+      "pMin": 0.935
+    },
+    {
+      "text": "producto",
+      "startMs": 1660,
+      "endMs": 2050,
+      "dtwMs": 2620,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "no",
+      "startMs": 2050,
+      "endMs": 2220,
+      "dtwMs": 2980,
+      "tokens": 1,
+      "pMin": 0.982
+    },
+    {
+      "text": "tiene",
+      "startMs": 2220,
+      "endMs": 2700,
+      "dtwMs": 3260,
+      "tokens": 1,
+      "pMin": 0.981
+    },
+    {
+      "text": "que",
+      "startMs": 2700,
+      "endMs": 2980,
+      "dtwMs": 3440,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "ser",
+      "startMs": 2980,
+      "endMs": 3260,
+      "dtwMs": 3780,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "el",
+      "startMs": 3260,
+      "endMs": 3440,
+      "dtwMs": 4360,
+      "tokens": 1,
+      "pMin": 0.964
+    },
+    {
+      "text": "producto",
+      "startMs": 3440,
+      "endMs": 4190,
+      "dtwMs": 4700,
+      "tokens": 1,
+      "pMin": 0.987
+    },
+    {
+      "text": "perfecto,",
+      "startMs": 4190,
+      "endMs": 5350,
+      "dtwMs": 5060,
+      "tokens": 3,
+      "pMin": 0.605
+    },
+    {
+      "text": "pero",
+      "startMs": 5430,
+      "endMs": 5910,
+      "dtwMs": 5680,
+      "tokens": 1,
+      "pMin": 0.906
+    },
+    {
+      "text": "si",
+      "startMs": 5910,
+      "endMs": 6180,
+      "dtwMs": 5940,
+      "tokens": 1,
+      "pMin": 0.557
+    },
+    {
+      "text": "necesitamos",
+      "startMs": 6180,
+      "endMs": 7700,
+      "dtwMs": 7400,
+      "tokens": 2,
+      "pMin": 0.957
+    },
+    {
+      "text": "construir",
+      "startMs": 7700,
+      "endMs": 8200,
+      "dtwMs": 8120,
+      "tokens": 1,
+      "pMin": 0.863
+    },
+    {
+      "text": "suficiente",
+      "startMs": 8200,
+      "endMs": 8910,
+      "dtwMs": 8920,
+      "tokens": 1,
+      "pMin": 0.833
+    },
+    {
+      "text": "confianza",
+      "startMs": 8910,
+      "endMs": 9560,
+      "dtwMs": 9320,
+      "tokens": 2,
+      "pMin": 0.989
+    },
+    {
+      "text": "y",
+      "startMs": 9560,
+      "endMs": 9610,
+      "dtwMs": 9680,
+      "tokens": 1,
+      "pMin": 0.942
+    },
+    {
+      "text": "suficientes",
+      "startMs": 9610,
+      "endMs": 10190,
+      "dtwMs": 9840,
+      "tokens": 3,
+      "pMin": 0.802
+    },
+    {
+      "text": "razones",
+      "startMs": 10190,
+      "endMs": 10580,
+      "dtwMs": 10400,
+      "tokens": 2,
+      "pMin": 0.996
+    },
+    {
+      "text": "para",
+      "startMs": 10580,
+      "endMs": 10870,
+      "dtwMs": 10840,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "que",
+      "startMs": 10870,
+      "endMs": 11090,
+      "dtwMs": 11000,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "cuando",
+      "startMs": 11090,
+      "endMs": 11520,
+      "dtwMs": 11320,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "lancemos",
+      "startMs": 11530,
+      "endMs": 12110,
+      "dtwMs": 12100,
+      "tokens": 2,
+      "pMin": 0.987
+    },
+    {
+      "text": "nuestro",
+      "startMs": 12110,
+      "endMs": 12610,
+      "dtwMs": 12700,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "producto",
+      "startMs": 12620,
+      "endMs": 13240,
+      "dtwMs": 13200,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "no",
+      "startMs": 13240,
+      "endMs": 13480,
+      "dtwMs": 15720,
+      "tokens": 1,
+      "pMin": 0.717
+    },
+    {
+      "text": "tenga",
+      "startMs": 13500,
+      "endMs": 14080,
+      "dtwMs": 15980,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "que",
+      "startMs": 14080,
+      "endMs": 14440,
+      "dtwMs": 16280,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tener",
+      "startMs": 14440,
+      "endMs": 15040,
+      "dtwMs": 16820,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "objeciones,",
+      "startMs": 15040,
+      "endMs": 16490,
+      "dtwMs": 17440,
+      "tokens": 4,
+      "pMin": 0.8
+    },
+    {
+      "text": "sino",
+      "startMs": 16490,
+      "endMs": 16940,
+      "dtwMs": 18340,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "que",
+      "startMs": 16960,
+      "endMs": 17330,
+      "dtwMs": 18540,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "cause",
+      "startMs": 17330,
+      "endMs": 17930,
+      "dtwMs": 19080,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "la",
+      "startMs": 17930,
+      "endMs": 18170,
+      "dtwMs": 19380,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "impresión",
+      "startMs": 18170,
+      "endMs": 19380,
+      "dtwMs": 19580,
+      "tokens": 2,
+      "pMin": 0.992
+    },
+    {
+      "text": "que",
+      "startMs": 19380,
+      "endMs": 19730,
+      "dtwMs": 20020,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "nosotros",
+      "startMs": 19730,
+      "endMs": 20700,
+      "dtwMs": 20340,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "queremos",
+      "startMs": 20700,
+      "endMs": 21680,
+      "dtwMs": 22380,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "que",
+      "startMs": 21680,
+      "endMs": 22040,
+      "dtwMs": 22720,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "cause.[_TT_1156]",
+      "startMs": 22100,
+      "endMs": 23120,
+      "dtwMs": 23100,
+      "tokens": 3,
+      "pMin": 0.418
+    },
+    {
+      "text": "La",
+      "startMs": 23600,
+      "endMs": 23810,
+      "dtwMs": 24300,
+      "tokens": 1,
+      "pMin": 0.815
+    },
+    {
+      "text": "gente",
+      "startMs": 23810,
+      "endMs": 24350,
+      "dtwMs": 24520,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "quiere",
+      "startMs": 24350,
+      "endMs": 24990,
+      "dtwMs": 25020,
+      "tokens": 1,
+      "pMin": 0.872
+    },
+    {
+      "text": "comprar,",
+      "startMs": 24990,
+      "endMs": 25950,
+      "dtwMs": 25540,
+      "tokens": 2,
+      "pMin": 0.767
+    },
+    {
+      "text": "pero",
+      "startMs": 25950,
+      "endMs": 26380,
+      "dtwMs": 27220,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "le",
+      "startMs": 26380,
+      "endMs": 26590,
+      "dtwMs": 27920,
+      "tokens": 1,
+      "pMin": 0.933
+    },
+    {
+      "text": "compra",
+      "startMs": 26590,
+      "endMs": 27230,
+      "dtwMs": 28360,
+      "tokens": 1,
+      "pMin": 0.957
+    },
+    {
+      "text": "a",
+      "startMs": 27230,
+      "endMs": 27330,
+      "dtwMs": 28840,
+      "tokens": 1,
+      "pMin": 0.982
+    },
+    {
+      "text": "quien",
+      "startMs": 27330,
+      "endMs": 27870,
+      "dtwMs": 28920,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "generalmente",
+      "startMs": 27870,
+      "endMs": 29160,
+      "dtwMs": 29380,
+      "tokens": 2,
+      "pMin": 0.955
+    },
+    {
+      "text": "le",
+      "startMs": 29160,
+      "endMs": 29370,
+      "dtwMs": 29960,
+      "tokens": 1,
+      "pMin": 0.985
+    },
+    {
+      "text": "brinda",
+      "startMs": 29370,
+      "endMs": 30010,
+      "dtwMs": 30460,
+      "tokens": 2,
+      "pMin": 0.982
+    },
+    {
+      "text": "la",
+      "startMs": 30010,
+      "endMs": 30220,
+      "dtwMs": 30760,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "confianza,",
+      "startMs": 30220,
+      "endMs": 31500,
+      "dtwMs": 31160,
+      "tokens": 3,
+      "pMin": 0.123
+    },
+    {
+      "text": "no,",
+      "startMs": 31500,
+      "endMs": 31780,
+      "dtwMs": 32120,
+      "tokens": 2,
+      "pMin": 0.712
+    },
+    {
+      "text": "quería",
+      "startMs": 31780,
+      "endMs": 32280,
+      "dtwMs": 32580,
+      "tokens": 1,
+      "pMin": 0.975
+    },
+    {
+      "text": "darle",
+      "startMs": 32280,
+      "endMs": 32640,
+      "dtwMs": 32860,
+      "tokens": 1,
+      "pMin": 0.787
+    },
+    {
+      "text": "ese",
+      "startMs": 32640,
+      "endMs": 32850,
+      "dtwMs": 33060,
+      "tokens": 1,
+      "pMin": 0.534
+    },
+    {
+      "text": "mensaje.[_TT_500]",
+      "startMs": 32850,
+      "endMs": 33600,
+      "dtwMs": 33380,
+      "tokens": 4,
+      "pMin": 0.321
+    },
+    {
+      "text": "Le",
+      "startMs": 33600,
+      "endMs": 33760,
+      "dtwMs": 35720,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "genera",
+      "startMs": 33760,
+      "endMs": 34240,
+      "dtwMs": 36000,
+      "tokens": 2,
+      "pMin": 0.736
+    },
+    {
+      "text": "la",
+      "startMs": 34400,
+      "endMs": 34400,
+      "dtwMs": 36280,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "confianza,",
+      "startMs": 34480,
+      "endMs": 35290,
+      "dtwMs": 36620,
+      "tokens": 3,
+      "pMin": 0.993
+    },
+    {
+      "text": "la",
+      "startMs": 35290,
+      "endMs": 35450,
+      "dtwMs": 37200,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "experiencia,",
+      "startMs": 35520,
+      "endMs": 36500,
+      "dtwMs": 37840,
+      "tokens": 2,
+      "pMin": 0.698
+    },
+    {
+      "text": "una",
+      "startMs": 36500,
+      "endMs": 36740,
+      "dtwMs": 38340,
+      "tokens": 1,
+      "pMin": 0.917
+    },
+    {
+      "text": "experiencia",
+      "startMs": 36740,
+      "endMs": 37630,
+      "dtwMs": 38800,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "diferente,",
+      "startMs": 37630,
+      "endMs": 38500,
+      "dtwMs": 39220,
+      "tokens": 2,
+      "pMin": 0.674
+    },
+    {
+      "text": "le",
+      "startMs": 38520,
+      "endMs": 38680,
+      "dtwMs": 39680,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "da",
+      "startMs": 38680,
+      "endMs": 38840,
+      "dtwMs": 39860,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "el",
+      "startMs": 38840,
+      "endMs": 38990,
+      "dtwMs": 40020,
+      "tokens": 1,
+      "pMin": 0.982
+    },
+    {
+      "text": "sentido",
+      "startMs": 39000,
+      "endMs": 39570,
+      "dtwMs": 40540,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "de",
+      "startMs": 39570,
+      "endMs": 39730,
+      "dtwMs": 41020,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "valor",
+      "startMs": 39730,
+      "endMs": 40130,
+      "dtwMs": 41340,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "a",
+      "startMs": 40130,
+      "endMs": 40210,
+      "dtwMs": 41620,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "lo",
+      "startMs": 40210,
+      "endMs": 40360,
+      "dtwMs": 41760,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "que",
+      "startMs": 40370,
+      "endMs": 40610,
+      "dtwMs": 41940,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "realmente",
+      "startMs": 40610,
+      "endMs": 41340,
+      "dtwMs": 42660,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "brinda,",
+      "startMs": 41340,
+      "endMs": 41980,
+      "dtwMs": 42920,
+      "tokens": 3,
+      "pMin": 0.289
+    },
+    {
+      "text": "así",
+      "startMs": 41980,
+      "endMs": 42300,
+      "dtwMs": 43220,
+      "tokens": 1,
+      "pMin": 0.976
+    },
+    {
+      "text": "que",
+      "startMs": 42300,
+      "endMs": 42540,
+      "dtwMs": 43300,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "no,",
+      "startMs": 42540,
+      "endMs": 42860,
+      "dtwMs": 43420,
+      "tokens": 2,
+      "pMin": 0.517
+    },
+    {
+      "text": "quería",
+      "startMs": 42860,
+      "endMs": 43430,
+      "dtwMs": 43820,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "darle",
+      "startMs": 43430,
+      "endMs": 43830,
+      "dtwMs": 44080,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "ese",
+      "startMs": 43830,
+      "endMs": 44070,
+      "dtwMs": 44260,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "mensaje",
+      "startMs": 44070,
+      "endMs": 44620,
+      "dtwMs": 44640,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "y",
+      "startMs": 44630,
+      "endMs": 44710,
+      "dtwMs": 45600,
+      "tokens": 1,
+      "pMin": 0.886
+    },
+    {
+      "text": "cuando",
+      "startMs": 44710,
+      "endMs": 45190,
+      "dtwMs": 46740,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "llegue",
+      "startMs": 45190,
+      "endMs": 45670,
+      "dtwMs": 46900,
+      "tokens": 2,
+      "pMin": 0.94
+    },
+    {
+      "text": "el",
+      "startMs": 45670,
+      "endMs": 45820,
+      "dtwMs": 47080,
+      "tokens": 1,
+      "pMin": 0.148
+    },
+    {
+      "text": "iTunes",
+      "startMs": 45820,
+      "endMs": 46310,
+      "dtwMs": 47260,
+      "tokens": 1,
+      "pMin": 0.041
+    },
+    {
+      "text": "vamos",
+      "startMs": 46310,
+      "endMs": 46710,
+      "dtwMs": 47620,
+      "tokens": 1,
+      "pMin": 0.793
+    },
+    {
+      "text": "a",
+      "startMs": 46710,
+      "endMs": 46790,
+      "dtwMs": 47840,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "probarlo",
+      "startMs": 46790,
+      "endMs": 47430,
+      "dtwMs": 47900,
+      "tokens": 2,
+      "pMin": 0.936
+    },
+    {
+      "text": "aquí.[_TT_1234]",
+      "startMs": 47430,
+      "endMs": 48280,
+      "dtwMs": 48260,
+      "tokens": 3,
+      "pMin": 0.428
+    }
+  ]
+}

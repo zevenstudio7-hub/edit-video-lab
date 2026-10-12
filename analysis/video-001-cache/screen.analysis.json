@@ -1,0 +1,103 @@
+{
+  "sourceFile": "grabacion-pantalla.mov",
+  "durationSeconds": 439.866667,
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/ov5jbj4dz618",
+    "method": "Segmentación Gemini Files API seguida de selección editorial de ventanas cortas; revisión visual de extremos de las ventanas en el archivo original."
+  },
+  "geminiSegments": [
+    {
+      "startTime": 0,
+      "endTime": 26,
+      "description": "Vista panorámica en lienzo digital mostrando un render conceptual de un iPhone plegable con la etiqueta '2026'.",
+      "guionBlock": "Pero ahora viene mi parte favorita. Apple acaba de presentar su primer iPhone plegable: el iPhone Duo.",
+      "recommendedDuration": 26,
+      "splitScreen": true,
+      "relevance": "high"
+    },
+    {
+      "startTime": 27,
+      "endTime": 66,
+      "description": "Captura de pantalla de una publicación de Samsung Mobile MX respondiendo sobre su liderazgo en teléfonos plegables.",
+      "guionBlock": "Y Samsung, que lleva años haciendo teléfonos plegables, tiene todo el argumento para decir: 'Nosotros estuvimos aquí primero.' Y es verdad: Apple no inventó el teléfono plegable.",
+      "recommendedDuration": 39,
+      "splitScreen": true,
+      "relevance": "high"
+    },
+    {
+      "startTime": 174,
+      "endTime": 229,
+      "description": "Encuadre enfocado en el concepto visual del supuesto iPhone plegable ('Duo') en la pantalla de trabajo.",
+      "guionBlock": "Y fíjate incluso en cómo presentan el Duo. Hablan del diseño, de la experiencia, de cómo se siente la bisagra, de la continuidad entre las pantallas, de los materiales, de cómo hardware y software trabajan juntos.",
+      "recommendedDuration": 55,
+      "splitScreen": true,
+      "relevance": "medium"
+    },
+    {
+      "startTime": 242,
+      "endTime": 325,
+      "description": "Composición visual que muestra el render del iPhone junto a un video interactivo de un teléfono plegable en uso real.",
+      "guionBlock": "Muchos están obsesionados con ser los primeros. El primero en usar inteligencia artificial. El primero en ofrecer determinado servicio. El primero en lanzar algo. O peor: intentan competir agregando más cosas.",
+      "recommendedDuration": 83,
+      "splitScreen": true,
+      "relevance": "medium"
+    },
+    {
+      "startTime": 326,
+      "endTime": 440,
+      "description": "Plano final del lienzo interactivo con las comparativas de conceptos y dispositivos plegables mientras se expone la lección de marca.",
+      "guionBlock": "Por eso, si me preguntas qué vende Apple, mi lectura no sería: 'Somos los primeros.' Es mucho más cercana a: 'Nos tomamos nuestro tiempo porque queremos hacerlo a nuestra manera.' Belleza. Detalle. Experiencia. Integración.",
+      "recommendedDuration": 114,
+      "splitScreen": true,
+      "relevance": "high"
+    }
+  ],
+  "segments": [
+    {
+      "id": "SCREEN-01",
+      "startTime": 8,
+      "endTime": 16,
+      "description": "Imagen conceptual de un teléfono plegable bajo la etiqueta 2026 dentro del tablero aportado. No identifica un lanzamiento oficial.",
+      "guionBlock": "Mención del Duo y contraste entre posicionamiento y ser el primero.",
+      "recommendedDuration": 8,
+      "splitScreen": true,
+      "relevance": "high",
+      "label": "Concepto visual · material aportado",
+      "geminiParentRange": [
+        0,
+        26
+      ]
+    },
+    {
+      "id": "SCREEN-02",
+      "startTime": 55,
+      "endTime": 60,
+      "description": "Publicación de Samsung Mobile MX sobre haber llegado primero, con referencia visible al Galaxy Fold de 2019. El reproductor incrustado muestra carga; no usarlo como demostración funcionando.",
+      "guionBlock": "Samsung: nosotros estuvimos aquí primero.",
+      "recommendedDuration": 5,
+      "splitScreen": true,
+      "relevance": "high",
+      "label": "Publicación mostrada en la captura",
+      "geminiParentRange": [
+        27,
+        66
+      ]
+    },
+    {
+      "id": "SCREEN-03",
+      "startTime": 365,
+      "endTime": 373,
+      "description": "Vista estable del concepto de plegable a la izquierda y la imagen de otro plegable sostenido con las manos a la derecha; sirve para comparar presentación visual, no para probar especificaciones.",
+      "guionBlock": "Primero frente a diferente: experiencia, percepción y posicionamiento.",
+      "recommendedDuration": 8,
+      "splitScreen": true,
+      "relevance": "high",
+      "label": "Comparativa del tablero · incluye concepto visual",
+      "geminiParentRange": [
+        326,
+        440
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1698 @@
+{
+  "videoId": "VIDEO-003",
+  "EDIT_TYPE": "#edit-1-motion",
+  "editType": "#edit-1-motion",
+  "version": 0,
+  "titulo": "La guerra de la IA empezó",
+  "objetivo": "Pieza editorial de análisis sobre la carrera de la IA: el presentador en plano durante toda la pieza y gráficos de datos (líneas, curvas, nodos, contadores) que evolucionan con el argumento, detrás y alrededor de él.",
+  "status": "preview-v1-pendiente-de-revision",
+  "carpeta": "formatos/edit-1-motion/VIDEO-003-guerra-de-la-ia",
+  "direccion": "Guion técnico del usuario «La guerra de la IA empezó» (2026-10-06), copiado en formatos/edit-1-motion/VIDEO-003-guerra-de-la-ia/guion-tecnico-usuario.md. Formato base: VIDEO-002 (#edit-1-motion): subtítulos, tipografía, colores y posición sin cambios.",
+  "formato": {
+    "aspecto": "9:16",
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30
+  },
+  "identidad": "formatos/identidad-video-zeven.md",
+  "fuentes": {
+    "tomas": [
+      {
+        "archivo": "guerra de la IA EMPEZÓ.mp4",
+        "ruta": "formatos/edit-1-motion/VIDEO-003-guerra-de-la-ia/tomas/guerra de la IA EMPEZÓ.mp4",
+        "original": "formatos/edit-1-motion/guerra de la IA EMPEZÓ.mp4",
+        "bytes": 169035925,
+        "video": "1440×2560, 24 fps, H.264, 46,0 s",
+        "audio": "AAC 44,1 kHz estéreo"
+      }
+    ],
+    "proxy": "public/video-003/hq/fuente-1080.mp4 (1080×1920, 24 fps, sin audio, CRF 17)",
+    "recorte": "public/video-003/hq/presentador-alfa.webm (VP9 con alfa; máscara de persona de Apple Vision, src/videoAnalysis/video003/segment.swift)"
+  },
+  "verificacion": {
+    "fecha": "2026-10-06",
+    "transcripcion": "whisper.cpp large-v3-turbo local (analysis/video-003-whisper/) + segunda opinión de Gemini (analysis/video-003-gemini-snippets.txt).",
+    "correcciones": [
+      {
+        "whisper": "por favor",
+        "oido": "por ti",
+        "motivo": "Gemini en dos pasadas y el guion; whisper con p = 0,20."
+      },
+      {
+        "whisper": "juntos con",
+        "oido": "junto con",
+        "motivo": "Gemini en dos pasadas."
+      }
+    ],
+    "dudas": [
+      "«Para mí esto es algo bastante claro»: whisper y Gemini por fragmento oyen «es»; Gemini en la pasada completa oyó «deja». Se subtitula «es»; pendiente de oído."
+    ],
+    "lanzamientos": "Los nombres se muestran como se dicen («Opus 5.5», «Sonnet 5.5», «GPT-6 Astra», «6.1 Sol»). Búsqueda del 2026-10-06: coinciden con lanzamientos reales de septiembre de 2026 (fuentes secundarias en analysis/video-003-support-research.json). No se añaden fechas ni cifras."
+  },
+  "cta": "Solo el que esté grabado; no se añade ninguno.",
+  "edl": {
+    "fps": 30,
+    "nota": "Tiempos de fuente en segundos de la toma original; se ajustan a frames de 30 fps. Salida = voz montada public/video-003/dialogue.wav.",
+    "cortes": [
+      {
+        "id": "A",
+        "in": 0,
+        "out": 36.9667,
+        "motivo": "Desde «La guerra…» hasta «…antes de que»."
+      },
+      {
+        "id": "B",
+        "in": 39.5,
+        "out": 45.9333,
+        "motivo": "Se elimina el falso arranque «tu compañía, tu empresa o más bien» (36,97–39,50 s); retoma en «tu competencia…» hasta el final: 0,7 s de plano limpio tras «ventaja» (la mano que para la grabación sale de cuadro en 45,2 s). Corte verificado con Gemini y whisper: «antes de que tu competencia lo haga por ti»."
+      }
+    ],
+    "voz": "Mono 48 kHz de la toma, filtro paso alto 70 Hz, +16 dB y limitador; −14,2 LUFS / −1,9 dBFS. Fundidos de 10 ms en el corte.",
+    "correccionesTexto": {
+      "juntos": "junto",
+      "favor.": "ti."
+    }
+  },
+  "reviewNotice": "VIDEO-003 · PREVIEW v1 · PENDIENTE DE REVISIÓN",
+  "timeline": {
+    "fps": 30,
+    "durationInFrames": 1302,
+    "source": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 24
+    },
+    "audio": {
+      "dialogue": "video-003/dialogue.wav",
+      "sfx": "video-003/sfx.wav",
+      "music": "video-003/music.wav"
+    },
+    "cuts": [
+      {
+        "id": "A",
+        "source": "video-003/hq/fuente-1080.mp4",
+        "alpha": "video-003/hq/presentador-alfa.webm",
+        "startFrame": 0,
+        "durationInFrames": 1109,
+        "trimBefore": 0
+      },
+      {
+        "id": "B",
+        "source": "video-003/hq/fuente-1080.mp4",
+        "alpha": "video-003/hq/presentador-alfa.webm",
+        "startFrame": 1109,
+        "durationInFrames": 193,
+        "trimBefore": 1185
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s01",
+        "tipo": "linea-tiempo",
+        "startFrame": 0,
+        "beats": {
+          "nodos": 7,
+          "ia": 52,
+          "pulso": 63
+        },
+        "motivo": "«La guerra… empezó hace rato»: línea temporal con nodos que avanzan; IA con pulso.",
+        "durationInFrames": 70
+      },
+      {
+        "id": "s02",
+        "tipo": "convergen",
+        "startFrame": 70,
+        "beats": {
+          "lineas": 76,
+          "texto": 112
+        },
+        "motivo": "«no se trata de una guerra militar»: dos líneas enfrentadas que convergen; texto pequeño.",
+        "durationInFrames": 54
+      },
+      {
+        "id": "s03",
+        "tipo": "velocidad",
+        "startFrame": 124,
+        "beats": {
+          "v": 159,
+          "a": 175
+        },
+        "motivo": "«velocidad y adaptación»: palabras con flecha y curva ascendente que se dibuja y acelera.",
+        "durationInFrames": 58
+      },
+      {
+        "id": "s04",
+        "tipo": "limite",
+        "startFrame": 182,
+        "beats": {
+          "limite": 229,
+          "control": 247,
+          "seguridad": 281
+        },
+        "motivo": "«controlar su avance por seguridad»: la curva encuentra un límite y desacelera; indicadores CONTROL y SEGURIDAD (lo que se dice).",
+        "durationInFrames": 108
+      },
+      {
+        "id": "s05",
+        "tipo": "acelera",
+        "startFrame": 290,
+        "beats": {
+          "libera": 301,
+          "contador": 342,
+          "acelerador": 400
+        },
+        "motivo": "«siguen pisando el acelerador»: el límite desaparece, la curva acelera y el medidor de velocidad de desarrollo sube.",
+        "durationInFrames": 125
+      },
+      {
+        "id": "s06",
+        "tipo": "dias",
+        "startFrame": 415,
+        "beats": {
+          "dias": 432
+        },
+        "motivo": "«En cuestión de días»: contador de días acelerado y marcas de calendario (sin cifra concreta).",
+        "durationInFrames": 30
+      },
+      {
+        "id": "s07",
+        "tipo": "anthropic",
+        "startFrame": 445,
+        "beats": {
+          "marca": 448,
+          "opus": 478,
+          "sonnet": 516
+        },
+        "motivo": "Nodos en la línea: ANTHROPIC → OPUS 5.5 → SONNET 5.5, como se dice.",
+        "durationInFrames": 112
+      },
+      {
+        "id": "s08",
+        "tipo": "openai",
+        "startFrame": 557,
+        "beats": {
+          "marca": 560,
+          "astra": 599,
+          "sol": 681
+        },
+        "motivo": "Otra rama: OPENAI → GPT-6 ASTRA → 6.1 SOL, como se dice; separación cada vez menor.",
+        "durationInFrames": 156
+      },
+      {
+        "id": "s09",
+        "tipo": "agentes",
+        "startFrame": 713,
+        "beats": {
+          "capacidad": 741,
+          "agentes": 756
+        },
+        "motivo": "«capacidad para agentes»: los nodos se conectan a RAZONAR → PLANIFICAR → EJECUTAR → HERRAMIENTAS.",
+        "durationInFrames": 49
+      },
+      {
+        "id": "s10",
+        "tipo": "claro",
+        "startFrame": 762,
+        "beats": {
+          "claro": 811
+        },
+        "motivo": "«esto es algo bastante claro»: limpieza; queda una sola línea ascendente y el presentador.",
+        "durationInFrames": 54
+      },
+      {
+        "id": "s11",
+        "tipo": "dominar",
+        "startFrame": 816,
+        "beats": {
+          "negocio": 842,
+          "dominar": 940,
+          "tacha1": 955,
+          "reemplazar": 968,
+          "tacha2": 982
+        },
+        "motivo": "«¿dominar? / ¿reemplazar?»: indicadores que se tachan mientras la curva sigue creciendo.",
+        "durationInFrames": 161
+      },
+      {
+        "id": "s12",
+        "tipo": "pausa",
+        "startFrame": 977,
+        "beats": {
+          "zoom": 987
+        },
+        "motivo": "«La pregunta debería ser»: todo desaparece; micro pausa y acercamiento.",
+        "durationInFrames": 45
+      },
+      {
+        "id": "s13",
+        "tipo": "hoy",
+        "startFrame": 1022,
+        "beats": {
+          "hoy": 1025,
+          "ia": 1046,
+          "agentes": 1060,
+          "auto": 1072,
+          "prod": 1078
+        },
+        "motivo": "«cómo vas a aprovechar todo lo que está avanzando»: gráfico desde HOY con IA → AGENTES → AUTOMATIZACIÓN → PRODUCTIVIDAD.",
+        "durationInFrames": 75
+      },
+      {
+        "id": "s14",
+        "tipo": "trayectorias",
+        "startFrame": 1097,
+        "beats": {
+          "tu": 1112,
+          "comp": 1122,
+          "decision": 1145
+        },
+        "motivo": "«antes de que tu competencia lo haga por ti»: dos trayectorias; la competencia se separa; punto de decisión en TU NEGOCIO.",
+        "durationInFrames": 57
+      },
+      {
+        "id": "s15",
+        "tipo": "carrera",
+        "startFrame": 1154,
+        "beats": {
+          "ticks": 1169,
+          "frenar": 1188
+        },
+        "motivo": "«esta carrera no va a frenar»: ambas curvas siguen y los ticks del eje pasan cada vez más rápido.",
+        "durationInFrames": 47
+      },
+      {
+        "id": "s16",
+        "tipo": "ventaja",
+        "startFrame": 1201,
+        "beats": {
+          "supera": 1222,
+          "ventaja": 1274,
+          "flecha": 1286
+        },
+        "motivo": "«tomarán la ventaja»: la línea de adopción supera a la otra; VENTAJA ↑; queda una flecha y el presentador.",
+        "durationInFrames": 101
+      }
+    ],
+    "camera": {
+      "foco": {
+        "x": 0.5,
+        "y": 0.27
+      },
+      "claves": [
+        [
+          0,
+          1
+        ],
+        [
+          70,
+          1.035
+        ],
+        [
+          398,
+          1.035
+        ],
+        [
+          406,
+          1.075
+        ],
+        [
+          415,
+          1,
+          "corte"
+        ],
+        [
+          762,
+          1
+        ],
+        [
+          814,
+          1.06
+        ],
+        [
+          824,
+          1
+        ],
+        [
+          987,
+          1
+        ],
+        [
+          999,
+          1.07
+        ],
+        [
+          1022,
+          1,
+          "corte"
+        ],
+        [
+          1109,
+          1.05,
+          "corte"
+        ],
+        [
+          1302,
+          1.05
+        ]
+      ]
+    },
+    "captions": {
+      "read": [
+        {
+          "text": "La guerra",
+          "startFrame": 7,
+          "endFrame": 18
+        },
+        {
+          "text": "de la inteligencia",
+          "startFrame": 18,
+          "endFrame": 42
+        },
+        {
+          "text": "artificial",
+          "startFrame": 42,
+          "endFrame": 50
+        },
+        {
+          "text": "y no se trata",
+          "startFrame": 81,
+          "endFrame": 95
+        },
+        {
+          "text": "de una guerra militar,",
+          "startFrame": 95,
+          "endFrame": 127
+        },
+        {
+          "text": "se trata de velocidad",
+          "startFrame": 127,
+          "endFrame": 169
+        },
+        {
+          "text": "y adaptación.",
+          "startFrame": 169,
+          "endFrame": 185
+        },
+        {
+          "text": "Mientras líderes",
+          "startFrame": 185,
+          "endFrame": 208
+        },
+        {
+          "text": "y empresas hablan",
+          "startFrame": 208,
+          "endFrame": 235
+        },
+        {
+          "text": "de controlar su avance",
+          "startFrame": 235,
+          "endFrame": 269
+        },
+        {
+          "text": "por seguridad,",
+          "startFrame": 269,
+          "endFrame": 293
+        },
+        {
+          "text": "las mismas compañías",
+          "startFrame": 293,
+          "endFrame": 326
+        },
+        {
+          "text": "que están construyendo",
+          "startFrame": 326,
+          "endFrame": 355
+        },
+        {
+          "text": "estas tecnologías",
+          "startFrame": 355,
+          "endFrame": 379
+        },
+        {
+          "text": "siguen",
+          "startFrame": 379,
+          "endFrame": 386
+        },
+        {
+          "text": "En cuestión de días,",
+          "startFrame": 426,
+          "endFrame": 448
+        },
+        {
+          "text": "Anthropic lanzó Opus",
+          "startFrame": 448,
+          "endFrame": 488
+        },
+        {
+          "text": "5.5 y Sonnet 5.5,",
+          "startFrame": 488,
+          "endFrame": 560
+        },
+        {
+          "text": "OpenAI lanzó GPT-6",
+          "startFrame": 560,
+          "endFrame": 629
+        },
+        {
+          "text": "Astra y ahora acaba",
+          "startFrame": 629,
+          "endFrame": 652
+        },
+        {
+          "text": "de presentar 6.1 Sol,",
+          "startFrame": 652,
+          "endFrame": 716
+        },
+        {
+          "text": "junto con una capacidad",
+          "startFrame": 716,
+          "endFrame": 751
+        },
+        {
+          "text": "para agentes.",
+          "startFrame": 751,
+          "endFrame": 765
+        },
+        {
+          "text": "Para mí esto",
+          "startFrame": 765,
+          "endFrame": 783
+        },
+        {
+          "text": "es algo",
+          "startFrame": 783,
+          "endFrame": 800
+        },
+        {
+          "text": "La pregunta para",
+          "startFrame": 830,
+          "endFrame": 840
+        },
+        {
+          "text": "ya no debería",
+          "startFrame": 865,
+          "endFrame": 876
+        },
+        {
+          "text": "ser si la inteligencia",
+          "startFrame": 876,
+          "endFrame": 912
+        },
+        {
+          "text": "artificial nos",
+          "startFrame": 912,
+          "endFrame": 933
+        },
+        {
+          "text": "va a dominar o",
+          "startFrame": 933,
+          "endFrame": 958
+        },
+        {
+          "text": "nos va a reemplazar.",
+          "startFrame": 958,
+          "endFrame": 978
+        },
+        {
+          "text": "cómo vas a aprovechar",
+          "startFrame": 1033,
+          "endFrame": 1060
+        },
+        {
+          "text": "todo lo que",
+          "startFrame": 1060,
+          "endFrame": 1072
+        },
+        {
+          "text": "está avanzando antes",
+          "startFrame": 1072,
+          "endFrame": 1106
+        },
+        {
+          "text": "de que tu competencia",
+          "startFrame": 1106,
+          "endFrame": 1139
+        },
+        {
+          "text": "Porque esta carrera no",
+          "startFrame": 1169,
+          "endFrame": 1181
+        },
+        {
+          "text": "va a frenar y",
+          "startFrame": 1181,
+          "endFrame": 1202
+        },
+        {
+          "text": "estas herramientas",
+          "startFrame": 1242,
+          "endFrame": 1261
+        },
+        {
+          "text": "tomarán la ventaja.",
+          "startFrame": 1261,
+          "endFrame": 1302
+        }
+      ],
+      "emphasis": [
+        {
+          "id": "e1",
+          "startFrame": 50,
+          "endFrame": 81,
+          "lines": [
+            {
+              "text": "empezó",
+              "size": "l",
+              "tone": "pink"
+            },
+            {
+              "text": "hace rato",
+              "size": "m",
+              "tone": "white",
+              "indent": 60
+            }
+          ],
+          "motivo": "Gancho: la guerra ya empezó."
+        },
+        {
+          "id": "e2",
+          "startFrame": 386,
+          "endFrame": 426,
+          "lines": [
+            {
+              "text": "pisando el",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "acelerador.",
+              "size": "l",
+              "tone": "red",
+              "indent": 30
+            }
+          ],
+          "motivo": "Contraste con el control: aceleran."
+        },
+        {
+          "id": "e3",
+          "startFrame": 800,
+          "endFrame": 830,
+          "lines": [
+            {
+              "text": "bastante",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "claro.",
+              "size": "xl",
+              "tone": "pink",
+              "indent": 60
+            }
+          ],
+          "motivo": "Bisagra del argumento."
+        },
+        {
+          "id": "e4",
+          "startFrame": 835,
+          "endFrame": 865,
+          "lines": [
+            {
+              "text": "para tu",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "negocio",
+              "size": "l",
+              "tone": "pink",
+              "indent": 40
+            }
+          ],
+          "motivo": "Se habla al espectador."
+        },
+        {
+          "id": "e5",
+          "startFrame": 978,
+          "endFrame": 1033,
+          "lines": [
+            {
+              "text": "la pregunta",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "debería ser",
+              "size": "l",
+              "tone": "pink",
+              "indent": 30
+            }
+          ],
+          "motivo": "Cambio de jerarquía (la escena queda limpia)."
+        },
+        {
+          "id": "e6",
+          "startFrame": 1139,
+          "endFrame": 1169,
+          "lines": [
+            {
+              "text": "lo haga",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "por ti.",
+              "size": "xl",
+              "tone": "red",
+              "indent": 60
+            }
+          ],
+          "motivo": "Urgencia frente a la competencia."
+        },
+        {
+          "id": "e7",
+          "startFrame": 1202,
+          "endFrame": 1242,
+          "lines": [
+            {
+              "text": "quienes sepan",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "aprovechar",
+              "size": "l",
+              "tone": "pink",
+              "indent": 30
+            }
+          ],
+          "motivo": "Idea final: aprovechar las herramientas."
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "frame": 7,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.16,
+        "motivo": "s01.nodos"
+      },
+      {
+        "frame": 50,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e1 · énfasis"
+      },
+      {
+        "frame": 76,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.2,
+        "motivo": "s02.lineas"
+      },
+      {
+        "frame": 112,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.14,
+        "motivo": "s02.texto"
+      },
+      {
+        "frame": 159,
+        "sound": "zp-rise",
+        "file": "public/sfx/zp-rise.wav",
+        "volume": 0.18,
+        "motivo": "s03.v"
+      },
+      {
+        "frame": 175,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "s03.a"
+      },
+      {
+        "frame": 229,
+        "sound": "zp-clunk",
+        "file": "public/sfx/zp-clunk.wav",
+        "volume": 0.224,
+        "motivo": "s04.limite"
+      },
+      {
+        "frame": 247,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.14,
+        "motivo": "s04.control"
+      },
+      {
+        "frame": 281,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.14,
+        "motivo": "s04.seguridad"
+      },
+      {
+        "frame": 301,
+        "sound": "zp-unplug",
+        "file": "public/sfx/zp-unplug.wav",
+        "volume": 0.208,
+        "motivo": "s05.libera"
+      },
+      {
+        "frame": 386,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e2 · énfasis"
+      },
+      {
+        "frame": 400,
+        "sound": "whoosh",
+        "file": "public/sfx/whoosh.wav",
+        "volume": 0.315,
+        "motivo": "s05.acelerador"
+      },
+      {
+        "frame": 432,
+        "sound": "zp-tock",
+        "file": "public/sfx/zp-tock.wav",
+        "volume": 0.22,
+        "motivo": "s06.dias"
+      },
+      {
+        "frame": 448,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "s07.marca"
+      },
+      {
+        "frame": 478,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.2,
+        "motivo": "s07.opus"
+      },
+      {
+        "frame": 516,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.2,
+        "motivo": "s07.sonnet"
+      },
+      {
+        "frame": 560,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "s08.marca"
+      },
+      {
+        "frame": 599,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.2,
+        "motivo": "s08.astra"
+      },
+      {
+        "frame": 681,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.2,
+        "motivo": "s08.sol"
+      },
+      {
+        "frame": 741,
+        "sound": "zp-assemble",
+        "file": "public/sfx/zp-assemble.wav",
+        "volume": 0.126,
+        "motivo": "s09.capacidad"
+      },
+      {
+        "frame": 800,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e3 · énfasis"
+      },
+      {
+        "frame": 835,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e4 · énfasis"
+      },
+      {
+        "frame": 940,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "s11.dominar"
+      },
+      {
+        "frame": 955,
+        "sound": "zp-marker",
+        "file": "public/sfx/zp-marker.wav",
+        "volume": 0.16,
+        "motivo": "s11.tacha1"
+      },
+      {
+        "frame": 968,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "s11.reemplazar"
+      },
+      {
+        "frame": 978,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e5 · énfasis"
+      },
+      {
+        "frame": 1025,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "s13.hoy"
+      },
+      {
+        "frame": 1046,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "s13.ia"
+      },
+      {
+        "frame": 1060,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "s13.agentes"
+      },
+      {
+        "frame": 1072,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "s13.auto"
+      },
+      {
+        "frame": 1078,
+        "sound": "zp-rise",
+        "file": "public/sfx/zp-rise.wav",
+        "volume": 0.144,
+        "motivo": "s13.prod"
+      },
+      {
+        "frame": 1122,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.2,
+        "motivo": "s14.comp"
+      },
+      {
+        "frame": 1139,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e6 · énfasis"
+      },
+      {
+        "frame": 1145,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.2,
+        "motivo": "s14.decision"
+      },
+      {
+        "frame": 1169,
+        "sound": "zp-step",
+        "file": "public/sfx/zp-step.wav",
+        "volume": 0.112,
+        "motivo": "s15.ticks"
+      },
+      {
+        "frame": 1202,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.16,
+        "motivo": "e7 · énfasis"
+      },
+      {
+        "frame": 1222,
+        "sound": "zp-swish-up",
+        "file": "public/sfx/zp-swish-up.wav",
+        "volume": 0.2,
+        "motivo": "s16.supera"
+      },
+      {
+        "frame": 1274,
+        "sound": "zp-chime",
+        "file": "public/sfx/zp-chime.wav",
+        "volume": 0.144,
+        "motivo": "s16.ventaja"
+      }
+    ],
+    "sfxDropped": [
+      {
+        "frame": 52,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.2,
+        "motivo": "s01.ia",
+        "por": "e1 · énfasis"
+      },
+      {
+        "frame": 982,
+        "sound": "zp-marker",
+        "file": "public/sfx/zp-marker.wav",
+        "volume": 0.16,
+        "motivo": "s11.tacha2",
+        "por": "e5 · énfasis"
+      }
+    ],
+    "musica": {
+      "generador": "library/music/synth-music.mjs",
+      "bpm": 100,
+      "nivel": -31,
+      "duckingDb": -5,
+      "finalDesde": 1201,
+      "finalDb": -8,
+      "motivo": "Base propia discreta bajo la voz (como VIDEO-002); baja en la última frase."
+    }
+  },
+  "durationInFrames": 1302,
+  "durationSeconds": 43.4,
+  "palabras": [
+    {
+      "text": "La",
+      "start": 0.22,
+      "frame": 7
+    },
+    {
+      "text": "guerra",
+      "start": 0.44,
+      "frame": 13
+    },
+    {
+      "text": "de",
+      "start": 0.6,
+      "frame": 18
+    },
+    {
+      "text": "la",
+      "start": 0.66,
+      "frame": 20
+    },
+    {
+      "text": "inteligencia",
+      "start": 0.82,
+      "frame": 25
+    },
+    {
+      "text": "artificial",
+      "start": 1.4,
+      "frame": 42
+    },
+    {
+      "text": "empezó",
+      "start": 1.72,
+      "frame": 52
+    },
+    {
+      "text": "hace",
+      "start": 1.94,
+      "frame": 58
+    },
+    {
+      "text": "rato",
+      "start": 2.1,
+      "frame": 63
+    },
+    {
+      "text": "y",
+      "start": 2.44,
+      "frame": 73
+    },
+    {
+      "text": "no",
+      "start": 2.54,
+      "frame": 76
+    },
+    {
+      "text": "se",
+      "start": 2.66,
+      "frame": 80
+    },
+    {
+      "text": "trata",
+      "start": 2.92,
+      "frame": 88
+    },
+    {
+      "text": "de",
+      "start": 3.16,
+      "frame": 95
+    },
+    {
+      "text": "una",
+      "start": 3.28,
+      "frame": 98
+    },
+    {
+      "text": "guerra",
+      "start": 3.54,
+      "frame": 106
+    },
+    {
+      "text": "militar,",
+      "start": 3.88,
+      "frame": 116
+    },
+    {
+      "text": "se",
+      "start": 4.24,
+      "frame": 127
+    },
+    {
+      "text": "trata",
+      "start": 4.5,
+      "frame": 135
+    },
+    {
+      "text": "de",
+      "start": 4.84,
+      "frame": 145
+    },
+    {
+      "text": "velocidad",
+      "start": 5.3,
+      "frame": 159
+    },
+    {
+      "text": "y",
+      "start": 5.62,
+      "frame": 169
+    },
+    {
+      "text": "adaptación.",
+      "start": 5.84,
+      "frame": 175
+    },
+    {
+      "text": "Mientras",
+      "start": 6.18,
+      "frame": 185
+    },
+    {
+      "text": "líderes",
+      "start": 6.58,
+      "frame": 197
+    },
+    {
+      "text": "y",
+      "start": 6.92,
+      "frame": 208
+    },
+    {
+      "text": "empresas",
+      "start": 7.28,
+      "frame": 218
+    },
+    {
+      "text": "hablan",
+      "start": 7.64,
+      "frame": 229
+    },
+    {
+      "text": "de",
+      "start": 7.84,
+      "frame": 235
+    },
+    {
+      "text": "controlar",
+      "start": 8.24,
+      "frame": 247
+    },
+    {
+      "text": "su",
+      "start": 8.48,
+      "frame": 254
+    },
+    {
+      "text": "avance",
+      "start": 8.62,
+      "frame": 259
+    },
+    {
+      "text": "por",
+      "start": 8.98,
+      "frame": 269
+    },
+    {
+      "text": "seguridad,",
+      "start": 9.36,
+      "frame": 281
+    },
+    {
+      "text": "las",
+      "start": 9.78,
+      "frame": 293
+    },
+    {
+      "text": "mismas",
+      "start": 10.04,
+      "frame": 301
+    },
+    {
+      "text": "compañías",
+      "start": 10.5,
+      "frame": 315
+    },
+    {
+      "text": "que",
+      "start": 10.86,
+      "frame": 326
+    },
+    {
+      "text": "están",
+      "start": 11.08,
+      "frame": 332
+    },
+    {
+      "text": "construyendo",
+      "start": 11.4,
+      "frame": 342
+    },
+    {
+      "text": "estas",
+      "start": 11.84,
+      "frame": 355
+    },
+    {
+      "text": "tecnologías",
+      "start": 12.06,
+      "frame": 362
+    },
+    {
+      "text": "siguen",
+      "start": 12.62,
+      "frame": 379
+    },
+    {
+      "text": "pisando",
+      "start": 12.92,
+      "frame": 388
+    },
+    {
+      "text": "el",
+      "start": 13.18,
+      "frame": 395
+    },
+    {
+      "text": "acelerador.",
+      "start": 13.34,
+      "frame": 400
+    },
+    {
+      "text": "En",
+      "start": 13.92,
+      "frame": 418
+    },
+    {
+      "text": "cuestión",
+      "start": 14.16,
+      "frame": 425
+    },
+    {
+      "text": "de",
+      "start": 14.36,
+      "frame": 431
+    },
+    {
+      "text": "días,",
+      "start": 14.6,
+      "frame": 438
+    },
+    {
+      "text": "Anthropic",
+      "start": 14.92,
+      "frame": 448
+    },
+    {
+      "text": "lanzó",
+      "start": 15.34,
+      "frame": 460
+    },
+    {
+      "text": "Opus",
+      "start": 15.92,
+      "frame": 478
+    },
+    {
+      "text": "5.5",
+      "start": 16.26,
+      "frame": 488
+    },
+    {
+      "text": "y",
+      "start": 17.06,
+      "frame": 512
+    },
+    {
+      "text": "Sonnet",
+      "start": 17.2,
+      "frame": 516
+    },
+    {
+      "text": "5.5,",
+      "start": 17.6,
+      "frame": 528
+    },
+    {
+      "text": "OpenAI",
+      "start": 18.68,
+      "frame": 560
+    },
+    {
+      "text": "lanzó",
+      "start": 19.28,
+      "frame": 578
+    },
+    {
+      "text": "GPT-6",
+      "start": 19.98,
+      "frame": 599
+    },
+    {
+      "text": "Astra",
+      "start": 20.98,
+      "frame": 629
+    },
+    {
+      "text": "y",
+      "start": 21.2,
+      "frame": 636
+    },
+    {
+      "text": "ahora",
+      "start": 21.4,
+      "frame": 642
+    },
+    {
+      "text": "acaba",
+      "start": 21.64,
+      "frame": 649
+    },
+    {
+      "text": "de",
+      "start": 21.72,
+      "frame": 652
+    },
+    {
+      "text": "presentar",
+      "start": 21.98,
+      "frame": 659
+    },
+    {
+      "text": "6.1",
+      "start": 22.7,
+      "frame": 681
+    },
+    {
+      "text": "Sol,",
+      "start": 23.5,
+      "frame": 705
+    },
+    {
+      "text": "junto",
+      "start": 23.88,
+      "frame": 716
+    },
+    {
+      "text": "con",
+      "start": 24.12,
+      "frame": 724
+    },
+    {
+      "text": "una",
+      "start": 24.24,
+      "frame": 727
+    },
+    {
+      "text": "capacidad",
+      "start": 24.7,
+      "frame": 741
+    },
+    {
+      "text": "para",
+      "start": 25.02,
+      "frame": 751
+    },
+    {
+      "text": "agentes.",
+      "start": 25.2,
+      "frame": 756
+    },
+    {
+      "text": "Para",
+      "start": 25.5,
+      "frame": 765
+    },
+    {
+      "text": "mí",
+      "start": 25.64,
+      "frame": 769
+    },
+    {
+      "text": "esto",
+      "start": 25.94,
+      "frame": 778
+    },
+    {
+      "text": "es",
+      "start": 26.1,
+      "frame": 783
+    },
+    {
+      "text": "algo",
+      "start": 26.34,
+      "frame": 790
+    },
+    {
+      "text": "bastante",
+      "start": 26.72,
+      "frame": 802
+    },
+    {
+      "text": "claro.",
+      "start": 27.02,
+      "frame": 811
+    },
+    {
+      "text": "La",
+      "start": 27.3,
+      "frame": 819
+    },
+    {
+      "text": "pregunta",
+      "start": 27.58,
+      "frame": 827
+    },
+    {
+      "text": "para",
+      "start": 27.76,
+      "frame": 833
+    },
+    {
+      "text": "tu",
+      "start": 27.9,
+      "frame": 837
+    },
+    {
+      "text": "negocio",
+      "start": 28.08,
+      "frame": 842
+    },
+    {
+      "text": "ya",
+      "start": 28.54,
+      "frame": 856
+    },
+    {
+      "text": "no",
+      "start": 28.68,
+      "frame": 860
+    },
+    {
+      "text": "debería",
+      "start": 28.86,
+      "frame": 866
+    },
+    {
+      "text": "ser",
+      "start": 29.2,
+      "frame": 876
+    },
+    {
+      "text": "si",
+      "start": 29.38,
+      "frame": 881
+    },
+    {
+      "text": "la",
+      "start": 29.48,
+      "frame": 884
+    },
+    {
+      "text": "inteligencia",
+      "start": 29.66,
+      "frame": 890
+    },
+    {
+      "text": "artificial",
+      "start": 30.4,
+      "frame": 912
+    },
+    {
+      "text": "nos",
+      "start": 30.88,
+      "frame": 926
+    },
+    {
+      "text": "va",
+      "start": 31.1,
+      "frame": 933
+    },
+    {
+      "text": "a",
+      "start": 31.2,
+      "frame": 936
+    },
+    {
+      "text": "dominar",
+      "start": 31.34,
+      "frame": 940
+    },
+    {
+      "text": "o",
+      "start": 31.78,
+      "frame": 953
+    },
+    {
+      "text": "nos",
+      "start": 31.94,
+      "frame": 958
+    },
+    {
+      "text": "va",
+      "start": 32.06,
+      "frame": 962
+    },
+    {
+      "text": "a",
+      "start": 32.14,
+      "frame": 964
+    },
+    {
+      "text": "reemplazar.",
+      "start": 32.26,
+      "frame": 968
+    },
+    {
+      "text": "La",
+      "start": 32.68,
+      "frame": 980
+    },
+    {
+      "text": "pregunta",
+      "start": 32.9,
+      "frame": 987
+    },
+    {
+      "text": "debería",
+      "start": 33.34,
+      "frame": 1000
+    },
+    {
+      "text": "ser",
+      "start": 33.78,
+      "frame": 1013
+    },
+    {
+      "text": "cómo",
+      "start": 34.16,
+      "frame": 1025
+    },
+    {
+      "text": "vas",
+      "start": 34.46,
+      "frame": 1034
+    },
+    {
+      "text": "a",
+      "start": 34.62,
+      "frame": 1039
+    },
+    {
+      "text": "aprovechar",
+      "start": 34.88,
+      "frame": 1046
+    },
+    {
+      "text": "todo",
+      "start": 35.34,
+      "frame": 1060
+    },
+    {
+      "text": "lo",
+      "start": 35.48,
+      "frame": 1064
+    },
+    {
+      "text": "que",
+      "start": 35.58,
+      "frame": 1067
+    },
+    {
+      "text": "está",
+      "start": 35.72,
+      "frame": 1072
+    },
+    {
+      "text": "avanzando",
+      "start": 35.94,
+      "frame": 1078
+    },
+    {
+      "text": "antes",
+      "start": 36.68,
+      "frame": 1100
+    },
+    {
+      "text": "de",
+      "start": 36.86,
+      "frame": 1106
+    },
+    {
+      "text": "que",
+      "start": 36.96,
+      "frame": 1109
+    },
+    {
+      "text": "tu",
+      "start": 37.06,
+      "frame": 1112
+    },
+    {
+      "text": "competencia",
+      "start": 37.4,
+      "frame": 1122
+    },
+    {
+      "text": "lo",
+      "start": 38.02,
+      "frame": 1141
+    },
+    {
+      "text": "haga",
+      "start": 38.16,
+      "frame": 1145
+    },
+    {
+      "text": "por",
+      "start": 38.32,
+      "frame": 1150
+    },
+    {
+      "text": "ti.",
+      "start": 38.38,
+      "frame": 1151
+    },
+    {
+      "text": "Porque",
+      "start": 38.56,
+      "frame": 1157
+    },
+    {
+      "text": "esta",
+      "start": 38.74,
+      "frame": 1162
+    },
+    {
+      "text": "carrera",
+      "start": 38.96,
+      "frame": 1169
+    },
+    {
+      "text": "no",
+      "start": 39.26,
+      "frame": 1178
+    },
+    {
+      "text": "va",
+      "start": 39.38,
+      "frame": 1181
+    },
+    {
+      "text": "a",
+      "start": 39.38,
+      "frame": 1181
+    },
+    {
+      "text": "frenar",
+      "start": 39.6,
+      "frame": 1188
+    },
+    {
+      "text": "y",
+      "start": 39.9,
+      "frame": 1197
+    },
+    {
+      "text": "quienes",
+      "start": 40.12,
+      "frame": 1204
+    },
+    {
+      "text": "sepan",
+      "start": 40.34,
+      "frame": 1210
+    },
+    {
+      "text": "aprovechar",
+      "start": 40.72,
+      "frame": 1222
+    },
+    {
+      "text": "estas",
+      "start": 41.12,
+      "frame": 1234
+    },
+    {
+      "text": "herramientas",
+      "start": 41.46,
+      "frame": 1244
+    },
+    {
+      "text": "tomarán",
+      "start": 42.04,
+      "frame": 1261
+    },
+    {
+      "text": "la",
+      "start": 42.34,
+      "frame": 1270
+    },
+    {
+      "text": "ventaja.",
+      "start": 42.48,
+      "frame": 1274
+    }
+  ]
+}

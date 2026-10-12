@@ -1,0 +1,252 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 1 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0 | CANN = 0",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": ".whisper/models/ggml-large-v3-turbo.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,140"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4140
+			},
+			"text": " Durante mucho tiempo nos han hecho creer que las redes sociales solo se trataban de entretenimiento,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,140",
+				"to": "00:00:09,840"
+			},
+			"offsets": {
+				"from": 4140,
+				"to": 9840
+			},
+			"text": " pero con el paso del tiempo y el avance de la tecnología nos hemos dado cuenta de algo totalmente diferente."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,840",
+				"to": "00:00:12,800"
+			},
+			"offsets": {
+				"from": 9840,
+				"to": 12800
+			},
+			"text": " Facebook, Instagram y todo, sí compiten por un entretenimiento,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,800",
+				"to": "00:00:17,040"
+			},
+			"offsets": {
+				"from": 12800,
+				"to": 17040
+			},
+			"text": " porque el entretenimiento captura algo muchísimo más importante, tu atención."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,040",
+				"to": "00:00:20,520"
+			},
+			"offsets": {
+				"from": 17040,
+				"to": 20520
+			},
+			"text": " Cuando una plataforma concentra la atención de millones de personas,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,520",
+				"to": "00:00:24,000"
+			},
+			"offsets": {
+				"from": 20520,
+				"to": 24000
+			},
+			"text": " tiene algo todavía mucho más importante y valioso, audiencia."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,000",
+				"to": "00:00:28,300"
+			},
+			"offsets": {
+				"from": 24000,
+				"to": 28300
+			},
+			"text": " Y aquí es donde se pone más interesante, porque Meta acaba de lanzar 4 Small Business."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,500",
+				"to": "00:00:32,620"
+			},
+			"offsets": {
+				"from": 28500,
+				"to": 32620
+			},
+			"text": " Es una inteligencia artificial pensada para ayudar a los negocios a ejecutar tareas"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,620",
+				"to": "00:00:35,860"
+			},
+			"offsets": {
+				"from": 32620,
+				"to": 35860
+			},
+			"text": " utilizando la información y las herramientas que ya tienen conectadas."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,860",
+				"to": "00:00:39,480"
+			},
+			"offsets": {
+				"from": 35860,
+				"to": 39480
+			},
+			"text": " Por ejemplo, puedes darle un objetivo como Ayúdame a Buscar Nuevos Clientes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,480",
+				"to": "00:00:42,560"
+			},
+			"offsets": {
+				"from": 39480,
+				"to": 42560
+			},
+			"text": " Y Muse puede trabajar con tus cuentas de Facebook e Instagram"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,560",
+				"to": "00:00:46,480"
+			},
+			"offsets": {
+				"from": 42560,
+				"to": 46480
+			},
+			"text": " y conectarse con herramientas como Shopify, Canva, Notion, etc."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,480",
+				"to": "00:00:48,880"
+			},
+			"offsets": {
+				"from": 46480,
+				"to": 48880
+			},
+			"text": " Así que mira hacia dónde va toda esta evolución."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,880",
+				"to": "00:00:53,120"
+			},
+			"offsets": {
+				"from": 48880,
+				"to": 53120
+			},
+			"text": " Tienes contenido, tienes audiencia, tienes ejecución y sobre todo tienes ventas."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,120",
+				"to": "00:00:55,520"
+			},
+			"offsets": {
+				"from": 53120,
+				"to": 55520
+			},
+			"text": " ¿Y qué significa esto realmente para tu negocio?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,520",
+				"to": "00:01:00,860"
+			},
+			"offsets": {
+				"from": 55520,
+				"to": 60860
+			},
+			"text": " Que cada vez habrá menos distancia entre tener algo que vender y encontrar a quien vendérselo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,860",
+				"to": "00:01:05,640"
+			},
+			"offsets": {
+				"from": 60860,
+				"to": 65640
+			},
+			"text": " Por eso, mientras muchos utilizan las redes sociales solamente para consumir entretenimiento,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,640",
+				"to": "00:01:09,480"
+			},
+			"offsets": {
+				"from": 65640,
+				"to": 69480
+			},
+			"text": " otros están utilizando las mismas plataformas para construir audiencia,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,480",
+				"to": "00:01:12,940"
+			},
+			"offsets": {
+				"from": 69480,
+				"to": 72940
+			},
+			"text": " automatizar procesos y generar oportunidades de negocio."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,940",
+				"to": "00:01:14,320"
+			},
+			"offsets": {
+				"from": 72940,
+				"to": 74320
+			},
+			"text": " ¿En qué lado estás tú?"
+		}
+	]
+}

@@ -1,0 +1,814 @@
+{
+  "version": 1,
+  "descripcion": "Catálogo único de recursos reutilizables del laboratorio: qué existe, dónde está, de qué referencia viene, en qué estado está y en qué EDIT_TYPE se puede usar. Los componentes LIB-001 se catalogan, no se duplican.",
+  "regla_de_alta": "Un recurso nuevo entra como 'candidata'. Pasa a 'validada' solo cuando una orden VIDEO-XXX lo usa y su preview revisada lo confirma. Antes de crear uno: revisar este catálogo, los componentes de src/components y Remotion oficial.",
+  "enrutamiento": "Cinco EDIT_TYPE operativos. Business revisado contra formatos/edit-4-business/FORMATO.md el 2026-10-10: rótulos, datos, marca y UI digital sobria; recursos permitidos de forma condicional, sin aprobación audiovisual. Creator usa su FORMATO. Avatar queda fuera del catálogo. La orden VIDEO-XXX manda.",
+  "edit_types": [
+    "#edit-1-motion",
+    "#edit-2-pantalla-dividida",
+    "#edit-3-organico",
+    "#edit-4-business",
+    "#edit-5-creator"
+  ],
+  "excluidos": [
+    {
+      "archivo": "src/components/TestTitle.tsx",
+      "motivo": "Componente de prueba de la FASE 01; no es un recurso de edición."
+    }
+  ],
+  "entradas": [
+    {
+      "id": "dynamic-captions",
+      "nombre": "DynamicCaptions",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/DynamicCaptions.tsx",
+      "ref": "REF-1",
+      "estado": "disponible",
+      "funcion": "Subtítulos por palabra en 3 modos (simple, editorial, dynamic/karaoke). Requiere tiempos por palabra.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-3 solo mode=simple (subtítulos discretos)."
+    },
+    {
+      "id": "chunk-captions",
+      "nombre": "ChunkCaptions",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/ChunkCaptions.tsx",
+      "ref": "REF-1",
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-library-verification.json",
+      "funcion": "Subtítulos por bloques de 2–4 palabras, serif, sin caja, cambio duro y énfasis opcional por palabra. Solo requiere tiempos por bloque.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-3 sin énfasis. centerY debe medirse en la composición final."
+    },
+    {
+      "id": "highlight-word",
+      "nombre": "HighlightWord",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/HighlightWord.tsx",
+      "ref": "REF-2",
+      "estado": "disponible",
+      "funcion": "Énfasis de palabra clave (pill, marker, glow, box).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En Business solo como acento sobrio y legible; sin competir con S7."
+    },
+    {
+      "id": "kinetic-text",
+      "nombre": "KineticText",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/KineticText.tsx",
+      "ref": "REF-1",
+      "estado": "disponible",
+      "funcion": "Texto cinético escalonado (slide-up, pop, blur-in, fade).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "si"
+      }
+    },
+    {
+      "id": "big-statement",
+      "nombre": "BigStatement",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/BigStatement.tsx",
+      "ref": "REF-2",
+      "estado": "disponible",
+      "funcion": "Titular de alto impacto con kicker y palabras resaltadas.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-2 solo si no compite con el apoyo visual ni con los subtítulos. En Business solo gancho 4C o dato real; sin textura de Creator ni sobre el rostro."
+    },
+    {
+      "id": "speaker-card",
+      "nombre": "SpeakerCard",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/SpeakerCard.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Lower-third con avatar o monograma, nombre, rol y redes.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-3 solo si aporta contexto y es discreto. En Business, rótulo de nombre/cargo real, tipografía y marca del cliente, sin textura."
+    },
+    {
+      "id": "picture-in-picture",
+      "nombre": "PictureInPicture",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/PictureInPicture.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Ventana flotante para cámara o material secundario.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-2 la pantalla dividida ya resuelve la convivencia de presentador y apoyo. En Business solo para una demostración de producto digital que requiera presentador y captura real."
+    },
+    {
+      "id": "media-frame",
+      "nombre": "MediaFrame",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/MediaFrame.tsx",
+      "ref": "REF-2",
+      "estado": "disponible",
+      "funcion": "Marco para B-roll, capturas o video de apoyo con pie de texto.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En Business solo para producto, lugar o evidencia real; marco sobrio con marca del cliente."
+    },
+    {
+      "id": "screen-frame",
+      "nombre": "ScreenFrame",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/ScreenFrame.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Marco de ventana/navegador para captura real. Enmarca material verificable; no sustituye una captura.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-4 solo si la escena muestra una interfaz real que enmarcar. En Business solo para captura verificable de un producto digital; no imitar una pantalla real con UI conceptual."
+    },
+    {
+      "id": "focus-highlight",
+      "nombre": "FocusHighlight",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/FocusHighlight.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Spotlight con halo para señalar un elemento real de la pantalla.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-3 solo si el espectador no puede seguir la acción sin él."
+    },
+    {
+      "id": "soft-zoom",
+      "nombre": "SoftZoom",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/SoftZoom.tsx",
+      "ref": "REF-3",
+      "estado": "disponible",
+      "funcion": "Empuje o alejamiento continuo (Ken Burns) con origen configurable.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-3 solo empuje sutil (toScale ≤ 1.08, el valor por defecto)."
+    },
+    {
+      "id": "cut-sequence",
+      "nombre": "CutSequence",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/CutSequence.tsx",
+      "ref": "REF-3",
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-cut-verification.json",
+      "funcion": "Reparte planos con corte duro y empuje lento por plano (SoftZoom). Incluye helpers de duración en segundos y total de frames.",
+      "usa": [
+        "soft-zoom"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Valores por defecto medidos en un solo video de referencia (n = 1). En #edit-2 solo si cambia el plano del presentador, no la zona de apoyo. En #edit-3 cortes duros sí; empuje solo sutil o push:false."
+    },
+    {
+      "id": "scene-transition",
+      "nombre": "SceneTransition",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/SceneTransition.tsx",
+      "ref": "REF-3",
+      "estado": "disponible",
+      "funcion": "Entrada/salida de escena (fade, slide-left, slide-up, zoom, wipe). Es transición, no corte duro.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-2 solo entre bloques de apoyo; nunca sobre la zona del presentador."
+    },
+    {
+      "id": "text-behind-subject",
+      "nombre": "TextBehindSubject",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/TextBehindSubject.tsx",
+      "ref": "REF-2",
+      "estado": "candidata",
+      "funcion": "Texto entre el fondo y el sujeto recortado (fondo → texto → recorte con alfa).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Necesita un recorte con alfa alineado con el fondo; ese recorte aún no tiene herramienta elegida (ver library/README.md)."
+    },
+    {
+      "id": "keyword-tint",
+      "nombre": "KeywordTint",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/KeywordTint.tsx",
+      "ref": "REF-2",
+      "estado": "candidata",
+      "funcion": "Lavado de color de todo el cuadro que marca una palabra clave. Pulso por frames locales dentro de un Sequence.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Un lavado alto cambia el color de piel del sujeto: peak bajo con rostro en cuadro."
+    },
+    {
+      "id": "cta",
+      "nombre": "CTA",
+      "tipo": "componente",
+      "origen": "LIB-001",
+      "archivo": "src/components/CTA.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Llamado a la acción con botón, badge, handle y flecha.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-3 solo en versión discreta."
+    },
+    {
+      "id": "presets",
+      "nombre": "Presets y PresetProvider",
+      "tipo": "preset",
+      "origen": "LIB-001",
+      "archivo": "src/presets/index.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "5 presets (editorial-dynamic, kinetic-infographic, editorial-minimal, screen-tutorial, organic-iphone-demo) con overrides de acento, fondo y serif.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "si"
+      }
+    },
+    {
+      "id": "design-tokens",
+      "nombre": "Design tokens",
+      "tipo": "tokens",
+      "origen": "LIB-001",
+      "archivo": "src/lib/tokens.ts",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Canvas 1080×1920 a 30 fps, safe areas, tipografía, espaciado, radios, sombras y springs.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Si un video mide zonas libres distintas de SAFE_AREAS, manda la medida en la composición final."
+    },
+    {
+      "id": "brand-profile",
+      "nombre": "BrandProfile y BrandProvider",
+      "tipo": "marca",
+      "origen": "library",
+      "archivo": "library/brand/BrandProfile.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Perfil de marca = preset base + overrides existentes. Para otra marca se copia el perfil y se cambian los valores.",
+      "usa": [
+        "presets"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "si"
+      }
+    },
+    {
+      "id": "brand-zevenpro",
+      "nombre": "Perfil ZevenPRO",
+      "tipo": "marca",
+      "origen": "library",
+      "archivo": "library/brand/zevenpro.ts",
+      "ref": null,
+      "estado": "incompleta",
+      "funcion": "Perfil de marca ZevenPRO: paleta definida por el usuario el 2026-10-04 (zevenproPalette: crema #F4F1EA → azules #E8EDF1/#DCE7F2, tarjetas #FFFFFF, texto #17171D/#6F7280, bordes #E4E1DA, amarillo #F5C518/#FFF3B8, azul #0057FF, rojo #E1062C) y overrides del preset (acento amarillo, secundario azul, fondo crema).",
+      "usa": [
+        "brand-profile"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Lista de datos pendientes en el propio archivo (campo 'pendiente'). Falta tipografía de marca y logo (pendiente en el perfil). Reglas: sin fondo oscuro de base; amarillo para énfasis; azul solo para lo digital; rojo con moderación. La paleta está aplicada y aprobada en los gráficos de VIDEO-001 (formato #edit-2-pantalla-dividida, 2026-10-04); los subtítulos no la usan. Forma parte de la identidad video-zeven, común a todos los formatos: formatos/identidad-video-zeven.md."
+    },
+    {
+      "id": "library-showcase",
+      "nombre": "LibraryShowcase",
+      "tipo": "composicion",
+      "origen": "LIB-001",
+      "archivo": "src/compositions/LibraryShowcase.tsx",
+      "ref": null,
+      "estado": "disponible",
+      "funcion": "Composición de 15 s que muestra los componentes y presets de LIB-001.",
+      "usa": [
+        "presets"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "no"
+      },
+      "nota": "Es una galería, no un recurso de edición: no se usa dentro de un video."
+    },
+    {
+      "id": "library-gallery",
+      "nombre": "Galería de recetas (LIB-*)",
+      "tipo": "composicion",
+      "origen": "library",
+      "archivo": "library/gallery/Samples.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Una composición sintética por receta nueva (LIB-ChunkCaptions, LIB-CutSequence, LIB-TextBehindSubject, LIB-KeywordTint, LIB-SfxTrack). Se abre con `pnpm library`.",
+      "usa": [
+        "chunk-captions",
+        "cut-sequence",
+        "text-behind-subject",
+        "keyword-tint",
+        "sfx-track",
+        "brand-zevenpro"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "no"
+      },
+      "nota": "Es una galería, no un recurso de edición."
+    },
+    {
+      "id": "presenter-camera",
+      "nombre": "PresenterCamera",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/PresenterCamera.tsx",
+      "ref": null,
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-summary.md",
+      "funcion": "Encuadra un plano horizontal de presentador dentro de una zona vertical (cover) con cámara virtual: escala, foco, empuje lento (zoom in/out), alejamiento de entrada y golpes de zoom sincronizados con palabras. Usa <Video> de @remotion/media (fotograma exacto) y rampas de volumen de 1 frame. Opcional: `scaleOverride` (escala dictada por una pista de cámara externa, p. ej. camera-layout-tracks; ignora push/punches) `muted` (cuando la voz va en una pista de diálogo aparte) y `playbackRate` (velocidad de la fuente).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Validada en VIDEO-001 (formato #edit-2-pantalla-dividida; exportación formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4, aprobada por el usuario el 2026-10-04), con scaleOverride, muted y playbackRate 1.1. En #edit-3 solo encuadre fijo o empuje ≤ 3 % y sin golpes de zoom. En #edit-4 solo si hay plano de presentador real."
+    },
+    {
+      "id": "focus-pan-image",
+      "nombre": "FocusPanImage",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/FocusPanImage.tsx",
+      "ref": null,
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-summary.md",
+      "funcion": "Cámara sobre una imagen o captura: encuadra regiones (zoom in/out, paneo) en frames dados y dibuja marcas sobre el texto real (subrayador, recuadro, subrayado, foco) que acompañan al zoom.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Validada en VIDEO-001 (formato #edit-2-pantalla-dividida; exportación formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4, aprobada por el usuario el 2026-10-04) (capturas de la pizarra y de prensa como evidencia). Las marcas deben señalar texto que realmente está en la imagen. En Business solo para señalar evidencia real en una captura, sin inventar datos."
+    },
+    {
+      "id": "type-captions",
+      "nombre": "TypeCaptions",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/TypeCaptions.tsx",
+      "ref": null,
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-summary.md",
+      "funcion": "Subtítulos en dos capas: lectura en bloques cortos y énfasis tipográfico (bloques asimétricos de 1–3 líneas, tamaños s/m/l/xl con ajuste al ancho) que sustituyen a la lectura en sus palabras. Variante «texture» (lectura blanca sin caja; énfasis con textura rosa/roja; anclaje central o por la base y tamaños configurables para el área segura) y variante «cards» (tarjetas con paleta de marca; no usada en VIDEO-001).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Validada en VIDEO-001 (formato #edit-2-pantalla-dividida; exportación formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4, aprobada por el usuario el 2026-10-04) solo con la variante «texture»; la variante «cards» sigue sin uso. Los tiempos vienen de palabras afinadas (src/videoAnalysis/refineWordTimesV3.mjs); sin tiempos por palabra no debe activarse el énfasis. En #edit-3 y #edit-4, solo la capa de lectura o pocos énfasis. Tamaño xl pensado para el layout de presentador; en split comprobar que no tape el rostro."
+    },
+    {
+      "id": "camera-layout-tracks",
+      "nombre": "Pistas de cámara y layout",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/recipes/tracks.ts",
+      "ref": null,
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-summary.md",
+      "funcion": "Funciones puras por frame: escala de cámara a partir de eventos con motivo (push/drift con entrada, permanencia y salida; 0 frames = cambio en el corte) y altura de la zona superior por modo de layout (split / presenter / graphic). Separa cámara y layout de la lista de cortes.",
+      "usa": [
+        "presenter-camera"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Validada en VIDEO-001 (formato #edit-2-pantalla-dividida; exportación formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4, aprobada por el usuario el 2026-10-04): cámara estable por defecto, un evento por cambio narrativo; reparto presentador / split / gráfico. En #edit-3 solo eventos drift suaves; en #edit-4 solo con plano de presentador real."
+    },
+    {
+      "id": "sfx-track",
+      "nombre": "SfxTrack",
+      "tipo": "receta",
+      "origen": "library",
+      "archivo": "library/recipes/SfxTrack.tsx",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Efectos de sonido colocados por frame a partir de una lista de señales (`cues`). Falla de forma explícita si un id no existe en sfx.json.",
+      "usa": [
+        "sfx-pack",
+        "sfx-cues"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "La RAÍZ no fija política de efectos de sonido por EDIT_TYPE: es una propuesta de partida. En #edit-2 y #edit-3 solo si la orden lo pide (el exceso de efectos hace que el formato parezca sobreeditado)."
+    },
+    {
+      "id": "sfx-pack",
+      "nombre": "Paquete de sonidos CC0",
+      "tipo": "datos",
+      "origen": "library",
+      "archivo": "library/sfx/sfx.json",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Manifiesto de 6 sonidos con licencia CC0 declarada (whoosh, whip, ui-switch, page-turn, mouse-click, shutter-modern), reglas evento/palabra → sonido, límites de densidad y lista de sonidos excluidos y pendientes. `node library/sfx/fetch-sfx.mjs` baja los archivos a public/sfx.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Faltan sonidos de impacto, subida, contador, caja y tecleo (sección 'pendientes'). Licencias leídas en remotion.dev el 2026-10-03; no verificadas de forma independiente."
+    },
+    {
+      "id": "sfx-cues",
+      "nombre": "Generador de señales de sonido",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/sfx/cues.ts",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Funciones puras: de eventos de edición (cortes, transiciones, tarjetas) y de palabras con tiempo real a una lista de señales, con adelanto por regla y filtro anti-saturación.",
+      "usa": [
+        "sfx-pack"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Las palabras con tiempo deben salir de un análisis real con timestamps; no se estiman."
+    },
+    {
+      "id": "synth-sfx",
+      "nombre": "Sintetizador de efectos (paleta zp-)",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/sfx/synth-sfx.mjs",
+      "ref": null,
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-summary.md",
+      "funcion": "22 efectos de interfaz propios generados por síntesis determinista (sin descargas ni licencias de terceros): pop, tic, madera, barridos, subida, bajada, golpe, campana, chispas, encaje, desenchufe, mecánico, marcador, sello, alerta, tic-tac, paso, texto, confirmación, ensamblaje. Escribe public/sfx/zp-*.wav (48 kHz, pico −3 dBFS) y los registra en sfx.json → sintetizados.",
+      "usa": [
+        "sfx-pack"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Validada en VIDEO-001 (formato #edit-2-pantalla-dividida; exportación formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4, aprobada por el usuario el 2026-10-04): un efecto por aparición, movimiento y texto destacado, elegido por sentido, por debajo de la voz. En #edit-3, solo los más suaves y pocos."
+    },
+    {
+      "id": "clean-voice",
+      "nombre": "Limpieza de voz (FFmpeg)",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/audio/clean-voice.mjs",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Pasa-altos, reducción de ruido RNNoise (o afftdn), EQ suave, de-esser, compresor y loudness a -14 LUFS / -1,5 dBTP en dos pasadas. No toca la entrada; escribe .clean.wav y un informe antes/después.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "si"
+      },
+      "nota": "En #edit-4 solo si hay voz grabada: una voz generada no la necesita. Mide nivel, no timbre: el resultado se aprueba escuchando."
+    },
+    {
+      "id": "formato-edit-2-pantalla-dividida",
+      "nombre": "Formato #edit-2-pantalla-dividida",
+      "tipo": "preset",
+      "origen": "library",
+      "archivo": "formatos/edit-2-pantalla-dividida/FORMATO.md",
+      "ref": null,
+      "estado": "validada",
+      "validada_en": "video-orders/VIDEO-001.json",
+      "evidencia": "analysis/video-001-summary.md",
+      "funcion": "Formato aprobado del EDIT_TYPE #edit-2-pantalla-dividida: dos zonas (apoyo arriba, presentador abajo), motion semántico sin texto, subtítulos de lectura + énfasis tipográfico con textura, efectos de sonido por sentido, marca solo en los gráficos, área segura de Instagram Reels, una sola voz limpia y CTA «Seguir». Recoge medidas, piezas, proceso, comprobaciones y exportación (con la corrección del desfase AAC del render).",
+      "usa": [
+        "type-captions",
+        "presenter-camera",
+        "camera-layout-tracks",
+        "focus-pan-image",
+        "synth-sfx",
+        "sfx-pack",
+        "brand-zevenpro"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "no"
+      },
+      "nota": "Referencia: VIDEO-001 (composición Video001V3, exportación formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4). Nació como el preset experimental reel-editorial-reforzado. La composición y las herramientas tienen rutas de VIDEO-001 y las escenas se rehacen para cada video."
+    },
+    {
+      "id": "formato-edit-1-motion",
+      "nombre": "Formato #edit-1-motion (en preparación)",
+      "tipo": "preset",
+      "origen": "library",
+      "archivo": "formatos/edit-1-motion/FORMATO.md",
+      "ref": null,
+      "estado": "incompleta",
+      "funcion": "Talking head con motion encima, alrededor y detrás del personaje (recortado), imágenes de apoyo con textos grandes y motion a pantalla completa con la voz en off debajo. Subtítulos de #edit-2 e identidad video-zeven. Recoge la intención del usuario, el análisis del video de ejemplo, los modos y capas propuestos, lo que hay que construir y lo que falta para empezar.",
+      "usa": [
+        "type-captions",
+        "text-behind-subject",
+        "presenter-camera",
+        "camera-layout-tracks",
+        "focus-pan-image",
+        "synth-sfx",
+        "brand-zevenpro"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "no"
+      },
+      "nota": "Nota del usuario del 2026-10-04; sin contenido ni edición todavía. Primera prueba técnica pendiente: recorte del personaje (croma o segmentación de Apple Vision) y seguimiento de la cabeza."
+    },
+    {
+      "id": "formato-edit-5-creator",
+      "nombre": "Formato #edit-5-creator (definido, sin video; antes #edit-creator)",
+      "tipo": "preset",
+      "origen": "library",
+      "archivo": "formatos/edit-5-creator/FORMATO.md",
+      "ref": null,
+      "estado": "incompleta",
+      "funcion": "Creator: cortes precisos sobre la toma principal, tomas de apoyo, capturas, B-roll y emojis superpuestos, subtítulos con tipografía de gancho elegible por perfil y efectos de sonido. Cuatro variantes (collage, hook, explicativo, editorial lifestyle) más los cambios de cada orden; cuestionario de perfil y de video; dentro de la skill única /video-lab.",
+      "usa": [
+        "type-captions",
+        "chunk-captions",
+        "cut-sequence",
+        "presenter-camera",
+        "focus-pan-image",
+        "keyword-tint",
+        "synth-sfx",
+        "sfx-track",
+        "brand-zevenpro"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "no",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Definido el 2026-10-05 sin video ni aprobación audiovisual. Por construir solo si el primer video lo pide: HookCaptions (tipografía de hook por palabra) y receta de overlay de captura/B-roll. Emojis: @remotion/animated-emoji, por probar en un still."
+    },
+    {
+      "id": "synth-music",
+      "nombre": "Base musical sintetizada",
+      "tipo": "herramienta",
+      "origen": "library",
+      "archivo": "library/music/synth-music.mjs",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Base instrumental propia y discreta, sin letra, generada por síntesis determinista: pad cálido, arpegio en corcheas, bajo y pulso suave, y shaker muy bajo sobre Fmaj7–G6–Em7–Am7. Sin descargas ni licencias de terceros. Módulo (synthMusic) y CLI (segundos, salida, bpm).",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Primer uso: VIDEO-002 (src/videoAnalysis/video002/buildAudioBeds.mjs: se comprime bajo la voz −5 dB y baja −10 dB en la última frase; −31 LUFS frente a −14,7 de la voz). En #edit-2 y #edit-3 solo si la orden pide música. Validar de oído."
+    },
+    {
+      "id": "motion-ux",
+      "nombre": "Motion UX / Soft Glass UI (motion predeterminado para tecnología y software)",
+      "tipo": "preset",
+      "origen": "library",
+      "archivo": "formatos/motion-ux/MOTION-UX.md",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Estilo de movimiento de interfaz de producto (soft UI + glassmorphism + borde AI glow) para cuando el contenido trata de herramientas, tecnología, software o sistemas digitales. 20 movimientos (entradas, cambios de escena, escritura, cursor, baraja 3D, foco de lista…) y 10 estilos de texto con parámetros, paleta derivada de un color del perfil del usuario, sonidos zp-* y ejemplo ejecutable (specimen).",
+      "usa": [
+        "synth-sfx",
+        "sfx-track"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "si",
+        "#edit-3-organico": "condicional",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "si"
+      },
+      "nota": "Definido el 2026-10-09; el 2026-10-10 se generaron stills propios de Remotion para los 20 movimientos y 10 rótulos de la guía, y primitivas.ts pasó typecheck. Esto no verifica movimiento continuo, audio ni aprobación audiovisual. Intensidad por formato en MOTION-UX.md §2. Recetas de producción bajo demanda (tope de 2 por video); perfil de color una sola vez."
+    },
+    {
+      "id": "looks-color",
+      "nombre": "Looks de color por formato (LUT .cube)",
+      "tipo": "preset",
+      "origen": "library",
+      "archivo": "formatos/looks/README.md",
+      "ref": null,
+      "estado": "candidata",
+      "funcion": "Colorización por formato: un look por defecto y uno alternativo, aplicados a las tomas grabadas con una LUT .cube (FFmpeg) y con una aproximación CSS para Studio. edit-1: Luminoso aire / Oscuro cinematográfico; edit-3: Cine cálido / Cine sobrio.",
+      "usa": [],
+      "edit_types": {
+        "#edit-1-motion": "si",
+        "#edit-2-pantalla-dividida": "condicional",
+        "#edit-3-organico": "si",
+        "#edit-4-business": "condicional",
+        "#edit-5-creator": "condicional"
+      },
+      "nota": "Cinco LUT probadas con FFmpeg sobre una toma real de VIDEO-003 (2,2 s, Rec.709) el 2026-10-10. Burdeos cálido también al 70 %. Prueba técnica, sin aprobación editorial. Los looks por defecto/alternativa de edit-2/4/5 siguen pendientes; solo se gradúa el metraje, nunca los gráficos."
+    },
+    {
+      "id": "formato-edit-4-business",
+      "nombre": "Formato #edit-4-business (definido, sin video)",
+      "tipo": "preset",
+      "origen": "library",
+      "archivo": "formatos/edit-4-business/FORMATO.md",
+      "ref": null,
+      "estado": "incompleta",
+      "funcion": "Business: videos para empresas y marcas con la marca del cliente; variantes 4A caso/testimonio, 4B producto/servicio, 4C anuncio/oferta; Remotion ON, material real primero, motion bajo-medio, IA OFF.",
+      "usa": [
+        "brand-profile",
+        "chunk-captions",
+        "speaker-card",
+        "cta"
+      ],
+      "edit_types": {
+        "#edit-1-motion": "no",
+        "#edit-2-pantalla-dividida": "no",
+        "#edit-3-organico": "no",
+        "#edit-4-business": "si",
+        "#edit-5-creator": "no"
+      },
+      "nota": "Definido el 2026-10-09 por Code sin video ni aprobación audiovisual."
+    }
+  ]
+}

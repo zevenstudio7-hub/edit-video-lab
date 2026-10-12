@@ -1,0 +1,409 @@
+{
+  "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+  "sha256": "e53754006c41cf859743acd61d99d71660737def43da7363e45f61a6611c0455",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:22:08.836Z",
+    "seconds": 141.1,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Así que nada, quiero hacer más videos como este, analizando productos de tecnología, de licencia artificial, marca personal, marca general, posicionamiento de marca, etc.[_TT_1275] Así que si nada, si quieren, si quieren más contenido como este, yo lo hago, síganme y me piden para seguir, ok.[_TT_435] Gracias.[_TT_50] Gracias.[_TT_57]",
+  "words": [
+    {
+      "text": "Así",
+      "startMs": 0,
+      "endMs": 280,
+      "dtwMs": 940,
+      "tokens": 1,
+      "pMin": 0.488
+    },
+    {
+      "text": "que",
+      "startMs": 280,
+      "endMs": 490,
+      "dtwMs": 1080,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "nada,",
+      "startMs": 740,
+      "endMs": 910,
+      "dtwMs": 1220,
+      "tokens": 2,
+      "pMin": 0.814
+    },
+    {
+      "text": "quiero",
+      "startMs": 930,
+      "endMs": 1340,
+      "dtwMs": 1500,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "hacer",
+      "startMs": 1340,
+      "endMs": 1700,
+      "dtwMs": 1740,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "más",
+      "startMs": 1700,
+      "endMs": 1980,
+      "dtwMs": 2000,
+      "tokens": 1,
+      "pMin": 0.918
+    },
+    {
+      "text": "videos",
+      "startMs": 1980,
+      "endMs": 2410,
+      "dtwMs": 2500,
+      "tokens": 1,
+      "pMin": 0.515
+    },
+    {
+      "text": "como",
+      "startMs": 2410,
+      "endMs": 2650,
+      "dtwMs": 2820,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "este,",
+      "startMs": 2690,
+      "endMs": 3180,
+      "dtwMs": 3160,
+      "tokens": 2,
+      "pMin": 0.746
+    },
+    {
+      "text": "analizando",
+      "startMs": 3180,
+      "endMs": 3800,
+      "dtwMs": 3420,
+      "tokens": 3,
+      "pMin": 0.962
+    },
+    {
+      "text": "productos",
+      "startMs": 3800,
+      "endMs": 4360,
+      "dtwMs": 4240,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "de",
+      "startMs": 4360,
+      "endMs": 4480,
+      "dtwMs": 4660,
+      "tokens": 1,
+      "pMin": 0.773
+    },
+    {
+      "text": "tecnología,",
+      "startMs": 4480,
+      "endMs": 5320,
+      "dtwMs": 5140,
+      "tokens": 2,
+      "pMin": 0.984
+    },
+    {
+      "text": "de",
+      "startMs": 5320,
+      "endMs": 5450,
+      "dtwMs": 5660,
+      "tokens": 1,
+      "pMin": 0.164
+    },
+    {
+      "text": "licencia",
+      "startMs": 5450,
+      "endMs": 6000,
+      "dtwMs": 5840,
+      "tokens": 2,
+      "pMin": 0.273
+    },
+    {
+      "text": "artificial,",
+      "startMs": 6000,
+      "endMs": 6600,
+      "dtwMs": 6340,
+      "tokens": 2,
+      "pMin": 0.933
+    },
+    {
+      "text": "marca",
+      "startMs": 6600,
+      "endMs": 7100,
+      "dtwMs": 7660,
+      "tokens": 1,
+      "pMin": 0.959
+    },
+    {
+      "text": "personal,",
+      "startMs": 7100,
+      "endMs": 8080,
+      "dtwMs": 8140,
+      "tokens": 2,
+      "pMin": 0.994
+    },
+    {
+      "text": "marca",
+      "startMs": 8080,
+      "endMs": 8580,
+      "dtwMs": 8820,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "general,",
+      "startMs": 8580,
+      "endMs": 9500,
+      "dtwMs": 9360,
+      "tokens": 2,
+      "pMin": 0.269
+    },
+    {
+      "text": "posicionamiento",
+      "startMs": 9500,
+      "endMs": 17480,
+      "dtwMs": 20180,
+      "tokens": 3,
+      "pMin": 0.843
+    },
+    {
+      "text": "de",
+      "startMs": 17480,
+      "endMs": 18550,
+      "dtwMs": 20920,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "marca,",
+      "startMs": 18560,
+      "endMs": 22270,
+      "dtwMs": 21240,
+      "tokens": 2,
+      "pMin": 0.989
+    },
+    {
+      "text": "etc.[_TT_1275]",
+      "startMs": 22270,
+      "endMs": 25500,
+      "dtwMs": 21480,
+      "tokens": 3,
+      "pMin": 0.024
+    },
+    {
+      "text": "Así",
+      "startMs": 25500,
+      "endMs": 25840,
+      "dtwMs": 26340,
+      "tokens": 1,
+      "pMin": 0.804
+    },
+    {
+      "text": "que",
+      "startMs": 25840,
+      "endMs": 26090,
+      "dtwMs": 26500,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "si",
+      "startMs": 26090,
+      "endMs": 26250,
+      "dtwMs": 26700,
+      "tokens": 1,
+      "pMin": 0.904
+    },
+    {
+      "text": "nada,",
+      "startMs": 26260,
+      "endMs": 26770,
+      "dtwMs": 26900,
+      "tokens": 2,
+      "pMin": 0.564
+    },
+    {
+      "text": "si",
+      "startMs": 26770,
+      "endMs": 26940,
+      "dtwMs": 27440,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "quieren,",
+      "startMs": 26940,
+      "endMs": 27710,
+      "dtwMs": 28060,
+      "tokens": 2,
+      "pMin": 0.149
+    },
+    {
+      "text": "si",
+      "startMs": 27790,
+      "endMs": 27880,
+      "dtwMs": 30040,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "quieren",
+      "startMs": 27880,
+      "endMs": 28330,
+      "dtwMs": 30260,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "más",
+      "startMs": 28360,
+      "endMs": 28820,
+      "dtwMs": 30540,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "contenido",
+      "startMs": 28820,
+      "endMs": 29590,
+      "dtwMs": 30940,
+      "tokens": 1,
+      "pMin": 0.98
+    },
+    {
+      "text": "como",
+      "startMs": 29590,
+      "endMs": 29930,
+      "dtwMs": 31260,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "este,",
+      "startMs": 30000,
+      "endMs": 30440,
+      "dtwMs": 31520,
+      "tokens": 2,
+      "pMin": 0.985
+    },
+    {
+      "text": "yo",
+      "startMs": 30440,
+      "endMs": 30580,
+      "dtwMs": 31860,
+      "tokens": 1,
+      "pMin": 0.502
+    },
+    {
+      "text": "lo",
+      "startMs": 30630,
+      "endMs": 30760,
+      "dtwMs": 31940,
+      "tokens": 1,
+      "pMin": 0.776
+    },
+    {
+      "text": "hago,",
+      "startMs": 30810,
+      "endMs": 31290,
+      "dtwMs": 32140,
+      "tokens": 2,
+      "pMin": 0.732
+    },
+    {
+      "text": "síganme",
+      "startMs": 31290,
+      "endMs": 31960,
+      "dtwMs": 32320,
+      "tokens": 3,
+      "pMin": 0.958
+    },
+    {
+      "text": "y",
+      "startMs": 31960,
+      "endMs": 32040,
+      "dtwMs": 32880,
+      "tokens": 1,
+      "pMin": 0.899
+    },
+    {
+      "text": "me",
+      "startMs": 32040,
+      "endMs": 32210,
+      "dtwMs": 33000,
+      "tokens": 1,
+      "pMin": 0.652
+    },
+    {
+      "text": "piden",
+      "startMs": 32210,
+      "endMs": 32620,
+      "dtwMs": 33100,
+      "tokens": 2,
+      "pMin": 0.66
+    },
+    {
+      "text": "para",
+      "startMs": 32620,
+      "endMs": 32960,
+      "dtwMs": 33520,
+      "tokens": 1,
+      "pMin": 0.564
+    },
+    {
+      "text": "seguir,",
+      "startMs": 32970,
+      "endMs": 33640,
+      "dtwMs": 33780,
+      "tokens": 2,
+      "pMin": 0.329
+    },
+    {
+      "text": "ok.[_TT_435]",
+      "startMs": 33650,
+      "endMs": 34200,
+      "dtwMs": 34180,
+      "tokens": 3,
+      "pMin": 0.386
+    },
+    {
+      "text": "Gracias.[_TT_50]",
+      "startMs": 34200,
+      "endMs": 35200,
+      "dtwMs": 34800,
+      "tokens": 3,
+      "pMin": 0.242
+    },
+    {
+      "text": "Gracias.[_TT_57]",
+      "startMs": 35200,
+      "endMs": 36340,
+      "dtwMs": 36300,
+      "tokens": 3,
+      "pMin": 0.131
+    }
+  ]
+}

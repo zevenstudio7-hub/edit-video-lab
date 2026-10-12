@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "definido": "2026-10-09",
+  "estado": "candidato: cinco LUT probadas con FFmpeg sobre dos tomas reales del usuario (IMG_0001, 4K horizontal, y IMG_2722, vertical; Rec.709) el 2026-10-10, a 30/60/100 % (burdeos 30/50/70/100 %); falta aprobación editorial",
+  "regla": "Solo tomas grabadas, mediante un derivado de metraje antes de añadir gráficos. La orden elige ID e intensidad en cambios y manda sobre el defecto. Nunca graduar textos, logos ni Motion UX.",
+  "looks": {
+    "cine-calido": {
+      "nombre": "Cine cálido",
+      "para": "temas cercanos, humanos, emprendimiento, historias",
+      "descripcion": "sombras con un toque verde-azulado, luces cálidas, contraste suave en S, saturación -6 %, negros ligeramente levantados",
+      "lut": "formatos/looks/cine-calido.cube",
+      "aproximacion_css_remotion": "contrast(1.08) saturate(.94) sepia(.10) hue-rotate(-3deg) brightness(1.01)",
+      "ffmpeg": "ffmpeg -i entrada.mp4 -vf lut3d=file=formatos/looks/cine-calido.cube -c:a copy salida.mp4"
+    },
+    "cine-sobrio": {
+      "nombre": "Cine sobrio",
+      "para": "tecnología, negocios, explicaciones serias",
+      "descripcion": "saturación -24 %, contraste en S más marcado, sombras ligeramente frías, negro mate, ganancia -1,5 %",
+      "lut": "formatos/looks/cine-sobrio.cube",
+      "aproximacion_css_remotion": "contrast(1.10) saturate(.78) brightness(.985) hue-rotate(4deg)",
+      "ffmpeg": "ffmpeg -i entrada.mp4 -vf lut3d=file=formatos/looks/cine-sobrio.cube -c:a copy salida.mp4"
+    },
+    "luminoso-aire": {
+      "nombre": "Luminoso aire",
+      "para": "videos motion de tecnología, productividad y lifestyle; conviven bien con las superficies claras de Motion UX",
+      "referencia": "video de colorización 1 (clave alta): luma mediana ≈ 0,48, negros levantados (p1 ≈ 0,08), saturación media ≈ 0,37, medios cálidos y luces con leve tinte verde-azulado",
+      "descripcion": "exposición más clara (gamma 0,86), negros levantados, contraste suave, medios cálidos, luces ligeramente verdosas, saturación +10 %",
+      "lut": "formatos/looks/luminoso-aire.cube",
+      "aproximacion_css_remotion": "brightness(1.08) contrast(.96) saturate(1.1) sepia(.08)",
+      "ffmpeg": "ffmpeg -i entrada.mp4 -vf lut3d=file=formatos/looks/luminoso-aire.cube -c:a copy salida.mp4"
+    },
+    "oscuro-cinematico": {
+      "nombre": "Oscuro cinematográfico",
+      "para": "videos motion dramáticos, de impacto o de reflexión; sujeto sobre fondo oscuro",
+      "referencia": "video de colorización 2 (clave baja): luma mediana ≈ 0,16, ≈ 67 % del cuadro en sombras, negros profundos (p1 ≈ 0,01), medios de piel cálidos (R−B ≈ 0,24) con leve magenta, luces cálidas casi neutras",
+      "descripcion": "exposición más oscura (gamma 1,28), negros profundos, contraste en S marcado, medios cálidos con un toque magenta, luces cálidas, saturación +6 %",
+      "lut": "formatos/looks/oscuro-cinematico.cube",
+      "aproximacion_css_remotion": "brightness(.88) contrast(1.2) saturate(1.06) sepia(.12)",
+      "ffmpeg": "ffmpeg -i entrada.mp4 -vf lut3d=file=formatos/looks/oscuro-cinematico.cube -c:a copy salida.mp4"
+    },
+    "burdeos-calido": {
+      "nombre": "Burdeos cálido",
+      "para": "videos motion íntimos, de historia o de testimonio; sujeto en interior con fondo cálido oscuro (cortinas, madera)",
+      "referencia": "video de colorización 3 (clave muy baja, grabación de pantalla del 2026-10-09 23:54): luma mediana ≈ 0,12, p1 ≈ 0,055 (negros ligeramente levantados), ≈ 91 % del cuadro en sombras, sombras con dominante rojiza (R−B ≈ 0,085), medios de piel cálidos (R−B ≈ 0,22) con verde algo bajo, techo de luces bajo (p99 ≈ 0,56 en la escena), saturación media ≈ 0,45",
+      "descripcion": "exposición oscura (gamma 1,40), negros levantados con tinte rojizo, contraste suave, medios cálidos con verde recortado, luces contenidas (ganancia 0,94), saturación +6 %",
+      "parametros": {
+        "gamma": 1.4,
+        "contraste": 0.1,
+        "sombras": [
+          0.03,
+          -0.004,
+          -0.002
+        ],
+        "medios": [
+          0.022,
+          -0.006,
+          -0.014
+        ],
+        "luces": [
+          0.004,
+          0,
+          -0.004
+        ],
+        "saturacion": 1.06,
+        "negro": 0.05,
+        "ganancia": 0.94
+      },
+      "lut": "formatos/looks/burdeos-calido.cube",
+      "aproximacion_css_remotion": "brightness(.82) contrast(1.08) saturate(1.06) sepia(.16) hue-rotate(-6deg)",
+      "ffmpeg": "ffmpeg -i entrada.mp4 -vf lut3d=file=formatos/looks/burdeos-calido.cube -c:a copy salida.mp4",
+      "nota": "Medido en un video de otro creador solo para tono y color (no se guarda ni se copia). La grabación traía la interfaz de Instagram encima; se ignoró. Ya venía graduado: sobre una toma sin graduar pide revisar la exposición."
+    }
+  },
+  "por_formato": {
+    "#edit-1-motion": {
+      "defecto": "luminoso-aire",
+      "alternativa": "oscuro-cinematico",
+      "nota": "Definido el 2026-10-09 por el usuario a partir de dos videos de referencia. El look oscuro aplica a la toma grabada; no cambia el fondo claro de los gráficos de video-zeven. Tercer look del formato (2026-10-09): burdeos-calido, a pedido con `look: burdeos-calido`; no es ni el defecto ni la alternativa.",
+      "adicional": "burdeos-calido"
+    },
+    "#edit-2-pantalla-dividida": {
+      "defecto": "pendiente",
+      "alternativa": "pendiente"
+    },
+    "#edit-3-organico": {
+      "defecto": "cine-calido",
+      "alternativa": "cine-sobrio",
+      "nota": "tomas propias del usuario, también horizontales; la LUT no depende de la orientación. La variante 3C (horizontal 16:9) pide «gradación cálida natural, sin looks fuertes»: cine-calido es el suave; cine-sobrio solo si se pide."
+    },
+    "#edit-4-business": {
+      "defecto": "pendiente",
+      "alternativa": "pendiente",
+      "nota": "Sin decidir. Sobrio y fiel a la marca del cliente: probablemente cine-sobrio; confirmar con el primer video."
+    },
+    "#edit-5-creator": {
+      "defecto": "pendiente",
+      "alternativa": "pendiente"
+    },
+    "#edit-6-avatar": {
+      "defecto": "no aplica",
+      "alternativa": "no aplica",
+      "nota": "Fuera de la guía mientras no se use (antes #edit-4-avatar)."
+    }
+  },
+  "notas": [
+    "La aproximación CSS es orientativa; el color consistente lo da la LUT con FFmpeg solo sobre el metraje. Si se usa un pase después del render, contiene únicamente tomas antes de componer gráficos.",
+    "Las LUT son de color; se aplican al espacio sRGB/Rec.709 estándar del iPhone. Si grabas en HDR o Log, hay que convertir antes o el resultado se ve quemado.",
+    "Se ajusta con una toma real: si se ve muy fuerte, se baja la intensidad mezclando con el original (por ejemplo 70 %).",
+    "Los dos looks nuevos asumen una toma de partida normal (sin graduar). Aplicados a material ya graduado (como los videos de referencia) se acumulan y pueden verse exagerados.",
+    "Los videos de referencia son de otros creadores: se usaron solo para medir tono y color; no se guardan en el repositorio.",
+    "burdeos-calido se aplica tal cual está medido (100 %), sin retocar curva ni tinte; los «tonos» son solo la intensidad de la mezcla con la toma (30, 50, 70, 100 %). Los cinematográficos (oscuro-cinematico, cine-calido, cine-sobrio) se ven desde el 30 %. Sobre las tomas del usuario (luz azul y roja) acerca los negros al rojizo del original (sombras R−B −0,07 → −0,004; el video de referencia medía +0,084): lo que falta lo pone la luz de la toma, no el filtro. Elección e intensidad pendientes de aprobación editorial."
+  ],
+  "prueba_tecnica": "formatos/guia/muestras/looks/pruebas.json"
+}

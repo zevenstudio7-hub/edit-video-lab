@@ -1,0 +1,235 @@
+{
+  "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+  "durationSeconds": 60,
+  "transcript": "Este es, este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, muy arriba. Mira, este es el primer ejemplo que Apple lanzó en un principio. Y no re-da un claro ejemplo, un claro detalle que vamos a ver, de que para posicionar un producto o un servicio no siempre tienes que dar más, y de no entregar más valor, que son cosas muy diferentes. Consecuente de que... que nace en el... en el 2014, por lo menos es lo que yo pude eh encontrar, donde Samsung lanza su primer comercial llamado Abrazaparedes. ¿Y por qué lo llama Abrazaparedes? Porque básicamente sacó un comercial diciendo que todo aquel que tenía un... todo usuario que tenía un celular de Apple tenía que estar pegado... pegado.",
+  "timestamps": [
+    {
+      "startTime": 1.2,
+      "endTime": 2.8,
+      "text": "Este es, este es el"
+    },
+    {
+      "startTime": 2.8,
+      "endTime": 5,
+      "text": "claro ejemplo de que Apple"
+    },
+    {
+      "startTime": 5,
+      "endTime": 7.5,
+      "text": "está arriba, muy arriba"
+    },
+    {
+      "startTime": 7.5,
+      "endTime": 9.8,
+      "text": "de cualquier otra marca,"
+    },
+    {
+      "startTime": 9.8,
+      "endTime": 11,
+      "text": "muy arriba."
+    },
+    {
+      "startTime": 11,
+      "endTime": 13.5,
+      "text": "Mira, este es el primer ejemplo"
+    },
+    {
+      "startTime": 13.5,
+      "endTime": 15.5,
+      "text": "que Apple lanzó en un principio."
+    },
+    {
+      "startTime": 15.5,
+      "endTime": 19.5,
+      "text": "Y nos da un claro ejemplo,"
+    },
+    {
+      "startTime": 19.5,
+      "endTime": 21.5,
+      "text": "un claro detalle que vamos a ver,"
+    },
+    {
+      "startTime": 21.5,
+      "endTime": 23.5,
+      "text": "de que"
+    },
+    {
+      "startTime": 23.5,
+      "endTime": 25.5,
+      "text": "para posicionar un producto o servicio"
+    },
+    {
+      "startTime": 25.5,
+      "endTime": 27.5,
+      "text": "no siempre tienes que dar más,"
+    },
+    {
+      "startTime": 27.5,
+      "endTime": 29.5,
+      "text": "y de no entregar más valor,"
+    },
+    {
+      "startTime": 29.5,
+      "endTime": 31,
+      "text": "que son cosas muy diferentes."
+    },
+    {
+      "startTime": 31,
+      "endTime": 35,
+      "text": "Consecuente de que... nace en el..."
+    },
+    {
+      "startTime": 35,
+      "endTime": 37,
+      "text": "en el 2014, por lo menos"
+    },
+    {
+      "startTime": 37,
+      "endTime": 39,
+      "text": "es lo que yo pude eh encontrar,"
+    },
+    {
+      "startTime": 39,
+      "endTime": 41,
+      "text": "donde"
+    },
+    {
+      "startTime": 41,
+      "endTime": 43,
+      "text": "Samsung lanza su primer comercial"
+    },
+    {
+      "startTime": 43,
+      "endTime": 45,
+      "text": "llamado Abrazaparedes."
+    },
+    {
+      "startTime": 45,
+      "endTime": 47,
+      "text": "¿Y por qué lo llama Abrazaparedes?"
+    },
+    {
+      "startTime": 47,
+      "endTime": 49,
+      "text": "Porque básicamente sacó un comercial"
+    },
+    {
+      "startTime": 49,
+      "endTime": 51,
+      "text": "diciendo que todo aquel que tenía un..."
+    },
+    {
+      "startTime": 51,
+      "endTime": 53,
+      "text": "todo usuario que tenía"
+    },
+    {
+      "startTime": 53,
+      "endTime": 56,
+      "text": "un celular de Apple,"
+    },
+    {
+      "startTime": 56,
+      "endTime": 60,
+      "text": "tenía que estar pegado... pegado."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Este es el claro ejemplo de que Apple está arriba, muy arriba, cuando hablamos de posicionamiento de marca.",
+      "match": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, muy arriba.",
+      "confidence": 0.75
+    },
+    {
+      "guionBlock": "Y de que para posicionar tus productos o servicios no siempre tienes que dar más.",
+      "match": "para posicionar un producto o un servicio no siempre tienes que dar más",
+      "confidence": 0.85
+    },
+    {
+      "guionBlock": "En 2014 Samsung se burlaba de los usuarios de iPhone porque vivían pegados a un enchufe.",
+      "match": "en el 2014... Samsung lanza su primer comercial... todo usuario que tenía un celular de Apple tenía que estar pegado",
+      "confidence": 0.55
+    }
+  ],
+  "errors": [
+    "Orientación del video girada 90 grados a la izquierda (requiere rotación de 90° en sentido horario).",
+    "El presentador se aparta sustancialmente del guion original e improvisa frases no contempladas.",
+    "Múltiples muletillas, pausas prolongadas y tropezones verbales a lo largo de la toma."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 1.2,
+      "endTime": 2.5,
+      "reason": "Reinicio de la frase inicial 'Este es, este es el claro...'"
+    },
+    {
+      "startTime": 11,
+      "endTime": 17,
+      "reason": "Intento de estructurar una idea improvisada sobre 'el primer ejemplo que Apple lanzó' sin completar de forma coherente."
+    },
+    {
+      "startTime": 31,
+      "endTime": 35,
+      "reason": "Vacilación y tropiezo al intentar formular la fecha ('Consecuente de que... que nace en el...')."
+    },
+    {
+      "startTime": 49,
+      "endTime": 53,
+      "reason": "Autocorrección al nombrar al usuario ('todo aquel que tenía un... todo usuario que tenía...')."
+    }
+  ],
+  "fluency": {
+    "score": 3,
+    "notes": "Fluidez baja. Hay abundantes tropezones, titubeos, muletillas e imprecisiones al tratar de recordar o improvisar las ideas."
+  },
+  "audio": {
+    "score": 6,
+    "notes": "Audio captado con auriculares. Entendible, pero se percibe ruido de fondo constante y una calidad de microfono modesta."
+  },
+  "visualQuality": {
+    "score": 4,
+    "notes": "Iluminación con tonos rojos/azules muy marcada que distorsiona los colores naturales. La toma está inclinada 90 grados."
+  },
+  "framing": {
+    "score": 3,
+    "notes": "El video está grabado en horizontal pero con la persona rotada lateralmente. Encuadre descentrado y en ángulo inclinado."
+  },
+  "expression": {
+    "score": 5,
+    "notes": "El orador intenta mantener una expresión amigable y comunicativa, pero se nota distraído tratando de recordar el texto."
+  },
+  "fidelity": {
+    "score": 4,
+    "notes": "Baja fidelidad al guion. Se omiten bloques enteros, se cambia el fraseo y se añaden divagaciones."
+  },
+  "continuity": {
+    "score": 3,
+    "notes": "La toma carece de ritmo uniforme debido a las continuas interrupciones y reinicios de frases."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar esta toma. Requiere corregir la orientación del video (rotar 90°), mejorar la iluminación y repetir la lectura para ceñirse con mayor fluidez y fidelidad al guion.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/m7kl8mrwahd3",
+    "analyzedAt": "2026-09-22T00:08:04.926Z",
+    "sha256": "a18a89d4df3ef42ef0a0e43e17938d552dae9f77d1e379b998b27bf4c8efd619",
+    "responseId": "jMaxaqSRMvXQz7IPtYbj6QE",
+    "usage": {
+      "promptTokenCount": 6300,
+      "candidatesTokenCount": 2239,
+      "totalTokenCount": 10237,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 5460
+        }
+      ],
+      "thoughtsTokenCount": 1698,
+      "serviceTier": "standard"
+    }
+  }
+}

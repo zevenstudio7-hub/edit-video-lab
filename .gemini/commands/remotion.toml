@@ -1,0 +1,67 @@
+description = "Ejecuta el flujo de edición asistido por IA para un video (VIDEO-XXX) en Gemini Video Lab."
+
+prompt = """
+Estás ejecutando el comando `/remotion` de Gemini Video Lab. Tu objetivo es coordinar la edición inteligente del material audiovisual.
+
+Argumentos recibidos: "{{args}}"
+
+Sigue estrictamente estos pasos en orden para procesar el video solicitado:
+
+1. **Identificar la Orden y Leer VIDEO-XXX**:
+   - Extrae el identificador del video (por ejemplo, `VIDEO-001` de "{{args}}").
+   - Busca el archivo de orden de edición en `video-orders/VIDEO-XXX.json` (o similar en el proyecto). Si no existe, prepárate para crearlo basándote en el análisis.
+   - Localiza la carpeta del video en `formatos/<edit-type>/<VIDEO-XXX-tema>/` (ficha `README.md`, `exportaciones/`, `material/`, `revision/`). Si no existe, créala según `formatos/README.md`.
+
+2. **Consultar VIDEO-SYSTEM-ROOT**:
+   - Lee e interioriza las reglas y principios de diseño definidos en:
+     @{docs/VIDEO-SYSTEM-ROOT.md}
+
+3. **Revisar Guion y Material**:
+   - Verifica la existencia del guion en `analysis/` (por ejemplo, `guion-video-1.txt` para `VIDEO-001`).
+   - Lista los archivos de video reales de origen en `raw-material/VIDEO-XXX/` o nombres en minúsculas.
+
+4. **Analizar Videos Realmente con Gemini**:
+   - Ejecuta el análisis real llamando al script de análisis del proyecto si está disponible, o analizando cada video de origen usando Gemini Files API.
+   - **PROHIBIDO** usar mocks, fakeTranscript, análisis simulados o placeholders como resultados reales. Todo análisis debe ser real y fiel al material.
+
+5. **Detectar Tomas Repetidas y Seleccionar las Mejores Tomas**:
+   - Analiza la correspondencia de cada toma con el guion.
+   - Identifica falsos comienzos, errores de fluidez y tomas repetidas.
+   - Selecciona los rangos (inTime/outTime) más óptimos y con mejor calidad de audio, expresión y encuadre.
+
+6. **Crear Source-Map**:
+   - Construye el archivo de mapa de fuentes (ej. `analysis/video-XXX-source-map.json`) que registre los metadatos y análisis reales de cada toma.
+
+7. **Crear Screen-Map si Existe Grabación de Pantalla**:
+   - Verifica si existe una grabación de pantalla en `raw-material/video-XXX/grabacion-pantalla.mov` (u otro formato).
+   - Si existe, analízala con Gemini para segmentar las partes relevantes que correspondan a bloques del guion y guárdalo en `analysis/video-XXX-screen-map.json`.
+
+8. **Crear Edit Plan**:
+   - Consolida la información en un plan de edición estructurado que asigne cada escena a un bloque de guion, indicando el archivo de origen, el rango de tiempo (in/out), texto hablado, apoyo visual, subtítulos, animaciones y transiciones.
+
+9. **Preparar Apoyos Visuales**:
+   - Sigue la regla de recursos de apoyo de `docs/VIDEO-SYSTEM-ROOT.md` para preparar los elementos visuales de Remotion o grabaciones de pantalla.
+
+10. **Construir Composición Remotion**:
+    - Con el plan de edición, actualiza o genera las propiedades del componente de Remotion o de la composición para que lea la orden del video y cargue los clips correctos.
+
+11. **Abrir Preview en Remotion Studio**:
+    - Levanta el servidor de previsualización de Remotion ejecutando el comando:
+      !{pnpm dev}
+    - Indica al usuario que el preview está disponible en el navegador.
+
+12. **Detenerse antes del render final**:
+    - NO realices el render final ni generes el archivo de video definitivo MP4. Espera a que el usuario valide la previsualización y otorgue autorización explícita antes de renderizar.
+
+### Tipos de Edición Soportados:
+- `#edit-1-motion` — Motion Editorial (formato en preparación: lee `formatos/edit-1-motion/FORMATO.md`)
+- `#edit-2-pantalla-dividida` — Pantalla Dividida (formato aprobado: sigue `formatos/edit-2-pantalla-dividida/FORMATO.md`)
+- `#edit-3-organico` — Tutorial Orgánico (variantes 3A–3C: `formatos/edit-3-organico/FORMATO.md`)
+- `#edit-4-business` — Business, para empresas (nuevo; variantes 4A–4C: `formatos/edit-4-business/FORMATO.md`)
+- `#edit-5-creator` — Creator (variantes 5A–5D: `formatos/edit-5-creator/FORMATO.md`)
+- `#edit-6-avatar` — Producción IA / Avatar (antes `#edit-4-avatar`; fuera de la guía)
+
+Cada orden declara también `variante` (1A…5D; tabla en `formatos/README.md`) y `subtitulos` (S1–S9: `formatos/subtitulos/SUBTITULOS.md`; sin él, el por defecto de la variante).
+
+Todos los tipos usan la identidad video-zeven (colores, tipografía, sonido, CTA y área segura): `formatos/identidad-video-zeven.md`.
+"""

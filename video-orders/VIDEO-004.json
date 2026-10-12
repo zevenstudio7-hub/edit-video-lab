@@ -1,0 +1,2471 @@
+{
+  "videoId": "VIDEO-004",
+  "EDIT_TYPE": "#edit-3-organico",
+  "variante": "3C",
+  "subtitulos": "S8",
+  "titulo": "Nadie está preparado (prueba desde cero)",
+  "status": "exportado-v3",
+  "carpeta": "formatos/edit-3-organico/VIDEO-004-nadie-esta-preparado",
+  "identidad": "formatos/identidad-video-zeven.md",
+  "decisiones": {
+    "fecha": "2026-10-10",
+    "preguntas": {
+      "para_quien": "marca personal",
+      "formato": "#edit-3-organico (pedido por el usuario)",
+      "variante": "3C orgánico horizontal 16:9 (pedido: horizontal)",
+      "subtitulos": "S8 Flotante cinematográfico (defecto de 3C). Cambio del usuario 2026-10-10 tras revisar v1 (antes S6).",
+      "salida": "solo 16:9",
+      "motion": "ninguno (3C)",
+      "cta": "ninguno añadido; cierra con la frase grabada",
+      "look": "cine-sobrio al 100 % (pedido por el usuario; el defecto de edit-3 es cine-calido)",
+      "guion": "no existe; estructura derivada del audio"
+    },
+    "nota_formato": "3C pide «gradación cálida natural, sin looks fuertes» y subtítulos S8: la orden manda; se registran como elecciones explícitas del usuario."
+  },
+  "objetivo": "Reflexión personal: nadie está realmente preparado para la IA; sentirse atrasado es normal, lo que no se puede es quedarse; hay que seguirle dando.",
+  "script": null,
+  "guion": {
+    "existe": false,
+    "nota": "Estructura derivada del material real (transcripción local + energía del audio)."
+  },
+  "formato": {
+    "aspecto": "16:9",
+    "ancho": 1920,
+    "alto": 1080,
+    "fps": 25,
+    "nota": "25 fps = cadencia de la grabación"
+  },
+  "fuentes": {
+    "tomas": [
+      {
+        "archivo": "IMG_0001.mov",
+        "ruta": "/Users/yeirodriguez/Downloads/IMG_0001.mov",
+        "rol": "principal (única cámara)",
+        "video": "HEVC 3840×2160, 25 fps, Rec.709 SDR (bt709/bt709/bt709), Blackmagic Cam en iPhone 17 26 mm, 117,4 s",
+        "audio": "AAC 48 kHz estéreo",
+        "nota": "No se copia: se lee desde Descargas. Para versionar el material, moverlo a tomas/principal/ de la carpeta del video."
+      }
+    ],
+    "proxy": "public/video-004/hq/fuente-cine-sobrio.mp4 (2880×1620, 25 fps, H.264 CRF 16, LUT cine-sobrio 100 % tetraédrica solo sobre el metraje, audio AAC 256 kbps)"
+  },
+  "verificacion": {
+    "transcripcion": "whisper.cpp large-v3-turbo local con DTW (analysis/video-004-whisper/words.json); tramos dudosos re-transcritos por separado.",
+    "hallazgos": [
+      "0–13,3 s: silencio antes de hablar.",
+      "13,3–26,6 s: primer intento completo («…nadie está totalmente preparado para todo este reto que se nos avecina»). Descartado: el segundo intento es más completo y enlaza con «Porque esto está evolucionando…».",
+      "27,5 s «De hecho, lo más…» y 30,9 s «en el corto tiempo»: falsos arranques. Descartados.",
+      "35,55 s: arranque bueno «En el corto tiempo que llevo explorando…». La pasada DTW fundió el falso arranque con esta frase; las 4 primeras palabras se ubicaron por energía.",
+      "103,2–117,4 s: sin voz. Whisper alucinó «Yo por mi parte he aprendido, ¿no?» y «Gracias por ver el video» sobre ese silencio."
+    ],
+    "dudas": [
+      "«esa ha sido mi premisa»: una pasada oyó «ese»; se subtitula «esa» (pasada DTW). Confirmar al escuchar."
+    ]
+  },
+  "edl": {
+    "fps": 25,
+    "nota": "Audio continuo salvo 2 cortes en pausas largas (≥ 0,7 s), con fundido cruzado de 3 frames (el tramo anterior se alarga bajo el siguiente). Se conservan pausas naturales ≤ 0,55 s.",
+    "audio": [
+      {
+        "id": "A",
+        "in_s": 35.4,
+        "out_s": 52.4,
+        "trimBefore_f": 885,
+        "trimAfter_f": 1310,
+        "timeline_f": [
+          0,
+          425
+        ],
+        "motivo": "«En el corto tiempo que llevo explorando…» hasta «…todos estamos aprendiendo»"
+      },
+      {
+        "id": "B",
+        "in_s": 52.84,
+        "out_s": 101.64,
+        "trimBefore_f": 1321,
+        "trimAfter_f": 2541,
+        "timeline_f": [
+          425,
+          1645
+        ],
+        "motivo": "se elimina la pausa de 0,75 s tras «a tal punto de que»; hasta «…y creo que»"
+      },
+      {
+        "id": "C",
+        "in_s": 102.04,
+        "out_s": 103.6,
+        "trimBefore_f": 2551,
+        "trimAfter_f": 2590,
+        "timeline_f": [
+          1645,
+          1684
+        ],
+        "motivo": "se elimina la pausa de 0,70 s antes de «hay que seguirle dando»; 0,4 s de plano limpio al final"
+      }
+    ],
+    "duracion_f": 1684,
+    "duracion_s": 67.36
+  },
+  "planos": {
+    "nota": "Una sola cámara: los «otros planos» de 3C son reencuadres de la toma 4K (proxy 2880 px). Cambian solo en pausas; en cada corte de audio cambia el plano para que no haya salto en el mismo encuadre.",
+    "encuadres": {
+      "W": {
+        "nombre": "general",
+        "zoom": 1,
+        "origen": [
+          50,
+          50
+        ]
+      },
+      "M": {
+        "nombre": "medio",
+        "zoom": 1.3,
+        "origen": [
+          50,
+          15
+        ]
+      },
+      "C": {
+        "nombre": "cercano",
+        "zoom": 1.55,
+        "origen": [
+          51,
+          15
+        ]
+      }
+    },
+    "lista": [
+      {
+        "id": "P1",
+        "plano": "W",
+        "in_s": 35.4,
+        "out_s": 52.4,
+        "trimBefore_f": 885,
+        "trimAfter_f": 1310,
+        "timeline_f": [
+          0,
+          425
+        ]
+      },
+      {
+        "id": "P2",
+        "plano": "M",
+        "in_s": 52.84,
+        "out_s": 66.6,
+        "trimBefore_f": 1321,
+        "trimAfter_f": 1665,
+        "timeline_f": [
+          425,
+          769
+        ]
+      },
+      {
+        "id": "P3",
+        "plano": "C",
+        "in_s": 66.6,
+        "out_s": 73.08,
+        "trimBefore_f": 1665,
+        "trimAfter_f": 1827,
+        "timeline_f": [
+          769,
+          931
+        ]
+      },
+      {
+        "id": "P4",
+        "plano": "W",
+        "in_s": 73.08,
+        "out_s": 77.4,
+        "trimBefore_f": 1827,
+        "trimAfter_f": 1935,
+        "timeline_f": [
+          931,
+          1039
+        ]
+      },
+      {
+        "id": "P5",
+        "plano": "M",
+        "in_s": 77.4,
+        "out_s": 86,
+        "trimBefore_f": 1935,
+        "trimAfter_f": 2150,
+        "timeline_f": [
+          1039,
+          1254
+        ]
+      },
+      {
+        "id": "P6",
+        "plano": "C",
+        "in_s": 86,
+        "out_s": 94.72,
+        "trimBefore_f": 2150,
+        "trimAfter_f": 2368,
+        "timeline_f": [
+          1254,
+          1472
+        ]
+      },
+      {
+        "id": "P7",
+        "plano": "W",
+        "in_s": 94.72,
+        "out_s": 101.64,
+        "trimBefore_f": 2368,
+        "trimAfter_f": 2541,
+        "timeline_f": [
+          1472,
+          1645
+        ]
+      },
+      {
+        "id": "P8",
+        "plano": "C",
+        "in_s": 102.04,
+        "out_s": 103.6,
+        "trimBefore_f": 2551,
+        "trimAfter_f": 2590,
+        "timeline_f": [
+          1645,
+          1684
+        ]
+      }
+    ]
+  },
+  "look": {
+    "id": "cine-sobrio",
+    "intensidad": 100,
+    "lut": "formatos/looks/cine-sobrio.cube",
+    "aplicado": "solo al metraje, en el proxy (antes de componer subtítulos)",
+    "comparacion": "formatos/edit-3-organico/VIDEO-004-nadie-esta-preparado/revision/look-cine-sobrio-original-100-70.jpg"
+  },
+  "motion": "ninguno",
+  "cta": "Solo el grabado; no se añade ninguno.",
+  "musica_sfx": "no",
+  "reviewNotice": "VIDEO-004 · PREVIEW v3 · PENDIENTE DE REVISIÓN",
+  "render": {
+    "fecha": "2026-10-10",
+    "autorizado_por": "usuario («renderiza»)",
+    "composicion": "Video004",
+    "props": {
+      "reviewNotice": ""
+    },
+    "salida_paso": "out/Video004.mp4",
+    "sincronia_audio": "node src/videoAnalysis/fixRenderAudioSync.mjs (sin pérdida; informe analysis/video-004-export-sync.json)",
+    "exportacion": "formatos/edit-3-organico/VIDEO-004-nadie-esta-preparado/exportaciones/Video004V3.mp4",
+    "tecnico": "H.264 1920×1080, 25 fps, CRF 16, AAC 48 kHz estéreo, 67,36 s, 100,8 MB, -16,4 LUFS, pico real -0,5 dBFS",
+    "nota": "El MP4 no lleva etiqueta de color (color_transfer unknown); los reproductores lo tratan como Rec.709 en HD."
+  },
+  "qa": {
+    "fecha": "2026-10-10",
+    "version": "v3",
+    "automatico": [
+      "pnpm typecheck OK",
+      "46 colocaciones validadas: ninguna pieza a < 8 % del borde ni en un espacio < 320 px",
+      "stills (revision/v3-s8-sujeto-hoja.jpg, v3-s8-partido-y-cercano.jpg): texto fuera de la cara en los tres encuadres; partido a la misma altura",
+      "audio de los cortes sin hueco (v2, sin cambios)"
+    ],
+    "no_cubierto": [
+      "escucha completa",
+      "reproducción continua: saltos de posición dentro de una frase al cambiar de plano",
+      "aprobación editorial del look cine-sobrio 100 %"
+    ],
+    "nota": "La salida es a 25 fps (cadencia de la toma); FORMATO.md de 3C indica 30 fps. No se cambió: decidir si se convierte."
+  },
+  "subtitulos_s8": {
+    "estilo": "S8",
+    "receta": "library/recipes/FloatingCaptions.tsx",
+    "variacion": "según el sujeto: en el hueco o apilado en el espacio libre izquierdo (el más amplio y oscuro); partido en 3 frases cortas cuando el plano deja los dos espacios",
+    "posicion": {
+      "regla": "según el sujeto (SUBTITULOS.md): bloque centrado en el espacio libre a su lado, a la altura de su cabeza; ≥ 8 % del borde y ≥ 3 % del sujeto; se recalcula en cada plano",
+      "medicion": "analysis/video-004-subject.json (src/videoAnalysis/video004/measureSubject.swift, Apple Vision cada 0,2 s)",
+      "espacio_principal": "izquierdo: el más amplio en los tres encuadres y el más oscuro a la altura de la cabeza (luma 16–86/255 frente a 94–127 del derecho)",
+      "ancho_max_px": 560,
+      "centro_y": "arriba de la caja de la cara + 20 % de su alto (frente/ojos)",
+      "tamano": 44
+    },
+    "unidad": "segundos de la línea de tiempo montada; tiempo por palabra de whisper DTW (las 4 primeras palabras, ubicadas por energía)",
+    "frases": [
+      {
+        "texto": "En el corto tiempo que llevo",
+        "palabras": [
+          {
+            "texto": "En",
+            "t": 0.15
+          },
+          {
+            "texto": "el",
+            "t": 0.28
+          },
+          {
+            "texto": "corto",
+            "t": 0.38
+          },
+          {
+            "texto": "tiempo",
+            "t": 0.6
+          },
+          {
+            "texto": "que",
+            "t": 1.02
+          },
+          {
+            "texto": "llevo",
+            "t": 1.18
+          }
+        ],
+        "hasta_s": 2.42,
+        "colocacion": [
+          {
+            "desde_s": 0.15,
+            "hasta_s": 2.42,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 204,
+            "espacios": {
+              "izq": [
+                154,
+                749
+              ],
+              "der": [
+                1228,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 451,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "explorando, aprendiendo",
+        "palabras": [
+          {
+            "texto": "explorando,",
+            "t": 2.42
+          },
+          {
+            "texto": "aprendiendo",
+            "t": 3.04
+          }
+        ],
+        "hasta_s": 3.68,
+        "colocacion": [
+          {
+            "desde_s": 2.42,
+            "hasta_s": 3.68,
+            "plano": "P1 W",
+            "variacion": "partido",
+            "cy": 245,
+            "espacios": {
+              "izq": [
+                154,
+                741
+              ],
+              "der": [
+                1153,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 447,
+                "ancho": 560
+              },
+              {
+                "desde": 1,
+                "cx": 1460,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "y cometiendo muchos errores",
+        "palabras": [
+          {
+            "texto": "y",
+            "t": 3.68
+          },
+          {
+            "texto": "cometiendo",
+            "t": 3.98
+          },
+          {
+            "texto": "muchos",
+            "t": 4.56
+          },
+          {
+            "texto": "errores",
+            "t": 4.82,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 5.3,
+        "colocacion": [
+          {
+            "desde_s": 3.68,
+            "hasta_s": 5.3,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 225,
+            "espacios": {
+              "izq": [
+                154,
+                824
+              ],
+              "der": [
+                1291,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 489,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "con el tema",
+        "palabras": [
+          {
+            "texto": "con",
+            "t": 5.3
+          },
+          {
+            "texto": "el",
+            "t": 5.46
+          },
+          {
+            "texto": "tema",
+            "t": 5.64
+          }
+        ],
+        "hasta_s": 5.76,
+        "colocacion": [
+          {
+            "desde_s": 5.3,
+            "hasta_s": 5.76,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 220,
+            "espacios": {
+              "izq": [
+                154,
+                805
+              ],
+              "der": [
+                1224,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 479,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "de la inteligencia artificial,",
+        "palabras": [
+          {
+            "texto": "de",
+            "t": 5.76
+          },
+          {
+            "texto": "la",
+            "t": 5.84
+          },
+          {
+            "texto": "inteligencia",
+            "t": 6.06
+          },
+          {
+            "texto": "artificial,",
+            "t": 6.68
+          }
+        ],
+        "hasta_s": 7,
+        "colocacion": [
+          {
+            "desde_s": 5.76,
+            "hasta_s": 7,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 198,
+            "espacios": {
+              "izq": [
+                154,
+                797
+              ],
+              "der": [
+                1228,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 476,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "me he dado cuenta de que",
+        "palabras": [
+          {
+            "texto": "me",
+            "t": 7
+          },
+          {
+            "texto": "he",
+            "t": 7.06
+          },
+          {
+            "texto": "dado",
+            "t": 7.16
+          },
+          {
+            "texto": "cuenta",
+            "t": 7.4
+          },
+          {
+            "texto": "de",
+            "t": 7.54
+          },
+          {
+            "texto": "que",
+            "t": 7.64
+          }
+        ],
+        "hasta_s": 7.96,
+        "colocacion": [
+          {
+            "desde_s": 7,
+            "hasta_s": 7.96,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 204,
+            "espacios": {
+              "izq": [
+                154,
+                869
+              ],
+              "der": [
+                1276,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 511,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "nadie está realmente preparado",
+        "palabras": [
+          {
+            "texto": "nadie",
+            "t": 7.96
+          },
+          {
+            "texto": "está",
+            "t": 8.28
+          },
+          {
+            "texto": "realmente",
+            "t": 8.84
+          },
+          {
+            "texto": "preparado",
+            "t": 9.28,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 10.24,
+        "colocacion": [
+          {
+            "desde_s": 7.96,
+            "hasta_s": 10.24,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 206,
+            "espacios": {
+              "izq": [
+                154,
+                764
+              ],
+              "der": [
+                1216,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 459,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "para decirte me la sé toda.",
+        "palabras": [
+          {
+            "texto": "para",
+            "t": 10.24
+          },
+          {
+            "texto": "decirte",
+            "t": 10.94
+          },
+          {
+            "texto": "me",
+            "t": 11.7
+          },
+          {
+            "texto": "la",
+            "t": 11.84
+          },
+          {
+            "texto": "sé",
+            "t": 12.04
+          },
+          {
+            "texto": "toda.",
+            "t": 12.3
+          }
+        ],
+        "hasta_s": 12.76,
+        "colocacion": [
+          {
+            "desde_s": 10.24,
+            "hasta_s": 12.76,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 242,
+            "espacios": {
+              "izq": [
+                154,
+                775
+              ],
+              "der": [
+                1194,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 464,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Porque esto está evolucionando",
+        "palabras": [
+          {
+            "texto": "Porque",
+            "t": 12.76
+          },
+          {
+            "texto": "esto",
+            "t": 13.22
+          },
+          {
+            "texto": "está",
+            "t": 13.4
+          },
+          {
+            "texto": "evolucionando",
+            "t": 13.64
+          }
+        ],
+        "hasta_s": 14.62,
+        "colocacion": [
+          {
+            "desde_s": 12.76,
+            "hasta_s": 14.62,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 247,
+            "espacios": {
+              "izq": [
+                154,
+                779
+              ],
+              "der": [
+                1190,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 466,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "demasiado rápido,",
+        "palabras": [
+          {
+            "texto": "demasiado",
+            "t": 14.62
+          },
+          {
+            "texto": "rápido,",
+            "t": 15.16,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 15.62,
+        "colocacion": [
+          {
+            "desde_s": 14.62,
+            "hasta_s": 15.62,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 239,
+            "espacios": {
+              "izq": [
+                154,
+                809
+              ],
+              "der": [
+                1194,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 481,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "a tal punto de que",
+        "palabras": [
+          {
+            "texto": "a",
+            "t": 15.62
+          },
+          {
+            "texto": "tal",
+            "t": 15.76
+          },
+          {
+            "texto": "punto",
+            "t": 16.14
+          },
+          {
+            "texto": "de",
+            "t": 16.48
+          },
+          {
+            "texto": "que",
+            "t": 16.8
+          }
+        ],
+        "hasta_s": 17.42,
+        "colocacion": [
+          {
+            "desde_s": 15.62,
+            "hasta_s": 17,
+            "plano": "P1 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 237,
+            "espacios": {
+              "izq": [
+                154,
+                827
+              ],
+              "der": [
+                1644,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 491,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 17,
+            "hasta_s": 17.42,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 258,
+            "espacios": {
+              "izq": [
+                154,
+                795
+              ],
+              "der": [
+                1252,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 474,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "todos estamos aprendiendo.",
+        "palabras": [
+          {
+            "texto": "todos",
+            "t": 17.42
+          },
+          {
+            "texto": "estamos",
+            "t": 18.04
+          },
+          {
+            "texto": "aprendiendo.",
+            "t": 18.7,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 19.72,
+        "colocacion": [
+          {
+            "desde_s": 17.42,
+            "hasta_s": 19.72,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 273,
+            "espacios": {
+              "izq": [
+                154,
+                766
+              ],
+              "der": [
+                1237,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 460,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Todo el mundo está aprendiendo,",
+        "palabras": [
+          {
+            "texto": "Todo",
+            "t": 19.72
+          },
+          {
+            "texto": "el",
+            "t": 19.88
+          },
+          {
+            "texto": "mundo",
+            "t": 20.04
+          },
+          {
+            "texto": "está",
+            "t": 20.22
+          },
+          {
+            "texto": "aprendiendo,",
+            "t": 20.48
+          }
+        ],
+        "hasta_s": 21.02,
+        "colocacion": [
+          {
+            "desde_s": 19.72,
+            "hasta_s": 21.02,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 266,
+            "espacios": {
+              "izq": [
+                154,
+                771
+              ],
+              "der": [
+                1276,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 462,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "desde los creadores",
+        "palabras": [
+          {
+            "texto": "desde",
+            "t": 21.02
+          },
+          {
+            "texto": "los",
+            "t": 21.28
+          },
+          {
+            "texto": "creadores",
+            "t": 21.58
+          }
+        ],
+        "hasta_s": 22.86,
+        "colocacion": [
+          {
+            "desde_s": 21.02,
+            "hasta_s": 22.86,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 274,
+            "espacios": {
+              "izq": [
+                154,
+                834
+              ],
+              "der": [
+                1339,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 494,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "hasta los que estamos aprendiendo",
+        "palabras": [
+          {
+            "texto": "hasta",
+            "t": 22.86
+          },
+          {
+            "texto": "los",
+            "t": 23.1
+          },
+          {
+            "texto": "que",
+            "t": 23.3
+          },
+          {
+            "texto": "estamos",
+            "t": 23.74
+          },
+          {
+            "texto": "aprendiendo",
+            "t": 25.22
+          }
+        ],
+        "hasta_s": 25.62,
+        "colocacion": [
+          {
+            "desde_s": 22.86,
+            "hasta_s": 25.62,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 275,
+            "espacios": {
+              "izq": [
+                154,
+                746
+              ],
+              "der": [
+                1300,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 450,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "y explorando este mundo digital",
+        "palabras": [
+          {
+            "texto": "y",
+            "t": 25.62
+          },
+          {
+            "texto": "explorando",
+            "t": 25.94
+          },
+          {
+            "texto": "este",
+            "t": 26.68
+          },
+          {
+            "texto": "mundo",
+            "t": 26.98
+          },
+          {
+            "texto": "digital",
+            "t": 27.68
+          }
+        ],
+        "hasta_s": 28.22,
+        "colocacion": [
+          {
+            "desde_s": 25.62,
+            "hasta_s": 28.22,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 258,
+            "espacios": {
+              "izq": [
+                154,
+                751
+              ],
+              "der": [
+                1334,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 452,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "y de inteligencia artificial.",
+        "palabras": [
+          {
+            "texto": "y",
+            "t": 28.22
+          },
+          {
+            "texto": "de",
+            "t": 28.72
+          },
+          {
+            "texto": "inteligencia",
+            "t": 29.72
+          },
+          {
+            "texto": "artificial.",
+            "t": 30.36
+          }
+        ],
+        "hasta_s": 31.16,
+        "colocacion": [
+          {
+            "desde_s": 28.22,
+            "hasta_s": 30.76,
+            "plano": "P2 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 258,
+            "espacios": {
+              "izq": [
+                154,
+                761
+              ],
+              "der": [
+                1247,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 457,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 30.76,
+            "hasta_s": 31.16,
+            "plano": "P3 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 282,
+            "espacios": {
+              "izq": [
+                154,
+                764
+              ],
+              "der": [
+                1303,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 459,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Así que sentirse de pronto",
+        "palabras": [
+          {
+            "texto": "Así",
+            "t": 31.16
+          },
+          {
+            "texto": "que",
+            "t": 31.4
+          },
+          {
+            "texto": "sentirse",
+            "t": 32.32
+          },
+          {
+            "texto": "de",
+            "t": 32.74
+          },
+          {
+            "texto": "pronto",
+            "t": 32.98
+          }
+        ],
+        "hasta_s": 33.2,
+        "colocacion": [
+          {
+            "desde_s": 31.16,
+            "hasta_s": 33.2,
+            "plano": "P3 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 284,
+            "espacios": {
+              "izq": [
+                154,
+                781
+              ],
+              "der": [
+                1362,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 468,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "de que como todo está evolucionando,",
+        "palabras": [
+          {
+            "texto": "de",
+            "t": 33.2
+          },
+          {
+            "texto": "que",
+            "t": 33.36
+          },
+          {
+            "texto": "como",
+            "t": 33.64
+          },
+          {
+            "texto": "todo",
+            "t": 33.9
+          },
+          {
+            "texto": "está",
+            "t": 34.12
+          },
+          {
+            "texto": "evolucionando,",
+            "t": 34.36
+          }
+        ],
+        "hasta_s": 35,
+        "colocacion": [
+          {
+            "desde_s": 33.2,
+            "hasta_s": 35,
+            "plano": "P3 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 281,
+            "espacios": {
+              "izq": [
+                154,
+                770
+              ],
+              "der": [
+                1338,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 462,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "uno se siente atrasado",
+        "palabras": [
+          {
+            "texto": "uno",
+            "t": 35
+          },
+          {
+            "texto": "se",
+            "t": 35.38
+          },
+          {
+            "texto": "siente",
+            "t": 35.48
+          },
+          {
+            "texto": "atrasado",
+            "t": 35.92,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 36.54,
+        "colocacion": [
+          {
+            "desde_s": 35,
+            "hasta_s": 36.54,
+            "plano": "P3 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 264,
+            "espacios": {
+              "izq": [
+                154,
+                816
+              ],
+              "der": [
+                1362,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 485,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "es normal.",
+        "palabras": [
+          {
+            "texto": "es",
+            "t": 36.54
+          },
+          {
+            "texto": "normal.",
+            "t": 36.92,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 37.7,
+        "colocacion": [
+          {
+            "desde_s": 36.54,
+            "hasta_s": 37.24,
+            "plano": "P3 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 278,
+            "espacios": {
+              "izq": [
+                154,
+                764
+              ],
+              "der": [
+                1989,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 459,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 37.24,
+            "hasta_s": 37.7,
+            "plano": "P4 W",
+            "variacion": "partido",
+            "cy": 246,
+            "espacios": {
+              "izq": [
+                154,
+                820
+              ],
+              "der": [
+                1224,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 487,
+                "ancho": 560
+              },
+              {
+                "desde": 1,
+                "cx": 1495,
+                "ancho": 543
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Sentirse de que todo va tan rápido",
+        "palabras": [
+          {
+            "texto": "Sentirse",
+            "t": 37.7
+          },
+          {
+            "texto": "de",
+            "t": 38.24
+          },
+          {
+            "texto": "que",
+            "t": 38.3
+          },
+          {
+            "texto": "todo",
+            "t": 38.62
+          },
+          {
+            "texto": "va",
+            "t": 38.82
+          },
+          {
+            "texto": "tan",
+            "t": 39.02
+          },
+          {
+            "texto": "rápido",
+            "t": 39.42
+          }
+        ],
+        "hasta_s": 39.6,
+        "colocacion": [
+          {
+            "desde_s": 37.7,
+            "hasta_s": 39.6,
+            "plano": "P4 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 242,
+            "espacios": {
+              "izq": [
+                154,
+                846
+              ],
+              "der": [
+                1235,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 500,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "y que pronto uno se está quedando",
+        "palabras": [
+          {
+            "texto": "y",
+            "t": 39.6
+          },
+          {
+            "texto": "que",
+            "t": 39.7
+          },
+          {
+            "texto": "pronto",
+            "t": 39.98
+          },
+          {
+            "texto": "uno",
+            "t": 40.16
+          },
+          {
+            "texto": "se",
+            "t": 40.3
+          },
+          {
+            "texto": "está",
+            "t": 40.48
+          },
+          {
+            "texto": "quedando",
+            "t": 40.68,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 41,
+        "colocacion": [
+          {
+            "desde_s": 39.6,
+            "hasta_s": 41,
+            "plano": "P4 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 254,
+            "espacios": {
+              "izq": [
+                154,
+                816
+              ],
+              "der": [
+                1258,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 485,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "es normal.",
+        "palabras": [
+          {
+            "texto": "es",
+            "t": 41
+          },
+          {
+            "texto": "normal.",
+            "t": 41.28
+          }
+        ],
+        "hasta_s": 42.04,
+        "colocacion": [
+          {
+            "desde_s": 41,
+            "hasta_s": 41.56,
+            "plano": "P4 W",
+            "variacion": "partido",
+            "cy": 248,
+            "espacios": {
+              "izq": [
+                154,
+                801
+              ],
+              "der": [
+                1186,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 477,
+                "ancho": 560
+              },
+              {
+                "desde": 1,
+                "cx": 1476,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 41.56,
+            "hasta_s": 42.04,
+            "plano": "P5 M",
+            "variacion": "partido",
+            "cy": 235,
+            "espacios": {
+              "izq": [
+                154,
+                785
+              ],
+              "der": [
+                1237,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 470,
+                "ancho": 560
+              },
+              {
+                "desde": 1,
+                "cx": 1502,
+                "ancho": 529
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Lo que no podemos",
+        "palabras": [
+          {
+            "texto": "Lo",
+            "t": 42.04
+          },
+          {
+            "texto": "que",
+            "t": 42.22
+          },
+          {
+            "texto": "no",
+            "t": 42.52
+          },
+          {
+            "texto": "podemos",
+            "t": 42.94
+          }
+        ],
+        "hasta_s": 43.28,
+        "colocacion": [
+          {
+            "desde_s": 42.04,
+            "hasta_s": 43.28,
+            "plano": "P5 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 238,
+            "espacios": {
+              "izq": [
+                154,
+                790
+              ],
+              "der": [
+                1281,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 472,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "es convertir esa normalidad",
+        "palabras": [
+          {
+            "texto": "es",
+            "t": 43.28
+          },
+          {
+            "texto": "convertir",
+            "t": 43.64
+          },
+          {
+            "texto": "esa",
+            "t": 44.1
+          },
+          {
+            "texto": "normalidad",
+            "t": 44.5,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 46.38,
+        "colocacion": [
+          {
+            "desde_s": 43.28,
+            "hasta_s": 46.38,
+            "plano": "P5 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 254,
+            "espacios": {
+              "izq": [
+                154,
+                829
+              ],
+              "der": [
+                1320,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 491,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "en un proceso en el que",
+        "palabras": [
+          {
+            "texto": "en",
+            "t": 46.38
+          },
+          {
+            "texto": "un",
+            "t": 46.48
+          },
+          {
+            "texto": "proceso",
+            "t": 46.88
+          },
+          {
+            "texto": "en",
+            "t": 47.22
+          },
+          {
+            "texto": "el",
+            "t": 47.32
+          },
+          {
+            "texto": "que",
+            "t": 47.44
+          }
+        ],
+        "hasta_s": 47.62,
+        "colocacion": [
+          {
+            "desde_s": 46.38,
+            "hasta_s": 47.62,
+            "plano": "P5 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 262,
+            "espacios": {
+              "izq": [
+                154,
+                844
+              ],
+              "der": [
+                1310,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 499,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "nos tengamos que quedar",
+        "palabras": [
+          {
+            "texto": "nos",
+            "t": 47.62
+          },
+          {
+            "texto": "tengamos",
+            "t": 47.86
+          },
+          {
+            "texto": "que",
+            "t": 48.28
+          },
+          {
+            "texto": "quedar",
+            "t": 48.58
+          }
+        ],
+        "hasta_s": 48.92,
+        "colocacion": [
+          {
+            "desde_s": 47.62,
+            "hasta_s": 48.92,
+            "plano": "P5 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 259,
+            "espacios": {
+              "izq": [
+                154,
+                829
+              ],
+              "der": [
+                1310,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 491,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "porque vemos a otros avanzados.",
+        "palabras": [
+          {
+            "texto": "porque",
+            "t": 48.92
+          },
+          {
+            "texto": "vemos",
+            "t": 49.18
+          },
+          {
+            "texto": "a",
+            "t": 49.38
+          },
+          {
+            "texto": "otros",
+            "t": 49.54
+          },
+          {
+            "texto": "avanzados.",
+            "t": 49.84
+          }
+        ],
+        "hasta_s": 50.46,
+        "colocacion": [
+          {
+            "desde_s": 48.92,
+            "hasta_s": 50.16,
+            "plano": "P5 M",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 262,
+            "espacios": {
+              "izq": [
+                154,
+                805
+              ],
+              "der": [
+                1291,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 479,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 50.16,
+            "hasta_s": 50.46,
+            "plano": "P6 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 291,
+            "espacios": {
+              "izq": [
+                154,
+                816
+              ],
+              "der": [
+                1338,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 485,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Tenemos que seguirle dando,",
+        "palabras": [
+          {
+            "texto": "Tenemos",
+            "t": 50.46
+          },
+          {
+            "texto": "que",
+            "t": 50.64
+          },
+          {
+            "texto": "seguirle",
+            "t": 50.9
+          },
+          {
+            "texto": "dando,",
+            "t": 51.24,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 51.54,
+        "colocacion": [
+          {
+            "desde_s": 50.46,
+            "hasta_s": 51.54,
+            "plano": "P6 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 284,
+            "espacios": {
+              "izq": [
+                154,
+                781
+              ],
+              "der": [
+                1338,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 468,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "yo por mi parte he aprendido eso,",
+        "palabras": [
+          {
+            "texto": "yo",
+            "t": 51.54
+          },
+          {
+            "texto": "por",
+            "t": 51.74
+          },
+          {
+            "texto": "mi",
+            "t": 51.9
+          },
+          {
+            "texto": "parte",
+            "t": 52.18
+          },
+          {
+            "texto": "he",
+            "t": 52.78
+          },
+          {
+            "texto": "aprendido",
+            "t": 53.06
+          },
+          {
+            "texto": "eso,",
+            "t": 53.5
+          }
+        ],
+        "hasta_s": 53.74,
+        "colocacion": [
+          {
+            "desde_s": 51.54,
+            "hasta_s": 53.74,
+            "plano": "P6 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 278,
+            "espacios": {
+              "izq": [
+                154,
+                781
+              ],
+              "der": [
+                1356,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 468,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "de que tenemos que seguirle dando",
+        "palabras": [
+          {
+            "texto": "de",
+            "t": 53.74
+          },
+          {
+            "texto": "que",
+            "t": 53.9
+          },
+          {
+            "texto": "tenemos",
+            "t": 54.3
+          },
+          {
+            "texto": "que",
+            "t": 54.48
+          },
+          {
+            "texto": "seguirle",
+            "t": 54.7
+          },
+          {
+            "texto": "dando",
+            "t": 55.06
+          }
+        ],
+        "hasta_s": 55.6,
+        "colocacion": [
+          {
+            "desde_s": 53.74,
+            "hasta_s": 55.6,
+            "plano": "P6 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 271,
+            "espacios": {
+              "izq": [
+                154,
+                840
+              ],
+              "der": [
+                1385,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 497,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "porque definitivamente",
+        "palabras": [
+          {
+            "texto": "porque",
+            "t": 55.6
+          },
+          {
+            "texto": "definitivamente",
+            "t": 57
+          }
+        ],
+        "hasta_s": 57.86,
+        "colocacion": [
+          {
+            "desde_s": 55.6,
+            "hasta_s": 57.86,
+            "plano": "P6 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 281,
+            "espacios": {
+              "izq": [
+                154,
+                828
+              ],
+              "der": [
+                1379,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 491,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "todo el mundo está aprendiendo",
+        "palabras": [
+          {
+            "texto": "todo",
+            "t": 57.86
+          },
+          {
+            "texto": "el",
+            "t": 58
+          },
+          {
+            "texto": "mundo",
+            "t": 58.06
+          },
+          {
+            "texto": "está",
+            "t": 58.22
+          },
+          {
+            "texto": "aprendiendo",
+            "t": 58.5
+          }
+        ],
+        "hasta_s": 59.16,
+        "colocacion": [
+          {
+            "desde_s": 57.86,
+            "hasta_s": 58.88,
+            "plano": "P6 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 266,
+            "espacios": {
+              "izq": [
+                154,
+                822
+              ],
+              "der": [
+                1362,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 488,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 58.88,
+            "hasta_s": 59.16,
+            "plano": "P7 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 245,
+            "espacios": {
+              "izq": [
+                154,
+                876
+              ],
+              "der": [
+                1261,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 515,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "y quienes se metan de lleno",
+        "palabras": [
+          {
+            "texto": "y",
+            "t": 59.16
+          },
+          {
+            "texto": "quienes",
+            "t": 59.76
+          },
+          {
+            "texto": "se",
+            "t": 60.32
+          },
+          {
+            "texto": "metan",
+            "t": 60.54
+          },
+          {
+            "texto": "de",
+            "t": 60.78
+          },
+          {
+            "texto": "lleno",
+            "t": 60.92
+          }
+        ],
+        "hasta_s": 61.64,
+        "colocacion": [
+          {
+            "desde_s": 59.16,
+            "hasta_s": 61.64,
+            "plano": "P7 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 245,
+            "espacios": {
+              "izq": [
+                154,
+                872
+              ],
+              "der": [
+                1269,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 513,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "van a tomar la ventaja.",
+        "palabras": [
+          {
+            "texto": "van",
+            "t": 61.64
+          },
+          {
+            "texto": "a",
+            "t": 61.76
+          },
+          {
+            "texto": "tomar",
+            "t": 61.96
+          },
+          {
+            "texto": "la",
+            "t": 62.12
+          },
+          {
+            "texto": "ventaja.",
+            "t": 62.32,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 62.86,
+        "colocacion": [
+          {
+            "desde_s": 61.64,
+            "hasta_s": 62.86,
+            "plano": "P7 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 215,
+            "espacios": {
+              "izq": [
+                154,
+                865
+              ],
+              "der": [
+                1254,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 509,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "Así que esa ha sido mi premisa",
+        "palabras": [
+          {
+            "texto": "Así",
+            "t": 62.86
+          },
+          {
+            "texto": "que",
+            "t": 63.12
+          },
+          {
+            "texto": "esa",
+            "t": 63.74
+          },
+          {
+            "texto": "ha",
+            "t": 63.86
+          },
+          {
+            "texto": "sido",
+            "t": 64.04
+          },
+          {
+            "texto": "mi",
+            "t": 64.24
+          },
+          {
+            "texto": "premisa",
+            "t": 64.48,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 64.88,
+        "colocacion": [
+          {
+            "desde_s": 62.86,
+            "hasta_s": 64.88,
+            "plano": "P7 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 227,
+            "espacios": {
+              "izq": [
+                154,
+                872
+              ],
+              "der": [
+                1261,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 513,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "y creo que hay que",
+        "palabras": [
+          {
+            "texto": "y",
+            "t": 64.88
+          },
+          {
+            "texto": "creo",
+            "t": 65.16
+          },
+          {
+            "texto": "que",
+            "t": 65.48
+          },
+          {
+            "texto": "hay",
+            "t": 66.08
+          },
+          {
+            "texto": "que",
+            "t": 66.16
+          }
+        ],
+        "hasta_s": 66.38,
+        "colocacion": [
+          {
+            "desde_s": 64.88,
+            "hasta_s": 65.8,
+            "plano": "P7 W",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 224,
+            "espacios": {
+              "izq": [
+                154,
+                876
+              ],
+              "der": [
+                1258,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 515,
+                "ancho": 560
+              }
+            ]
+          },
+          {
+            "desde_s": 65.8,
+            "hasta_s": 66.38,
+            "plano": "P8 C",
+            "variacion": "en el hueco / apilado (2 líneas si no cabe en una)",
+            "cy": 262,
+            "espacios": {
+              "izq": [
+                154,
+                816
+              ],
+              "der": [
+                2024,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 485,
+                "ancho": 560
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texto": "seguirle dando.",
+        "palabras": [
+          {
+            "texto": "seguirle",
+            "t": 66.38
+          },
+          {
+            "texto": "dando.",
+            "t": 66.68,
+            "negrita": true
+          }
+        ],
+        "hasta_s": 67.36,
+        "colocacion": [
+          {
+            "desde_s": 66.38,
+            "hasta_s": 67.36,
+            "plano": "P8 C",
+            "variacion": "partido",
+            "cy": 255,
+            "espacios": {
+              "izq": [
+                154,
+                764
+              ],
+              "der": [
+                1333,
+                1766
+              ]
+            },
+            "piezas": [
+              {
+                "desde": 0,
+                "cx": 459,
+                "ancho": 560
+              },
+              {
+                "desde": 1,
+                "cx": 1549,
+                "ancho": 434
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "version": "v2",
+      "fecha": "2026-10-10",
+      "pedido": "subtítulos S6 → S8; revisar falla de audio entre 16 y 17 s",
+      "hecho": [
+        "Subtítulos S8 apilados en la columna izquierda (39 frases de 2–6 palabras, 12 claves en 700).",
+        "Falla de audio confirmada: en el corte de 17,00 s los fundidos a cero de 2 frames dejaban ~80 ms a -87 dB (silencio digital) bajo un ruido de sala de -32 dB. Mismo caso en el corte de 65,80 s. Corregido con fundido cruzado de 3 frames."
+      ]
+    },
+    {
+      "version": "v3",
+      "fecha": "2026-10-10",
+      "pedido": "ajustar S8 a la regla nueva de la RAÍZ, la skill y SUBTITULOS.md: posición según el sujeto",
+      "hecho": [
+        "Medición del sujeto cada 0,2 s con Apple Vision (cara y persona a la altura de la cabeza): analysis/video-004-subject.json (src/videoAnalysis/video004/measureSubject.swift).",
+        "Colocación por frase y por plano (src/videoAnalysis/video004/placeS8.mjs): cada pieza centrada en el espacio libre, a ≥ 8 % del borde (154 px) y ≥ 3 % del sujeto (58 px), centro vertical en frente/ojos; se recalcula al cambiar de encuadre.",
+        "Sustituye la columna fija de v2 (x 80 px, pegada al borde y alineada en esquina).",
+        "Partido en «explorando, aprendiendo», «es normal.» (×2) y «seguirle dando.»; si el plano no deja espacio a un lado (brazo o taza a la altura de la cabeza en el cercano), la frase va entera al espacio que queda.",
+        "Alturas medidas: 18–24 % en plano general (ficha ≈ 24 %); 22–27 % en medio y cercano (ficha orientativa 37–39 %): los reencuadres anclan la cabeza arriba y la regla manda la altura real de la cabeza."
+      ]
+    }
+  ]
+}

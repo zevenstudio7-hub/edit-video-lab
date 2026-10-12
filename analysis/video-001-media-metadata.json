@@ -1,0 +1,381 @@
+{
+  "sources": [
+    {
+      "sourceFile": "1071a10986d4473fab0f545091431ee2.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "59.980000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "59.976054",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "59.980000",
+        "size": "122842780"
+      }
+    },
+    {
+      "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "36.375000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "36.373968",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "36.375000",
+        "size": "74480729"
+      }
+    },
+    {
+      "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "52.611667",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "52.610975",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "52.611667",
+        "size": "108063347"
+      }
+    },
+    {
+      "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "59.980000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "59.975556",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "59.980000",
+        "size": "122916933"
+      }
+    },
+    {
+      "sourceFile": "2eff061b16754ce896239dade75e3c9d.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "59.980000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "59.976054",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "59.980000",
+        "size": "122842816"
+      }
+    },
+    {
+      "sourceFile": "595d143df4df4001b7f25feb100d1df1.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "59.980000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "59.966621",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "59.980000",
+        "size": "122911740"
+      }
+    },
+    {
+      "sourceFile": "5fd399dccff74959baa046f8d2c45050.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "46.610000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "46.609252",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "46.610000",
+        "size": "95061958"
+      }
+    },
+    {
+      "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "52.245000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "52.244263",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "52.245000",
+        "size": "107043230"
+      }
+    },
+    {
+      "sourceFile": "ac101fa5da344fc3b1c2f135b14ff93c.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "53.845000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "53.844263",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "53.845000",
+        "size": "110111838"
+      }
+    },
+    {
+      "sourceFile": "b1eb53d64406404f95a673182fe597fd.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "59.980000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "59.973311",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "59.980000",
+        "size": "123056995"
+      }
+    },
+    {
+      "sourceFile": "e7648b9b117b45218bd4bac13da69698.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "25.871667",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "25.870703",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "25.871667",
+        "size": "52683064"
+      }
+    },
+    {
+      "sourceFile": "ffe3314cd47f4f4293b8bfc328054b4b.MP4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "48.910000",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "48.909410",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "48.910000",
+        "size": "100413345"
+      }
+    },
+    {
+      "sourceFile": "grabacion-pantalla.mov",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2048,
+          "height": 1266,
+          "r_frame_rate": "60/1",
+          "duration": "439.866667",
+          "tags": {}
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "439.866667",
+          "tags": {}
+        }
+      ],
+      "format": {
+        "duration": "439.866667",
+        "size": "199536897"
+      }
+    }
+  ]
+}

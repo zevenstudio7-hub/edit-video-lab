@@ -1,0 +1,149 @@
+{
+  "video": "VIDEO-002",
+  "fecha": "2026-10-05",
+  "fuente": {
+    "archivo": "formatos/edit-1-motion/RSS - Entretenimiento/material/audio muse-enhanced-v2.mp3",
+    "md5": "0c0b198cc1b990f4faff69b2dc888c61",
+    "canales": 2,
+    "muestras48k": 3569790,
+    "nivel": {
+      "I": -24.6,
+      "TP": -6.8
+    }
+  },
+  "referencia": {
+    "archivo": "public/video-002/dialogue-original.wav",
+    "muestras": 3567273,
+    "nivel": {
+      "I": -14.5,
+      "TP": -1.4
+    },
+    "nota": "voz montada a 1.1x que cuadra con la timeline (±2,5 ms frente a t/1.1)"
+  },
+  "desfase": {
+    "muestras": 3251,
+    "ms": 67.73,
+    "sentido": "la voz mejorada llegaba tarde; se adelanta",
+    "dispersionMuestras": 3,
+    "correlacionMediana": 0.889,
+    "ventanas": [
+      {
+        "s": 2,
+        "muestras": 3251,
+        "correlacion": 0.864
+      },
+      {
+        "s": 6,
+        "muestras": 3251,
+        "correlacion": 0.843
+      },
+      {
+        "s": 10,
+        "muestras": 3251,
+        "correlacion": 0.834
+      },
+      {
+        "s": 14,
+        "muestras": 3248,
+        "correlacion": 0.911
+      },
+      {
+        "s": 18,
+        "muestras": 3249,
+        "correlacion": 0.871
+      },
+      {
+        "s": 22,
+        "muestras": 3251,
+        "correlacion": 0.807
+      },
+      {
+        "s": 26,
+        "muestras": 3251,
+        "correlacion": 0.892
+      },
+      {
+        "s": 30,
+        "muestras": 3250,
+        "correlacion": 0.88
+      },
+      {
+        "s": 34,
+        "muestras": 3251,
+        "correlacion": 0.849
+      },
+      {
+        "s": 38,
+        "muestras": 3250,
+        "correlacion": 0.889
+      },
+      {
+        "s": 42,
+        "muestras": 3251,
+        "correlacion": 0.879
+      },
+      {
+        "s": 46,
+        "muestras": 3251,
+        "correlacion": 0.919
+      },
+      {
+        "s": 50,
+        "muestras": 3249,
+        "correlacion": 0.932
+      },
+      {
+        "s": 54,
+        "muestras": 3249,
+        "correlacion": 0.93
+      },
+      {
+        "s": 58,
+        "muestras": 3250,
+        "correlacion": 0.943
+      },
+      {
+        "s": 62,
+        "muestras": 3251,
+        "correlacion": 0.87
+      },
+      {
+        "s": 66,
+        "muestras": 3250,
+        "correlacion": 0.907
+      },
+      {
+        "s": 70,
+        "muestras": 3250,
+        "correlacion": 0.902
+      }
+    ],
+    "picoDescartadoDbfs": -77.7
+  },
+  "nivel": {
+    "gananciaDb": 10.6,
+    "techoDbtp": -1.5,
+    "ataqueMs": 5,
+    "liberacionMs": 80,
+    "reduccionMaxDb": 5.32,
+    "tiempoConReduccion": {
+      ">0,5 dB %": 18.4,
+      ">1 dB %": 8.3,
+      ">3 dB %": 0.3
+    }
+  },
+  "salida": {
+    "archivo": "public/video-002/dialogue.wav",
+    "muestras": 3567273,
+    "nivel": {
+      "I": -14.5,
+      "TP": -1.5
+    },
+    "desfaseResidualMuestras": [
+      0,
+      -3,
+      -2,
+      -1
+    ]
+  }
+}

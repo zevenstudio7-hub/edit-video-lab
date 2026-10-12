@@ -1,0 +1,857 @@
+{
+  "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+  "sha256": "c45ea0dfedc8b61ecb95ed4cd883dc599daaf5cadab75afbf41a9d927550b904",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:25:08.061Z",
+    "seconds": 179.1,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Aquí es donde se pone interesante porque al parecer Samsung su prioridad es ser los primeros. Aquí básicamente lo hemos notado, pero para Apple al parecer la prioridad no es ser históricamente los primeros, sino llegar después, llegar para vender otra idea diferente.[_TT_937] Así que no importa, al parecer a Apple no le importa quien llegó primero, sino más bien decir, mira como lo hacemos nosotros, fijando incluso, fijándonos incluso la forma en que presenta el dúo es la forma más aterradora para cualquier otra marca, marcando posición, marcando terreno.[_TT_1437] Y muchos están obsesionados por ser los primeros.[_TT_144] Gracias.[_TT_50] Gracias por ver el video.[_TT_61]",
+  "words": [
+    {
+      "text": "Aquí",
+      "startMs": 0,
+      "endMs": 340,
+      "dtwMs": 940,
+      "tokens": 1,
+      "pMin": 0.5
+    },
+    {
+      "text": "es",
+      "startMs": 340,
+      "endMs": 470,
+      "dtwMs": 1080,
+      "tokens": 1,
+      "pMin": 0.85
+    },
+    {
+      "text": "donde",
+      "startMs": 760,
+      "endMs": 810,
+      "dtwMs": 1200,
+      "tokens": 1,
+      "pMin": 0.96
+    },
+    {
+      "text": "se",
+      "startMs": 810,
+      "endMs": 940,
+      "dtwMs": 1380,
+      "tokens": 1,
+      "pMin": 0.93
+    },
+    {
+      "text": "pone",
+      "startMs": 940,
+      "endMs": 1210,
+      "dtwMs": 1560,
+      "tokens": 1,
+      "pMin": 0.922
+    },
+    {
+      "text": "interesante",
+      "startMs": 1210,
+      "endMs": 2000,
+      "dtwMs": 1980,
+      "tokens": 1,
+      "pMin": 0.979
+    },
+    {
+      "text": "porque",
+      "startMs": 2000,
+      "endMs": 2440,
+      "dtwMs": 2420,
+      "tokens": 1,
+      "pMin": 0.778
+    },
+    {
+      "text": "al",
+      "startMs": 2440,
+      "endMs": 2600,
+      "dtwMs": 2660,
+      "tokens": 1,
+      "pMin": 0.904
+    },
+    {
+      "text": "parecer",
+      "startMs": 2600,
+      "endMs": 3130,
+      "dtwMs": 2980,
+      "tokens": 1,
+      "pMin": 0.986
+    },
+    {
+      "text": "Samsung",
+      "startMs": 3130,
+      "endMs": 3660,
+      "dtwMs": 3460,
+      "tokens": 1,
+      "pMin": 0.966
+    },
+    {
+      "text": "su",
+      "startMs": 3660,
+      "endMs": 3810,
+      "dtwMs": 3920,
+      "tokens": 1,
+      "pMin": 0.82
+    },
+    {
+      "text": "prioridad",
+      "startMs": 3810,
+      "endMs": 4490,
+      "dtwMs": 4320,
+      "tokens": 2,
+      "pMin": 0.991
+    },
+    {
+      "text": "es",
+      "startMs": 4490,
+      "endMs": 4640,
+      "dtwMs": 4780,
+      "tokens": 1,
+      "pMin": 0.983
+    },
+    {
+      "text": "ser",
+      "startMs": 4640,
+      "endMs": 4860,
+      "dtwMs": 4980,
+      "tokens": 1,
+      "pMin": 0.975
+    },
+    {
+      "text": "los",
+      "startMs": 4860,
+      "endMs": 5120,
+      "dtwMs": 5140,
+      "tokens": 1,
+      "pMin": 0.767
+    },
+    {
+      "text": "primeros.",
+      "startMs": 5120,
+      "endMs": 5640,
+      "dtwMs": 5420,
+      "tokens": 3,
+      "pMin": 0.679
+    },
+    {
+      "text": "Aquí",
+      "startMs": 5640,
+      "endMs": 6050,
+      "dtwMs": 6200,
+      "tokens": 1,
+      "pMin": 0.506
+    },
+    {
+      "text": "básicamente",
+      "startMs": 6050,
+      "endMs": 7050,
+      "dtwMs": 7080,
+      "tokens": 1,
+      "pMin": 0.961
+    },
+    {
+      "text": "lo",
+      "startMs": 7050,
+      "endMs": 7210,
+      "dtwMs": 8500,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "hemos",
+      "startMs": 7210,
+      "endMs": 7610,
+      "dtwMs": 8700,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "notado,",
+      "startMs": 7610,
+      "endMs": 8270,
+      "dtwMs": 9000,
+      "tokens": 3,
+      "pMin": 0.406
+    },
+    {
+      "text": "pero",
+      "startMs": 8280,
+      "endMs": 8610,
+      "dtwMs": 9480,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "para",
+      "startMs": 8610,
+      "endMs": 8930,
+      "dtwMs": 10000,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "Apple",
+      "startMs": 8930,
+      "endMs": 9350,
+      "dtwMs": 10340,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "al",
+      "startMs": 9350,
+      "endMs": 9510,
+      "dtwMs": 10880,
+      "tokens": 1,
+      "pMin": 0.959
+    },
+    {
+      "text": "parecer",
+      "startMs": 9510,
+      "endMs": 10090,
+      "dtwMs": 11200,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "la",
+      "startMs": 10090,
+      "endMs": 10250,
+      "dtwMs": 11500,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "prioridad",
+      "startMs": 10250,
+      "endMs": 10990,
+      "dtwMs": 11780,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "no",
+      "startMs": 10990,
+      "endMs": 11150,
+      "dtwMs": 12280,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "es",
+      "startMs": 11150,
+      "endMs": 11310,
+      "dtwMs": 12520,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "ser",
+      "startMs": 11310,
+      "endMs": 11560,
+      "dtwMs": 12820,
+      "tokens": 1,
+      "pMin": 0.986
+    },
+    {
+      "text": "históricamente",
+      "startMs": 11560,
+      "endMs": 12810,
+      "dtwMs": 13020,
+      "tokens": 3,
+      "pMin": 0.986
+    },
+    {
+      "text": "los",
+      "startMs": 12810,
+      "endMs": 13060,
+      "dtwMs": 13700,
+      "tokens": 1,
+      "pMin": 0.974
+    },
+    {
+      "text": "primeros,",
+      "startMs": 13060,
+      "endMs": 13870,
+      "dtwMs": 13960,
+      "tokens": 3,
+      "pMin": 0.89
+    },
+    {
+      "text": "sino",
+      "startMs": 13880,
+      "endMs": 14210,
+      "dtwMs": 14520,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "llegar",
+      "startMs": 14210,
+      "endMs": 14700,
+      "dtwMs": 15080,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "después,",
+      "startMs": 14720,
+      "endMs": 15530,
+      "dtwMs": 15700,
+      "tokens": 2,
+      "pMin": 0.811
+    },
+    {
+      "text": "llegar",
+      "startMs": 15540,
+      "endMs": 16040,
+      "dtwMs": 16280,
+      "tokens": 1,
+      "pMin": 0.987
+    },
+    {
+      "text": "para",
+      "startMs": 16040,
+      "endMs": 16370,
+      "dtwMs": 16980,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "vender",
+      "startMs": 16370,
+      "endMs": 16870,
+      "dtwMs": 17340,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "otra",
+      "startMs": 16870,
+      "endMs": 17200,
+      "dtwMs": 17980,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "idea",
+      "startMs": 17200,
+      "endMs": 17520,
+      "dtwMs": 18240,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "diferente.[_TT_937]",
+      "startMs": 17530,
+      "endMs": 18740,
+      "dtwMs": 18720,
+      "tokens": 3,
+      "pMin": 0.293
+    },
+    {
+      "text": "Así",
+      "startMs": 18740,
+      "endMs": 19210,
+      "dtwMs": 19020,
+      "tokens": 1,
+      "pMin": 0.868
+    },
+    {
+      "text": "que",
+      "startMs": 19210,
+      "endMs": 19560,
+      "dtwMs": 19140,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "no",
+      "startMs": 19560,
+      "endMs": 19780,
+      "dtwMs": 19440,
+      "tokens": 1,
+      "pMin": 0.95
+    },
+    {
+      "text": "importa,",
+      "startMs": 19780,
+      "endMs": 20860,
+      "dtwMs": 19920,
+      "tokens": 2,
+      "pMin": 0.434
+    },
+    {
+      "text": "al",
+      "startMs": 20860,
+      "endMs": 21100,
+      "dtwMs": 23860,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "parecer",
+      "startMs": 21100,
+      "endMs": 21930,
+      "dtwMs": 24200,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "a",
+      "startMs": 21930,
+      "endMs": 22050,
+      "dtwMs": 24400,
+      "tokens": 1,
+      "pMin": 0.747
+    },
+    {
+      "text": "Apple",
+      "startMs": 22050,
+      "endMs": 22640,
+      "dtwMs": 24660,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "no",
+      "startMs": 22640,
+      "endMs": 22880,
+      "dtwMs": 24860,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "le",
+      "startMs": 22880,
+      "endMs": 23120,
+      "dtwMs": 24980,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "importa",
+      "startMs": 23120,
+      "endMs": 23950,
+      "dtwMs": 25400,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "quien",
+      "startMs": 23950,
+      "endMs": 24540,
+      "dtwMs": 26280,
+      "tokens": 1,
+      "pMin": 0.532
+    },
+    {
+      "text": "llegó",
+      "startMs": 24540,
+      "endMs": 25250,
+      "dtwMs": 26480,
+      "tokens": 1,
+      "pMin": 0.974
+    },
+    {
+      "text": "primero,",
+      "startMs": 25250,
+      "endMs": 26310,
+      "dtwMs": 26900,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "sino",
+      "startMs": 26310,
+      "endMs": 26780,
+      "dtwMs": 27800,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "más",
+      "startMs": 26780,
+      "endMs": 27240,
+      "dtwMs": 28000,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "bien",
+      "startMs": 27260,
+      "endMs": 27720,
+      "dtwMs": 28300,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "decir,",
+      "startMs": 27720,
+      "endMs": 28540,
+      "dtwMs": 29840,
+      "tokens": 2,
+      "pMin": 0.461
+    },
+    {
+      "text": "mira",
+      "startMs": 28540,
+      "endMs": 29000,
+      "dtwMs": 30420,
+      "tokens": 1,
+      "pMin": 0.916
+    },
+    {
+      "text": "como",
+      "startMs": 29000,
+      "endMs": 29480,
+      "dtwMs": 30800,
+      "tokens": 1,
+      "pMin": 0.891
+    },
+    {
+      "text": "lo",
+      "startMs": 29480,
+      "endMs": 29720,
+      "dtwMs": 30960,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "hacemos",
+      "startMs": 29720,
+      "endMs": 30550,
+      "dtwMs": 31200,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "nosotros,",
+      "startMs": 30550,
+      "endMs": 31920,
+      "dtwMs": 31800,
+      "tokens": 2,
+      "pMin": 0.437
+    },
+    {
+      "text": "fijando",
+      "startMs": 31920,
+      "endMs": 32670,
+      "dtwMs": 32840,
+      "tokens": 2,
+      "pMin": 0.83
+    },
+    {
+      "text": "incluso,",
+      "startMs": 32670,
+      "endMs": 33660,
+      "dtwMs": 33640,
+      "tokens": 2,
+      "pMin": 0.529
+    },
+    {
+      "text": "fijándonos",
+      "startMs": 33660,
+      "endMs": 35280,
+      "dtwMs": 38320,
+      "tokens": 3,
+      "pMin": 0.872
+    },
+    {
+      "text": "incluso",
+      "startMs": 35280,
+      "endMs": 36310,
+      "dtwMs": 39060,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "la",
+      "startMs": 36310,
+      "endMs": 36600,
+      "dtwMs": 39500,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "forma",
+      "startMs": 36600,
+      "endMs": 37340,
+      "dtwMs": 39780,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "en",
+      "startMs": 37340,
+      "endMs": 37630,
+      "dtwMs": 39940,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "que",
+      "startMs": 37630,
+      "endMs": 38070,
+      "dtwMs": 40040,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "presenta",
+      "startMs": 38070,
+      "endMs": 39240,
+      "dtwMs": 40340,
+      "tokens": 2,
+      "pMin": 0.998
+    },
+    {
+      "text": "el",
+      "startMs": 39240,
+      "endMs": 39530,
+      "dtwMs": 40720,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "dúo",
+      "startMs": 39530,
+      "endMs": 40110,
+      "dtwMs": 40880,
+      "tokens": 2,
+      "pMin": 0.58
+    },
+    {
+      "text": "es",
+      "startMs": 40110,
+      "endMs": 40400,
+      "dtwMs": 41640,
+      "tokens": 1,
+      "pMin": 0.584
+    },
+    {
+      "text": "la",
+      "startMs": 40400,
+      "endMs": 40690,
+      "dtwMs": 42080,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "forma",
+      "startMs": 40690,
+      "endMs": 41420,
+      "dtwMs": 42400,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "más",
+      "startMs": 41420,
+      "endMs": 42020,
+      "dtwMs": 42920,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "aterradora",
+      "startMs": 42020,
+      "endMs": 43600,
+      "dtwMs": 43260,
+      "tokens": 4,
+      "pMin": 0.986
+    },
+    {
+      "text": "para",
+      "startMs": 43600,
+      "endMs": 43840,
+      "dtwMs": 44140,
+      "tokens": 1,
+      "pMin": 0.98
+    },
+    {
+      "text": "cualquier",
+      "startMs": 43850,
+      "endMs": 44410,
+      "dtwMs": 44460,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "otra",
+      "startMs": 44410,
+      "endMs": 44660,
+      "dtwMs": 44740,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "marca,",
+      "startMs": 44660,
+      "endMs": 45100,
+      "dtwMs": 45060,
+      "tokens": 2,
+      "pMin": 0.897
+    },
+    {
+      "text": "marcando",
+      "startMs": 45100,
+      "endMs": 45650,
+      "dtwMs": 45660,
+      "tokens": 2,
+      "pMin": 0.675
+    },
+    {
+      "text": "posición,",
+      "startMs": 45650,
+      "endMs": 46400,
+      "dtwMs": 46320,
+      "tokens": 2,
+      "pMin": 0.937
+    },
+    {
+      "text": "marcando",
+      "startMs": 46400,
+      "endMs": 46950,
+      "dtwMs": 46720,
+      "tokens": 2,
+      "pMin": 0.974
+    },
+    {
+      "text": "terreno.[_TT_1437]",
+      "startMs": 46950,
+      "endMs": 47480,
+      "dtwMs": 47240,
+      "tokens": 4,
+      "pMin": 0.582
+    },
+    {
+      "text": "Y",
+      "startMs": 47480,
+      "endMs": 47540,
+      "dtwMs": 48160,
+      "tokens": 1,
+      "pMin": 0.865
+    },
+    {
+      "text": "muchos",
+      "startMs": 47540,
+      "endMs": 47950,
+      "dtwMs": 48580,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "están",
+      "startMs": 48040,
+      "endMs": 48360,
+      "dtwMs": 48920,
+      "tokens": 1,
+      "pMin": 0.249
+    },
+    {
+      "text": "obsesionados",
+      "startMs": 48360,
+      "endMs": 49150,
+      "dtwMs": 49140,
+      "tokens": 4,
+      "pMin": 0.269
+    },
+    {
+      "text": "por",
+      "startMs": 49160,
+      "endMs": 49360,
+      "dtwMs": 49620,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "ser",
+      "startMs": 49360,
+      "endMs": 49560,
+      "dtwMs": 49760,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "los",
+      "startMs": 49560,
+      "endMs": 49760,
+      "dtwMs": 49880,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "primeros.[_TT_144]",
+      "startMs": 49760,
+      "endMs": 50360,
+      "dtwMs": 50120,
+      "tokens": 4,
+      "pMin": 0.558
+    },
+    {
+      "text": "Gracias.[_TT_50]",
+      "startMs": 50360,
+      "endMs": 51360,
+      "dtwMs": 50360,
+      "tokens": 3,
+      "pMin": 0.74
+    },
+    {
+      "text": "Gracias",
+      "startMs": 51360,
+      "endMs": 52580,
+      "dtwMs": 52560,
+      "tokens": 1,
+      "pMin": 0.601
+    },
+    {
+      "text": "por",
+      "startMs": 52580,
+      "endMs": 52580,
+      "dtwMs": 52560,
+      "tokens": 1,
+      "pMin": 0.142
+    },
+    {
+      "text": "ver",
+      "startMs": 52580,
+      "endMs": 52580,
+      "dtwMs": 52560,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "el",
+      "startMs": 52580,
+      "endMs": 52580,
+      "dtwMs": 52560,
+      "tokens": 1,
+      "pMin": 0.969
+    },
+    {
+      "text": "video.[_TT_61]",
+      "startMs": 52580,
+      "endMs": 52580,
+      "dtwMs": 52560,
+      "tokens": 3,
+      "pMin": 0.817
+    }
+  ]
+}

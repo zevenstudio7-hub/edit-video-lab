@@ -1,0 +1,22 @@
+{
+  "method": "Audio entregado por el usuario (formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/material/audio samsum aaple-enhanced-v2.mp3): desfase corregido -78 ms, mono, longitud exacta de la timeline con fundidos de 6/30 ms, loudnorm 2 pasadas (−14 LUFS, −1,5 dBTP). Sin RNNoise ni EQ.",
+  "nota": "Audio mejorado entregado por el usuario el 2026-10-04 (sin ruido). Sustituye a la voz limpiada con RNNoise.",
+  "createdAt": "2026-10-04T13:46:31.532Z",
+  "timelineSeconds": 162.833,
+  "entregadoSeconds": 162.84,
+  "antes": {
+    "I": -26.21,
+    "TP": -7.19,
+    "LRA": 3.3
+  },
+  "despues": {
+    "I": -14.7,
+    "TP": -1.48,
+    "LRA": 2.8
+  },
+  "modoLoudnorm": "dynamic",
+  "outputs": {
+    "clean": "public/video-001/v3/dialogue.wav",
+    "raw": "public/video-001/v3/dialogue-raw.wav (montaje generado, sin limpieza, para A/B)"
+  }
+}

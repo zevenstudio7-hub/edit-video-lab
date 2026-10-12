@@ -1,0 +1,1514 @@
+{
+  "sourceFile": "b1eb53d64406404f95a673182fe597fd.MP4",
+  "durationSeconds": 59.973,
+  "method": {
+    "frameSeconds": 0.01,
+    "noiseFloorDb": -40.1,
+    "thresholdDb": -34.1,
+    "minPauseSeconds": 0.15,
+    "phrasePauseSeconds": 0.3,
+    "transcription": "whisper.cpp 1.7.2, large-v3-turbo, -ac 640, --dtw large.v3.turbo, es, una transcripción por frase",
+    "note": "Islas y frases medidas por RMS. Texto por frase transcrito de forma aislada. Reparto de palabras dentro de cada isla proporcional a su longitud: no es alineación fonética.",
+    "seconds": 192.4
+  },
+  "phrases": [
+    {
+      "id": 0,
+      "start": 1.01,
+      "end": 4.33,
+      "islands": [
+        0,
+        1
+      ],
+      "text": "En 2018, Samsung saca unos comerciales.",
+      "meanP": 0.92,
+      "suspect": false,
+      "pauseBefore": 1.01
+    },
+    {
+      "id": 1,
+      "start": 4.65,
+      "end": 6.58,
+      "islands": [
+        2,
+        3
+      ],
+      "text": "Llamado Ingenius contra...",
+      "meanP": 0.7,
+      "suspect": false,
+      "pauseBefore": 0.32
+    },
+    {
+      "id": 2,
+      "start": 6.91,
+      "end": 7.77,
+      "islands": [
+        4
+      ],
+      "text": "Icon 8.",
+      "meanP": 0.62,
+      "suspect": false,
+      "pauseBefore": 0.33
+    },
+    {
+      "id": 3,
+      "start": 8.39,
+      "end": 9.71,
+      "islands": [
+        5,
+        6
+      ],
+      "text": "Que es el icon 10.",
+      "meanP": 0.74,
+      "suspect": false,
+      "pauseBefore": 0.62
+    },
+    {
+      "id": 4,
+      "start": 10.2,
+      "end": 17.77,
+      "islands": [
+        7,
+        8,
+        9
+      ],
+      "text": "Y básicamente estaban diciendo que a sus celulares ellos sí les podían incluir memorias SD.",
+      "meanP": 0.87,
+      "suspect": false,
+      "pauseBefore": 0.49
+    },
+    {
+      "id": 5,
+      "start": 18.44,
+      "end": 20.21,
+      "islands": [
+        10
+      ],
+      "text": "De almacenamiento.",
+      "meanP": 0.82,
+      "suspect": false,
+      "pauseBefore": 0.67
+    },
+    {
+      "id": 6,
+      "start": 20.77,
+      "end": 22.87,
+      "islands": [
+        11
+      ],
+      "text": "Cosa que con el icon uno puedes hacer.",
+      "meanP": 0.8,
+      "suspect": false,
+      "pauseBefore": 0.56
+    },
+    {
+      "id": 7,
+      "start": 23.23,
+      "end": 23.66,
+      "islands": [
+        12
+      ],
+      "text": "Así que...",
+      "meanP": 0.99,
+      "suspect": false,
+      "pauseBefore": 0.36
+    },
+    {
+      "id": 8,
+      "start": 24.06,
+      "end": 26.6,
+      "islands": [
+        13
+      ],
+      "text": "Seguía la lucha contra Apple.",
+      "meanP": 0.77,
+      "suspect": false,
+      "pauseBefore": 0.4
+    },
+    {
+      "id": 9,
+      "start": 27.02,
+      "end": 28.06,
+      "islands": [
+        14
+      ],
+      "text": "Y en 2020,",
+      "meanP": 0.84,
+      "suspect": false,
+      "pauseBefore": 0.42
+    },
+    {
+      "id": 10,
+      "start": 28.52,
+      "end": 30.08,
+      "islands": [
+        15
+      ],
+      "text": "Apple, Apple, Apple, iPhone 12.",
+      "meanP": 0.57,
+      "suspect": false,
+      "pauseBefore": 0.46
+    },
+    {
+      "id": 11,
+      "start": 30.56,
+      "end": 32.2,
+      "islands": [
+        16,
+        17
+      ],
+      "text": "Y, dice, guisiendo.",
+      "meanP": 0.67,
+      "suspect": false,
+      "pauseBefore": 0.48
+    },
+    {
+      "id": 12,
+      "start": 33.83,
+      "end": 34.34,
+      "islands": [
+        18
+      ],
+      "text": "Doné.",
+      "meanP": 0.52,
+      "suspect": false,
+      "pauseBefore": 1.63
+    },
+    {
+      "id": 13,
+      "start": 34.65,
+      "end": 37.57,
+      "islands": [
+        19
+      ],
+      "text": "Y en 2020, Apple sacó el iPhone 12.",
+      "meanP": 0.77,
+      "suspect": false,
+      "pauseBefore": 0.31
+    },
+    {
+      "id": 14,
+      "start": 37.98,
+      "end": 39.12,
+      "islands": [
+        20
+      ],
+      "text": "Y efectivamente,",
+      "meanP": 0.71,
+      "suspect": false,
+      "pauseBefore": 0.41
+    },
+    {
+      "id": 15,
+      "start": 39.56,
+      "end": 40.13,
+      "islands": [
+        21
+      ],
+      "text": "Eh...",
+      "meanP": 0.65,
+      "suspect": false,
+      "pauseBefore": 0.44
+    },
+    {
+      "id": 16,
+      "start": 40.76,
+      "end": 46.16,
+      "islands": [
+        22
+      ],
+      "text": "Samsung no quiso dejar pasar esta oportunidad, diciendo que ellos sí podían el cargador.",
+      "meanP": 0.85,
+      "suspect": false,
+      "pauseBefore": 0.63
+    },
+    {
+      "id": 17,
+      "start": 46.6,
+      "end": 48.01,
+      "islands": [
+        23,
+        24
+      ],
+      "text": "Junta con suerte.",
+      "meanP": 0.98,
+      "suspect": false,
+      "pauseBefore": 0.44
+    },
+    {
+      "id": 18,
+      "start": 48.39,
+      "end": 52.28,
+      "islands": [
+        25,
+        26,
+        27
+      ],
+      "text": "Aparatos electrónicos. Entonces, tomado este revuelo, básicamente,",
+      "meanP": 0.77,
+      "suspect": false,
+      "pauseBefore": 0.38
+    },
+    {
+      "id": 19,
+      "start": 52.67,
+      "end": 54.04,
+      "islands": [
+        28
+      ],
+      "text": "Si tu puedes analizarlo.",
+      "meanP": 0.75,
+      "suspect": false,
+      "pauseBefore": 0.39
+    },
+    {
+      "id": 20,
+      "start": 54.4,
+      "end": 56.24,
+      "islands": [
+        29
+      ],
+      "text": "Lo curioso es que Samsung volvió.",
+      "meanP": 0.92,
+      "suspect": false,
+      "pauseBefore": 0.36
+    },
+    {
+      "id": 21,
+      "start": 56.58,
+      "end": 57.55,
+      "islands": [
+        30
+      ],
+      "text": "Todo el mismo es que...",
+      "meanP": 0.92,
+      "suspect": false,
+      "pauseBefore": 0.34
+    },
+    {
+      "id": 22,
+      "start": 57.87,
+      "end": 59.26,
+      "islands": [
+        31
+      ],
+      "text": "Una guerra de...",
+      "meanP": 0.79,
+      "suspect": false,
+      "pauseBefore": 0.32
+    }
+  ],
+  "islands": [
+    {
+      "id": 0,
+      "start": 1.01,
+      "end": 2.2,
+      "text": "En 2018,"
+    },
+    {
+      "id": 1,
+      "start": 2.38,
+      "end": 4.33,
+      "text": "Samsung saca unos comerciales."
+    },
+    {
+      "id": 2,
+      "start": 4.65,
+      "end": 5.64,
+      "text": "Llamado Ingenius"
+    },
+    {
+      "id": 3,
+      "start": 5.89,
+      "end": 6.58,
+      "text": "contra..."
+    },
+    {
+      "id": 4,
+      "start": 6.91,
+      "end": 7.77,
+      "text": "Icon 8."
+    },
+    {
+      "id": 5,
+      "start": 8.39,
+      "end": 8.73,
+      "text": "Que es"
+    },
+    {
+      "id": 6,
+      "start": 8.98,
+      "end": 9.71,
+      "text": "el icon 10."
+    },
+    {
+      "id": 7,
+      "start": 10.2,
+      "end": 13.81,
+      "text": "Y básicamente estaban diciendo que a sus celulares"
+    },
+    {
+      "id": 8,
+      "start": 14.02,
+      "end": 16.28,
+      "text": "ellos sí les podían incluir"
+    },
+    {
+      "id": 9,
+      "start": 16.48,
+      "end": 17.77,
+      "text": "memorias SD."
+    },
+    {
+      "id": 10,
+      "start": 18.44,
+      "end": 20.21,
+      "text": "De almacenamiento."
+    },
+    {
+      "id": 11,
+      "start": 20.77,
+      "end": 22.87,
+      "text": "Cosa que con el icon uno puedes hacer."
+    },
+    {
+      "id": 12,
+      "start": 23.23,
+      "end": 23.66,
+      "text": "Así que..."
+    },
+    {
+      "id": 13,
+      "start": 24.06,
+      "end": 26.6,
+      "text": "Seguía la lucha contra Apple."
+    },
+    {
+      "id": 14,
+      "start": 27.02,
+      "end": 28.06,
+      "text": "Y en 2020,"
+    },
+    {
+      "id": 15,
+      "start": 28.52,
+      "end": 30.08,
+      "text": "Apple, Apple, Apple, iPhone 12."
+    },
+    {
+      "id": 16,
+      "start": 30.56,
+      "end": 30.9,
+      "text": "Y,"
+    },
+    {
+      "id": 17,
+      "start": 31.05,
+      "end": 32.2,
+      "text": "dice, guisiendo."
+    },
+    {
+      "id": 18,
+      "start": 33.83,
+      "end": 34.34,
+      "text": "Doné."
+    },
+    {
+      "id": 19,
+      "start": 34.65,
+      "end": 37.57,
+      "text": "Y en 2020, Apple sacó el iPhone 12."
+    },
+    {
+      "id": 20,
+      "start": 37.98,
+      "end": 39.12,
+      "text": "Y efectivamente,"
+    },
+    {
+      "id": 21,
+      "start": 39.56,
+      "end": 40.13,
+      "text": "Eh..."
+    },
+    {
+      "id": 22,
+      "start": 40.76,
+      "end": 46.16,
+      "text": "Samsung no quiso dejar pasar esta oportunidad, diciendo que ellos sí podían el cargador."
+    },
+    {
+      "id": 23,
+      "start": 46.6,
+      "end": 47.34,
+      "text": "Junta con"
+    },
+    {
+      "id": 24,
+      "start": 47.64,
+      "end": 48.01,
+      "text": "suerte."
+    },
+    {
+      "id": 25,
+      "start": 48.39,
+      "end": 49.61,
+      "text": "Aparatos electrónicos."
+    },
+    {
+      "id": 26,
+      "start": 49.89,
+      "end": 51.32,
+      "text": "Entonces, tomado este revuelo,"
+    },
+    {
+      "id": 27,
+      "start": 51.62,
+      "end": 52.28,
+      "text": "básicamente,"
+    },
+    {
+      "id": 28,
+      "start": 52.67,
+      "end": 54.04,
+      "text": "Si tu puedes analizarlo."
+    },
+    {
+      "id": 29,
+      "start": 54.4,
+      "end": 56.24,
+      "text": "Lo curioso es que Samsung volvió."
+    },
+    {
+      "id": 30,
+      "start": 56.58,
+      "end": 57.55,
+      "text": "Todo el mismo es que..."
+    },
+    {
+      "id": 31,
+      "start": 57.87,
+      "end": 59.26,
+      "text": "Una guerra de..."
+    }
+  ],
+  "words": [
+    {
+      "text": "En",
+      "anchor": 1.09,
+      "p": 0.959,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.01,
+      "end": 1.407
+    },
+    {
+      "text": "2018,",
+      "anchor": 1.73,
+      "p": 0.842,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.407,
+      "end": 2.2
+    },
+    {
+      "text": "Samsung",
+      "anchor": 2.75,
+      "p": 0.99,
+      "island": 1,
+      "phrase": 0,
+      "start": 2.38,
+      "end": 2.905
+    },
+    {
+      "text": "saca",
+      "anchor": 3.19,
+      "p": 0.988,
+      "island": 1,
+      "phrase": 0,
+      "start": 2.905,
+      "end": 3.205
+    },
+    {
+      "text": "unos",
+      "anchor": 3.47,
+      "p": 0.614,
+      "island": 1,
+      "phrase": 0,
+      "start": 3.205,
+      "end": 3.505
+    },
+    {
+      "text": "comerciales.",
+      "anchor": 4.41,
+      "p": 0.921,
+      "island": 1,
+      "phrase": 0,
+      "start": 3.505,
+      "end": 4.33
+    },
+    {
+      "text": "Llamado",
+      "anchor": 4.99,
+      "p": 0.485,
+      "island": 2,
+      "phrase": 1,
+      "start": 4.65,
+      "end": 5.112
+    },
+    {
+      "text": "Ingenius",
+      "anchor": 5.63,
+      "p": 0.445,
+      "island": 2,
+      "phrase": 1,
+      "start": 5.112,
+      "end": 5.64
+    },
+    {
+      "text": "contra...",
+      "anchor": 6.21,
+      "p": 0.416,
+      "island": 3,
+      "phrase": 1,
+      "start": 5.89,
+      "end": 6.58
+    },
+    {
+      "text": "Icon",
+      "anchor": 7.31,
+      "p": 0.62,
+      "island": 4,
+      "phrase": 2,
+      "start": 6.91,
+      "end": 7.598
+    },
+    {
+      "text": "8.",
+      "anchor": 7.73,
+      "p": 0.225,
+      "island": 4,
+      "phrase": 2,
+      "start": 7.598,
+      "end": 7.77
+    },
+    {
+      "text": "Que",
+      "anchor": 8.49,
+      "p": 0.564,
+      "island": 5,
+      "phrase": 3,
+      "start": 8.39,
+      "end": 8.594
+    },
+    {
+      "text": "es",
+      "anchor": 8.79,
+      "p": 0.987,
+      "island": 5,
+      "phrase": 3,
+      "start": 8.594,
+      "end": 8.73
+    },
+    {
+      "text": "el",
+      "anchor": 9.09,
+      "p": 0.938,
+      "island": 6,
+      "phrase": 3,
+      "start": 8.98,
+      "end": 9.163
+    },
+    {
+      "text": "icon",
+      "anchor": 9.27,
+      "p": 0.841,
+      "island": 6,
+      "phrase": 3,
+      "start": 9.163,
+      "end": 9.527
+    },
+    {
+      "text": "10.",
+      "anchor": 9.59,
+      "p": 0.377,
+      "island": 6,
+      "phrase": 3,
+      "start": 9.527,
+      "end": 9.71
+    },
+    {
+      "text": "Y",
+      "anchor": 10.42,
+      "p": 0.587,
+      "island": 7,
+      "phrase": 4,
+      "start": 10.2,
+      "end": 10.284
+    },
+    {
+      "text": "básicamente",
+      "anchor": 11.24,
+      "p": 0.399,
+      "island": 7,
+      "phrase": 4,
+      "start": 10.284,
+      "end": 11.207
+    },
+    {
+      "text": "estaban",
+      "anchor": 11.96,
+      "p": 0.893,
+      "island": 7,
+      "phrase": 4,
+      "start": 11.207,
+      "end": 11.795
+    },
+    {
+      "text": "diciendo",
+      "anchor": 12.42,
+      "p": 0.994,
+      "island": 7,
+      "phrase": 4,
+      "start": 11.795,
+      "end": 12.467
+    },
+    {
+      "text": "que",
+      "anchor": 12.74,
+      "p": 0.931,
+      "island": 7,
+      "phrase": 4,
+      "start": 12.467,
+      "end": 12.719
+    },
+    {
+      "text": "a",
+      "anchor": 12.88,
+      "p": 0.979,
+      "island": 7,
+      "phrase": 4,
+      "start": 12.719,
+      "end": 12.803
+    },
+    {
+      "text": "sus",
+      "anchor": 13.08,
+      "p": 0.975,
+      "island": 7,
+      "phrase": 4,
+      "start": 12.803,
+      "end": 13.054
+    },
+    {
+      "text": "celulares",
+      "anchor": 13.64,
+      "p": 0.993,
+      "island": 7,
+      "phrase": 4,
+      "start": 13.054,
+      "end": 13.81
+    },
+    {
+      "text": "ellos",
+      "anchor": 14.24,
+      "p": 0.716,
+      "island": 8,
+      "phrase": 4,
+      "start": 14.02,
+      "end": 14.511
+    },
+    {
+      "text": "sí",
+      "anchor": 14.56,
+      "p": 0.661,
+      "island": 8,
+      "phrase": 4,
+      "start": 14.511,
+      "end": 14.708
+    },
+    {
+      "text": "les",
+      "anchor": 14.74,
+      "p": 0.926,
+      "island": 8,
+      "phrase": 4,
+      "start": 14.708,
+      "end": 15.003
+    },
+    {
+      "text": "podían",
+      "anchor": 15.24,
+      "p": 0.951,
+      "island": 8,
+      "phrase": 4,
+      "start": 15.003,
+      "end": 15.592
+    },
+    {
+      "text": "incluir",
+      "anchor": 16.14,
+      "p": 0.995,
+      "island": 8,
+      "phrase": 4,
+      "start": 15.592,
+      "end": 16.28
+    },
+    {
+      "text": "memorias",
+      "anchor": 17.1,
+      "p": 0.773,
+      "island": 9,
+      "phrase": 4,
+      "start": 16.48,
+      "end": 17.512
+    },
+    {
+      "text": "SD.",
+      "anchor": 17.54,
+      "p": 0.83,
+      "island": 9,
+      "phrase": 4,
+      "start": 17.512,
+      "end": 17.77
+    },
+    {
+      "text": "De",
+      "anchor": 19.28,
+      "p": 0.305,
+      "island": 10,
+      "phrase": 5,
+      "start": 18.44,
+      "end": 18.661
+    },
+    {
+      "text": "almacenamiento.",
+      "anchor": 20.1,
+      "p": 0.629,
+      "island": 10,
+      "phrase": 5,
+      "start": 18.661,
+      "end": 20.21
+    },
+    {
+      "text": "Cosa",
+      "anchor": 20.93,
+      "p": 0.184,
+      "island": 11,
+      "phrase": 6,
+      "start": 20.77,
+      "end": 21.05
+    },
+    {
+      "text": "que",
+      "anchor": 21.21,
+      "p": 0.944,
+      "island": 11,
+      "phrase": 6,
+      "start": 21.05,
+      "end": 21.26
+    },
+    {
+      "text": "con",
+      "anchor": 21.49,
+      "p": 0.965,
+      "island": 11,
+      "phrase": 6,
+      "start": 21.26,
+      "end": 21.47
+    },
+    {
+      "text": "el",
+      "anchor": 21.61,
+      "p": 0.936,
+      "island": 11,
+      "phrase": 6,
+      "start": 21.47,
+      "end": 21.61
+    },
+    {
+      "text": "icon",
+      "anchor": 21.91,
+      "p": 0.925,
+      "island": 11,
+      "phrase": 6,
+      "start": 21.61,
+      "end": 21.89
+    },
+    {
+      "text": "uno",
+      "anchor": 22.27,
+      "p": 0.742,
+      "island": 11,
+      "phrase": 6,
+      "start": 21.89,
+      "end": 22.1
+    },
+    {
+      "text": "puedes",
+      "anchor": 22.59,
+      "p": 0.504,
+      "island": 11,
+      "phrase": 6,
+      "start": 22.1,
+      "end": 22.52
+    },
+    {
+      "text": "hacer.",
+      "anchor": 22.85,
+      "p": 0.884,
+      "island": 11,
+      "phrase": 6,
+      "start": 22.52,
+      "end": 22.87
+    },
+    {
+      "text": "Así",
+      "anchor": 23.39,
+      "p": 1,
+      "island": 12,
+      "phrase": 7,
+      "start": 23.23,
+      "end": 23.445
+    },
+    {
+      "text": "que...",
+      "anchor": 23.63,
+      "p": 0.984,
+      "island": 12,
+      "phrase": 7,
+      "start": 23.445,
+      "end": 23.66
+    },
+    {
+      "text": "Seguía",
+      "anchor": 24.48,
+      "p": 0.827,
+      "island": 13,
+      "phrase": 8,
+      "start": 24.06,
+      "end": 24.695
+    },
+    {
+      "text": "la",
+      "anchor": 24.62,
+      "p": 0.979,
+      "island": 13,
+      "phrase": 8,
+      "start": 24.695,
+      "end": 24.907
+    },
+    {
+      "text": "lucha",
+      "anchor": 24.92,
+      "p": 0.998,
+      "island": 13,
+      "phrase": 8,
+      "start": 24.907,
+      "end": 25.436
+    },
+    {
+      "text": "contra",
+      "anchor": 25.4,
+      "p": 0.959,
+      "island": 13,
+      "phrase": 8,
+      "start": 25.436,
+      "end": 26.071
+    },
+    {
+      "text": "Apple.",
+      "anchor": 25.72,
+      "p": 0.083,
+      "island": 13,
+      "phrase": 8,
+      "start": 26.071,
+      "end": 26.6
+    },
+    {
+      "text": "Y",
+      "anchor": 27.1,
+      "p": 0.767,
+      "island": 14,
+      "phrase": 9,
+      "start": 27.02,
+      "end": 27.169
+    },
+    {
+      "text": "en",
+      "anchor": 27.2,
+      "p": 0.969,
+      "island": 14,
+      "phrase": 9,
+      "start": 27.169,
+      "end": 27.466
+    },
+    {
+      "text": "2020,",
+      "anchor": 27.7,
+      "p": 0.647,
+      "island": 14,
+      "phrase": 9,
+      "start": 27.466,
+      "end": 28.06
+    },
+    {
+      "text": "Apple,",
+      "anchor": 28.82,
+      "p": 0.197,
+      "island": 15,
+      "phrase": 10,
+      "start": 28.52,
+      "end": 28.859
+    },
+    {
+      "text": "Apple,",
+      "anchor": 29.16,
+      "p": 0.103,
+      "island": 15,
+      "phrase": 10,
+      "start": 28.859,
+      "end": 29.198
+    },
+    {
+      "text": "Apple,",
+      "anchor": 29.32,
+      "p": 0.464,
+      "island": 15,
+      "phrase": 10,
+      "start": 29.198,
+      "end": 29.537
+    },
+    {
+      "text": "iPhone",
+      "anchor": 29.56,
+      "p": 0.767,
+      "island": 15,
+      "phrase": 10,
+      "start": 29.537,
+      "end": 29.944
+    },
+    {
+      "text": "12.",
+      "anchor": 29.94,
+      "p": 0.84,
+      "island": 15,
+      "phrase": 10,
+      "start": 29.944,
+      "end": 30.08
+    },
+    {
+      "text": "Y,",
+      "anchor": 30.72,
+      "p": 0.308,
+      "island": 16,
+      "phrase": 11,
+      "start": 30.56,
+      "end": 30.9
+    },
+    {
+      "text": "dice,",
+      "anchor": 31.34,
+      "p": 0.373,
+      "island": 17,
+      "phrase": 11,
+      "start": 31.05,
+      "end": 31.404
+    },
+    {
+      "text": "guisiendo.",
+      "anchor": 32.08,
+      "p": 0.609,
+      "island": 17,
+      "phrase": 11,
+      "start": 31.404,
+      "end": 32.2
+    },
+    {
+      "text": "Doné.",
+      "anchor": 34.21,
+      "p": 0.242,
+      "island": 18,
+      "phrase": 12,
+      "start": 33.83,
+      "end": 34.34
+    },
+    {
+      "text": "Y",
+      "anchor": 34.71,
+      "p": 0.505,
+      "island": 19,
+      "phrase": 13,
+      "start": 34.65,
+      "end": 34.762
+    },
+    {
+      "text": "en",
+      "anchor": 34.79,
+      "p": 0.929,
+      "island": 19,
+      "phrase": 13,
+      "start": 34.762,
+      "end": 34.987
+    },
+    {
+      "text": "2020,",
+      "anchor": 35.31,
+      "p": 0.347,
+      "island": 19,
+      "phrase": 13,
+      "start": 34.987,
+      "end": 35.436
+    },
+    {
+      "text": "Apple",
+      "anchor": 35.91,
+      "p": 0.858,
+      "island": 19,
+      "phrase": 13,
+      "start": 35.436,
+      "end": 35.998
+    },
+    {
+      "text": "sacó",
+      "anchor": 36.53,
+      "p": 0.938,
+      "island": 19,
+      "phrase": 13,
+      "start": 35.998,
+      "end": 36.447
+    },
+    {
+      "text": "el",
+      "anchor": 36.81,
+      "p": 0.806,
+      "island": 19,
+      "phrase": 13,
+      "start": 36.447,
+      "end": 36.672
+    },
+    {
+      "text": "iPhone",
+      "anchor": 37.15,
+      "p": 0.951,
+      "island": 19,
+      "phrase": 13,
+      "start": 36.672,
+      "end": 37.345
+    },
+    {
+      "text": "12.",
+      "anchor": 37.41,
+      "p": 0.368,
+      "island": 19,
+      "phrase": 13,
+      "start": 37.345,
+      "end": 37.57
+    },
+    {
+      "text": "Y",
+      "anchor": 38.14,
+      "p": 0.434,
+      "island": 20,
+      "phrase": 14,
+      "start": 37.98,
+      "end": 38.061
+    },
+    {
+      "text": "efectivamente,",
+      "anchor": 38.84,
+      "p": 0.546,
+      "island": 20,
+      "phrase": 14,
+      "start": 38.061,
+      "end": 39.12
+    },
+    {
+      "text": "Eh...",
+      "anchor": 39.78,
+      "p": 0.477,
+      "island": 21,
+      "phrase": 15,
+      "start": 39.56,
+      "end": 40.13
+    },
+    {
+      "text": "Samsung",
+      "anchor": 41.08,
+      "p": 0.942,
+      "island": 22,
+      "phrase": 16,
+      "start": 40.76,
+      "end": 41.278
+    },
+    {
+      "text": "no",
+      "anchor": 41.3,
+      "p": 0.962,
+      "island": 22,
+      "phrase": 16,
+      "start": 41.278,
+      "end": 41.426
+    },
+    {
+      "text": "quiso",
+      "anchor": 41.6,
+      "p": 0.988,
+      "island": 22,
+      "phrase": 16,
+      "start": 41.426,
+      "end": 41.796
+    },
+    {
+      "text": "dejar",
+      "anchor": 41.78,
+      "p": 0.993,
+      "island": 22,
+      "phrase": 16,
+      "start": 41.796,
+      "end": 42.165
+    },
+    {
+      "text": "pasar",
+      "anchor": 42.16,
+      "p": 0.993,
+      "island": 22,
+      "phrase": 16,
+      "start": 42.165,
+      "end": 42.535
+    },
+    {
+      "text": "esta",
+      "anchor": 42.44,
+      "p": 0.96,
+      "island": 22,
+      "phrase": 16,
+      "start": 42.535,
+      "end": 42.831
+    },
+    {
+      "text": "oportunidad,",
+      "anchor": 43,
+      "p": 0.37,
+      "island": 22,
+      "phrase": 16,
+      "start": 42.831,
+      "end": 43.645
+    },
+    {
+      "text": "diciendo",
+      "anchor": 43.72,
+      "p": 0.916,
+      "island": 22,
+      "phrase": 16,
+      "start": 43.645,
+      "end": 44.237
+    },
+    {
+      "text": "que",
+      "anchor": 43.98,
+      "p": 0.799,
+      "island": 22,
+      "phrase": 16,
+      "start": 44.237,
+      "end": 44.459
+    },
+    {
+      "text": "ellos",
+      "anchor": 44.4,
+      "p": 0.911,
+      "island": 22,
+      "phrase": 16,
+      "start": 44.459,
+      "end": 44.828
+    },
+    {
+      "text": "sí",
+      "anchor": 44.7,
+      "p": 0.612,
+      "island": 22,
+      "phrase": 16,
+      "start": 44.828,
+      "end": 44.976
+    },
+    {
+      "text": "podían",
+      "anchor": 45.28,
+      "p": 0.388,
+      "island": 22,
+      "phrase": 16,
+      "start": 44.976,
+      "end": 45.42
+    },
+    {
+      "text": "el",
+      "anchor": 45.56,
+      "p": 0.741,
+      "island": 22,
+      "phrase": 16,
+      "start": 45.42,
+      "end": 45.568
+    },
+    {
+      "text": "cargador.",
+      "anchor": 46.08,
+      "p": 0.641,
+      "island": 22,
+      "phrase": 16,
+      "start": 45.568,
+      "end": 46.16
+    },
+    {
+      "text": "Junta",
+      "anchor": 46.9,
+      "p": 0.972,
+      "island": 23,
+      "phrase": 17,
+      "start": 46.6,
+      "end": 47.063
+    },
+    {
+      "text": "con",
+      "anchor": 47.22,
+      "p": 1,
+      "island": 23,
+      "phrase": 17,
+      "start": 47.063,
+      "end": 47.34
+    },
+    {
+      "text": "suerte.",
+      "anchor": 48.1,
+      "p": 0.952,
+      "island": 24,
+      "phrase": 17,
+      "start": 47.64,
+      "end": 48.01
+    },
+    {
+      "text": "Aparatos",
+      "anchor": 48.83,
+      "p": 0.119,
+      "island": 25,
+      "phrase": 18,
+      "start": 48.39,
+      "end": 48.878
+    },
+    {
+      "text": "electrónicos.",
+      "anchor": 49.65,
+      "p": 0.433,
+      "island": 25,
+      "phrase": 18,
+      "start": 48.878,
+      "end": 49.61
+    },
+    {
+      "text": "Entonces,",
+      "anchor": 50.23,
+      "p": 0.344,
+      "island": 26,
+      "phrase": 18,
+      "start": 49.89,
+      "end": 50.348
+    },
+    {
+      "text": "tomado",
+      "anchor": 50.63,
+      "p": 0.878,
+      "island": 26,
+      "phrase": 18,
+      "start": 50.348,
+      "end": 50.691
+    },
+    {
+      "text": "este",
+      "anchor": 50.81,
+      "p": 0.824,
+      "island": 26,
+      "phrase": 18,
+      "start": 50.691,
+      "end": 50.92
+    },
+    {
+      "text": "revuelo,",
+      "anchor": 51.29,
+      "p": 0.841,
+      "island": 26,
+      "phrase": 18,
+      "start": 50.92,
+      "end": 51.32
+    },
+    {
+      "text": "básicamente,",
+      "anchor": 51.79,
+      "p": 0.56,
+      "island": 27,
+      "phrase": 18,
+      "start": 51.62,
+      "end": 52.28
+    },
+    {
+      "text": "Si",
+      "anchor": 53.07,
+      "p": 0.347,
+      "island": 28,
+      "phrase": 19,
+      "start": 52.67,
+      "end": 52.807
+    },
+    {
+      "text": "tu",
+      "anchor": 53.21,
+      "p": 0.715,
+      "island": 28,
+      "phrase": 19,
+      "start": 52.807,
+      "end": 52.944
+    },
+    {
+      "text": "puedes",
+      "anchor": 53.37,
+      "p": 0.835,
+      "island": 28,
+      "phrase": 19,
+      "start": 52.944,
+      "end": 53.355
+    },
+    {
+      "text": "analizarlo.",
+      "anchor": 54.07,
+      "p": 0.583,
+      "island": 28,
+      "phrase": 19,
+      "start": 53.355,
+      "end": 54.04
+    },
+    {
+      "text": "Lo",
+      "anchor": 54.46,
+      "p": 0.883,
+      "island": 29,
+      "phrase": 20,
+      "start": 54.4,
+      "end": 54.536
+    },
+    {
+      "text": "curioso",
+      "anchor": 54.84,
+      "p": 0.973,
+      "island": 29,
+      "phrase": 20,
+      "start": 54.536,
+      "end": 55.013
+    },
+    {
+      "text": "es",
+      "anchor": 54.98,
+      "p": 0.976,
+      "island": 29,
+      "phrase": 20,
+      "start": 55.013,
+      "end": 55.15
+    },
+    {
+      "text": "que",
+      "anchor": 55.12,
+      "p": 0.99,
+      "island": 29,
+      "phrase": 20,
+      "start": 55.15,
+      "end": 55.354
+    },
+    {
+      "text": "Samsung",
+      "anchor": 55.52,
+      "p": 0.962,
+      "island": 29,
+      "phrase": 20,
+      "start": 55.354,
+      "end": 55.831
+    },
+    {
+      "text": "volvió.",
+      "anchor": 56.14,
+      "p": 0.481,
+      "island": 29,
+      "phrase": 20,
+      "start": 55.831,
+      "end": 56.24
+    },
+    {
+      "text": "Todo",
+      "anchor": 56.82,
+      "p": 0.99,
+      "island": 30,
+      "phrase": 21,
+      "start": 56.58,
+      "end": 56.822
+    },
+    {
+      "text": "el",
+      "anchor": 57.02,
+      "p": 0.894,
+      "island": 30,
+      "phrase": 21,
+      "start": 56.822,
+      "end": 56.944
+    },
+    {
+      "text": "mismo",
+      "anchor": 57.06,
+      "p": 0.96,
+      "island": 30,
+      "phrase": 21,
+      "start": 56.944,
+      "end": 57.247
+    },
+    {
+      "text": "es",
+      "anchor": 57.24,
+      "p": 0.956,
+      "island": 30,
+      "phrase": 21,
+      "start": 57.247,
+      "end": 57.368
+    },
+    {
+      "text": "que...",
+      "anchor": 57.42,
+      "p": 0.749,
+      "island": 30,
+      "phrase": 21,
+      "start": 57.368,
+      "end": 57.55
+    },
+    {
+      "text": "Una",
+      "anchor": 58.19,
+      "p": 0.807,
+      "island": 31,
+      "phrase": 22,
+      "start": 57.87,
+      "end": 58.249
+    },
+    {
+      "text": "guerra",
+      "anchor": 58.55,
+      "p": 0.992,
+      "island": 31,
+      "phrase": 22,
+      "start": 58.249,
+      "end": 59.007
+    },
+    {
+      "text": "de...",
+      "anchor": 59.07,
+      "p": 0.411,
+      "island": 31,
+      "phrase": 22,
+      "start": 59.007,
+      "end": 59.26
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "createdAt": "2026-10-04T12:25:21.237Z",
+  "seconds": 178.99,
+  "expectedWords": 435,
+  "heardWords": 443,
+  "wordErrorRate": 0.064,
+  "note": "WER frente al texto previsto; incluye errores del propio transcriptor. Las diferencias concentradas en un borde de plano son las que importan.",
+  "edgeRisks": [],
+  "edges": [
+    {
+      "id": "v01",
+      "headDb": -28,
+      "tailDb": -28.7,
+      "floorDb": -26.8,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.8
+    },
+    {
+      "id": "v02a",
+      "headDb": -26.6,
+      "tailDb": -26,
+      "floorDb": -23.8,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.8
+    },
+    {
+      "id": "v02b",
+      "headDb": -23.6,
+      "tailDb": -21.2,
+      "floorDb": -24.1,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.8
+    },
+    {
+      "id": "v03",
+      "headDb": -21,
+      "tailDb": -19.3,
+      "floorDb": -22.6,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.8
+    },
+    {
+      "id": "v04",
+      "headDb": -24.1,
+      "tailDb": -25.9,
+      "floorDb": -25.8,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.8
+    },
+    {
+      "id": "v05",
+      "headDb": -21.3,
+      "tailDb": -25.9,
+      "floorDb": -24.1,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v06",
+      "headDb": -25.6,
+      "tailDb": -21.2,
+      "floorDb": -24.9,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v07",
+      "headDb": -23.2,
+      "tailDb": -23.3,
+      "floorDb": -25.2,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v08",
+      "headDb": -28.3,
+      "tailDb": -26.9,
+      "floorDb": -24.5,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v09",
+      "headDb": -24.5,
+      "tailDb": -24.8,
+      "floorDb": -23.8,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v10",
+      "headDb": -27.5,
+      "tailDb": -25.4,
+      "floorDb": -22.6,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.1
+    },
+    {
+      "id": "v11",
+      "headDb": -27.3,
+      "tailDb": -25.2,
+      "floorDb": -24.7,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.1
+    },
+    {
+      "id": "v12",
+      "headDb": -31.5,
+      "tailDb": -14.6,
+      "floorDb": -24.2,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.7
+    },
+    {
+      "id": "v13",
+      "headDb": -20.6,
+      "tailDb": -28,
+      "floorDb": -24.8,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.7
+    },
+    {
+      "id": "v14",
+      "headDb": -27.1,
+      "tailDb": -21.1,
+      "floorDb": -22.7,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.7
+    },
+    {
+      "id": "v15",
+      "headDb": -26.7,
+      "tailDb": -24.7,
+      "floorDb": -26,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.7
+    },
+    {
+      "id": "v16",
+      "headDb": -28,
+      "tailDb": -25.1,
+      "floorDb": -24,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -35
+    },
+    {
+      "id": "v17a",
+      "headDb": -27.4,
+      "tailDb": -26.4,
+      "floorDb": -22.7,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -35
+    },
+    {
+      "id": "v17b",
+      "headDb": -25.8,
+      "tailDb": -25.9,
+      "floorDb": -25.6,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -35
+    },
+    {
+      "id": "v18",
+      "headDb": -25.6,
+      "tailDb": -26.6,
+      "floorDb": -24.6,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -35
+    },
+    {
+      "id": "v19",
+      "headDb": -28.4,
+      "tailDb": -17.8,
+      "floorDb": -24.9,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.9
+    },
+    {
+      "id": "v20",
+      "headDb": -26.3,
+      "tailDb": -25.4,
+      "floorDb": -25.3,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.8
+    },
+    {
+      "id": "v21",
+      "headDb": -22.9,
+      "tailDb": -23.2,
+      "floorDb": -24.5,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.8
+    },
+    {
+      "id": "v22",
+      "headDb": -18.3,
+      "tailDb": -21.8,
+      "floorDb": -22,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.8
+    },
+    {
+      "id": "v23",
+      "headDb": -24.4,
+      "tailDb": -24.8,
+      "floorDb": -23.4,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.8
+    },
+    {
+      "id": "v24",
+      "headDb": -30.2,
+      "tailDb": -23.7,
+      "floorDb": -24.3,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v25",
+      "headDb": -20.3,
+      "tailDb": -18.2,
+      "floorDb": -24.1,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v26a",
+      "headDb": -21.2,
+      "tailDb": -24.7,
+      "floorDb": -23.2,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v26b",
+      "headDb": -26.9,
+      "tailDb": -20.6,
+      "floorDb": -22.7,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v27a",
+      "headDb": -26.6,
+      "tailDb": -25.4,
+      "floorDb": -24.8,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v27b",
+      "headDb": -27,
+      "tailDb": -22.3,
+      "floorDb": -24.5,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v28",
+      "headDb": -27.2,
+      "tailDb": -27.2,
+      "floorDb": -26.2,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -33.1
+    },
+    {
+      "id": "v29",
+      "headDb": -17.1,
+      "tailDb": -26.6,
+      "floorDb": -27,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v30a",
+      "headDb": -26.5,
+      "tailDb": -24.6,
+      "floorDb": -24.7,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v30b",
+      "headDb": -27.9,
+      "tailDb": -26.1,
+      "floorDb": -26.9,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v31",
+      "headDb": -22,
+      "tailDb": -20.8,
+      "floorDb": -24.3,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v32a",
+      "headDb": -26.3,
+      "tailDb": -23.8,
+      "floorDb": -24.7,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v32b",
+      "headDb": -26.5,
+      "tailDb": -24.8,
+      "floorDb": -24,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v33",
+      "headDb": -24.6,
+      "tailDb": -24.2,
+      "floorDb": -23.5,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -34.4
+    },
+    {
+      "id": "v34",
+      "headDb": -29.7,
+      "tailDb": -21.1,
+      "floorDb": -26.1,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -35.2
+    },
+    {
+      "id": "v35",
+      "headDb": -23.9,
+      "tailDb": -20,
+      "floorDb": -22.3,
+      "headRisk": false,
+      "tailRisk": false,
+      "analysisThresholdDb": -35.8
+    }
+  ],
+  "diffs": [
+    {
+      "cut": "v02a",
+      "type": "sobra",
+      "heard": "o"
+    },
+    {
+      "cut": "v05",
+      "type": "distinta",
+      "expected": "burlaba",
+      "heard": "doblaba"
+    },
+    {
+      "cut": "v05",
+      "type": "sobra",
+      "heard": "se"
+    },
+    {
+      "cut": "v05",
+      "type": "sobra",
+      "heard": "a"
+    },
+    {
+      "cut": "v05",
+      "type": "sobra",
+      "heard": "abraza"
+    },
+    {
+      "cut": "v05",
+      "type": "distinta",
+      "expected": "abrazados",
+      "heard": "o"
+    },
+    {
+      "cut": "v07",
+      "type": "distinta",
+      "expected": "sus",
+      "heard": "y"
+    },
+    {
+      "cut": "v13",
+      "type": "distinta",
+      "expected": "sus",
+      "heard": "y"
+    },
+    {
+      "cut": "v14",
+      "type": "distinta",
+      "expected": "adaptando",
+      "heard": "atando"
+    },
+    {
+      "cut": "v15",
+      "type": "sobra",
+      "heard": "le"
+    },
+    {
+      "cut": "v16",
+      "type": "sobra",
+      "heard": "venga"
+    },
+    {
+      "cut": "v17a",
+      "type": "distinta",
+      "expected": "y",
+      "heard": "mi"
+    },
+    {
+      "cut": "v17b",
+      "type": "falta",
+      "expected": "y"
+    },
+    {
+      "cut": "v17b",
+      "type": "sobra",
+      "heard": "movil"
+    },
+    {
+      "cut": "v17b",
+      "type": "distinta",
+      "expected": "mobile",
+      "heard": "de"
+    },
+    {
+      "cut": "v18",
+      "type": "sobra",
+      "heard": "en"
+    },
+    {
+      "cut": "v18",
+      "type": "falta",
+      "expected": "es"
+    },
+    {
+      "cut": "v18",
+      "type": "distinta",
+      "expected": "atreven",
+      "heard": "atraen"
+    },
+    {
+      "cut": "v18",
+      "type": "distinta",
+      "expected": "atrevimos",
+      "heard": "atraimos"
+    },
+    {
+      "cut": "v19",
+      "type": "distinta",
+      "expected": "historicamente",
+      "heard": "historialmente"
+    },
+    {
+      "cut": "v23",
+      "type": "distinta",
+      "expected": "fijandonos",
+      "heard": "llegandonos"
+    },
+    {
+      "cut": "v24",
+      "type": "sobra",
+      "heard": "en"
+    },
+    {
+      "cut": "v24",
+      "type": "distinta",
+      "expected": "empresarios",
+      "heard": "presterar"
+    },
+    {
+      "cut": "v27a",
+      "type": "distinta",
+      "expected": "quiere",
+      "heard": "quiero"
+    },
+    {
+      "cut": "v32b",
+      "type": "distinta",
+      "expected": "real",
+      "heard": "pero"
+    },
+    {
+      "cut": "v34",
+      "type": "distinta",
+      "expected": "razones",
+      "heard": "reacciones"
+    },
+    {
+      "cut": "v35",
+      "type": "sobra",
+      "heard": "por"
+    },
+    {
+      "cut": "v35",
+      "type": "distinta",
+      "expected": "solo",
+      "heard": "favor"
+    }
+  ],
+  "transcript": "Este es el claro ejemplo de que Apple está arriba, muy arriba de cualquier otra marca, pero muy arriba. Para posicionar un producto o un servicio no siempre tienes que dar más, sino entregar más valor. La historia entre Apple y Samsung nace en el 2014. Samsung lanza su primer comercial llamado Abraza Paredes. Samsung se doblaba de todos los usuarios de Apple porque se vivían pegados literalmente a Abraza o a una pared. Su argumento era muy simple. Sus productos y teléfonos podían cambiar de baterías. Pero compararse con Apple es otra cosa. Apple quitó el puerto por allá en el 2016 y en 2020. Apple sacó el iPhone 12. Samsung no quiso dejar pasar esta oportunidad diciendo que ellos sí incluían el cargador. Y lo más curioso aún es que Samsung saca un comunicado diciendo que ya sus aparatos electrónicos y celulares ya no van a tener ni auriculares ni cargadores. Con el paso del tiempo todo lo que Apple ha venido atando, todo eso lo ha venido implementando también Samsung. Así que literalmente se le han copiado. Pero venga, mi parte favorita es esta. Mi Samsung que lleva años haciendo teléfonos plegables que tiene todos los argumentos para decir nosotros estuvimos primero. De hecho, en la cuenta de Samsung móvil de MX, diciendo nosotros en el mundo de los que se atraen primero, nosotros nos atraímos hace 7 años. Pero no es aquí donde nos tenemos que centrar. Mientras que Apple historialmente ha construido una marca que puede llegar después para vender otra idea diferente. Al parecer a Apple no le importa quién llegó primero, sino más bien decir, mira cómo lo hacemos nosotros. Llegándonos incluso la forma en que presenta el dúo es la forma más aterradora para cualquier otra marca. Marcando posición, marcando terreno. Y sí, muchos estamos obsesionados por ser los primeros como emprendedores en presterar. Por ser los primeros en lanzar X productos. Por ser los primeros en intentar vender ciertos servicios. Por tener ciertas características, agregarle más a nuestros servicios. Y no quiero decir esto, que por agregar más tengamos más valor. Nuestro cliente no necesita siempre que le agreguemos más. No todo cliente compra al que le llegó primero. Le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de una experiencia diferente. Somos los primeros o nuestro producto realmente sí ofrece una solución, sí ofrece un valor. Pero todo esto lo que nos enseña es a tomarnos nuestro tiempo. Así que nuestro producto no tiene que ser el producto perfecto. Pero sí necesitamos construir suficiente confianza y suficientes reacciones. Si quieren más contenido como este, por favor, síganme."
+}

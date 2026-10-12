@@ -1,0 +1,465 @@
+{
+  "sourceFile": "e7648b9b117b45218bd4bac13da69698.MP4",
+  "sha256": "38cda45ba5af06157cc52b9a2dfecc14535bde247438e19e6d8436f3f00b0fd5",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:16:23.294Z",
+    "seconds": 38,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Y aquí es donde se pone interesante porque Samsung si tiene todas las competencias para decir nosotros lo hicimos primero, pero no es aquí donde nos tenemos que centrar. Mientras que Apple historicamente ha construido una marca que puede llegar después de vender y vender y vender y vender y vender es otra idea. Samsung...[_TT_1294]",
+  "words": [
+    {
+      "text": "Y",
+      "startMs": 80,
+      "endMs": 80,
+      "dtwMs": 740,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "aquí",
+      "startMs": 160,
+      "endMs": 510,
+      "dtwMs": 880,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "es",
+      "startMs": 510,
+      "endMs": 670,
+      "dtwMs": 1000,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "donde",
+      "startMs": 690,
+      "endMs": 1110,
+      "dtwMs": 1160,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "se",
+      "startMs": 1110,
+      "endMs": 1280,
+      "dtwMs": 1340,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "pone",
+      "startMs": 1280,
+      "endMs": 1630,
+      "dtwMs": 1620,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "interesante",
+      "startMs": 1630,
+      "endMs": 2590,
+      "dtwMs": 2780,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "porque",
+      "startMs": 2590,
+      "endMs": 3110,
+      "dtwMs": 3520,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "Samsung",
+      "startMs": 3110,
+      "endMs": 3720,
+      "dtwMs": 4500,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "si",
+      "startMs": 3720,
+      "endMs": 3890,
+      "dtwMs": 4760,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "tiene",
+      "startMs": 3890,
+      "endMs": 4320,
+      "dtwMs": 5020,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "todas",
+      "startMs": 4320,
+      "endMs": 4750,
+      "dtwMs": 5300,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "las",
+      "startMs": 4750,
+      "endMs": 5010,
+      "dtwMs": 5720,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "competencias",
+      "startMs": 5010,
+      "endMs": 6040,
+      "dtwMs": 6660,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "para",
+      "startMs": 6050,
+      "endMs": 6400,
+      "dtwMs": 7360,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "decir",
+      "startMs": 6400,
+      "endMs": 6830,
+      "dtwMs": 7620,
+      "tokens": 1,
+      "pMin": 0.838
+    },
+    {
+      "text": "nosotros",
+      "startMs": 6830,
+      "endMs": 7520,
+      "dtwMs": 8160,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "lo",
+      "startMs": 7520,
+      "endMs": 7690,
+      "dtwMs": 8460,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "hicimos",
+      "startMs": 7690,
+      "endMs": 8290,
+      "dtwMs": 8620,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "primero,",
+      "startMs": 8290,
+      "endMs": 9070,
+      "dtwMs": 9120,
+      "tokens": 2,
+      "pMin": 0.931
+    },
+    {
+      "text": "pero",
+      "startMs": 9070,
+      "endMs": 9410,
+      "dtwMs": 9920,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "no",
+      "startMs": 9410,
+      "endMs": 9590,
+      "dtwMs": 10860,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "es",
+      "startMs": 9590,
+      "endMs": 9760,
+      "dtwMs": 11080,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "aquí",
+      "startMs": 9760,
+      "endMs": 10190,
+      "dtwMs": 11360,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "donde",
+      "startMs": 10190,
+      "endMs": 10620,
+      "dtwMs": 11620,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "nos",
+      "startMs": 10670,
+      "endMs": 10880,
+      "dtwMs": 11820,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tenemos",
+      "startMs": 10880,
+      "endMs": 11490,
+      "dtwMs": 12100,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "que",
+      "startMs": 11490,
+      "endMs": 11750,
+      "dtwMs": 12300,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "centrar.",
+      "startMs": 11750,
+      "endMs": 12780,
+      "dtwMs": 12560,
+      "tokens": 3,
+      "pMin": 0.997
+    },
+    {
+      "text": "Mientras",
+      "startMs": 12780,
+      "endMs": 13530,
+      "dtwMs": 13580,
+      "tokens": 2,
+      "pMin": 0.941
+    },
+    {
+      "text": "que",
+      "startMs": 13530,
+      "endMs": 13810,
+      "dtwMs": 14000,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "Apple",
+      "startMs": 13810,
+      "endMs": 14280,
+      "dtwMs": 14360,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "historicamente",
+      "startMs": 14280,
+      "endMs": 15610,
+      "dtwMs": 14720,
+      "tokens": 2,
+      "pMin": 0.717
+    },
+    {
+      "text": "ha",
+      "startMs": 15610,
+      "endMs": 15800,
+      "dtwMs": 15480,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "construido",
+      "startMs": 15800,
+      "endMs": 16730,
+      "dtwMs": 15840,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "una",
+      "startMs": 16740,
+      "endMs": 17020,
+      "dtwMs": 16260,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "marca",
+      "startMs": 17020,
+      "endMs": 17480,
+      "dtwMs": 16640,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "que",
+      "startMs": 17490,
+      "endMs": 17770,
+      "dtwMs": 16800,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "puede",
+      "startMs": 17770,
+      "endMs": 18240,
+      "dtwMs": 17000,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "llegar",
+      "startMs": 18240,
+      "endMs": 18730,
+      "dtwMs": 17320,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "después",
+      "startMs": 18830,
+      "endMs": 19570,
+      "dtwMs": 17700,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "de",
+      "startMs": 19570,
+      "endMs": 19760,
+      "dtwMs": 17960,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "vender",
+      "startMs": 19860,
+      "endMs": 20330,
+      "dtwMs": 18440,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "y",
+      "startMs": 20330,
+      "endMs": 20420,
+      "dtwMs": 18940,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "vender",
+      "startMs": 20420,
+      "endMs": 20990,
+      "dtwMs": 19260,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "y",
+      "startMs": 20990,
+      "endMs": 21070,
+      "dtwMs": 19960,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "vender",
+      "startMs": 21080,
+      "endMs": 21640,
+      "dtwMs": 20240,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "y",
+      "startMs": 21640,
+      "endMs": 21740,
+      "dtwMs": 20240,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "vender",
+      "startMs": 21760,
+      "endMs": 22310,
+      "dtwMs": 20580,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "y",
+      "startMs": 22310,
+      "endMs": 22400,
+      "dtwMs": 20580,
+      "tokens": 1,
+      "pMin": 0.918
+    },
+    {
+      "text": "vender",
+      "startMs": 22400,
+      "endMs": 22970,
+      "dtwMs": 20660,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "es",
+      "startMs": 22970,
+      "endMs": 23160,
+      "dtwMs": 20820,
+      "tokens": 1,
+      "pMin": 0.566
+    },
+    {
+      "text": "otra",
+      "startMs": 23160,
+      "endMs": 23530,
+      "dtwMs": 21160,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "idea.",
+      "startMs": 23530,
+      "endMs": 24200,
+      "dtwMs": 21420,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "Samsung...[_TT_1294]",
+      "startMs": 24200,
+      "endMs": 25880,
+      "dtwMs": 23160,
+      "tokens": 3,
+      "pMin": 0.95
+    }
+  ]
+}

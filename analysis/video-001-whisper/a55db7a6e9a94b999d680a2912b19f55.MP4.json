@@ -1,0 +1,841 @@
+{
+  "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+  "sha256": "40e5a88594d6085745ab42d3ccb007cff05f1876b4d0696f18b5948caaebdede",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:34:42.397Z",
+    "seconds": 109.7,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Y es aquí donde tenemos que entender que no todo cliente compra al que le llegó primero, le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de una experiencia diferente, etc.[_TT_823] Por eso mi pregunta desde que vi esto fue, ¿somos los primeros o nuestro producto realmente se ofrece una solución, se ofrece un valor real?[_TT_772] Así que nada, me parece claro, todo esto lo que nos enseña es a no tomarnos nuestros tiempos, a tomarnos nuestro tiempo, todo esto lo que nos enseña es a tomarnos nuestro tiempo, a perfeccionar nuestros productos, no básicamente encontrarlos.[_TT_997]",
+  "words": [
+    {
+      "text": "Y",
+      "startMs": 0,
+      "endMs": 70,
+      "dtwMs": 1040,
+      "tokens": 1,
+      "pMin": 0.669
+    },
+    {
+      "text": "es",
+      "startMs": 70,
+      "endMs": 220,
+      "dtwMs": 1180,
+      "tokens": 1,
+      "pMin": 0.937
+    },
+    {
+      "text": "aquí",
+      "startMs": 570,
+      "endMs": 600,
+      "dtwMs": 1360,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "donde",
+      "startMs": 630,
+      "endMs": 960,
+      "dtwMs": 1540,
+      "tokens": 1,
+      "pMin": 0.975
+    },
+    {
+      "text": "tenemos",
+      "startMs": 990,
+      "endMs": 1520,
+      "dtwMs": 1820,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "que",
+      "startMs": 1520,
+      "endMs": 1750,
+      "dtwMs": 1980,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "entender",
+      "startMs": 1750,
+      "endMs": 2370,
+      "dtwMs": 2280,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "que",
+      "startMs": 2370,
+      "endMs": 2600,
+      "dtwMs": 2600,
+      "tokens": 1,
+      "pMin": 0.951
+    },
+    {
+      "text": "no",
+      "startMs": 2600,
+      "endMs": 2750,
+      "dtwMs": 2880,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "todo",
+      "startMs": 2750,
+      "endMs": 3060,
+      "dtwMs": 3100,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "cliente",
+      "startMs": 3060,
+      "endMs": 3570,
+      "dtwMs": 3440,
+      "tokens": 2,
+      "pMin": 0.997
+    },
+    {
+      "text": "compra",
+      "startMs": 3580,
+      "endMs": 4050,
+      "dtwMs": 4500,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "al",
+      "startMs": 4050,
+      "endMs": 4200,
+      "dtwMs": 4900,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "que",
+      "startMs": 4200,
+      "endMs": 4430,
+      "dtwMs": 5040,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "le",
+      "startMs": 4430,
+      "endMs": 4580,
+      "dtwMs": 5180,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "llegó",
+      "startMs": 4580,
+      "endMs": 5040,
+      "dtwMs": 5380,
+      "tokens": 1,
+      "pMin": 0.781
+    },
+    {
+      "text": "primero,",
+      "startMs": 5040,
+      "endMs": 5820,
+      "dtwMs": 5780,
+      "tokens": 2,
+      "pMin": 0.523
+    },
+    {
+      "text": "le",
+      "startMs": 5820,
+      "endMs": 6180,
+      "dtwMs": 6140,
+      "tokens": 1,
+      "pMin": 0.869
+    },
+    {
+      "text": "compra",
+      "startMs": 6190,
+      "endMs": 6820,
+      "dtwMs": 6560,
+      "tokens": 1,
+      "pMin": 0.985
+    },
+    {
+      "text": "al",
+      "startMs": 6820,
+      "endMs": 7030,
+      "dtwMs": 7100,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "que",
+      "startMs": 7030,
+      "endMs": 7350,
+      "dtwMs": 7340,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "sabe",
+      "startMs": 7350,
+      "endMs": 7760,
+      "dtwMs": 8740,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "ganarse",
+      "startMs": 7760,
+      "endMs": 8510,
+      "dtwMs": 8960,
+      "tokens": 2,
+      "pMin": 0.973
+    },
+    {
+      "text": "su",
+      "startMs": 8550,
+      "endMs": 8720,
+      "dtwMs": 9320,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "confianza,",
+      "startMs": 8720,
+      "endMs": 9940,
+      "dtwMs": 9640,
+      "tokens": 3,
+      "pMin": 0.999
+    },
+    {
+      "text": "sabe",
+      "startMs": 9940,
+      "endMs": 10190,
+      "dtwMs": 10440,
+      "tokens": 1,
+      "pMin": 0.982
+    },
+    {
+      "text": "generar",
+      "startMs": 10270,
+      "endMs": 10680,
+      "dtwMs": 10700,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "valor,",
+      "startMs": 10680,
+      "endMs": 11180,
+      "dtwMs": 11140,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "sabe",
+      "startMs": 11180,
+      "endMs": 11540,
+      "dtwMs": 11840,
+      "tokens": 1,
+      "pMin": 0.841
+    },
+    {
+      "text": "generar",
+      "startMs": 11580,
+      "endMs": 12170,
+      "dtwMs": 12140,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "una",
+      "startMs": 12170,
+      "endMs": 12440,
+      "dtwMs": 12480,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "percepción",
+      "startMs": 12440,
+      "endMs": 13430,
+      "dtwMs": 13160,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "de",
+      "startMs": 13430,
+      "endMs": 13610,
+      "dtwMs": 13780,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "una",
+      "startMs": 13610,
+      "endMs": 13880,
+      "dtwMs": 14920,
+      "tokens": 1,
+      "pMin": 0.996
+    },
+    {
+      "text": "experiencia",
+      "startMs": 13880,
+      "endMs": 14880,
+      "dtwMs": 15460,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "diferente,",
+      "startMs": 14880,
+      "endMs": 15870,
+      "dtwMs": 15940,
+      "tokens": 2,
+      "pMin": 0.996
+    },
+    {
+      "text": "etc.[_TT_823]",
+      "startMs": 15870,
+      "endMs": 16460,
+      "dtwMs": 16380,
+      "tokens": 3,
+      "pMin": 0.667
+    },
+    {
+      "text": "Por",
+      "startMs": 16460,
+      "endMs": 16840,
+      "dtwMs": 17600,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "eso",
+      "startMs": 16840,
+      "endMs": 17220,
+      "dtwMs": 17840,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "mi",
+      "startMs": 17220,
+      "endMs": 17460,
+      "dtwMs": 18860,
+      "tokens": 1,
+      "pMin": 0.962
+    },
+    {
+      "text": "pregunta",
+      "startMs": 17460,
+      "endMs": 18480,
+      "dtwMs": 19520,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "desde",
+      "startMs": 18480,
+      "endMs": 19110,
+      "dtwMs": 20920,
+      "tokens": 1,
+      "pMin": 0.983
+    },
+    {
+      "text": "que",
+      "startMs": 19110,
+      "endMs": 19470,
+      "dtwMs": 21380,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "vi",
+      "startMs": 19490,
+      "endMs": 19740,
+      "dtwMs": 22300,
+      "tokens": 1,
+      "pMin": 0.985
+    },
+    {
+      "text": "esto",
+      "startMs": 19740,
+      "endMs": 20220,
+      "dtwMs": 22660,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "fue,",
+      "startMs": 20240,
+      "endMs": 20870,
+      "dtwMs": 23000,
+      "tokens": 2,
+      "pMin": 0.705
+    },
+    {
+      "text": "¿somos",
+      "startMs": 20870,
+      "endMs": 21730,
+      "dtwMs": 24380,
+      "tokens": 3,
+      "pMin": 0.663
+    },
+    {
+      "text": "los",
+      "startMs": 21740,
+      "endMs": 22120,
+      "dtwMs": 24800,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "primeros",
+      "startMs": 22120,
+      "endMs": 23120,
+      "dtwMs": 25100,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "o",
+      "startMs": 23120,
+      "endMs": 23240,
+      "dtwMs": 26000,
+      "tokens": 1,
+      "pMin": 0.938
+    },
+    {
+      "text": "nuestro",
+      "startMs": 23240,
+      "endMs": 24120,
+      "dtwMs": 27160,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "producto",
+      "startMs": 24360,
+      "endMs": 25130,
+      "dtwMs": 27660,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "realmente",
+      "startMs": 25130,
+      "endMs": 26250,
+      "dtwMs": 28480,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "se",
+      "startMs": 26250,
+      "endMs": 26510,
+      "dtwMs": 29140,
+      "tokens": 1,
+      "pMin": 0.499
+    },
+    {
+      "text": "ofrece",
+      "startMs": 26510,
+      "endMs": 27250,
+      "dtwMs": 29380,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "una",
+      "startMs": 27250,
+      "endMs": 27620,
+      "dtwMs": 29680,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "solución,",
+      "startMs": 27690,
+      "endMs": 29010,
+      "dtwMs": 29940,
+      "tokens": 3,
+      "pMin": 0.99
+    },
+    {
+      "text": "se",
+      "startMs": 29010,
+      "endMs": 29270,
+      "dtwMs": 30340,
+      "tokens": 1,
+      "pMin": 0.813
+    },
+    {
+      "text": "ofrece",
+      "startMs": 29270,
+      "endMs": 30020,
+      "dtwMs": 30540,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "un",
+      "startMs": 30020,
+      "endMs": 30270,
+      "dtwMs": 30820,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "valor",
+      "startMs": 30270,
+      "endMs": 30900,
+      "dtwMs": 31160,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "real?[_TT_772]",
+      "startMs": 30900,
+      "endMs": 31900,
+      "dtwMs": 31860,
+      "tokens": 3,
+      "pMin": 0.26
+    },
+    {
+      "text": "Así",
+      "startMs": 32300,
+      "endMs": 32690,
+      "dtwMs": 33000,
+      "tokens": 1,
+      "pMin": 0.445
+    },
+    {
+      "text": "que",
+      "startMs": 32700,
+      "endMs": 33000,
+      "dtwMs": 33120,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "nada,",
+      "startMs": 33000,
+      "endMs": 33600,
+      "dtwMs": 33300,
+      "tokens": 2,
+      "pMin": 0.915
+    },
+    {
+      "text": "me",
+      "startMs": 33600,
+      "endMs": 33800,
+      "dtwMs": 33620,
+      "tokens": 1,
+      "pMin": 0.156
+    },
+    {
+      "text": "parece",
+      "startMs": 33800,
+      "endMs": 34390,
+      "dtwMs": 33760,
+      "tokens": 1,
+      "pMin": 0.038
+    },
+    {
+      "text": "claro,",
+      "startMs": 34390,
+      "endMs": 35100,
+      "dtwMs": 34260,
+      "tokens": 2,
+      "pMin": 0.791
+    },
+    {
+      "text": "todo",
+      "startMs": 35100,
+      "endMs": 35480,
+      "dtwMs": 36840,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "esto",
+      "startMs": 35480,
+      "endMs": 35900,
+      "dtwMs": 37080,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lo",
+      "startMs": 35900,
+      "endMs": 36100,
+      "dtwMs": 37220,
+      "tokens": 1,
+      "pMin": 0.993
+    },
+    {
+      "text": "que",
+      "startMs": 36100,
+      "endMs": 36400,
+      "dtwMs": 37360,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "nos",
+      "startMs": 36400,
+      "endMs": 36700,
+      "dtwMs": 37520,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "enseña",
+      "startMs": 36700,
+      "endMs": 37400,
+      "dtwMs": 37760,
+      "tokens": 2,
+      "pMin": 0.997
+    },
+    {
+      "text": "es",
+      "startMs": 37400,
+      "endMs": 37600,
+      "dtwMs": 38420,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "a",
+      "startMs": 37600,
+      "endMs": 37700,
+      "dtwMs": 39000,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "no",
+      "startMs": 37700,
+      "endMs": 37900,
+      "dtwMs": 39180,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "tomarnos",
+      "startMs": 37900,
+      "endMs": 38700,
+      "dtwMs": 39500,
+      "tokens": 2,
+      "pMin": 0.977
+    },
+    {
+      "text": "nuestros",
+      "startMs": 38820,
+      "endMs": 39500,
+      "dtwMs": 40740,
+      "tokens": 1,
+      "pMin": 0.974
+    },
+    {
+      "text": "tiempos,",
+      "startMs": 39500,
+      "endMs": 40400,
+      "dtwMs": 41020,
+      "tokens": 4,
+      "pMin": 0.995
+    },
+    {
+      "text": "a",
+      "startMs": 40400,
+      "endMs": 40500,
+      "dtwMs": 41600,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "tomarnos",
+      "startMs": 40500,
+      "endMs": 41300,
+      "dtwMs": 41800,
+      "tokens": 2,
+      "pMin": 0.986
+    },
+    {
+      "text": "nuestro",
+      "startMs": 41300,
+      "endMs": 42000,
+      "dtwMs": 42380,
+      "tokens": 1,
+      "pMin": 0.977
+    },
+    {
+      "text": "tiempo,",
+      "startMs": 42000,
+      "endMs": 42900,
+      "dtwMs": 42840,
+      "tokens": 2,
+      "pMin": 0.749
+    },
+    {
+      "text": "todo",
+      "startMs": 42900,
+      "endMs": 43250,
+      "dtwMs": 43740,
+      "tokens": 1,
+      "pMin": 0.911
+    },
+    {
+      "text": "esto",
+      "startMs": 43250,
+      "endMs": 43600,
+      "dtwMs": 43920,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lo",
+      "startMs": 43630,
+      "endMs": 43770,
+      "dtwMs": 44020,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "que",
+      "startMs": 43770,
+      "endMs": 44030,
+      "dtwMs": 44140,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "nos",
+      "startMs": 44030,
+      "endMs": 44290,
+      "dtwMs": 44320,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "enseña",
+      "startMs": 44290,
+      "endMs": 44900,
+      "dtwMs": 44600,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "es",
+      "startMs": 44900,
+      "endMs": 45070,
+      "dtwMs": 45020,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "a",
+      "startMs": 45070,
+      "endMs": 45160,
+      "dtwMs": 45140,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tomarnos",
+      "startMs": 45160,
+      "endMs": 45860,
+      "dtwMs": 45340,
+      "tokens": 2,
+      "pMin": 0.974
+    },
+    {
+      "text": "nuestro",
+      "startMs": 45860,
+      "endMs": 46470,
+      "dtwMs": 45920,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "tiempo,",
+      "startMs": 46470,
+      "endMs": 47180,
+      "dtwMs": 46380,
+      "tokens": 2,
+      "pMin": 0.992
+    },
+    {
+      "text": "a",
+      "startMs": 47180,
+      "endMs": 47270,
+      "dtwMs": 47240,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "perfeccionar",
+      "startMs": 47270,
+      "endMs": 48310,
+      "dtwMs": 48260,
+      "tokens": 4,
+      "pMin": 0.999
+    },
+    {
+      "text": "nuestros",
+      "startMs": 48310,
+      "endMs": 48920,
+      "dtwMs": 49380,
+      "tokens": 1,
+      "pMin": 0.902
+    },
+    {
+      "text": "productos,",
+      "startMs": 49050,
+      "endMs": 50140,
+      "dtwMs": 50100,
+      "tokens": 2,
+      "pMin": 0.976
+    },
+    {
+      "text": "no",
+      "startMs": 50140,
+      "endMs": 50280,
+      "dtwMs": 50660,
+      "tokens": 1,
+      "pMin": 0.369
+    },
+    {
+      "text": "básicamente",
+      "startMs": 50280,
+      "endMs": 51140,
+      "dtwMs": 51480,
+      "tokens": 1,
+      "pMin": 0.901
+    },
+    {
+      "text": "encontrarlos.[_TT_997]",
+      "startMs": 51140,
+      "endMs": 52240,
+      "dtwMs": 52220,
+      "tokens": 4,
+      "pMin": 0.044
+    }
+  ]
+}

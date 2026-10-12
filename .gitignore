@@ -3,3 +3,57 @@ out
 .remotion
 dist
 .DS_Store
+.env*
+public/video-001/
+analysis/video-001-cache/*.upload.json
+raw-material/
+.whisper/
+
+# Medios de cada formato y proyecto (videos, audio, capturas de revisión y referencias): no se versionan
+formatos/**/exportaciones/
+formatos/**/material/
+formatos/**/revision/
+formatos/**/referencias/
+formatos/**/tomas/
+
+# VIDEO-002: proxies y pistas de audio (regenerables con src/videoAnalysis/video002/); logos y captura sí se versionan
+public/video-002/hq/
+public/video-002/*.wav
+# VIDEO-002: medios generados (hojas de iconos 3D horneadas y relieve SVG en PNG; se regeneran con sus scripts)
+public/video-002/iconos3d/
+public/video-002/relieve/
+public/video-002/dialogue-original.wav
+
+# Stills regenerables de la guía: medios pesados locales, índices y SVG sí se conservan
+formatos/guia/muestras/**/*.jpg
+formatos/guia/muestras/**/*.png
+public/video-004/hq/
+public/video-004/*.wav
+
+# --- Publicación del repositorio (2026-10-11) ---
+# Secretos y archivos de la máquina local: nunca se versionan.
+Salida guardada*
+bin/
+.claude/worktrees/
+.claude/launch.json
+
+# Medios: videos, audio y proxies del usuario no van al repositorio (los sonidos CC0 se bajan con library/sfx/fetch-sfx.mjs y los propios se generan con synth-sfx.mjs).
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# Material del usuario y de terceros de cada video (se regenera o se pide al usuario).
+public/video-002/
+public/video-003/
+formatos/motion-ux/img/
+
+# La guía de uso (producto) y su pipeline de muestras quedan fuera del repositorio público.
+formatos/guia/
+docs/Guia-de-uso-sistema-de-edicion-ZEVEN*.pdf
+src/compositions/guia/
+analysis/guia-tomas/

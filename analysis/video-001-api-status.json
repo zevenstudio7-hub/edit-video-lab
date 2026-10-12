@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-03T22:55:06.537Z",
+  "model": "gemini-3.6-flash",
+  "status": 429,
+  "violations": [
+    {
+      "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+      "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "quotaDimensions": {
+        "location": "global",
+        "model": "gemini-3.6-flash"
+      },
+      "quotaValue": "20"
+    }
+  ],
+  "retryDelay": "3891s"
+}

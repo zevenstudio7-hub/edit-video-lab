@@ -1,0 +1,1430 @@
+{
+  "checkedAt": "2026-10-03T03:21:37.341Z",
+  "commit": "486cb14f2d95854c1fe8f5b70a17644378db6a2f",
+  "composition": "Video001",
+  "durationInFrames": 3748,
+  "captionBlocksChecked": 98,
+  "passed": true,
+  "failures": [],
+  "captions": [
+    {
+      "frame": 0,
+      "expected": "Este es",
+      "text": "Este es",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 19,
+      "expected": "el claro ejemplo",
+      "text": "el claro ejemplo",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 64,
+      "expected": "de que Apple",
+      "text": "de que Apple",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 96,
+      "expected": "está arriba,",
+      "text": "está arriba,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 128,
+      "expected": "muy arriba",
+      "text": "muy arriba",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 155,
+      "expected": "de cualquier otra marca,",
+      "text": "de cualquier otra marca,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 216,
+      "expected": "pero muy arriba.",
+      "text": "pero muy arriba.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 256,
+      "expected": "de que para posicionar",
+      "text": "de que para posicionar",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 303,
+      "expected": "un producto,",
+      "text": "un producto,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 328,
+      "expected": "un servicio",
+      "text": "un servicio",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 353,
+      "expected": "no siempre tienes",
+      "text": "no siempre tienes",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 390,
+      "expected": "que dar más,",
+      "text": "que dar más,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 412,
+      "expected": "sino entregar más",
+      "text": "sino entregar más",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 448,
+      "expected": "valor, que son",
+      "text": "valor, que son",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 474,
+      "expected": "cosas muy distintas.",
+      "text": "cosas muy distintas.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 514,
+      "expected": "si en 2014 efectivamente",
+      "text": "si en 2014 efectivamente",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 583,
+      "expected": "Samsung se burlaba de",
+      "text": "Samsung se burlaba de",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 664,
+      "expected": "los usuarios de Apple",
+      "text": "los usuarios de Apple",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 724,
+      "expected": "porque vivían pegados,",
+      "text": "porque vivían pegados,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 784,
+      "expected": "literalmente abrazados",
+      "text": "literalmente abrazados",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 821,
+      "expected": "a una pared.",
+      "text": "a una pared.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 838,
+      "expected": "Su argumento",
+      "text": "Su argumento",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 874,
+      "expected": "era muy simple.",
+      "text": "era muy simple.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 913,
+      "expected": "Lanzaron un comercial",
+      "text": "Lanzaron un comercial",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 943,
+      "expected": "por parte de ellos",
+      "text": "por parte de ellos",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 967,
+      "expected": "diciendo de que",
+      "text": "diciendo de que",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 988,
+      "expected": "sus productos,",
+      "text": "sus productos,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1026,
+      "expected": "sus teléfonos",
+      "text": "sus teléfonos",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1063,
+      "expected": "podían cambiar de baterías,",
+      "text": "podían cambiar de baterías,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1123,
+      "expected": "Samsung saca un comunicado",
+      "text": "Samsung saca un comunicado",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1162,
+      "expected": "diciendo que ya",
+      "text": "diciendo que ya",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1183,
+      "expected": "sus aparatos electrónicos,",
+      "text": "sus aparatos electrónicos,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1228,
+      "expected": "sus celulares ya",
+      "text": "sus celulares ya",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1265,
+      "expected": "no van a tener",
+      "text": "no van a tener",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1297,
+      "expected": "ni auriculares ni cargadores.",
+      "text": "ni auriculares ni cargadores.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1363,
+      "expected": "Con el paso",
+      "text": "Con el paso",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1384,
+      "expected": "del tiempo todo",
+      "text": "del tiempo todo",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1414,
+      "expected": "lo que Apple",
+      "text": "lo que Apple",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1438,
+      "expected": "ha venido adaptando",
+      "text": "ha venido adaptando",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1477,
+      "expected": "para su sistema",
+      "text": "para su sistema",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1507,
+      "expected": "de su ecosistema iOS,",
+      "text": "de su ecosistema iOS,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1552,
+      "expected": "eh, todo eso",
+      "text": "eh, todo eso",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1574,
+      "expected": "lo ha venido",
+      "text": "lo ha venido",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1598,
+      "expected": "implementando también Samsung.",
+      "text": "implementando también Samsung.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1663,
+      "expected": "Al parecer a Apple",
+      "text": "Al parecer a Apple",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1709,
+      "expected": "no le importa",
+      "text": "no le importa",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1740,
+      "expected": "quién llegó primero,",
+      "text": "quién llegó primero,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1789,
+      "expected": "sino más bien...",
+      "text": "sino más bien...",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1849,
+      "expected": "decir: mira cómo",
+      "text": "decir: mira cómo",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1892,
+      "expected": "lo hacemos nosotros.",
+      "text": "lo hacemos nosotros.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 1948,
+      "expected": "Fijándonos incluso la forma",
+      "text": "Fijándonos incluso la forma",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2017,
+      "expected": "en que presenta",
+      "text": "en que presenta",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2054,
+      "expected": "el Duo",
+      "text": "el Duo",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2068,
+      "expected": "es la forma",
+      "text": "es la forma",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2113,
+      "expected": "más atractiva",
+      "text": "más atractiva",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2173,
+      "expected": "Y sí,",
+      "text": "Y sí,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2180,
+      "expected": "muchos estamos obsesionados",
+      "text": "muchos estamos obsesionados",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2224,
+      "expected": "por ser los primeros",
+      "text": "por ser los primeros",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2278,
+      "expected": "como emprendedores,",
+      "text": "como emprendedores,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2304,
+      "expected": "empresarios, etcétera,",
+      "text": "empresarios, etcétera,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2332,
+      "expected": "por ser los primeros",
+      "text": "por ser los primeros",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2367,
+      "expected": "en lanzar x producto,",
+      "text": "en lanzar x producto,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2404,
+      "expected": "por ser",
+      "text": "por ser",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2415,
+      "expected": "los primeros en aprender",
+      "text": "los primeros en aprender",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2453,
+      "expected": "a usar x herramienta,",
+      "text": "a usar x herramienta,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2488,
+      "expected": "por ser",
+      "text": "por ser",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2498,
+      "expected": "los primeros en intentar",
+      "text": "los primeros en intentar",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2531,
+      "expected": "vender cierto servicio,",
+      "text": "vender cierto servicio,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2563,
+      "expected": "por tener ciertas características,",
+      "text": "por tener ciertas características,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2653,
+      "expected": "agregarle más",
+      "text": "agregarle más",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2682,
+      "expected": "a nuestros servicios,",
+      "text": "a nuestros servicios,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2728,
+      "expected": "así que nuestro",
+      "text": "así que nuestro",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2767,
+      "expected": "cliente no necesita",
+      "text": "cliente no necesita",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2818,
+      "expected": "siempre que le",
+      "text": "siempre que le",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2858,
+      "expected": "agreguemos más,",
+      "text": "agreguemos más,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2901,
+      "expected": "Y es aquí",
+      "text": "Y es aquí",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 2934,
+      "expected": "donde tenemos que entender",
+      "text": "donde tenemos que entender",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3030,
+      "expected": "que no",
+      "text": "que no",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3038,
+      "expected": "todo cliente compra",
+      "text": "todo cliente compra",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3067,
+      "expected": "al que le",
+      "text": "al que le",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3079,
+      "expected": "llegó primero.",
+      "text": "llegó primero.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3099,
+      "expected": "Le compra",
+      "text": "Le compra",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3120,
+      "expected": "al que sabe",
+      "text": "al que sabe",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3143,
+      "expected": "ganarse su confianza,",
+      "text": "ganarse su confianza,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3190,
+      "expected": "sabe generar valor,",
+      "text": "sabe generar valor,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3219,
+      "expected": "sabe generar una percepción",
+      "text": "sabe generar una percepción",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3262,
+      "expected": "de de una experiencia",
+      "text": "de de una experiencia",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3305,
+      "expected": "diferente, etcétera.",
+      "text": "diferente, etcétera.",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3346,
+      "expected": "¿somos los primeros",
+      "text": "¿somos los primeros",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3390,
+      "expected": "o nuestro producto realmente",
+      "text": "o nuestro producto realmente",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3462,
+      "expected": "sí ofrece una solución,",
+      "text": "sí ofrece una solución,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3543,
+      "expected": "sí ofrece",
+      "text": "sí ofrece",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3576,
+      "expected": "un valor real?",
+      "text": "un valor real?",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3623,
+      "expected": "si quieren más",
+      "text": "si quieren más",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3644,
+      "expected": "contenido como este,",
+      "text": "contenido como este,",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3675,
+      "expected": "por favor",
+      "text": "por favor",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3689,
+      "expected": "síganme y no",
+      "text": "síganme y no",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    },
+    {
+      "frame": 3709,
+      "expected": "olviden compartirlo. ¿Okey?",
+      "text": "olviden compartirlo. ¿Okey?",
+      "count": 1,
+      "opacity": "1",
+      "font": "Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "fontSize": "68px",
+      "background": "rgba(0, 0, 0, 0)",
+      "inSafeArea": true
+    }
+  ],
+  "playback": {
+    "passed": true,
+    "framesAdvanced": 193,
+    "readyRatio": 1,
+    "maxBufferingMs": 0,
+    "samples": [
+      {
+        "wallMs": 440464.59999999776,
+        "frame": 240,
+        "range": "1.1",
+        "time": 10.253735,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 440616,
+        "frame": 245,
+        "range": "1.1",
+        "time": 10.405178,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 440768.59999999776,
+        "frame": 250,
+        "range": "1.2",
+        "time": 10.956046,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 440924.59999999776,
+        "frame": 254,
+        "range": "1.2",
+        "time": 11.096937,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 441088.09999999776,
+        "frame": 259,
+        "range": "2.1",
+        "time": 21.048383,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 441239,
+        "frame": 264,
+        "range": "2.1",
+        "time": 21.199376,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 441390.3999999985,
+        "frame": 268,
+        "range": "2.1",
+        "time": 21.35073,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 441541.8999999985,
+        "frame": 273,
+        "range": "2.1",
+        "time": 21.502178,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 441699.5,
+        "frame": 278,
+        "range": "2.1",
+        "time": 21.659781,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 441855.59999999776,
+        "frame": 282,
+        "range": "2.1",
+        "time": 21.815938,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442006.8999999985,
+        "frame": 286,
+        "range": "2.1",
+        "time": 21.967192,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442157.30000000075,
+        "frame": 291,
+        "range": "2.1",
+        "time": 22.11771,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442307.80000000075,
+        "frame": 295,
+        "range": "2.1",
+        "time": 22.268231,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442458.5,
+        "frame": 300,
+        "range": "2.1",
+        "time": 22.418903,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442621.19999999925,
+        "frame": 305,
+        "range": "2.1",
+        "time": 22.581627,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442772.5,
+        "frame": 310,
+        "range": "2.1",
+        "time": 22.732901,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 442924.19999999925,
+        "frame": 314,
+        "range": "2.1",
+        "time": 22.88455,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 443116.69999999925,
+        "frame": 318,
+        "range": "2.1",
+        "time": 23.076952,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 443329.8999999985,
+        "frame": 324,
+        "range": "2.1",
+        "time": 23.290308,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 443529.80000000075,
+        "frame": 330,
+        "range": "2.1",
+        "time": 23.490337,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 443704,
+        "frame": 335,
+        "range": "2.1",
+        "time": 23.664344,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 443855.5,
+        "frame": 340,
+        "range": "2.1",
+        "time": 23.815838,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 444008.5,
+        "frame": 345,
+        "range": "2.1",
+        "time": 23.968835,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 444158.8999999985,
+        "frame": 349,
+        "range": "2.1",
+        "time": 24.119272,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 444323.3999999985,
+        "frame": 354,
+        "range": "2.1",
+        "time": 24.283749,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 444475.19999999925,
+        "frame": 355,
+        "range": "2.1",
+        "time": 24.435572,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 444626.19999999925,
+        "frame": 362,
+        "range": "2.1",
+        "time": 24.586507,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 444779.80000000075,
+        "frame": 368,
+        "range": "2.1",
+        "time": 24.74011,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 445000.09999999776,
+        "frame": 373,
+        "range": "2.1",
+        "time": 24.96046,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 445159.5,
+        "frame": 379,
+        "range": "2.1",
+        "time": 25.11987,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 445368.09999999776,
+        "frame": 384,
+        "range": "2.1",
+        "time": 25.328423,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 445580.3999999985,
+        "frame": 391,
+        "range": "2.1",
+        "time": 25.540797,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 445775.3999999985,
+        "frame": 396,
+        "range": "2.1",
+        "time": 25.735756,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 445941,
+        "frame": 402,
+        "range": "2.1",
+        "time": 25.901383,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 446096.09999999776,
+        "frame": 406,
+        "range": "2.1",
+        "time": 26.056408,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 446257.09999999776,
+        "frame": 411,
+        "range": "2.1",
+        "time": 26.217424,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 446409.5,
+        "frame": 415,
+        "range": "2.1",
+        "time": 26.3699,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 446579.19999999925,
+        "frame": 421,
+        "range": "2.2",
+        "time": 26.61619,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 446730.5,
+        "frame": 425,
+        "range": "2.2",
+        "time": 26.767503,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 446881.09999999776,
+        "frame": 430,
+        "range": "2.2",
+        "time": 26.918066,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "wallMs": 447032.59999999776,
+        "frame": 433,
+        "range": "2.2",
+        "time": 27.069632,
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "criteria": "6s trusted playback; >=135 frames advanced; >=90% samples decoded; no buffering streak >600ms; no media errors"
+  },
+  "exportAvailable": true,
+  "url": "http://localhost:3000/Video001",
+  "renderedFinal": false,
+  "captionTiming": "Editorial subdivisions; not forced alignment. Visual verification only, not auditory approval."
+}

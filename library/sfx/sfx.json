@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "descripcion": "Sonidos y reglas para efectos de sonido sincronizados con la edición. Solo entran sonidos con licencia declarada CC0 leída en su ficha. Los archivos se descargan a public/sfx con `node library/sfx/fetch-sfx.mjs` (CC0: se pueden versionar una vez descargados).",
+  "carpeta_publica": "public/sfx",
+  "leida_el": "2026-10-03",
+  "sonidos": [
+    {
+      "id": "whoosh",
+      "archivo": "public/sfx/whoosh.wav",
+      "url": "https://remotion.media/whoosh.wav",
+      "autor": "1bob (freesound.org/s/831936)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/whoosh",
+      "volumen": 0.45,
+      "uso": "Transición grande, entrada o salida de un panel."
+    },
+    {
+      "id": "whip",
+      "archivo": "public/sfx/whip.wav",
+      "url": "https://remotion.media/whip.wav",
+      "autor": "JW_Audio (freesound.org/s/838766)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/whip",
+      "volumen": 0.45,
+      "uso": "Corte seco entre planos (0,17 s)."
+    },
+    {
+      "id": "ui-switch",
+      "archivo": "public/sfx/switch.wav",
+      "url": "https://remotion.media/switch.wav",
+      "autor": "Kenney (UI Audio, Switch 35)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/ui-switch",
+      "volumen": 0.5,
+      "uso": "Aparece una tarjeta de interfaz o cambia un interruptor."
+    },
+    {
+      "id": "page-turn",
+      "archivo": "public/sfx/page-turn.wav",
+      "url": "https://remotion.media/page-turn.wav",
+      "autor": "Kenney (Draw Knife 1)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/page-turn",
+      "volumen": 0.45,
+      "uso": "Cambio de pantalla o de sección (0,40 s)."
+    },
+    {
+      "id": "mouse-click",
+      "archivo": "public/sfx/mouse-click.wav",
+      "url": "https://remotion.media/mouse-click.wav",
+      "autor": "Pixeliota (freesound.org/s/678248)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/mouse-click",
+      "volumen": 0.5,
+      "uso": "Clic o botón: cuando se dice «comenta» o se pulsa un CTA (0,40 s)."
+    },
+    {
+      "id": "shutter-modern",
+      "archivo": "public/sfx/shutter-modern.wav",
+      "url": "https://remotion.media/shutter-modern.wav",
+      "autor": "ristooooo1 (DSLR Shutter fast 006)",
+      "licencia": "CC0",
+      "licencia_fuente": "https://www.remotion.dev/docs/sfx/shutter-modern",
+      "volumen": 0.45,
+      "uso": "Captura de pantalla o foto (0,49 s)."
+    }
+  ],
+  "excluidos": [
+    {
+      "ids": [
+        "ding",
+        "record-scratch"
+      ],
+      "motivo": "Remotion indica que no están publicados con licencia libre explícita («probablemente OK por su uso extendido»). No usar en trabajo de clientes sin revisar."
+    },
+    {
+      "ids": [
+        "snapchat-notification",
+        "windows-xp-error",
+        "minecraft-hurt",
+        "sanctuary-guardian-what",
+        "price-is-right-fail",
+        "spongebob-fail",
+        "wilhelm-scream",
+        "vine-boom",
+        "bruh",
+        "fah",
+        "omg-hell-nah",
+        "romance-meme",
+        "bone-crack",
+        "anime-wow",
+        "yippee",
+        "loading-lag",
+        "mac-quack",
+        "skedaddle",
+        "nelly-ahh",
+        "oh-my-god-vine",
+        "illuminati-confirmed",
+        "dramatic-boomer",
+        "triggered"
+      ],
+      "motivo": "Sonidos de marcas, juegos o memes. Licencia sin revisar y tono ajeno a la marca. No se incluyen."
+    }
+  ],
+  "pendientes": [
+    {
+      "id": "impact",
+      "necesidad": "Golpe grave para una cifra o palabra clave (REF-2)."
+    },
+    {
+      "id": "pop-ui",
+      "necesidad": "Entrada corta de tarjeta, más suave que ui-switch."
+    },
+    {
+      "id": "tick-contador",
+      "necesidad": "Tic para contadores numéricos."
+    },
+    {
+      "id": "riser",
+      "necesidad": "Subida corta antes de una revelación."
+    },
+    {
+      "id": "caja",
+      "necesidad": "Ventas o dinero."
+    },
+    {
+      "id": "tecleo",
+      "necesidad": "Escritura en un campo de texto."
+    }
+  ],
+  "reglas": [
+    {
+      "evento": "corte",
+      "sonido": "whip",
+      "adelanto_frames": 2
+    },
+    {
+      "evento": "transicion",
+      "sonido": "whoosh",
+      "adelanto_frames": 4
+    },
+    {
+      "evento": "tarjeta",
+      "sonido": "ui-switch",
+      "adelanto_frames": 0
+    },
+    {
+      "evento": "seccion",
+      "sonido": "page-turn",
+      "adelanto_frames": 3
+    },
+    {
+      "palabras": [
+        "comenta",
+        "comentar",
+        "comentame",
+        "clic",
+        "click",
+        "boton",
+        "pulsa",
+        "toca"
+      ],
+      "sonido": "mouse-click",
+      "adelanto_frames": 0
+    },
+    {
+      "palabras": [
+        "foto",
+        "captura",
+        "pantallazo",
+        "screenshot"
+      ],
+      "sonido": "shutter-modern",
+      "adelanto_frames": 0
+    }
+  ],
+  "limites": {
+    "separacion_min_frames": 8,
+    "separacion_min_mismo_sonido_frames": 24
+  },
+  "nota": "Los volúmenes son un punto de partida (la voz debe seguir mandando). Se ajustan escuchando con la voz ya limpia.",
+  "sintetizados": [
+    {
+      "id": "zp-pop",
+      "archivo": "public/sfx/zp-pop.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.51,
+      "volumen": 0.24,
+      "uso": "Aparece una tarjeta u objeto (suave, redondo)."
+    },
+    {
+      "id": "zp-pop-hi",
+      "archivo": "public/sfx/zp-pop-hi.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.47,
+      "volumen": 0.2,
+      "uso": "Aparece un elemento pequeño: etiqueta, año, chip."
+    },
+    {
+      "id": "zp-tick",
+      "archivo": "public/sfx/zp-tick.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.05,
+      "volumen": 0.16,
+      "uso": "Movimiento mínimo: un ajuste, un paso de aguja."
+    },
+    {
+      "id": "zp-tap",
+      "archivo": "public/sfx/zp-tap.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.47,
+      "volumen": 0.26,
+      "uso": "Se apoya un bloque, un cubo o una tabla (madera)."
+    },
+    {
+      "id": "zp-swish",
+      "archivo": "public/sfx/zp-swish.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.3,
+      "volumen": 0.2,
+      "uso": "Algo se desliza o entra de lado."
+    },
+    {
+      "id": "zp-swish-up",
+      "archivo": "public/sfx/zp-swish-up.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.36,
+      "volumen": 0.2,
+      "uso": "Algo sale hacia arriba o se retira (cargador, auriculares)."
+    },
+    {
+      "id": "zp-rise",
+      "archivo": "public/sfx/zp-rise.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.85,
+      "volumen": 0.18,
+      "uso": "Subir: crecer, ponerse por encima («arriba»)."
+    },
+    {
+      "id": "zp-drop",
+      "archivo": "public/sfx/zp-drop.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.34,
+      "volumen": 0.17,
+      "uso": "Caer o perder peso (se apaga, se derrumba)."
+    },
+    {
+      "id": "zp-thud",
+      "archivo": "public/sfx/zp-thud.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.65,
+      "volumen": 0.32,
+      "uso": "Peso que aterriza o se vence (balanza, pared)."
+    },
+    {
+      "id": "zp-chime",
+      "archivo": "public/sfx/zp-chime.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 1.5,
+      "volumen": 0.18,
+      "uso": "Valor, logro, algo positivo (gema, medalla, confianza)."
+    },
+    {
+      "id": "zp-sparkle",
+      "archivo": "public/sfx/zp-sparkle.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.8,
+      "volumen": 0.15,
+      "uso": "Brillo, llegada, estrella."
+    },
+    {
+      "id": "zp-snap",
+      "archivo": "public/sfx/zp-snap.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.1,
+      "volumen": 0.28,
+      "uso": "Encaja en su sitio (pieza de puzle)."
+    },
+    {
+      "id": "zp-unplug",
+      "archivo": "public/sfx/zp-unplug.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.51,
+      "volumen": 0.26,
+      "uso": "Desconectar un cable, desaparece un conector."
+    },
+    {
+      "id": "zp-clunk",
+      "archivo": "public/sfx/zp-clunk.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.53,
+      "volumen": 0.28,
+      "uso": "Pieza mecánica que sale (batería)."
+    },
+    {
+      "id": "zp-marker",
+      "archivo": "public/sfx/zp-marker.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.28,
+      "volumen": 0.16,
+      "uso": "Rotulador que subraya o resalta texto."
+    },
+    {
+      "id": "zp-stamp",
+      "archivo": "public/sfx/zp-stamp.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.59,
+      "volumen": 0.3,
+      "uso": "Sello: algo queda marcado como igual o copiado."
+    },
+    {
+      "id": "zp-alert",
+      "archivo": "public/sfx/zp-alert.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.67,
+      "volumen": 0.17,
+      "uso": "Punto crítico o problema (dos tonos que bajan)."
+    },
+    {
+      "id": "zp-tock",
+      "archivo": "public/sfx/zp-tock.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.77,
+      "volumen": 0.22,
+      "uso": "Tiempo: tic-tac."
+    },
+    {
+      "id": "zp-step",
+      "archivo": "public/sfx/zp-step.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.09,
+      "volumen": 0.14,
+      "uso": "Paso suave (alguien avanza)."
+    },
+    {
+      "id": "zp-text",
+      "archivo": "public/sfx/zp-text.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.3,
+      "volumen": 0.2,
+      "uso": "Entra un texto grande destacado."
+    },
+    {
+      "id": "zp-confirm",
+      "archivo": "public/sfx/zp-confirm.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.77,
+      "volumen": 0.18,
+      "uso": "Confirmación: ok, check, decisión correcta."
+    },
+    {
+      "id": "zp-assemble",
+      "archivo": "public/sfx/zp-assemble.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.6,
+      "volumen": 0.18,
+      "uso": "Piezas que ensamblan (varios clics mecánicos)."
+    },
+    {
+      "id": "zp-keys",
+      "archivo": "public/sfx/zp-keys.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.62,
+      "volumen": 0.16,
+      "uso": "Ráfaga breve de teclado: se escribe un texto en un campo."
+    },
+    {
+      "id": "zp-pulse",
+      "archivo": "public/sfx/zp-pulse.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.65,
+      "volumen": 0.2,
+      "uso": "Se activa un concepto o una tarjeta (pulso suave)."
+    },
+    {
+      "id": "zp-notify",
+      "archivo": "public/sfx/zp-notify.wav",
+      "generador": "library/sfx/synth-sfx.mjs",
+      "licencia": "propia (síntesis en el repo, sin material de terceros)",
+      "duracion_s": 0.65,
+      "volumen": 0.14,
+      "uso": "Notificación de teléfono (dos notas cortas y suaves)."
+    }
+  ]
+}

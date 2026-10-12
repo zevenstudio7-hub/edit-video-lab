@@ -1,0 +1,1215 @@
+{
+  "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+  "durationSeconds": 52.611,
+  "method": {
+    "frameSeconds": 0.01,
+    "noiseFloorDb": -40.8,
+    "thresholdDb": -34.8,
+    "minPauseSeconds": 0.15,
+    "phrasePauseSeconds": 0.3,
+    "transcription": "whisper.cpp 1.7.2, large-v3-turbo, -ac 640, --dtw large.v3.turbo, es, una transcripción por frase",
+    "note": "Islas y frases medidas por RMS. Texto por frase transcrito de forma aislada. Reparto de palabras dentro de cada isla proporcional a su longitud: no es alineación fonética.",
+    "seconds": 100
+  },
+  "phrases": [
+    {
+      "id": 0,
+      "start": 0.91,
+      "end": 7.47,
+      "islands": [
+        0,
+        1
+      ],
+      "text": "Aquí es donde se pone interesante porque al parecer Samsung su prioridad es ser los primeros aquí básicamente.",
+      "meanP": 0.85,
+      "suspect": false,
+      "pauseBefore": 0.91
+    },
+    {
+      "id": 1,
+      "start": 7.9,
+      "end": 10.47,
+      "islands": [
+        2,
+        3
+      ],
+      "text": "Lo hemos notado, pero para Apple,",
+      "meanP": 0.78,
+      "suspect": false,
+      "pauseBefore": 0.43
+    },
+    {
+      "id": 2,
+      "start": 10.78,
+      "end": 16.4,
+      "islands": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "text": "Al parecer la prioridad no es ser históricamente lo primero, sino llegar después, llegar.",
+      "meanP": 0.89,
+      "suspect": false,
+      "pauseBefore": 0.31
+    },
+    {
+      "id": 3,
+      "start": 16.86,
+      "end": 20.07,
+      "islands": [
+        8,
+        9,
+        10
+      ],
+      "text": "para vender otra idea diferente, asi que no importa.",
+      "meanP": 0.65,
+      "suspect": false,
+      "pauseBefore": 0.46
+    },
+    {
+      "id": 4,
+      "start": 23.75,
+      "end": 25.86,
+      "islands": [
+        11
+      ],
+      "text": "Al parecer Apple no le importa",
+      "meanP": 0.84,
+      "suspect": false,
+      "pauseBefore": 3.68
+    },
+    {
+      "id": 5,
+      "start": 26.2,
+      "end": 26.98,
+      "islands": [
+        12
+      ],
+      "text": "¿Quién llegó primero?",
+      "meanP": 0.91,
+      "suspect": false,
+      "pauseBefore": 0.34
+    },
+    {
+      "id": 6,
+      "start": 27.35,
+      "end": 28.67,
+      "islands": [
+        13
+      ],
+      "text": "Me mantenga más bien.",
+      "meanP": 0.66,
+      "suspect": false,
+      "pauseBefore": 0.37
+    },
+    {
+      "id": 7,
+      "start": 29.48,
+      "end": 31.94,
+      "islands": [
+        14,
+        15
+      ],
+      "text": "Es decir, mira como lo hacemos nosotros.",
+      "meanP": 0.75,
+      "suspect": false,
+      "pauseBefore": 0.81
+    },
+    {
+      "id": 8,
+      "start": 32.25,
+      "end": 33.88,
+      "islands": [
+        16
+      ],
+      "text": "Fijandón, cujo.",
+      "meanP": 0.81,
+      "suspect": false,
+      "pauseBefore": 0.31
+    },
+    {
+      "id": 9,
+      "start": 34.21,
+      "end": 34.28,
+      "islands": [
+        17
+      ],
+      "text": "",
+      "meanP": 0,
+      "suspect": true,
+      "pauseBefore": 0.33
+    },
+    {
+      "id": 10,
+      "start": 38.18,
+      "end": 43.66,
+      "islands": [
+        18,
+        19,
+        20
+      ],
+      "text": "Fijandonos incluso la forma en que presenta el dúo es la forma más aterradora.",
+      "meanP": 0.83,
+      "suspect": false,
+      "pauseBefore": 3.9
+    },
+    {
+      "id": 11,
+      "start": 44.06,
+      "end": 47.62,
+      "islands": [
+        21
+      ],
+      "text": "Para cualquier otra marca, marcando posición, marcando terreno.",
+      "meanP": 0.83,
+      "suspect": false,
+      "pauseBefore": 0.4
+    },
+    {
+      "id": 12,
+      "start": 48.04,
+      "end": 50.38,
+      "islands": [
+        22
+      ],
+      "text": "Y muchos estaban seleccionados por ser los primeros.",
+      "meanP": 0.82,
+      "suspect": false,
+      "pauseBefore": 0.42
+    }
+  ],
+  "islands": [
+    {
+      "id": 0,
+      "start": 0.91,
+      "end": 5.71,
+      "text": "Aquí es donde se pone interesante porque al parecer Samsung su prioridad es ser los primeros"
+    },
+    {
+      "id": 1,
+      "start": 5.94,
+      "end": 7.47,
+      "text": "aquí básicamente."
+    },
+    {
+      "id": 2,
+      "start": 7.9,
+      "end": 8.22,
+      "text": "Lo"
+    },
+    {
+      "id": 3,
+      "start": 8.42,
+      "end": 10.47,
+      "text": "hemos notado, pero para Apple,"
+    },
+    {
+      "id": 4,
+      "start": 10.78,
+      "end": 12.5,
+      "text": "Al parecer la prioridad no es ser"
+    },
+    {
+      "id": 5,
+      "start": 12.67,
+      "end": 14.18,
+      "text": "históricamente lo primero, sino"
+    },
+    {
+      "id": 6,
+      "start": 14.35,
+      "end": 15.56,
+      "text": "llegar después,"
+    },
+    {
+      "id": 7,
+      "start": 15.71,
+      "end": 16.4,
+      "text": "llegar."
+    },
+    {
+      "id": 8,
+      "start": 16.86,
+      "end": 17.51,
+      "text": "para vender"
+    },
+    {
+      "id": 9,
+      "start": 17.73,
+      "end": 18.77,
+      "text": "otra idea diferente, asi"
+    },
+    {
+      "id": 10,
+      "start": 18.98,
+      "end": 20.07,
+      "text": "que no importa."
+    },
+    {
+      "id": 11,
+      "start": 23.75,
+      "end": 25.86,
+      "text": "Al parecer Apple no le importa"
+    },
+    {
+      "id": 12,
+      "start": 26.2,
+      "end": 26.98,
+      "text": "¿Quién llegó primero?"
+    },
+    {
+      "id": 13,
+      "start": 27.35,
+      "end": 28.67,
+      "text": "Me mantenga más bien."
+    },
+    {
+      "id": 14,
+      "start": 29.48,
+      "end": 31.71,
+      "text": "Es decir, mira como lo hacemos nosotros."
+    },
+    {
+      "id": 15,
+      "start": 31.86,
+      "end": 31.94,
+      "text": ""
+    },
+    {
+      "id": 16,
+      "start": 32.25,
+      "end": 33.88,
+      "text": "Fijandón, cujo."
+    },
+    {
+      "id": 17,
+      "start": 34.21,
+      "end": 34.28,
+      "text": ""
+    },
+    {
+      "id": 18,
+      "start": 38.18,
+      "end": 41.57,
+      "text": "Fijandonos incluso la forma en que presenta el dúo es"
+    },
+    {
+      "id": 19,
+      "start": 41.87,
+      "end": 42.89,
+      "text": "la forma más"
+    },
+    {
+      "id": 20,
+      "start": 43.07,
+      "end": 43.66,
+      "text": "aterradora."
+    },
+    {
+      "id": 21,
+      "start": 44.06,
+      "end": 47.62,
+      "text": "Para cualquier otra marca, marcando posición, marcando terreno."
+    },
+    {
+      "id": 22,
+      "start": 48.04,
+      "end": 50.38,
+      "text": "Y muchos estaban seleccionados por ser los primeros."
+    }
+  ],
+  "words": [
+    {
+      "text": "Aquí",
+      "anchor": 0.95,
+      "p": 0.528,
+      "island": 0,
+      "phrase": 0,
+      "start": 0.91,
+      "end": 1.159
+    },
+    {
+      "text": "es",
+      "anchor": 1.07,
+      "p": 0.867,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.159,
+      "end": 1.284
+    },
+    {
+      "text": "donde",
+      "anchor": 1.17,
+      "p": 0.963,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.284,
+      "end": 1.596
+    },
+    {
+      "text": "se",
+      "anchor": 1.39,
+      "p": 0.964,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.596,
+      "end": 1.72
+    },
+    {
+      "text": "pone",
+      "anchor": 1.55,
+      "p": 0.9,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.72,
+      "end": 1.97
+    },
+    {
+      "text": "interesante",
+      "anchor": 1.93,
+      "p": 0.968,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.97,
+      "end": 2.655
+    },
+    {
+      "text": "porque",
+      "anchor": 2.43,
+      "p": 0.703,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.655,
+      "end": 3.029
+    },
+    {
+      "text": "al",
+      "anchor": 2.63,
+      "p": 0.666,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.029,
+      "end": 3.154
+    },
+    {
+      "text": "parecer",
+      "anchor": 2.93,
+      "p": 0.993,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.154,
+      "end": 3.591
+    },
+    {
+      "text": "Samsung",
+      "anchor": 3.37,
+      "p": 0.937,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.591,
+      "end": 4.027
+    },
+    {
+      "text": "su",
+      "anchor": 3.91,
+      "p": 0.81,
+      "island": 0,
+      "phrase": 0,
+      "start": 4.027,
+      "end": 4.152
+    },
+    {
+      "text": "prioridad",
+      "anchor": 4.57,
+      "p": 0.978,
+      "island": 0,
+      "phrase": 0,
+      "start": 4.152,
+      "end": 4.713
+    },
+    {
+      "text": "es",
+      "anchor": 4.75,
+      "p": 0.986,
+      "island": 0,
+      "phrase": 0,
+      "start": 4.713,
+      "end": 4.837
+    },
+    {
+      "text": "ser",
+      "anchor": 4.95,
+      "p": 0.969,
+      "island": 0,
+      "phrase": 0,
+      "start": 4.837,
+      "end": 5.024
+    },
+    {
+      "text": "los",
+      "anchor": 5.13,
+      "p": 0.804,
+      "island": 0,
+      "phrase": 0,
+      "start": 5.024,
+      "end": 5.211
+    },
+    {
+      "text": "primeros",
+      "anchor": 5.63,
+      "p": 0.945,
+      "island": 0,
+      "phrase": 0,
+      "start": 5.211,
+      "end": 5.71
+    },
+    {
+      "text": "aquí",
+      "anchor": 6.17,
+      "p": 0.425,
+      "island": 1,
+      "phrase": 0,
+      "start": 5.94,
+      "end": 6.348
+    },
+    {
+      "text": "básicamente.",
+      "anchor": 7.01,
+      "p": 0.532,
+      "island": 1,
+      "phrase": 0,
+      "start": 6.348,
+      "end": 7.47
+    },
+    {
+      "text": "Lo",
+      "anchor": 8.5,
+      "p": 0.264,
+      "island": 2,
+      "phrase": 1,
+      "start": 7.9,
+      "end": 8.22
+    },
+    {
+      "text": "hemos",
+      "anchor": 8.72,
+      "p": 0.985,
+      "island": 3,
+      "phrase": 1,
+      "start": 8.42,
+      "end": 8.847
+    },
+    {
+      "text": "notado,",
+      "anchor": 9.18,
+      "p": 0.439,
+      "island": 3,
+      "phrase": 1,
+      "start": 8.847,
+      "end": 9.36
+    },
+    {
+      "text": "pero",
+      "anchor": 9.46,
+      "p": 0.988,
+      "island": 3,
+      "phrase": 1,
+      "start": 9.36,
+      "end": 9.701
+    },
+    {
+      "text": "para",
+      "anchor": 9.98,
+      "p": 0.913,
+      "island": 3,
+      "phrase": 1,
+      "start": 9.701,
+      "end": 10.043
+    },
+    {
+      "text": "Apple,",
+      "anchor": 10.32,
+      "p": 0.446,
+      "island": 3,
+      "phrase": 1,
+      "start": 10.043,
+      "end": 10.47
+    },
+    {
+      "text": "Al",
+      "anchor": 10.88,
+      "p": 0.744,
+      "island": 4,
+      "phrase": 2,
+      "start": 10.78,
+      "end": 10.907
+    },
+    {
+      "text": "parecer",
+      "anchor": 11.2,
+      "p": 0.979,
+      "island": 4,
+      "phrase": 2,
+      "start": 10.907,
+      "end": 11.353
+    },
+    {
+      "text": "la",
+      "anchor": 11.5,
+      "p": 0.739,
+      "island": 4,
+      "phrase": 2,
+      "start": 11.353,
+      "end": 11.481
+    },
+    {
+      "text": "prioridad",
+      "anchor": 12.04,
+      "p": 0.996,
+      "island": 4,
+      "phrase": 2,
+      "start": 11.481,
+      "end": 12.054
+    },
+    {
+      "text": "no",
+      "anchor": 12.3,
+      "p": 0.953,
+      "island": 4,
+      "phrase": 2,
+      "start": 12.054,
+      "end": 12.181
+    },
+    {
+      "text": "es",
+      "anchor": 12.52,
+      "p": 0.994,
+      "island": 4,
+      "phrase": 2,
+      "start": 12.181,
+      "end": 12.309
+    },
+    {
+      "text": "ser",
+      "anchor": 12.82,
+      "p": 0.917,
+      "island": 4,
+      "phrase": 2,
+      "start": 12.309,
+      "end": 12.5
+    },
+    {
+      "text": "históricamente",
+      "anchor": 13.52,
+      "p": 0.932,
+      "island": 5,
+      "phrase": 2,
+      "start": 12.67,
+      "end": 13.453
+    },
+    {
+      "text": "lo",
+      "anchor": 13.7,
+      "p": 0.862,
+      "island": 5,
+      "phrase": 2,
+      "start": 13.453,
+      "end": 13.565
+    },
+    {
+      "text": "primero,",
+      "anchor": 14.02,
+      "p": 0.545,
+      "island": 5,
+      "phrase": 2,
+      "start": 13.565,
+      "end": 13.956
+    },
+    {
+      "text": "sino",
+      "anchor": 14.52,
+      "p": 0.932,
+      "island": 5,
+      "phrase": 2,
+      "start": 13.956,
+      "end": 14.18
+    },
+    {
+      "text": "llegar",
+      "anchor": 15.1,
+      "p": 0.98,
+      "island": 6,
+      "phrase": 2,
+      "start": 14.35,
+      "end": 14.908
+    },
+    {
+      "text": "después,",
+      "anchor": 15.68,
+      "p": 0.856,
+      "island": 6,
+      "phrase": 2,
+      "start": 14.908,
+      "end": 15.56
+    },
+    {
+      "text": "llegar.",
+      "anchor": 16.32,
+      "p": 0.492,
+      "island": 7,
+      "phrase": 2,
+      "start": 15.71,
+      "end": 16.4
+    },
+    {
+      "text": "para",
+      "anchor": 16.98,
+      "p": 0.239,
+      "island": 8,
+      "phrase": 3,
+      "start": 16.86,
+      "end": 17.12
+    },
+    {
+      "text": "vender",
+      "anchor": 17.38,
+      "p": 0.976,
+      "island": 8,
+      "phrase": 3,
+      "start": 17.12,
+      "end": 17.51
+    },
+    {
+      "text": "otra",
+      "anchor": 17.96,
+      "p": 0.694,
+      "island": 9,
+      "phrase": 3,
+      "start": 17.73,
+      "end": 17.938
+    },
+    {
+      "text": "idea",
+      "anchor": 18.24,
+      "p": 0.97,
+      "island": 9,
+      "phrase": 3,
+      "start": 17.938,
+      "end": 18.146
+    },
+    {
+      "text": "diferente,",
+      "anchor": 18.66,
+      "p": 0.172,
+      "island": 9,
+      "phrase": 3,
+      "start": 18.146,
+      "end": 18.614
+    },
+    {
+      "text": "asi",
+      "anchor": 19,
+      "p": 0.328,
+      "island": 9,
+      "phrase": 3,
+      "start": 18.614,
+      "end": 18.77
+    },
+    {
+      "text": "que",
+      "anchor": 19.16,
+      "p": 0.967,
+      "island": 10,
+      "phrase": 3,
+      "start": 18.98,
+      "end": 19.253
+    },
+    {
+      "text": "no",
+      "anchor": 19.44,
+      "p": 0.841,
+      "island": 10,
+      "phrase": 3,
+      "start": 19.253,
+      "end": 19.434
+    },
+    {
+      "text": "importa.",
+      "anchor": 19.9,
+      "p": 0.171,
+      "island": 10,
+      "phrase": 3,
+      "start": 19.434,
+      "end": 20.07
+    },
+    {
+      "text": "Al",
+      "anchor": 23.89,
+      "p": 0.373,
+      "island": 11,
+      "phrase": 4,
+      "start": 23.75,
+      "end": 23.919
+    },
+    {
+      "text": "parecer",
+      "anchor": 24.21,
+      "p": 0.986,
+      "island": 11,
+      "phrase": 4,
+      "start": 23.919,
+      "end": 24.51
+    },
+    {
+      "text": "Apple",
+      "anchor": 24.51,
+      "p": 0.956,
+      "island": 11,
+      "phrase": 4,
+      "start": 24.51,
+      "end": 24.932
+    },
+    {
+      "text": "no",
+      "anchor": 24.89,
+      "p": 0.798,
+      "island": 11,
+      "phrase": 4,
+      "start": 24.932,
+      "end": 25.1
+    },
+    {
+      "text": "le",
+      "anchor": 25.03,
+      "p": 0.93,
+      "island": 11,
+      "phrase": 4,
+      "start": 25.1,
+      "end": 25.269
+    },
+    {
+      "text": "importa",
+      "anchor": 25.39,
+      "p": 0.99,
+      "island": 11,
+      "phrase": 4,
+      "start": 25.269,
+      "end": 25.86
+    },
+    {
+      "text": "¿Quién",
+      "anchor": 26.3,
+      "p": 0.586,
+      "island": 12,
+      "phrase": 5,
+      "start": 26.2,
+      "end": 26.429
+    },
+    {
+      "text": "llegó",
+      "anchor": 26.48,
+      "p": 0.903,
+      "island": 12,
+      "phrase": 5,
+      "start": 26.429,
+      "end": 26.659
+    },
+    {
+      "text": "primero?",
+      "anchor": 26.82,
+      "p": 0.978,
+      "island": 12,
+      "phrase": 5,
+      "start": 26.659,
+      "end": 26.98
+    },
+    {
+      "text": "Me",
+      "anchor": 27.53,
+      "p": 0.1,
+      "island": 13,
+      "phrase": 6,
+      "start": 27.35,
+      "end": 27.505
+    },
+    {
+      "text": "mantenga",
+      "anchor": 27.81,
+      "p": 0.484,
+      "island": 13,
+      "phrase": 6,
+      "start": 27.505,
+      "end": 28.126
+    },
+    {
+      "text": "más",
+      "anchor": 27.99,
+      "p": 0.933,
+      "island": 13,
+      "phrase": 6,
+      "start": 28.126,
+      "end": 28.359
+    },
+    {
+      "text": "bien.",
+      "anchor": 28.27,
+      "p": 0.634,
+      "island": 13,
+      "phrase": 6,
+      "start": 28.359,
+      "end": 28.67
+    },
+    {
+      "text": "Es",
+      "anchor": 29.76,
+      "p": 0.303,
+      "island": 14,
+      "phrase": 7,
+      "start": 29.48,
+      "end": 29.619
+    },
+    {
+      "text": "decir,",
+      "anchor": 29.94,
+      "p": 0.571,
+      "island": 14,
+      "phrase": 7,
+      "start": 29.619,
+      "end": 29.968
+    },
+    {
+      "text": "mira",
+      "anchor": 30.42,
+      "p": 0.454,
+      "island": 14,
+      "phrase": 7,
+      "start": 29.968,
+      "end": 30.247
+    },
+    {
+      "text": "como",
+      "anchor": 30.78,
+      "p": 0.704,
+      "island": 14,
+      "phrase": 7,
+      "start": 30.247,
+      "end": 30.525
+    },
+    {
+      "text": "lo",
+      "anchor": 30.96,
+      "p": 0.937,
+      "island": 14,
+      "phrase": 7,
+      "start": 30.525,
+      "end": 30.665
+    },
+    {
+      "text": "hacemos",
+      "anchor": 31.2,
+      "p": 0.987,
+      "island": 14,
+      "phrase": 7,
+      "start": 30.665,
+      "end": 31.152
+    },
+    {
+      "text": "nosotros.",
+      "anchor": 31.66,
+      "p": 0.837,
+      "island": 14,
+      "phrase": 7,
+      "start": 31.152,
+      "end": 31.71
+    },
+    {
+      "text": "Fijandón,",
+      "anchor": 33.21,
+      "p": 0.434,
+      "island": 16,
+      "phrase": 8,
+      "start": 32.25,
+      "end": 33.337
+    },
+    {
+      "text": "cujo.",
+      "anchor": 33.59,
+      "p": 0.817,
+      "island": 16,
+      "phrase": 8,
+      "start": 33.337,
+      "end": 33.88
+    },
+    {
+      "text": "Fijandonos",
+      "anchor": 38.64,
+      "p": 0.268,
+      "island": 18,
+      "phrase": 10,
+      "start": 38.18,
+      "end": 38.95
+    },
+    {
+      "text": "incluso",
+      "anchor": 39.04,
+      "p": 0.854,
+      "island": 18,
+      "phrase": 10,
+      "start": 38.95,
+      "end": 39.49
+    },
+    {
+      "text": "la",
+      "anchor": 39.5,
+      "p": 0.805,
+      "island": 18,
+      "phrase": 10,
+      "start": 39.49,
+      "end": 39.644
+    },
+    {
+      "text": "forma",
+      "anchor": 39.78,
+      "p": 0.991,
+      "island": 18,
+      "phrase": 10,
+      "start": 39.644,
+      "end": 40.029
+    },
+    {
+      "text": "en",
+      "anchor": 39.96,
+      "p": 0.915,
+      "island": 18,
+      "phrase": 10,
+      "start": 40.029,
+      "end": 40.183
+    },
+    {
+      "text": "que",
+      "anchor": 40.04,
+      "p": 0.965,
+      "island": 18,
+      "phrase": 10,
+      "start": 40.183,
+      "end": 40.414
+    },
+    {
+      "text": "presenta",
+      "anchor": 40.56,
+      "p": 0.981,
+      "island": 18,
+      "phrase": 10,
+      "start": 40.414,
+      "end": 41.031
+    },
+    {
+      "text": "el",
+      "anchor": 40.72,
+      "p": 0.966,
+      "island": 18,
+      "phrase": 10,
+      "start": 41.031,
+      "end": 41.185
+    },
+    {
+      "text": "dúo",
+      "anchor": 41.12,
+      "p": 0.792,
+      "island": 18,
+      "phrase": 10,
+      "start": 41.185,
+      "end": 41.416
+    },
+    {
+      "text": "es",
+      "anchor": 41.62,
+      "p": 0.667,
+      "island": 18,
+      "phrase": 10,
+      "start": 41.416,
+      "end": 41.57
+    },
+    {
+      "text": "la",
+      "anchor": 42.08,
+      "p": 0.972,
+      "island": 19,
+      "phrase": 10,
+      "start": 41.87,
+      "end": 42.074
+    },
+    {
+      "text": "forma",
+      "anchor": 42.42,
+      "p": 0.99,
+      "island": 19,
+      "phrase": 10,
+      "start": 42.074,
+      "end": 42.584
+    },
+    {
+      "text": "más",
+      "anchor": 42.92,
+      "p": 0.764,
+      "island": 19,
+      "phrase": 10,
+      "start": 42.584,
+      "end": 42.89
+    },
+    {
+      "text": "aterradora.",
+      "anchor": 43.52,
+      "p": 0.247,
+      "island": 20,
+      "phrase": 10,
+      "start": 43.07,
+      "end": 43.66
+    },
+    {
+      "text": "Para",
+      "anchor": 44.14,
+      "p": 0.361,
+      "island": 21,
+      "phrase": 11,
+      "start": 44.06,
+      "end": 44.329
+    },
+    {
+      "text": "cualquier",
+      "anchor": 44.44,
+      "p": 0.875,
+      "island": 21,
+      "phrase": 11,
+      "start": 44.329,
+      "end": 44.933
+    },
+    {
+      "text": "otra",
+      "anchor": 44.7,
+      "p": 0.928,
+      "island": 21,
+      "phrase": 11,
+      "start": 44.933,
+      "end": 45.202
+    },
+    {
+      "text": "marca,",
+      "anchor": 45.08,
+      "p": 0.612,
+      "island": 21,
+      "phrase": 11,
+      "start": 45.202,
+      "end": 45.538
+    },
+    {
+      "text": "marcando",
+      "anchor": 45.88,
+      "p": 0.838,
+      "island": 21,
+      "phrase": 11,
+      "start": 45.538,
+      "end": 46.075
+    },
+    {
+      "text": "posición,",
+      "anchor": 46.32,
+      "p": 0.584,
+      "island": 21,
+      "phrase": 11,
+      "start": 46.075,
+      "end": 46.612
+    },
+    {
+      "text": "marcando",
+      "anchor": 46.98,
+      "p": 0.826,
+      "island": 21,
+      "phrase": 11,
+      "start": 46.612,
+      "end": 47.15
+    },
+    {
+      "text": "terreno.",
+      "anchor": 47.48,
+      "p": 0.744,
+      "island": 21,
+      "phrase": 11,
+      "start": 47.15,
+      "end": 47.62
+    },
+    {
+      "text": "Y",
+      "anchor": 48.16,
+      "p": 0.238,
+      "island": 22,
+      "phrase": 12,
+      "start": 48.04,
+      "end": 48.093
+    },
+    {
+      "text": "muchos",
+      "anchor": 48.56,
+      "p": 0.949,
+      "island": 22,
+      "phrase": 12,
+      "start": 48.093,
+      "end": 48.412
+    },
+    {
+      "text": "estaban",
+      "anchor": 48.92,
+      "p": 0.512,
+      "island": 22,
+      "phrase": 12,
+      "start": 48.412,
+      "end": 48.785
+    },
+    {
+      "text": "seleccionados",
+      "anchor": 49.42,
+      "p": 0.157,
+      "island": 22,
+      "phrase": 12,
+      "start": 48.785,
+      "end": 49.476
+    },
+    {
+      "text": "por",
+      "anchor": 49.62,
+      "p": 0.983,
+      "island": 22,
+      "phrase": 12,
+      "start": 49.476,
+      "end": 49.635
+    },
+    {
+      "text": "ser",
+      "anchor": 49.76,
+      "p": 0.986,
+      "island": 22,
+      "phrase": 12,
+      "start": 49.635,
+      "end": 49.795
+    },
+    {
+      "text": "los",
+      "anchor": 49.88,
+      "p": 0.99,
+      "island": 22,
+      "phrase": 12,
+      "start": 49.795,
+      "end": 49.955
+    },
+    {
+      "text": "primeros.",
+      "anchor": 50.36,
+      "p": 0.939,
+      "island": 22,
+      "phrase": 12,
+      "start": 49.955,
+      "end": 50.38
+    }
+  ]
+}

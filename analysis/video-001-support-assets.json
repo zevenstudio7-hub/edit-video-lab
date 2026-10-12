@@ -1,0 +1,202 @@
+{
+  "videoId": "VIDEO-001",
+  "createdAt": "2026-10-03T22:31:42.290Z",
+  "folder": "public/video-001/support",
+  "items": [
+    {
+      "id": "board-battery",
+      "file": "video-001/support/board-battery.png",
+      "origin": "grabacion-pantalla.mov (material del usuario)",
+      "time": 3,
+      "crop": [
+        579,
+        662,
+        216,
+        338
+      ],
+      "content": "Página de Apple «Servicio y reparación de la batería del iPhone»: iPhone 17 Pro Max, reparación de la batería 135 €, con flechas rojas del usuario."
+    },
+    {
+      "id": "board-duo",
+      "file": "video-001/support/board-duo.png",
+      "origin": "grabacion-pantalla.mov (material del usuario)",
+      "time": 27,
+      "crop": [
+        790,
+        535,
+        590,
+        505
+      ],
+      "content": "iPhone Duo abierto (color blanco estelar); coincide con la imagen oficial de Apple Newsroom del 9-9-2026."
+    },
+    {
+      "id": "board-2026",
+      "file": "video-001/support/board-2026.png",
+      "origin": "grabacion-pantalla.mov (material del usuario)",
+      "time": 380,
+      "crop": [
+        355,
+        182,
+        260,
+        90
+      ],
+      "content": "Etiqueta amarilla «2026» de la pizarra."
+    },
+    {
+      "id": "board-post",
+      "file": "video-001/support/board-post.png",
+      "origin": "grabacion-pantalla.mov (material del usuario)",
+      "time": 29.5,
+      "crop": [
+        1053,
+        476,
+        377,
+        160
+      ],
+      "content": "Post de @samsungmobilemx: «El mundo es de los que se atreven primero. Nosotros nos atrevimos hace 7 años», citando su post del 7-10-2019 sobre el Galaxy Fold."
+    },
+    {
+      "id": "board-fold",
+      "file": "video-001/support/board-fold.png",
+      "origin": "grabacion-pantalla.mov (material del usuario)",
+      "time": 380,
+      "crop": [
+        960,
+        630,
+        1062,
+        540
+      ],
+      "content": "Foto de un Samsung Galaxy Z Fold abierto en las manos (material de la pizarra, autor no identificado en la captura)."
+    },
+    {
+      "id": "commons-s5-battery",
+      "file": "video-001/support/commons-s5-battery.jpg",
+      "origin": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S5_mini_open.jpg",
+      "author": "Andreas Franzkowiak",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Andreas Franzkowiak / CC BY-SA 4.0 / Wikimedia Commons",
+      "content": "Galaxy S5 mini abierto: batería extraíble y tapa."
+    },
+    {
+      "id": "commons-galaxy-fold-2019",
+      "file": "video-001/support/commons-galaxy-fold-2019.jpg",
+      "origin": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Galaxy_Fold_-_1.jpg",
+      "author": "KKPCW",
+      "license": "CC BY-SA 4.0",
+      "attribution": "KKPCW / CC BY-SA 4.0 / Wikimedia Commons",
+      "content": "Galaxy Fold original (2019) en la mano."
+    },
+    {
+      "id": "commons-iphone-ports",
+      "file": "video-001/support/commons-iphone-ports.jpg",
+      "origin": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:IPhones_6,_7,_8,_SE2_black_-_bottom_view.jpg",
+      "author": "Thsdb",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Thsdb / CC BY-SA 4.0 / Wikimedia Commons",
+      "content": "Base de iPhone 6 (con conector de audífonos) sobre iPhone 7, 8 y SE (sin él)."
+    },
+    {
+      "id": "commons-headphone-adapter",
+      "file": "video-001/support/commons-headphone-adapter.jpg",
+      "origin": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_Lightning_to_3.5_mm_Headphone_Jack_Adapter.jpg",
+      "author": "Amin",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Amin / CC BY-SA 4.0 / Wikimedia Commons",
+      "content": "Adaptador Lightning a 3,5 mm de Apple."
+    },
+    {
+      "id": "web-wallhuggers-2014",
+      "file": "video-001/support/web-wallhuggers-2014.png",
+      "origin": "captura de página pública",
+      "url": "https://www.iphoneincanada.ca/news/galaxy-s5-ad-iphone-wall-huggers/",
+      "use": "cita breve del hecho comentado; no sustituye a la fuente",
+      "capturedAt": "2026-10-03T22:31:42.290Z",
+      "crop": [
+        1400,
+        940,
+        30,
+        930
+      ],
+      "content": "Titular «New Samsung Galaxy S5 Ad Slams iPhone Users as ‘Wall Huggers’» con fotograma del anuncio (2014)."
+    },
+    {
+      "id": "web-wallhuggers-airport-title",
+      "file": "video-001/support/web-wallhuggers-airport-title.png",
+      "origin": "captura de página pública",
+      "url": "https://www.macrumors.com/2014/08/13/samsung-anti-apple-airport-ad/",
+      "use": "cita breve del hecho comentado; no sustituye a la fuente",
+      "capturedAt": "2026-10-03T22:31:42.290Z",
+      "crop": [
+        1411,
+        210,
+        39,
+        572
+      ],
+      "content": "Titular de MacRumors, 13-8-2014: Samsung lleva «Wall Huggers» a los aeropuertos."
+    },
+    {
+      "id": "web-wallhuggers-airport-photo",
+      "file": "video-001/support/web-wallhuggers-airport-photo.png",
+      "origin": "captura de página pública",
+      "url": "https://www.macrumors.com/2014/08/13/samsung-anti-apple-airport-ad/",
+      "use": "cita breve del hecho comentado; no sustituye a la fuente",
+      "capturedAt": "2026-10-03T22:31:42.290Z",
+      "crop": [
+        1054,
+        831,
+        216,
+        1833
+      ],
+      "content": "Foto del anuncio del Galaxy S5 junto a enchufes en un aeropuerto (vía MacRumors/CNET)."
+    },
+    {
+      "id": "web-charger-2020",
+      "file": "video-001/support/web-charger-2020.png",
+      "origin": "captura de página pública",
+      "url": "https://9to5mac.com/2020/12/07/samsung-ditch-power-adapters-after-mocking-apple/",
+      "use": "cita breve del hecho comentado; no sustituye a la fuente",
+      "capturedAt": "2026-10-03T22:31:42.290Z",
+      "crop": [
+        1555,
+        375,
+        91,
+        860
+      ],
+      "content": "Titular de 9to5Mac, 7-12-2020: Samsung quitará el cargador tres meses después de burlarse de Apple."
+    },
+    {
+      "id": "web-duo-2026-title",
+      "file": "video-001/support/web-duo-2026-title.png",
+      "origin": "captura de página pública",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      "use": "cita breve del hecho comentado; no sustituye a la fuente",
+      "capturedAt": "2026-10-03T22:31:42.290Z",
+      "crop": [
+        1320,
+        430,
+        440,
+        470
+      ],
+      "content": "Nota de prensa de Apple, 9-9-2026: «Apple unveils iPhone Duo»."
+    },
+    {
+      "id": "web-duo-2026-hero",
+      "file": "video-001/support/web-duo-2026-hero.png",
+      "origin": "captura de página pública",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      "use": "cita breve del hecho comentado; no sustituye a la fuente",
+      "capturedAt": "2026-10-03T22:31:42.290Z",
+      "crop": [
+        858,
+        1106,
+        728,
+        1254
+      ],
+      "content": "Imagen principal de la nota de Apple: iPhone Duo plegado en la mano."
+    }
+  ]
+}

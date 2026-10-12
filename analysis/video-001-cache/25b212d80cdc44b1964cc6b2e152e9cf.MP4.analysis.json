@@ -1,0 +1,135 @@
+{
+  "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+  "durationSeconds": 59.5,
+  "transcript": "Y lo más curioso aún es que en 2023 Samsung saca un comunicado diciendo que ya sus aparatos electrónicos, sus celulares ya no van a tener ni auriculares ni cargadores. Entonces, eh, que en la caja de los productos solamente vas a encontrar el... que el cable de carga, eh, llevando así, eh, que a tener que comprar el cargador o el adaptador de corriente. Si pueden notar, Apple ha venido revolucionando y ha venido recibiendo contra... críticas con... eh, que han encontrado crítica de sus... de sus... de sus oponentes, llamémoslo así, pero con el paso de los tiempos, se... todos podemos notar... los... las... a... Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS, eh, todo eso lo ha venido, eh, implementando también Samsung. Así que, literalmente, se han copiado.",
+  "timestamps": [
+    {
+      "startTime": 1,
+      "endTime": 3.5,
+      "text": "Y lo más curioso aún es que en 2023"
+    },
+    {
+      "startTime": 3.8,
+      "endTime": 7.1,
+      "text": "Samsung saca un comunicado diciendo que ya sus aparatos electrónicos,"
+    },
+    {
+      "startTime": 7.3,
+      "endTime": 11.8,
+      "text": "sus celulares ya no van a tener ni auriculares ni cargadores."
+    },
+    {
+      "startTime": 12.5,
+      "endTime": 18,
+      "text": "Entonces, eh, que en la caja de los productos solamente vas a encontrar el cable de carga,"
+    },
+    {
+      "startTime": 18.5,
+      "endTime": 24.5,
+      "text": "eh, llevando así que a tener que comprar el cargador o el adaptador de corriente."
+    },
+    {
+      "startTime": 26,
+      "endTime": 30.5,
+      "text": "Si pueden notar, Apple ha venido revolucionando y ha venido recibiendo"
+    },
+    {
+      "startTime": 30.8,
+      "endTime": 37,
+      "text": "contra críticas que han encontrado crítica de sus de sus de sus oponentes, llamémoslo así,"
+    },
+    {
+      "startTime": 38.5,
+      "endTime": 44.2,
+      "text": "pero con el paso de los tiempos se todos podemos notar los las a..."
+    },
+    {
+      "startTime": 45,
+      "endTime": 51.2,
+      "text": "Con el paso del tiempo todo lo que Apple ha venido adaptando para su sistema de su ecosistema iOS,"
+    },
+    {
+      "startTime": 51.5,
+      "endTime": 55.2,
+      "text": "eh, todo eso lo ha venido implementando también Samsung."
+    },
+    {
+      "startTime": 55.5,
+      "endTime": 58.2,
+      "text": "Así que, literalmente, se han copiado."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Y lo curioso es que con el tiempo Samsung también terminó adoptando varias decisiones que antes había utilizado para atacar a Apple.",
+      "match": "Y lo más curioso aún es que en 2023 Samsung saca un comunicado... con el paso del tiempo todo lo que Apple ha venido adaptando... lo ha venido implementando también Samsung.",
+      "confidence": 0.45
+    }
+  ],
+  "errors": [
+    "El video está grabado en orientación horizontal pero codificado verticalmente (orientación lateral de 90 grados a la izquierda).",
+    "El orador se desvía considerablemente del guion original e improvisa la explicación.",
+    "Trataba repetitivas muletillas, tropiezos verbales y falsos inicios."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 38.5,
+      "endTime": 44.5,
+      "reason": "El orador se traba al decir 'los las a...', se toca el rostro y reinicia la frase en 00:45."
+    }
+  ],
+  "fluency": {
+    "score": 4,
+    "notes": "Fluidez baja por constantes titubeos, repetición de palabras ('de sus de sus de sus') y un reinicio marcado a mitad de la toma."
+  },
+  "audio": {
+    "score": 6.5,
+    "notes": "El audio capturado con auriculares es inteligible, aunque presenta un ligero ruido de fondo y tono apagado."
+  },
+  "visualQuality": {
+    "score": 3,
+    "notes": "El video está rotado 90 grados. Iluminación tenue y rojiza que genera sombras marcadas."
+  },
+  "framing": {
+    "score": 2.5,
+    "notes": "Encuadre incorrecto debido a la orientación sideways y la inclinación en contrapicado de la cámara."
+  },
+  "expression": {
+    "score": 5,
+    "notes": "Mirada baja la mayor parte del tiempo, falta de contacto directo sostenido con la cámara y gesto de distracción al tocarse los ojos."
+  },
+  "fidelity": {
+    "score": 3,
+    "notes": "El discurso se aleja del texto exacto del guion, resumiendo e improvisando puntos con poca precisión."
+  },
+  "continuity": {
+    "score": 3,
+    "notes": "Interrumpida por el falso inicio entre los segundos 38 y 44."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar esta toma. La orientación del video está girada 90 grados, la iluminación es deficiente y el orador improvisa alejándose del guion con varios tropiezos verbales.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/ihrzsczhd4li",
+    "analyzedAt": "2026-09-22T00:10:45.039Z",
+    "sha256": "126c2cbca6ab9a7b9572826a9f013a542480fbaede9fd56af8855ad78df206ea",
+    "responseId": "dcexavaaAeiez7IPx42Z2QY",
+    "usage": {
+      "promptTokenCount": 6299,
+      "candidatesTokenCount": 1449,
+      "totalTokenCount": 9135,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 5459
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        }
+      ],
+      "thoughtsTokenCount": 1387,
+      "serviceTier": "standard"
+    }
+  }
+}

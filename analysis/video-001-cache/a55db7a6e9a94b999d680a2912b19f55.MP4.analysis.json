@@ -1,0 +1,153 @@
+{
+  "sourceFile": "a55db7a6e9a94b999d680a2912b19f55.MP4",
+  "durationSeconds": 52,
+  "transcript": "Y es aquí donde tenemos que entender que no todo cliente compra al que le llegó primero. Le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de de una experiencia diferente, etcétera. Por eso, mi pregunta de que de esto pues ¿somos los primeros o nuestro producto realmente sí ofrece una solución, sí ofrece un valor real? Así que nada, el mensaje es claro, esto lo que nos enseña es no tomarnos nuestras... tomarnos nuestro tiempo, todo esto lo que nos enseña es tomarnos nuestro tiempo para perfeccionar nuestro producto y...",
+  "timestamps": [
+    {
+      "startTime": 1.2,
+      "endTime": 5.5,
+      "text": "Y es aquí donde tenemos que entender"
+    },
+    {
+      "startTime": 5.5,
+      "endTime": 8,
+      "text": "que no todo cliente compra al que le llegó primero."
+    },
+    {
+      "startTime": 8,
+      "endTime": 11.5,
+      "text": "Le compra al que sabe ganarse su confianza,"
+    },
+    {
+      "startTime": 11.5,
+      "endTime": 14,
+      "text": "sabe generar valor, sabe generar una percepción"
+    },
+    {
+      "startTime": 14,
+      "endTime": 16.8,
+      "text": "de de una experiencia diferente, etcétera."
+    },
+    {
+      "startTime": 17,
+      "endTime": 21.5,
+      "text": "Por eso, mi pregunta de que de esto pues"
+    },
+    {
+      "startTime": 21.5,
+      "endTime": 26.5,
+      "text": "¿somos los primeros o nuestro producto realmente"
+    },
+    {
+      "startTime": 26.5,
+      "endTime": 32,
+      "text": "sí ofrece una solución, sí ofrece un valor real?"
+    },
+    {
+      "startTime": 33,
+      "endTime": 36.5,
+      "text": "Así que nada, el mensaje es claro,"
+    },
+    {
+      "startTime": 37,
+      "endTime": 41.5,
+      "text": "esto lo que nos enseña es no tomarnos nuestras... tomarnos nuestro tiempo,"
+    },
+    {
+      "startTime": 41.5,
+      "endTime": 46.8,
+      "text": "todo esto lo que nos enseña es tomarnos nuestro tiempo"
+    },
+    {
+      "startTime": 47,
+      "endTime": 51.5,
+      "text": "para perfeccionar nuestro producto y..."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Pero tu cliente no necesariamente compra al que llegó primero ni al que ofrece más. Compra por una combinación de valor, confianza, percepción, experiencia y qué tan bien esa propuesta resuelve lo que necesita.",
+      "match": "Y es aquí donde tenemos que entender que no todo cliente compra al que le llegó primero. Le compra al que sabe ganarse su confianza, sabe generar valor, sabe generar una percepción de de una experiencia diferente, etcétera.",
+      "confidence": 0.75
+    },
+    {
+      "guionBlock": "Es mucho más cercana a: “Nos tomamos nuestro tiempo porque queremos hacerlo a nuestra manera.”",
+      "match": "esto lo que nos enseña es tomarnos nuestro tiempo para perfeccionar nuestro producto",
+      "confidence": 0.7
+    }
+  ],
+  "errors": [
+    "La orientación del video está girada 90 grados a la izquierda (lateral).",
+    "El orador improvisa sobre las ideas del guion sin seguir el texto exacto.",
+    "Traba y falsa salida en 00:37 - 00:41 (\"no tomarnos nuestras... tomarnos nuestro tiempo\").",
+    "La frase final queda incompleta al segundo 51.5."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 37,
+      "endTime": 41.5,
+      "reason": "El hablante se equivoca al decir \"no tomarnos nuestras...\" y corrige sobre la marcha a \"tomarnos nuestro tiempo\"."
+    }
+  ],
+  "fluency": {
+    "score": 6,
+    "notes": "Fluidez regular, con vacilaciones, repeticiones e improvisación informal en el discurso."
+  },
+  "audio": {
+    "score": 7.5,
+    "notes": "Audio inteligible captado por auricular inalámbrico, aunque con ligera reverberación de sala."
+  },
+  "visualQuality": {
+    "score": 5,
+    "notes": "Iluminación con luz roja intensa lateral y fondo oscuro; video grabado en orientación horizontal incorrecta (rotado 90°)."
+  },
+  "framing": {
+    "score": 4,
+    "notes": "Encuadre inadecuado debido a la rotación lateral del dispositivo durante la grabación."
+  },
+  "expression": {
+    "score": 6.5,
+    "notes": "Expresión cercana pero dubitativa, buscando las palabras al improvisar."
+  },
+  "fidelity": {
+    "score": 5,
+    "notes": "No sigue el guion al pie de la letra; parafrasea los conceptos centrales de forma libre."
+  },
+  "continuity": {
+    "score": 5,
+    "notes": "Interrumpido por autocorrecciones y un final cortado abruptamente."
+  },
+  "recommendedRanges": [
+    {
+      "startTime": 1.2,
+      "endTime": 16.8,
+      "guionBlock": "Pero tu cliente no necesariamente compra al que llegó primero ni al que ofrece más. Compra por una combinación de valor, confianza, percepción, experiencia y qué tan bien esa propuesta resuelve lo que necesita.",
+      "reason": "Toma rescatable del primer bloque conceptual, a condición de corregir la rotación de pantalla en edición."
+    }
+  ],
+  "overallRecommendation": "Descartar la toma o requerir regrabación. El video se encuentra en posición horizontal/girado 90°, no sigue la fidelidad exacta del guion y concluye de forma incompleta.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/0n0mtuihvp3t",
+    "analyzedAt": "2026-09-22T00:19:07.422Z",
+    "sha256": "40e5a88594d6085745ab42d3ccb007cff05f1876b4d0696f18b5948caaebdede",
+    "responseId": "WMmxapOFDvusz7IPhIO2kQI",
+    "usage": {
+      "promptTokenCount": 5572,
+      "candidatesTokenCount": 1532,
+      "totalTokenCount": 8480,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 4732
+        }
+      ],
+      "thoughtsTokenCount": 1376,
+      "serviceTier": "standard"
+    }
+  }
+}

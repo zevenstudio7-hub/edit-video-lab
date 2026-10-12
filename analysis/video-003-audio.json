@@ -1,0 +1,25 @@
+{
+  "creado": "2026-10-06T17:45:27.358Z",
+  "segundos": 43.4,
+  "efectos": {
+    "cues": 38,
+    "limitadorMin": 1,
+    "I": -32.6,
+    "TP": -13.1,
+    "Mmax": -24
+  },
+  "musica": {
+    "generador": "library/music/synth-music.mjs",
+    "bpm": 100,
+    "compresionDb": -5,
+    "finalDb": -8,
+    "I": -31,
+    "TP": -16.5,
+    "Mmax": -27.3
+  },
+  "voz": {
+    "I": -14.2,
+    "TP": -1.9,
+    "Mmax": -7.7
+  }
+}

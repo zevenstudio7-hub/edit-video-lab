@@ -1,0 +1,2821 @@
+{
+  "videoId": "VIDEO-002",
+  "EDIT_TYPE": "#edit-1-motion",
+  "editType": "#edit-1-motion",
+  "version": 0,
+  "titulo": "Muse for Small Business",
+  "objetivo": "Explicar, con las palabras que el presentador dice en sus dos tomas, cómo las redes pasaron de entretenimiento a atención, audiencias y ejecución, y qué cambia para los negocios con Muse for Small Business de Meta.",
+  "status": "preview-v3-pendiente-de-revision",
+  "carpeta": "formatos/edit-1-motion/RSS - Entretenimiento",
+  "direccion": "formatos/edit-1-motion/RSS - Entretenimiento/direccion.md",
+  "formato": {
+    "aspecto": "9:16",
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30
+  },
+  "identidad": "formatos/identidad-video-zeven.md",
+  "duracionObjetivo": "La que dé la narración depurada: sin acelerar la voz ni añadir silencios.",
+  "fuentes": {
+    "drive": "https://drive.google.com/drive/folders/1GVbB6UKERzjPsz5v7MBN_bpzNeUx8S2f",
+    "tomas": [
+      {
+        "archivo": "FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.MP4",
+        "bytes": 415070491,
+        "driveId": "1jplGy6-MFjJXzCIxuZaF1IXiwjdEy9qA",
+        "ruta": "formatos/edit-1-motion/RSS - Entretenimiento/tomas/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.MP4"
+      },
+      {
+        "archivo": "B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.MP4",
+        "bytes": 331264504,
+        "driveId": "1oJEewyhDlqrHiIA2EoKGE5utDrvY3yg9",
+        "ruta": "formatos/edit-1-motion/RSS - Entretenimiento/tomas/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.MP4"
+      }
+    ],
+    "local": "formatos/edit-1-motion/RSS - Entretenimiento/tomas/ (copiadas por el usuario el 2026-10-05)",
+    "referencia": "formatos/edit-1-motion/referencias/ScreenRecording_10-03-2026 20-57-22_1.mov"
+  },
+  "guion": {
+    "estado": "orientativo",
+    "regla": "Lo que el presentador dice en las tomas determina la narración, los subtítulos y los motions. Las 12 escenas de la dirección son orientativas: se omiten las ideas no grabadas y se crean escenas para las ideas nuevas.",
+    "escenas": [
+      {
+        "id": 1,
+        "idea": "Redes como entretenimiento"
+      },
+      {
+        "id": 2,
+        "idea": "Evolución de la inteligencia artificial"
+      },
+      {
+        "id": 3,
+        "idea": "Plataformas (Facebook, Instagram, TikTok)"
+      },
+      {
+        "id": 4,
+        "idea": "Atención"
+      },
+      {
+        "id": 5,
+        "idea": "Audiencias"
+      },
+      {
+        "id": 6,
+        "idea": "Presentación de Muse for Small Business"
+      },
+      {
+        "id": 7,
+        "idea": "Información, herramientas y tareas"
+      },
+      {
+        "id": 8,
+        "idea": "Objetivo concreto"
+      },
+      {
+        "id": 9,
+        "idea": "Herramientas conectadas"
+      },
+      {
+        "id": 10,
+        "idea": "Recorrido: contenido → atención → audiencia → ejecución / ventas"
+      },
+      {
+        "id": 11,
+        "idea": "Consecuencia para el negocio"
+      },
+      {
+        "id": 12,
+        "idea": "Cierre"
+      }
+    ]
+  },
+  "verificacion": {
+    "fecha": "2026-10-05",
+    "anuncio": {
+      "titulo": "The Future Is for Everyone: Muse for Small Business",
+      "fecha": "2026-09-29",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+    },
+    "conectores": "Según Meta: Asana, Box, Canva, Dropbox, Figma, Granola, HighLevel, Intuit QuickBooks, Klaviyo, Lovable, Notion, Shopify, Slack, Stripe y Zoom, además de las cuentas comerciales de Facebook e Instagram; admite conectores personalizados.",
+    "disponibilidad": "Muse está disponible en EE. UU. y Canadá (página de Meta).",
+    "precio": "Gratis para la mayoría de usos, con planes de suscripción para un uso mayor (página de Meta).",
+    "interfaz": "La página oficial no muestra capturas de la interfaz de Muse: toda interfaz dibujada es conceptual y se marca como «Ejemplo ilustrativo».",
+    "otrasFuentes": [
+      "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+      "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html"
+    ]
+  },
+  "cta": "Solo el que esté grabado; no se añade ninguno.",
+  "salidaEsperada": [
+    "mapa de cortes (archivo, entrada, salida, frase)",
+    "guion técnico basado en la transcripción depurada",
+    "preview completo en el Studio con motions, subtítulos, música y efectos",
+    "MP4 solo después de revisar el preview"
+  ],
+  "history": {
+    "v0": "2026-10-05: orden recibida; el usuario copió las dos tomas en la carpeta del proyecto («RSS - Entretenimiento»).",
+    "v2": "2026-10-05: correcciones del usuario: velocidad 1.1x e imagen oficial de Muse (logotipo y mascota Jolly) en lugar del nombre en texto; investigación de recursos según la RAÍZ (analysis/video-002-support-research.json); «Musa» y «Noción» eran el traductor del navegador (composición marcada como «no traducir»).",
+    "v3": "2026-10-05: voz mejorada del usuario (alineada a la muestra, sin duplicar, efectos y música intactos); franja negra sólida integrada con el motion (sin degradado: textos y tarjetas salen de ella, objetos apoyados en su borde, transiciones que se hunden y salen de la franja); iconos 3D propios (three.js horneado) y relieve SVG; marca @yeirodriguez.co en cuentas y perfiles; ajustes de área segura."
+  },
+  "edl": {
+    "version": 1,
+    "fps": 30,
+    "sampleRate": 48000,
+    "tomas": {
+      "A": {
+        "id": "FBF4A159-15B2-4B42-B057-E8FFA87CF0C5",
+        "audio": ".whisper/video-002/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.48k.wav",
+        "video": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "fpsFuente": 60
+      },
+      "B": {
+        "id": "B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6",
+        "audio": ".whisper/video-002/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.48k.wav",
+        "video": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "fpsFuente": 60
+      }
+    },
+    "ambiente": {
+      "toma": "B",
+      "in": 9.2,
+      "out": 9.4,
+      "motivo": "Silencio de la sala (toma B) para rellenar el hueco de la muletilla eliminada."
+    },
+    "fundidoPorDefecto": 0.006,
+    "speed": 1.1,
+    "vozMejorada": {
+      "archivo": "formatos/edit-1-motion/RSS - Entretenimiento/material/audio muse-enhanced-v2.mp3",
+      "origen": "La voz montada a 1.1x, mejorada por el usuario fuera del laboratorio (2026-10-05) porque la original «se escucha muy en el vacío». Sustituye a la voz montada en la misma pista (sin duplicar); efectos y música no cambian.",
+      "desfaseMuestras": 3251,
+      "colocacion": "Llegaba 67,7 ms tarde, constante de principio a fin (dispersión 3 muestras): se adelanta a la muestra contra el montaje propio (dialogue-original.wav), que cuadra con la timeline.",
+      "nivel": "Ganancia fija hasta el nivel de la voz anterior (−14,5 LUFS) y limitador de pico verdadero con anticipación (−1,5 dBTP); ningún otro proceso.",
+      "informe": "analysis/video-002-voz-mejorada.json",
+      "herramienta": "src/videoAnalysis/video002/useEnhancedVoice.mjs"
+    },
+    "cuts": [
+      {
+        "id": "a01",
+        "toma": "A",
+        "in": 1.01,
+        "out": 7.475,
+        "fadeOut": 0.035,
+        "gapAfter": 0.06,
+        "ambiente": {
+          "toma": "A",
+          "in": 13.1
+        },
+        "frase": "Durante mucho tiempo nos han hecho creer que las redes sociales solo se trataban de entretenimiento, pero con el paso del tiempo y",
+        "motivo": "Apertura (única versión). Entra 80 ms antes de «Durante» (1,09 s; antes hay ruido grave sin voz). Se corta al final de la «i» de «y» (7,40–7,46 s; F2 alto) con un fundido de 35 ms para que decaiga, antes del falso arranque «las»; 60 ms de ambiente de la toma A."
+      },
+      {
+        "id": "a02",
+        "toma": "A",
+        "in": 7.86,
+        "out": 12.365,
+        "fadeIn": 0.015,
+        "fadeOut": 0.025,
+        "frase": "el avance de la tecnología nos hemos dado cuenta de algo totalmente diferente.",
+        "motivo": "Retoma en el silencio previo a «el»: se elimina «las» y su vacilación (7,47–7,88 s). Pausa con la frase siguiente 1,91 s → 300 ms."
+      },
+      {
+        "id": "a03",
+        "toma": "A",
+        "in": 13.975,
+        "out": 22.109,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Facebook, Instagram, TikTok, sí compiten por entretenerte, porque el entretenimiento captura algo muchísimo más importante, tu atención.",
+        "motivo": "«TikTok»: whisper oye «y todo» (p 0,49); Gemini oye «TikTok» en 3 de 3 pasadas y la señal muestra el cierre doble k-t. Pausa expresiva tras «atención» 2,31 s → 380 ms."
+      },
+      {
+        "id": "a04",
+        "toma": "A",
+        "in": 24.039,
+        "out": 31.749,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Cuando una plataforma concentra la atención de millones de personas, tiene algo todavía mucho más importante y valioso, audiencia.",
+        "motivo": "Pausa expresiva tras «audiencia» 2,03 s → 380 ms."
+      },
+      {
+        "id": "a05",
+        "toma": "A",
+        "in": 33.399,
+        "out": 38.266,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Y aquí es donde se pone más interesante, porque Meta acaba de lanzar Muse for Small Business.",
+        "motivo": "«Muse»: los dos transcriptores lo funden con «for», pero la señal muestra la sílaba /mus/ (nasal, vocal posterior y «s» en 36,39–36,91 s). Pausa 1,72 s → 320 ms."
+      },
+      {
+        "id": "a06",
+        "toma": "A",
+        "in": 39.666,
+        "out": 47.674,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Es una inteligencia artificial pensada para ayudar a los negocios a ejecutar tareas utilizando la información y las herramientas que ya tienen conectadas.",
+        "motivo": "Pausa 1,66 s → 280 ms."
+      },
+      {
+        "id": "a07",
+        "toma": "A",
+        "in": 49.054,
+        "out": 53.096,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Por ejemplo, puedes darle un objetivo como «ayúdame a buscar nuevos clientes».",
+        "motivo": "Fin de la toma A: lo siguiente (53,5–60 s) es un intento cortado de la frase de Muse, que la toma B completa."
+      },
+      {
+        "id": "b01",
+        "toma": "B",
+        "in": 0.686,
+        "out": 6.935,
+        "fadeIn": 0.025,
+        "fadeOut": 0.045,
+        "gapAfter": 0.11,
+        "frase": "Y Muse puede trabajar con tus cuentas de Facebook e Instagram y conectarse con herramientas como Shopify, Canva,",
+        "motivo": "Unión de tomas (A→B) con 320 ms de pausa. Se corta al final de la «a» de «Canva» (6,935 s, antes de que suba el F2 hacia la «e») con un fundido de 45 ms; la muletilla «eh» (6,94–7,40 s) se sustituye por 110 ms de ambiente de la toma."
+      },
+      {
+        "id": "b02",
+        "toma": "B",
+        "in": 7.4,
+        "out": 8.728,
+        "fadeIn": 0.008,
+        "fadeOut": 0.025,
+        "frase": "Notion, etcétera.",
+        "motivo": "Retoma en la «N» de «Notion». Pausa 2,24 s → 360 ms antes del cambio de idea."
+      },
+      {
+        "id": "b03",
+        "toma": "B",
+        "in": 10.608,
+        "out": 17.83,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Así que mira hacia dónde va toda esta evolución. Tienes contenido, tienes audiencia, tienes ejecución y sobre todo tienes ventas.",
+        "motivo": "Pausa expresiva tras «ventas» 1,29 s → 400 ms."
+      },
+      {
+        "id": "b04",
+        "toma": "B",
+        "in": 18.72,
+        "out": 21.313,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "¿Y qué significa esto realmente para tu negocio?",
+        "motivo": "Pausa breve tras la pregunta: 2,01 s → 350 ms."
+      },
+      {
+        "id": "b05",
+        "toma": "B",
+        "in": 22.973,
+        "out": 28.538,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Que cada vez habrá menos distancia entre tener algo que vender y encontrar a quien vendérselo.",
+        "motivo": "Pausa 1,50 s → 360 ms."
+      },
+      {
+        "id": "b06",
+        "toma": "B",
+        "in": 29.678,
+        "out": 35.295,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "Por eso, mientras muchos utilizan las redes sociales solamente para consumir entretenimiento,",
+        "motivo": "Pausa de contraste 1,91 s → 300 ms."
+      },
+      {
+        "id": "b07",
+        "toma": "B",
+        "in": 36.905,
+        "out": 41.101,
+        "fadeIn": 0.025,
+        "fadeOut": 0.025,
+        "frase": "otros están utilizando las mismas plataformas para construir audiencia,",
+        "motivo": "Pausa de enumeración 1,47 s → 220 ms."
+      },
+      {
+        "id": "b08",
+        "toma": "B",
+        "in": 42.351,
+        "out": 47.43,
+        "fadeIn": 0.025,
+        "frase": "automatizar procesos y generar oportunidades de negocio. ¿En qué lado estás tú?",
+        "motivo": "Conserva la pausa natural antes de la pregunta final. Termina 300 ms después de la última palabra (fin de voz 47,13 s)."
+      }
+    ],
+    "criterios": {
+      "narracion": "Toma A para las ideas 1–8 (única versión completa) y toma B para 9–12 y la pregunta final; el intento cortado de la frase de Muse al final de la toma A se descarta.",
+      "pausas": "Medidas en la banda de la voz (el iPhone deja 0,7–1 s de ruido tras cada frase hasta que cierra su puerta de ruido). Internas 220 ms; expresivas 300–400 ms (tras atención, audiencia, ventas, la pregunta y los cambios de idea). Respiraciones y colas de ruido se eliminan con la pausa; fundidos de 25 ms en esos cortes.",
+      "fundidos": "6 ms por defecto; 25 ms en los cortes en pausa; en las dos uniones dentro de voz continua, 35–45 ms de caída sobre la vocal final y relleno de ambiente (a01→a02: 60 ms; b01→b02: 110 ms).",
+      "verificado": "Muse, TikTok, «e Instagram», «etcétera» y las muletillas se comprobaron con whisper, Gemini y análisis de señal (src/videoAnalysis/video002/)."
+    },
+    "escenas": [
+      {
+        "id": "p1",
+        "modo": "presentador",
+        "tipo": "Apertura",
+        "desde": {
+          "cutStart": "a01"
+        },
+        "beats": {
+          "telefono": {
+            "cut": "a01",
+            "word": "mucho",
+            "n": 1,
+            "off": 0
+          },
+          "feed": {
+            "cut": "a01",
+            "word": "redes",
+            "n": 1,
+            "off": 0
+          },
+          "entretenimiento": {
+            "cut": "a01",
+            "word": "entretenimiento,",
+            "n": 1,
+            "off": 0
+          },
+          "scroll2": {
+            "cut": "a01",
+            "word": "entretenimiento,",
+            "n": 1,
+            "off": 18
+          }
+        },
+        "motivo": "Empieza con el presentador, sin intro: teléfono con un feed junto a él; en «entretenimiento» la tarjeta crece y el feed se desplaza dos veces."
+      },
+      {
+        "id": "m1",
+        "modo": "motion",
+        "tipo": "TiempoTecnologia",
+        "desde": {
+          "cut": "a01",
+          "word": "paso",
+          "n": 1,
+          "off": -4
+        },
+        "beats": {
+          "tiempo": {
+            "cut": "a01",
+            "word": "paso",
+            "n": 1,
+            "off": 0
+          },
+          "avance": {
+            "cut": "a02",
+            "word": "avance",
+            "n": 1,
+            "off": 0
+          },
+          "datos": {
+            "cut": "a02",
+            "word": "la",
+            "n": 1,
+            "off": 0
+          },
+          "tarea": {
+            "cut": "a02",
+            "word": "tecnología",
+            "n": 1,
+            "off": 0
+          },
+          "conecta": {
+            "cut": "a02",
+            "word": "nos",
+            "n": 1,
+            "off": 0
+          },
+          "foco": {
+            "cut": "a02",
+            "word": "algo",
+            "n": 1,
+            "off": 0
+          },
+          "diferente": {
+            "cut": "a02",
+            "word": "diferente.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "«el paso del tiempo y el avance de la tecnología… algo totalmente diferente»: el feed se sustituye por una tarjeta de trabajo (contenido, datos, tarea) que se conecta; acercamiento a la tarjeta central. Tapa el corte del falso arranque «las»."
+      },
+      {
+        "id": "m2",
+        "modo": "motion",
+        "tipo": "PlataformasAtencion",
+        "desde": {
+          "cutStart": "a03"
+        },
+        "beats": {
+          "facebook": {
+            "cut": "a03",
+            "word": "Facebook,",
+            "n": 1,
+            "off": 0
+          },
+          "instagram": {
+            "cut": "a03",
+            "word": "Instagram,",
+            "n": 1,
+            "off": 0
+          },
+          "tiktok": {
+            "cut": "a03",
+            "word": "TikTok,",
+            "n": 1,
+            "off": 0
+          },
+          "compiten": {
+            "cut": "a03",
+            "word": "compiten",
+            "n": 1,
+            "off": 0
+          },
+          "porque": {
+            "cut": "a03",
+            "word": "porque",
+            "n": 1,
+            "off": 0
+          },
+          "captura": {
+            "cut": "a03",
+            "word": "captura",
+            "n": 1,
+            "off": 0
+          },
+          "importante": {
+            "cut": "a03",
+            "word": "importante,",
+            "n": 1,
+            "off": 0
+          },
+          "atencion": {
+            "cut": "a03",
+            "word": "atención.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Una tarjeta por plataforma al nombrarla (logos oficiales); se agrupan en un teléfono al «compiten»; notificaciones alrededor, se atenúan y el foco se cierra en el centro en «tu atención»."
+      },
+      {
+        "id": "m3",
+        "modo": "motion",
+        "tipo": "Audiencias",
+        "desde": {
+          "cutStart": "a04"
+        },
+        "beats": {
+          "concentra": {
+            "cut": "a04",
+            "word": "concentra",
+            "n": 1,
+            "off": 0
+          },
+          "millones": {
+            "cut": "a04",
+            "word": "millones",
+            "n": 1,
+            "off": 0
+          },
+          "tiene": {
+            "cut": "a04",
+            "word": "tiene",
+            "n": 1,
+            "off": 0
+          },
+          "valioso": {
+            "cut": "a04",
+            "word": "valioso,",
+            "n": 1,
+            "off": 0
+          },
+          "audiencia": {
+            "cut": "a04",
+            "word": "audiencia.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "El punto de atención se multiplica en grupos de perfiles (alejamiento progresivo, sin cifras); una tarjeta los engloba en «audiencia»."
+      },
+      {
+        "id": "p2",
+        "modo": "presentador",
+        "tipo": "Transicion",
+        "desde": {
+          "cutStart": "a05"
+        },
+        "beats": {
+          "interesante": {
+            "cut": "a05",
+            "word": "interesante,",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Vuelve el presentador al 100 % en «Y aquí es donde se pone más interesante»."
+      },
+      {
+        "id": "m4",
+        "modo": "motion",
+        "tipo": "Anuncio",
+        "desde": {
+          "cut": "a05",
+          "word": "Meta",
+          "n": 1,
+          "off": -3
+        },
+        "beats": {
+          "meta": {
+            "cut": "a05",
+            "word": "Meta",
+            "n": 1,
+            "off": 0
+          },
+          "muse": {
+            "cut": "a05",
+            "word": "Muse",
+            "n": 1,
+            "off": 0
+          },
+          "business": {
+            "cut": "a05",
+            "word": "Business.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Captura verificada del anuncio de Meta (about.fb.com, 29 sep 2026) y acercamiento al nombre del producto; tapa la unión con la frase siguiente."
+      },
+      {
+        "id": "m5",
+        "modo": "motion",
+        "tipo": "Sistema",
+        "desde": {
+          "cutStart": "a06"
+        },
+        "beats": {
+          "ia": {
+            "cut": "a06",
+            "word": "inteligencia",
+            "n": 1,
+            "off": 0
+          },
+          "negocios": {
+            "cut": "a06",
+            "word": "negocios",
+            "n": 1,
+            "off": 0
+          },
+          "tareas": {
+            "cut": "a06",
+            "word": "ejecutar",
+            "n": 1,
+            "off": 0
+          },
+          "info": {
+            "cut": "a06",
+            "word": "información",
+            "n": 1,
+            "off": 0
+          },
+          "herramientas": {
+            "cut": "a06",
+            "word": "herramientas",
+            "n": 1,
+            "off": 0
+          },
+          "conectadas": {
+            "cut": "a06",
+            "word": "conectadas.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Muse al centro (sin interfaz inventada: «Ejemplo ilustrativo»); negocio, información y herramientas se conectan con líneas; las tareas pasan de pendiente a preparada."
+      },
+      {
+        "id": "m6",
+        "modo": "motion",
+        "tipo": "Objetivo",
+        "desde": {
+          "cutStart": "a07"
+        },
+        "beats": {
+          "ejemplo": {
+            "cut": "a07",
+            "word": "Por",
+            "n": 1,
+            "off": 0
+          },
+          "objetivo": {
+            "cut": "a07",
+            "word": "objetivo",
+            "n": 1,
+            "off": 0
+          },
+          "tecleo": {
+            "cut": "a07",
+            "word": "ayúdame",
+            "n": 1,
+            "off": 0
+          },
+          "fin": {
+            "cut": "a07",
+            "word": "clientes.",
+            "n": 1,
+            "off": 14
+          }
+        },
+        "motivo": "Conversación conceptual: se escribe el objetivo que dice («Ayúdame a buscar nuevos clientes»), completo al terminar la frase; el cursor envía y aparece «Preparando propuesta» (visible hasta «Y Muse puede…»). Tapa el cambio de toma A→B."
+      },
+      {
+        "id": "m7",
+        "modo": "motion",
+        "tipo": "Herramientas",
+        "desde": {
+          "cut": "b01",
+          "word": "puede",
+          "n": 1,
+          "off": -2
+        },
+        "beats": {
+          "muse": {
+            "cut": "b01",
+            "word": "puede",
+            "n": 1,
+            "off": 0
+          },
+          "facebook": {
+            "cut": "b01",
+            "word": "Facebook",
+            "n": 1,
+            "off": 0
+          },
+          "instagram": {
+            "cut": "b01",
+            "word": "Instagram",
+            "n": 1,
+            "off": 0
+          },
+          "herramientas": {
+            "cut": "b01",
+            "word": "herramientas",
+            "n": 1,
+            "off": 0
+          },
+          "shopify": {
+            "cut": "b01",
+            "word": "Shopify,",
+            "n": 1,
+            "off": 0
+          },
+          "canva": {
+            "cut": "b01",
+            "word": "Canva,",
+            "n": 1,
+            "off": 0
+          },
+          "notion": {
+            "cut": "b02",
+            "word": "Notion,",
+            "n": 1,
+            "off": 0
+          },
+          "etc": {
+            "cut": "b02",
+            "word": "etcétera.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Muse como nodo central: primero las cuentas de Facebook e Instagram y luego Shopify, Canva y Notion (logos oficiales, uno por nombre) y «+» en «etcétera». Nota secundaria verificada: disponibilidad en EE. UU. y Canadá."
+      },
+      {
+        "id": "m8",
+        "modo": "motion",
+        "tipo": "Evolucion",
+        "desde": {
+          "cutStart": "b03"
+        },
+        "beats": {
+          "mira": {
+            "cut": "b03",
+            "word": "mira",
+            "n": 1,
+            "off": 0
+          },
+          "contenido": {
+            "cut": "b03",
+            "word": "contenido,",
+            "n": 1,
+            "off": 0
+          },
+          "audiencia": {
+            "cut": "b03",
+            "word": "audiencia,",
+            "n": 1,
+            "off": 0
+          },
+          "ejecucion": {
+            "cut": "b03",
+            "word": "ejecución",
+            "n": 1,
+            "off": 0
+          },
+          "ventas": {
+            "cut": "b03",
+            "word": "ventas.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Recorrido en cuadrícula 2×2 con los conceptos que dice (contenido, audiencia, ejecución, ventas); cada tarjeta se activa con su palabra y la última con más fuerza."
+      },
+      {
+        "id": "p3",
+        "modo": "presentador",
+        "tipo": "Pregunta",
+        "desde": {
+          "cutStart": "b04"
+        },
+        "beats": {
+          "negocio": {
+            "cut": "b04",
+            "word": "negocio?",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Presentador al 108 % durante la pregunta."
+      },
+      {
+        "id": "m9",
+        "modo": "motion",
+        "tipo": "Distancia",
+        "desde": {
+          "cutStart": "b05"
+        },
+        "beats": {
+          "menos": {
+            "cut": "b05",
+            "word": "menos",
+            "n": 1,
+            "off": 0
+          },
+          "vender": {
+            "cut": "b05",
+            "word": "vender",
+            "n": 1,
+            "off": 0
+          },
+          "encontrar": {
+            "cut": "b05",
+            "word": "encontrar",
+            "n": 1,
+            "off": 0
+          },
+          "vendérselo": {
+            "cut": "b05",
+            "word": "vendérselo.",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Producto y posibles compradores separados; contenido, audiencia y tarea acortan la distancia hasta formar un recorrido conectado."
+      },
+      {
+        "id": "m10",
+        "modo": "motion",
+        "tipo": "Usos",
+        "desde": {
+          "cutStart": "b06"
+        },
+        "beats": {
+          "redes": {
+            "cut": "b06",
+            "word": "redes",
+            "n": 1,
+            "off": 0
+          },
+          "consumir": {
+            "cut": "b06",
+            "word": "consumir",
+            "n": 1,
+            "off": 0
+          },
+          "otros": {
+            "cut": "b07",
+            "word": "otros",
+            "n": 1,
+            "off": 0
+          },
+          "mismas": {
+            "cut": "b07",
+            "word": "mismas",
+            "n": 1,
+            "off": 0
+          },
+          "construir": {
+            "cut": "b07",
+            "word": "construir",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "El teléfono desplaza un feed («consumir entretenimiento»); «otros…las mismas plataformas» lo sustituye por acciones: perfiles que se agrupan («construir audiencia»)."
+      },
+      {
+        "id": "p4",
+        "modo": "presentador",
+        "tipo": "Cierre",
+        "desde": {
+          "cutStart": "b08"
+        },
+        "beats": {
+          "automatizar": {
+            "cut": "b08",
+            "word": "automatizar",
+            "n": 1,
+            "off": 0
+          },
+          "generar": {
+            "cut": "b08",
+            "word": "generar",
+            "n": 1,
+            "off": 0
+          },
+          "pregunta": {
+            "cut": "b08",
+            "word": "¿En",
+            "n": 1,
+            "off": 0
+          }
+        },
+        "motivo": "Vuelve el presentador; junto a él, casillas que cambian de estado («automatizar procesos») y la ficha de un contacto interesado («oportunidades de negocio»); se retiran en «¿En qué lado estás tú?» y la cámara se acerca despacio hasta 108 %."
+      }
+    ],
+    "camara": {
+      "foco": {
+        "x": 0.48,
+        "y": 0.24
+      },
+      "presentador": {
+        "p1": {
+          "de": 1,
+          "a": 1.08,
+          "desde": {
+            "cut": "a01",
+            "word": "mucho",
+            "n": 1,
+            "off": 0
+          },
+          "hasta": {
+            "cut": "a01",
+            "word": "entretenimiento,",
+            "n": 1,
+            "off": 30
+          }
+        },
+        "p2": {
+          "de": 1,
+          "a": 1
+        },
+        "p3": {
+          "de": 1.04,
+          "a": 1.08,
+          "desde": {
+            "cut": "b04",
+            "word": "¿Y",
+            "n": 1,
+            "off": 0
+          },
+          "hasta": {
+            "cut": "b04",
+            "word": "¿Y",
+            "n": 1,
+            "off": 10
+          }
+        },
+        "p4": {
+          "de": 1,
+          "a": 1.08,
+          "desde": {
+            "cutStart": "b08"
+          },
+          "hasta": {
+            "fin": true
+          }
+        }
+      },
+      "motivo": "Presentador al 100 % de base; acercamientos de énfasis a 108 % (orden §4). Las interfaces llevan su propia cámara dentro de cada escena (100 % → 115–125 % sobre el detalle; alejamiento para revelar conjuntos)."
+    },
+    "enfasis": [
+      {
+        "id": "e1",
+        "desde": {
+          "cut": "a01",
+          "word": "se",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "a01",
+          "word": "entretenimiento,",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "se trataban de",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "entretenimiento,",
+            "size": "l",
+            "tone": "pink",
+            "indent": 40
+          }
+        ],
+        "motivo": "Idea de partida."
+      },
+      {
+        "id": "e2",
+        "desde": {
+          "cut": "a02",
+          "word": "algo",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "a02",
+          "word": "diferente.",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "algo totalmente",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "diferente.",
+            "size": "xl",
+            "tone": "red",
+            "indent": 60
+          }
+        ],
+        "motivo": "Giro del argumento."
+      },
+      {
+        "id": "e3",
+        "desde": {
+          "cut": "a03",
+          "word": "tu",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "a03",
+          "word": "atención.",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "tu",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "atención.",
+            "size": "xl",
+            "tone": "pink",
+            "indent": 50
+          }
+        ],
+        "motivo": "Primer concepto clave (la tarjeta protagonista usa un icono, no la palabra)."
+      },
+      {
+        "id": "e4",
+        "desde": {
+          "cut": "a04",
+          "word": "y",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "a04",
+          "word": "audiencia.",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "y valioso,",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "audiencia.",
+            "size": "xl",
+            "tone": "pink",
+            "indent": 40
+          }
+        ],
+        "motivo": "Segundo concepto clave."
+      },
+      {
+        "id": "e5",
+        "desde": {
+          "cut": "a05",
+          "word": "se",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "a05",
+          "word": "interesante,",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "se pone",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "más interesante,",
+            "size": "l",
+            "tone": "pink",
+            "indent": 30
+          }
+        ],
+        "motivo": "Bisagra hacia Muse, con el presentador."
+      },
+      {
+        "id": "e6",
+        "desde": {
+          "cut": "a06",
+          "word": "ejecutar",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "a06",
+          "word": "tareas",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "ejecutar",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "tareas",
+            "size": "xl",
+            "tone": "pink",
+            "indent": 60
+          }
+        ],
+        "motivo": "Lo que hace Muse."
+      },
+      {
+        "id": "e7",
+        "desde": {
+          "cut": "b03",
+          "word": "sobre",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "b03",
+          "word": "ventas.",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "sobre todo",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "tienes ventas.",
+            "size": "l",
+            "tone": "red",
+            "indent": 30
+          }
+        ],
+        "motivo": "Último paso del recorrido, el más marcado."
+      },
+      {
+        "id": "e8",
+        "desde": {
+          "cut": "b05",
+          "word": "menos",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "b05",
+          "word": "distancia",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "menos",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "distancia",
+            "size": "xl",
+            "tone": "pink",
+            "indent": 50
+          }
+        ],
+        "motivo": "Consecuencia para el negocio."
+      },
+      {
+        "id": "e9",
+        "desde": {
+          "cut": "b08",
+          "word": "¿En",
+          "n": 1,
+          "off": 0
+        },
+        "hasta": {
+          "cut": "b08",
+          "word": "tú?",
+          "n": 1,
+          "off": 0
+        },
+        "lines": [
+          {
+            "text": "¿En qué lado",
+            "size": "m",
+            "tone": "white"
+          },
+          {
+            "text": "estás tú?",
+            "size": "xl",
+            "tone": "pink",
+            "indent": 40
+          }
+        ],
+        "motivo": "Pregunta final al espectador (grabada)."
+      }
+    ],
+    "sfxDesign": {
+      "escenas": {
+        "p1": [
+          [
+            "telefono",
+            "zp-pop",
+            1
+          ],
+          [
+            "entretenimiento",
+            "zp-swish",
+            0.9
+          ],
+          [
+            "scroll2",
+            "zp-swish",
+            0.8
+          ]
+        ],
+        "m1": [
+          [
+            "tiempo",
+            "zp-tock",
+            0.9
+          ],
+          [
+            "avance",
+            "whoosh",
+            0.8
+          ],
+          [
+            "datos",
+            "zp-pop-hi",
+            0.8
+          ],
+          [
+            "tarea",
+            "zp-pop-hi",
+            0.8
+          ],
+          [
+            "conecta",
+            "zp-pulse",
+            0.9
+          ],
+          [
+            "foco",
+            "zp-tick",
+            0.8
+          ]
+        ],
+        "m2": [
+          [
+            "facebook",
+            "zp-pop",
+            1
+          ],
+          [
+            "instagram",
+            "zp-pop",
+            1
+          ],
+          [
+            "tiktok",
+            "zp-pop",
+            1
+          ],
+          [
+            "compiten",
+            "zp-swish",
+            1
+          ],
+          [
+            "captura",
+            "zp-notify",
+            0.8
+          ],
+          [
+            "importante",
+            "zp-notify",
+            0.6
+          ],
+          [
+            "atencion",
+            "mouse-click",
+            0.9
+          ],
+          [
+            "atencion",
+            "zp-thud",
+            0.7
+          ]
+        ],
+        "m3": [
+          [
+            "millones",
+            "zp-sparkle",
+            0.9
+          ],
+          [
+            "audiencia",
+            "zp-confirm",
+            1
+          ]
+        ],
+        "m4": [
+          [
+            "meta",
+            "whoosh",
+            0.9
+          ],
+          [
+            "muse",
+            "zp-thud",
+            0.8
+          ]
+        ],
+        "m5": [
+          [
+            "ia",
+            "zp-pop",
+            0.9
+          ],
+          [
+            "negocios",
+            "zp-pop-hi",
+            0.8
+          ],
+          [
+            "tareas",
+            "zp-pop-hi",
+            0.8
+          ],
+          [
+            "info",
+            "mouse-click",
+            0.7
+          ],
+          [
+            "herramientas",
+            "mouse-click",
+            0.7
+          ],
+          [
+            "conectadas",
+            "zp-confirm",
+            1
+          ]
+        ],
+        "m6": [
+          [
+            "ejemplo",
+            "zp-pop",
+            0.9
+          ],
+          [
+            "tecleo",
+            "zp-keys",
+            1
+          ],
+          [
+            "fin",
+            "mouse-click",
+            1
+          ],
+          [
+            "fin",
+            "zp-pulse",
+            0.7,
+            8
+          ]
+        ],
+        "m7": [
+          [
+            "facebook",
+            "zp-pop-hi",
+            0.9
+          ],
+          [
+            "instagram",
+            "zp-pop-hi",
+            0.9
+          ],
+          [
+            "shopify",
+            "zp-pop",
+            0.9
+          ],
+          [
+            "canva",
+            "zp-pop",
+            0.9
+          ],
+          [
+            "notion",
+            "zp-pop",
+            0.9
+          ],
+          [
+            "etc",
+            "zp-confirm",
+            0.9
+          ]
+        ],
+        "m8": [
+          [
+            "contenido",
+            "zp-pulse",
+            0.8
+          ],
+          [
+            "audiencia",
+            "zp-pulse",
+            0.8
+          ],
+          [
+            "ejecucion",
+            "zp-pulse",
+            0.8
+          ],
+          [
+            "ventas",
+            "zp-pulse",
+            1.2
+          ],
+          [
+            "ventas",
+            "zp-chime",
+            0.7
+          ]
+        ],
+        "m9": [
+          [
+            "menos",
+            "zp-swish",
+            0.9
+          ],
+          [
+            "vendérselo",
+            "mouse-click",
+            0.9
+          ]
+        ],
+        "m10": [
+          [
+            "redes",
+            "zp-swish",
+            0.8
+          ],
+          [
+            "consumir",
+            "zp-swish",
+            0.8
+          ],
+          [
+            "otros",
+            "whoosh",
+            0.8
+          ],
+          [
+            "construir",
+            "zp-pulse",
+            0.9
+          ]
+        ],
+        "p4": [
+          [
+            "automatizar",
+            "zp-tick",
+            0.8
+          ],
+          [
+            "automatizar",
+            "zp-tick",
+            0.8,
+            8
+          ],
+          [
+            "generar",
+            "zp-pop-hi",
+            0.8
+          ]
+        ]
+      },
+      "enfasis": "zp-text",
+      "limites": {
+        "minFrames": 3,
+        "mismoSonidoFrames": 5
+      },
+      "finalDesde": {
+        "cut": "b08",
+        "word": "¿En",
+        "n": 1,
+        "off": 0
+      },
+      "motivo": "Efectos sincronizados con la aparición, pulsación o cambio de estado exacto (orden §6); sin whoosh en cada corte ni sonido por subtítulo; se reducen en la última frase."
+    },
+    "musica": {
+      "generador": "library/music/synth-music.mjs",
+      "bpm": 96,
+      "nivel": -31,
+      "duckingDb": -5,
+      "finalDesde": {
+        "cut": "b08",
+        "word": "¿En",
+        "n": 1,
+        "off": 0
+      },
+      "finalDb": -10,
+      "motivo": "Música instrumental discreta sin letra, propia (síntesis); baja bajo la voz y en la última frase."
+    }
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 2230,
+    "speed": 1.1,
+    "audio": {
+      "dialogue": "video-002/dialogue.wav",
+      "sfx": "video-002/sfx.wav",
+      "music": "video-002/music.wav",
+      "finalFrame": 2197
+    },
+    "source": {
+      "width": 1080,
+      "height": 1920
+    },
+    "cuts": [
+      {
+        "id": "a01",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 0,
+        "durationInFrames": 178,
+        "trimBefore": 30,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "a02",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 178,
+        "durationInFrames": 123,
+        "trimBefore": 236,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "a03",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 301,
+        "durationInFrames": 222,
+        "trimBefore": 419,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "a04",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 523,
+        "durationInFrames": 210,
+        "trimBefore": 721,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "a05",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 733,
+        "durationInFrames": 132,
+        "trimBefore": 1002,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "a06",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 865,
+        "durationInFrames": 219,
+        "trimBefore": 1190,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "a07",
+        "toma": "A",
+        "source": "video-002/hq/FBF4A159-15B2-4B42-B057-E8FFA87CF0C5.mp4",
+        "startFrame": 1084,
+        "durationInFrames": 111,
+        "trimBefore": 1472,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b01",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1195,
+        "durationInFrames": 173,
+        "trimBefore": 21,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b02",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1368,
+        "durationInFrames": 36,
+        "trimBefore": 222,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b03",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1404,
+        "durationInFrames": 197,
+        "trimBefore": 318,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b04",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1601,
+        "durationInFrames": 71,
+        "trimBefore": 562,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b05",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1672,
+        "durationInFrames": 152,
+        "trimBefore": 689,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b06",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1824,
+        "durationInFrames": 152,
+        "trimBefore": 890,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b07",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 1976,
+        "durationInFrames": 115,
+        "trimBefore": 1107,
+        "playbackRate": 1.1
+      },
+      {
+        "id": "b08",
+        "toma": "B",
+        "source": "video-002/hq/B0B164E0-FD5D-4DB0-ACFA-581CDE53C1E6.mp4",
+        "startFrame": 2091,
+        "durationInFrames": 139,
+        "trimBefore": 1271,
+        "playbackRate": 1.1
+      }
+    ],
+    "scenes": [
+      {
+        "id": "p1",
+        "modo": "presentador",
+        "tipo": "Apertura",
+        "startFrame": 0,
+        "beats": {
+          "telefono": 15,
+          "feed": 59,
+          "entretenimiento": 108,
+          "scroll2": 125
+        },
+        "motivo": "Empieza con el presentador, sin intro: teléfono con un feed junto a él; en «entretenimiento» la tarjeta crece y el feed se desplaza dos veces.",
+        "durationInFrames": 145
+      },
+      {
+        "id": "m1",
+        "modo": "motion",
+        "tipo": "TiempoTecnologia",
+        "startFrame": 145,
+        "beats": {
+          "tiempo": 149,
+          "avance": 186,
+          "datos": 199,
+          "tarea": 205,
+          "conecta": 218,
+          "foco": 248,
+          "diferente": 286
+        },
+        "motivo": "«el paso del tiempo y el avance de la tecnología… algo totalmente diferente»: el feed se sustituye por una tarjeta de trabajo (contenido, datos, tarea) que se conecta; acercamiento a la tarjeta central. Tapa el corte del falso arranque «las».",
+        "durationInFrames": 156
+      },
+      {
+        "id": "m2",
+        "modo": "motion",
+        "tipo": "PlataformasAtencion",
+        "startFrame": 301,
+        "beats": {
+          "facebook": 305,
+          "instagram": 324,
+          "tiktok": 339,
+          "compiten": 356,
+          "porque": 395,
+          "captura": 435,
+          "importante": 481,
+          "atencion": 504
+        },
+        "motivo": "Una tarjeta por plataforma al nombrarla (logos oficiales); se agrupan en un teléfono al «compiten»; notificaciones alrededor, se atenúan y el foco se cierra en el centro en «tu atención».",
+        "durationInFrames": 222
+      },
+      {
+        "id": "m3",
+        "modo": "motion",
+        "tipo": "Audiencias",
+        "startFrame": 523,
+        "beats": {
+          "concentra": 559,
+          "millones": 596,
+          "tiene": 622,
+          "valioso": 679,
+          "audiencia": 704
+        },
+        "motivo": "El punto de atención se multiplica en grupos de perfiles (alejamiento progresivo, sin cifras); una tarjeta los engloba en «audiencia».",
+        "durationInFrames": 210
+      },
+      {
+        "id": "p2",
+        "modo": "presentador",
+        "tipo": "Transicion",
+        "startFrame": 733,
+        "beats": {
+          "interesante": 772
+        },
+        "motivo": "Vuelve el presentador al 100 % en «Y aquí es donde se pone más interesante».",
+        "durationInFrames": 59
+      },
+      {
+        "id": "m4",
+        "modo": "motion",
+        "tipo": "Anuncio",
+        "startFrame": 792,
+        "beats": {
+          "meta": 795,
+          "muse": 818,
+          "business": 846
+        },
+        "motivo": "Captura verificada del anuncio de Meta (about.fb.com, 29 sep 2026) y acercamiento al nombre del producto; tapa la unión con la frase siguiente.",
+        "durationInFrames": 73
+      },
+      {
+        "id": "m5",
+        "modo": "motion",
+        "tipo": "Sistema",
+        "startFrame": 865,
+        "beats": {
+          "ia": 882,
+          "negocios": 940,
+          "tareas": 957,
+          "info": 1008,
+          "herramientas": 1032,
+          "conectadas": 1064
+        },
+        "motivo": "Muse al centro (sin interfaz inventada: «Ejemplo ilustrativo»); negocio, información y herramientas se conectan con líneas; las tareas pasan de pendiente a preparada.",
+        "durationInFrames": 219
+      },
+      {
+        "id": "m6",
+        "modo": "motion",
+        "tipo": "Objetivo",
+        "startFrame": 1084,
+        "beats": {
+          "ejemplo": 1087,
+          "objetivo": 1124,
+          "tecleo": 1143,
+          "fin": 1186
+        },
+        "motivo": "Conversación conceptual: se escribe el objetivo que dice («Ayúdame a buscar nuevos clientes»), completo al terminar la frase; el cursor envía y aparece «Preparando propuesta» (visible hasta «Y Muse puede…»). Tapa el cambio de toma A→B.",
+        "durationInFrames": 124
+      },
+      {
+        "id": "m7",
+        "modo": "motion",
+        "tipo": "Herramientas",
+        "startFrame": 1208,
+        "beats": {
+          "muse": 1210,
+          "facebook": 1255,
+          "instagram": 1274,
+          "herramientas": 1308,
+          "shopify": 1331,
+          "canva": 1349,
+          "notion": 1368,
+          "etc": 1385
+        },
+        "motivo": "Muse como nodo central: primero las cuentas de Facebook e Instagram y luego Shopify, Canva y Notion (logos oficiales, uno por nombre) y «+» en «etcétera». Nota secundaria verificada: disponibilidad en EE. UU. y Canadá.",
+        "durationInFrames": 196
+      },
+      {
+        "id": "m8",
+        "modo": "motion",
+        "tipo": "Evolucion",
+        "startFrame": 1404,
+        "beats": {
+          "mira": 1416,
+          "contenido": 1485,
+          "audiencia": 1508,
+          "ejecucion": 1538,
+          "ventas": 1587
+        },
+        "motivo": "Recorrido en cuadrícula 2×2 con los conceptos que dice (contenido, audiencia, ejecución, ventas); cada tarjeta se activa con su palabra y la última con más fuerza.",
+        "durationInFrames": 197
+      },
+      {
+        "id": "p3",
+        "modo": "presentador",
+        "tipo": "Pregunta",
+        "startFrame": 1601,
+        "beats": {
+          "negocio": 1657
+        },
+        "motivo": "Presentador al 108 % durante la pregunta.",
+        "durationInFrames": 71
+      },
+      {
+        "id": "m9",
+        "modo": "motion",
+        "tipo": "Distancia",
+        "startFrame": 1672,
+        "beats": {
+          "menos": 1700,
+          "vender": 1765,
+          "encontrar": 1781,
+          "vendérselo": 1806
+        },
+        "motivo": "Producto y posibles compradores separados; contenido, audiencia y tarea acortan la distancia hasta formar un recorrido conectado.",
+        "durationInFrames": 152
+      },
+      {
+        "id": "m10",
+        "modo": "motion",
+        "tipo": "Usos",
+        "startFrame": 1824,
+        "beats": {
+          "redes": 1890,
+          "consumir": 1941,
+          "otros": 1980,
+          "mismas": 2025,
+          "construir": 2065
+        },
+        "motivo": "El teléfono desplaza un feed («consumir entretenimiento»); «otros…las mismas plataformas» lo sustituye por acciones: perfiles que se agrupan («construir audiencia»).",
+        "durationInFrames": 267
+      },
+      {
+        "id": "p4",
+        "modo": "presentador",
+        "tipo": "Cierre",
+        "startFrame": 2091,
+        "beats": {
+          "automatizar": 2094,
+          "generar": 2141,
+          "pregunta": 2197
+        },
+        "motivo": "Vuelve el presentador; junto a él, casillas que cambian de estado («automatizar procesos») y la ficha de un contacto interesado («oportunidades de negocio»); se retiran en «¿En qué lado estás tú?» y la cámara se acerca despacio hasta 108 %.",
+        "durationInFrames": 139
+      }
+    ],
+    "camera": {
+      "foco": {
+        "x": 0.48,
+        "y": 0.24
+      },
+      "presentador": {
+        "p1": {
+          "de": 1,
+          "a": 1.08,
+          "desde": 15,
+          "hasta": 135
+        },
+        "p2": {
+          "de": 1,
+          "a": 1,
+          "desde": 733,
+          "hasta": 792
+        },
+        "p3": {
+          "de": 1.04,
+          "a": 1.08,
+          "desde": 1607,
+          "hasta": 1616
+        },
+        "p4": {
+          "de": 1,
+          "a": 1.08,
+          "desde": 2091,
+          "hasta": 2230
+        }
+      }
+    },
+    "captions": {
+      "read": [
+        {
+          "text": "Durante mucho",
+          "startFrame": 2,
+          "endFrame": 24
+        },
+        {
+          "text": "tiempo nos han hecho creer",
+          "startFrame": 24,
+          "endFrame": 50
+        },
+        {
+          "text": "que las redes sociales solo",
+          "startFrame": 50,
+          "endFrame": 93
+        },
+        {
+          "text": "pero con el paso",
+          "startFrame": 139,
+          "endFrame": 155
+        },
+        {
+          "text": "del tiempo y el avance",
+          "startFrame": 155,
+          "endFrame": 196
+        },
+        {
+          "text": "de la tecnología",
+          "startFrame": 196,
+          "endFrame": 218
+        },
+        {
+          "text": "nos hemos dado cuenta de",
+          "startFrame": 218,
+          "endFrame": 246
+        },
+        {
+          "text": "Facebook,",
+          "startFrame": 307,
+          "endFrame": 324
+        },
+        {
+          "text": "Instagram,",
+          "startFrame": 324,
+          "endFrame": 339
+        },
+        {
+          "text": "TikTok,",
+          "startFrame": 339,
+          "endFrame": 351
+        },
+        {
+          "text": "sí compiten",
+          "startFrame": 351,
+          "endFrame": 364
+        },
+        {
+          "text": "por entretenerte,",
+          "startFrame": 364,
+          "endFrame": 395
+        },
+        {
+          "text": "porque el entretenimiento",
+          "startFrame": 395,
+          "endFrame": 435
+        },
+        {
+          "text": "captura algo muchísimo",
+          "startFrame": 435,
+          "endFrame": 477
+        },
+        {
+          "text": "más importante,",
+          "startFrame": 477,
+          "endFrame": 496
+        },
+        {
+          "text": "Cuando una plataforma",
+          "startFrame": 529,
+          "endFrame": 559
+        },
+        {
+          "text": "concentra la atención",
+          "startFrame": 559,
+          "endFrame": 591
+        },
+        {
+          "text": "de millones de personas,",
+          "startFrame": 591,
+          "endFrame": 622
+        },
+        {
+          "text": "tiene algo todavía",
+          "startFrame": 622,
+          "endFrame": 654
+        },
+        {
+          "text": "mucho más importante",
+          "startFrame": 654,
+          "endFrame": 670
+        },
+        {
+          "text": "Y aquí es donde",
+          "startFrame": 737,
+          "endFrame": 754
+        },
+        {
+          "text": "porque Meta acaba",
+          "startFrame": 795,
+          "endFrame": 802
+        },
+        {
+          "text": "de lanzar Muse for",
+          "startFrame": 802,
+          "endFrame": 830
+        },
+        {
+          "text": "Small Business.",
+          "startFrame": 830,
+          "endFrame": 869
+        },
+        {
+          "text": "Es una inteligencia",
+          "startFrame": 869,
+          "endFrame": 896
+        },
+        {
+          "text": "artificial pensada para ayudar",
+          "startFrame": 896,
+          "endFrame": 933
+        },
+        {
+          "text": "a los negocios a",
+          "startFrame": 933,
+          "endFrame": 955
+        },
+        {
+          "text": "utilizando la información",
+          "startFrame": 995,
+          "endFrame": 1024
+        },
+        {
+          "text": "y las herramientas",
+          "startFrame": 1024,
+          "endFrame": 1048
+        },
+        {
+          "text": "que ya tienen conectadas.",
+          "startFrame": 1048,
+          "endFrame": 1087
+        },
+        {
+          "text": "Por ejemplo,",
+          "startFrame": 1087,
+          "endFrame": 1104
+        },
+        {
+          "text": "puedes darle un objetivo",
+          "startFrame": 1104,
+          "endFrame": 1133
+        },
+        {
+          "text": "como ayúdame a buscar",
+          "startFrame": 1133,
+          "endFrame": 1165
+        },
+        {
+          "text": "nuevos clientes.",
+          "startFrame": 1165,
+          "endFrame": 1198
+        },
+        {
+          "text": "Y Muse puede trabajar",
+          "startFrame": 1198,
+          "endFrame": 1230
+        },
+        {
+          "text": "con tus cuentas de Facebook",
+          "startFrame": 1230,
+          "endFrame": 1270
+        },
+        {
+          "text": "e Instagram y conectarse",
+          "startFrame": 1270,
+          "endFrame": 1305
+        },
+        {
+          "text": "con herramientas",
+          "startFrame": 1305,
+          "endFrame": 1321
+        },
+        {
+          "text": "como Shopify,",
+          "startFrame": 1321,
+          "endFrame": 1349
+        },
+        {
+          "text": "Canva,",
+          "startFrame": 1349,
+          "endFrame": 1368
+        },
+        {
+          "text": "Notion,",
+          "startFrame": 1368,
+          "endFrame": 1385
+        },
+        {
+          "text": "etcétera.",
+          "startFrame": 1385,
+          "endFrame": 1408
+        },
+        {
+          "text": "Así que mira hacia dónde",
+          "startFrame": 1408,
+          "endFrame": 1441
+        },
+        {
+          "text": "va toda esta evolución.",
+          "startFrame": 1441,
+          "endFrame": 1476
+        },
+        {
+          "text": "Tienes contenido,",
+          "startFrame": 1476,
+          "endFrame": 1501
+        },
+        {
+          "text": "tienes audiencia,",
+          "startFrame": 1501,
+          "endFrame": 1525
+        },
+        {
+          "text": "tienes ejecución y",
+          "startFrame": 1525,
+          "endFrame": 1559
+        },
+        {
+          "text": "¿Y qué significa esto",
+          "startFrame": 1607,
+          "endFrame": 1640
+        },
+        {
+          "text": "realmente para tu negocio?",
+          "startFrame": 1640,
+          "endFrame": 1675
+        },
+        {
+          "text": "Que cada vez habrá",
+          "startFrame": 1675,
+          "endFrame": 1698
+        },
+        {
+          "text": "entre tener algo",
+          "startFrame": 1735,
+          "endFrame": 1759
+        },
+        {
+          "text": "que vender y encontrar",
+          "startFrame": 1759,
+          "endFrame": 1794
+        },
+        {
+          "text": "a quien vendérselo.",
+          "startFrame": 1794,
+          "endFrame": 1828
+        },
+        {
+          "text": "Por eso,",
+          "startFrame": 1828,
+          "endFrame": 1838
+        },
+        {
+          "text": "mientras muchos utilizan",
+          "startFrame": 1838,
+          "endFrame": 1888
+        },
+        {
+          "text": "las redes sociales",
+          "startFrame": 1888,
+          "endFrame": 1918
+        },
+        {
+          "text": "solamente para consumir",
+          "startFrame": 1918,
+          "endFrame": 1954
+        },
+        {
+          "text": "entretenimiento,",
+          "startFrame": 1954,
+          "endFrame": 1980
+        },
+        {
+          "text": "otros están utilizando",
+          "startFrame": 1980,
+          "endFrame": 2019
+        },
+        {
+          "text": "las mismas plataformas",
+          "startFrame": 2019,
+          "endFrame": 2056
+        },
+        {
+          "text": "para construir audiencia,",
+          "startFrame": 2056,
+          "endFrame": 2094
+        },
+        {
+          "text": "automatizar procesos",
+          "startFrame": 2094,
+          "endFrame": 2137
+        },
+        {
+          "text": "y generar oportunidades",
+          "startFrame": 2137,
+          "endFrame": 2176
+        },
+        {
+          "text": "de negocio.",
+          "startFrame": 2176,
+          "endFrame": 2195
+        }
+      ],
+      "emphasis": [
+        {
+          "id": "e1",
+          "startFrame": 93,
+          "endFrame": 139,
+          "lines": [
+            {
+              "text": "se trataban de",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "entretenimiento,",
+              "size": "l",
+              "tone": "pink",
+              "indent": 40
+            }
+          ],
+          "motivo": "Idea de partida."
+        },
+        {
+          "id": "e2",
+          "startFrame": 246,
+          "endFrame": 307,
+          "lines": [
+            {
+              "text": "algo totalmente",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "diferente.",
+              "size": "xl",
+              "tone": "red",
+              "indent": 60
+            }
+          ],
+          "motivo": "Giro del argumento."
+        },
+        {
+          "id": "e3",
+          "startFrame": 496,
+          "endFrame": 529,
+          "lines": [
+            {
+              "text": "tu",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "atención.",
+              "size": "xl",
+              "tone": "pink",
+              "indent": 50
+            }
+          ],
+          "motivo": "Primer concepto clave (la tarjeta protagonista usa un icono, no la palabra)."
+        },
+        {
+          "id": "e4",
+          "startFrame": 670,
+          "endFrame": 735,
+          "lines": [
+            {
+              "text": "y valioso,",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "audiencia.",
+              "size": "xl",
+              "tone": "pink",
+              "indent": 40
+            }
+          ],
+          "motivo": "Segundo concepto clave."
+        },
+        {
+          "id": "e5",
+          "startFrame": 754,
+          "endFrame": 795,
+          "lines": [
+            {
+              "text": "se pone",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "más interesante,",
+              "size": "l",
+              "tone": "pink",
+              "indent": 30
+            }
+          ],
+          "motivo": "Bisagra hacia Muse, con el presentador."
+        },
+        {
+          "id": "e6",
+          "startFrame": 955,
+          "endFrame": 995,
+          "lines": [
+            {
+              "text": "ejecutar",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "tareas",
+              "size": "xl",
+              "tone": "pink",
+              "indent": 60
+            }
+          ],
+          "motivo": "Lo que hace Muse."
+        },
+        {
+          "id": "e7",
+          "startFrame": 1559,
+          "endFrame": 1602,
+          "lines": [
+            {
+              "text": "sobre todo",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "tienes ventas.",
+              "size": "l",
+              "tone": "red",
+              "indent": 30
+            }
+          ],
+          "motivo": "Último paso del recorrido, el más marcado."
+        },
+        {
+          "id": "e8",
+          "startFrame": 1698,
+          "endFrame": 1735,
+          "lines": [
+            {
+              "text": "menos",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "distancia",
+              "size": "xl",
+              "tone": "pink",
+              "indent": 50
+            }
+          ],
+          "motivo": "Consecuencia para el negocio."
+        },
+        {
+          "id": "e9",
+          "startFrame": 2195,
+          "endFrame": 2231,
+          "lines": [
+            {
+              "text": "¿En qué lado",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "estás tú?",
+              "size": "xl",
+              "tone": "pink",
+              "indent": 40
+            }
+          ],
+          "motivo": "Pregunta final al espectador (grabada)."
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "frame": 15,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "p1.telefono"
+      },
+      {
+        "frame": 93,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e1 · énfasis"
+      },
+      {
+        "frame": 108,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.18,
+        "motivo": "p1.entretenimiento"
+      },
+      {
+        "frame": 125,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.16,
+        "motivo": "p1.scroll2"
+      },
+      {
+        "frame": 149,
+        "sound": "zp-tock",
+        "file": "public/sfx/zp-tock.wav",
+        "volume": 0.198,
+        "motivo": "m1.tiempo"
+      },
+      {
+        "frame": 186,
+        "sound": "whoosh",
+        "file": "public/sfx/whoosh.wav",
+        "volume": 0.36,
+        "motivo": "m1.avance"
+      },
+      {
+        "frame": 199,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "m1.datos"
+      },
+      {
+        "frame": 205,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "m1.tarea"
+      },
+      {
+        "frame": 218,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.18,
+        "motivo": "m1.conecta"
+      },
+      {
+        "frame": 246,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e2 · énfasis"
+      },
+      {
+        "frame": 248,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.128,
+        "motivo": "m1.foco"
+      },
+      {
+        "frame": 305,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "m2.facebook"
+      },
+      {
+        "frame": 324,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "m2.instagram"
+      },
+      {
+        "frame": 339,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "m2.tiktok"
+      },
+      {
+        "frame": 356,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.2,
+        "motivo": "m2.compiten"
+      },
+      {
+        "frame": 435,
+        "sound": "zp-notify",
+        "file": "public/sfx/zp-notify.wav",
+        "volume": 0.112,
+        "motivo": "m2.captura"
+      },
+      {
+        "frame": 481,
+        "sound": "zp-notify",
+        "file": "public/sfx/zp-notify.wav",
+        "volume": 0.084,
+        "motivo": "m2.importante"
+      },
+      {
+        "frame": 496,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e3 · énfasis"
+      },
+      {
+        "frame": 504,
+        "sound": "mouse-click",
+        "file": "public/sfx/mouse-click.wav",
+        "volume": 0.45,
+        "motivo": "m2.atencion"
+      },
+      {
+        "frame": 504,
+        "sound": "zp-thud",
+        "file": "public/sfx/zp-thud.wav",
+        "volume": 0.224,
+        "motivo": "m2.atencion"
+      },
+      {
+        "frame": 596,
+        "sound": "zp-sparkle",
+        "file": "public/sfx/zp-sparkle.wav",
+        "volume": 0.135,
+        "motivo": "m3.millones"
+      },
+      {
+        "frame": 670,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e4 · énfasis"
+      },
+      {
+        "frame": 704,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.18,
+        "motivo": "m3.audiencia"
+      },
+      {
+        "frame": 754,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e5 · énfasis"
+      },
+      {
+        "frame": 795,
+        "sound": "whoosh",
+        "file": "public/sfx/whoosh.wav",
+        "volume": 0.405,
+        "motivo": "m4.meta"
+      },
+      {
+        "frame": 818,
+        "sound": "zp-thud",
+        "file": "public/sfx/zp-thud.wav",
+        "volume": 0.256,
+        "motivo": "m4.muse"
+      },
+      {
+        "frame": 882,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.216,
+        "motivo": "m5.ia"
+      },
+      {
+        "frame": 940,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "m5.negocios"
+      },
+      {
+        "frame": 955,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e6 · énfasis"
+      },
+      {
+        "frame": 957,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "m5.tareas"
+      },
+      {
+        "frame": 1008,
+        "sound": "mouse-click",
+        "file": "public/sfx/mouse-click.wav",
+        "volume": 0.35,
+        "motivo": "m5.info"
+      },
+      {
+        "frame": 1032,
+        "sound": "mouse-click",
+        "file": "public/sfx/mouse-click.wav",
+        "volume": 0.35,
+        "motivo": "m5.herramientas"
+      },
+      {
+        "frame": 1064,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.18,
+        "motivo": "m5.conectadas"
+      },
+      {
+        "frame": 1087,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.216,
+        "motivo": "m6.ejemplo"
+      },
+      {
+        "frame": 1143,
+        "sound": "zp-keys",
+        "file": "public/sfx/zp-keys.wav",
+        "volume": 0.16,
+        "motivo": "m6.tecleo"
+      },
+      {
+        "frame": 1186,
+        "sound": "mouse-click",
+        "file": "public/sfx/mouse-click.wav",
+        "volume": 0.5,
+        "motivo": "m6.fin"
+      },
+      {
+        "frame": 1194,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.14,
+        "motivo": "m6.fin"
+      },
+      {
+        "frame": 1255,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.18,
+        "motivo": "m7.facebook"
+      },
+      {
+        "frame": 1274,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.18,
+        "motivo": "m7.instagram"
+      },
+      {
+        "frame": 1331,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.216,
+        "motivo": "m7.shopify"
+      },
+      {
+        "frame": 1349,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.216,
+        "motivo": "m7.canva"
+      },
+      {
+        "frame": 1368,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.216,
+        "motivo": "m7.notion"
+      },
+      {
+        "frame": 1385,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.162,
+        "motivo": "m7.etc"
+      },
+      {
+        "frame": 1485,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.16,
+        "motivo": "m8.contenido"
+      },
+      {
+        "frame": 1508,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.16,
+        "motivo": "m8.audiencia"
+      },
+      {
+        "frame": 1538,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.16,
+        "motivo": "m8.ejecucion"
+      },
+      {
+        "frame": 1559,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e7 · énfasis"
+      },
+      {
+        "frame": 1587,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.24,
+        "motivo": "m8.ventas"
+      },
+      {
+        "frame": 1587,
+        "sound": "zp-chime",
+        "file": "public/sfx/zp-chime.wav",
+        "volume": 0.126,
+        "motivo": "m8.ventas"
+      },
+      {
+        "frame": 1698,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e8 · énfasis"
+      },
+      {
+        "frame": 1700,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.18,
+        "motivo": "m9.menos"
+      },
+      {
+        "frame": 1806,
+        "sound": "mouse-click",
+        "file": "public/sfx/mouse-click.wav",
+        "volume": 0.45,
+        "motivo": "m9.vendérselo"
+      },
+      {
+        "frame": 1890,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.16,
+        "motivo": "m10.redes"
+      },
+      {
+        "frame": 1941,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.16,
+        "motivo": "m10.consumir"
+      },
+      {
+        "frame": 1980,
+        "sound": "whoosh",
+        "file": "public/sfx/whoosh.wav",
+        "volume": 0.36,
+        "motivo": "m10.otros"
+      },
+      {
+        "frame": 2065,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.18,
+        "motivo": "m10.construir"
+      },
+      {
+        "frame": 2094,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.128,
+        "motivo": "p4.automatizar"
+      },
+      {
+        "frame": 2101,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.128,
+        "motivo": "p4.automatizar"
+      },
+      {
+        "frame": 2141,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "p4.generar"
+      },
+      {
+        "frame": 2195,
+        "sound": "zp-text",
+        "file": "public/sfx/zp-text.wav",
+        "volume": 0.2,
+        "motivo": "e9 · énfasis"
+      }
+    ],
+    "sfxDropped": [],
+    "musica": {
+      "generador": "library/music/synth-music.mjs",
+      "bpm": 96,
+      "nivel": -31,
+      "duckingDb": -5,
+      "finalDesde": 2197,
+      "finalDb": -10,
+      "motivo": "Música instrumental discreta sin letra, propia (síntesis); baja bajo la voz y en la última frase."
+    }
+  },
+  "durationInFrames": 2230,
+  "durationSeconds": 74.33,
+  "reviewNotice": "VIDEO-002 · PREVIEW v3 · PENDIENTE DE REVISIÓN",
+  "investigacionRecursos": "analysis/video-002-support-research.json"
+}

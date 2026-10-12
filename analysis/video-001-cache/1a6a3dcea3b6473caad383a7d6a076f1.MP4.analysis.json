@@ -1,0 +1,190 @@
+{
+  "sourceFile": "1a6a3dcea3b6473caad383a7d6a076f1.MP4",
+  "durationSeconds": 52.7,
+  "transcript": "Aquí es donde se pone interesante porque al parecer Samsung su su prioridad es ser lo primero. Aquí básicamente lo hemos notado, pero para Apple al parecer la prioridad no es históricamente lo primero, sino llegar después, llegar para vender otra idea diferente. Así que no importa... Al parecer a Apple no le importa quién llegó primero, sino más bien decir: mira cómo lo hacemos nosotros. Fijándo... Fijándonos incluso la forma en que presenta el Duo es la forma más atractiva para cualquier otra marca, marcando... marcando tendencia. Muchos están obsesionados por ser los primeros.",
+  "timestamps": [
+    {
+      "startTime": 0,
+      "endTime": 2.1,
+      "text": "Aquí es donde se pone interesante"
+    },
+    {
+      "startTime": 2.1,
+      "endTime": 5.5,
+      "text": "porque al parecer Samsung su su prioridad es ser lo primero."
+    },
+    {
+      "startTime": 5.5,
+      "endTime": 7.5,
+      "text": "Aquí básicamente"
+    },
+    {
+      "startTime": 7.5,
+      "endTime": 10,
+      "text": "lo hemos notado, pero para Apple"
+    },
+    {
+      "startTime": 10,
+      "endTime": 13.5,
+      "text": "al parecer la prioridad no es históricamente lo primero,"
+    },
+    {
+      "startTime": 13.5,
+      "endTime": 17,
+      "text": "sino llegar después, llegar"
+    },
+    {
+      "startTime": 17,
+      "endTime": 19,
+      "text": "para vender otra idea diferente."
+    },
+    {
+      "startTime": 19,
+      "endTime": 23,
+      "text": "Así que no importa..."
+    },
+    {
+      "startTime": 23,
+      "endTime": 27.2,
+      "text": "Al parecer a Apple no le importa quién llegó primero,"
+    },
+    {
+      "startTime": 27.2,
+      "endTime": 29.2,
+      "text": "sino más bien..."
+    },
+    {
+      "startTime": 29.2,
+      "endTime": 32.5,
+      "text": "decir: mira cómo lo hacemos nosotros."
+    },
+    {
+      "startTime": 32.5,
+      "endTime": 35,
+      "text": "Fijándo..."
+    },
+    {
+      "startTime": 37.5,
+      "endTime": 41.5,
+      "text": "Fijándonos incluso la forma en que presenta el Duo"
+    },
+    {
+      "startTime": 41.5,
+      "endTime": 45,
+      "text": "es la forma más atractiva"
+    },
+    {
+      "startTime": 45,
+      "endTime": 48,
+      "text": "para cualquier otra marca, marcando..."
+    },
+    {
+      "startTime": 48,
+      "endTime": 49.5,
+      "text": "marcando tendencia."
+    },
+    {
+      "startTime": 49.5,
+      "endTime": 52.7,
+      "text": "Muchos están obsesionados por ser los primeros."
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Mientras que Apple históricamente ha construido una marca que puede llegar después y venderte otra idea: 'No importa quién llegó primero. Mira cómo lo hicimos nosotros.'",
+      "match": "pero para Apple al parecer la prioridad no es históricamente lo primero, sino llegar después, llegar para vender otra idea diferente. Así que no importa... Al parecer a Apple no le importa quién llegó primero, sino más bien decir: mira cómo lo hacemos nosotros.",
+      "confidence": 0.72
+    },
+    {
+      "guionBlock": "Y fíjate incluso en cómo presentan el Duo.",
+      "match": "Fijándonos incluso la forma en que presenta el Duo es la forma más atractiva para cualquier otra marca",
+      "confidence": 0.65
+    },
+    {
+      "guionBlock": "Muchos están obsesionados con ser los primeros.",
+      "match": "Muchos están obsesionados por ser los primeros.",
+      "confidence": 0.95
+    }
+  ],
+  "errors": [
+    "Orientación del video incorrecta (grabado de lado / 90 grados a la izquierda).",
+    "Desviación importante del guion original con improvisación y paráfrasis extensa.",
+    "Tartamudeo y pausas prolongadas en la ejecución."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 2.8,
+      "endTime": 3.8,
+      "reason": "Repetición de palabra ('su su prioridad')."
+    },
+    {
+      "startTime": 15,
+      "endTime": 16.5,
+      "reason": "Repetición del verbo ('llegar después, llegar')."
+    },
+    {
+      "startTime": 32.5,
+      "endTime": 37,
+      "reason": "Palabra trunca ('Fijándo...') seguida de pausa prolongada antes de reiniciar la frase."
+    },
+    {
+      "startTime": 45.5,
+      "endTime": 48,
+      "reason": "Repetición de palabra ('marcando... marcando tendencia')."
+    }
+  ],
+  "fluency": {
+    "score": 5,
+    "notes": "Fluidez baja debido a reintentos de palabras, vacilaciones y muletillas de corrección a lo largo del fragmento."
+  },
+  "audio": {
+    "score": 8,
+    "notes": "Voz clara capturada con micrófono de auricular, volumen y nitidez aceptables sin ruido ambiental excesivo."
+  },
+  "visualQuality": {
+    "score": 5,
+    "notes": "Calidad de video aceptable en resolución pero con orientación errónea (rotado 90° antihorario) e iluminación con fuerte tinte rojo/azul."
+  },
+  "framing": {
+    "score": 4,
+    "notes": "Encuadre inadecuado debido a la orientación vertical inclinada horizontalmente. Requiere rotación de 90° en edición."
+  },
+  "expression": {
+    "score": 6,
+    "notes": "Expresión natural y relajada, aunque la mirada se desvía constantemente hacia la pantalla o abajo en vez de al lente."
+  },
+  "fidelity": {
+    "score": 5,
+    "notes": "Baja fidelidad al guion de referencia; se sintetizan ideas principales pero cambiando la estructura y redacción exacta."
+  },
+  "continuity": {
+    "score": 5,
+    "notes": "Continuidad interrumpida por frecuentes dudas y autocorrecciones en el habla."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar esta toma y solicitar una re-grabación. El video se grabó con la cámara girada 90 grados (orientación lateral) y el presentador comete múltiples vacilaciones, repeticiones de palabras y paráfrasis del guion.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/1g2vjw8uzkgp",
+    "analyzedAt": "2026-09-22T00:04:10.254Z",
+    "sha256": "c45ea0dfedc8b61ecb95ed4cd883dc599daaf5cadab75afbf41a9d927550b904",
+    "responseId": "08WxatbUDPqhz7IP5vusiQ4",
+    "usage": {
+      "promptTokenCount": 5653,
+      "candidatesTokenCount": 1809,
+      "totalTokenCount": 8821,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        },
+        {
+          "modality": "VIDEO",
+          "tokenCount": 4813
+        }
+      ],
+      "thoughtsTokenCount": 1359,
+      "serviceTier": "standard"
+    }
+  }
+}

@@ -1,0 +1,1121 @@
+{
+  "sourceFile": "25b212d80cdc44b1964cc6b2e152e9cf.MP4",
+  "sha256": "126c2cbca6ab9a7b9572826a9f013a542480fbaede9fd56af8855ad78df206ea",
+  "provenance": {
+    "tool": "whisper.cpp vía @remotion/install-whisper-cpp 4.0.438",
+    "whisperCppVersion": "1.7.2",
+    "model": "large-v3-turbo",
+    "options": {
+      "language": "es",
+      "tokenLevelTimestamps": true,
+      "dtw": "large.v3.turbo",
+      "prompt": "Apple, Samsung, iPhone, iPhone Duo, Galaxy, Galaxy Fold, plegable, posicionamiento de marca.",
+      "extraArgs": [
+        "-ng"
+      ]
+    },
+    "audio": "16 kHz mono PCM extraído del original con FFmpeg",
+    "createdAt": "2026-10-03T22:28:18.012Z",
+    "seconds": 189.5,
+    "note": "Tiempos de token de whisper (offsets) + DTW. Son una transcripción de trabajo: verificar contra la energía del audio antes de fijar cortes."
+  },
+  "text": "Y lo más curioso aún es que en 2023 Samsung saca un comunicado diciendo que ya sus aparatos electrónicos, sus celulares ya no van a tener ni auriculares ni cargadores.[_TT_604] Entonces que en la caja de los productos solamente vas a encontrar el teléfono y el cable de carga, llevando así a que tú tengas también que comprar el cargador o el adaptador de corriente.[_TT_1280] Si tú puedes notar, Apple ha venido revolucionando y se ha venido arriclando y ha encontrado críticas de sus oponentes, llamémoslo así.[_TT_609] Pero con el paso de los tiempos, si todos podemos notar, todos las ads.[_TT_934] Con el paso del tiempo, todo lo que Apple ha venido adaptando para sus sistemas y sus ecosistemas, iOS, todo eso lo ha venido implementando también Samsung.[_TT_1490] Así que literalmente se han copiado.[_TT_160] y todo esto[_TT_62]",
+  "words": [
+    {
+      "text": "Y",
+      "startMs": 0,
+      "endMs": 90,
+      "dtwMs": 1400,
+      "tokens": 1,
+      "pMin": 0.581
+    },
+    {
+      "text": "lo",
+      "startMs": 270,
+      "endMs": 280,
+      "dtwMs": 1540,
+      "tokens": 1,
+      "pMin": 0.982
+    },
+    {
+      "text": "más",
+      "startMs": 290,
+      "endMs": 660,
+      "dtwMs": 1800,
+      "tokens": 1,
+      "pMin": 0.749
+    },
+    {
+      "text": "curioso",
+      "startMs": 660,
+      "endMs": 1310,
+      "dtwMs": 2100,
+      "tokens": 2,
+      "pMin": 0.997
+    },
+    {
+      "text": "aún",
+      "startMs": 1370,
+      "endMs": 1700,
+      "dtwMs": 2600,
+      "tokens": 1,
+      "pMin": 0.965
+    },
+    {
+      "text": "es",
+      "startMs": 1700,
+      "endMs": 1850,
+      "dtwMs": 2780,
+      "tokens": 1,
+      "pMin": 0.986
+    },
+    {
+      "text": "que",
+      "startMs": 1900,
+      "endMs": 2170,
+      "dtwMs": 2920,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "en",
+      "startMs": 2170,
+      "endMs": 2360,
+      "dtwMs": 3040,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "2023",
+      "startMs": 2360,
+      "endMs": 3500,
+      "dtwMs": 3740,
+      "tokens": 1,
+      "pMin": 0.984
+    },
+    {
+      "text": "Samsung",
+      "startMs": 3500,
+      "endMs": 4160,
+      "dtwMs": 4480,
+      "tokens": 1,
+      "pMin": 0.673
+    },
+    {
+      "text": "saca",
+      "startMs": 4160,
+      "endMs": 4530,
+      "dtwMs": 4980,
+      "tokens": 2,
+      "pMin": 0.996
+    },
+    {
+      "text": "un",
+      "startMs": 4530,
+      "endMs": 4720,
+      "dtwMs": 5640,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "comunicado",
+      "startMs": 4720,
+      "endMs": 5660,
+      "dtwMs": 6060,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "diciendo",
+      "startMs": 5700,
+      "endMs": 6500,
+      "dtwMs": 6480,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "que",
+      "startMs": 6500,
+      "endMs": 6730,
+      "dtwMs": 6700,
+      "tokens": 1,
+      "pMin": 0.986
+    },
+    {
+      "text": "ya",
+      "startMs": 6730,
+      "endMs": 6880,
+      "dtwMs": 6860,
+      "tokens": 1,
+      "pMin": 0.966
+    },
+    {
+      "text": "sus",
+      "startMs": 6880,
+      "endMs": 7120,
+      "dtwMs": 7100,
+      "tokens": 1,
+      "pMin": 0.99
+    },
+    {
+      "text": "aparatos",
+      "startMs": 7120,
+      "endMs": 7660,
+      "dtwMs": 7360,
+      "tokens": 3,
+      "pMin": 0.949
+    },
+    {
+      "text": "electrónicos,",
+      "startMs": 7660,
+      "endMs": 8300,
+      "dtwMs": 7980,
+      "tokens": 4,
+      "pMin": 0.782
+    },
+    {
+      "text": "sus",
+      "startMs": 8300,
+      "endMs": 8520,
+      "dtwMs": 8520,
+      "tokens": 1,
+      "pMin": 0.813
+    },
+    {
+      "text": "celulares",
+      "startMs": 8520,
+      "endMs": 9190,
+      "dtwMs": 8680,
+      "tokens": 2,
+      "pMin": 0.998
+    },
+    {
+      "text": "ya",
+      "startMs": 9190,
+      "endMs": 9340,
+      "dtwMs": 9160,
+      "tokens": 1,
+      "pMin": 0.887
+    },
+    {
+      "text": "no",
+      "startMs": 9340,
+      "endMs": 9490,
+      "dtwMs": 9280,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "van",
+      "startMs": 9490,
+      "endMs": 9710,
+      "dtwMs": 9440,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "a",
+      "startMs": 9710,
+      "endMs": 9780,
+      "dtwMs": 9560,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tener",
+      "startMs": 9780,
+      "endMs": 10140,
+      "dtwMs": 9840,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "ni",
+      "startMs": 10150,
+      "endMs": 10280,
+      "dtwMs": 10500,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "auriculares",
+      "startMs": 10300,
+      "endMs": 11120,
+      "dtwMs": 10740,
+      "tokens": 3,
+      "pMin": 0.991
+    },
+    {
+      "text": "ni",
+      "startMs": 11120,
+      "endMs": 11270,
+      "dtwMs": 11500,
+      "tokens": 1,
+      "pMin": 0.989
+    },
+    {
+      "text": "cargadores.[_TT_604]",
+      "startMs": 11270,
+      "endMs": 12080,
+      "dtwMs": 11760,
+      "tokens": 5,
+      "pMin": 0.392
+    },
+    {
+      "text": "Entonces",
+      "startMs": 12080,
+      "endMs": 12700,
+      "dtwMs": 13040,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "que",
+      "startMs": 12700,
+      "endMs": 12930,
+      "dtwMs": 13920,
+      "tokens": 1,
+      "pMin": 0.635
+    },
+    {
+      "text": "en",
+      "startMs": 12940,
+      "endMs": 13080,
+      "dtwMs": 14020,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "la",
+      "startMs": 13080,
+      "endMs": 13230,
+      "dtwMs": 14120,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "caja",
+      "startMs": 13230,
+      "endMs": 13530,
+      "dtwMs": 14280,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "de",
+      "startMs": 13530,
+      "endMs": 13680,
+      "dtwMs": 14460,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "los",
+      "startMs": 13680,
+      "endMs": 13910,
+      "dtwMs": 14580,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "productos",
+      "startMs": 13910,
+      "endMs": 14590,
+      "dtwMs": 14940,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "solamente",
+      "startMs": 14610,
+      "endMs": 15310,
+      "dtwMs": 15560,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "vas",
+      "startMs": 15310,
+      "endMs": 15540,
+      "dtwMs": 15880,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "a",
+      "startMs": 15540,
+      "endMs": 15600,
+      "dtwMs": 15900,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "encontrar",
+      "startMs": 15600,
+      "endMs": 16310,
+      "dtwMs": 16280,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "el",
+      "startMs": 16310,
+      "endMs": 16460,
+      "dtwMs": 16560,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "teléfono",
+      "startMs": 16460,
+      "endMs": 17150,
+      "dtwMs": 16780,
+      "tokens": 3,
+      "pMin": 0.992
+    },
+    {
+      "text": "y",
+      "startMs": 17150,
+      "endMs": 17220,
+      "dtwMs": 17300,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "el",
+      "startMs": 17220,
+      "endMs": 17370,
+      "dtwMs": 17800,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "cable",
+      "startMs": 17370,
+      "endMs": 17760,
+      "dtwMs": 18140,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "de",
+      "startMs": 17760,
+      "endMs": 17900,
+      "dtwMs": 18320,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "carga,",
+      "startMs": 17920,
+      "endMs": 18600,
+      "dtwMs": 18580,
+      "tokens": 2,
+      "pMin": 0.781
+    },
+    {
+      "text": "llevando",
+      "startMs": 18600,
+      "endMs": 19300,
+      "dtwMs": 19640,
+      "tokens": 2,
+      "pMin": 0.739
+    },
+    {
+      "text": "así",
+      "startMs": 19300,
+      "endMs": 19650,
+      "dtwMs": 20240,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "a",
+      "startMs": 19650,
+      "endMs": 19730,
+      "dtwMs": 20880,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "que",
+      "startMs": 19730,
+      "endMs": 19990,
+      "dtwMs": 21020,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tú",
+      "startMs": 19990,
+      "endMs": 20250,
+      "dtwMs": 21160,
+      "tokens": 1,
+      "pMin": 0.985
+    },
+    {
+      "text": "tengas",
+      "startMs": 20250,
+      "endMs": 20760,
+      "dtwMs": 21400,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "también",
+      "startMs": 20810,
+      "endMs": 21470,
+      "dtwMs": 21980,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "que",
+      "startMs": 21470,
+      "endMs": 21680,
+      "dtwMs": 22180,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "comprar",
+      "startMs": 21720,
+      "endMs": 22340,
+      "dtwMs": 22680,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "el",
+      "startMs": 22340,
+      "endMs": 22510,
+      "dtwMs": 23320,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "cargador",
+      "startMs": 22510,
+      "endMs": 23200,
+      "dtwMs": 23820,
+      "tokens": 3,
+      "pMin": 0.978
+    },
+    {
+      "text": "o",
+      "startMs": 23200,
+      "endMs": 23280,
+      "dtwMs": 24600,
+      "tokens": 1,
+      "pMin": 0.793
+    },
+    {
+      "text": "el",
+      "startMs": 23280,
+      "endMs": 23450,
+      "dtwMs": 24700,
+      "tokens": 1,
+      "pMin": 0.981
+    },
+    {
+      "text": "adaptador",
+      "startMs": 23450,
+      "endMs": 24240,
+      "dtwMs": 24920,
+      "tokens": 2,
+      "pMin": 0.92
+    },
+    {
+      "text": "de",
+      "startMs": 24240,
+      "endMs": 24410,
+      "dtwMs": 25180,
+      "tokens": 1,
+      "pMin": 0.969
+    },
+    {
+      "text": "corriente.[_TT_1280]",
+      "startMs": 24410,
+      "endMs": 25600,
+      "dtwMs": 25400,
+      "tokens": 4,
+      "pMin": 0.264
+    },
+    {
+      "text": "Si",
+      "startMs": 25740,
+      "endMs": 25940,
+      "dtwMs": 26280,
+      "tokens": 1,
+      "pMin": 0.944
+    },
+    {
+      "text": "tú",
+      "startMs": 25940,
+      "endMs": 26230,
+      "dtwMs": 26480,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "puedes",
+      "startMs": 26250,
+      "endMs": 26820,
+      "dtwMs": 26720,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "notar,",
+      "startMs": 26820,
+      "endMs": 27490,
+      "dtwMs": 26900,
+      "tokens": 3,
+      "pMin": 0.656
+    },
+    {
+      "text": "Apple",
+      "startMs": 27490,
+      "endMs": 27980,
+      "dtwMs": 27580,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "ha",
+      "startMs": 27980,
+      "endMs": 28180,
+      "dtwMs": 28060,
+      "tokens": 1,
+      "pMin": 0.991
+    },
+    {
+      "text": "venido",
+      "startMs": 28180,
+      "endMs": 28740,
+      "dtwMs": 28200,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "revolucionando",
+      "startMs": 28760,
+      "endMs": 30110,
+      "dtwMs": 28600,
+      "tokens": 4,
+      "pMin": 0.964
+    },
+    {
+      "text": "y",
+      "startMs": 30110,
+      "endMs": 30220,
+      "dtwMs": 29080,
+      "tokens": 1,
+      "pMin": 0.658
+    },
+    {
+      "text": "se",
+      "startMs": 30220,
+      "endMs": 30420,
+      "dtwMs": 29160,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "ha",
+      "startMs": 30460,
+      "endMs": 30620,
+      "dtwMs": 29240,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "venido",
+      "startMs": 30620,
+      "endMs": 31200,
+      "dtwMs": 29360,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "arriclando",
+      "startMs": 31200,
+      "endMs": 32150,
+      "dtwMs": 29620,
+      "tokens": 3,
+      "pMin": 0.208
+    },
+    {
+      "text": "y",
+      "startMs": 32180,
+      "endMs": 32270,
+      "dtwMs": 30640,
+      "tokens": 1,
+      "pMin": 0.981
+    },
+    {
+      "text": "ha",
+      "startMs": 32280,
+      "endMs": 32480,
+      "dtwMs": 30760,
+      "tokens": 1,
+      "pMin": 0.995
+    },
+    {
+      "text": "encontrado",
+      "startMs": 32480,
+      "endMs": 33450,
+      "dtwMs": 31140,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "críticas",
+      "startMs": 33460,
+      "endMs": 34340,
+      "dtwMs": 31640,
+      "tokens": 2,
+      "pMin": 0.979
+    },
+    {
+      "text": "de",
+      "startMs": 34340,
+      "endMs": 34540,
+      "dtwMs": 35200,
+      "tokens": 1,
+      "pMin": 0.98
+    },
+    {
+      "text": "sus",
+      "startMs": 34540,
+      "endMs": 34830,
+      "dtwMs": 35500,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "oponentes,",
+      "startMs": 34830,
+      "endMs": 35890,
+      "dtwMs": 36680,
+      "tokens": 4,
+      "pMin": 0.985
+    },
+    {
+      "text": "llamémoslo",
+      "startMs": 35900,
+      "endMs": 36960,
+      "dtwMs": 37380,
+      "tokens": 4,
+      "pMin": 0.988
+    },
+    {
+      "text": "así.[_TT_609]",
+      "startMs": 36960,
+      "endMs": 37920,
+      "dtwMs": 37880,
+      "tokens": 3,
+      "pMin": 0.482
+    },
+    {
+      "text": "Pero",
+      "startMs": 37920,
+      "endMs": 38330,
+      "dtwMs": 38660,
+      "tokens": 1,
+      "pMin": 0.994
+    },
+    {
+      "text": "con",
+      "startMs": 38440,
+      "endMs": 38640,
+      "dtwMs": 39640,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "el",
+      "startMs": 38640,
+      "endMs": 38850,
+      "dtwMs": 39780,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "paso",
+      "startMs": 38850,
+      "endMs": 39260,
+      "dtwMs": 40020,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "de",
+      "startMs": 39260,
+      "endMs": 39470,
+      "dtwMs": 40140,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "los",
+      "startMs": 39550,
+      "endMs": 39780,
+      "dtwMs": 40240,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "tiempos,",
+      "startMs": 39780,
+      "endMs": 40690,
+      "dtwMs": 40420,
+      "tokens": 4,
+      "pMin": 0.91
+    },
+    {
+      "text": "si",
+      "startMs": 40690,
+      "endMs": 40890,
+      "dtwMs": 41440,
+      "tokens": 1,
+      "pMin": 0.469
+    },
+    {
+      "text": "todos",
+      "startMs": 40900,
+      "endMs": 41420,
+      "dtwMs": 41780,
+      "tokens": 1,
+      "pMin": 0.403
+    },
+    {
+      "text": "podemos",
+      "startMs": 41420,
+      "endMs": 42150,
+      "dtwMs": 42180,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "notar,",
+      "startMs": 42150,
+      "endMs": 42850,
+      "dtwMs": 42420,
+      "tokens": 3,
+      "pMin": 0.685
+    },
+    {
+      "text": "todos",
+      "startMs": 42880,
+      "endMs": 43380,
+      "dtwMs": 43240,
+      "tokens": 1,
+      "pMin": 0.57
+    },
+    {
+      "text": "las",
+      "startMs": 43390,
+      "endMs": 43690,
+      "dtwMs": 43860,
+      "tokens": 1,
+      "pMin": 0.8
+    },
+    {
+      "text": "ads.[_TT_934]",
+      "startMs": 43690,
+      "endMs": 44420,
+      "dtwMs": 44380,
+      "tokens": 3,
+      "pMin": 0.385
+    },
+    {
+      "text": "Con",
+      "startMs": 44420,
+      "endMs": 44630,
+      "dtwMs": 45240,
+      "tokens": 1,
+      "pMin": 0.968
+    },
+    {
+      "text": "el",
+      "startMs": 44630,
+      "endMs": 44770,
+      "dtwMs": 45360,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "paso",
+      "startMs": 44770,
+      "endMs": 45060,
+      "dtwMs": 45600,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "del",
+      "startMs": 45080,
+      "endMs": 45270,
+      "dtwMs": 45720,
+      "tokens": 1,
+      "pMin": 0.997
+    },
+    {
+      "text": "tiempo,",
+      "startMs": 45270,
+      "endMs": 45840,
+      "dtwMs": 46000,
+      "tokens": 2,
+      "pMin": 0.972
+    },
+    {
+      "text": "todo",
+      "startMs": 45840,
+      "endMs": 46130,
+      "dtwMs": 46280,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lo",
+      "startMs": 46130,
+      "endMs": 46270,
+      "dtwMs": 46440,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "que",
+      "startMs": 46270,
+      "endMs": 46470,
+      "dtwMs": 46620,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "Apple",
+      "startMs": 46480,
+      "endMs": 46840,
+      "dtwMs": 47100,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "ha",
+      "startMs": 46840,
+      "endMs": 46980,
+      "dtwMs": 47380,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "venido",
+      "startMs": 46980,
+      "endMs": 47400,
+      "dtwMs": 47560,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "adaptando",
+      "startMs": 47400,
+      "endMs": 48050,
+      "dtwMs": 48000,
+      "tokens": 2,
+      "pMin": 0.946
+    },
+    {
+      "text": "para",
+      "startMs": 48050,
+      "endMs": 48330,
+      "dtwMs": 48480,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "sus",
+      "startMs": 48340,
+      "endMs": 48550,
+      "dtwMs": 48720,
+      "tokens": 1,
+      "pMin": 0.998
+    },
+    {
+      "text": "sistemas",
+      "startMs": 48550,
+      "endMs": 49130,
+      "dtwMs": 49200,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "y",
+      "startMs": 49130,
+      "endMs": 49200,
+      "dtwMs": 49360,
+      "tokens": 1,
+      "pMin": 0.907
+    },
+    {
+      "text": "sus",
+      "startMs": 49200,
+      "endMs": 49410,
+      "dtwMs": 49520,
+      "tokens": 1,
+      "pMin": 0.875
+    },
+    {
+      "text": "ecosistemas,",
+      "startMs": 49410,
+      "endMs": 50480,
+      "dtwMs": 49860,
+      "tokens": 4,
+      "pMin": 0.46
+    },
+    {
+      "text": "iOS,",
+      "startMs": 50480,
+      "endMs": 51040,
+      "dtwMs": 50960,
+      "tokens": 2,
+      "pMin": 0.296
+    },
+    {
+      "text": "todo",
+      "startMs": 51040,
+      "endMs": 51400,
+      "dtwMs": 52220,
+      "tokens": 1,
+      "pMin": 0.748
+    },
+    {
+      "text": "eso",
+      "startMs": 51560,
+      "endMs": 51690,
+      "dtwMs": 52480,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "lo",
+      "startMs": 51690,
+      "endMs": 51870,
+      "dtwMs": 52640,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "ha",
+      "startMs": 51870,
+      "endMs": 51950,
+      "dtwMs": 52780,
+      "tokens": 1,
+      "pMin": 1
+    },
+    {
+      "text": "venido",
+      "startMs": 52060,
+      "endMs": 52610,
+      "dtwMs": 52940,
+      "tokens": 2,
+      "pMin": 1
+    },
+    {
+      "text": "implementando",
+      "startMs": 52610,
+      "endMs": 53820,
+      "dtwMs": 54340,
+      "tokens": 2,
+      "pMin": 0.999
+    },
+    {
+      "text": "también",
+      "startMs": 53820,
+      "endMs": 54560,
+      "dtwMs": 55020,
+      "tokens": 1,
+      "pMin": 0.999
+    },
+    {
+      "text": "Samsung.[_TT_1490]",
+      "startMs": 54560,
+      "endMs": 55540,
+      "dtwMs": 55520,
+      "tokens": 3,
+      "pMin": 0.214
+    },
+    {
+      "text": "Así",
+      "startMs": 55540,
+      "endMs": 55940,
+      "dtwMs": 55860,
+      "tokens": 1,
+      "pMin": 0.235
+    },
+    {
+      "text": "que",
+      "startMs": 55940,
+      "endMs": 56240,
+      "dtwMs": 56080,
+      "tokens": 1,
+      "pMin": 0.988
+    },
+    {
+      "text": "literalmente",
+      "startMs": 56240,
+      "endMs": 57460,
+      "dtwMs": 57020,
+      "tokens": 2,
+      "pMin": 0.902
+    },
+    {
+      "text": "se",
+      "startMs": 57460,
+      "endMs": 57660,
+      "dtwMs": 57920,
+      "tokens": 1,
+      "pMin": 0.915
+    },
+    {
+      "text": "han",
+      "startMs": 57670,
+      "endMs": 57990,
+      "dtwMs": 58180,
+      "tokens": 1,
+      "pMin": 0.992
+    },
+    {
+      "text": "copiado.[_TT_160]",
+      "startMs": 57990,
+      "endMs": 58740,
+      "dtwMs": 58500,
+      "tokens": 5,
+      "pMin": 0.14
+    },
+    {
+      "text": "y",
+      "startMs": 58750,
+      "endMs": 59360,
+      "dtwMs": 59320,
+      "tokens": 1,
+      "pMin": 0.463
+    },
+    {
+      "text": "todo",
+      "startMs": 59360,
+      "endMs": 59880,
+      "dtwMs": 59800,
+      "tokens": 1,
+      "pMin": 0.728
+    },
+    {
+      "text": "esto[_TT_62]",
+      "startMs": 59880,
+      "endMs": 59980,
+      "dtwMs": 59940,
+      "tokens": 2,
+      "pMin": 0.191
+    }
+  ]
+}

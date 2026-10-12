@@ -1,0 +1,50 @@
+{
+  "createdAt": "2026-10-04T13:46:37.555Z",
+  "method": "Suma de cues por muestra (frame × 1600) con la ganancia de cada cue; limitador local a −6 dBFS solo donde un pico lo supera. Sonidos: library/sfx/sfx.json.",
+  "seconds": 162.833,
+  "cues": 103,
+  "descartados": 12,
+  "porSonido": {
+    "zp-pop": 13,
+    "zp-swish": 21,
+    "zp-rise": 5,
+    "zp-tap": 10,
+    "zp-chime": 4,
+    "zp-text": 3,
+    "zp-thud": 2,
+    "zp-pop-hi": 5,
+    "shutter-modern": 5,
+    "zp-tick": 5,
+    "zp-clunk": 1,
+    "zp-unplug": 1,
+    "zp-swish-up": 3,
+    "zp-confirm": 4,
+    "zp-marker": 5,
+    "zp-alert": 3,
+    "zp-stamp": 2,
+    "zp-sparkle": 2,
+    "zp-assemble": 1,
+    "zp-drop": 2,
+    "zp-step": 3,
+    "zp-snap": 1,
+    "zp-tock": 1,
+    "mouse-click": 1
+  },
+  "picoAntesDeSeguridad_dBFS": -2.7,
+  "picoEn_s": 162.55,
+  "limitador": {
+    "gananciaMinima": 0.684,
+    "segundosLimitados": 0.378
+  },
+  "efectos": {
+    "I": -29.8,
+    "TP": -5.3,
+    "Mmax": -20.9
+  },
+  "voz": {
+    "I": -14.7,
+    "TP": -1.5,
+    "Mmax": -9.7
+  },
+  "nota": "Momentánea máxima de los efectos frente a la integrada de la voz: los efectos deben quedar por debajo de la voz. Ajustar escuchando."
+}

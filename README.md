@@ -22,9 +22,10 @@ src/
   compositions/     # Definiciones de composiciones Remotion (GeminiVideoLab, LibraryShowcase)
   styles/           # Estilos globales y tokens visuales
   lib/              # Tokens de diseño, constantes y utilidades
-docs/               # Documentación y lineamientos arquitectónicos del sistema
+docs/               # Documentación y lineamientos arquitectónicos del sistema (RAÍZ)
+formatos/           # Una carpeta por formato (EDIT_TYPE) y, dentro, una por video: ficha y exportaciones
 public/             # Archivos estáticos y recursos multimedia
-out/                # Videos MP4 renderizados
+out/                # Salida de paso del render (la exportación final va a formatos/…/exportaciones/)
 ```
 
 ## Biblioteca Base Remotion (LIB-001)

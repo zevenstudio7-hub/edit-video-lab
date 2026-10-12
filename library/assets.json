@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "descripcion": "Manifiesto de procedencia de recursos externos (tipografías, clips, audio, Lottie, recortes, imágenes y capturas web). Cada uso se registra con fuente, licencia, URL, fecha y estado. Los archivos de VIDEO-001 se regeneran con node src/videoAnalysis/prepareSupportAssets.mjs.",
+  "estados": [
+    "pendiente",
+    "usado",
+    "descartado"
+  ],
+  "campos_item": [
+    "id",
+    "archivo",
+    "fuente",
+    "licencia",
+    "url",
+    "fecha",
+    "estado",
+    "video"
+  ],
+  "items": [
+    {
+      "id": "commons-s5-battery",
+      "archivo": "public/video-001/support/commons-s5-battery.jpg",
+      "fuente": "Wikimedia Commons · Andreas Franzkowiak",
+      "licencia": "CC BY-SA 4.0 (atribución visible en el video)",
+      "url": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S5_mini_open.jpg",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Galaxy S5 mini abierto: batería extraíble y tapa."
+    },
+    {
+      "id": "commons-galaxy-fold-2019",
+      "archivo": "public/video-001/support/commons-galaxy-fold-2019.jpg",
+      "fuente": "Wikimedia Commons · KKPCW",
+      "licencia": "CC BY-SA 4.0 (atribución visible en el video)",
+      "url": "https://commons.wikimedia.org/wiki/File:Galaxy_Fold_-_1.jpg",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Galaxy Fold original (2019) en la mano."
+    },
+    {
+      "id": "commons-iphone-ports",
+      "archivo": "public/video-001/support/commons-iphone-ports.jpg",
+      "fuente": "Wikimedia Commons · Thsdb",
+      "licencia": "CC BY-SA 4.0 (atribución visible en el video)",
+      "url": "https://commons.wikimedia.org/wiki/File:IPhones_6,_7,_8,_SE2_black_-_bottom_view.jpg",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Base de iPhone 6 (con conector de audífonos) sobre iPhone 7, 8 y SE (sin él)."
+    },
+    {
+      "id": "commons-headphone-adapter",
+      "archivo": "public/video-001/support/commons-headphone-adapter.jpg",
+      "fuente": "Wikimedia Commons · Amin",
+      "licencia": "CC BY-SA 4.0 (atribución visible en el video)",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_Lightning_to_3.5_mm_Headphone_Jack_Adapter.jpg",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Adaptador Lightning a 3,5 mm de Apple."
+    },
+    {
+      "id": "web-wallhuggers-2014",
+      "archivo": "public/video-001/support/web-wallhuggers-2014.png",
+      "fuente": "www.iphoneincanada.ca",
+      "licencia": "Captura de página pública como cita del hecho comentado (no licencia de reutilización); fuente visible en el video",
+      "url": "https://www.iphoneincanada.ca/news/galaxy-s5-ad-iphone-wall-huggers/",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Titular «New Samsung Galaxy S5 Ad Slams iPhone Users as ‘Wall Huggers’» con fotograma del anuncio (2014)."
+    },
+    {
+      "id": "web-wallhuggers-airport-title",
+      "archivo": "public/video-001/support/web-wallhuggers-airport-title.png",
+      "fuente": "www.macrumors.com",
+      "licencia": "Captura de página pública como cita del hecho comentado (no licencia de reutilización); fuente visible en el video",
+      "url": "https://www.macrumors.com/2014/08/13/samsung-anti-apple-airport-ad/",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Titular de MacRumors, 13-8-2014: Samsung lleva «Wall Huggers» a los aeropuertos."
+    },
+    {
+      "id": "web-wallhuggers-airport-photo",
+      "archivo": "public/video-001/support/web-wallhuggers-airport-photo.png",
+      "fuente": "www.macrumors.com",
+      "licencia": "Captura de página pública como cita del hecho comentado (no licencia de reutilización); fuente visible en el video",
+      "url": "https://www.macrumors.com/2014/08/13/samsung-anti-apple-airport-ad/",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Foto del anuncio del Galaxy S5 junto a enchufes en un aeropuerto (vía MacRumors/CNET)."
+    },
+    {
+      "id": "web-charger-2020",
+      "archivo": "public/video-001/support/web-charger-2020.png",
+      "fuente": "9to5mac.com",
+      "licencia": "Captura de página pública como cita del hecho comentado (no licencia de reutilización); fuente visible en el video",
+      "url": "https://9to5mac.com/2020/12/07/samsung-ditch-power-adapters-after-mocking-apple/",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Titular de 9to5Mac, 7-12-2020: Samsung quitará el cargador tres meses después de burlarse de Apple."
+    },
+    {
+      "id": "web-duo-2026-title",
+      "archivo": "public/video-001/support/web-duo-2026-title.png",
+      "fuente": "www.apple.com",
+      "licencia": "Captura de página pública como cita del hecho comentado (no licencia de reutilización); fuente visible en el video",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Nota de prensa de Apple, 9-9-2026: «Apple unveils iPhone Duo»."
+    },
+    {
+      "id": "web-duo-2026-hero",
+      "archivo": "public/video-001/support/web-duo-2026-hero.png",
+      "fuente": "www.apple.com",
+      "licencia": "Captura de página pública como cita del hecho comentado (no licencia de reutilización); fuente visible en el video",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": "VIDEO-001",
+      "contenido": "Imagen principal de la nota de Apple: iPhone Duo plegado en la mano."
+    },
+    {
+      "id": "modelo-rnnoise-sh",
+      "archivo": "library/audio/models/sh.rnnn",
+      "fuente": "GregorR/rnnoise-models, somnolent-hogwash-2018-09-01 (voz hablada con ruido de grabación)",
+      "licencia": "Sin derechos de autor según el README del autor (declaración del autor; no revisada por un abogado)",
+      "url": "https://github.com/GregorR/rnnoise-models",
+      "fecha": "2026-10-03",
+      "estado": "usado",
+      "video": null,
+      "nota": "Lo usa library/audio/clean-voice.mjs (sha256 70bb6685eb0c2a1d18e2918dca3fbfbd39317010b1802eb1b6ea73a92f3fdec0). Aún no hay un video que haya pasado por la cadena."
+    },
+    {
+      "id": "video002-meta-anuncio-titulo",
+      "archivo": "public/video-002/support/meta-anuncio-titulo.jpg",
+      "fuente": "Meta (newsroom)",
+      "licencia": "Cita con fuente visible y decisión documentada (RAÍZ: capturas usadas como cita o evidencia). Derechos: permitido.",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "permitido",
+      "atribucion": "Captura de about.fb.com · Meta, 29 sep 2026"
+    },
+    {
+      "id": "video002-meta-muse-oficial",
+      "archivo": "public/video-002/support/meta-muse-oficial.png",
+      "fuente": "Meta",
+      "licencia": "Sin licencia escrita para esta imagen. El paquete de prensa del mismo anuncio exige uso personal o editorial no comercial y prohíbe alterar imágenes sin permiso de Meta: se muestra completa, sin recortes, con fuente visible. Derechos: requiere_revision.",
+      "url": "https://about.fb.com/wp-content/uploads/2026/09/The-Future-Is-for-Everyone_Muse-for-Small-Business_Social-Share.png",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": "Imagen oficial de Meta · about.fb.com"
+    },
+    {
+      "id": "video002-logo-facebook",
+      "archivo": "public/video-002/logos/facebook.svg",
+      "fuente": "Simple Icons (marca de Meta)",
+      "licencia": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit. Derechos: requiere_revision.",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/facebook.svg",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    },
+    {
+      "id": "video002-logo-instagram",
+      "archivo": "public/video-002/logos/instagram.svg",
+      "fuente": "Simple Icons (marca de Meta)",
+      "licencia": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit. Derechos: requiere_revision.",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/instagram.svg",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    },
+    {
+      "id": "video002-logo-tiktok",
+      "archivo": "public/video-002/logos/tiktok.svg",
+      "fuente": "Simple Icons (marca de TikTok / ByteDance)",
+      "licencia": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit. Derechos: requiere_revision.",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/tiktok.svg",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    },
+    {
+      "id": "video002-logo-meta",
+      "archivo": "public/video-002/logos/meta.svg",
+      "fuente": "Simple Icons (marca de Meta)",
+      "licencia": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit. Derechos: requiere_revision.",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/meta.svg",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    },
+    {
+      "id": "video002-logo-shopify",
+      "archivo": "public/video-002/logos/shopify.svg",
+      "fuente": "Simple Icons (marca de Shopify)",
+      "licencia": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit. Derechos: requiere_revision.",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/shopify.svg",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    },
+    {
+      "id": "video002-logo-notion",
+      "archivo": "public/video-002/logos/notion.svg",
+      "fuente": "Simple Icons (marca de Notion Labs)",
+      "licencia": "Datos del icono con licencia CC0 (Simple Icons); la marca pertenece a su titular. La RAÍZ prefiere el archivo oficial del kit. Derechos: requiere_revision.",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0/icons/notion.svg",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    },
+    {
+      "id": "video002-logo-canva",
+      "archivo": "public/video-002/logos/canva.svg",
+      "fuente": "Canva",
+      "licencia": "Archivo oficial de la web de Canva; sin licencia escrita revisada. Derechos: requiere_revision.",
+      "url": "https://www.canva.com/newsroom/news/ (cabecera, SVG incrustado)",
+      "fecha": "2026-10-05",
+      "estado": "usado",
+      "video": "VIDEO-002",
+      "derechos": "requiere_revision",
+      "atribucion": null
+    }
+  ],
+  "fuentes_candidatas": [
+    {
+      "nombre": "Pexels",
+      "url": "https://www.pexels.com/license/",
+      "licencia_declarada": "Licencia Pexels",
+      "verificado": false,
+      "nota": "Video e imagen de stock. Leer la licencia vigente antes de usar un clip."
+    },
+    {
+      "nombre": "Poly Haven",
+      "url": "https://polyhaven.com/license",
+      "licencia_declarada": "CC0",
+      "verificado": false,
+      "nota": "Texturas, HDRI y modelos 3D."
+    },
+    {
+      "nombre": "LottieFiles",
+      "url": "https://lottiefiles.com/page/license",
+      "licencia_declarada": "Lottie Simple License",
+      "verificado": false,
+      "nota": "Animaciones Lottie. Requiere @remotion/lottie (dependencia nueva: no instalada)."
+    },
+    {
+      "nombre": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+      "licencia_declarada": "Según cada archivo (CC BY-SA 4.0 en los usados)",
+      "verificado": true,
+      "nota": "Licencia y autor leídos de la API de Commons (extmetadata) para cada archivo usado en VIDEO-001."
+    }
+  ]
+}

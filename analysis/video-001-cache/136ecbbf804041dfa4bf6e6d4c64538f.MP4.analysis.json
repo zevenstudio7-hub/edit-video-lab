@@ -1,0 +1,123 @@
+{
+  "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+  "durationSeconds": 35.6,
+  "transcript": "Así que nada, quiero hacer más videos como este analizando productos de tecnología, inteligencia artificial, eh marca personal, marca en general... posicionamiento de marca, etcétera. Así que si quieren... posicionamiento de marca, etcétera. Así que nada, si quieren... si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?",
+  "timestamps": [
+    {
+      "startTime": 1,
+      "endTime": 3.4,
+      "text": "Así que nada, quiero hacer más videos como este,"
+    },
+    {
+      "startTime": 3.4,
+      "endTime": 6.8,
+      "text": "analizando productos de tecnología, inteligencia artificial,"
+    },
+    {
+      "startTime": 6.8,
+      "endTime": 10.2,
+      "text": "eh marca personal, marca en general,"
+    },
+    {
+      "startTime": 19.5,
+      "endTime": 22.1,
+      "text": "posicionamiento de marca, etcétera. Así que si quieren,"
+    },
+    {
+      "startTime": 24.3,
+      "endTime": 28,
+      "text": "posicionamiento de marca, etcétera. Así que nada, si quieren,"
+    },
+    {
+      "startTime": 29.5,
+      "endTime": 34,
+      "text": "si quieren más contenido como este, por favor síganme y no olviden compartirlo. ¿Okey?"
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "N/A - Cierre / Call to Action improvisado",
+      "match": "Ninguno (el contenido no corresponde al cuerpo del guion editorial proporcionado).",
+      "confidence": 0
+    }
+  ],
+  "errors": [
+    "Orientación de video incorrecta: el archivo está grabado o codificado en horizontal girado 90 grados en sentido antihorario; requiere rotación de 90° en sentido horario para visualización vertical correcta.",
+    "Pausa muerta excesivamente larga de casi 9 segundos entre 00:10 y 00:19.",
+    "El orador se toca la cara/nariz y duda en 00:22.",
+    "Contenido totalmente fuera del guion asignado para VIDEO 1 (se trata de una despedida / llamada a la acción improvisada)."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 19.5,
+      "endTime": 23.5,
+      "reason": "Primer intento de cierre ('posicionamiento de marca, etcétera. Así que si quieren...') interrumpido por vacilación física (se toca la cara)."
+    },
+    {
+      "startTime": 24.3,
+      "endTime": 28.5,
+      "reason": "Segundo intento repetitivo ('posicionamiento de marca, etcétera. Así que nada, si quieren...') cortado por pausa."
+    }
+  ],
+  "fluency": {
+    "score": 3.5,
+    "notes": "Fluidez muy interrumpida por una pausa de 9 segundos en silencio absoluto mirando a cámara, seguida de dos falsos inicios y vacilaciones antes de completar la frase final."
+  },
+  "audio": {
+    "score": 7.5,
+    "notes": "Captura de voz comprensible y limpia a través de auriculares inalámbricos, aunque con ligera compresión bluetooth y siseo de fondo."
+  },
+  "visualQuality": {
+    "score": 6,
+    "notes": "Iluminación de contraste con luz de relleno roja y fondo azul, pero el rostro queda con sombras duras y se aprecia ruido en zonas oscuras."
+  },
+  "framing": {
+    "score": 2,
+    "notes": "Encuadre crítico debido a que el video está orientado lateralmente (90 grados rotado). Requiere corrección de rotación obligatoria."
+  },
+  "expression": {
+    "score": 4.5,
+    "notes": "Comienza relajado pero pierde el hilo, mostrando inseguridad y mirada perdida durante la pausa prolongada."
+  },
+  "fidelity": {
+    "score": 0.5,
+    "notes": "No sigue el guion editorial de Apple/Samsung; es una prueba o toma de cierre genérico para redes sociales."
+  },
+  "continuity": {
+    "score": 3,
+    "notes": "Ruptura total de ritmo entre 00:10 y 00:19 que imposibilita usar la toma de forma continua."
+  },
+  "recommendedRanges": [
+    {
+      "startTime": 29.5,
+      "endTime": 33.5,
+      "guionBlock": "Outro / CTA (fuera de guion)",
+      "reason": "Único fragmento limpio y resolutivo que podría aprovecharse como llamada a la acción al final de una pieza, siempre que se rote el video 90 grados."
+    }
+  ],
+  "overallRecommendation": "Descartar para el cuerpo principal del guion de VIDEO 1, ya que no contiene el texto de la lección sobre Apple y Samsung. Si se necesita un remate/CTA para redes, únicamente el intervalo 00:29.5 - 00:33.5 es rescatable tras aplicar rotación de 90° en sentido horario.",
+  "provenance": {
+    "model": "gemini-3.8-flash",
+    "remoteFile": "files/458qkexe9281",
+    "analyzedAt": "2026-09-21T23:57:17.104Z",
+    "sha256": "e53754006c41cf859743acd61d99d71660737def43da7363e45f61a6611c0455",
+    "responseId": "O8SxapX-NdSlqtsPoO7H0AE",
+    "usage": {
+      "promptTokenCount": 4116,
+      "candidatesTokenCount": 1302,
+      "totalTokenCount": 6816,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 3276
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        }
+      ],
+      "thoughtsTokenCount": 1398,
+      "serviceTier": "standard"
+    }
+  }
+}

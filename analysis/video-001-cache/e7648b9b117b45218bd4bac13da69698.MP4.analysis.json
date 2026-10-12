@@ -1,0 +1,135 @@
+{
+  "sourceFile": "e7648b9b117b45218bd4bac13da69698.MP4",
+  "durationSeconds": 25,
+  "transcript": "Y aquí es donde se pone interesante porque Samsung sí tiene todas las competencia para decir nosotros lo hicimos primero, pero no es aquí donde nos tenemos que centrar, eh mientras que Apple históricamente ha construido una marca que puede llegar después de vender y vender y vender y vender y vender otra idea, eh Samsung",
+  "timestamps": [
+    {
+      "startTime": 0,
+      "endTime": 1.5,
+      "text": "Y aquí es donde se pone"
+    },
+    {
+      "startTime": 1.5,
+      "endTime": 3,
+      "text": "interesante porque"
+    },
+    {
+      "startTime": 3,
+      "endTime": 5,
+      "text": "Samsung sí tiene todas las"
+    },
+    {
+      "startTime": 5,
+      "endTime": 7,
+      "text": "competencia para decir"
+    },
+    {
+      "startTime": 7,
+      "endTime": 9,
+      "text": "nosotros lo hicimos primero,"
+    },
+    {
+      "startTime": 9,
+      "endTime": 12,
+      "text": "pero no es aquí donde nos tenemos que centrar,"
+    },
+    {
+      "startTime": 12,
+      "endTime": 14.5,
+      "text": "eh mientras que Apple históricamente"
+    },
+    {
+      "startTime": 14.5,
+      "endTime": 17,
+      "text": "ha construido una marca que puede llegar después de vender"
+    },
+    {
+      "startTime": 17,
+      "endTime": 20.5,
+      "text": "y vender y vender y vender y vender"
+    },
+    {
+      "startTime": 20.5,
+      "endTime": 22,
+      "text": "otra idea,"
+    },
+    {
+      "startTime": 22,
+      "endTime": 24.5,
+      "text": "eh Samsung"
+    }
+  ],
+  "guionMatches": [
+    {
+      "guionBlock": "Samsung puede competir desde:\n“Nosotros lo hicimos primero.”\nMientras que Apple históricamente ha construido una marca que puede llegar después y venderte otra idea:",
+      "match": "Samsung sí tiene todas las competencia para decir nosotros lo hicimos primero... mientras que Apple históricamente ha construido una marca que puede llegar después de vender y vender y vender y vender y vender otra idea",
+      "confidence": 0.65
+    }
+  ],
+  "errors": [
+    "Error de concordancia gramatical: dijo 'todas las competencia' en lugar de 'todo el argumento' o 'las competencias'.",
+    "Repetición/tropiezo de palabras: repitió 'y vender' múltiples veces ('después de vender y vender y vender y vender y vender otra idea').",
+    "Incompletitud: la toma se interrumpe abruptamente al final diciendo únicamente 'eh Samsung'."
+  ],
+  "falseStarts": [
+    {
+      "startTime": 16.5,
+      "endTime": 20.5,
+      "reason": "Bucle de repetición/titubeo ('vender y vender y vender...') intentando recordar o articular la frase del guion."
+    }
+  ],
+  "fluency": {
+    "score": 4,
+    "notes": "Fluidez baja debido a muletillas, tropiezos con la palabra 'vender' repetida cinco veces y corte al final de la toma."
+  },
+  "audio": {
+    "score": 6,
+    "notes": "Voz audible pero captada con micrófono de manos libres/auriculares, con ligero ruido de fondo."
+  },
+  "visualQuality": {
+    "score": 5,
+    "notes": "Iluminación tenue con luces de color (rojo/azul), presencia de ruido digital en sombras."
+  },
+  "framing": {
+    "score": 3,
+    "notes": "Orientación lateral incorrecta (video rotado 90° en sentido antihorario). Requiere corrección de rotación de 90° en sentido horario. Encuadre contrapicado descentrado."
+  },
+  "expression": {
+    "score": 4,
+    "notes": "El hablante mira constantemente hacia abajo leyendo un teléfono o pantalla externa, reduciendo la conexión con la cámara."
+  },
+  "fidelity": {
+    "score": 4,
+    "notes": "Baja fidelidad al guion por paráfrasis, errores de dicción y añadidos no planificados."
+  },
+  "continuity": {
+    "score": 2,
+    "notes": "Toma incompleta; el discurso se corta a la mitad de la frase final."
+  },
+  "recommendedRanges": [],
+  "overallRecommendation": "Descartar esta toma. Presenta problemas de orientación (rotado 90° CCW), falta de continuidad al cortarse al final, tropezones en la lectura y desviación importante del guion original.",
+  "provenance": {
+    "model": "gemini-3.6-flash",
+    "remoteFile": "files/3x9tx3335yw2",
+    "analyzedAt": "2026-10-03T22:18:39.472Z",
+    "sha256": "38cda45ba5af06157cc52b9a2dfecc14535bde247438e19e6d8436f3f00b0fd5",
+    "responseId": "Mn_BaoqaC-ziqtsPi7aBsAU",
+    "usage": {
+      "promptTokenCount": 3203,
+      "candidatesTokenCount": 1245,
+      "totalTokenCount": 6232,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 2363
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 840
+        }
+      ],
+      "thoughtsTokenCount": 1784,
+      "serviceTier": "standard"
+    }
+  }
+}

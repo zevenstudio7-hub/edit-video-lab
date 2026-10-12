@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "definido": "2026-10-09",
+  "estado": "candidato. Leído de 3 grabaciones de pantalla (estilos de texto/ ×2 y Edit-5 creator/) más los titulares de las 4 de estilos de movimiento. Tamaños en px sobre lienzo 1080×1920, calculados proporcionalmente a ojo; validar con un still con palabras largas y tildes.",
+  "regla_de_alcance": "Estos estilos son para TITULARES, RÓTULOS y SUBTÍTULOS DE ESTILO CREATOR. No sustituyen los subtítulos aprobados de #edit-2-pantalla-dividida (TypeCaptions/texture, identidad video-zeven), que siguen rigiendo en edit-1 y edit-2 mientras el usuario no decida otra cosa.",
+  "regla_de_color": "Los colores salen del perfil Motion UX (ui, resalte, alerta). Texto sobre video: blanco con sombra suave; palabra clave: 'crema' = resalte aclarado (L 90–94 %) para que no pelee con el rostro. Sin perfil: los de ZevenPRO.",
+  "reglas_comunes": [
+    "Una idea por bloque; máximo 3 palabras en captions de lectura.",
+    "Nunca sobre el rostro ni sobre la acción de pantalla: medir la zona libre de cada plano.",
+    "Dentro del área segura de Reels (x 65–1015, y 250–1500; nada a la derecha de x = 940 bajo y = 1000).",
+    "Una sola palabra de énfasis por frase: cambiar de peso, de familia (serif cursiva) o de color, no las tres cosas a la vez.",
+    "Los textos siguen lo que se oye: tiempos por palabra reales; sin ellos, bloques por frase."
+  ],
+  "estilos": [
+    {
+      "id": "gancho-apilado",
+      "nombre": "Gancho apilado",
+      "origen": "estilos de texto/…23-41-20 t=0–1 s ('IS IT POSSIBLE TO GROW / YOUR STARTUP')",
+      "para": "primeros 1–3 s: la pregunta o promesa del video",
+      "fuente": { "familia": "sans pesada (Inter Tight 900, Archivo Black, Anton)", "tamano_px": [150, 190], "interlineado": 0.95, "tracking": "-0.04em", "mayusculas": true },
+      "rasgo": "2–4 líneas apiladas que llenan el ancho útil (justificadas); la última línea en serif (Times / Instrument Serif) en mayúsculas o cursiva, más pequeña",
+      "color": "blanco; sombra 0 8px 30px rgba(0,0,0,.45)",
+      "posicion": "izquierda, tercio inferior-medio (y 700–1300) o sobre el presentador si hay espacio libre",
+      "animacion": "entrada-desenfoque 10 f; sale a los 1–1,5 s con corte limpio o cruce-desenfoque",
+      "aplica_a": ["#edit-5-creator", "#edit-1-motion"],
+      "perfil_tipografia": "fuente.hook"
+    },
+    {
+      "id": "caption-palabra",
+      "nombre": "Caption de 1–3 palabras al centro",
+      "origen": "estilos de texto/…23-41-20 y Edit-5 creator (todo el video)",
+      "para": "lectura continua; cada palabra o par de palabras sustituye a la anterior",
+      "fuente": { "familia": "sans (Inter Tight 700, Montserrat 700)", "tamano_px": [64, 84], "peso": "600–700", "mayusculas": false, "tracking": "-0.02em" },
+      "color": "blanco; sombra 0 4px 20px rgba(0,0,0,.5); sin caja",
+      "posicion": "centrado, y ≈ 1000–1100 (justo sobre el pecho del presentador); NO bajo y = 1500",
+      "animacion": "corte duro entre bloques (sin fundido); duración por palabra = lo que dura al decirse; mínimo 6 frames",
+      "aplica_a": ["#edit-5-creator"],
+      "perfil_tipografia": "fuente.lectura"
+    },
+    {
+      "id": "titular-mixto",
+      "nombre": "Titular de tres niveles (pequeño / grande crema / serif)",
+      "origen": "estilos de texto/…23-41-20 t=16–17 s ('while doing that / I Lost Focus / on Polish') y t=1 s ('$10k MRR')",
+      "para": "la idea clave de una frase",
+      "niveles": [
+        { "rol": "contexto", "tamano_px": 64, "estilo": "sans 600 blanco" },
+        { "rol": "clave", "tamano_px": [130, 160], "estilo": "sans 900, color crema (resalte aclarado)", "tracking": "-0.04em" },
+        { "rol": "matiz", "tamano_px": 52, "estilo": "serif cursiva blanca, alineada a la derecha bajo la clave" }
+      ],
+      "posicion": "centrado, y ≈ 1000–1200",
+      "animacion": "escalonado: contexto (entrada-desenfoque) → clave (pop-insignia con spring pop) a +4 f → matiz (entrada-desenfoque) a +10 f",
+      "aplica_a": ["#edit-5-creator", "#edit-1-motion"]
+    },
+    {
+      "id": "cursiva-editorial",
+      "nombre": "Palabras sueltas en cursiva editorial",
+      "origen": "estilos de texto/…21-05-49 t=0–10 s ('Ask an expert', 'need to work harder', 'Advantage+', 'drive results')",
+      "para": "anuncios y mensajes de marca; el texto compone el cuadro alrededor del rostro",
+      "fuente": { "familia": "sans ligera cursiva (Inter Tight 300 italic; alternativa: Instrument Sans italic)", "tamano_px": [70, 210], "peso": "300–400", "mayusculas": false },
+      "rasgo": "palabras en esquinas y bordes con tamaños muy distintos (1 : 3); la palabra más importante la más grande y con degradado metálico blanco → gris claro",
+      "color": "blanco; sombra 0 4px 24px rgba(0,0,0,.35)",
+      "posicion": "alrededor de la cara: zonas libres arriba-izquierda, derecha media y borde inferior; medir antes",
+      "animacion": "entrada-desenfoque 14 f con la palabra grande entrando desde abajo (translateY 60 → 0); marco glass (presentador-en-marco) aparece a los ~1,8 s",
+      "aplica_a": ["#edit-5-creator"],
+      "limite": "máximo 3 palabras compuestas a la vez; se retiran juntas"
+    },
+    {
+      "id": "caption-pequeno-negrita",
+      "nombre": "Caption pequeño en negrita sobre el presentador",
+      "origen": "estilos de movimiento/ScreenRecording_10-06-2026 (todo el video)",
+      "para": "reels con UI en la mitad superior y presentador abajo (formato partido)",
+      "fuente": { "familia": "sans 700", "tamano_px": [40, 46], "mayusculas": false },
+      "color": "blanco; palabra clave en caja blanca con texto oscuro (píldora, radio 12 px)",
+      "posicion": "centrado entre la UI y la cabeza (y ≈ 1000–1110)",
+      "animacion": "corte duro; la píldora de la palabra clave aparece con pop-insignia",
+      "aplica_a": ["#edit-2-pantalla-dividida (solo como alternativa pedida en la orden)", "#edit-5-creator"]
+    },
+    {
+      "id": "palabra-grande-sans-serif",
+      "nombre": "Palabra grande al centro (sans / serif cursiva)",
+      "origen": "estilos de movimiento/ScreenRecording_10-06-2026 t=29–31 s",
+      "para": "una palabra de énfasis sobre el plano del presentador",
+      "fuente": { "sans": "800, 150 px", "serif": "cursiva 400, 190 px" },
+      "color": "blanco con halo suave del color ui",
+      "animacion": "movimiento palabra-grande (spring pop, 16 f por palabra); alternar sans y serif según el carácter de la palabra",
+      "aplica_a": ["#edit-5-creator", "#edit-1-motion"]
+    },
+    {
+      "id": "titular-ui",
+      "nombre": "Titular de pantalla de UI",
+      "origen": "mov-1 y mov-2 (titulares fijos sobre las tarjetas)",
+      "partes": [
+        "etiqueta superior: número + categoría ('01 | Imágenes'), 34 px, ink2 con el número en ink",
+        "titular: sans 800, 120–180 px, tracking −0.045em, la palabra clave en color ui",
+        "descripción: 42 px, ink2 (#565B69), 2–5 líneas, máx. 34 caracteres por línea"
+      ],
+      "animacion": "entrada-desenfoque (titular) → pop-insignia (número) → revelado-lineas (descripción)",
+      "aplica_a": ["Motion UX (todos los EDIT_TYPE donde haya UI en pantalla)"]
+    },
+    {
+      "id": "negacion-gigante",
+      "nombre": "Palabra de negación o impacto gigante",
+      "origen": "mov-1 t=0–1 s ('JAMÁS') y t=16 s ('TAMPOCO')",
+      "para": "abrir un error común o un 'nunca'",
+      "fuente": { "familia": "sans 900", "tamano_px": [220, 260], "tracking": "-0.05em", "color": "ink (sobre claro) o blanco (sobre oscuro)" },
+      "subtitulo": "una línea de 48 px debajo, con el sujeto en color ui ('le digas esto a [herramienta]')",
+      "animacion": "entrada-desenfoque; sale con cruce-desenfoque cuando aparece la tarjeta de UI",
+      "aplica_a": ["Motion UX", "#edit-1-motion", "#edit-5-creator"]
+    },
+    {
+      "id": "etiquetas-pildora",
+      "nombre": "Rótulo en píldoras",
+      "origen": "mov-3 t=0–3 s ('# Created With Blocks')",
+      "para": "marcas, hashtags, nombres de proyecto",
+      "rasgo": "cada palabra en su píldora redondeada (borde 2 px gris, fondo blanco→gris claro); una píldora oscura inclinada −6° con texto blanco como contrapunto; ícono pequeño en esfera glass",
+      "complemento": "línea de apoyo en mono (SF Mono / ui-monospace) con tecleo letra a letra y un tag pequeño en el color ui por encima",
+      "animacion": "cada píldora con subida-tarjeta mini (translateY 40 → 0) en cascada de 4 f; mono con escritura-con-tinte",
+      "aplica_a": ["Motion UX"]
+    },
+    {
+      "id": "nota-mono",
+      "nombre": "Nota técnica en mono con etiqueta",
+      "origen": "Edit-5 creator t≈30 s ('BUG' + 'the hyphens used here are cut…')",
+      "para": "mostrar un error, un comentario de código, un dato técnico",
+      "rasgo": "tarjeta glass clara con texto mono 34 px; etiqueta en mayúsculas rotada −8° en color alerta que asoma por la esquina; el texto se escribe",
+      "animacion": "subida-tarjeta + etiqueta con pop-insignia (spring rebote) + zp-alert",
+      "aplica_a": ["#edit-5-creator", "Motion UX"],
+      "confianza": "baja: solo hay un fotograma de referencia"
+    }
+  ],
+  "no_confirmado": [
+    "No se identificó la fuente exacta de las tipografías de las grabaciones; las familias indicadas son equivalentes disponibles (OFL) a verificar contra el still.",
+    "Las posiciones se leen de grabaciones que incluyen la interfaz de Instagram encima (iconos y barras); el área real libre se mide en cada plano."
+  ]
+}

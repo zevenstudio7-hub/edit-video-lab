@@ -1,0 +1,509 @@
+{
+  "sourceFile": "136ecbbf804041dfa4bf6e6d4c64538f.MP4",
+  "durationSeconds": 36.374,
+  "method": {
+    "frameSeconds": 0.01,
+    "noiseFloorDb": -41.8,
+    "thresholdDb": -35.8,
+    "minPauseSeconds": 0.15,
+    "phrasePauseSeconds": 0.3,
+    "transcription": "whisper.cpp 1.7.2, large-v3-turbo, -ac 640, --dtw large.v3.turbo, es, una transcripción por frase",
+    "note": "Islas y frases medidas por RMS. Texto por frase transcrito de forma aislada. Reparto de palabras dentro de cada isla proporcional a su longitud: no es alineación fonética.",
+    "seconds": 72.7
+  },
+  "phrases": [
+    {
+      "id": 0,
+      "start": 0.8,
+      "end": 9.48,
+      "islands": [
+        0,
+        1
+      ],
+      "text": "Así que nada, quiero hacer más videos como este, analizando productos, tecnología, artificial, marca personal, marca generar.",
+      "meanP": 0.85,
+      "suspect": false,
+      "pauseBefore": 0.8
+    },
+    {
+      "id": 1,
+      "start": 20.09,
+      "end": 23.47,
+      "islands": [
+        2,
+        3
+      ],
+      "text": "Posicionamiento de marca, etc.",
+      "meanP": 0.92,
+      "suspect": false,
+      "pauseBefore": 10.61
+    },
+    {
+      "id": 2,
+      "start": 24.56,
+      "end": 28.27,
+      "islands": [
+        4,
+        5
+      ],
+      "text": "Posicionamiento de marca, etc. Así que si quieren...",
+      "meanP": 0.8,
+      "suspect": false,
+      "pauseBefore": 1.09
+    },
+    {
+      "id": 3,
+      "start": 30.01,
+      "end": 34.32,
+      "islands": [
+        6
+      ],
+      "text": "Si quieres más contenido como este, solo hago\"síganme\" y me piden el para sí, ok?",
+      "meanP": 0.64,
+      "suspect": false,
+      "pauseBefore": 1.74
+    }
+  ],
+  "islands": [
+    {
+      "id": 0,
+      "start": 0.8,
+      "end": 6.7,
+      "text": "Así que nada, quiero hacer más videos como este, analizando productos, tecnología, artificial,"
+    },
+    {
+      "id": 1,
+      "start": 6.99,
+      "end": 9.48,
+      "text": "marca personal, marca generar."
+    },
+    {
+      "id": 2,
+      "start": 20.09,
+      "end": 22.53,
+      "text": "Posicionamiento de marca, etc."
+    },
+    {
+      "id": 3,
+      "start": 22.78,
+      "end": 23.47,
+      "text": ""
+    },
+    {
+      "id": 4,
+      "start": 24.56,
+      "end": 27.63,
+      "text": "Posicionamiento de marca, etc. Así que si quieren..."
+    },
+    {
+      "id": 5,
+      "start": 27.79,
+      "end": 28.27,
+      "text": ""
+    },
+    {
+      "id": 6,
+      "start": 30.01,
+      "end": 34.32,
+      "text": "Si quieres más contenido como este, solo hago\"síganme\" y me piden el para sí, ok?"
+    }
+  ],
+  "words": [
+    {
+      "text": "Así",
+      "anchor": 0.94,
+      "p": 0.636,
+      "island": 0,
+      "phrase": 0,
+      "start": 0.8,
+      "end": 1.03
+    },
+    {
+      "text": "que",
+      "anchor": 1.08,
+      "p": 0.998,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.03,
+      "end": 1.26
+    },
+    {
+      "text": "nada,",
+      "anchor": 1.22,
+      "p": 0.953,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.26,
+      "end": 1.566
+    },
+    {
+      "text": "quiero",
+      "anchor": 1.5,
+      "p": 0.997,
+      "island": 0,
+      "phrase": 0,
+      "start": 1.566,
+      "end": 2.026
+    },
+    {
+      "text": "hacer",
+      "anchor": 1.74,
+      "p": 0.999,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.026,
+      "end": 2.409
+    },
+    {
+      "text": "más",
+      "anchor": 2,
+      "p": 0.979,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.409,
+      "end": 2.639
+    },
+    {
+      "text": "videos",
+      "anchor": 2.5,
+      "p": 0.653,
+      "island": 0,
+      "phrase": 0,
+      "start": 2.639,
+      "end": 3.099
+    },
+    {
+      "text": "como",
+      "anchor": 2.82,
+      "p": 0.997,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.099,
+      "end": 3.405
+    },
+    {
+      "text": "este,",
+      "anchor": 3.14,
+      "p": 0.855,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.405,
+      "end": 3.712
+    },
+    {
+      "text": "analizando",
+      "anchor": 3.76,
+      "p": 0.986,
+      "island": 0,
+      "phrase": 0,
+      "start": 3.712,
+      "end": 4.478
+    },
+    {
+      "text": "productos,",
+      "anchor": 4.24,
+      "p": 0.352,
+      "island": 0,
+      "phrase": 0,
+      "start": 4.478,
+      "end": 5.168
+    },
+    {
+      "text": "tecnología,",
+      "anchor": 4.88,
+      "p": 0.632,
+      "island": 0,
+      "phrase": 0,
+      "start": 5.168,
+      "end": 5.934
+    },
+    {
+      "text": "artificial,",
+      "anchor": 5.84,
+      "p": 0.593,
+      "island": 0,
+      "phrase": 0,
+      "start": 5.934,
+      "end": 6.7
+    },
+    {
+      "text": "marca",
+      "anchor": 7.66,
+      "p": 0.902,
+      "island": 1,
+      "phrase": 0,
+      "start": 6.99,
+      "end": 7.488
+    },
+    {
+      "text": "personal,",
+      "anchor": 8.12,
+      "p": 0.912,
+      "island": 1,
+      "phrase": 0,
+      "start": 7.488,
+      "end": 8.285
+    },
+    {
+      "text": "marca",
+      "anchor": 8.84,
+      "p": 0.988,
+      "island": 1,
+      "phrase": 0,
+      "start": 8.285,
+      "end": 8.783
+    },
+    {
+      "text": "generar.",
+      "anchor": 9.52,
+      "p": 0.222,
+      "island": 1,
+      "phrase": 0,
+      "start": 8.783,
+      "end": 9.48
+    },
+    {
+      "text": "Posicionamiento",
+      "anchor": 20.79,
+      "p": 0.814,
+      "island": 2,
+      "phrase": 1,
+      "start": 20.09,
+      "end": 21.554
+    },
+    {
+      "text": "de",
+      "anchor": 20.93,
+      "p": 0.984,
+      "island": 2,
+      "phrase": 1,
+      "start": 21.554,
+      "end": 21.749
+    },
+    {
+      "text": "marca,",
+      "anchor": 21.21,
+      "p": 0.753,
+      "island": 2,
+      "phrase": 1,
+      "start": 21.749,
+      "end": 22.237
+    },
+    {
+      "text": "etc.",
+      "anchor": 21.49,
+      "p": 0.865,
+      "island": 2,
+      "phrase": 1,
+      "start": 22.237,
+      "end": 22.53
+    },
+    {
+      "text": "Posicionamiento",
+      "anchor": 25.08,
+      "p": 0.606,
+      "island": 4,
+      "phrase": 2,
+      "start": 24.56,
+      "end": 25.711
+    },
+    {
+      "text": "de",
+      "anchor": 25.32,
+      "p": 0.994,
+      "island": 4,
+      "phrase": 2,
+      "start": 25.711,
+      "end": 25.865
+    },
+    {
+      "text": "marca,",
+      "anchor": 25.62,
+      "p": 0.692,
+      "island": 4,
+      "phrase": 2,
+      "start": 25.865,
+      "end": 26.248
+    },
+    {
+      "text": "etc.",
+      "anchor": 25.94,
+      "p": 0.839,
+      "island": 4,
+      "phrase": 2,
+      "start": 26.248,
+      "end": 26.479
+    },
+    {
+      "text": "Así",
+      "anchor": 26.34,
+      "p": 0.773,
+      "island": 4,
+      "phrase": 2,
+      "start": 26.479,
+      "end": 26.709
+    },
+    {
+      "text": "que",
+      "anchor": 26.48,
+      "p": 0.981,
+      "island": 4,
+      "phrase": 2,
+      "start": 26.709,
+      "end": 26.939
+    },
+    {
+      "text": "si",
+      "anchor": 26.68,
+      "p": 0.781,
+      "island": 4,
+      "phrase": 2,
+      "start": 26.939,
+      "end": 27.093
+    },
+    {
+      "text": "quieren...",
+      "anchor": 27.9,
+      "p": 0.345,
+      "island": 4,
+      "phrase": 2,
+      "start": 27.093,
+      "end": 27.63
+    },
+    {
+      "text": "Si",
+      "anchor": 30.05,
+      "p": 0.555,
+      "island": 6,
+      "phrase": 3,
+      "start": 30.01,
+      "end": 30.149
+    },
+    {
+      "text": "quieres",
+      "anchor": 30.25,
+      "p": 0.334,
+      "island": 6,
+      "phrase": 3,
+      "start": 30.149,
+      "end": 30.636
+    },
+    {
+      "text": "más",
+      "anchor": 30.55,
+      "p": 0.513,
+      "island": 6,
+      "phrase": 3,
+      "start": 30.636,
+      "end": 30.844
+    },
+    {
+      "text": "contenido",
+      "anchor": 30.89,
+      "p": 0.927,
+      "island": 6,
+      "phrase": 3,
+      "start": 30.844,
+      "end": 31.47
+    },
+    {
+      "text": "como",
+      "anchor": 31.23,
+      "p": 0.956,
+      "island": 6,
+      "phrase": 3,
+      "start": 31.47,
+      "end": 31.748
+    },
+    {
+      "text": "este,",
+      "anchor": 31.51,
+      "p": 0.66,
+      "island": 6,
+      "phrase": 3,
+      "start": 31.748,
+      "end": 32.026
+    },
+    {
+      "text": "solo",
+      "anchor": 31.87,
+      "p": 0.519,
+      "island": 6,
+      "phrase": 3,
+      "start": 32.026,
+      "end": 32.304
+    },
+    {
+      "text": "hago\"síganme\"",
+      "anchor": 32.65,
+      "p": 0.372,
+      "island": 6,
+      "phrase": 3,
+      "start": 32.304,
+      "end": 33.069
+    },
+    {
+      "text": "y",
+      "anchor": 32.89,
+      "p": 0.836,
+      "island": 6,
+      "phrase": 3,
+      "start": 33.069,
+      "end": 33.138
+    },
+    {
+      "text": "me",
+      "anchor": 33.01,
+      "p": 0.727,
+      "island": 6,
+      "phrase": 3,
+      "start": 33.138,
+      "end": 33.277
+    },
+    {
+      "text": "piden",
+      "anchor": 33.23,
+      "p": 0.574,
+      "island": 6,
+      "phrase": 3,
+      "start": 33.277,
+      "end": 33.625
+    },
+    {
+      "text": "el",
+      "anchor": 33.45,
+      "p": 0.464,
+      "island": 6,
+      "phrase": 3,
+      "start": 33.625,
+      "end": 33.764
+    },
+    {
+      "text": "para",
+      "anchor": 33.49,
+      "p": 0.489,
+      "island": 6,
+      "phrase": 3,
+      "start": 33.764,
+      "end": 34.042
+    },
+    {
+      "text": "sí,",
+      "anchor": 33.73,
+      "p": 0.131,
+      "island": 6,
+      "phrase": 3,
+      "start": 34.042,
+      "end": 34.181
+    },
+    {
+      "text": "ok?",
+      "anchor": 34.17,
+      "p": 0.548,
+      "island": 6,
+      "phrase": 3,
+      "start": 34.181,
+      "end": 34.32
+    }
+  ]
+}

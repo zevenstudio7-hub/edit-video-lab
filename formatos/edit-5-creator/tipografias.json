@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "descripcion": "Tipografías candidatas para #edit-5-creator. Se cargan con @remotion/google-fonts (instalado en 4.0.438) o, si el usuario tiene una fuente propia con licencia, con @remotion/fonts (loadFont + staticFile). No necesitan conector. Licencia: la esperada, SIN verificar contra cada ficha; comprobar al integrar. Nada se ha visto en un render: validar con un still con palabras largas y acentos antes de adoptar.",
+  "herramientas": {
+    "explorar": "https://fonts.google.com (filtro 'Display' o 'Sans Serif', peso 800-900, idioma Latín extendido para tildes y ñ)",
+    "cargar": "import { loadFont } from \"@remotion/google-fonts/<Nombre>\"",
+    "fuente_propia": "@remotion/fonts: loadFont con staticFile(\"fonts/archivo.woff2\"); solo con licencia de uso en video publicado"
+  },
+  "candidatas": [
+    {
+      "id": "inter-tight",
+      "familia": "Inter Tight",
+      "paquete": "@remotion/google-fonts/InterTight",
+      "rol": [
+        "lectura",
+        "hook"
+      ],
+      "pesos": [
+        "700",
+        "800",
+        "900"
+      ],
+      "carácter": "neutra, la de video-zeven",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "anton",
+      "familia": "Anton",
+      "paquete": "@remotion/google-fonts/Anton",
+      "rol": [
+        "hook"
+      ],
+      "pesos": [
+        "400"
+      ],
+      "carácter": "condensada, muy alta, impacto de titular",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "bebas-neue",
+      "familia": "Bebas Neue",
+      "paquete": "@remotion/google-fonts/BebasNeue",
+      "rol": [
+        "hook"
+      ],
+      "pesos": [
+        "400"
+      ],
+      "carácter": "condensada, solo mayúsculas",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "archivo-black",
+      "familia": "Archivo Black",
+      "paquete": "@remotion/google-fonts/ArchivoBlack",
+      "rol": [
+        "hook"
+      ],
+      "pesos": [
+        "400"
+      ],
+      "carácter": "ancha y pesada, muy legible en móvil",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "montserrat",
+      "familia": "Montserrat",
+      "paquete": "@remotion/google-fonts/Montserrat",
+      "rol": [
+        "lectura",
+        "hook"
+      ],
+      "pesos": [
+        "700",
+        "800",
+        "900"
+      ],
+      "carácter": "clásica de redes",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "poppins",
+      "familia": "Poppins",
+      "paquete": "@remotion/google-fonts/Poppins",
+      "rol": [
+        "lectura",
+        "hook"
+      ],
+      "pesos": [
+        "600",
+        "700",
+        "800"
+      ],
+      "carácter": "redonda, amable",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "bowlby-one",
+      "familia": "Bowlby One",
+      "paquete": "@remotion/google-fonts/BowlbyOne",
+      "rol": [
+        "hook"
+      ],
+      "pesos": [
+        "400"
+      ],
+      "carácter": "gruesa y redondeada, estilo cómic",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "plus-jakarta-sans",
+      "familia": "Plus Jakarta Sans",
+      "paquete": "@remotion/google-fonts/PlusJakartaSans",
+      "rol": [
+        "lectura"
+      ],
+      "pesos": [
+        "600",
+        "700",
+        "800"
+      ],
+      "carácter": "moderna",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "instrument-serif",
+      "familia": "Instrument Serif",
+      "paquete": "@remotion/google-fonts/InstrumentSerif",
+      "rol": [
+        "serif-cursiva"
+      ],
+      "pesos": [
+        "400"
+      ],
+      "carácter": "serif editorial con cursiva; última línea del gancho y matiz del titular mixto",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "playfair-display",
+      "familia": "Playfair Display",
+      "paquete": "@remotion/google-fonts/PlayfairDisplay",
+      "rol": [
+        "serif-cursiva"
+      ],
+      "pesos": [
+        "400",
+        "700"
+      ],
+      "carácter": "serif clásica con cursiva, alternativa",
+      "licencia_esperada": "OFL"
+    },
+    {
+      "id": "jetbrains-mono",
+      "familia": "JetBrains Mono",
+      "paquete": "@remotion/google-fonts/JetBrainsMono",
+      "rol": [
+        "mono"
+      ],
+      "pesos": [
+        "400",
+        "700"
+      ],
+      "carácter": "notas técnicas y escritura de prompts (alternativa a ui-monospace)",
+      "licencia_esperada": "OFL"
+    }
+  ],
+  "pendiente": "Confirmar el nombre exacto del módulo de cada fuente en la versión instalada (revisar node_modules/@remotion/google-fonts) y generar un still comparativo con la misma frase en cada una.",
+  "nota_2026_10_09": "Añadidas serif cursiva y mono para los estilos de texto de formatos/motion-ux/textos.json. Nombres de módulo sin verificar en node_modules."
+}
