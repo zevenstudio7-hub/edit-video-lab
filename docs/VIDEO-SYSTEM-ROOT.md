@@ -685,3 +685,13 @@ Objetivo de esta fase:
 obtener un VIDEO-001 terminado y usar sus aprendizajes para simplificar los siguientes videos antes de añadir nueva infraestructura.
 
 Estado (2026-10-11): VIDEO-001 quedó aprobado y exportado el 2026-10-04 (`#edit-2-pantalla-dividida`, `formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4`) y desde entonces se definieron los demás formatos; el cierre formal de esta fase lo decide el usuario.
+
+### Estado comercial — 2026-10-13
+
+El sistema se ofrece como el recurso de pago **Video Lab** de ZevenPRO: guía de uso y skill `/video-lab`, a **27 USD**, con venta automática por Hotmart (`https://pay.hotmart.com/O108003784V`) y landing en `https://zevenpro.co/recursos/video-lab` (repositorio `zevenstudio7-hub/zevenpro-web`; ficha en `lib/resources-config.ts`, contenido en `lib/video-lab-landing.ts`). Decisión del responsable: la venta ocurre sola en la web, sin botones ni CTA de WhatsApp.
+
+Reglas:
+- La landing solo promete lo que el producto entrega y muestra el estado real de cada formato (`formatos/README.md`). Si cambia el estado de un formato, el número de variantes o estilos, o el contenido de la guía, se actualiza la landing.
+- El avatar (`#edit-6-avatar`) no se ofrece mientras esté fuera del catálogo.
+- Las muestras de video de la landing son renders de `LibraryShowcase` con material de demostración. Pendiente: sustituirlas por exportaciones reales aprobadas (por ejemplo VIDEO-001).
+- Pendiente: definir cómo se entrega el ZIP de la skill. Este repositorio es privado, así que el archivo debe entregarse desde el producto de Hotmart y no mediante un enlace al repositorio.
