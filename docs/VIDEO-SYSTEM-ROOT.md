@@ -694,4 +694,6 @@ Reglas:
 - La landing solo promete lo que el producto entrega y muestra el estado real de cada formato (`formatos/README.md`). Si cambia el estado de un formato, el número de variantes o estilos, o el contenido de la guía, se actualiza la landing.
 - El avatar (`#edit-6-avatar`) no se ofrece mientras esté fuera del catálogo.
 - Las muestras de video de la landing son renders de `LibraryShowcase` con material de demostración. Pendiente: sustituirlas por exportaciones reales aprobadas (por ejemplo VIDEO-001).
-- Pendiente: definir cómo se entrega el ZIP de la skill. Este repositorio es privado, así que el archivo debe entregarse desde el producto de Hotmart y no mediante un enlace al repositorio.
+- Entrega: el comprador recibe la guía de uso en PDF, que incluye el enlace de descarga de la skill `/video-lab`. El enlace debe funcionar para quien compra (este repositorio es privado).
+- Estado en Hotmart (2026-10-13): producto en borrador, pendiente de aprobación; hasta entonces el checkout no está disponible para compradores.
+- Videos reales para la landing: carpeta de Drive aportada por el responsable (Edit-001, Video002, Video003, Video004). Se actualizan cuando se trabaje otro video.
