@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { GeminiVideoLab } from "./compositions/GeminiVideoLab";
 import { LibraryShowcase } from "./compositions/LibraryShowcase";
 import { Video001, VIDEO_001_FRAMES } from "./compositions/Video001";
+import { Video002, VIDEO_002_FRAMES } from "./compositions/Video002";
 import { VIDEO_CONFIG } from "./lib/constants";
 
 export const RemotionRoot: React.FC = () => {
@@ -28,6 +29,14 @@ export const RemotionRoot: React.FC = () => {
         id="Video001"
         component={Video001}
         durationInFrames={VIDEO_001_FRAMES}
+        fps={VIDEO_CONFIG.fps}
+        width={VIDEO_CONFIG.width}
+        height={VIDEO_CONFIG.height}
+      />
+      <Composition
+        id="Video002"
+        component={Video002}
+        durationInFrames={VIDEO_002_FRAMES}
         fps={VIDEO_CONFIG.fps}
         width={VIDEO_CONFIG.width}
         height={VIDEO_CONFIG.height}

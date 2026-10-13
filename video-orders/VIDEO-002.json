@@ -1,0 +1,28 @@
+{
+  "VIDEO_ID": "VIDEO-002",
+  "EDIT_TYPE": "#edit-5-creator",
+  "objetivo": "Muestra de edicion para la web de ventas: talking head simulando un video sobre creacion de contenido, con textos en pantalla e imagenes de apoyo que lo respalden.",
+  "fuentes": {
+    "video": "escribenos.mov (subido por el usuario, 1080x1920 tras rotacion, 30fps, 4.8s). Convertido a public/video-002/escribenos.mp4 sin audio."
+  },
+  "guion": "NO existe guion. El audio no importa y se silencia.",
+  "formato": "9:16, 1080x1920, 30fps",
+  "duracion_objetivo_s": 4.8,
+  "estructura_narrativa": [
+    "0.2-1.7s Graba (camara)",
+    "1.7-3.2s Edita (edicion de video)",
+    "3.2-4.7s Conecta (audio/podcast)"
+  ],
+  "cortes": "Ninguno.",
+  "subtitulos": "Ninguno; textos en pantalla en espanol con subtitulo en ingles.",
+  "motion_graphics": "Chip superior fijo 'Creacion de contenido' y tarjeta inferior animada por beat.",
+  "recursos_de_apoyo": [
+    { "texto": "Graba / Record", "imagen": "camera.jpg", "titulo": "Camera Tripod", "autor": "Kristin Hardwick", "licencia": "CC0 1.0", "fuente": "https://stocksnap.io/photo/camera-tripod-LAYS8FQZWO" },
+    { "texto": "Edita / Edit", "imagen": "editing.jpg", "titulo": "Video Editing", "autor": "ciaffonink", "licencia": "CC0 1.0", "fuente": "https://www.flickr.com/photos/200986044@N06/53822875594" },
+    { "texto": "Conecta / Connect", "imagen": "podcast.jpg", "titulo": "Recording Studio", "autor": "Kristin Hardwick", "licencia": "CC0 1.0", "fuente": "https://stocksnap.io/photo/recording-studio-1KWAKXJW1J" }
+  ],
+  "politica_ia_generativa": "OFF.",
+  "cta": "Ninguno agregado.",
+  "salida_esperada": "out/video-002.mp4 (sin audio)",
+  "estado": { "preview": "pendiente de revision del usuario", "render_final": "NO autorizado" }
+}

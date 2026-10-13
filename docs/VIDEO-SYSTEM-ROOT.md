@@ -379,6 +379,29 @@ idea / problema
 → correcciones
 → render final.
 
+### #edit-5-creator — Creator / Demo de Venta
+
+Talking head del usuario usado como muestra visual (por ejemplo para la web de ventas), donde el discurso no es el foco.
+
+Características:
+- usuario hablando como eje principal;
+- audio silenciado cuando el discurso no importa;
+- textos en pantalla redactados en español (con traducción o subtítulo secundario cuando aplique) alineados al tema vendido;
+- imágenes de apoyo de internet con licencia libre (CC0 / dominio público) que respalden el tema;
+- apoyos pequeños, sin tapar el rostro del usuario;
+- registrar fuente y licencia de cada imagen en la orden.
+
+Formato principal:
+- 9:16.
+
+Política de producción:
+- Remotion / FFmpeg: ON;
+- material real: el talking head;
+- motion graphics: MEDIUM;
+- imágenes de internet: ON solo con licencia libre y fuente registrada;
+- IA de imágenes: OFF por defecto;
+- IA de video: OFF.
+
 ## Matriz de enrutamiento
 
 | EDIT_TYPE | Remotion/FFmpeg | Material real | Motion | IA imágenes | IA video |
@@ -387,6 +410,7 @@ idea / problema
 | #edit-2-pantalla-dividida | ON | FIRST | MEDIUM | CONDITIONAL | EXCEPTIONAL |
 | #edit-3-organico | ON | ONLY por defecto | LOW | OFF | OFF |
 | #edit-4-avatar | ON | SEGÚN CASO | HIGH | ON | ON |
+| #edit-5-creator | ON | TALKING HEAD | MEDIUM | OFF (usa imágenes libres de internet) | OFF |
 
 El agente ejecutor debe usar esta matriz como regla de enrutamiento. No debe activar proveedores generativos por rutina.
 
