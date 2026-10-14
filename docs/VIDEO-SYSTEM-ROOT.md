@@ -487,7 +487,7 @@ idea / problema
 
 ### #edit-5-creator — Creator
 
-Formato para creadores que unen tomas y las visten encima con iconos, emojis, stickers, fotos superpuestas, texto y voz (definido por el usuario el 2026-10-05; renombrado de `#edit-creator` a `#edit-5-creator` el 2026-10-09; sin video ni aprobación audiovisual todavía).
+Formato para creadores que unen tomas y las visten encima con iconos, emojis, stickers, fotos superpuestas, texto y voz (definido por el usuario el 2026-10-05; renombrado de `#edit-creator` a `#edit-5-creator` el 2026-10-09; aprobado por el usuario el 2026-10-14 con la muestra `video-002-preview`).
 
 Características:
 - cortes precisos sobre la toma principal y tomas de apoyo separadas;
@@ -697,4 +697,4 @@ Reglas:
 - Las muestras de video de la landing son renders de `LibraryShowcase` con material de demostración. Pendiente: sustituirlas por exportaciones reales aprobadas (por ejemplo VIDEO-001).
 - Entrega: el comprador recibe la guía de uso en PDF, que incluye el enlace de descarga de la skill `/video-lab`. El enlace debe funcionar para quien compra (este repositorio es privado).
 - Estado en Hotmart (2026-10-13): producto en borrador, pendiente de aprobación; hasta entonces el checkout no está disponible para compradores.
-- Videos de la landing: cuatro videos de prueba aportados por el responsable (2026-10-13): Pantalla dividida (`apple_002`, primeros 15 s), una etiquetada como Motion Graphics (`002`) y otra como Motion Editorial (`video 003`) y Creator (`video-002-preview`, un preview sin aprobación audiovisual). Se usan en el simulador del hero y en la galería de `zevenpro-web` y se actualizan cuando se trabaje otro video.
+- Videos de la landing: cuatro videos de prueba aportados por el responsable (2026-10-13): Pantalla dividida (`apple_002`, primeros 15 s), una etiquetada como Motion Graphics (`002`) y otra como Motion Editorial (`video 003`) y Creator (`video-002-preview`, aprobado el 2026-10-14). Se usan en el simulador del hero y en la galería de `zevenpro-web` y se actualizan cuando se trabaje otro video.

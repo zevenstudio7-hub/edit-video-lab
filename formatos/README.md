@@ -28,7 +28,7 @@ formatos/
 | `#edit-2-pantalla-dividida` | 2A aprobado (2026-10-04) | 2A (S1·S6) · 2B (S6·S1) | VIDEO-001 |
 | `#edit-3-organico` | definido, sin video | 3A (S6·S2) · 3B (S6·S8) · 3C (S8·S6) | — |
 | `#edit-4-business` | definido (2026-10-09), sin video | 4A (S7·S1) · 4B (S7·S1) · 4C (S3·S7) | — |
-| `#edit-5-creator` | definido, sin video | 5A (S2·S5) · 5B (S3·S2) · 5C (S2·S6) · 5D (S9·S5) | — |
+| `#edit-5-creator` | aprobado (2026-10-14) | 5A (S2·S5) · 5B (S3·S2) · 5C (S2·S6) · 5D (S9·S5) | — |
 | `#edit-6-avatar` | fuera de la guía | — | — |
 
 Looks de color por defecto y alternativo: `formatos/looks/README.md`. Una sola skill para todos los formatos: `/video-lab`.
