@@ -691,7 +691,8 @@ Estado (2026-10-11): VIDEO-001 quedó aprobado y exportado el 2026-10-04 (`#edit
 El sistema se ofrece como el recurso de pago **Video Lab** de ZevenPRO: guía de uso y skill `/video-lab`, a **27 USD**, con venta automática por Hotmart (`https://pay.hotmart.com/O108003784V`) y landing en `https://zevenpro.co/recursos/video-lab` (repositorio `zevenstudio7-hub/zevenpro-web`; ficha en `lib/resources-config.ts`, contenido en `lib/video-lab-landing.ts`). Decisión del responsable: la venta ocurre sola en la web, sin botones ni CTA de WhatsApp.
 
 Reglas:
-- La landing solo promete lo que el producto entrega y muestra el estado real de cada formato (`formatos/README.md`). Si cambia el estado de un formato, el número de variantes o estilos, o el contenido de la guía, se actualiza la landing.
+- La landing solo promete lo que el producto entrega. Por decisión del responsable (2026-10-14), los cinco formatos y las muestras publicadas están revisados y aprobados para la web, que no muestra etiquetas de estado ni lenguaje de borrador. Si cambia el número de formatos, variantes o estilos, o el contenido de la guía, se actualiza la landing.
+- Discurso de venta: ahorro frente a pagar un editor de contenido, con una calculadora de cifras propias (sin estadísticas ni resultados prometidos).
 - El avatar (`#edit-6-avatar`) no se ofrece mientras esté fuera del catálogo.
 - Las muestras de video de la landing son renders de `LibraryShowcase` con material de demostración. Pendiente: sustituirlas por exportaciones reales aprobadas (por ejemplo VIDEO-001).
 - Entrega: el comprador recibe la guía de uso en PDF, que incluye el enlace de descarga de la skill `/video-lab`. El enlace debe funcionar para quien compra (este repositorio es privado).
