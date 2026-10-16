@@ -1,0 +1,970 @@
+{
+  "id": "VIDEO-008",
+  "titulo": "Dashboard de la agencia con agentes de IA",
+  "EDIT_TYPE": "#edit-2-pantalla-dividida",
+  "variante": "2A",
+  "subtitulos": "S6",
+  "carpeta": "formatos/edit-2-pantalla-dividida/VIDEO-008-dashboard-agencia-ia",
+  "status": "exportado-v2",
+  "reviewNotice": "VIDEO-008 · PREVIEW v1 · PENDIENTE DE REVISIÓN",
+  "direccion": "Usuario, 2026-10-16: «vamos a editar este video en pantalla dividida, aplicando las tomas de apoyo en la parte de abajo. el video es muy extenso para mi gusto, mira que podemos quitar sin que pierda estos principios, mostrar la para que es, que resuelve y como funciona. para esta ocasión los subtitulos serán sencillos, sin resaltar palabras.»",
+  "cambios": [
+    {
+      "campo": "reparto",
+      "valor": "presentador arriba (y 0–950) y tomas de apoyo abajo (y 1070–1920)",
+      "motivo": "pedido del usuario: «las tomas de apoyo en la parte de abajo» (2A las lleva arriba)"
+    },
+    {
+      "campo": "subtitulos",
+      "valor": "S6 sin píldora, en una franja oscura entre las dos zonas (y 950–1070); a pantalla completa, y ≈ 1400",
+      "motivo": "«subtítulos sencillos, sin resaltar palabras»; el portátil claro de la toma no deja leer texto blanco encima"
+    },
+    {
+      "campo": "velocidad",
+      "valor": "1x",
+      "motivo": "no se pidió acelerar; el recorte ya acorta el video"
+    }
+  ],
+  "fuentes": {
+    "presentador": "~/Downloads/YeiRodriguez Contenido/edicion-de-video-skill/dashboard/DASHBOARD IA ZEVEN.mp4 (2160×3840, 24 fps, 1:58,0)",
+    "apoyo": [
+      "~/Downloads/YeiRodriguez Contenido/edicion-de-video-skill/dashboard/Apoyo /Grabación de pantalla 2026-10-15 a la(s) 7.13.22 p.m..mov (dashboard limpio, 2:09; la que se usa)",
+      "~/Downloads/YeiRodriguez Contenido/edicion-de-video-skill/dashboard/Apoyo /Grabación de pantalla 2026-10-15 a la(s) 9.16.16 p.m..mov (con ChatGPT y el escritorio a la vista; reserva)"
+    ]
+  },
+  "edl": {
+    "fps": 24,
+    "correcciones": {
+      "0": "Parce,",
+      "13": "dashboard",
+      "15": "creé",
+      "22": "Zeven",
+      "329": "",
+      "330": ""
+    },
+    "keep": [
+      {
+        "id": "k1",
+        "from": 0,
+        "to": 27,
+        "principio": "qué es",
+        "motivo": "Gancho y qué es: un dashboard para organizar la agencia Zeven con agentes de IA."
+      },
+      {
+        "id": "k2",
+        "from": 50,
+        "to": 56,
+        "principio": "cómo funciona",
+        "motivo": "«Cada uno de ellos con una tarea». Se quita antes «decidí adelantarme a la estructura y la maquetación…» (proceso, no producto)."
+      },
+      {
+        "id": "k3",
+        "from": 63,
+        "to": 77,
+        "principio": "cómo funciona",
+        "motivo": "La oficina se mueve y él da las directrices. Se quita «En este básicamente están las responsabilidades» (repite la idea anterior)."
+      },
+      {
+        "id": "k4",
+        "from": 78,
+        "to": 110,
+        "principio": "cómo funciona",
+        "motivo": "La sala de juntas: hace un llamado y todos vienen a revisar las estrategias."
+      },
+      {
+        "id": "k5",
+        "from": 132,
+        "to": 179,
+        "principio": "qué resuelve",
+        "motivo": "Tener mapeado el trabajo de cada uno: porcentaje, aprobada, en ejecución, qué le falta. Se quita antes la enumeración de cargos (se ven en pantalla)."
+      },
+      {
+        "id": "k6",
+        "from": 199,
+        "to": 247,
+        "principio": "cómo funciona",
+        "motivo": "La orden por Telegram y que nada se haga sin su revisión. Se quita antes «es muy interactivo…» (opinión) y después los ejemplos de campaña y anuncio."
+      },
+      {
+        "id": "k7",
+        "from": 267,
+        "to": 273,
+        "principio": "estado",
+        "motivo": "«Hasta el momento solamente tengo activo investigación». Se quita la explicación larga de por qué empieza por ahí."
+      },
+      {
+        "id": "k8",
+        "from": 306,
+        "to": 358,
+        "principio": "resumen y cierre",
+        "motivo": "Cargos, avances y aprobación en una frase, y el cierre (seguirá contando el proceso)."
+      }
+    ],
+    "reparto": [
+      {
+        "modo": "presentador",
+        "desde": {
+          "frame": 0
+        },
+        "motivo": "gancho a pantalla completa"
+      },
+      {
+        "modo": "dividida",
+        "desde": {
+          "word": 10
+        },
+        "motivo": "«esto que ustedes están viendo aquí»"
+      },
+      {
+        "modo": "presentador",
+        "desde": {
+          "word": 318
+        },
+        "motivo": "cierre a pantalla completa («voy a estarles contando…»)"
+      }
+    ],
+    "apoyo": [
+      {
+        "desde": {
+          "word": 10
+        },
+        "fuente": 24,
+        "zona": "oficina",
+        "recorte": {
+          "x": 420,
+          "y": 330,
+          "w": 1710,
+          "h": 1346
+        },
+        "motivo": "qué es: la oficina completa"
+      },
+      {
+        "desde": {
+          "word": 50
+        },
+        "fuente": 2,
+        "zona": "lista",
+        "recorte": {
+          "x": 0,
+          "y": 360,
+          "w": 1100,
+          "h": 866
+        },
+        "motivo": "«cada uno de ellos con una tarea»: los 14 cargos"
+      },
+      {
+        "desde": {
+          "word": 63
+        },
+        "fuente": 64,
+        "zona": "oficina",
+        "recorte": {
+          "x": 420,
+          "y": 330,
+          "w": 1710,
+          "h": 1346
+        },
+        "motivo": "«aquí tengo la oficina… se puede mover»"
+      },
+      {
+        "desde": {
+          "word": 78
+        },
+        "fuente": 99,
+        "zona": "junta",
+        "recorte": {
+          "x": 600,
+          "y": 340,
+          "w": 1300,
+          "h": 1023
+        },
+        "motivo": "la sala de juntas y la orden al equipo"
+      },
+      {
+        "desde": {
+          "word": 99
+        },
+        "fuente": 103,
+        "zona": "junta",
+        "recorte": {
+          "x": 600,
+          "y": 340,
+          "w": 1300,
+          "h": 1023
+        },
+        "motivo": "«los llamo y todos vienen a la reunión»"
+      },
+      {
+        "desde": {
+          "word": 132
+        },
+        "fuente": 112,
+        "zona": "lista",
+        "recorte": {
+          "x": 0,
+          "y": 360,
+          "w": 1100,
+          "h": 866
+        },
+        "motivo": "«tener mapeado el trabajo de cada uno»"
+      },
+      {
+        "desde": {
+          "word": 148
+        },
+        "fuente": 44,
+        "zona": "avances",
+        "recorte": {
+          "x": 420,
+          "y": 700,
+          "w": 1380,
+          "h": 1087
+        },
+        "motivo": "«el porcentaje según la tarea»"
+      },
+      {
+        "desde": {
+          "word": 161
+        },
+        "fuente": 40,
+        "zona": "aprobacion",
+        "recorte": {
+          "x": 1900,
+          "y": 370,
+          "w": 774,
+          "h": 609
+        },
+        "motivo": "«si la actividad está aprobada…»"
+      },
+      {
+        "desde": {
+          "word": 199
+        },
+        "fuente": 104,
+        "zona": "aprobacion",
+        "recorte": {
+          "x": 1900,
+          "y": 370,
+          "w": 774,
+          "h": 609
+        },
+        "motivo": "la orden: chat de la sala de juntas"
+      },
+      {
+        "desde": {
+          "word": 219
+        },
+        "fuente": 96,
+        "zona": "junta",
+        "recorte": {
+          "x": 600,
+          "y": 340,
+          "w": 1300,
+          "h": 1023
+        },
+        "motivo": "«le dé una orden»"
+      },
+      {
+        "desde": {
+          "word": 236
+        },
+        "fuente": 76,
+        "zona": "oficina",
+        "recorte": {
+          "x": 420,
+          "y": 330,
+          "w": 1710,
+          "h": 1346
+        },
+        "motivo": "«hagan las tareas»"
+      },
+      {
+        "desde": {
+          "word": 239
+        },
+        "fuente": 40.5,
+        "zona": "decides",
+        "recorte": {
+          "x": 420,
+          "y": 560,
+          "w": 1440,
+          "h": 1133
+        },
+        "motivo": "«nada de esto se haga sin mi revisión»: Tú decides"
+      },
+      {
+        "desde": {
+          "word": 267
+        },
+        "fuente": 15,
+        "zona": "investigador",
+        "recorte": {
+          "x": 500,
+          "y": 310,
+          "w": 1200,
+          "h": 945
+        },
+        "motivo": "«solamente tengo activo investigación»"
+      },
+      {
+        "desde": {
+          "word": 306
+        },
+        "fuente": 6,
+        "zona": "lista",
+        "recorte": {
+          "x": 0,
+          "y": 360,
+          "w": 1100,
+          "h": 866
+        },
+        "motivo": "«aquí están los cargos»"
+      },
+      {
+        "desde": {
+          "word": 310
+        },
+        "fuente": 48,
+        "zona": "avances",
+        "recorte": {
+          "x": 420,
+          "y": 700,
+          "w": 1380,
+          "h": 1087
+        },
+        "motivo": "«acá están los avances»"
+      },
+      {
+        "desde": {
+          "word": 314
+        },
+        "fuente": 41,
+        "zona": "aprobacion",
+        "recorte": {
+          "x": 1900,
+          "y": 370,
+          "w": 774,
+          "h": 609
+        },
+        "motivo": "«aquí está la aprobación»"
+      }
+    ],
+    "cta": {
+      "desde": {
+        "word": 343
+      },
+      "fuente": "src/compositions/video005/scenes.tsx → ESCENAS.cierre (solo la parte «sígueme»: avatar en arco → tarjeta de perfil yeirodriguez.co → clic en «Seguir» → «Siguiendo»)",
+      "motivo": "pedido del usuario (2026-10-16): «la animación motion de seguirnos al final, esa la hicimos en el video-005». Entra en «aplicarlo…», sobre la última frase, a la velocidad de VIDEO-005 (30 fps)."
+    }
+  },
+  "timeline": {
+    "fps": 24,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1875,
+    "audio": {
+      "dialogue": "video-008/dialogue.wav"
+    },
+    "cta": {
+      "startFrame": 1760
+    },
+    "presentador": "video-008/presentador.mp4",
+    "dashboard": "video-008/dashboard.mp4",
+    "shots": [
+      {
+        "id": "k1",
+        "startFrame": 0,
+        "durationInFrames": 252,
+        "trimBefore": 5
+      },
+      {
+        "id": "k2",
+        "startFrame": 252,
+        "durationInFrames": 44,
+        "trimBefore": 418
+      },
+      {
+        "id": "k3a",
+        "startFrame": 296,
+        "durationInFrames": 21,
+        "trimBefore": 536
+      },
+      {
+        "id": "k3b",
+        "startFrame": 317,
+        "durationInFrames": 127,
+        "trimBefore": 564
+      },
+      {
+        "id": "k4",
+        "startFrame": 444,
+        "durationInFrames": 238,
+        "trimBefore": 687
+      },
+      {
+        "id": "k5",
+        "startFrame": 682,
+        "durationInFrames": 333,
+        "trimBefore": 1143
+      },
+      {
+        "id": "k6",
+        "startFrame": 1015,
+        "durationInFrames": 381,
+        "trimBefore": 1586
+      },
+      {
+        "id": "k7",
+        "startFrame": 1396,
+        "durationInFrames": 74,
+        "trimBefore": 2103
+      },
+      {
+        "id": "k8",
+        "startFrame": 1470,
+        "durationInFrames": 405,
+        "trimBefore": 2424
+      }
+    ],
+    "layout": [
+      {
+        "modo": "presentador",
+        "startFrame": 0
+      },
+      {
+        "modo": "dividida",
+        "startFrame": 74
+      },
+      {
+        "modo": "presentador",
+        "startFrame": 1549
+      }
+    ],
+    "apoyo": [
+      {
+        "fuente": 24,
+        "zona": "oficina",
+        "recorte": {
+          "x": 420,
+          "y": 330,
+          "w": 1710,
+          "h": 1346
+        },
+        "motivo": "qué es: la oficina completa",
+        "startFrame": 74,
+        "endFrame": 255
+      },
+      {
+        "fuente": 2,
+        "zona": "lista",
+        "recorte": {
+          "x": 0,
+          "y": 360,
+          "w": 1100,
+          "h": 866
+        },
+        "motivo": "«cada uno de ellos con una tarea»: los 14 cargos",
+        "startFrame": 255,
+        "endFrame": 297
+      },
+      {
+        "fuente": 64,
+        "zona": "oficina",
+        "recorte": {
+          "x": 420,
+          "y": 330,
+          "w": 1710,
+          "h": 1346
+        },
+        "motivo": "«aquí tengo la oficina… se puede mover»",
+        "startFrame": 297,
+        "endFrame": 457
+      },
+      {
+        "fuente": 99,
+        "zona": "junta",
+        "recorte": {
+          "x": 600,
+          "y": 340,
+          "w": 1300,
+          "h": 1023
+        },
+        "motivo": "la sala de juntas y la orden al equipo",
+        "startFrame": 457,
+        "endFrame": 590
+      },
+      {
+        "fuente": 103,
+        "zona": "junta",
+        "recorte": {
+          "x": 600,
+          "y": 340,
+          "w": 1300,
+          "h": 1023
+        },
+        "motivo": "«los llamo y todos vienen a la reunión»",
+        "startFrame": 590,
+        "endFrame": 684
+      },
+      {
+        "fuente": 112,
+        "zona": "lista",
+        "recorte": {
+          "x": 0,
+          "y": 360,
+          "w": 1100,
+          "h": 866
+        },
+        "motivo": "«tener mapeado el trabajo de cada uno»",
+        "startFrame": 684,
+        "endFrame": 794
+      },
+      {
+        "fuente": 44,
+        "zona": "avances",
+        "recorte": {
+          "x": 420,
+          "y": 700,
+          "w": 1380,
+          "h": 1087
+        },
+        "motivo": "«el porcentaje según la tarea»",
+        "startFrame": 794,
+        "endFrame": 889
+      },
+      {
+        "fuente": 40,
+        "zona": "aprobacion",
+        "recorte": {
+          "x": 1900,
+          "y": 370,
+          "w": 774,
+          "h": 609
+        },
+        "motivo": "«si la actividad está aprobada…»",
+        "startFrame": 889,
+        "endFrame": 1018
+      },
+      {
+        "fuente": 104,
+        "zona": "aprobacion",
+        "recorte": {
+          "x": 1900,
+          "y": 370,
+          "w": 774,
+          "h": 609
+        },
+        "motivo": "la orden: chat de la sala de juntas",
+        "startFrame": 1018,
+        "endFrame": 1164
+      },
+      {
+        "fuente": 96,
+        "zona": "junta",
+        "recorte": {
+          "x": 600,
+          "y": 340,
+          "w": 1300,
+          "h": 1023
+        },
+        "motivo": "«le dé una orden»",
+        "startFrame": 1164,
+        "endFrame": 1300
+      },
+      {
+        "fuente": 76,
+        "zona": "oficina",
+        "recorte": {
+          "x": 420,
+          "y": 330,
+          "w": 1710,
+          "h": 1346
+        },
+        "motivo": "«hagan las tareas»",
+        "startFrame": 1300,
+        "endFrame": 1325
+      },
+      {
+        "fuente": 40.5,
+        "zona": "decides",
+        "recorte": {
+          "x": 420,
+          "y": 560,
+          "w": 1440,
+          "h": 1133
+        },
+        "motivo": "«nada de esto se haga sin mi revisión»: Tú decides",
+        "startFrame": 1325,
+        "endFrame": 1399
+      },
+      {
+        "fuente": 15,
+        "zona": "investigador",
+        "recorte": {
+          "x": 500,
+          "y": 310,
+          "w": 1200,
+          "h": 945
+        },
+        "motivo": "«solamente tengo activo investigación»",
+        "startFrame": 1399,
+        "endFrame": 1470
+      },
+      {
+        "fuente": 6,
+        "zona": "lista",
+        "recorte": {
+          "x": 0,
+          "y": 360,
+          "w": 1100,
+          "h": 866
+        },
+        "motivo": "«aquí están los cargos»",
+        "startFrame": 1470,
+        "endFrame": 1495
+      },
+      {
+        "fuente": 48,
+        "zona": "avances",
+        "recorte": {
+          "x": 420,
+          "y": 700,
+          "w": 1380,
+          "h": 1087
+        },
+        "motivo": "«acá están los avances»",
+        "startFrame": 1495,
+        "endFrame": 1517
+      },
+      {
+        "fuente": 41,
+        "zona": "aprobacion",
+        "recorte": {
+          "x": 1900,
+          "y": 370,
+          "w": 774,
+          "h": 609
+        },
+        "motivo": "«aquí está la aprobación»",
+        "startFrame": 1517,
+        "endFrame": 1875
+      }
+    ],
+    "captions": {
+      "read": [
+        {
+          "text": "Parce, estoy súper emocionadísimo.",
+          "startFrame": 2,
+          "endFrame": 40
+        },
+        {
+          "text": "Miren,",
+          "startFrame": 40,
+          "endFrame": 51
+        },
+        {
+          "text": "esto que ustedes están viendo aquí es",
+          "startFrame": 51,
+          "endFrame": 89
+        },
+        {
+          "text": "un dashboard que creé porque estoy",
+          "startFrame": 89,
+          "endFrame": 144
+        },
+        {
+          "text": "organizando toda mi agencia Zeven con",
+          "startFrame": 144,
+          "endFrame": 210
+        },
+        {
+          "text": "agentes de inteligencia artificial.",
+          "startFrame": 210,
+          "endFrame": 255
+        },
+        {
+          "text": "Cada uno de ellos con una tarea.",
+          "startFrame": 255,
+          "endFrame": 297
+        },
+        {
+          "text": "Aquí tengo la oficina,",
+          "startFrame": 297,
+          "endFrame": 343
+        },
+        {
+          "text": "toda la agencia se puede mover.",
+          "startFrame": 343,
+          "endFrame": 387
+        },
+        {
+          "text": "Yo les doy las directrices.",
+          "startFrame": 387,
+          "endFrame": 457
+        },
+        {
+          "text": "Tenemos una sala de",
+          "startFrame": 457,
+          "endFrame": 477
+        },
+        {
+          "text": "juntas donde estoy yo.",
+          "startFrame": 477,
+          "endFrame": 509
+        },
+        {
+          "text": "Desde que tenga una tarea",
+          "startFrame": 509,
+          "endFrame": 531
+        },
+        {
+          "text": "puedo hacer un llamado,",
+          "startFrame": 531,
+          "endFrame": 554
+        },
+        {
+          "text": "no necesariamente desde aquí.",
+          "startFrame": 554,
+          "endFrame": 590
+        },
+        {
+          "text": "Los llamo y todos vienen a la",
+          "startFrame": 590,
+          "endFrame": 640
+        },
+        {
+          "text": "reunión a revisar las estrategias.",
+          "startFrame": 640,
+          "endFrame": 684
+        },
+        {
+          "text": "La intención con esto básicamente",
+          "startFrame": 684,
+          "endFrame": 723
+        },
+        {
+          "text": "es yo tener mapeado el trabajo",
+          "startFrame": 723,
+          "endFrame": 771
+        },
+        {
+          "text": "de cada uno de ellos.",
+          "startFrame": 771,
+          "endFrame": 794
+        },
+        {
+          "text": "Aquí debería mostrarme el",
+          "startFrame": 794,
+          "endFrame": 828
+        },
+        {
+          "text": "porcentaje según la tarea",
+          "startFrame": 828,
+          "endFrame": 857
+        },
+        {
+          "text": "que está haciendo cada uno.",
+          "startFrame": 857,
+          "endFrame": 889
+        },
+        {
+          "text": "Quería mostrarme más adelante",
+          "startFrame": 889,
+          "endFrame": 923
+        },
+        {
+          "text": "si la actividad está aprobada,",
+          "startFrame": 923,
+          "endFrame": 953
+        },
+        {
+          "text": "si la actividad está en ejecución,",
+          "startFrame": 953,
+          "endFrame": 993
+        },
+        {
+          "text": "qué le hace falta.",
+          "startFrame": 993,
+          "endFrame": 1018
+        },
+        {
+          "text": "La idea es que este dashboard tenga",
+          "startFrame": 1018,
+          "endFrame": 1083
+        },
+        {
+          "text": "una integración con Telegram en la",
+          "startFrame": 1083,
+          "endFrame": 1125
+        },
+        {
+          "text": "que yo solamente en Telegram le dé",
+          "startFrame": 1125,
+          "endFrame": 1164
+        },
+        {
+          "text": "una orden y le diga de ventas,",
+          "startFrame": 1164,
+          "endFrame": 1211
+        },
+        {
+          "text": "ayúdame a revisar las campañas y",
+          "startFrame": 1211,
+          "endFrame": 1261
+        },
+        {
+          "text": "solamente con esa orden hagan las tareas.",
+          "startFrame": 1261,
+          "endFrame": 1325
+        },
+        {
+          "text": "Y nada de esto se",
+          "startFrame": 1325,
+          "endFrame": 1360
+        },
+        {
+          "text": "haga sin mi revisión.",
+          "startFrame": 1360,
+          "endFrame": 1399
+        },
+        {
+          "text": "Hasta el momento solamente",
+          "startFrame": 1399,
+          "endFrame": 1431
+        },
+        {
+          "text": "tengo activo investigación.",
+          "startFrame": 1431,
+          "endFrame": 1470
+        },
+        {
+          "text": "Aquí están los cargos,",
+          "startFrame": 1470,
+          "endFrame": 1495
+        },
+        {
+          "text": "acá están los avances,",
+          "startFrame": 1495,
+          "endFrame": 1517
+        },
+        {
+          "text": "aquí está la aprobación.",
+          "startFrame": 1517,
+          "endFrame": 1549
+        },
+        {
+          "text": "Voy a estarles contando por acá en el",
+          "startFrame": 1549,
+          "endFrame": 1598
+        },
+        {
+          "text": "proceso cómo ir avanzando para que",
+          "startFrame": 1598,
+          "endFrame": 1657
+        },
+        {
+          "text": "cuando llegue a terminar esta tarea",
+          "startFrame": 1657,
+          "endFrame": 1718
+        },
+        {
+          "text": "poderles compartir y aplicarlo en alguna",
+          "startFrame": 1718,
+          "endFrame": 1780
+        },
+        {
+          "text": "de sus agencias o en alguna empresa",
+          "startFrame": 1780,
+          "endFrame": 1823
+        },
+        {
+          "text": "que requiera un equipo de marketing.",
+          "startFrame": 1823,
+          "endFrame": 1866
+        }
+      ]
+    }
+  },
+  "analisis": {
+    "umbralVozDb": -30.1,
+    "cortes": [
+      {
+        "id": "k1",
+        "tramo": "k1",
+        "in": 0.22,
+        "out": 10.6,
+        "at": 0
+      },
+      {
+        "id": "k2",
+        "tramo": "k2",
+        "in": 17.4,
+        "out": 19.09,
+        "at": 10.52
+      },
+      {
+        "id": "k3a",
+        "tramo": "k3",
+        "in": 22.34,
+        "out": 23.2,
+        "at": 12.35
+      },
+      {
+        "id": "k3b",
+        "tramo": "k3",
+        "in": 23.51,
+        "out": 28.64,
+        "at": 13.21
+      },
+      {
+        "id": "k4",
+        "tramo": "k4",
+        "in": 28.62,
+        "out": 38.41,
+        "at": 18.48
+      },
+      {
+        "id": "k5",
+        "tramo": "k5",
+        "in": 47.61,
+        "out": 61.35,
+        "at": 28.41
+      },
+      {
+        "id": "k6",
+        "tramo": "k6",
+        "in": 66.08,
+        "out": 81.81,
+        "at": 42.29
+      },
+      {
+        "id": "k7",
+        "tramo": "k7",
+        "in": 87.61,
+        "out": 90.55,
+        "at": 58.16
+      },
+      {
+        "id": "k8",
+        "tramo": "k8",
+        "in": 101.01,
+        "out": 117.53,
+        "at": 61.24
+      }
+    ],
+    "duracionSegundos": 77.76,
+    "duracionFuente": 118.04,
+    "voz": {
+      "antes": "-13.80",
+      "objetivo": -14
+    }
+  },
+  "exportacion": {
+    "archivo": "formatos/edit-2-pantalla-dividida/VIDEO-008-dashboard-agencia-ia/exportaciones/Video008V2.mp4",
+    "fecha": "2026-10-16",
+    "informe": "analysis/video-008-export-sync-v2.json",
+    "anteriores": [
+      "exportaciones/Video008V1.mp4"
+    ]
+  }
+}
