@@ -1,0 +1,105 @@
+{
+  "createdAt": "2026-10-14T03:39:14.160Z",
+  "render": "/Volumes/YeiRodriguez/Projects IA/gemini-video-lab/out/Video005.mp4",
+  "destino": "/Volumes/YeiRodriguez/Projects IA/gemini-video-lab/formatos/edit-1-motion/VIDEO-005-google-ia-contadores/exportaciones/YR_GoogleIA_v1_9x16.mp4",
+  "modo": "sin pérdida, solo la lista de edición",
+  "audio": {
+    "codec": "AAC-LC",
+    "frecuencia": 48000,
+    "canales": 2,
+    "tramas": 3474,
+    "muestras": 3557376,
+    "listaDeEdicionAntes": [
+      {
+        "segment": 74112,
+        "mediaTime": 0,
+        "rate": 1
+      }
+    ]
+  },
+  "cebado": {
+    "muestras": 2048,
+    "metodo": "ffmpeg de Remotion 4.0.438: libfdk_aac → ADTS → MP4 retrasa 2048 muestras; libfdk_aac directo a MP4 escribe media_time 2048",
+    "ffmpeg": "/Volumes/YeiRodriguez/Projects IA/gemini-video-lab/node_modules/.pnpm/@remotion+compositor-darwin-x64@4.0.438/node_modules/@remotion/compositor-darwin-x64/ffmpeg"
+  },
+  "tramoCebado": {
+    "pico_dBFS": -114.6,
+    "siguientes100ms_dBFS": -29.1,
+    "relleno": true
+  },
+  "desfaseAntes": {
+    "lag": 2048,
+    "agree": 24,
+    "windows": 24,
+    "conclusive": true,
+    "corr": 0.9855
+  },
+  "salida": {
+    "muestrasPresentadas": 3555200,
+    "listaDeEdicion": [
+      {
+        "segment": 74067,
+        "mediaTime": 2048,
+        "rate": 1
+      }
+    ],
+    "escalaPelicula": 1000
+  },
+  "verificacion": [
+    {
+      "nombre": "lista de edición del audio con el salto de cebado",
+      "ok": true,
+      "detalle": "media_time 2048 muestras, 74067 en la escala de la película (1000)"
+    },
+    {
+      "nombre": "paquetes de vídeo idénticos (MD5)",
+      "ok": true,
+      "detalle": "d8f26d8332fe5ed597eb34546704e044"
+    },
+    {
+      "nombre": "paquetes de audio idénticos (MD5)",
+      "ok": true,
+      "detalle": "105b5547c00367018dbbb610ed487709"
+    },
+    {
+      "nombre": "solo cambian la lista de edición y las duraciones",
+      "ok": true,
+      "detalle": "4 bytes"
+    },
+    {
+      "nombre": "audio decodificado = original adelantado el cebado",
+      "ok": true,
+      "detalle": "diferencia máxima 0 en 3555216 muestras; dura 74.067 s"
+    },
+    {
+      "nombre": "sonoridad igual",
+      "ok": true,
+      "detalle": "-16.1 → -16.1 LUFS, LRA 6.2 → 6.2 LU, pico real 0 → 0 dBFS"
+    },
+    {
+      "nombre": "desfase 0 contra las pistas",
+      "ok": true,
+      "detalle": "0 muestras (24/24 ventanas, correlación 1)"
+    }
+  ],
+  "sonoridad": {
+    "antes": {
+      "I": -16.1,
+      "LRA": 6.2,
+      "TP": 0
+    },
+    "despues": {
+      "I": -16.1,
+      "LRA": 6.2,
+      "TP": 0
+    }
+  },
+  "desfaseDespues": {
+    "lag": 0,
+    "agree": 24,
+    "windows": 24,
+    "conclusive": true,
+    "corr": 1
+  },
+  "ok": true
+}

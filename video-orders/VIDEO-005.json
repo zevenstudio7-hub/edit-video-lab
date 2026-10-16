@@ -1,0 +1,2144 @@
+{
+  "videoId": "VIDEO-005",
+  "EDIT_TYPE": "#edit-1-motion",
+  "editType": "#edit-1-motion",
+  "variante": "1C",
+  "subtitulos": "S1+S4",
+  "version": 0,
+  "titulo": "Google + IA para contadores y asistentes administrativos",
+  "objetivo": "Generar conversaciones con contadores y asistentes administrativos que trabajan con Gmail, Drive y Sheets; señal única: comentarios con la palabra GOOGLE (estrategia del usuario).",
+  "status": "preview-v1-pendiente-de-revision",
+  "carpeta": "formatos/edit-1-motion/VIDEO-005-google-ia-contadores",
+  "direccion": "raiz-contenido-yeirodriguez.md (2026-10-13), copiado en material/: estrategia, guion grabado, parámetros técnicos y guion técnico por escena. La grabación manda: diferencias en «diferencias».",
+  "formato": {
+    "aspecto": "9:16",
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30
+  },
+  "identidad": "formatos/identidad-video-zeven.md",
+  "motionUx": {
+    "perfil": "formatos/motion-ux/perfil.json",
+    "superficie": "soft",
+    "intensidad": "alta (#edit-1-motion)"
+  },
+  "look": {
+    "id": "cine-calido",
+    "intensidad": 10,
+    "motivo": "Pedido del usuario el 2026-10-13: «no apliques filtros fuertes, uno muy sutil cálido, máximo 10 %». looks.json indica que los cinematográficos se ven desde el 30 %: se aplica 10 % por instrucción expresa. Solo al metraje (proxy), antes de los gráficos."
+  },
+  "cambios": [
+    {
+      "campo": "audio",
+      "valor": "voz original intacta",
+      "motivo": "Usuario 2026-10-13: «no le trabajes al audio, porque está bien como está». Sin normalizar, comprimir ni de-esser, y sin quitar pausas (el guion §3.3/§3.5 pedía −14 LUFS y quitar silencios > 0,25 s). La voz es la pista AAC de la toma pasada a WAV sin procesar (≈ −16,1 LUFS). Música y efectos van en pistas aparte."
+    },
+    {
+      "campo": "subtitulos",
+      "valor": "S1 + S4 con palabra activa resaltada",
+      "motivo": "Guion §3.4 («palabra activa resaltada», máx. 2 líneas, ≥ 56 px); elegido por el usuario el 2026-10-13. Lectura S1 (66 px) con la palabra que se dice en amarillo #F5C518 sobre el presentador y con marcador amarillo y texto ink sobre el motion claro. S4 sobre superficie soft: el titular de escena va arriba (titular-ui), no en la franja negra."
+    },
+    {
+      "campo": "iconos",
+      "valor": "Gmail, Drive y Sheets oficiales recreados en motion",
+      "motivo": "Usuario 2026-10-13. Contradice la regla de la RAÍZ y de Motion UX («logos: archivo oficial, entero; no se redibujan»): se aplica la instrucción actual y se señala. Derechos: requiere_revision (marcas de Google)."
+    },
+    {
+      "campo": "superficie",
+      "valor": "soft claro (sin franja negra)",
+      "motivo": "Usuario 2026-10-13; identidad video-zeven: gráficos sin fondo oscuro de base."
+    },
+    {
+      "campo": "cierre CTA",
+      "valor": "comentario GOOGLE y tarjeta de perfil animados según la referencia",
+      "motivo": "Usuario 2026-10-13: recrear su captura de perfil de Instagram (yeirodriguez.co, «Yeirodriguez | Estratega») sin publicaciones, seguidores ni seguidos; botón Seguir en azul y un cursor que lo pulsa; que aparezca con la animación de su video de referencia. Sustituye a la burbuja blanca y al botón «Sígueme» de la v1. Foto de perfil recortada de la captura del usuario (titularidad del usuario)."
+    }
+  ],
+  "fuentes": {
+    "tomas": [
+      {
+        "archivo": "google workspace.mp4",
+        "ruta": "formatos/edit-1-motion/VIDEO-005-google-ia-contadores/tomas/google workspace.mp4",
+        "original": "/Users/yeirodriguez/Downloads/YeiRodriguez Contenido/edicion-de-video-skill/google workspace.mp4",
+        "bytes": 177202519,
+        "video": "2160×3840, 24 fps, H.264, bt709 (SDR), 72,6 s; negro entre 8,04–27,67 s y 32,42–64,50 s (voz en off)",
+        "audio": "AAC 44,1 kHz estéreo, ≈ −16,1 LUFS"
+      }
+    ],
+    "proxy": "public/video-005/hq/fuente-cine-calido-10.mp4 (1080×1920, 24 fps, sin audio, cine-calido mezclado al 10 %)"
+  },
+  "verificacion": {
+    "fecha": "2026-10-13",
+    "transcripcion": "whisper.cpp large-v3-turbo local (analysis/video-005-whisper/) + Gemini (analysis/video-005-gemini-snippets.txt) + whisper por fragmento en dudas.",
+    "correcciones": [
+      {
+        "whisper": "guárdala junto",
+        "oido": "guarda el adjunto",
+        "motivo": "Gemini (completa y fragmento)."
+      },
+      {
+        "whisper": "apuntos",
+        "oido": "adjuntos",
+        "motivo": "Gemini (completa y fragmento)."
+      },
+      {
+        "whisper": "Clash",
+        "oido": "clasp",
+        "motivo": "Gemini por fragmento; nombre del repositorio."
+      },
+      {
+        "whisper": "N8 en NCP",
+        "oido": "n8n-MCP",
+        "motivo": "Gemini por fragmento; nombre del repositorio."
+      },
+      {
+        "whisper": "Sheet",
+        "oido": "Sheets",
+        "motivo": "Se pronuncia «Sheet»; se escribe con el nombre de la marca (guion §3.4: marcas con mayúscula y nombre correcto)."
+      },
+      {
+        "whisper": "comenta a Google",
+        "oido": "comenta Google",
+        "motivo": "Gemini (completa y fragmento)."
+      }
+    ],
+    "dudas": [
+      "«trabajas con instrucciones»: whisper lo oye así dos veces; Gemini oye «por instrucciones» (fragmento) y «solo instrucciones» (completa). Se subtitula «con».",
+      "«documentos que lleguen/llegan al correo»: whisper «lleguen», Gemini «llegan». Se subtitula «lleguen»."
+    ],
+    "repositorios": "Comprobados el 2026-10-13 (analysis/video-005-support-research.json): googleworkspace/cli (su README dice que no es un producto oficialmente soportado por Google), google/clasp, czlonkowski/n8n-mcp."
+  },
+  "diferencias": [
+    "Texto 1: se dice «trabajas con Google Drive, Gmail, Google Sheets y todo el ecosistema de Google, quédate porque esto te interesa» (guion: «…todos los días con Gmail, Drive y Sheets, esto te interesa»).",
+    "Texto 5: «Vamos a iniciar con una tarea completa: recibir un documento, organizarlo, revisarlo y dejarlo listo para enviar» (guion: «empezar con una tarea concreta…»).",
+    "Frase nueva entre 5 y 6 (32,4–38,6 s, voz en off): «La IA busca el correo, guarda el adjunto en la carpeta del cliente, lo nombra y lo registra en tu hoja de control, tú solo revisas». Se le asigna la escena 5b con los pasos 2–5 de la demo del guion; la escena 6 queda con el prompt tecleado y el «listo para enviar».",
+    "Texto 6: «trabajas con instrucciones» (guion: «por instrucción»).",
+    "Texto 7: «reportes de PDF desde Sheets». Texto 8: «construye», «borrador de respuestas». Texto 9: «la guía completa con el paso a paso… optimizar tu flujo de trabajo».",
+    "Duración: la toma ya viene montada (72,6 s, 4 pausas de 0,3–0,4 s en la voz en off). No se recorta por decisión del usuario sobre el audio; con el cierre final, 74,1 s."
+  ],
+  "cta": "Hablado: comenta GOOGLE y sígueme.",
+  "reviewNotice": "VIDEO-005 · PREVIEW v1 · PENDIENTE DE REVISIÓN",
+  "timeline": {
+    "fps": 30,
+    "durationInFrames": 2222,
+    "vozFrames": 2177,
+    "source": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 24,
+      "video": "video-005/hq/fuente-cine-calido-10.mp4"
+    },
+    "audio": {
+      "dialogue": "video-005/voz-original.wav",
+      "sfx": "video-005/sfx.wav",
+      "music": "video-005/music.wav"
+    },
+    "scenes": [
+      {
+        "id": "esc1",
+        "modo": "presentador",
+        "tipo": "gancho",
+        "beats": {
+          "card": 62,
+          "drive": 99,
+          "gmail": 120,
+          "sheets": 145,
+          "cardSale": 197
+        },
+        "motivo": "Gancho a cámara; los 3 iconos aparecen junto a Yeison al nombrarlos.",
+        "startFrame": 0,
+        "durationInFrames": 241
+      },
+      {
+        "id": "esc2",
+        "modo": "motion",
+        "tipo": "conectar",
+        "beats": {
+          "titular": 243,
+          "orbita": 250,
+          "conectar": 295,
+          "ia": 338,
+          "facil": 412
+        },
+        "motivo": "«conectar tu Google con la inteligencia artificial»: Gmail, Drive y Sheets orbitan el nodo IA; las líneas se encienden en «mucho más fácil».",
+        "startFrame": 241,
+        "durationInFrames": 177
+      },
+      {
+        "id": "esc3",
+        "modo": "motion",
+        "tipo": "casos",
+        "beats": {
+          "c1": 433,
+          "c2": 494,
+          "c3": 554,
+          "checks": 582
+        },
+        "motivo": "Tres casos de uso, cada tarjeta con su frase.",
+        "startFrame": 418,
+        "durationInFrames": 203
+      },
+      {
+        "id": "esc4",
+        "modo": "motion",
+        "tipo": "repos",
+        "beats": {
+          "r1": 650,
+          "r2": 715,
+          "r3": 802
+        },
+        "motivo": "Tres repositorios numerados que se iluminan con su función (aún sin nombrarlos en la voz).",
+        "startFrame": 621,
+        "durationInFrames": 209
+      },
+      {
+        "id": "esc5",
+        "modo": "presentador",
+        "tipo": "puente",
+        "beats": {
+          "card": 880,
+          "k1": 912,
+          "k2": 934,
+          "k3": 955
+        },
+        "motivo": "Puente a la demo: Recibir → Organizar → Enviar y tres checks.",
+        "startFrame": 830,
+        "durationInFrames": 143
+      },
+      {
+        "id": "esc5b",
+        "modo": "motion",
+        "tipo": "flujo-demo",
+        "beats": {
+          "busca": 991,
+          "adjunto": 1030,
+          "carpeta": 1044,
+          "nombra": 1074,
+          "registra": 1095,
+          "revisas": 1132
+        },
+        "motivo": "Frase grabada que no está en el guion («La IA busca el correo… tú solo revisas»): se muestran aquí los pasos 2–5 de la demo del guion (encuentra, organiza, nombra, registra, revisas). SIMULACIÓN.",
+        "startFrame": 973,
+        "durationInFrames": 183
+      },
+      {
+        "id": "esc6",
+        "modo": "motion",
+        "tipo": "cli",
+        "beats": {
+          "card": 1168,
+          "pides": 1257,
+          "teclea": 1285,
+          "fin": 1404,
+          "listo": 1408
+        },
+        "motivo": "Repo 01: Google Workspace CLI; el prompt se teclea al decirlo. SIMULACIÓN.",
+        "startFrame": 1156,
+        "durationInFrames": 257
+      },
+      {
+        "id": "esc7",
+        "modo": "motion",
+        "tipo": "clasp",
+        "beats": {
+          "card": 1421,
+          "codigo": 1536,
+          "script": 1548,
+          "sheets": 1571,
+          "pdf": 1603,
+          "drive": 1671,
+          "gmail": 1703
+        },
+        "motivo": "Repo 02: clasp; flujo Sheets → PDF → Drive → Gmail; código genérico desenfocado en «Apps Script».",
+        "startFrame": 1413,
+        "durationInFrames": 299
+      },
+      {
+        "id": "esc8",
+        "modo": "motion",
+        "tipo": "n8n",
+        "beats": {
+          "card": 1727,
+          "aclara": 1763,
+          "gmail": 1805,
+          "sheets": 1854,
+          "borrador": 1898
+        },
+        "motivo": "Repo 03: n8n-MCP; Gmail → Sheets → Borrador en cadena; «El MCP diseña · n8n ejecuta».",
+        "startFrame": 1712,
+        "durationInFrames": 223
+      },
+      {
+        "id": "esc9",
+        "modo": "presentador",
+        "tipo": "cierre",
+        "beats": {
+          "guia": 1955,
+          "comenta": 2095,
+          "google": 2110,
+          "sigueme": 2121,
+          "expande": 2133,
+          "clic": 2155
+        },
+        "motivo": "CTA hablado. «comenta Google»: píldora oscura de comentario en la que se escribe GOOGLE y pasa un barrido de luz (referencia del usuario, material/referencias/referencia-comenta-seguir.mov). «sígueme»: el avatar entra en arco y se expande en la tarjeta de perfil recreada (captura del usuario, sin cifras); el cursor pulsa «Seguir» (azul) → «Siguiendo».",
+        "startFrame": 1935,
+        "durationInFrames": 242
+      },
+      {
+        "id": "fin",
+        "modo": "motion",
+        "tipo": "tarjetas-finales",
+        "beats": {},
+        "motivo": "Últimos ~2 s: las 3 tarjetas apiladas con @yeirodriguez.co (guion §4, ESC 9).",
+        "startFrame": 2177,
+        "durationInFrames": 45
+      }
+    ],
+    "captions": {
+      "read": [
+        {
+          "text": "Si eres contador",
+          "startFrame": 7,
+          "endFrame": 29,
+          "palabras": [
+            {
+              "text": "Si",
+              "frame": 7
+            },
+            {
+              "text": "eres",
+              "frame": 12
+            },
+            {
+              "text": "contador",
+              "frame": 20
+            }
+          ]
+        },
+        {
+          "text": "o asistente",
+          "startFrame": 29,
+          "endFrame": 46,
+          "palabras": [
+            {
+              "text": "o",
+              "frame": 29
+            },
+            {
+              "text": "asistente",
+              "frame": 32
+            }
+          ]
+        },
+        {
+          "text": "administrativo",
+          "startFrame": 46,
+          "endFrame": 62,
+          "palabras": [
+            {
+              "text": "administrativo",
+              "frame": 46
+            }
+          ]
+        },
+        {
+          "text": "y trabajas con Google",
+          "startFrame": 62,
+          "endFrame": 99,
+          "palabras": [
+            {
+              "text": "y",
+              "frame": 62
+            },
+            {
+              "text": "trabajas",
+              "frame": 68
+            },
+            {
+              "text": "con",
+              "frame": 79
+            },
+            {
+              "text": "Google",
+              "frame": 89
+            }
+          ]
+        },
+        {
+          "text": "Drive,",
+          "startFrame": 99,
+          "endFrame": 120,
+          "palabras": [
+            {
+              "text": "Drive,",
+              "frame": 99
+            }
+          ]
+        },
+        {
+          "text": "Gmail,",
+          "startFrame": 120,
+          "endFrame": 138,
+          "palabras": [
+            {
+              "text": "Gmail,",
+              "frame": 120
+            }
+          ]
+        },
+        {
+          "text": "Google Sheets y todo",
+          "startFrame": 138,
+          "endFrame": 163,
+          "palabras": [
+            {
+              "text": "Google",
+              "frame": 138
+            },
+            {
+              "text": "Sheets",
+              "frame": 145
+            },
+            {
+              "text": "y",
+              "frame": 153
+            },
+            {
+              "text": "todo",
+              "frame": 159
+            }
+          ]
+        },
+        {
+          "text": "el ecosistema de Google,",
+          "startFrame": 163,
+          "endFrame": 197,
+          "palabras": [
+            {
+              "text": "el",
+              "frame": 163
+            },
+            {
+              "text": "ecosistema",
+              "frame": 169
+            },
+            {
+              "text": "de",
+              "frame": 182
+            },
+            {
+              "text": "Google,",
+              "frame": 191
+            }
+          ]
+        },
+        {
+          "text": "quédate porque",
+          "startFrame": 197,
+          "endFrame": 216,
+          "palabras": [
+            {
+              "text": "quédate",
+              "frame": 197
+            },
+            {
+              "text": "porque",
+              "frame": 212
+            }
+          ]
+        },
+        {
+          "text": "Estas tres herramientas",
+          "startFrame": 243,
+          "endFrame": 273,
+          "palabras": [
+            {
+              "text": "Estas",
+              "frame": 243
+            },
+            {
+              "text": "tres",
+              "frame": 250
+            },
+            {
+              "text": "herramientas",
+              "frame": 259
+            }
+          ]
+        },
+        {
+          "text": "pueden ayudarte",
+          "startFrame": 273,
+          "endFrame": 287,
+          "palabras": [
+            {
+              "text": "pueden",
+              "frame": 273
+            },
+            {
+              "text": "ayudarte",
+              "frame": 279
+            }
+          ]
+        },
+        {
+          "text": "a conectar tu Google",
+          "startFrame": 287,
+          "endFrame": 331,
+          "palabras": [
+            {
+              "text": "a",
+              "frame": 287
+            },
+            {
+              "text": "conectar",
+              "frame": 295
+            },
+            {
+              "text": "tu",
+              "frame": 308
+            },
+            {
+              "text": "Google",
+              "frame": 318
+            }
+          ]
+        },
+        {
+          "text": "con la inteligencia",
+          "startFrame": 331,
+          "endFrame": 356,
+          "palabras": [
+            {
+              "text": "con",
+              "frame": 331
+            },
+            {
+              "text": "la",
+              "frame": 334
+            },
+            {
+              "text": "inteligencia",
+              "frame": 338
+            }
+          ]
+        },
+        {
+          "text": "artificial y hacer",
+          "startFrame": 356,
+          "endFrame": 377,
+          "palabras": [
+            {
+              "text": "artificial",
+              "frame": 356
+            },
+            {
+              "text": "y",
+              "frame": 366
+            },
+            {
+              "text": "hacer",
+              "frame": 372
+            }
+          ]
+        },
+        {
+          "text": "tu trabajo mucho más",
+          "startFrame": 377,
+          "endFrame": 412,
+          "palabras": [
+            {
+              "text": "tu",
+              "frame": 377
+            },
+            {
+              "text": "trabajo",
+              "frame": 387
+            },
+            {
+              "text": "mucho",
+              "frame": 398
+            },
+            {
+              "text": "más",
+              "frame": 403
+            }
+          ]
+        },
+        {
+          "text": "fácil.",
+          "startFrame": 412,
+          "endFrame": 422,
+          "palabras": [
+            {
+              "text": "fácil.",
+              "frame": 412
+            }
+          ]
+        },
+        {
+          "text": "Puedes organizar",
+          "startFrame": 422,
+          "endFrame": 448,
+          "palabras": [
+            {
+              "text": "Puedes",
+              "frame": 422
+            },
+            {
+              "text": "organizar",
+              "frame": 433
+            }
+          ]
+        },
+        {
+          "text": "documentos que lleguen",
+          "startFrame": 448,
+          "endFrame": 472,
+          "palabras": [
+            {
+              "text": "documentos",
+              "frame": 448
+            },
+            {
+              "text": "que",
+              "frame": 461
+            },
+            {
+              "text": "lleguen",
+              "frame": 465
+            }
+          ]
+        },
+        {
+          "text": "al correo,",
+          "startFrame": 472,
+          "endFrame": 494,
+          "palabras": [
+            {
+              "text": "al",
+              "frame": 472
+            },
+            {
+              "text": "correo,",
+              "frame": 479
+            }
+          ]
+        },
+        {
+          "text": "preparar reportes",
+          "startFrame": 494,
+          "endFrame": 517,
+          "palabras": [
+            {
+              "text": "preparar",
+              "frame": 494
+            },
+            {
+              "text": "reportes",
+              "frame": 506
+            }
+          ]
+        },
+        {
+          "text": "con tus hojas",
+          "startFrame": 517,
+          "endFrame": 533,
+          "palabras": [
+            {
+              "text": "con",
+              "frame": 517
+            },
+            {
+              "text": "tus",
+              "frame": 522
+            },
+            {
+              "text": "hojas",
+              "frame": 527
+            }
+          ]
+        },
+        {
+          "text": "de cálculo y dar",
+          "startFrame": 533,
+          "endFrame": 560,
+          "palabras": [
+            {
+              "text": "de",
+              "frame": 533
+            },
+            {
+              "text": "cálculo",
+              "frame": 539
+            },
+            {
+              "text": "y",
+              "frame": 550
+            },
+            {
+              "text": "dar",
+              "frame": 554
+            }
+          ]
+        },
+        {
+          "text": "seguimiento",
+          "startFrame": 560,
+          "endFrame": 575,
+          "palabras": [
+            {
+              "text": "seguimiento",
+              "frame": 560
+            }
+          ]
+        },
+        {
+          "text": "a solicitudes",
+          "startFrame": 575,
+          "endFrame": 601,
+          "palabras": [
+            {
+              "text": "a",
+              "frame": 575
+            },
+            {
+              "text": "solicitudes",
+              "frame": 582
+            }
+          ]
+        },
+        {
+          "text": "pendientes.",
+          "startFrame": 601,
+          "endFrame": 625,
+          "palabras": [
+            {
+              "text": "pendientes.",
+              "frame": 601
+            }
+          ]
+        },
+        {
+          "text": "Uno te sirve",
+          "startFrame": 625,
+          "endFrame": 643,
+          "palabras": [
+            {
+              "text": "Uno",
+              "frame": 625
+            },
+            {
+              "text": "te",
+              "frame": 629
+            },
+            {
+              "text": "sirve",
+              "frame": 634
+            }
+          ]
+        },
+        {
+          "text": "para operar",
+          "startFrame": 643,
+          "endFrame": 659,
+          "palabras": [
+            {
+              "text": "para",
+              "frame": 643
+            },
+            {
+              "text": "operar",
+              "frame": 650
+            }
+          ]
+        },
+        {
+          "text": "tus aplicaciones,",
+          "startFrame": 659,
+          "endFrame": 699,
+          "palabras": [
+            {
+              "text": "tus",
+              "frame": 659
+            },
+            {
+              "text": "aplicaciones,",
+              "frame": 668
+            }
+          ]
+        },
+        {
+          "text": "otro para crear",
+          "startFrame": 699,
+          "endFrame": 730,
+          "palabras": [
+            {
+              "text": "otro",
+              "frame": 699
+            },
+            {
+              "text": "para",
+              "frame": 707
+            },
+            {
+              "text": "crear",
+              "frame": 715
+            }
+          ]
+        },
+        {
+          "text": "automatizaciones dentro",
+          "startFrame": 730,
+          "endFrame": 755,
+          "palabras": [
+            {
+              "text": "automatizaciones",
+              "frame": 730
+            },
+            {
+              "text": "dentro",
+              "frame": 752
+            }
+          ]
+        },
+        {
+          "text": "de Google y",
+          "startFrame": 755,
+          "endFrame": 774,
+          "palabras": [
+            {
+              "text": "de",
+              "frame": 755
+            },
+            {
+              "text": "Google",
+              "frame": 763
+            },
+            {
+              "text": "y",
+              "frame": 771
+            }
+          ]
+        },
+        {
+          "text": "el último para construir",
+          "startFrame": 774,
+          "endFrame": 809,
+          "palabras": [
+            {
+              "text": "el",
+              "frame": 774
+            },
+            {
+              "text": "último",
+              "frame": 782
+            },
+            {
+              "text": "para",
+              "frame": 789
+            },
+            {
+              "text": "construir",
+              "frame": 802
+            }
+          ]
+        },
+        {
+          "text": "flujos de trabajo.",
+          "startFrame": 809,
+          "endFrame": 832,
+          "palabras": [
+            {
+              "text": "flujos",
+              "frame": 809
+            },
+            {
+              "text": "de",
+              "frame": 818
+            },
+            {
+              "text": "trabajo.",
+              "frame": 826
+            }
+          ]
+        },
+        {
+          "text": "Vamos a iniciar",
+          "startFrame": 832,
+          "endFrame": 848,
+          "palabras": [
+            {
+              "text": "Vamos",
+              "frame": 832
+            },
+            {
+              "text": "a",
+              "frame": 836
+            },
+            {
+              "text": "iniciar",
+              "frame": 841
+            }
+          ]
+        },
+        {
+          "text": "con una tarea completa.",
+          "startFrame": 848,
+          "endFrame": 880,
+          "palabras": [
+            {
+              "text": "con",
+              "frame": 848
+            },
+            {
+              "text": "una",
+              "frame": 854
+            },
+            {
+              "text": "tarea",
+              "frame": 857
+            },
+            {
+              "text": "completa.",
+              "frame": 870
+            }
+          ]
+        },
+        {
+          "text": "Recibir un documento,",
+          "startFrame": 880,
+          "endFrame": 912,
+          "palabras": [
+            {
+              "text": "Recibir",
+              "frame": 880
+            },
+            {
+              "text": "un",
+              "frame": 888
+            },
+            {
+              "text": "documento,",
+              "frame": 898
+            }
+          ]
+        },
+        {
+          "text": "organizarlo,",
+          "startFrame": 912,
+          "endFrame": 934,
+          "palabras": [
+            {
+              "text": "organizarlo,",
+              "frame": 912
+            }
+          ]
+        },
+        {
+          "text": "revisarlo y dejarlo",
+          "startFrame": 934,
+          "endFrame": 955,
+          "palabras": [
+            {
+              "text": "revisarlo",
+              "frame": 934
+            },
+            {
+              "text": "y",
+              "frame": 943
+            },
+            {
+              "text": "dejarlo",
+              "frame": 947
+            }
+          ]
+        },
+        {
+          "text": "listo para enviar.",
+          "startFrame": 955,
+          "endFrame": 976,
+          "palabras": [
+            {
+              "text": "listo",
+              "frame": 955
+            },
+            {
+              "text": "para",
+              "frame": 962
+            },
+            {
+              "text": "enviar.",
+              "frame": 966
+            }
+          ]
+        },
+        {
+          "text": "La IA busca",
+          "startFrame": 976,
+          "endFrame": 995,
+          "palabras": [
+            {
+              "text": "La",
+              "frame": 976
+            },
+            {
+              "text": "IA",
+              "frame": 980
+            },
+            {
+              "text": "busca",
+              "frame": 991
+            }
+          ]
+        },
+        {
+          "text": "el correo,",
+          "startFrame": 995,
+          "endFrame": 1015,
+          "palabras": [
+            {
+              "text": "el",
+              "frame": 995
+            },
+            {
+              "text": "correo,",
+              "frame": 1001
+            }
+          ]
+        },
+        {
+          "text": "guarda el adjunto en",
+          "startFrame": 1015,
+          "endFrame": 1037,
+          "palabras": [
+            {
+              "text": "guarda el",
+              "frame": 1015
+            },
+            {
+              "text": "adjunto",
+              "frame": 1030
+            },
+            {
+              "text": "en",
+              "frame": 1034
+            }
+          ]
+        },
+        {
+          "text": "la carpeta del cliente,",
+          "startFrame": 1037,
+          "endFrame": 1070,
+          "palabras": [
+            {
+              "text": "la",
+              "frame": 1037
+            },
+            {
+              "text": "carpeta",
+              "frame": 1044
+            },
+            {
+              "text": "del",
+              "frame": 1051
+            },
+            {
+              "text": "cliente,",
+              "frame": 1057
+            }
+          ]
+        },
+        {
+          "text": "lo nombra y",
+          "startFrame": 1070,
+          "endFrame": 1088,
+          "palabras": [
+            {
+              "text": "lo",
+              "frame": 1070
+            },
+            {
+              "text": "nombra",
+              "frame": 1074
+            },
+            {
+              "text": "y",
+              "frame": 1085
+            }
+          ]
+        },
+        {
+          "text": "lo registra en",
+          "startFrame": 1088,
+          "endFrame": 1105,
+          "palabras": [
+            {
+              "text": "lo",
+              "frame": 1088
+            },
+            {
+              "text": "registra",
+              "frame": 1095
+            },
+            {
+              "text": "en",
+              "frame": 1102
+            }
+          ]
+        },
+        {
+          "text": "tu hoja de control,",
+          "startFrame": 1105,
+          "endFrame": 1132,
+          "palabras": [
+            {
+              "text": "tu",
+              "frame": 1105
+            },
+            {
+              "text": "hoja",
+              "frame": 1109
+            },
+            {
+              "text": "de",
+              "frame": 1112
+            },
+            {
+              "text": "control,",
+              "frame": 1122
+            }
+          ]
+        },
+        {
+          "text": "tú solo revisas.",
+          "startFrame": 1132,
+          "endFrame": 1160,
+          "palabras": [
+            {
+              "text": "tú",
+              "frame": 1132
+            },
+            {
+              "text": "solo",
+              "frame": 1138
+            },
+            {
+              "text": "revisas.",
+              "frame": 1144
+            }
+          ]
+        },
+        {
+          "text": "Con Google Workspace CLI",
+          "startFrame": 1160,
+          "endFrame": 1219,
+          "palabras": [
+            {
+              "text": "Con",
+              "frame": 1160
+            },
+            {
+              "text": "Google",
+              "frame": 1168
+            },
+            {
+              "text": "Workspace",
+              "frame": 1175
+            },
+            {
+              "text": "CLI",
+              "frame": 1205
+            }
+          ]
+        },
+        {
+          "text": "trabajas",
+          "startFrame": 1219,
+          "endFrame": 1228,
+          "palabras": [
+            {
+              "text": "trabajas",
+              "frame": 1219
+            }
+          ]
+        },
+        {
+          "text": "con instrucciones.",
+          "startFrame": 1228,
+          "endFrame": 1257,
+          "palabras": [
+            {
+              "text": "con",
+              "frame": 1228
+            },
+            {
+              "text": "instrucciones.",
+              "frame": 1234
+            }
+          ]
+        },
+        {
+          "text": "Le pides,",
+          "startFrame": 1257,
+          "endFrame": 1285,
+          "palabras": [
+            {
+              "text": "Le",
+              "frame": 1257
+            },
+            {
+              "text": "pides,",
+              "frame": 1261
+            }
+          ]
+        },
+        {
+          "text": "busca los correos",
+          "startFrame": 1285,
+          "endFrame": 1304,
+          "palabras": [
+            {
+              "text": "busca",
+              "frame": 1285
+            },
+            {
+              "text": "los",
+              "frame": 1291
+            },
+            {
+              "text": "correos",
+              "frame": 1297
+            }
+          ]
+        },
+        {
+          "text": "de este cliente,",
+          "startFrame": 1304,
+          "endFrame": 1334,
+          "palabras": [
+            {
+              "text": "de",
+              "frame": 1304
+            },
+            {
+              "text": "este",
+              "frame": 1309
+            },
+            {
+              "text": "cliente,",
+              "frame": 1317
+            }
+          ]
+        },
+        {
+          "text": "organiza sus adjuntos",
+          "startFrame": 1334,
+          "endFrame": 1363,
+          "palabras": [
+            {
+              "text": "organiza",
+              "frame": 1334
+            },
+            {
+              "text": "sus",
+              "frame": 1343
+            },
+            {
+              "text": "adjuntos",
+              "frame": 1351
+            }
+          ]
+        },
+        {
+          "text": "en esta carpeta",
+          "startFrame": 1363,
+          "endFrame": 1386,
+          "palabras": [
+            {
+              "text": "en",
+              "frame": 1363
+            },
+            {
+              "text": "esta",
+              "frame": 1367
+            },
+            {
+              "text": "carpeta",
+              "frame": 1376
+            }
+          ]
+        },
+        {
+          "text": "y prepara un resumen.",
+          "startFrame": 1386,
+          "endFrame": 1417,
+          "palabras": [
+            {
+              "text": "y",
+              "frame": 1386
+            },
+            {
+              "text": "prepara",
+              "frame": 1393
+            },
+            {
+              "text": "un",
+              "frame": 1399
+            },
+            {
+              "text": "resumen.",
+              "frame": 1404
+            }
+          ]
+        },
+        {
+          "text": "Con clasp desarrollas",
+          "startFrame": 1417,
+          "endFrame": 1451,
+          "palabras": [
+            {
+              "text": "Con",
+              "frame": 1417
+            },
+            {
+              "text": "clasp",
+              "frame": 1421
+            },
+            {
+              "text": "desarrollas",
+              "frame": 1439
+            }
+          ]
+        },
+        {
+          "text": "una automatización",
+          "startFrame": 1451,
+          "endFrame": 1482,
+          "palabras": [
+            {
+              "text": "una",
+              "frame": 1451
+            },
+            {
+              "text": "automatización",
+              "frame": 1460
+            }
+          ]
+        },
+        {
+          "text": "dentro de Google.",
+          "startFrame": 1482,
+          "endFrame": 1508,
+          "palabras": [
+            {
+              "text": "dentro",
+              "frame": 1482
+            },
+            {
+              "text": "de",
+              "frame": 1486
+            },
+            {
+              "text": "Google.",
+              "frame": 1492
+            }
+          ]
+        },
+        {
+          "text": "La IA prepara",
+          "startFrame": 1508,
+          "endFrame": 1527,
+          "palabras": [
+            {
+              "text": "La",
+              "frame": 1508
+            },
+            {
+              "text": "IA",
+              "frame": 1511
+            },
+            {
+              "text": "prepara",
+              "frame": 1520
+            }
+          ]
+        },
+        {
+          "text": "el código de Apps",
+          "startFrame": 1527,
+          "endFrame": 1558,
+          "palabras": [
+            {
+              "text": "el",
+              "frame": 1527
+            },
+            {
+              "text": "código",
+              "frame": 1536
+            },
+            {
+              "text": "de",
+              "frame": 1542
+            },
+            {
+              "text": "Apps",
+              "frame": 1548
+            }
+          ]
+        },
+        {
+          "text": "Script para generar",
+          "startFrame": 1558,
+          "endFrame": 1584,
+          "palabras": [
+            {
+              "text": "Script",
+              "frame": 1558
+            },
+            {
+              "text": "para",
+              "frame": 1565
+            },
+            {
+              "text": "generar",
+              "frame": 1571
+            }
+          ]
+        },
+        {
+          "text": "reportes de PDF desde",
+          "startFrame": 1584,
+          "endFrame": 1629,
+          "palabras": [
+            {
+              "text": "reportes",
+              "frame": 1584
+            },
+            {
+              "text": "de",
+              "frame": 1593
+            },
+            {
+              "text": "PDF",
+              "frame": 1603
+            },
+            {
+              "text": "desde",
+              "frame": 1620
+            }
+          ]
+        },
+        {
+          "text": "Sheets,",
+          "startFrame": 1629,
+          "endFrame": 1649,
+          "palabras": [
+            {
+              "text": "Sheets,",
+              "frame": 1629
+            }
+          ]
+        },
+        {
+          "text": "guardarlos en Drive",
+          "startFrame": 1649,
+          "endFrame": 1678,
+          "palabras": [
+            {
+              "text": "guardarlos",
+              "frame": 1649
+            },
+            {
+              "text": "en",
+              "frame": 1666
+            },
+            {
+              "text": "Drive",
+              "frame": 1671
+            }
+          ]
+        },
+        {
+          "text": "y enviarlos por Gmail.",
+          "startFrame": 1678,
+          "endFrame": 1716,
+          "palabras": [
+            {
+              "text": "y",
+              "frame": 1678
+            },
+            {
+              "text": "enviarlos",
+              "frame": 1683
+            },
+            {
+              "text": "por",
+              "frame": 1696
+            },
+            {
+              "text": "Gmail.",
+              "frame": 1703
+            }
+          ]
+        },
+        {
+          "text": "Y con n8n-MCP construye",
+          "startFrame": 1716,
+          "endFrame": 1772,
+          "palabras": [
+            {
+              "text": "Y",
+              "frame": 1716
+            },
+            {
+              "text": "con",
+              "frame": 1721
+            },
+            {
+              "text": "n8n-MCP",
+              "frame": 1727
+            },
+            {
+              "text": "construye",
+              "frame": 1763
+            }
+          ]
+        },
+        {
+          "text": "flujos recurrentes.",
+          "startFrame": 1772,
+          "endFrame": 1805,
+          "palabras": [
+            {
+              "text": "flujos",
+              "frame": 1772
+            },
+            {
+              "text": "recurrentes.",
+              "frame": 1784
+            }
+          ]
+        },
+        {
+          "text": "Llega una solicitud",
+          "startFrame": 1805,
+          "endFrame": 1832,
+          "palabras": [
+            {
+              "text": "Llega",
+              "frame": 1805
+            },
+            {
+              "text": "una",
+              "frame": 1812
+            },
+            {
+              "text": "solicitud",
+              "frame": 1820
+            }
+          ]
+        },
+        {
+          "text": "por Gmail y",
+          "startFrame": 1832,
+          "endFrame": 1847,
+          "palabras": [
+            {
+              "text": "por",
+              "frame": 1832
+            },
+            {
+              "text": "Gmail",
+              "frame": 1838
+            },
+            {
+              "text": "y",
+              "frame": 1844
+            }
+          ]
+        },
+        {
+          "text": "se registra en Sheets",
+          "startFrame": 1847,
+          "endFrame": 1875,
+          "palabras": [
+            {
+              "text": "se",
+              "frame": 1847
+            },
+            {
+              "text": "registra",
+              "frame": 1854
+            },
+            {
+              "text": "en",
+              "frame": 1862
+            },
+            {
+              "text": "Sheets",
+              "frame": 1866
+            }
+          ]
+        },
+        {
+          "text": "y se prepara",
+          "startFrame": 1875,
+          "endFrame": 1893,
+          "palabras": [
+            {
+              "text": "y",
+              "frame": 1875
+            },
+            {
+              "text": "se",
+              "frame": 1879
+            },
+            {
+              "text": "prepara",
+              "frame": 1887
+            }
+          ]
+        },
+        {
+          "text": "un borrador",
+          "startFrame": 1893,
+          "endFrame": 1911,
+          "palabras": [
+            {
+              "text": "un",
+              "frame": 1893
+            },
+            {
+              "text": "borrador",
+              "frame": 1898
+            }
+          ]
+        },
+        {
+          "text": "de respuestas.",
+          "startFrame": 1911,
+          "endFrame": 1939,
+          "palabras": [
+            {
+              "text": "de",
+              "frame": 1911
+            },
+            {
+              "text": "respuestas.",
+              "frame": 1920
+            }
+          ]
+        },
+        {
+          "text": "Si quieres la guía",
+          "startFrame": 1939,
+          "endFrame": 1967,
+          "palabras": [
+            {
+              "text": "Si",
+              "frame": 1939
+            },
+            {
+              "text": "quieres",
+              "frame": 1946
+            },
+            {
+              "text": "la",
+              "frame": 1951
+            },
+            {
+              "text": "guía",
+              "frame": 1955
+            }
+          ]
+        },
+        {
+          "text": "completa con el paso",
+          "startFrame": 1967,
+          "endFrame": 1988,
+          "palabras": [
+            {
+              "text": "completa",
+              "frame": 1967
+            },
+            {
+              "text": "con",
+              "frame": 1973
+            },
+            {
+              "text": "el",
+              "frame": 1977
+            },
+            {
+              "text": "paso",
+              "frame": 1984
+            }
+          ]
+        },
+        {
+          "text": "a paso de",
+          "startFrame": 1988,
+          "endFrame": 2000,
+          "palabras": [
+            {
+              "text": "a",
+              "frame": 1988
+            },
+            {
+              "text": "paso",
+              "frame": 1993
+            },
+            {
+              "text": "de",
+              "frame": 1997
+            }
+          ]
+        },
+        {
+          "text": "los tres repositorios",
+          "startFrame": 2000,
+          "endFrame": 2030,
+          "palabras": [
+            {
+              "text": "los",
+              "frame": 2000
+            },
+            {
+              "text": "tres",
+              "frame": 2005
+            },
+            {
+              "text": "repositorios",
+              "frame": 2012
+            }
+          ]
+        },
+        {
+          "text": "que te ayudarán",
+          "startFrame": 2030,
+          "endFrame": 2052,
+          "palabras": [
+            {
+              "text": "que",
+              "frame": 2030
+            },
+            {
+              "text": "te",
+              "frame": 2034
+            },
+            {
+              "text": "ayudarán",
+              "frame": 2041
+            }
+          ]
+        },
+        {
+          "text": "a optimizar tu flujo",
+          "startFrame": 2052,
+          "endFrame": 2081,
+          "palabras": [
+            {
+              "text": "a",
+              "frame": 2052
+            },
+            {
+              "text": "optimizar",
+              "frame": 2059
+            },
+            {
+              "text": "tu",
+              "frame": 2071
+            },
+            {
+              "text": "flujo",
+              "frame": 2075
+            }
+          ]
+        },
+        {
+          "text": "de trabajo,",
+          "startFrame": 2081,
+          "endFrame": 2095,
+          "palabras": [
+            {
+              "text": "de",
+              "frame": 2081
+            },
+            {
+              "text": "trabajo,",
+              "frame": 2090
+            }
+          ]
+        },
+        {
+          "text": "comenta Google y sígueme",
+          "startFrame": 2095,
+          "endFrame": 2138,
+          "palabras": [
+            {
+              "text": "comenta",
+              "frame": 2095
+            },
+            {
+              "text": "Google",
+              "frame": 2110
+            },
+            {
+              "text": "y",
+              "frame": 2120
+            },
+            {
+              "text": "sígueme",
+              "frame": 2125
+            }
+          ]
+        },
+        {
+          "text": "para más contenido.",
+          "startFrame": 2138,
+          "endFrame": 2177,
+          "palabras": [
+            {
+              "text": "para",
+              "frame": 2138
+            },
+            {
+              "text": "más",
+              "frame": 2144
+            },
+            {
+              "text": "contenido.",
+              "frame": 2156
+            }
+          ]
+        }
+      ],
+      "emphasis": [
+        {
+          "id": "e1",
+          "startFrame": 216,
+          "endFrame": 251,
+          "lines": [
+            {
+              "text": "esto te",
+              "size": "m",
+              "tone": "white"
+            },
+            {
+              "text": "interesa.",
+              "size": "l",
+              "tone": "pink",
+              "indent": 40
+            }
+          ],
+          "motivo": "Remate del gancho."
+        }
+      ]
+    },
+    "sfx": [
+      {
+        "frame": 99,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "esc1.drive"
+      },
+      {
+        "frame": 120,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "esc1.gmail"
+      },
+      {
+        "frame": 145,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.16,
+        "motivo": "esc1.sheets"
+      },
+      {
+        "frame": 241,
+        "sound": "whoosh",
+        "file": "public/sfx/whoosh.wav",
+        "volume": 0.36,
+        "motivo": "esc2.@"
+      },
+      {
+        "frame": 295,
+        "sound": "zp-swish",
+        "file": "public/sfx/zp-swish.wav",
+        "volume": 0.14,
+        "motivo": "esc2.conectar"
+      },
+      {
+        "frame": 412,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.2,
+        "motivo": "esc2.facil"
+      },
+      {
+        "frame": 433,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc3.c1"
+      },
+      {
+        "frame": 494,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc3.c2"
+      },
+      {
+        "frame": 554,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc3.c3"
+      },
+      {
+        "frame": 582,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.126,
+        "motivo": "esc3.checks"
+      },
+      {
+        "frame": 650,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.16,
+        "motivo": "esc4.r1"
+      },
+      {
+        "frame": 715,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.16,
+        "motivo": "esc4.r2"
+      },
+      {
+        "frame": 802,
+        "sound": "zp-pulse",
+        "file": "public/sfx/zp-pulse.wav",
+        "volume": 0.16,
+        "motivo": "esc4.r3"
+      },
+      {
+        "frame": 912,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5.k1"
+      },
+      {
+        "frame": 934,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5.k2"
+      },
+      {
+        "frame": 955,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5.k3"
+      },
+      {
+        "frame": 973,
+        "sound": "whoosh",
+        "file": "public/sfx/whoosh.wav",
+        "volume": 0.36,
+        "motivo": "esc5b.@"
+      },
+      {
+        "frame": 991,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5b.busca"
+      },
+      {
+        "frame": 1044,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5b.carpeta"
+      },
+      {
+        "frame": 1074,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5b.nombra"
+      },
+      {
+        "frame": 1095,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc5b.registra"
+      },
+      {
+        "frame": 1132,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.18,
+        "motivo": "esc5b.revisas"
+      },
+      {
+        "frame": 1168,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc6.card"
+      },
+      {
+        "frame": 1285,
+        "sound": "zp-keys",
+        "file": "public/sfx/zp-keys.wav",
+        "volume": 0.128,
+        "motivo": "esc6.teclea"
+      },
+      {
+        "frame": 1408,
+        "sound": "zp-chime",
+        "file": "public/sfx/zp-chime.wav",
+        "volume": 0.144,
+        "motivo": "esc6.listo"
+      },
+      {
+        "frame": 1421,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc7.card"
+      },
+      {
+        "frame": 1571,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc7.sheets"
+      },
+      {
+        "frame": 1603,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc7.pdf"
+      },
+      {
+        "frame": 1671,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc7.drive"
+      },
+      {
+        "frame": 1703,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.144,
+        "motivo": "esc7.gmail"
+      },
+      {
+        "frame": 1727,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc8.card"
+      },
+      {
+        "frame": 1805,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc8.gmail"
+      },
+      {
+        "frame": 1854,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc8.sheets"
+      },
+      {
+        "frame": 1898,
+        "sound": "zp-confirm",
+        "file": "public/sfx/zp-confirm.wav",
+        "volume": 0.144,
+        "motivo": "esc8.borrador"
+      },
+      {
+        "frame": 2095,
+        "sound": "zp-keys",
+        "file": "public/sfx/zp-keys.wav",
+        "volume": 0.096,
+        "motivo": "esc9.comenta"
+      },
+      {
+        "frame": 2110,
+        "sound": "zp-pop",
+        "file": "public/sfx/zp-pop.wav",
+        "volume": 0.24,
+        "motivo": "esc9.google"
+      },
+      {
+        "frame": 2121,
+        "sound": "zp-swish-up",
+        "file": "public/sfx/zp-swish-up.wav",
+        "volume": 0.16,
+        "motivo": "esc9.sigueme"
+      },
+      {
+        "frame": 2133,
+        "sound": "zp-pop-hi",
+        "file": "public/sfx/zp-pop-hi.wav",
+        "volume": 0.2,
+        "motivo": "esc9.expande"
+      },
+      {
+        "frame": 2155,
+        "sound": "zp-tick",
+        "file": "public/sfx/zp-tick.wav",
+        "volume": 0.16,
+        "motivo": "esc9.clic"
+      },
+      {
+        "frame": 2177,
+        "sound": "zp-sparkle",
+        "file": "public/sfx/zp-sparkle.wav",
+        "volume": 0.105,
+        "motivo": "fin.@"
+      }
+    ],
+    "musica": {
+      "generador": "library/music/synth-music.mjs",
+      "bpm": 100,
+      "nivel": -38.5,
+      "duckingDb": -4,
+      "finalDesde": 2162,
+      "finalDb": -30,
+      "motivo": "Guion §3.5: base suave 22–24 dB bajo la voz (voz original ≈ −16,1 LUFS → música −38,5 LUFS), compresión por la voz y casi a cero en los últimos 2 s."
+    }
+  },
+  "durationInFrames": 2222,
+  "durationSeconds": 74.07,
+  "referencias": [
+    {
+      "archivo": "formatos/edit-1-motion/VIDEO-005-google-ia-contadores/material/referencias/referencia-comenta-seguir.mov",
+      "original": "/Users/yeirodriguez/Downloads/Grabación de pantalla 2026-10-13 a la(s) 10.15.12 p.m..mov",
+      "que_se_pidio": "cómo aparece el comentario de la palabra y, al final, la opción de seguir (solo movimiento; es el reel de otro creador)",
+      "medido": "6,5 s a ~57 fps. Comentario: píldora oscura con avatar, palabra tecleada con caret y «Comentar» a la derecha; entra con un corte y la cruza un barrido de luz (~0,25 s). Seguir: el avatar entra en arco desde abajo a la izquierda (~0,6 s, se estira por la velocidad, gira y se aplasta al aterrizar) y desde él se expande la píldora blanca hacia la derecha con desenfoque (~0,2 s).",
+      "preset_equivalente": "escritura-con-tinte + barrido de luz (comentario); logo-expandir con vuelo en arco (seguir)",
+      "confianza": "media (medido con fotogramas a 20 fps)",
+      "no_se_copia": "textos, marca, colores ni música de la referencia"
+    }
+  ]
+}

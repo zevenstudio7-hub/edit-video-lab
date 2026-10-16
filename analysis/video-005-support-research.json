@@ -1,0 +1,17 @@
+{
+  "video": "VIDEO-005",
+  "fecha": "2026-10-13",
+  "regla": "docs/VIDEO-SYSTEM-ROOT.md → «Regla de recursos de apoyo»; formatos/motion-ux/MOTION-UX.md §3 (reglas de verdad).",
+  "consultas": [
+    {"canal": "material del proyecto", "consulta": "toma «google workspace.mp4» y raiz-contenido-yeirodriguez.md", "resultado": "Solo presentador y voz en off; el guion pide demo SIMULADA con datos ficticios e interfaz genérica."},
+    {"canal": "búsqueda general", "consulta": "github googleworkspace/cli Google Workspace CLI; google/clasp; czlonkowski/n8n-mcp", "resultado": "Los tres repositorios existen. googleworkspace/cli: CLI para Drive, Gmail, Sheets y otras APIs de Workspace, pensada para personas y agentes de IA; su README dice que no es un producto oficialmente soportado por Google. google/clasp: CLI de Apps Script para trabajar los proyectos en local. czlonkowski/n8n-mcp: servidor MCP que da a asistentes de IA el catálogo de nodos de n8n para diseñar flujos. Fuentes: infoq.com/news/2026/06/google-workspace-cli, codelabs.developers.google.com/codelabs/clasp, dev.co/ai/mcp/n8n-mcp."}
+  ],
+  "necesidades": [
+    {"tema": "Gmail, Drive y Sheets", "funcion": "señalar", "escena": "esc1, esc2, esc3, esc5b, esc6, esc7, esc8", "decision": "seleccionado: iconos oficiales recreados en SVG (decisión del usuario, 2026-10-13)", "derechos": "requiere_revision", "nota": "Contradice la regla «logos: archivo oficial, entero; no se redibujan». Marcas de Google: confirmar el uso antes del render final (library/assets.json → video005-icono-*)."},
+    {"tema": "Los 3 repositorios", "funcion": "explicar", "escena": "esc4, esc6, esc7, esc8, fin", "decision": "seleccionado: tarjetas propias con el nombre y la ruta del repositorio en texto; sin logos de GitHub ni de terceros", "derechos": "permitido (creación propia; nombres como referencia)"},
+    {"tema": "Demo (correo, carpeta, hoja, terminal)", "funcion": "explicar", "escena": "esc5b, esc6", "decision": "seleccionado: interfaz genérica conceptual con la etiqueta SIMULACIÓN y datos ficticios (Cliente X, Factura 0457)", "derechos": "permitido (creación propia)"},
+    {"tema": "Código de Apps Script", "funcion": "sintetizar", "escena": "esc7", "decision": "seleccionado: fragmento genérico propio, desenfocado como fondo; no es código del repositorio", "derechos": "permitido (creación propia)"}
+  ],
+  "recursosExternos": [],
+  "pendientes": ["Derechos de las marcas Gmail, Drive y Sheets (recreadas) antes del render final."]
+}

@@ -1,0 +1,48 @@
+completa (0–72.6 s): [00.0] Si eres contador o asistente administrativo
+[03.0] y trabajas con Google Drive, {Gmail}, Google Sheet
+[05.5] y todo el ecosistema {de} de Google,
+[06.9] quédate porque esto te interesa.
+[08.3] Estas tres herramientas pueden ayudarte a conectar tu Google
+[11.0] con inteligencia artificial y hacer tu trabajo mucho más fácil.
+[14.3] Puedes organizar tus documentos que llegan al correo,
+[16.6] preparar reportes con tus hojas de cálculo
+[18.3] y dar seguimiento a solicitudes pendientes.
+[20.7] Uno te sirve para operar tus aplicaciones,
+[22.9] otro para crear automatizaciones dentro de Google
+[25.4] y el último para construir flujos de trabajo.
+[27.6] Vamos a iniciar con una tarea completa:
+[29.3] recibir un documento, organizarlo, revisarlo y dejarlo listo para enviar.
+[32.8] La IA busca el correo,
+[34.1] guarda el adjunto en la carpeta del cliente,
+[35.9] lo nombra y lo registra en tu hoja de control,
+[37.7] tú solo revisas.
+[39.1] Con Google Workspace CLI
+[40.8] trabajas solo instrucciones.
+[42.3] Le pides:
+[43.0] busca los correos de este cliente,
+[44.5] organiza sus adjuntos en esta carpeta
+[46.1] y prepara un resumen.
+[47.5] Con {CLAT} desarrollas una automatización dentro de Google.
+[50.3] La IA prepara el código de {App} Apps Script
+[52.5] para generar reportes {de} PDF
+[53.9] desde Sheet,
+[54.8] guardarlos en Drive y enviarlos por Gmail.
+[57.3] Y con n8n ncp
+[59.3] construyes flujos recurrentes.
+[60.7] Llega una solicitud por Gmail,
+[61.9] se registra en Sheet
+[62.9] y se prepara un borrador de respuestas.
+[64.7] Si quieres la guía completa con el paso a paso
+[66.6] de los tres repositorios que te ayudarán a optimizar tu flujo de trabajo,
+[70.1] comenta Google y sígueme para más contenido.
+
+ia-busca (32.3–38.6 s): La IA va a buscar el correo, guarda el adjunto en la carpeta del cliente, lo nombra y lo registra en tu hoja de control, tú solo revisas.
+
+cli (38.3–47.2 s): Con Google Workspace CLI trabajas por instrucciones. Le pides: busca los correos de este cliente, organiza sus adjuntos en esta carpeta y prepara un resumen.
+
+clasp (46.9–57.1 s): Con clasp desarrollas una automatización dentro de Google. La IA prepara el código de Apps Script para generar reportes de PDF desde Sheet, guardarlos en Drive y enviarlos por Gmail.
+
+n8n (57–64.5 s): Y con n8n-MCP construye flujos recurrentes. Llega una solicitud por Gmail, se registra en Sheets, y se prepara un borrador de respuestas.
+
+cierre (64.3–72.6 s): Si quieres la guía completa con el paso a paso de los tres repositorios que te ayudarán a optimizar tu flujo de trabajo, comenta Google y sígueme para más contenido.
+
