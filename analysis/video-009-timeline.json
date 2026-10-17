@@ -1,0 +1,353 @@
+{
+  "fps": 24,
+  "total_f": 924,
+  "timeline": [
+    {
+      "id": "T01",
+      "beat": 1,
+      "src": "v2",
+      "aprox_s": [
+        0.4,
+        3.55
+      ],
+      "texto": "Estos videos los editó una IA. Ninguno se parece al otro.",
+      "in_s": 0.34,
+      "out_s": 3.63,
+      "voz_s": [
+        0.43,
+        3.5
+      ],
+      "energia_corte_db": [
+        -69,
+        -75.2
+      ],
+      "dur_f": 79,
+      "from_f": 0,
+      "to_f": 79
+    },
+    {
+      "id": "T02",
+      "beat": 2,
+      "src": "v2",
+      "aprox_s": [
+        3.8,
+        6.1
+      ],
+      "texto": "El primero: pantalla dividida con subtítulos de marca.",
+      "in_s": 3.76,
+      "out_s": 6.1,
+      "voz_s": [
+        3.83,
+        6.07
+      ],
+      "energia_corte_db": [
+        -71.6,
+        -61.7
+      ],
+      "dur_f": 56,
+      "from_f": 79,
+      "to_f": 135
+    },
+    {
+      "id": "T03",
+      "beat": 3,
+      "src": "v2",
+      "aprox_s": [
+        6.5,
+        10.8
+      ],
+      "texto": "Este es motion con pantalla completa. Yo solo aparezco en cámara en momentos claves.",
+      "in_s": 6.45,
+      "out_s": 10.85,
+      "voz_s": [
+        6.54,
+        10.75
+      ],
+      "energia_corte_db": [
+        -71.5,
+        -67.9
+      ],
+      "dur_f": 106,
+      "from_f": 135,
+      "to_f": 241
+    },
+    {
+      "id": "T04",
+      "beat": 4,
+      "src": "orig",
+      "aprox_s": [
+        93.74,
+        98.9
+      ],
+      "texto": "Cámara al frente, look de cine y subtítulos que se mueven según donde estoy.",
+      "in_s": 93.78,
+      "out_s": 98.91,
+      "voz_s": [
+        93.79,
+        98.8
+      ],
+      "energia_corte_db": [
+        -40.4,
+        -39.4
+      ],
+      "dur_f": 123,
+      "from_f": 241,
+      "to_f": 364
+    },
+    {
+      "id": "T05",
+      "beat": 5,
+      "src": "v2",
+      "aprox_s": [
+        15.4,
+        17
+      ],
+      "texto": "Y este explica con diagramas,",
+      "in_s": 15.46,
+      "out_s": 17.14,
+      "voz_s": [
+        15.49,
+        16.98
+      ],
+      "energia_corte_db": [
+        -62.1,
+        -66.6
+      ],
+      "dur_f": 40,
+      "from_f": 364,
+      "to_f": 404
+    },
+    {
+      "id": "T06",
+      "beat": 5,
+      "src": "v2",
+      "aprox_s": [
+        17.4,
+        19.06
+      ],
+      "texto": "pero este esconde los datos sensibles.",
+      "in_s": 17.34,
+      "out_s": 19.09,
+      "voz_s": [
+        17.41,
+        19.07
+      ],
+      "energia_corte_db": [
+        -68.4,
+        -30.3
+      ],
+      "dur_f": 42,
+      "from_f": 404,
+      "to_f": 446
+    },
+    {
+      "id": "T07a",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        19.13,
+        20.15
+      ],
+      "texto": "Nueve estilos de subtítulos.",
+      "in_s": 19.09,
+      "out_s": 20.25,
+      "voz_s": [
+        19.13,
+        20.16
+      ],
+      "energia_corte_db": [
+        -30.3,
+        -64.6
+      ],
+      "dur_f": 28,
+      "from_f": 446,
+      "to_f": 474
+    },
+    {
+      "id": "T07b",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        20.75,
+        22.05
+      ],
+      "texto": "Cinco looks de colores.",
+      "in_s": 20.76,
+      "out_s": 22.19,
+      "voz_s": [
+        20.81,
+        22.03
+      ],
+      "energia_corte_db": [
+        -66.1,
+        -58.9
+      ],
+      "dur_f": 34,
+      "from_f": 474,
+      "to_f": 508
+    },
+    {
+      "id": "T08",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        22.45,
+        23.35
+      ],
+      "texto": "Veinte movimientos.",
+      "in_s": 22.33,
+      "out_s": 23.32,
+      "voz_s": [
+        22.45,
+        23.31
+      ],
+      "energia_corte_db": [
+        -58,
+        -44
+      ],
+      "dur_f": 24,
+      "from_f": 508,
+      "to_f": 532
+    },
+    {
+      "id": "T09",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        23.7,
+        25.35
+      ],
+      "texto": "Tú eliges, o la skill lo hace por ti.",
+      "in_s": 23.63,
+      "out_s": 25.31,
+      "voz_s": [
+        23.74,
+        25.27
+      ],
+      "energia_corte_db": [
+        -75.8,
+        -59
+      ],
+      "dur_f": 40,
+      "from_f": 532,
+      "to_f": 572
+    },
+    {
+      "id": "T10",
+      "beat": 7,
+      "src": "v2",
+      "aprox_s": [
+        25.5,
+        29.35
+      ],
+      "texto": "Tú grabas, la skill analiza, corta, subtítulos y arma todo el video.",
+      "in_s": 25.49,
+      "out_s": 29.47,
+      "voz_s": [
+        25.53,
+        29.33
+      ],
+      "energia_corte_db": [
+        -69.6,
+        -69.8
+      ],
+      "dur_f": 96,
+      "from_f": 572,
+      "to_f": 668
+    },
+    {
+      "id": "T11",
+      "beat": 7,
+      "src": "v2",
+      "aprox_s": [
+        29.6,
+        31.25
+      ],
+      "texto": "Lo he llamado Video Lab.",
+      "in_s": 29.59,
+      "out_s": 31.34,
+      "voz_s": [
+        29.67,
+        31.18
+      ],
+      "energia_corte_db": [
+        -73.7,
+        -67.8
+      ],
+      "dur_f": 42,
+      "from_f": 668,
+      "to_f": 710
+    },
+    {
+      "id": "T12",
+      "beat": 8,
+      "src": "v2",
+      "aprox_s": [
+        33.45,
+        36.2
+      ],
+      "texto": "No te cuesta lo que te cobraría un editor común.",
+      "in_s": 33.46,
+      "out_s": 36.31,
+      "voz_s": [
+        33.53,
+        36.16
+      ],
+      "energia_corte_db": [
+        -71.2,
+        -70
+      ],
+      "dur_f": 68,
+      "from_f": 710,
+      "to_f": 778
+    },
+    {
+      "id": "T13",
+      "beat": 9,
+      "src": "v2",
+      "aprox_s": [
+        48,
+        52.2
+      ],
+      "texto": "Si quieres la skill para editar tus videos, solamente escribe la palabra VIDEO y te la envío.",
+      "in_s": 47.89,
+      "out_s": 52.29,
+      "voz_s": [
+        48,
+        52.14
+      ],
+      "energia_corte_db": [
+        -69.9,
+        -66.9
+      ],
+      "dur_f": 106,
+      "from_f": 778,
+      "to_f": 884
+    },
+    {
+      "id": "T14",
+      "beat": 10,
+      "src": "v2",
+      "aprox_s": [
+        52.3,
+        53.72
+      ],
+      "hold_s": 0.25,
+      "texto": "Y sígueme para más contenido.",
+      "nota": "en v2 el video está en negro durante esta frase; se deja en negro y se superpone el motion «Seguir» de VIDEO-005/008",
+      "in_s": 52.32,
+      "out_s": 53.97,
+      "voz_s": [
+        52.38,
+        53.56
+      ],
+      "energia_corte_db": [
+        -70,
+        -69.5
+      ],
+      "dur_f": 40,
+      "from_f": 884,
+      "to_f": 924
+    }
+  ]
+}

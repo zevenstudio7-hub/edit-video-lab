@@ -1,0 +1,507 @@
+{
+  "videoId": "VIDEO-009",
+  "EDIT_TYPE": "#edit-5-creator",
+  "variante": "5A",
+  "subtitulos": "mixto (S1, S1+S4, S8, S2, S3, S5, S6, S7, S9 según el bloque; ver beats)",
+  "titulo": "Showreel Video Lab",
+  "status": "aprobado-exportado-v2 (2026-10-17)",
+  "carpeta": "formatos/edit-5-creator/VIDEO-009-showreel",
+  "identidad": "formatos/identidad-video-zeven.md",
+  "decisiones": {
+    "fecha": "2026-10-16",
+    "pedido": [
+      "mostrar en todo el video el resultado real de Video Lab: distintos estilos de subtítulos en las palabras mencionadas, cortes, animaciones, superposiciones y movimientos",
+      "cortes precisos según el guion (Google Doc, páginas 1–2: «Guion Video Lab · Showreel #edit-5-creator · 0:58»)",
+      "referencia de estilo (video rerencia..mov, solo estilo): recorte del sujeto, fondo desenfocado, cuadros, tomas de apoyo superpuestas en movimiento",
+      "tomas de apoyo: los videos ya editados con Video Lab (carpeta out/ y exportaciones)",
+      "NO mencionar precio en ningún lugar del video (mensaje del usuario, 2026-10-16): el dato en caja dice «pagas una vez, editas y adaptas a tu estilo»; alternativa «cuesta menos de lo que le pagas a un productor de video»"
+    ],
+    "v2": [
+      "2026-10-17: el usuario entrega «Skill edición de videov2.mp4» con las tomas depuradas y pide: mejor toma de «look de cine y subtítulos que se mueven» (la anterior se nota leída), recorte del sujeto que conserve escritorio y computador, recortes más precisos, y sin la repetición «este, este es motion» (seg. 9–10 del primer borrador)",
+      "T04 sale del original (92,15–98,8 s): mira a cámara y dice «se mueven»; las tomas «mi cámara sola…» (72 s) y «en este cámara solo…» (v2 10,8 s) se descartan por lectura / palabra distinta",
+      "Recorte: persona (Vision, 720×1280, preciso con contraste y suavizado de 0,8 px) + polígonos estáticos del escritorio y el computador; resto del fondo fuera",
+      "Cortes por mínimo de energía del hueco (10 ms) entre frases; verificados transcribiendo el audio final: sin repeticiones ni palabras cortadas",
+      "2026-10-17: cierre «Y sígueme para más contenido» sobre negro con el motion «Seguir» (avatar en arco → tarjeta de perfil → clic) reutilizado de VIDEO-005/008; el audio de la preview pasa a un m4a aparte (voice.m4a) con Html5Audio, como VIDEO-008",
+      "2026-10-17: la tarjeta «Seguir» de este video usa el perfil zevenpro.estrategia (usuario, «ZevenPRO | Marketing Estratégico.», Seguir, Mensaje; avatar recortado de la captura del usuario en material/perfil-zevenpro-estrategia.png) a escala 0,7 (~630 px), con el movimiento de VIDEO-005/008 (src/compositions/video009/Seguir.tsx); 005 y 008 no se tocan"
+    ]
+  },
+  "fuentes": {
+    "tomas": [
+      {
+        "id": "v2",
+        "archivo": "Skill edición de videov2.mp4",
+        "ruta": "/Users/yeirodriguez/Downloads/YeiRodriguez Contenido/edicion-de-video-skill/Skill edición de videov2.mp4",
+        "video": "H.264 bt709 2160×3840 (retrato), 24 fps, 54,00 s; versión depurada por el usuario (2026-10-17) para evitar errores de corte",
+        "audio": "AAC 44,1 kHz estéreo",
+        "wav": ".whisper/audio/video-009v2.wav",
+        "umbral_db": -34
+      },
+      {
+        "id": "orig",
+        "archivo": "Skill edición de video.mov",
+        "ruta": "/Users/yeirodriguez/Downloads/YeiRodriguez Contenido/edicion-de-video-skill/Skill edición de video.mov",
+        "video": "HEVC bt709 2160×3840 (retrato), ~25 fps variable, 249,94 s",
+        "audio": "AAC 44,1 kHz estéreo",
+        "wav": ".whisper/audio/video-009.wav",
+        "umbral_db": -27,
+        "uso": "solo T04: en v2 la toma de «look de cine y subtítulos…» suena a lectura; en el original esta toma mira a cámara"
+      }
+    ]
+  },
+  "verificacion": {
+    "transcripcion": "whisper.cpp large-v3-turbo local, sin GPU (analysis/video-009-whisper/, analysis/video-009-chunks por pausas, analysis/video-009-pick-words.json). Tiempos por palabra con DTW poco fiables al final de cada frase: los cortes se fijaron con la energía del audio (pausas) y no con el DTW.",
+    "correcciones": [
+      {
+        "oido": "una idea",
+        "texto": "una IA",
+        "motivo": "contexto y guion"
+      },
+      {
+        "oido": "luz de cine / luz de colores",
+        "texto": "look de cine / looks de colores",
+        "motivo": "guion; el modelo oye «luz» por «look». PENDIENTE de escucha"
+      },
+      {
+        "oido": "Videolad / VideoLabs",
+        "texto": "Video Lab",
+        "motivo": "nombre del producto"
+      }
+    ],
+    "diferencias_con_el_guion": [
+      "La voz dura ~41 s con los cortes elegidos; el guion marca 58 s. Los subtítulos y los bloques siguen el audio.",
+      "Bloque 4 (look de cine): la toma elegida dice «mi cámara sola, look de cine y subtítulos que se mueven según donde estoy» sin el «Este:» inicial.",
+      "Bloque 8: el audio dice «no te cuesta lo que te cobraría un editor común»; no dice cifra y, por decisión del usuario, no habrá precio en el video.",
+      "Quedan sin usar (no están en el guion): «lo he llamado Video Lab / o en español laboratorio de edición de videos», «además de que tú pones tu estilo…»."
+    ],
+    "audio_final": "transcripción del proxy final (analysis/video-009v2/final-check.json) coincide con el guion; −16,9 LUFS en el borrador a media resolución (voz sin tocar + efectos bajos)"
+  },
+  "formato": {
+    "aspecto": "9:16",
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 24
+  },
+  "edl": [
+    {
+      "id": "T01",
+      "beat": 1,
+      "src": "v2",
+      "aprox_s": [
+        0.4,
+        3.55
+      ],
+      "texto": "Estos videos los editó una IA. Ninguno se parece al otro.",
+      "in_s": 0.34,
+      "out_s": 3.63,
+      "voz_s": [
+        0.43,
+        3.5
+      ],
+      "energia_corte_db": [
+        -69,
+        -75.2
+      ]
+    },
+    {
+      "id": "T02",
+      "beat": 2,
+      "src": "v2",
+      "aprox_s": [
+        3.8,
+        6.1
+      ],
+      "texto": "El primero: pantalla dividida con subtítulos de marca.",
+      "in_s": 3.76,
+      "out_s": 6.1,
+      "voz_s": [
+        3.83,
+        6.07
+      ],
+      "energia_corte_db": [
+        -71.6,
+        -61.7
+      ]
+    },
+    {
+      "id": "T03",
+      "beat": 3,
+      "src": "v2",
+      "aprox_s": [
+        6.5,
+        10.8
+      ],
+      "texto": "Este es motion con pantalla completa. Yo solo aparezco en cámara en momentos claves.",
+      "in_s": 6.45,
+      "out_s": 10.85,
+      "voz_s": [
+        6.54,
+        10.75
+      ],
+      "energia_corte_db": [
+        -71.5,
+        -67.9
+      ]
+    },
+    {
+      "id": "T04",
+      "beat": 4,
+      "src": "orig",
+      "aprox_s": [
+        93.74,
+        98.9
+      ],
+      "texto": "Cámara al frente, look de cine y subtítulos que se mueven según donde estoy.",
+      "in_s": 93.78,
+      "out_s": 98.91,
+      "voz_s": [
+        93.79,
+        98.8
+      ],
+      "energia_corte_db": [
+        -40.4,
+        -39.4
+      ]
+    },
+    {
+      "id": "T05",
+      "beat": 5,
+      "src": "v2",
+      "aprox_s": [
+        15.4,
+        17
+      ],
+      "texto": "Y este explica con diagramas,",
+      "in_s": 15.46,
+      "out_s": 17.14,
+      "voz_s": [
+        15.49,
+        16.98
+      ],
+      "energia_corte_db": [
+        -62.1,
+        -66.6
+      ]
+    },
+    {
+      "id": "T06",
+      "beat": 5,
+      "src": "v2",
+      "aprox_s": [
+        17.4,
+        19.06
+      ],
+      "texto": "pero este esconde los datos sensibles.",
+      "in_s": 17.34,
+      "out_s": 19.09,
+      "voz_s": [
+        17.41,
+        19.07
+      ],
+      "energia_corte_db": [
+        -68.4,
+        -30.3
+      ]
+    },
+    {
+      "id": "T07a",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        19.13,
+        20.15
+      ],
+      "texto": "Nueve estilos de subtítulos.",
+      "in_s": 19.09,
+      "out_s": 20.25,
+      "voz_s": [
+        19.13,
+        20.16
+      ],
+      "energia_corte_db": [
+        -30.3,
+        -64.6
+      ]
+    },
+    {
+      "id": "T07b",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        20.75,
+        22.05
+      ],
+      "texto": "Cinco looks de colores.",
+      "in_s": 20.76,
+      "out_s": 22.19,
+      "voz_s": [
+        20.81,
+        22.03
+      ],
+      "energia_corte_db": [
+        -66.1,
+        -58.9
+      ]
+    },
+    {
+      "id": "T08",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        22.45,
+        23.35
+      ],
+      "texto": "Veinte movimientos.",
+      "in_s": 22.33,
+      "out_s": 23.32,
+      "voz_s": [
+        22.45,
+        23.31
+      ],
+      "energia_corte_db": [
+        -58,
+        -44
+      ]
+    },
+    {
+      "id": "T09",
+      "beat": 6,
+      "src": "v2",
+      "aprox_s": [
+        23.7,
+        25.35
+      ],
+      "texto": "Tú eliges, o la skill lo hace por ti.",
+      "in_s": 23.63,
+      "out_s": 25.31,
+      "voz_s": [
+        23.74,
+        25.27
+      ],
+      "energia_corte_db": [
+        -75.8,
+        -59
+      ]
+    },
+    {
+      "id": "T10",
+      "beat": 7,
+      "src": "v2",
+      "aprox_s": [
+        25.5,
+        29.35
+      ],
+      "texto": "Tú grabas, la skill analiza, corta, subtítulos y arma todo el video.",
+      "in_s": 25.49,
+      "out_s": 29.47,
+      "voz_s": [
+        25.53,
+        29.33
+      ],
+      "energia_corte_db": [
+        -69.6,
+        -69.8
+      ]
+    },
+    {
+      "id": "T11",
+      "beat": 7,
+      "src": "v2",
+      "aprox_s": [
+        29.6,
+        31.25
+      ],
+      "texto": "Lo he llamado Video Lab.",
+      "in_s": 29.59,
+      "out_s": 31.34,
+      "voz_s": [
+        29.67,
+        31.18
+      ],
+      "energia_corte_db": [
+        -73.7,
+        -67.8
+      ]
+    },
+    {
+      "id": "T12",
+      "beat": 8,
+      "src": "v2",
+      "aprox_s": [
+        33.45,
+        36.2
+      ],
+      "texto": "No te cuesta lo que te cobraría un editor común.",
+      "in_s": 33.46,
+      "out_s": 36.31,
+      "voz_s": [
+        33.53,
+        36.16
+      ],
+      "energia_corte_db": [
+        -71.2,
+        -70
+      ]
+    },
+    {
+      "id": "T13",
+      "beat": 9,
+      "src": "v2",
+      "aprox_s": [
+        48,
+        52.2
+      ],
+      "texto": "Si quieres la skill para editar tus videos, solamente escribe la palabra VIDEO y te la envío.",
+      "in_s": 47.89,
+      "out_s": 52.29,
+      "voz_s": [
+        48,
+        52.14
+      ],
+      "energia_corte_db": [
+        -69.9,
+        -66.9
+      ]
+    },
+    {
+      "id": "T14",
+      "beat": 10,
+      "src": "v2",
+      "aprox_s": [
+        52.3,
+        53.72
+      ],
+      "hold_s": 0.25,
+      "texto": "Y sígueme para más contenido.",
+      "nota": "en v2 el video está en negro durante esta frase; se deja en negro y se superpone el motion «Seguir» de VIDEO-005/008",
+      "in_s": 52.32,
+      "out_s": 53.97,
+      "voz_s": [
+        52.38,
+        53.56
+      ],
+      "energia_corte_db": [
+        -70,
+        -69.5
+      ]
+    }
+  ],
+  "composicion": {
+    "id": "Video009",
+    "archivo": "src/compositions/video009/",
+    "fps": 24,
+    "frames": 884,
+    "segundos": 36.83
+  },
+  "beats": [
+    {
+      "beat": 1,
+      "frames": [
+        0,
+        95
+      ],
+      "palabra_gigante": "SIN EDITOR",
+      "subtitulos": "S2 (palabra a palabra)",
+      "recursos": "recorte del sujeto (Vision), marco con 4 videos propios borrosos, texto detrás del sujeto"
+    },
+    {
+      "beat": 2,
+      "frames": [
+        95,
+        165
+      ],
+      "palabra_gigante": "PANTALLA DIVIDIDA",
+      "subtitulos": "S1",
+      "recursos": "VIDEO-001 (2A) en tarjeta inclinada, flash"
+    },
+    {
+      "beat": 3,
+      "frames": [
+        165,
+        321
+      ],
+      "palabra_gigante": "MOTION A PANTALLA COMPLETA",
+      "subtitulos": "S4 sobre motion + S1 sobre el presentador",
+      "recursos": "VIDEO-005 (1C) a pantalla completa, PiP circular, regreso con punch-in"
+    },
+    {
+      "beat": 4,
+      "frames": [
+        321,
+        423
+      ],
+      "palabra_gigante": "LOOK DE CINE",
+      "subtitulos": "S8 hacia el sujeto",
+      "recursos": "antes/después con cine-calido, tarjeta VIDEO-004 (3C)"
+    },
+    {
+      "beat": 5,
+      "frames": [
+        423,
+        521
+      ],
+      "palabra_gigante": "DIAGRAMAS / DATOS OCULTOS",
+      "subtitulos": "S5",
+      "recursos": "VIDEO-007 y VIDEO-006 en tarjetas, tapa de redacción"
+    },
+    {
+      "beat": 6,
+      "frames": [
+        521,
+        695
+      ],
+      "palabra_gigante": "9 / 5 LOOKS / 20 / TÚ ELIGES",
+      "subtitulos": "S2",
+      "recursos": "rejilla de S1–S9, 5 looks reales en tiras, 20 movimientos, cursor"
+    },
+    {
+      "beat": 7,
+      "frames": [
+        695,
+        854
+      ],
+      "palabra_gigante": "Video LAB",
+      "subtitulos": "S9",
+      "recursos": "pasos grabar/analizar/cortar/subtitular/armar con iconos propios; terminal marcada como ilustración"
+    },
+    {
+      "beat": 8,
+      "frames": [
+        854,
+        949
+      ],
+      "palabra_gigante": "AHORRAS",
+      "subtitulos": "S6 con píldora en «editor»",
+      "recursos": "recorte del sujeto, dato en caja sin precio"
+    },
+    {
+      "beat": 9,
+      "frames": [
+        949,
+        1068
+      ],
+      "palabra_gigante": "ESCRIBE VIDEO",
+      "subtitulos": "S2",
+      "recursos": "tarjeta azul con rejilla, recorte del sujeto, campo de texto con cursor"
+    }
+  ],
+  "pendientes": [
+    "escucha con audio de cada corte (en especial T06→T07a, unidos sin pausa en v2)",
+    "captura real de /video-lab y del preview (hoy: terminal marcada «ilustración»)",
+    "«Video Lab(s)»: el modelo oye «VideoLabs»; confirmar la palabra"
+  ],
+  "exportaciones": [
+    {
+      "version": "v1",
+      "archivo": "formatos/edit-5-creator/VIDEO-009-showreel/exportaciones/Video009V1.mp4",
+      "segundos": 38.5,
+      "fps": 24,
+      "lufs": -17,
+      "autorizacion": "«renderiza» (usuario, 2026-10-17)"
+    },
+    {
+      "version": "v2",
+      "archivo": "formatos/edit-5-creator/VIDEO-009-showreel/exportaciones/Video009V2.mp4",
+      "nota": "sin rótulo de vista previa; aprobado por el usuario"
+    }
+  ]
+}

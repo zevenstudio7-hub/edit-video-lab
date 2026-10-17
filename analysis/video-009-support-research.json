@@ -1,0 +1,22 @@
+{
+  "videoId": "VIDEO-009",
+  "fecha": "2026-10-17",
+  "alcance": "Showreel de Video Lab: los apoyos son los propios videos ya editados con el laboratorio (titularidad del usuario). No se usa material externo ni marcas de terceros.",
+  "necesidades": [
+    "mostrar el resultado real de cada formato (2A, 1C, 3C, diagramas, difuminado de datos sensibles)",
+    "estilos de subtítulos S1–S9, looks y movimientos explicados con muestras propias",
+    "captura real de /video-lab y del preview"
+  ],
+  "recursos": [
+    {"id": "s001", "archivo": "formatos/edit-2-pantalla-dividida/VIDEO-001-apple-vs-samsung/exportaciones/Video001V5.mp4", "tramo": "4,5–12,5 s", "funcion": "ejemplo de pantalla dividida 2A con S1", "autor": "usuario", "oficial": true, "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado", "nota": "contiene imágenes de Apple/Samsung de VIDEO-001 ya revisadas en su investigación"},
+    {"id": "s005", "archivo": "out/Video005.mp4", "tramo": "8–16 s", "funcion": "ejemplo de motion 1C (Google + IA)", "autor": "usuario", "oficial": true, "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado", "nota": "logos de Google (Gmail, Drive, Sheets) ya usados en VIDEO-005"},
+    {"id": "s004", "archivo": "out/Video004.mp4", "tramo": "20–28 s", "funcion": "ejemplo de 3C con S8 y look", "autor": "usuario", "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado"},
+    {"id": "s007", "archivo": "out/Video007.mp4", "tramo": "24–32 s", "funcion": "ejemplo de diagrama con carpetas", "autor": "usuario", "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado", "nota": "logos de Claude, GitHub y ChatGPT ya registrados en analysis/video-007-support-research.json"},
+    {"id": "s006", "archivo": "out/Video006.mov", "tramo": "8–16 s (HDR→SDR)", "funcion": "ejemplo de difuminado de datos sensibles", "autor": "usuario", "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado", "nota": "los datos ya salen difuminados en el original"},
+    {"id": "s008", "archivo": "out/Video008.mp4", "tramo": "10–18 s", "funcion": "fondo borroso del hook", "autor": "usuario", "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado"},
+    {"id": "s003", "archivo": "out/Video003.mp4", "tramo": "10–18 s", "funcion": "fondo borroso del hook", "autor": "usuario", "licencia": "titularidad del usuario", "derechos": "permitido", "decision": "seleccionado"},
+    {"id": "iconos", "archivo": "src/compositions/video009/kit.tsx (SVG propios)", "funcion": "iconos de los pasos y cursor", "licencia": "creación propia", "derechos": "permitido", "decision": "seleccionado", "nota": "se evitó el emoji del sistema (fuente de Apple) para no depender de su licencia"},
+    {"id": "captura-video-lab", "archivo": "—", "funcion": "captura real de /video-lab y el preview (guion 0:38–0:46)", "derechos": "requiere_revision", "decision": "referencia", "nota": "PENDIENTE: el usuario entrega la captura o se toma del Studio; mientras tanto el bloque usa una terminal marcada «ilustración»"}
+  ],
+  "referencia_de_estilo": {"archivo": "~/Downloads/video rerencia..mov", "toma": "recorte del sujeto, fondo desenfocado, tarjetas superpuestas, B-roll a pantalla completa, cierre azul con cursor", "uso": "solo estilo; no se copian textos, imágenes ni marcas"}
+}

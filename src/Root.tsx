@@ -19,6 +19,7 @@ import { Video004, type Video004Props } from "./compositions/video004/Video004";
 import video004Order from "../video-orders/VIDEO-004.json";
 import { Video008, type V008Timeline } from "./compositions/video008/Video008";
 import video008Order from "../video-orders/VIDEO-008.json";
+import { Video009, VIDEO009_FPS, VIDEO009_FRAMES } from "./compositions/video009/Video009";
 
 // La orden es el contrato: la composición lee su «timeline» ya resuelto a frames (src/videoAnalysis/buildEdit.mjs).
 const video001 = video001Order as unknown as { timeline: Video001Timeline; reviewNotice?: string };
@@ -107,6 +108,15 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         defaultProps={{ timeline: (video008Order as unknown as { timeline: V008Timeline }).timeline, reviewNotice: (video008Order as unknown as { reviewNotice: string }).reviewNotice }}
+      />
+      <Composition
+        id="Video009"
+        component={Video009}
+        durationInFrames={VIDEO009_FRAMES}
+        fps={VIDEO009_FPS}
+        width={1080}
+        height={1920}
+        defaultProps={{}}
       />
       <Composition id="Video002Iconos" component={Iconos3D} durationInFrames={150} fps={30} width={1080} height={1920} />
       {/* iconos 3D de VIDEO-002 en vivo (WebGL), para hornear sus hojas (src/videoAnalysis/video002/buildIconSprites.mjs) */}

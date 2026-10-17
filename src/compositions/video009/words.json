@@ -1,0 +1,959 @@
+[
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "Estos",
+  "from": 2.4,
+  "to": 7.7
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "videos",
+  "from": 7.2,
+  "to": 13
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "los",
+  "from": 12.5,
+  "to": 22.6
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "editó",
+  "from": 22.1,
+  "to": 33.1
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "una",
+  "from": 32.6,
+  "to": 37.9
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "IA.",
+  "from": 37.4,
+  "to": 40.8
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "Ninguno",
+  "from": 40.3,
+  "to": 55.7
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "se",
+  "from": 55.7,
+  "to": 58.6
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "parece",
+  "from": 58.1,
+  "to": 66.2
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "al",
+  "from": 65.8,
+  "to": 68.6
+ },
+ {
+  "take": "T01",
+  "beat": 1,
+  "text": "otro.",
+  "from": 68.2,
+  "to": 73.4
+ },
+ {
+  "take": "T01",
+  "marker": "take-end",
+  "at": 79
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "El",
+  "from": 80.9,
+  "to": 83.3
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "primero:",
+  "from": 82.8,
+  "to": 90.5
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "pantalla",
+  "from": 90,
+  "to": 100.6
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "dividida",
+  "from": 100.1,
+  "to": 109.7
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "con",
+  "from": 109.2,
+  "to": 112.1
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "subtítulos",
+  "from": 111.6,
+  "to": 127
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "de",
+  "from": 126.5,
+  "to": 129.4
+ },
+ {
+  "take": "T02",
+  "beat": 2,
+  "text": "marca.",
+  "from": 128.9,
+  "to": 133.7
+ },
+ {
+  "take": "T02",
+  "marker": "take-end",
+  "at": 135
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "Este",
+  "from": 137.2,
+  "to": 144.4
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "es",
+  "from": 143.9,
+  "to": 153.5
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "motion",
+  "from": 153,
+  "to": 165.5
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "con",
+  "from": 165,
+  "to": 167.9
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "pantalla",
+  "from": 167.4,
+  "to": 177
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "completa.",
+  "from": 176.5,
+  "to": 183.7
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "Yo",
+  "from": 183.2,
+  "to": 190.9
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "solo",
+  "from": 190.4,
+  "to": 195.7
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "aparezco",
+  "from": 195.2,
+  "to": 208.2
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "en",
+  "from": 207.7,
+  "to": 210.1
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "cámara",
+  "from": 209.6,
+  "to": 220.7
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "en",
+  "from": 220.2,
+  "to": 223.1
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "momentos",
+  "from": 222.6,
+  "to": 229.8
+ },
+ {
+  "take": "T03",
+  "beat": 3,
+  "text": "claves.",
+  "from": 229.3,
+  "to": 237.5
+ },
+ {
+  "take": "T03",
+  "marker": "take-end",
+  "at": 241
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "Cámara",
+  "from": 241,
+  "to": 253.5
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "al",
+  "from": 253,
+  "to": 257.3
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "frente,",
+  "from": 256.8,
+  "to": 273.6
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "look",
+  "from": 273.2,
+  "to": 277.5
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "de",
+  "from": 277,
+  "to": 281.3
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "cine",
+  "from": 280.8,
+  "to": 289.5
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "y",
+  "from": 289,
+  "to": 293.3
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "subtítulos",
+  "from": 292.8,
+  "to": 321.6
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "que",
+  "from": 321.2,
+  "to": 325.5
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "se",
+  "from": 325,
+  "to": 329.8
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "mueven",
+  "from": 329.3,
+  "to": 337.5
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "según",
+  "from": 337,
+  "to": 345.6
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "donde",
+  "from": 345.2,
+  "to": 353.8
+ },
+ {
+  "take": "T04",
+  "beat": 4,
+  "text": "estoy.",
+  "from": 353.3,
+  "to": 361.5
+ },
+ {
+  "take": "T04",
+  "marker": "take-end",
+  "at": 364
+ },
+ {
+  "take": "T05",
+  "beat": 5,
+  "text": "Y",
+  "from": 365,
+  "to": 368.3
+ },
+ {
+  "take": "T05",
+  "beat": 5,
+  "text": "este",
+  "from": 367.8,
+  "to": 376.5
+ },
+ {
+  "take": "T05",
+  "beat": 5,
+  "text": "explica",
+  "from": 376,
+  "to": 388.5
+ },
+ {
+  "take": "T05",
+  "beat": 5,
+  "text": "con",
+  "from": 388,
+  "to": 391.4
+ },
+ {
+  "take": "T05",
+  "beat": 5,
+  "text": "diagramas,",
+  "from": 390.9,
+  "to": 400
+ },
+ {
+  "take": "T05",
+  "marker": "take-end",
+  "at": 404
+ },
+ {
+  "take": "T06",
+  "beat": 5,
+  "text": "pero",
+  "from": 405.9,
+  "to": 409.8
+ },
+ {
+  "take": "T06",
+  "beat": 5,
+  "text": "este",
+  "from": 409.3,
+  "to": 415.5
+ },
+ {
+  "take": "T06",
+  "beat": 5,
+  "text": "esconde",
+  "from": 415,
+  "to": 423.7
+ },
+ {
+  "take": "T06",
+  "beat": 5,
+  "text": "los",
+  "from": 423.2,
+  "to": 425.1
+ },
+ {
+  "take": "T06",
+  "beat": 5,
+  "text": "datos",
+  "from": 424.6,
+  "to": 432.8
+ },
+ {
+  "take": "T06",
+  "beat": 5,
+  "text": "sensibles.",
+  "from": 432.3,
+  "to": 445.3
+ },
+ {
+  "take": "T06",
+  "marker": "take-end",
+  "at": 446
+ },
+ {
+  "take": "T07a",
+  "beat": 6,
+  "text": "Nueve",
+  "from": 447.7,
+  "to": 451.5
+ },
+ {
+  "take": "T07a",
+  "beat": 6,
+  "text": "estilos",
+  "from": 451.5,
+  "to": 457.3
+ },
+ {
+  "take": "T07a",
+  "beat": 6,
+  "text": "de",
+  "from": 457.3,
+  "to": 461.6
+ },
+ {
+  "take": "T07a",
+  "beat": 6,
+  "text": "subtítulos.",
+  "from": 461.6,
+  "to": 469.3
+ },
+ {
+  "take": "T07a",
+  "marker": "take-end",
+  "at": 474
+ },
+ {
+  "take": "T07b",
+  "beat": 6,
+  "text": "Cinco",
+  "from": 476.9,
+  "to": 483.1
+ },
+ {
+  "take": "T07b",
+  "beat": 6,
+  "text": "looks",
+  "from": 482.6,
+  "to": 486
+ },
+ {
+  "take": "T07b",
+  "beat": 6,
+  "text": "de",
+  "from": 485.5,
+  "to": 489.4
+ },
+ {
+  "take": "T07b",
+  "beat": 6,
+  "text": "colores.",
+  "from": 488.9,
+  "to": 502.8
+ },
+ {
+  "take": "T07b",
+  "marker": "take-end",
+  "at": 508
+ },
+ {
+  "take": "T08",
+  "beat": 6,
+  "text": "Veinte",
+  "from": 512.6,
+  "to": 518.3
+ },
+ {
+  "take": "T08",
+  "beat": 6,
+  "text": "movimientos.",
+  "from": 517.8,
+  "to": 528.9
+ },
+ {
+  "take": "T08",
+  "marker": "take-end",
+  "at": 532
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "Tú",
+  "from": 534.6,
+  "to": 537
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "eliges,",
+  "from": 536.6,
+  "to": 543.3
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "o",
+  "from": 542.8,
+  "to": 552.4
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "la",
+  "from": 551.9,
+  "to": 554.3
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "skill",
+  "from": 554.3,
+  "to": 560.6
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "lo",
+  "from": 560.1,
+  "to": 562.5
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "hace",
+  "from": 562,
+  "to": 566.8
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "por",
+  "from": 566.3,
+  "to": 568.7
+ },
+ {
+  "take": "T09",
+  "beat": 6,
+  "text": "ti.",
+  "from": 568.2,
+  "to": 570.6
+ },
+ {
+  "take": "T09",
+  "marker": "take-end",
+  "at": 572
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "Tú",
+  "from": 573.2,
+  "to": 576.1
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "grabas,",
+  "from": 575.6,
+  "to": 581.4
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "la",
+  "from": 580.9,
+  "to": 588.6
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "skill",
+  "from": 588.1,
+  "to": 591
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "analiza,",
+  "from": 590.5,
+  "to": 611.6
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "corta,",
+  "from": 611.1,
+  "to": 621.7
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "subtítulos",
+  "from": 621.2,
+  "to": 634.6
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "y",
+  "from": 634.2,
+  "to": 642.3
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "arma",
+  "from": 641.8,
+  "to": 647.6
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "todo",
+  "from": 647.1,
+  "to": 655.3
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "el",
+  "from": 654.8,
+  "to": 658.2
+ },
+ {
+  "take": "T10",
+  "beat": 7,
+  "text": "video.",
+  "from": 657.7,
+  "to": 663
+ },
+ {
+  "take": "T10",
+  "marker": "take-end",
+  "at": 668
+ },
+ {
+  "take": "T11",
+  "beat": 7,
+  "text": "Lo",
+  "from": 670.2,
+  "to": 673.5
+ },
+ {
+  "take": "T11",
+  "beat": 7,
+  "text": "he",
+  "from": 673,
+  "to": 676.4
+ },
+ {
+  "take": "T11",
+  "beat": 7,
+  "text": "llamado",
+  "from": 675.9,
+  "to": 696.6
+ },
+ {
+  "take": "T11",
+  "beat": 7,
+  "text": "Video",
+  "from": 696.1,
+  "to": 702.8
+ },
+ {
+  "take": "T11",
+  "beat": 7,
+  "text": "Lab.",
+  "from": 702.3,
+  "to": 705.7
+ },
+ {
+  "take": "T11",
+  "marker": "take-end",
+  "at": 710
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "No",
+  "from": 711.9,
+  "to": 715.3
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "te",
+  "from": 714.8,
+  "to": 718.6
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "cuesta",
+  "from": 718.2,
+  "to": 725.4
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "lo",
+  "from": 724.9,
+  "to": 732.1
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "que",
+  "from": 731.6,
+  "to": 735.4
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "te",
+  "from": 735,
+  "to": 738.8
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "cobraría",
+  "from": 738.3,
+  "to": 748.4
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "un",
+  "from": 747.9,
+  "to": 751.8
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "editor",
+  "from": 751.3,
+  "to": 764.7
+ },
+ {
+  "take": "T12",
+  "beat": 8,
+  "text": "común.",
+  "from": 764.2,
+  "to": 773.8
+ },
+ {
+  "take": "T12",
+  "marker": "take-end",
+  "at": 778
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "Si",
+  "from": 782.1,
+  "to": 785
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "quieres",
+  "from": 784.5,
+  "to": 790.2
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "la",
+  "from": 789.8,
+  "to": 795.5
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "skill",
+  "from": 795,
+  "to": 798.4
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "para",
+  "from": 797.9,
+  "to": 808
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "editar",
+  "from": 807.5,
+  "to": 818.6
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "tus",
+  "from": 818.1,
+  "to": 821
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "videos,",
+  "from": 820.5,
+  "to": 826.2
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "solamente",
+  "from": 825.8,
+  "to": 836.8
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "escribe",
+  "from": 836.3,
+  "to": 847.4
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "la",
+  "from": 846.9,
+  "to": 849.8
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "palabra",
+  "from": 849.3,
+  "to": 857.9
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "VIDEO",
+  "from": 857.4,
+  "to": 862.7
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "y",
+  "from": 862.2,
+  "to": 869
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "te",
+  "from": 868.5,
+  "to": 871.4
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "la",
+  "from": 870.9,
+  "to": 874.2
+ },
+ {
+  "take": "T13",
+  "beat": 9,
+  "text": "envío.",
+  "from": 873.8,
+  "to": 879
+ },
+ {
+  "take": "T13",
+  "marker": "take-end",
+  "at": 884
+ },
+ {
+  "take": "T14",
+  "beat": 10,
+  "text": "Y",
+  "from": 885.9,
+  "to": 886.9
+ },
+ {
+  "take": "T14",
+  "beat": 10,
+  "text": "sígueme",
+  "from": 886.4,
+  "to": 892.2
+ },
+ {
+  "take": "T14",
+  "beat": 10,
+  "text": "para",
+  "from": 891.7,
+  "to": 894.1
+ },
+ {
+  "take": "T14",
+  "beat": 10,
+  "text": "más",
+  "from": 893.6,
+  "to": 895
+ },
+ {
+  "take": "T14",
+  "beat": 10,
+  "text": "contenido.",
+  "from": 894.6,
+  "to": 924.3
+ },
+ {
+  "take": "T14",
+  "marker": "take-end",
+  "at": 924
+ }
+]
